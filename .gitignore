@@ -1,0 +1,13 @@
+site/
+.cache/
+__pycache__/
+*.pyc
+.env
+docs/img/mascot/generate-mascot.py
+docs/sims/TODO/
+docs/learning-graph/*.py
+docs/learning-graph/*.sh
+docs/learning-graph/taxonomy-config.json
+docs/learning-graph/color-config.json
+docs/learning-graph/learning-graph-schema.json
+/tmp/

@@ -1,0 +1,10 @@
+{
+  "title": "Minnesota Native Plants",
+  "description": "An interactive intelligent textbook about native plants in Minnesota, covering plant identification, prairie, woodland, and wetland ecosystems, pollinators, invasive species management, garden design, ecological restoration, Minnesota resources, systems thinking, and misinformation detection.",
+  "creator": "Arun Batchu",
+  "date": "2026-04-07",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

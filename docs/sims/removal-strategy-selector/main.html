@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invasive Species Removal Strategy Selector</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #e8f5e9; color: #1b5e20; }
+</style>
+</head>
+<body>
+<script>
+// Strategy database keyed by species
+const strategies = {
+  "Common Buckthorn": {
+    manual: {
+      steps: ["Hand-pull seedlings when soil is moist", "Use weed wrench for saplings up to 2 in diameter", "Cut larger trees with loppers or saw at base", "Apply cut-stump herbicide within 5 minutes of cutting"],
+      timing: "Late fall or early spring before leaf-out",
+      followup: "Monitor for re-sprouts monthly for 2 years; remove seedlings annually for 5 years",
+      pros: "No herbicide drift risk; targeted removal; good for small patches",
+      cons: "Labor intensive; re-sprouting common without stump treatment; root fragments regenerate"
+    },
+    mechanical: {
+      steps: ["Use forestry mower or brush cutter for dense stands", "Chip or pile cut material away from site", "Grade and seed disturbed soil with native mix", "Install erosion control on slopes"],
+      timing: "Late fall after native plants are dormant",
+      followup: "Seed with native plants immediately; monitor re-sprouting quarterly for 3 years",
+      pros: "Efficient for large infestations; clears area quickly",
+      cons: "Soil disturbance promotes seed germination; expensive equipment; damages native understory"
+    },
+    chemical: {
+      steps: ["Cut-stump method: cut stem, apply 25% glyphosate or triclopyr to fresh cut", "Basal bark: apply triclopyr in oil to lower 12-18 in of bark", "Foliar spray for dense seedling patches with 2% glyphosate"],
+      timing: "Cut-stump effective year-round; basal bark in dormant season; foliar in late summer",
+      followup: "Re-treat escapes in following season; monitor for 3 years minimum",
+      pros: "Most effective for large trees; prevents re-sprouting; targeted application possible",
+      cons: "Chemical use near waterways restricted; non-target damage possible; requires licensed applicator"
+    },
+    biological: {
+      steps: ["No approved biological control agents currently available for buckthorn", "Research ongoing for potential biocontrol insects from Europe", "Focus on goat grazing to reduce seedling density in accessible areas"],
+      timing: "Goat grazing effective May through September",
+      followup: "Supplement with manual or chemical removal for mature trees",
+      pros: "Goat grazing reduces seedling bank; low chemical input",
+      cons: "No proven biocontrol agent; goats alone cannot eliminate established plants"
+    },
+    ipm: {
+      steps: ["Assess infestation size and prioritize high-quality native areas", "Cut and treat mature trees with cut-stump herbicide in fall", "Hand-pull or mow seedlings in spring", "Seed openings with aggressive native species", "Establish monitoring transects"],
+      timing: "Begin treatment in fall, follow up each spring and fall for 3-5 years",
+      followup: "Annual monitoring for 5+ years; rapid response to new seedlings; restore native canopy",
+      pros: "Most sustainable long-term approach; combines best methods; restores native community",
+      cons: "Requires multi-year commitment; higher planning and coordination effort"
+    }
+  },
+  "Garlic Mustard": {
+    manual: {
+      steps: ["Pull entire plant including root crown before seed set", "Bag and dispose of pulled plants -- do not compost", "Target second-year flowering plants first", "Return to pull first-year rosettes in fall"],
+      timing: "April to early May before flowers open; fall for rosettes",
+      followup: "Return to same area for at least 5 years to exhaust seed bank",
+      pros: "Very effective for small patches; no chemicals needed; volunteers can help",
+      cons: "Must pull for 5-7 years due to seed bank; soil disturbance can trigger more germination"
+    },
+    mechanical: {
+      steps: ["Mow or string-trim flowering stems at ground level before seed set", "Repeat mowing if re-growth occurs", "Do not mow after seed pods form"],
+      timing: "Late April to mid-May, before seed maturation",
+      followup: "Mow annually for 5 years; monitor seed bank depletion",
+      pros: "Faster than hand-pulling for moderate areas; no chemicals",
+      cons: "Does not remove root crown; may require multiple passes; damages co-occurring native plants"
+    },
+    chemical: {
+      steps: ["Apply 1-2% glyphosate foliar spray to rosettes in late fall or early spring", "Use wick applicator near desirable native plants", "Spot-spray dense patches with backpack sprayer"],
+      timing: "Late October to November on green rosettes; or March before natives emerge",
+      followup: "Re-treat for 3-5 years; monitor for resistance development",
+      pros: "Effective for large infestations; fall treatment avoids native plant damage",
+      cons: "Non-selective herbicide risks; repeated applications needed; not suitable near water"
+    },
+    biological: {
+      steps: ["Research ongoing for European root-mining weevil (Ceutorhynchus scrobicollis)", "Not yet approved for release in North America", "No current approved biocontrol agents"],
+      timing: "N/A -- not yet available",
+      followup: "Stay informed on USDA biocontrol research updates",
+      pros: "Could provide long-term self-sustaining control if approved",
+      cons: "Not available; years from potential approval; host-specificity testing ongoing"
+    },
+    ipm: {
+      steps: ["Map infestation boundaries and prioritize highest-quality areas", "Hand-pull small patches and satellite populations first", "Foliar spray dense core infestations in late fall", "Seed treated areas with native ground cover", "Organize annual volunteer pull events"],
+      timing: "Fall herbicide, spring pulling, ongoing for 5+ years",
+      followup: "Annual monitoring with photo points; track seed bank depletion; adjust methods based on results",
+      pros: "Comprehensive and adaptive; community engagement builds stewardship",
+      cons: "Long-term commitment required; coordination complexity"
+    }
+  },
+  "Purple Loosestrife": {
+    manual: {
+      steps: ["Hand-pull small plants ensuring entire root mass is removed", "Cut flower heads before seed set and bag them", "Dig out root crowns of established plants"],
+      timing: "June to August before seed maturation",
+      followup: "Monitor for re-establishment from root fragments; check annually for 5 years",
+      pros: "Good for small satellite populations; precise targeting",
+      cons: "Extremely difficult to remove entire root system; fragments re-sprout; wet conditions limit access"
+    },
+    mechanical: {
+      steps: ["Mow or cut stems below water line if possible", "Remove all cut material from site to prevent rooting", "Repeat cutting 2-3 times per season"],
+      timing: "Before flowering in late June; repeat as needed through August",
+      followup: "Continue for multiple years; combine with biological control",
+      pros: "Reduces seed production; manageable for moderate infestations",
+      cons: "Does not kill root system; promotes vegetative spreading; difficult in wetland terrain"
+    },
+    chemical: {
+      steps: ["Apply glyphosate (aquatic-approved formulation) as foliar spray at 1.5%", "Use cut-stem method: cut and apply concentrated glyphosate to stem", "Treat only in dry conditions to prevent aquatic contamination"],
+      timing: "Late July to early September during active flowering",
+      followup: "Re-treat survivors next season; transition to biocontrol",
+      pros: "Effective knockdown of large populations; aquatic formulations available",
+      cons: "Wetland application requires permits; non-target aquatic plant impacts; expensive"
+    },
+    biological: {
+      steps: ["Release Galerucella beetles (leaf-eating) at infestation sites", "Establish beetle populations with 500+ adults per release site", "Monitor beetle establishment and loosestrife decline", "Supplement with Hylobius weevils for root damage"],
+      timing: "Release beetles in late May to early June; monitor through September",
+      followup: "Annual monitoring of beetle populations; may take 3-5 years for control",
+      pros: "Self-sustaining once established; proven success in MN; species-specific; low cost long-term",
+      cons: "Slow initial impact; requires patience; may need supplemental releases; does not eradicate"
+    },
+    ipm: {
+      steps: ["Release Galerucella beetles as primary long-term control", "Hand-remove small outlier populations", "Use aquatic-approved herbicide for dense core stands", "Restore native wetland vegetation in treated areas", "Coordinate with neighboring landowners"],
+      timing: "Beetle release in spring; herbicide in late summer; ongoing monitoring",
+      followup: "Track beetle populations and loosestrife cover annually; adapt strategy based on results",
+      pros: "Proven most effective approach for this species; biocontrol does heavy lifting",
+      cons: "Requires multi-year monitoring; initial herbicide cost; coordination needed"
+    }
+  },
+  "Wild Parsnip": {
+    manual: {
+      steps: ["Wear protective clothing -- sap causes burns", "Cut root 1-2 inches below soil with sharp spade", "Bag and remove all flowering plants from site", "Never handle without gloves, long sleeves, and eye protection"],
+      timing: "Late May to mid-June before seeds mature; overcast days reduce burn risk",
+      followup: "Monitor for new rosettes fall and spring; treat for 3-5 years",
+      pros: "Effective for small patches; prevents seed production if timed correctly",
+      cons: "Serious burn hazard from sap; labor intensive; root fragments may re-sprout"
+    },
+    mechanical: {
+      steps: ["Mow flowering plants at peak bloom before seed set", "Mow as close to ground as possible", "Clean equipment to prevent seed spread", "A second mow may be needed for late-flowering plants"],
+      timing: "Late June when majority of plants in full flower but before seed development",
+      followup: "Mow annually for 3-5 years; monitor for shift in bloom timing",
+      pros: "Safe for operators in enclosed equipment; efficient for roadsides",
+      cons: "Timing critical -- too early stimulates re-flowering, too late spreads seed"
+    },
+    chemical: {
+      steps: ["Apply 2,4-D or metsulfuron-methyl to rosettes in spring", "Spot-spray with glyphosate for mixed-vegetation areas", "Avoid drift to desirable broadleaf natives"],
+      timing: "Early spring on rosettes before bolting; or late fall",
+      followup: "Re-treat new rosettes annually; transition to native seeding",
+      pros: "Effective on large infestations; targets rosettes before dangerous flowering stage",
+      cons: "Broadleaf herbicides damage native forbs; repeated applications needed; drift risk"
+    },
+    biological: {
+      steps: ["No approved biological control agents available", "Parsnip webworm (native) provides some natural suppression", "Research into seed-feeding insects ongoing"],
+      timing: "N/A",
+      followup: "Monitor native webworm populations as supplemental control",
+      pros: "Native webworm provides free partial control",
+      cons: "No dedicated biocontrol; webworm alone insufficient for heavy infestations"
+    },
+    ipm: {
+      steps: ["Map infestations and identify seed source populations", "Mow dense roadside populations at peak bloom", "Spade-cut or herbicide-treat scattered rosettes", "Seed treated areas with competitive native grasses", "Post warning signs in public areas during flowering"],
+      timing: "Mow in late June; herbicide rosettes in fall or early spring; seed in fall",
+      followup: "3-5 year treatment cycle; annual monitoring; public education about burn risk",
+      pros: "Balanced approach; reduces both plants and public health risk",
+      cons: "Sap hazard persists during treatment; long commitment; public areas need special care"
+    }
+  },
+  "Spotted Knapweed": {
+    manual: {
+      steps: ["Pull or dig entire root including taproot", "Bag and remove all plant material", "Wear gloves as plant may cause skin irritation", "Re-seed bare soil with native grasses immediately"],
+      timing: "Before flowering in June-July; when soil is moist for easier pulling",
+      followup: "Monitor and re-pull for 3-5 years; maintain competitive native plantings",
+      pros: "Good for small or new infestations; removes entire plant",
+      cons: "Taproot breaks easily; labor intensive; disturbed soil favors re-invasion"
+    },
+    mechanical: {
+      steps: ["Mow repeatedly to prevent seed production", "Mow at late bud to early flower stage", "Do not mow after seed maturation", "Combine with aggressive native re-seeding"],
+      timing: "June through August, 2-3 mowing cycles per season",
+      followup: "Continue annual mowing for 5+ years; establish competitive native grass stands",
+      pros: "Prevents seed rain; manageable for moderate areas",
+      cons: "Does not kill root; re-flowers from crown; requires multiple passes per year"
+    },
+    chemical: {
+      steps: ["Apply clopyralid or aminopyralid for selective broadleaf control", "Spot-spray with glyphosate in non-selective situations", "Apply picloram for severe infestations on non-sensitive sites"],
+      timing: "Spring rosette stage or fall re-growth for best uptake",
+      followup: "Re-treat escapes; monitor for 3 years; re-seed with natives",
+      pros: "Aminopyralid selective for knapweed; long residual activity; effective on large areas",
+      cons: "Aminopyralid persistent in soil and compost; broadleaf natives affected; grazing restrictions"
+    },
+    biological: {
+      steps: ["Seed head flies (Urophora spp.) reduce seed production", "Root-boring weevils (Cyphocleonus) damage root crown", "Release agents in established dense populations", "Combine with re-seeding of native competitors"],
+      timing: "Release insects in spring-summer; monitor through growing season",
+      followup: "Annual monitoring of agent establishment; supplement with other methods as needed",
+      pros: "Self-sustaining; proven agents available; reduces long-term management costs",
+      cons: "Slow to establish; does not eradicate; best for large landscape-scale infestations"
+    },
+    ipm: {
+      steps: ["Survey and map infestation boundaries and density", "Use biocontrol agents for large established populations", "Spot-spray satellite populations with selective herbicide", "Hand-pull small new patches immediately", "Restore competitive native grass and forb communities"],
+      timing: "Begin biocontrol in spring; herbicide in fall; pull new discoveries immediately",
+      followup: "Annual surveys; adapt methods based on density trends; 5+ year commitment",
+      pros: "Most cost-effective for landscape-scale management; multiple control vectors",
+      cons: "Requires coordination; biocontrol agents take time; complete eradication unlikely"
+    }
+  },
+  "Reed Canary Grass": {
+    manual: {
+      steps: ["Dig out small patches including rhizomes to 12 in depth", "Solarize with black plastic for one full growing season", "Hand removal only feasible for very small areas"],
+      timing: "Spring before active growth; solarization from May to October",
+      followup: "Monitor edges for rhizome re-growth; plant native sedges and grasses",
+      pros: "No chemicals in sensitive wetlands; complete removal possible for tiny patches",
+      cons: "Nearly impossible to remove all rhizome fragments; extremely labor intensive"
+    },
+    mechanical: {
+      steps: ["Mow to 2 in height repeatedly during growing season", "Remove mowed material from site", "Combine with smother cover or native seeding", "Prescribed burn in spring followed by immediate herbicide"],
+      timing: "Mow monthly May through September; burn in early spring",
+      followup: "Continue aggressive mowing for 2-3 years; transition to native wetland planting",
+      pros: "Weakens rhizome reserves over time; reduces seed production",
+      cons: "Very slow; does not kill rhizomes; must be sustained for years; mowing in wetlands difficult"
+    },
+    chemical: {
+      steps: ["Apply aquatic-approved glyphosate at 3-5% concentration", "Spray re-growth when 6-12 in tall for maximum translocation", "May require 2-3 applications per year", "Use wick applicator near desirable natives"],
+      timing: "First application in late spring; re-treat re-growth in mid-summer and fall",
+      followup: "Aggressive native seeding after control; monitor for 5+ years",
+      pros: "Most effective single method; good rhizome kill with repeated applications",
+      cons: "Multiple applications needed; aquatic formulation required; non-target wetland damage"
+    },
+    biological: {
+      steps: ["No approved biological control agents available", "Some native and non-native strains exist complicating biocontrol", "Research limited due to strain complexity"],
+      timing: "N/A",
+      followup: "Focus on other control methods",
+      pros: "N/A",
+      cons: "No biocontrol options; native/non-native strain distinction complicates management"
+    },
+    ipm: {
+      steps: ["Prioritize highest-quality native wetlands for protection", "Apply aquatic glyphosate to dense stands in spring", "Mow re-growth before re-treatment", "Seed or plug treated areas with native sedges, grasses, and forbs", "Maintain hydrology to favor native wetland species"],
+      timing: "Herbicide in spring and summer; native planting in fall; 3-5 year treatment window",
+      followup: "Annual monitoring; rapid response to re-invasion at edges; maintain native plantings",
+      pros: "Most realistic approach for this difficult species; restores native wetland function",
+      cons: "Very long commitment; complete eradication rarely achieved; expensive"
+    }
+  },
+  "Leafy Spurge": {
+    manual: {
+      steps: ["Pull small plants including as much root as possible", "Wear gloves -- milky sap causes skin irritation", "Bag all plant material to prevent sap contact", "Only feasible for very small new infestations"],
+      timing: "Spring when soil is moist; before flowering",
+      followup: "Monitor monthly; roots to 15 ft make re-growth inevitable",
+      pros: "Appropriate only for brand-new satellite patches",
+      cons: "Roots extend 15+ ft deep; pulling alone will not eliminate; sap hazard"
+    },
+    mechanical: {
+      steps: ["Mow or graze before seed set to reduce spread", "Intensive mowing 4+ times per season weakens roots over years", "Combine with fall herbicide for best effect"],
+      timing: "Begin mowing in May; repeat monthly through September",
+      followup: "Continue for 5+ years; monitor root reserve depletion",
+      pros: "Reduces seed spread; goat and sheep grazing effective and low-cost",
+      cons: "Does not kill deep root system; very slow process; cattle avoid it (toxic)"
+    },
+    chemical: {
+      steps: ["Apply imazapic or picloram for selective long-term control", "Fall-apply herbicide for maximum root translocation", "Spot-spray with glyphosate for non-selective situations", "Treat entire infestation including edges"],
+      timing: "September through early October for best root uptake; spring for seedlings",
+      followup: "Re-treat for 3-5 years; monitor for herbicide resistance; re-seed natives",
+      pros: "Most effective single method; fall timing kills roots; imazapic safe for grasses",
+      cons: "Picloram soil-persistent and restricted near water; expensive; multiple years needed"
+    },
+    biological: {
+      steps: ["Release flea beetles (Aphthona spp.) -- proven effective in MN", "Establish beetle populations with multiple releases of 500+ beetles", "Hawks and leafy spurge biocontrol demonstration areas available", "Combine with re-seeding of competitive native grasses"],
+      timing: "Release flea beetles in June-July; monitor through fall",
+      followup: "Annual beetle population surveys; may take 5-10 years for landscape control",
+      pros: "Self-sustaining; flea beetles proven highly effective in western MN prairies",
+      cons: "Slow establishment; 5+ years to significant impact; does not eradicate"
+    },
+    ipm: {
+      steps: ["Release flea beetles for landscape-scale populations", "Apply imazapic to priority areas in fall", "Graze with sheep or goats in accessible areas", "Re-seed with competitive native grasses and forbs", "Coordinate with county weed programs"],
+      timing: "Beetle release spring-summer; herbicide in fall; grazing May-September",
+      followup: "Long-term monitoring 10+ years; adapt methods; maintain native grass competition",
+      pros: "Biocontrol + herbicide is proven most effective combination; cost-effective long-term",
+      cons: "Requires long-term commitment; coordination with neighbors essential; deep roots persist"
+    }
+  },
+  "Japanese Barberry": {
+    manual: {
+      steps: ["Use thick gloves and pull small plants including roots", "Lever out larger plants with weed wrench or mattock", "Pile and burn or bag removed plants"],
+      timing: "Spring or fall when soil is moist; avoid tick season if possible",
+      followup: "Monitor for seedlings from bird-dispersed berries; remove annually for 3 years",
+      pros: "Effective for small patches; immediate removal; no chemicals",
+      cons: "Thorny -- difficult and painful; root fragments re-sprout; bird dispersal brings new plants"
+    },
+    mechanical: {
+      steps: ["Use brush cutter or forestry mower for dense stands", "Follow cutting with stump treatment", "Remove or chip cut material"],
+      timing: "Late fall or winter when visibility is best and ticks dormant",
+      followup: "Treat re-sprouts following season; monitor for new seedlings 3+ years",
+      pros: "Efficient for large thickets; winter work avoids tick exposure",
+      cons: "Re-sprouting vigorous without stump treatment; soil disturbance promotes seeds"
+    },
+    chemical: {
+      steps: ["Cut-stump with 25% triclopyr for best results", "Basal bark with triclopyr in oil on stems", "Foliar spray with 2% glyphosate or triclopyr for dense seedlings"],
+      timing: "Cut-stump effective year-round; foliar in late summer on actively growing plants",
+      followup: "Re-treat escapes; monitor bird-dispersed seedlings for 5 years",
+      pros: "Triclopyr very effective; prevents re-sprouting; targeted application",
+      cons: "Chemical use in woodlands requires care; non-target shrub damage possible"
+    },
+    biological: {
+      steps: ["No approved biological control agents currently", "Research limited due to ornamental trade connections"],
+      timing: "N/A",
+      followup: "Rely on mechanical and chemical methods",
+      pros: "N/A",
+      cons: "No biocontrol available; continued ornamental planting complicates management"
+    },
+    ipm: {
+      steps: ["Map extent and prioritize areas with highest tick risk", "Cut and stump-treat mature plants with triclopyr", "Hand-pull seedlings in high-quality natural areas", "Advocate for sales bans on invasive barberry cultivars", "Plant native shrub alternatives (native viburnums, dogwoods)"],
+      timing: "Cut-stump in fall-winter; hand-pull in spring; advocacy ongoing",
+      followup: "Annual monitoring for bird-dispersed seedlings; maintain native shrub plantings",
+      pros: "Addresses both ecological and public health (tick) concerns; sustainable",
+      cons: "Bird dispersal means ongoing vigilance; ornamental plantings are ongoing seed sources"
+    }
+  }
+};
+
+let selSpecies, selSize, selSite, selSeason;
+let recommendation = null;
+let scrollY = 0;
+let controlsY = 120;
+
+function setup() {
+  let canvas = createCanvas(windowWidth, max(800, windowHeight));
+  canvas.style('display', 'block');
+  textFont('Segoe UI, Tahoma, sans-serif');
+
+  let leftCol = 30;
+  let rightCol = windowWidth / 2 + 10;
+  let selW = min(280, windowWidth / 2 - 50);
+  let row1 = controlsY + 25;
+  let row2 = controlsY + 95;
+
+  selSpecies = createSelect();
+  selSpecies.position(leftCol, row1);
+  selSpecies.style('width', selW + 'px');
+  styleSelect(selSpecies);
+  selSpecies.option('-- Select Species --', '');
+  for (let sp of Object.keys(strategies)) selSpecies.option(sp);
+  selSpecies.changed(generateRecommendation);
+
+  selSize = createSelect();
+  selSize.position(rightCol, row1);
+  selSize.style('width', selW + 'px');
+  styleSelect(selSize);
+  selSize.option('-- Infestation Size --', '');
+  selSize.option('Small (< 0.25 acre)', 'small');
+  selSize.option('Medium (0.25 - 2 acres)', 'medium');
+  selSize.option('Large (> 2 acres)', 'large');
+  selSize.changed(generateRecommendation);
+
+  selSite = createSelect();
+  selSite.position(leftCol, row2);
+  selSite.style('width', selW + 'px');
+  styleSelect(selSite);
+  selSite.option('-- Site Type --', '');
+  selSite.option('Residential', 'residential');
+  selSite.option('Park / Public Land', 'park');
+  selSite.option('Wetland', 'wetland');
+  selSite.option('Woodland', 'woodland');
+  selSite.changed(generateRecommendation);
+
+  selSeason = createSelect();
+  selSeason.position(rightCol, row2);
+  selSeason.style('width', selW + 'px');
+  styleSelect(selSeason);
+  selSeason.option('-- Season --', '');
+  selSeason.option('Spring', 'spring');
+  selSeason.option('Summer', 'summer');
+  selSeason.option('Fall', 'fall');
+  selSeason.option('Winter', 'winter');
+  selSeason.changed(generateRecommendation);
+}
+
+function styleSelect(sel) {
+  sel.style('padding', '8px 12px');
+  sel.style('font-size', '15px');
+  sel.style('border', '2px solid #81c784');
+  sel.style('border-radius', '8px');
+  sel.style('background', '#ffffff');
+  sel.style('color', '#1b5e20');
+  sel.style('cursor', 'pointer');
+  sel.style('outline', 'none');
+  sel.style('font-family', 'Segoe UI, Tahoma, sans-serif');
+}
+
+function generateRecommendation() {
+  let sp = selSpecies.value();
+  let sz = selSize.value();
+  let site = selSite.value();
+  let season = selSeason.value();
+
+  if (!sp || !sz || !site || !season) {
+    recommendation = null;
+    return;
+  }
+
+  let data = strategies[sp];
+  if (!data) { recommendation = null; return; }
+
+  // Rank strategies based on inputs
+  let ranked = [];
+  let methodNames = { manual: 'Manual Removal', mechanical: 'Mechanical Control', chemical: 'Chemical Treatment', biological: 'Biological Control', ipm: 'Integrated Pest Management (IPM)' };
+
+  for (let method of ['manual', 'mechanical', 'chemical', 'biological', 'ipm']) {
+    let score = 50; // base score
+    let notes = [];
+
+    // Size scoring
+    if (sz === 'small') {
+      if (method === 'manual') { score += 30; notes.push('Manual removal ideal for small areas'); }
+      if (method === 'mechanical') { score -= 10; notes.push('Mechanical may be overkill for small area'); }
+      if (method === 'chemical') { score += 10; }
+      if (method === 'biological') { score -= 15; notes.push('Biocontrol better suited for larger areas'); }
+      if (method === 'ipm') { score += 15; }
+    } else if (sz === 'medium') {
+      if (method === 'manual') { score -= 5; notes.push('Manual labor-intensive at this scale'); }
+      if (method === 'mechanical') { score += 15; }
+      if (method === 'chemical') { score += 20; }
+      if (method === 'biological') { score += 10; }
+      if (method === 'ipm') { score += 25; notes.push('IPM recommended for medium infestations'); }
+    } else if (sz === 'large') {
+      if (method === 'manual') { score -= 25; notes.push('Manual not practical at this scale'); }
+      if (method === 'mechanical') { score += 20; }
+      if (method === 'chemical') { score += 15; }
+      if (method === 'biological') { score += 25; notes.push('Biocontrol excels at landscape scale'); }
+      if (method === 'ipm') { score += 30; notes.push('IPM strongly recommended for large areas'); }
+    }
+
+    // Site scoring
+    if (site === 'residential') {
+      if (method === 'chemical') { score -= 15; notes.push('Chemical use limited near homes and gardens'); }
+      if (method === 'manual') { score += 15; notes.push('Manual methods safe for residential areas'); }
+      if (method === 'biological') { score -= 5; }
+    } else if (site === 'wetland') {
+      if (method === 'chemical') { score -= 20; notes.push('Requires aquatic-approved formulations and permits'); }
+      if (method === 'mechanical') { score -= 15; notes.push('Heavy equipment damages wetland soils'); }
+      if (method === 'biological') { score += 15; notes.push('Biocontrol well-suited for sensitive wetlands'); }
+      if (method === 'manual') { score += 5; notes.push('Manual removal protects wetland integrity'); }
+    } else if (site === 'park') {
+      if (method === 'chemical') { score -= 10; notes.push('Public concern about chemical use in parks'); }
+      if (method === 'ipm') { score += 10; notes.push('IPM builds public support and volunteer engagement'); }
+    }
+
+    // Season scoring
+    if (season === 'winter') {
+      if (method === 'manual') { score -= 10; notes.push('Frozen ground limits hand removal'); }
+      if (method === 'biological') { score -= 20; notes.push('Biocontrol agents dormant in winter'); }
+      if (method === 'mechanical') { score += 10; notes.push('Winter access can reduce site damage'); }
+      if (method === 'chemical') { score -= 5; notes.push('Limited herbicide uptake in dormant season'); }
+    } else if (season === 'spring') {
+      if (method === 'manual') { score += 10; notes.push('Moist spring soil aids root removal'); }
+      if (method === 'biological') { score += 10; notes.push('Good season for biocontrol releases'); }
+    } else if (season === 'fall') {
+      if (method === 'chemical') { score += 15; notes.push('Fall herbicide maximizes root translocation'); }
+    }
+
+    // Check if biocontrol actually exists for this species
+    if (method === 'biological' && data.biological.steps[0].toLowerCase().includes('no approved')) {
+      score -= 30;
+      notes.push('No approved biocontrol agents for this species');
+    }
+
+    ranked.push({
+      method: method,
+      label: methodNames[method],
+      score: constrain(score, 0, 100),
+      data: data[method],
+      notes: notes
+    });
+  }
+
+  ranked.sort((a, b) => b.score - a.score);
+  recommendation = { species: sp, size: sz, site: site, season: season, ranked: ranked };
+  scrollY = 0;
+}
+
+function draw() {
+  background('#e8f5e9');
+  let w = width;
+
+  // Header
+  noStroke();
+  fill('#2e7d32');
+  rect(0, 0, w, 100);
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(min(26, w * 0.04));
+  textStyle(BOLD);
+  text('Invasive Species Removal Strategy Selector', w / 2, 32);
+  textSize(min(14, w * 0.025));
+  textStyle(NORMAL);
+  fill(200, 230, 200);
+  text('Select conditions to get a recommended removal strategy with trade-offs', w / 2, 62);
+
+  // Labels
+  let leftCol = 30;
+  let rightCol = w / 2 + 10;
+  fill('#2e7d32');
+  textAlign(LEFT, TOP);
+  textSize(13);
+  textStyle(BOLD);
+  text('Invasive Species', leftCol, controlsY + 8);
+  text('Infestation Size', rightCol, controlsY + 8);
+  text('Site Type', leftCol, controlsY + 78);
+  text('Season', rightCol, controlsY + 78);
+
+  // Results area
+  let resultsTop = controlsY + 145;
+
+  if (!recommendation) {
+    fill('#888');
+    textSize(16);
+    textStyle(ITALIC);
+    textAlign(CENTER, TOP);
+    text('Select all four parameters above to see recommendations.', w / 2, resultsTop + 30);
+    return;
+  }
+
+  // Recommendation header
+  fill('#2e7d32');
+  textSize(18);
+  textStyle(BOLD);
+  textAlign(LEFT, TOP);
+  text('Recommended Strategies for ' + recommendation.species, leftCol, resultsTop);
+  stroke('#81c784');
+  strokeWeight(2);
+  line(leftCol, resultsTop + 26, w - 30, resultsTop + 26);
+  noStroke();
+
+  let cardY = resultsTop + 38 - scrollY;
+  let cardW = w - 60;
+
+  for (let i = 0; i < recommendation.ranked.length; i++) {
+    let r = recommendation.ranked[i];
+    let cardH = calculateCardHeight(r, cardW);
+
+    if (cardY + cardH < resultsTop + 30) { cardY += cardH + 14; continue; }
+    if (cardY > height + 50) { cardY += cardH + 14; continue; }
+
+    // Card
+    fill(i === 0 ? '#f1f8e9' : '#ffffff');
+    stroke(i === 0 ? '#2e7d32' : '#c8e6c9');
+    strokeWeight(i === 0 ? 3 : 1);
+    rect(leftCol, cardY, cardW, cardH, 12);
+    noStroke();
+
+    // Rank badge
+    let badgeColors = ['#2e7d32', '#558b2f', '#7cb342', '#9e9e9e', '#bdbdbd'];
+    fill(badgeColors[i]);
+    ellipse(leftCol + 25, cardY + 25, 36, 36);
+    fill(255);
+    textSize(16);
+    textStyle(BOLD);
+    textAlign(CENTER, CENTER);
+    text(i + 1, leftCol + 25, cardY + 25);
+
+    // Method name and score
+    fill('#1b5e20');
+    textSize(17);
+    textStyle(BOLD);
+    textAlign(LEFT, TOP);
+    text(r.label, leftCol + 52, cardY + 12);
+
+    // Score bar
+    let barX = leftCol + 52;
+    let barY = cardY + 36;
+    let barW = min(200, cardW - 100);
+    fill('#e0e0e0');
+    rect(barX, barY, barW, 10, 5);
+    let scoreColor = r.score > 70 ? '#2e7d32' : r.score > 50 ? '#ff8f00' : '#c62828';
+    fill(scoreColor);
+    rect(barX, barY, barW * r.score / 100, 10, 5);
+    fill('#666');
+    textSize(11);
+    textStyle(NORMAL);
+    text('Match: ' + r.score + '%', barX + barW + 8, barY - 1);
+
+    // Best for badge
+    if (i === 0) {
+      let bx = leftCol + cardW - 120;
+      fill('#2e7d32');
+      rect(bx, cardY + 10, 100, 24, 12);
+      fill(255);
+      textSize(11);
+      textStyle(BOLD);
+      textAlign(CENTER, CENTER);
+      text('BEST MATCH', bx + 50, cardY + 22);
+    }
+
+    // Context notes
+    let ny = barY + 20;
+    textAlign(LEFT, TOP);
+    if (r.notes.length > 0) {
+      fill('#555');
+      textSize(12);
+      textStyle(ITALIC);
+      for (let n of r.notes) {
+        text('  ' + n, leftCol + 52, ny, cardW - 80, 18);
+        ny += 18;
+      }
+    }
+
+    // Steps
+    ny += 6;
+    fill('#2e7d32');
+    textSize(13);
+    textStyle(BOLD);
+    text('Steps:', leftCol + 20, ny);
+    ny += 18;
+    fill('#333');
+    textSize(12);
+    textStyle(NORMAL);
+    for (let s of r.data.steps) {
+      let stepText = '  ' + s;
+      text(stepText, leftCol + 20, ny, cardW - 50, 36);
+      ny += max(18, ceil(textWidth(stepText) / (cardW - 50)) * 16);
+    }
+
+    // Timing
+    ny += 6;
+    fill('#2e7d32');
+    textSize(13);
+    textStyle(BOLD);
+    text('Timing:', leftCol + 20, ny);
+    ny += 18;
+    fill('#333');
+    textSize(12);
+    textStyle(NORMAL);
+    text(r.data.timing, leftCol + 20, ny, cardW - 50, 36);
+    ny += max(18, ceil(textWidth(r.data.timing) / (cardW - 50)) * 16);
+
+    // Follow-up
+    ny += 6;
+    fill('#2e7d32');
+    textSize(13);
+    textStyle(BOLD);
+    text('Follow-up:', leftCol + 20, ny);
+    ny += 18;
+    fill('#333');
+    textSize(12);
+    textStyle(NORMAL);
+    text(r.data.followup, leftCol + 20, ny, cardW - 50, 36);
+    ny += max(18, ceil(textWidth(r.data.followup) / (cardW - 50)) * 16);
+
+    // Pros/Cons
+    ny += 8;
+    fill('#2e7d32');
+    textSize(12);
+    textStyle(BOLD);
+    text('Pros: ', leftCol + 20, ny);
+    fill('#333');
+    textStyle(NORMAL);
+    text(r.data.pros, leftCol + 60, ny, cardW - 90, 36);
+    ny += max(20, ceil(textWidth(r.data.pros) / (cardW - 90)) * 16);
+
+    ny += 4;
+    fill('#c62828');
+    textSize(12);
+    textStyle(BOLD);
+    text('Cons: ', leftCol + 20, ny);
+    fill('#555');
+    textStyle(NORMAL);
+    text(r.data.cons, leftCol + 60, ny, cardW - 90, 36);
+
+    cardY += cardH + 14;
+  }
+}
+
+function calculateCardHeight(r, cardW) {
+  textSize(12);
+  let h = 60; // header + score bar
+  h += r.notes.length * 18 + 6; // notes
+  h += 18; // "Steps:" label
+  for (let s of r.data.steps) {
+    h += max(18, ceil(textWidth('  ' + s) / (cardW - 50)) * 16);
+  }
+  h += 24 + max(18, ceil(textWidth(r.data.timing) / (cardW - 50)) * 16); // timing
+  h += 24 + max(18, ceil(textWidth(r.data.followup) / (cardW - 50)) * 16); // followup
+  h += 8 + max(20, ceil(textWidth(r.data.pros) / (cardW - 90)) * 16); // pros
+  h += 4 + max(20, ceil(textWidth(r.data.cons) / (cardW - 90)) * 16); // cons
+  return h + 20; // padding
+}
+
+function mouseWheel(event) {
+  if (recommendation) {
+    let totalH = 0;
+    let cardW = width - 60;
+    for (let r of recommendation.ranked) totalH += calculateCardHeight(r, cardW) + 14;
+    let maxScroll = max(0, totalH - (height - controlsY - 180));
+    scrollY = constrain(scrollY + event.delta, 0, maxScroll);
+    return false;
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(800, windowHeight));
+  let selW = min(280, windowWidth / 2 - 50);
+  let rightCol = windowWidth / 2 + 10;
+  selSpecies.position(30, controlsY + 25);
+  selSpecies.style('width', selW + 'px');
+  selSize.position(rightCol, controlsY + 25);
+  selSize.style('width', selW + 'px');
+  selSite.position(30, controlsY + 95);
+  selSite.style('width', selW + 'px');
+  selSeason.position(rightCol, controlsY + 95);
+  selSeason.style('width', selW + 'px');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Assessment Tool - Minnesota Native Plants</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #e8f5e9; color: #1b5e20; }
+</style>
+</head>
+<body>
+<script>
+// === PLANT DATABASE ===
+const PLANTS = [
+  // Wildflowers
+  { name: "Wild Bergamot", type: "wildflower", sun: ["full sun","part shade"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Jul-Aug", height: 36, color: "#9C27B0", colorName: "Lavender" },
+  { name: "Black-Eyed Susan", type: "wildflower", sun: ["full sun","part shade"], moisture: ["dry","medium"], soil: ["sand","loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "Jun-Sep", height: 30, color: "#FFC107", colorName: "Yellow" },
+  { name: "Purple Coneflower", type: "wildflower", sun: ["full sun"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Jun-Aug", height: 36, color: "#E91E63", colorName: "Pink-Purple" },
+  { name: "New England Aster", type: "wildflower", sun: ["full sun","part shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "Aug-Oct", height: 48, color: "#7B1FA2", colorName: "Purple" },
+  { name: "Blazing Star", type: "wildflower", sun: ["full sun"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Jul-Sep", height: 42, color: "#AB47BC", colorName: "Purple" },
+  { name: "Goldenrod", type: "wildflower", sun: ["full sun","part shade"], moisture: ["dry","medium"], soil: ["sand","loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "Aug-Oct", height: 48, color: "#FFD54F", colorName: "Gold" },
+  { name: "Wild Columbine", type: "wildflower", sun: ["part shade","full shade"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Apr-Jun", height: 24, color: "#F44336", colorName: "Red-Yellow" },
+  { name: "Marsh Marigold", type: "wildflower", sun: ["part shade","full shade"], moisture: ["wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "Apr-May", height: 18, color: "#FFEB3B", colorName: "Yellow" },
+  { name: "Joe-Pye Weed", type: "wildflower", sun: ["full sun","part shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "Jul-Sep", height: 60, color: "#CE93D8", colorName: "Mauve-Pink" },
+  { name: "Cardinal Flower", type: "wildflower", sun: ["part shade","full shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3b","4a","4b","5a"], bloom: "Jul-Sep", height: 36, color: "#D32F2F", colorName: "Red" },
+  { name: "Blue Flag Iris", type: "wildflower", sun: ["full sun","part shade"], moisture: ["wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "May-Jun", height: 30, color: "#3F51B5", colorName: "Blue-Violet" },
+  { name: "Prairie Smoke", type: "wildflower", sun: ["full sun"], moisture: ["dry"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b"], bloom: "Apr-Jun", height: 12, color: "#F48FB1", colorName: "Pink" },
+  // Grasses
+  { name: "Big Bluestem", type: "grass", sun: ["full sun"], moisture: ["dry","medium"], soil: ["sand","loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "Aug-Sep", height: 72, color: "#5D4037", colorName: "Bronze" },
+  { name: "Prairie Dropseed", type: "grass", sun: ["full sun"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Aug-Sep", height: 30, color: "#8D6E63", colorName: "Gold-Bronze" },
+  { name: "Little Bluestem", type: "grass", sun: ["full sun"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Aug-Sep", height: 36, color: "#A1887F", colorName: "Copper" },
+  { name: "Switchgrass", type: "grass", sun: ["full sun","part shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3b","4a","4b","5a"], bloom: "Jul-Sep", height: 60, color: "#795548", colorName: "Amber" },
+  { name: "Sedge (Pennsylvania)", type: "grass", sun: ["part shade","full shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "May-Jun", height: 12, color: "#689F38", colorName: "Green" },
+  // Shrubs
+  { name: "Red Osier Dogwood", type: "shrub", sun: ["full sun","part shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "May-Jun", height: 84, color: "#C62828", colorName: "White/Red stem" },
+  { name: "Serviceberry", type: "shrub", sun: ["full sun","part shade"], moisture: ["medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Apr-May", height: 120, color: "#FFFFFF", colorName: "White" },
+  { name: "Ninebark", type: "shrub", sun: ["full sun","part shade"], moisture: ["dry","medium"], soil: ["sand","loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "May-Jun", height: 96, color: "#FCE4EC", colorName: "White-Pink" },
+  { name: "Chokeberry (Black)", type: "shrub", sun: ["full sun","part shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3a","3b","4a","4b","5a"], bloom: "May", height: 72, color: "#F5F5F5", colorName: "White" },
+  { name: "Elderberry", type: "shrub", sun: ["full sun","part shade"], moisture: ["medium","wet"], soil: ["loam","clay"], zones: ["3b","4a","4b","5a"], bloom: "Jun-Jul", height: 96, color: "#FFFDE7", colorName: "Cream" },
+  { name: "Hazelnut (American)", type: "shrub", sun: ["full sun","part shade","full shade"], moisture: ["dry","medium"], soil: ["sand","loam"], zones: ["3a","3b","4a","4b","5a"], bloom: "Mar-Apr", height: 120, color: "#A1887F", colorName: "Catkins" },
+];
+
+// === STATE ===
+let selectedSun = null, selectedMoisture = null, selectedSoil = null, selectedZone = null;
+let filterType = "all";
+let sortBy = "bloom";
+let results = [];
+let scrollOffset = 0;
+let step = 0; // 0=sun, 1=moisture, 2=soil, 3=zone, 4=results
+let btnFont, headerFont;
+
+const sunOpts = ["full sun", "part shade", "full shade"];
+const moistureOpts = ["dry", "medium", "wet"];
+const soilOpts = ["sand", "loam", "clay"];
+const zoneOpts = ["3a", "3b", "4a", "4b", "5a"];
+const typeOpts = ["all", "wildflower", "grass", "shrub"];
+
+function setup() {
+  createCanvas(windowWidth, max(windowHeight, 700));
+  textFont('Segoe UI');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(windowHeight, 700));
+}
+
+function draw() {
+  background('#e8f5e9');
+  drawHeader();
+  if (step < 4) {
+    drawWizard();
+  } else {
+    drawResults();
+  }
+}
+
+function drawHeader() {
+  fill('#2e7d32');
+  noStroke();
+  rect(0, 0, width, 60);
+  fill(255);
+  textSize(20);
+  textAlign(LEFT, CENTER);
+  text("Site Assessment Tool", 20, 30);
+  textSize(13);
+  textAlign(RIGHT, CENTER);
+  text("Minnesota Native Plants", width - 20, 30);
+  // Progress dots
+  let dotY = 48;
+  let dotStartX = width / 2 - 60;
+  for (let i = 0; i < 4; i++) {
+    fill(i <= step ? '#ffffff' : 'rgba(255,255,255,0.4)');
+    ellipse(dotStartX + i * 40, dotY, i === step ? 10 : 7);
+  }
+}
+
+function drawWizard() {
+  let cx = width / 2;
+  let cy = 200;
+  let opts, label, selected;
+  if (step === 0) { opts = sunOpts; label = "Step 1: Select Sun Exposure"; selected = selectedSun; }
+  else if (step === 1) { opts = moistureOpts; label = "Step 2: Select Moisture Level"; selected = selectedMoisture; }
+  else if (step === 2) { opts = soilOpts; label = "Step 3: Select Soil Type"; selected = selectedSoil; }
+  else { opts = zoneOpts; label = "Step 4: Select Hardiness Zone"; selected = selectedZone; }
+
+  // Icons per step
+  let icons = ["sun", "water", "soil", "zone"];
+
+  textAlign(CENTER, CENTER);
+  fill('#1b5e20');
+  textSize(22);
+  text(label, cx, 110);
+
+  // Draw option buttons
+  let btnW = min(180, (width - 80) / opts.length - 10);
+  let totalW = opts.length * (btnW + 10) - 10;
+  let startX = cx - totalW / 2;
+
+  for (let i = 0; i < opts.length; i++) {
+    let x = startX + i * (btnW + 10);
+    let y = cy;
+    let isSelected = opts[i] === selected;
+    // Shadow
+    fill(0, 0, 0, 15);
+    rect(x + 2, y + 2, btnW, 80, 12);
+    // Button
+    fill(isSelected ? '#2e7d32' : '#ffffff');
+    stroke(isSelected ? '#1b5e20' : '#c8e6c9');
+    strokeWeight(2);
+    rect(x, y, btnW, 80, 12);
+    noStroke();
+    fill(isSelected ? '#ffffff' : '#2e7d32');
+    textSize(15);
+    text(capitalize(opts[i]), x + btnW / 2, y + 32);
+    // Icon hint
+    drawIcon(icons[step], x + btnW / 2, y + 58, isSelected);
+  }
+
+  // Back button
+  if (step > 0) {
+    drawBtn("Back", cx - 120, cy + 140, 100, 40, '#81c784', '#1b5e20');
+  }
+
+  // Summary of previous selections
+  let sy = cy + 200;
+  textSize(13);
+  textAlign(LEFT, TOP);
+  fill('#558b2f');
+  if (selectedSun) text("Sun: " + capitalize(selectedSun), 30, sy);
+  if (selectedMoisture) text("Moisture: " + capitalize(selectedMoisture), 30, sy + 20);
+  if (selectedSoil) text("Soil: " + capitalize(selectedSoil), 30, sy + 40);
+  if (selectedZone) text("Zone: " + selectedZone.toUpperCase(), 30, sy + 60);
+}
+
+function drawIcon(type, x, y, sel) {
+  let c = sel ? 'rgba(255,255,255,0.7)' : 'rgba(46,125,50,0.4)';
+  fill(c);
+  noStroke();
+  if (type === "sun") {
+    ellipse(x, y, 12);
+    for (let a = 0; a < TWO_PI; a += PI / 4) {
+      let x1 = x + cos(a) * 9, y1 = y + sin(a) * 9;
+      ellipse(x1, y1, 3);
+    }
+  } else if (type === "water") {
+    beginShape();
+    vertex(x, y - 8);
+    bezierVertex(x - 6, y, x - 6, y + 6, x, y + 8);
+    bezierVertex(x + 6, y + 6, x + 6, y, x, y - 8);
+    endShape(CLOSE);
+  } else if (type === "soil") {
+    rect(x - 8, y - 3, 16, 6, 2);
+    rect(x - 6, y + 5, 12, 3, 1);
+  } else {
+    textSize(10);
+    text("USDA", x, y);
+  }
+}
+
+function drawBtn(label, x, y, w, h, bg, fg) {
+  fill(bg);
+  noStroke();
+  rect(x, y, w, h, 8);
+  fill(fg);
+  textSize(14);
+  textAlign(CENTER, CENTER);
+  text(label, x + w / 2, y + h / 2);
+}
+
+function drawResults() {
+  // Filter bar
+  fill('#ffffff');
+  noStroke();
+  rect(0, 64, width, 50);
+  fill('#c8e6c9');
+  rect(0, 113, width, 1);
+
+  // Type filter buttons
+  let fx = 15;
+  textSize(12);
+  textAlign(LEFT, CENTER);
+  fill('#555');
+  text("Filter:", fx, 89);
+  fx += 50;
+  for (let t of typeOpts) {
+    let tw = textWidth(capitalize(t)) + 24;
+    let isActive = filterType === t;
+    fill(isActive ? '#2e7d32' : '#e8f5e9');
+    noStroke();
+    rect(fx, 74, tw, 30, 15);
+    fill(isActive ? '#fff' : '#2e7d32');
+    textAlign(CENTER, CENTER);
+    text(capitalize(t), fx + tw / 2, 89);
+    fx += tw + 8;
+  }
+
+  // Sort buttons
+  let sx = width - 220;
+  fill('#555');
+  textAlign(LEFT, CENTER);
+  textSize(12);
+  text("Sort:", sx, 89);
+  sx += 40;
+  for (let s of ["bloom", "height"]) {
+    let sw = textWidth(capitalize(s)) + 24;
+    let isActive = sortBy === s;
+    fill(isActive ? '#2e7d32' : '#e8f5e9');
+    noStroke();
+    rect(sx, 74, sw, 30, 15);
+    fill(isActive ? '#fff' : '#2e7d32');
+    textAlign(CENTER, CENTER);
+    text(capitalize(s), sx + sw / 2, 89);
+    sx += sw + 8;
+  }
+
+  // Reset button
+  drawBtn("New Search", width - 110, 76, 95, 28, '#ef5350', '#fff');
+
+  // Compute results
+  computeResults();
+
+  // Results count
+  fill('#1b5e20');
+  textSize(14);
+  textAlign(LEFT, TOP);
+  text(results.length + " plants found for: " + capitalize(selectedSun) + " / " + capitalize(selectedMoisture) + " / " + capitalize(selectedSoil) + " / Zone " + selectedZone.toUpperCase(), 15, 125);
+
+  // Results cards
+  let cardY = 150 + scrollOffset;
+  let cardH = 90;
+  let cardGap = 8;
+  let colW = min(400, (width - 40) / 2);
+  let cols = width > 500 ? 2 : 1;
+
+  for (let i = 0; i < results.length; i++) {
+    let col = i % cols;
+    let row = floor(i / cols);
+    let cx = 15 + col * (colW + 10);
+    let cy = cardY + row * (cardH + cardGap);
+
+    if (cy + cardH < 120 || cy > height) continue;
+
+    let p = results[i];
+    // Card shadow
+    fill(0, 0, 0, 10);
+    noStroke();
+    rect(cx + 2, cy + 2, colW, cardH, 10);
+    // Card bg
+    fill('#ffffff');
+    rect(cx, cy, colW, cardH, 10);
+    // Color dot
+    fill(p.color);
+    ellipse(cx + 25, cy + 30, 24);
+    // Type badge
+    let badge = p.type.charAt(0).toUpperCase();
+    fill('#2e7d32');
+    textSize(9);
+    textAlign(CENTER, CENTER);
+    ellipse(cx + 25, cy + 55, 18);
+    fill('#fff');
+    text(badge, cx + 25, cy + 55);
+
+    // Text
+    fill('#1b5e20');
+    textSize(15);
+    textAlign(LEFT, TOP);
+    text(p.name, cx + 48, cy + 10);
+    fill('#558b2f');
+    textSize(12);
+    text("Bloom: " + p.bloom, cx + 48, cy + 32);
+    text("Height: " + p.height + '"', cx + 48, cy + 50);
+    text("Color: " + p.colorName, cx + 48, cy + 68);
+    // Type label
+    fill('#81c784');
+    textSize(10);
+    textAlign(RIGHT, TOP);
+    text(capitalize(p.type), cx + colW - 12, cy + 12);
+  }
+}
+
+function computeResults() {
+  results = PLANTS.filter(p =>
+    p.sun.includes(selectedSun) &&
+    p.moisture.includes(selectedMoisture) &&
+    p.soil.includes(selectedSoil) &&
+    p.zones.includes(selectedZone) &&
+    (filterType === "all" || p.type === filterType)
+  );
+
+  const monthOrder = { "Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12 };
+  if (sortBy === "bloom") {
+    results.sort((a, b) => {
+      let am = a.bloom.split("-")[0];
+      let bm = b.bloom.split("-")[0];
+      return (monthOrder[am] || 0) - (monthOrder[bm] || 0);
+    });
+  } else {
+    results.sort((a, b) => a.height - b.height);
+  }
+}
+
+function mousePressed() {
+  if (step < 4) {
+    handleWizardClick();
+  } else {
+    handleResultsClick();
+  }
+}
+
+function handleWizardClick() {
+  let opts, cx = width / 2, cy = 200;
+  if (step === 0) opts = sunOpts;
+  else if (step === 1) opts = moistureOpts;
+  else if (step === 2) opts = soilOpts;
+  else opts = zoneOpts;
+
+  let btnW = min(180, (width - 80) / opts.length - 10);
+  let totalW = opts.length * (btnW + 10) - 10;
+  let startX = cx - totalW / 2;
+
+  for (let i = 0; i < opts.length; i++) {
+    let x = startX + i * (btnW + 10);
+    if (mouseX > x && mouseX < x + btnW && mouseY > cy && mouseY < cy + 80) {
+      if (step === 0) { selectedSun = opts[i]; step = 1; }
+      else if (step === 1) { selectedMoisture = opts[i]; step = 2; }
+      else if (step === 2) { selectedSoil = opts[i]; step = 3; }
+      else { selectedZone = opts[i]; step = 4; scrollOffset = 0; }
+      return;
+    }
+  }
+
+  // Back button
+  if (step > 0 && mouseX > cx - 120 && mouseX < cx - 20 && mouseY > cy + 140 && mouseY < cy + 180) {
+    step--;
+  }
+}
+
+function handleResultsClick() {
+  // Filter buttons
+  let fx = 65;
+  for (let t of typeOpts) {
+    let tw = textWidth(capitalize(t)) + 24;
+    if (mouseX > fx && mouseX < fx + tw && mouseY > 74 && mouseY < 104) {
+      filterType = t;
+      scrollOffset = 0;
+      return;
+    }
+    fx += tw + 8;
+  }
+
+  // Sort buttons
+  let sx = width - 180;
+  for (let s of ["bloom", "height"]) {
+    let sw = textWidth(capitalize(s)) + 24;
+    if (mouseX > sx && mouseX < sx + sw && mouseY > 74 && mouseY < 104) {
+      sortBy = s;
+      return;
+    }
+    sx += sw + 8;
+  }
+
+  // Reset
+  if (mouseX > width - 110 && mouseX < width - 15 && mouseY > 76 && mouseY < 104) {
+    step = 0;
+    selectedSun = selectedMoisture = selectedSoil = selectedZone = null;
+    filterType = "all";
+    sortBy = "bloom";
+    scrollOffset = 0;
+  }
+}
+
+function mouseWheel(event) {
+  if (step === 4) {
+    scrollOffset -= event.delta;
+    scrollOffset = min(scrollOffset, 0);
+    return false;
+  }
+}
+
+function capitalize(s) {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : "";
+}
+</script>
+</body>
+</html>

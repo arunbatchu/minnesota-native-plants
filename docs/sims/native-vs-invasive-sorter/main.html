@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Native vs Invasive Plant Sorter</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  body { margin: 0; padding: 0; overflow-x: hidden; background: #e8f5e9; font-family: Arial, sans-serif; }
+  main { display: flex; justify-content: center; }
+</style>
+</head>
+<body>
+<main><div id="canvas-container"></div></main>
+<script>
+// Native vs Invasive Plant Sorter MicroSim
+const plants = [
+  { name: "Big Bluestem", category: "native" },
+  { name: "Purple Coneflower", category: "native" },
+  { name: "Wild Bergamot", category: "native" },
+  { name: "Black-Eyed Susan", category: "native" },
+  { name: "White Pine", category: "native" },
+  { name: "Bloodroot", category: "native" },
+  { name: "Blue Flag Iris", category: "native" },
+  { name: "Milkweed", category: "native" },
+  { name: "Daylily", category: "non-native" },
+  { name: "Tulip", category: "non-native" },
+  { name: "Tomato", category: "non-native" },
+  { name: "Kentucky Bluegrass", category: "non-native" },
+  { name: "Common Buckthorn", category: "invasive" },
+  { name: "Garlic Mustard", category: "invasive" },
+  { name: "Purple Loosestrife", category: "invasive" },
+  { name: "Spotted Knapweed", category: "invasive" }
+];
+
+let cards = [];
+let bins = [];
+let dragging = null;
+let dragOffsetX = 0, dragOffsetY = 0;
+let score = 0;
+let totalChecked = 0;
+let checked = false;
+let cardW = 160, cardH = 42;
+let binLabelH = 30;
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
+function resetGame() {
+  cards = [];
+  score = 0;
+  totalChecked = 0;
+  checked = false;
+  let shuffled = plants.slice();
+  shuffleArray(shuffled);
+
+  let startX = 20;
+  let startY = 100;
+  let cols = Math.max(1, Math.floor((windowWidth - 40) / (cardW + 10)));
+  for (let i = 0; i < shuffled.length; i++) {
+    let col = i % cols;
+    let row = Math.floor(i / cols);
+    cards.push({
+      name: shuffled[i].name,
+      category: shuffled[i].category,
+      x: startX + col * (cardW + 10),
+      y: startY + row * (cardH + 8),
+      placed: null,
+      result: null
+    });
+  }
+  layoutBins();
+}
+
+function layoutBins() {
+  let bw = Math.min(200, (windowWidth - 60) / 3);
+  let bh = 220;
+  let totalW = bw * 3 + 20 * 2;
+  let bx = (windowWidth - totalW) / 2;
+  let rows = Math.ceil(plants.length / Math.max(1, Math.floor((windowWidth - 40) / (cardW + 10))));
+  let by = 110 + rows * (cardH + 8) + 20;
+
+  bins = [
+    { label: "Native", category: "native", color: "#2e7d32", x: bx, y: by, w: bw, h: bh },
+    { label: "Non-Native", category: "non-native", color: "#f9a825", x: bx + bw + 20, y: by, w: bw, h: bh },
+    { label: "Invasive", category: "invasive", color: "#c62828", x: bx + 2 * (bw + 20), y: by, w: bw, h: bh }
+  ];
+}
+
+function setup() {
+  let cnv = createCanvas(windowWidth, 900);
+  cnv.parent('canvas-container');
+  textFont('Arial');
+  resetGame();
+  resizeCanvasToFit();
+}
+
+function resizeCanvasToFit() {
+  let maxY = 0;
+  for (let b of bins) maxY = Math.max(maxY, b.y + b.h);
+  let canvasH = Math.max(400, maxY + 80);
+  resizeCanvas(windowWidth, canvasH);
+}
+
+function windowResized() {
+  resetGame();
+  resizeCanvasToFit();
+}
+
+function draw() {
+  background('#e8f5e9');
+
+  // Title
+  fill('#2e7d32');
+  noStroke();
+  textAlign(CENTER, CENTER);
+  textSize(22);
+  textStyle(BOLD);
+  text("Native vs Invasive Plant Sorter", windowWidth / 2, 30);
+  textSize(13);
+  textStyle(NORMAL);
+  fill('#555');
+  text("Drag each plant card into the correct bin, then click Check Answers", windowWidth / 2, 55);
+
+  // Draw bins
+  for (let b of bins) {
+    stroke(b.color);
+    strokeWeight(3);
+    fill(255, 255, 255, 200);
+    rect(b.x, b.y, b.w, b.h, 10);
+    noStroke();
+    fill(b.color);
+    rect(b.x, b.y, b.w, binLabelH, 10, 10, 0, 0);
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(15);
+    textStyle(BOLD);
+    text(b.label, b.x + b.w / 2, b.y + binLabelH / 2);
+  }
+
+  // Draw cards (non-dragging first)
+  textStyle(NORMAL);
+  for (let c of cards) {
+    if (c === dragging) continue;
+    drawCard(c);
+  }
+  // Draw dragging card on top
+  if (dragging) drawCard(dragging);
+
+  // Buttons
+  drawButton("Check Answers", windowWidth / 2 - 170, bins[0].y + bins[0].h + 20, 150, 38, '#2e7d32');
+  drawButton("Reset", windowWidth / 2 + 20, bins[0].y + bins[0].h + 20, 150, 38, '#555');
+
+  // Score
+  if (checked) {
+    textAlign(CENTER, CENTER);
+    textSize(18);
+    noStroke();
+    fill('#2e7d32');
+    textStyle(BOLD);
+    text("Score: " + score + " / " + totalChecked, windowWidth / 2, bins[0].y + bins[0].h + 75);
+  }
+}
+
+function drawCard(c) {
+  let cx = c.x, cy = c.y;
+  let col = '#2e7d32';
+  if (c.result === true) col = '#2e7d32';
+  else if (c.result === false) col = '#c62828';
+
+  if (c.result === true) {
+    fill('#c8e6c9');
+    stroke('#2e7d32');
+  } else if (c.result === false) {
+    fill('#ffcdd2');
+    stroke('#c62828');
+  } else {
+    fill(255);
+    stroke('#888');
+  }
+  strokeWeight(2);
+  rect(cx, cy, cardW, cardH, 8);
+
+  noStroke();
+  fill(c.result === false ? '#c62828' : '#333');
+  textAlign(CENTER, CENTER);
+  textSize(13);
+  textStyle(NORMAL);
+  text(c.name, cx + cardW / 2, cy + cardH / 2);
+}
+
+function drawButton(label, bx, by, bw, bh, col) {
+  fill(col);
+  noStroke();
+  rect(bx, by, bw, bh, 8);
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(14);
+  textStyle(BOLD);
+  text(label, bx + bw / 2, by + bh / 2);
+}
+
+function mousePressed() {
+  handlePress(mouseX, mouseY);
+}
+function touchStarted() {
+  if (touches.length > 0) {
+    handlePress(touches[0].x, touches[0].y);
+  }
+  return false;
+}
+
+function handlePress(mx, my) {
+  // Check buttons
+  let btnY = bins[0].y + bins[0].h + 20;
+  if (mx > windowWidth / 2 - 170 && mx < windowWidth / 2 - 20 && my > btnY && my < btnY + 38) {
+    checkAnswers();
+    return;
+  }
+  if (mx > windowWidth / 2 + 20 && mx < windowWidth / 2 + 170 && my > btnY && my < btnY + 38) {
+    resetGame();
+    resizeCanvasToFit();
+    return;
+  }
+
+  // Pick up card (reverse order so top card picked first)
+  for (let i = cards.length - 1; i >= 0; i--) {
+    let c = cards[i];
+    if (mx > c.x && mx < c.x + cardW && my > c.y && my < c.y + cardH) {
+      dragging = c;
+      dragOffsetX = mx - c.x;
+      dragOffsetY = my - c.y;
+      // Move to end of array so drawn on top
+      cards.splice(i, 1);
+      cards.push(c);
+      break;
+    }
+  }
+}
+
+function mouseDragged() {
+  if (dragging) {
+    dragging.x = mouseX - dragOffsetX;
+    dragging.y = mouseY - dragOffsetY;
+  }
+}
+function touchMoved() {
+  if (dragging && touches.length > 0) {
+    dragging.x = touches[0].x - dragOffsetX;
+    dragging.y = touches[0].y - dragOffsetY;
+  }
+  return false;
+}
+
+function mouseReleased() {
+  handleRelease();
+}
+function touchEnded() {
+  handleRelease();
+  return false;
+}
+
+function handleRelease() {
+  if (!dragging) return;
+  let c = dragging;
+  dragging = null;
+  c.result = null;
+
+  // Check if dropped in a bin
+  for (let b of bins) {
+    if (c.x + cardW / 2 > b.x && c.x + cardW / 2 < b.x + b.w &&
+        c.y + cardH / 2 > b.y && c.y + cardH / 2 < b.y + b.h) {
+      c.placed = b.category;
+      // Snap into bin - stack cards
+      let cardsInBin = cards.filter(cd => cd.placed === b.category && cd !== c);
+      c.x = b.x + 5;
+      c.y = b.y + binLabelH + 5 + cardsInBin.length * (cardH + 4);
+      // Clamp card width to bin
+      return;
+    }
+  }
+  c.placed = null;
+}
+
+function checkAnswers() {
+  score = 0;
+  totalChecked = 0;
+  checked = true;
+  for (let c of cards) {
+    if (c.placed) {
+      totalChecked++;
+      if (c.placed === c.category) {
+        c.result = true;
+        score++;
+      } else {
+        c.result = false;
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

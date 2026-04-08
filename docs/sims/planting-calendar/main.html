@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planting Calendar - Minnesota Native Plants</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #e8f5e9; color: #1b5e20; }
+</style>
+</head>
+<body>
+<script>
+// === CALENDAR DATA ===
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+// Frost dates by zone (approximate last spring / first fall)
+const FROST = {
+  "Zone 3": { lastSpring: "May 25", firstFall: "Sep 10", springMonth: 4, fallMonth: 8 },
+  "Zone 4": { lastSpring: "May 15", firstFall: "Sep 25", springMonth: 4, fallMonth: 8 },
+  "Zone 5": { lastSpring: "May 1",  firstFall: "Oct 5",  springMonth: 4, fallMonth: 9 },
+};
+
+const DATA = [
+  { // January
+    planting: [],
+    maintenance: ["Review garden plans", "Order native seeds from catalogs", "Clean and sharpen tools"],
+    blooming: [],
+  },
+  { // February
+    planting: ["Start cold stratification for seeds indoors"],
+    maintenance: ["Continue seed ordering", "Plan garden layout", "Check stored bulbs/roots"],
+    blooming: [],
+  },
+  { // March
+    planting: ["Start seeds indoors: Coneflower, Bergamot, Blazing Star", "Begin cold-stratified seeds under lights"],
+    maintenance: ["Remove winter mulch gradually", "Prune dormant shrubs (Dogwood, Ninebark)", "Cut back ornamental grasses"],
+    blooming: ["Pussy Willows", "Skunk Cabbage"],
+  },
+  { // April
+    planting: ["Direct sow cool-season seeds: Prairie Smoke, Columbine", "Plant bare root shrubs: Serviceberry, Dogwood", "Transplant seedlings to cold frame"],
+    maintenance: ["Remove remaining winter cover", "Edge garden beds", "First weeding pass", "Apply compost to beds"],
+    blooming: ["Marsh Marigold", "Prairie Smoke", "Bloodroot", "Hepatica"],
+  },
+  { // May
+    planting: ["Plant plugs after last frost: Coneflower, Black-Eyed Susan", "Direct sow warm-season grasses: Big Bluestem, Switchgrass", "Plant bare root: Joe-Pye Weed, Aster"],
+    maintenance: ["Water new plantings deeply", "Weed regularly (critical month)", "Mow prairie areas to 6 inches", "Mulch with leaves or straw"],
+    blooming: ["Wild Columbine", "Blue Flag Iris", "Serviceberry", "Wild Geranium", "Golden Alexanders"],
+  },
+  { // June
+    planting: ["Last chance for plug planting", "Fill gaps with container plants", "Sow short-season annuals between perennials"],
+    maintenance: ["Deep watering weekly if dry", "Monitor for pests", "Stake tall plants: Joe-Pye Weed", "Continue weeding"],
+    blooming: ["Wild Bergamot (late)", "Purple Coneflower", "Black-Eyed Susan", "Spiderwort", "Ninebark"],
+  },
+  { // July
+    planting: [],
+    maintenance: ["Water deeply during dry spells", "Deadhead spent blooms for rebloom", "Monitor for Japanese beetles", "Weed as needed"],
+    blooming: ["Wild Bergamot", "Purple Coneflower", "Blazing Star", "Joe-Pye Weed", "Cardinal Flower", "Butterfly Weed"],
+  },
+  { // August
+    planting: ["Collect seeds from early bloomers", "Start fall planting prep"],
+    maintenance: ["Reduce watering for established plants", "Allow seed heads to develop", "Take photos for records", "Control invasive species"],
+    blooming: ["New England Aster", "Goldenrod", "Big Bluestem", "Blazing Star", "Joe-Pye Weed", "Ironweed"],
+  },
+  { // September
+    planting: ["Plant plugs for fall establishment", "Sow seeds for spring germination", "Plant shrubs: Chokeberry, Elderberry", "Divide overcrowded perennials"],
+    maintenance: ["Reduce mowing native areas", "Leave seed heads standing", "Remove invasive plants", "Begin fall cleanup of annuals"],
+    blooming: ["New England Aster", "Goldenrod", "Prairie Dropseed", "Little Bluestem (color)", "Sneezeweed"],
+  },
+  { // October
+    planting: ["Direct sow seeds that need cold stratification", "Plant spring-blooming bulbs near natives", "Last chance for shrub planting"],
+    maintenance: ["Leave stems and seed heads for winter", "Add leaf mulch to beds", "Clean and store tools", "Record what worked this year"],
+    blooming: ["Late Aster", "Goldenrod (late)", "Grass seed heads"],
+  },
+  { // November
+    planting: ["Dormant seed sowing on frozen ground"],
+    maintenance: ["Apply winter mulch to new plantings", "Protect young shrubs from deer", "Put up bird feeders near garden"],
+    blooming: [],
+  },
+  { // December
+    planting: [],
+    maintenance: ["Plan next year's additions", "Browse seed catalogs", "Enjoy winter interest: dried grasses and seed heads"],
+    blooming: [],
+  },
+];
+
+// Activity colors
+const COLORS = {
+  planting: "#2e7d32",
+  maintenance: "#F57C00",
+  blooming: "#7B1FA2",
+  watering: "#1976D2",
+};
+
+// === STATE ===
+let expandedMonth = -1;
+let scrollOffset = 0;
+let selectedZone = "Zone 4";
+let headerH = 60;
+let legendH = 50;
+
+function setup() {
+  createCanvas(windowWidth, max(windowHeight, 700));
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(windowHeight, 700));
+}
+
+function draw() {
+  background('#e8f5e9');
+  drawHeader();
+  drawLegend();
+  drawFrostBar();
+  if (expandedMonth >= 0) {
+    drawExpandedMonth();
+  } else {
+    drawCalendarGrid();
+  }
+}
+
+function drawHeader() {
+  fill('#2e7d32');
+  noStroke();
+  rect(0, 0, width, headerH);
+  fill(255);
+  textSize(20);
+  textAlign(LEFT, CENTER);
+  text("Planting Calendar", 20, headerH / 2);
+  textSize(13);
+  textAlign(RIGHT, CENTER);
+  text("Minnesota Native Plants", width - 20, headerH / 2);
+
+  // Zone selector
+  let zx = width / 2 - 120;
+  textSize(12);
+  textAlign(LEFT, CENTER);
+  fill(255, 255, 255, 180);
+  text("Frost Zone:", zx, headerH / 2);
+  zx += 78;
+  for (let z of ["Zone 3", "Zone 4", "Zone 5"]) {
+    let tw = textWidth(z) + 16;
+    let isActive = selectedZone === z;
+    fill(isActive ? '#ffffff' : 'rgba(255,255,255,0.2)');
+    noStroke();
+    rect(zx, headerH / 2 - 13, tw, 26, 13);
+    fill(isActive ? '#2e7d32' : '#ffffff');
+    textAlign(CENTER, CENTER);
+    textSize(11);
+    text(z, zx + tw / 2, headerH / 2);
+    zx += tw + 6;
+  }
+}
+
+function drawLegend() {
+  let ly = headerH + 8;
+  let lx = 20;
+  fill('#ffffff');
+  noStroke();
+  rect(0, headerH, width, legendH);
+  fill('#c8e6c9');
+  rect(0, headerH + legendH - 1, width, 1);
+
+  textSize(11);
+  textAlign(LEFT, CENTER);
+
+  let items = [
+    { label: "Planting", color: COLORS.planting },
+    { label: "Maintenance", color: COLORS.maintenance },
+    { label: "Blooming", color: COLORS.blooming },
+    { label: "Frost Zone", color: "#1976D2" },
+  ];
+
+  for (let item of items) {
+    fill(item.color);
+    noStroke();
+    ellipse(lx + 6, ly + 16, 12);
+    fill('#333');
+    text(item.label, lx + 16, ly + 16);
+    lx += textWidth(item.label) + 32;
+  }
+
+  // Back button when expanded
+  if (expandedMonth >= 0) {
+    let bw = 100;
+    fill('#81c784');
+    noStroke();
+    rect(width - bw - 15, ly + 3, bw, 26, 13);
+    fill('#1b5e20');
+    textSize(12);
+    textAlign(CENTER, CENTER);
+    text("< All Months", width - bw / 2 - 15, ly + 16);
+  }
+}
+
+function drawFrostBar() {
+  let fy = headerH + legendH + 4;
+  let barH = 24;
+  let frost = FROST[selectedZone];
+  let monthW = (width - 20) / 12;
+
+  fill('#ffffff');
+  noStroke();
+  rect(0, fy, width, barH);
+
+  // Frost-free zone (green bar)
+  let startX = 10 + frost.springMonth * monthW;
+  let endX = 10 + (frost.fallMonth + 1) * monthW;
+  fill('#c8e6c9');
+  noStroke();
+  rect(startX, fy + 2, endX - startX, barH - 4, 4);
+
+  // Frost zones (blue tint)
+  fill('#bbdefb');
+  rect(10, fy + 2, startX - 10, barH - 4, 4, 0, 0, 4);
+  rect(endX, fy + 2, width - 10 - endX, barH - 4, 0, 4, 4, 0);
+
+  // Month labels on frost bar
+  textSize(8);
+  textAlign(CENTER, CENTER);
+  for (let i = 0; i < 12; i++) {
+    let mx = 10 + i * monthW + monthW / 2;
+    fill('#555');
+    text(SHORT[i], mx, fy + barH / 2);
+  }
+
+  // Frost date markers
+  fill('#1976D2');
+  textSize(8);
+  textAlign(CENTER, TOP);
+  // Last spring frost
+  let springX = 10 + frost.springMonth * monthW + monthW * 0.8;
+  stroke('#1976D2');
+  strokeWeight(2);
+  line(springX, fy, springX, fy + barH);
+  noStroke();
+  // First fall frost
+  let fallX = 10 + frost.fallMonth * monthW + monthW * 0.3;
+  stroke('#1976D2');
+  line(fallX, fy, fallX, fy + barH);
+  noStroke();
+
+  // Labels
+  fill('#1565C0');
+  textSize(7);
+  text("Last Frost", springX, fy + barH + 1);
+  text(frost.lastSpring, springX, fy + barH + 10);
+  text("First Frost", fallX, fy + barH + 1);
+  text(frost.firstFall, fallX, fy + barH + 10);
+}
+
+function drawCalendarGrid() {
+  let startY = headerH + legendH + 52;
+  let cols = width > 700 ? 4 : (width > 450 ? 3 : 2);
+  let cardW = (width - 20 - (cols - 1) * 10) / cols;
+  let cardH = 140;
+
+  for (let i = 0; i < 12; i++) {
+    let col = i % cols;
+    let row = floor(i / cols);
+    let cx = 10 + col * (cardW + 10);
+    let cy = startY + row * (cardH + 10) + scrollOffset;
+
+    if (cy + cardH < startY - 10 || cy > height + 10) continue;
+
+    let d = DATA[i];
+    let isHover = mouseX > cx && mouseX < cx + cardW && mouseY > cy && mouseY < cy + cardH && mouseY > startY;
+    let frost = FROST[selectedZone];
+    let isFrostFree = i >= frost.springMonth && i <= frost.fallMonth;
+
+    // Card shadow
+    fill(0, 0, 0, isHover ? 20 : 8);
+    noStroke();
+    rect(cx + 2, cy + 2, cardW, cardH, 12);
+
+    // Card
+    fill(isHover ? '#f1f8e9' : '#ffffff');
+    stroke(isHover ? '#2e7d32' : '#e0e0e0');
+    strokeWeight(isHover ? 2 : 1);
+    rect(cx, cy, cardW, cardH, 12);
+    noStroke();
+
+    // Month name bar
+    fill('#2e7d32');
+    noStroke();
+    rect(cx, cy, cardW, 32, 12, 12, 0, 0);
+    fill('#fff');
+    textSize(14);
+    textAlign(LEFT, CENTER);
+    textStyle(BOLD);
+    text(MONTHS[i], cx + 12, cy + 16);
+    textStyle(NORMAL);
+
+    // Frost indicator
+    if (!isFrostFree) {
+      fill('#bbdefb');
+      textSize(8);
+      textAlign(RIGHT, CENTER);
+      text("FROST", cx + cardW - 10, cy + 16);
+    }
+
+    // Activity summary dots
+    let dotY = cy + 44;
+    let dotX = cx + 14;
+
+    // Planting count
+    if (d.planting.length > 0) {
+      fill(COLORS.planting);
+      ellipse(dotX, dotY, 10);
+      fill('#333');
+      textSize(10);
+      textAlign(LEFT, CENTER);
+      text(d.planting.length + " planting", dotX + 9, dotY);
+    }
+    dotY += 18;
+
+    // Maintenance count
+    if (d.maintenance.length > 0) {
+      fill(COLORS.maintenance);
+      ellipse(dotX, dotY, 10);
+      fill('#333');
+      textSize(10);
+      textAlign(LEFT, CENTER);
+      text(d.maintenance.length + " tasks", dotX + 9, dotY);
+    }
+    dotY += 18;
+
+    // Blooming
+    if (d.blooming.length > 0) {
+      fill(COLORS.blooming);
+      ellipse(dotX, dotY, 10);
+      fill('#333');
+      textSize(10);
+      textAlign(LEFT, CENTER);
+      let bloomTxt = d.blooming.length + " blooming";
+      text(bloomTxt, dotX + 9, dotY);
+    } else {
+      fill('#bdbdbd');
+      textSize(10);
+      textAlign(LEFT, CENTER);
+      text("No blooms", dotX, dotY);
+    }
+
+    // Preview: first planting item
+    dotY += 22;
+    if (d.planting.length > 0) {
+      fill('#689f38');
+      textSize(9);
+      textAlign(LEFT, TOP);
+      let preview = d.planting[0];
+      if (preview.length > 38) preview = preview.substring(0, 36) + "...";
+      text(preview, cx + 12, dotY);
+    }
+
+    // Click hint
+    fill('#81c784');
+    textSize(8);
+    textAlign(RIGHT, BOTTOM);
+    text("Click for details", cx + cardW - 8, cy + cardH - 6);
+  }
+}
+
+function drawExpandedMonth() {
+  let startY = headerH + legendH + 52;
+  let d = DATA[expandedMonth];
+  let mx = 20;
+  let my = startY + scrollOffset;
+  let contentW = min(width - 40, 700);
+  let cx = (width - contentW) / 2;
+
+  // Month title
+  fill('#2e7d32');
+  noStroke();
+  rect(cx, my, contentW, 44, 12, 12, 0, 0);
+  fill('#fff');
+  textSize(22);
+  textAlign(LEFT, CENTER);
+  textStyle(BOLD);
+  text(MONTHS[expandedMonth], cx + 16, my + 22);
+  textStyle(NORMAL);
+
+  // Frost info
+  let frost = FROST[selectedZone];
+  let isFrostFree = expandedMonth >= frost.springMonth && expandedMonth <= frost.fallMonth;
+  textSize(12);
+  textAlign(RIGHT, CENTER);
+  if (!isFrostFree) {
+    fill('#bbdefb');
+    text("Frost likely  |  " + selectedZone, cx + contentW - 16, my + 22);
+  } else {
+    fill('#c8e6c9');
+    text("Frost-free  |  " + selectedZone, cx + contentW - 16, my + 22);
+  }
+
+  my += 54;
+
+  // Sections
+  my = drawSection(cx, my, contentW, "Planting", COLORS.planting, d.planting, "Nothing to plant this month");
+  my = drawSection(cx, my, contentW, "Maintenance", COLORS.maintenance, d.maintenance, "No maintenance tasks");
+  my = drawSection(cx, my, contentW, "What's Blooming", COLORS.blooming, d.blooming, "No blooms this month");
+
+  // Navigation buttons
+  my += 15;
+  let navW = 120;
+  if (expandedMonth > 0) {
+    fill('#81c784');
+    noStroke();
+    rect(cx, my, navW, 36, 8);
+    fill('#1b5e20');
+    textSize(13);
+    textAlign(CENTER, CENTER);
+    text("< " + SHORT[expandedMonth - 1], cx + navW / 2, my + 18);
+  }
+  if (expandedMonth < 11) {
+    fill('#81c784');
+    noStroke();
+    rect(cx + contentW - navW, my, navW, 36, 8);
+    fill('#1b5e20');
+    textSize(13);
+    textAlign(CENTER, CENTER);
+    text(SHORT[expandedMonth + 1] + " >", cx + contentW - navW / 2, my + 18);
+  }
+}
+
+function drawSection(x, y, w, title, col, items, emptyMsg) {
+  // Section header
+  fill('#ffffff');
+  noStroke();
+  rect(x, y, w, 36, 8, 8, 0, 0);
+  fill(col);
+  rect(x, y, 5, 36, 4, 0, 0, 4);
+  fill(col);
+  textSize(15);
+  textAlign(LEFT, CENTER);
+  textStyle(BOLD);
+  text(title, x + 16, y + 18);
+  textStyle(NORMAL);
+
+  let iy = y + 40;
+
+  if (items.length === 0) {
+    fill('#f5f5f5');
+    rect(x, iy, w, 32, 0, 0, 8, 8);
+    fill('#999');
+    textSize(12);
+    textAlign(LEFT, CENTER);
+    text(emptyMsg, x + 16, iy + 16);
+    iy += 40;
+  } else {
+    for (let i = 0; i < items.length; i++) {
+      let isLast = i === items.length - 1;
+      let itemH = 34;
+      fill(i % 2 === 0 ? '#fafafa' : '#f5f5f5');
+      if (isLast) {
+        rect(x, iy, w, itemH, 0, 0, 8, 8);
+      } else {
+        rect(x, iy, w, itemH);
+      }
+      // Dot
+      fill(col);
+      noStroke();
+      ellipse(x + 20, iy + itemH / 2, 8);
+      // Text
+      fill('#333');
+      textSize(12);
+      textAlign(LEFT, CENTER);
+      let txt = items[i];
+      // Wrap long text
+      let maxW = w - 44;
+      if (textWidth(txt) > maxW) {
+        txt = txt.substring(0, floor(maxW / 7)) + "...";
+      }
+      text(txt, x + 32, iy + itemH / 2);
+      iy += itemH;
+    }
+    iy += 8;
+  }
+  return iy;
+}
+
+function mousePressed() {
+  // Zone selector in header
+  let zx = width / 2 - 120 + 78;
+  for (let z of ["Zone 3", "Zone 4", "Zone 5"]) {
+    let tw = textWidth(z) + 16;
+    if (mouseX > zx && mouseX < zx + tw && mouseY > headerH / 2 - 13 && mouseY < headerH / 2 + 13) {
+      selectedZone = z;
+      return;
+    }
+    zx += tw + 6;
+  }
+
+  // Back button
+  if (expandedMonth >= 0) {
+    let bw = 100;
+    let ly = headerH + 8;
+    if (mouseX > width - bw - 15 && mouseX < width - 15 && mouseY > ly + 3 && mouseY < ly + 29) {
+      expandedMonth = -1;
+      scrollOffset = 0;
+      return;
+    }
+
+    // Month navigation
+    let startY = headerH + legendH + 52;
+    let contentW = min(width - 40, 700);
+    let cx = (width - contentW) / 2;
+    let d = DATA[expandedMonth];
+    // Estimate nav button Y position
+    let totalItems = d.planting.length + d.maintenance.length + d.blooming.length;
+    let estNavY = startY + scrollOffset + 54 + (max(totalItems, 3)) * 34 + 130 + 15;
+
+    // Rough click area for prev/next
+    if (mouseY > estNavY - 40 && mouseY < estNavY + 50) {
+      if (mouseX < width / 2 && expandedMonth > 0) {
+        expandedMonth--;
+        scrollOffset = 0;
+        return;
+      }
+      if (mouseX > width / 2 && expandedMonth < 11) {
+        expandedMonth++;
+        scrollOffset = 0;
+        return;
+      }
+    }
+    return;
+  }
+
+  // Calendar grid click
+  let startY = headerH + legendH + 52;
+  let cols = width > 700 ? 4 : (width > 450 ? 3 : 2);
+  let cardW = (width - 20 - (cols - 1) * 10) / cols;
+  let cardH = 140;
+
+  for (let i = 0; i < 12; i++) {
+    let col = i % cols;
+    let row = floor(i / cols);
+    let cxc = 10 + col * (cardW + 10);
+    let cy = startY + row * (cardH + 10) + scrollOffset;
+
+    if (mouseX > cxc && mouseX < cxc + cardW && mouseY > cy && mouseY < cy + cardH && mouseY > startY) {
+      expandedMonth = i;
+      scrollOffset = 0;
+      return;
+    }
+  }
+}
+
+function mouseWheel(event) {
+  scrollOffset -= event.delta;
+  scrollOffset = min(scrollOffset, 0);
+  return false;
+}
+
+function keyPressed() {
+  if (keyCode === ESCAPE && expandedMonth >= 0) {
+    expandedMonth = -1;
+    scrollOffset = 0;
+  }
+  if (keyCode === LEFT_ARROW && expandedMonth > 0) {
+    expandedMonth--;
+    scrollOffset = 0;
+  }
+  if (keyCode === RIGHT_ARROW && expandedMonth >= 0 && expandedMonth < 11) {
+    expandedMonth++;
+    scrollOffset = 0;
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloom Calendar - Minnesota Native Plants</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #e8f5e9;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+  #canvas-container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+<div id="canvas-container"></div>
+<script>
+// Bloom Calendar MicroSim
+
+const PRIMARY = [46, 125, 50];
+const BG = [232, 245, 233];
+
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+const TYPE_COLORS = {
+  wildflower: [142, 68, 173],
+  grass: [196, 160, 0],
+  shrub: [46, 125, 50],
+  tree: [121, 85, 72]
+};
+
+const plants = [
+  { name: "Bloodroot", type: "wildflower", start: 3, end: 4 },
+  { name: "Trillium", type: "wildflower", start: 3, end: 4 },
+  { name: "Wild Ginger", type: "wildflower", start: 3, end: 5 },
+  { name: "Hepatica", type: "wildflower", start: 2, end: 3 },
+  { name: "Virginia Bluebell", type: "wildflower", start: 3, end: 4 },
+  { name: "Columbine", type: "wildflower", start: 4, end: 5 },
+  { name: "Blue Flag Iris", type: "wildflower", start: 5, end: 6 },
+  { name: "Milkweed", type: "wildflower", start: 5, end: 7 },
+  { name: "Wild Bergamot", type: "wildflower", start: 6, end: 8 },
+  { name: "Purple Coneflower", type: "wildflower", start: 5, end: 7 },
+  { name: "Black-Eyed Susan", type: "wildflower", start: 6, end: 8 },
+  { name: "Blazing Star", type: "wildflower", start: 6, end: 8 },
+  { name: "Cardinal Flower", type: "wildflower", start: 6, end: 8 },
+  { name: "Joe-Pye Weed", type: "wildflower", start: 6, end: 8 },
+  { name: "Goldenrod", type: "wildflower", start: 7, end: 9 },
+  { name: "New England Aster", type: "wildflower", start: 7, end: 9 },
+  { name: "Smooth Aster", type: "wildflower", start: 7, end: 9 },
+  { name: "Bottle Gentian", type: "wildflower", start: 7, end: 9 },
+  { name: "Big Bluestem", type: "grass", start: 7, end: 8 },
+  { name: "Little Bluestem", type: "grass", start: 7, end: 8 },
+  { name: "Switchgrass", type: "grass", start: 6, end: 8 },
+  { name: "Prairie Dropseed", type: "grass", start: 7, end: 8 },
+  { name: "Ninebark", type: "shrub", start: 4, end: 5 },
+  { name: "Elderberry", type: "shrub", start: 5, end: 6 },
+  { name: "Dogwood", type: "shrub", start: 4, end: 5 },
+  { name: "Serviceberry", type: "tree", start: 3, end: 4 },
+  { name: "Redbud", type: "tree", start: 3, end: 4 },
+];
+
+let selectedMonth = -1;
+let filters = { wildflower: true, grass: true, shrub: true, tree: true };
+let checkboxes = [];
+let scrollOffset = 0;
+let maxScroll = 0;
+
+function setup() {
+  let cnv = createCanvas(windowWidth, max(750, windowHeight));
+  cnv.parent('canvas-container');
+  textFont('Segoe UI');
+  cnv.mouseWheel(handleScroll);
+}
+
+function handleScroll(e) {
+  scrollOffset = constrain(scrollOffset + e.delta, 0, maxScroll);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(750, windowHeight));
+  scrollOffset = 0;
+}
+
+function getFilteredPlants() {
+  return plants.filter(p => filters[p.type]);
+}
+
+function draw() {
+  background(BG);
+  let filtered = getFilteredPlants();
+
+  // Layout
+  let marginL = 170;
+  let marginR = 30;
+  let topY = 110;
+  let rowH = 26;
+  let chartW = width - marginL - marginR;
+  let monthW = chartW / 12;
+
+  // Title
+  fill(PRIMARY);
+  noStroke();
+  textAlign(CENTER, TOP);
+  textSize(22);
+  textStyle(BOLD);
+  text("Minnesota Native Plants Bloom Calendar", width / 2, 12);
+  textStyle(NORMAL);
+  textSize(13);
+  fill(80);
+  text("Click a month to highlight blooming plants", width / 2, 40);
+
+  // Filter checkboxes
+  drawFilters(marginL, 62);
+
+  // Month headers
+  textSize(12);
+  textStyle(BOLD);
+  for (let m = 0; m < 12; m++) {
+    let mx = marginL + m * monthW;
+    let isSelected = selectedMonth === m;
+
+    if (isSelected) {
+      fill(PRIMARY[0], PRIMARY[1], PRIMARY[2], 30);
+      noStroke();
+      rect(mx, topY - 25, monthW, filtered.length * rowH + 30);
+    }
+
+    fill(isSelected ? PRIMARY : [80, 80, 80]);
+    textAlign(CENTER, CENTER);
+    text(MONTHS[m], mx + monthW / 2, topY - 14);
+  }
+  textStyle(NORMAL);
+
+  // Grid lines
+  stroke(200);
+  strokeWeight(0.5);
+  for (let m = 0; m <= 12; m++) {
+    let lx = marginL + m * monthW;
+    line(lx, topY, lx, topY + filtered.length * rowH);
+  }
+
+  // Clip area for scrollable plant rows
+  let visibleH = height - topY - 100;
+  let totalH = filtered.length * rowH;
+  maxScroll = max(0, totalH - visibleH);
+
+  // Plant rows
+  push();
+  // We'll just draw all and let overflow be hidden by checking bounds
+  for (let i = 0; i < filtered.length; i++) {
+    let p = filtered[i];
+    let py = topY + i * rowH - scrollOffset;
+
+    if (py < topY - rowH || py > height - 80) continue;
+
+    // Alternating row bg
+    if (i % 2 === 0) {
+      fill(255, 255, 255, 60);
+      noStroke();
+      rect(0, py, width, rowH);
+    }
+
+    // Plant name
+    let tc = TYPE_COLORS[p.type];
+    let dimmed = selectedMonth >= 0 && (selectedMonth < p.start || selectedMonth > p.end);
+    let alpha = dimmed ? 80 : 255;
+
+    fill(tc[0], tc[1], tc[2], alpha);
+    textAlign(RIGHT, CENTER);
+    textSize(12);
+    text(p.name, marginL - 8, py + rowH / 2);
+
+    // Bloom bar
+    let bx = marginL + p.start * monthW;
+    let bw = (p.end - p.start + 1) * monthW;
+    fill(tc[0], tc[1], tc[2], dimmed ? 40 : 180);
+    noStroke();
+    rect(bx, py + 4, bw, rowH - 8, 4);
+
+    // Highlight selected month intersection
+    if (selectedMonth >= 0 && selectedMonth >= p.start && selectedMonth <= p.end) {
+      fill(tc[0], tc[1], tc[2], 255);
+      let hx = marginL + selectedMonth * monthW;
+      rect(hx, py + 4, monthW, rowH - 8, 4);
+    }
+  }
+  pop();
+
+  // Pollinator activity bar
+  drawPollinatorBar(marginL, monthW, chartW);
+
+  // Legend
+  drawLegend();
+
+  // Scroll indicator
+  if (maxScroll > 0) {
+    let barH = visibleH * (visibleH / totalH);
+    let barY = topY + (scrollOffset / maxScroll) * (visibleH - barH);
+    fill(180, 180, 180, 120);
+    noStroke();
+    rect(width - 12, barY, 6, barH, 3);
+  }
+}
+
+function drawPollinatorBar(marginL, monthW, chartW) {
+  let barY = height - 75;
+  let barH = 30;
+
+  fill(PRIMARY);
+  textAlign(RIGHT, CENTER);
+  textSize(11);
+  textStyle(BOLD);
+  text("Pollinator", marginL - 8, barY + barH / 2 - 6);
+  text("Activity", marginL - 8, barY + barH / 2 + 6);
+  textStyle(NORMAL);
+
+  // Count blooming plants per month
+  let filtered = getFilteredPlants();
+  let counts = [];
+  let maxCount = 0;
+  for (let m = 0; m < 12; m++) {
+    let c = 0;
+    for (let p of filtered) {
+      if (m >= p.start && m <= p.end) c++;
+    }
+    counts.push(c);
+    maxCount = max(maxCount, c);
+  }
+
+  for (let m = 0; m < 12; m++) {
+    let mx = marginL + m * monthW;
+    let intensity = maxCount > 0 ? counts[m] / maxCount : 0;
+    let r = lerp(232, 255, intensity);
+    let g = lerp(245, 152, intensity);
+    let b = lerp(233, 0, intensity);
+    fill(r, g, b);
+    noStroke();
+    rect(mx + 2, barY, monthW - 4, barH, 4);
+
+    fill(intensity > 0.5 ? 255 : 80);
+    textAlign(CENTER, CENTER);
+    textSize(11);
+    textStyle(BOLD);
+    text(counts[m], mx + monthW / 2, barY + barH / 2);
+    textStyle(NORMAL);
+  }
+}
+
+function drawFilters(x, y) {
+  let types = ["wildflower", "grass", "shrub", "tree"];
+  let labels = ["Wildflower", "Grass", "Shrub", "Tree"];
+  let bx = x;
+
+  textSize(12);
+  textStyle(BOLD);
+  fill(80);
+  textAlign(LEFT, CENTER);
+  text("Filter:", bx, y + 10);
+  bx += 50;
+
+  checkboxes = [];
+  for (let i = 0; i < types.length; i++) {
+    let tc = TYPE_COLORS[types[i]];
+    let isOn = filters[types[i]];
+
+    // Checkbox
+    stroke(tc);
+    strokeWeight(2);
+    fill(isOn ? tc : [255, 255, 255]);
+    rect(bx, y + 2, 16, 16, 3);
+    if (isOn) {
+      stroke(255);
+      strokeWeight(2.5);
+      line(bx + 3, y + 10, bx + 7, y + 14);
+      line(bx + 7, y + 14, bx + 13, y + 5);
+    }
+    noStroke();
+
+    fill(tc);
+    textAlign(LEFT, CENTER);
+    textSize(12);
+    textStyle(NORMAL);
+    text(labels[i], bx + 22, y + 10);
+
+    checkboxes.push({ x: bx, y: y + 2, w: 16 + textWidth(labels[i]) + 22, h: 16, type: types[i] });
+    bx += textWidth(labels[i]) + 46;
+  }
+}
+
+function drawLegend() {
+  // Minimal - colors are in filter area
+}
+
+function mousePressed() {
+  // Check filter checkboxes
+  for (let cb of checkboxes) {
+    if (mouseX > cb.x && mouseX < cb.x + cb.w && mouseY > cb.y && mouseY < cb.y + cb.h) {
+      filters[cb.type] = !filters[cb.type];
+      return;
+    }
+  }
+
+  // Check month click
+  let marginL = 170;
+  let marginR = 30;
+  let chartW = width - marginL - marginR;
+  let monthW = chartW / 12;
+  let topY = 110;
+
+  if (mouseY > topY - 30 && mouseY < height - 80 && mouseX > marginL && mouseX < marginL + chartW) {
+    let m = floor((mouseX - marginL) / monthW);
+    if (m >= 0 && m < 12) {
+      selectedMonth = (selectedMonth === m) ? -1 : m;
+    }
+  }
+}
+
+function touchStarted() {
+  mousePressed();
+  return false;
+}
+</script>
+</body>
+</html>

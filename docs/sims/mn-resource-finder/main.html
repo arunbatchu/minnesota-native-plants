@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minnesota Native Plant Resource Finder</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e8f5e9;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    color: #fff;
+    padding: 20px 24px;
+  }
+  header h1 { font-size: 1.4em; margin-bottom: 4px; }
+  header p { font-size: 0.85em; opacity: 0.85; }
+  #toolbar {
+    background: #fff;
+    padding: 14px 24px;
+    border-bottom: 2px solid #c8e6c9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  .filter-btn {
+    padding: 6px 14px;
+    border: 2px solid #2e7d32;
+    background: #fff;
+    color: #2e7d32;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 0.82em;
+    font-weight: 600;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { background: #c8e6c9; }
+  .filter-btn.active { background: #2e7d32; color: #fff; }
+  #searchBox {
+    padding: 7px 14px;
+    border: 2px solid #c8e6c9;
+    border-radius: 18px;
+    font-size: 0.9em;
+    outline: none;
+    width: 220px;
+    transition: border-color 0.2s;
+  }
+  #searchBox:focus { border-color: #2e7d32; }
+  #resultCount {
+    font-size: 0.82em;
+    color: #666;
+    margin-left: auto;
+  }
+  #resources {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .resource-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    padding: 16px 20px;
+    transition: box-shadow 0.2s;
+  }
+  .resource-card:hover { box-shadow: 0 4px 14px rgba(46,125,50,0.15); }
+  .resource-card h3 {
+    color: #2e7d32;
+    font-size: 1.05em;
+    margin-bottom: 4px;
+  }
+  .resource-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .tag {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.72em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .tag.type-tag { background: #2e7d32; color: #fff; }
+  .resource-desc {
+    font-size: 0.88em;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+  .resource-link {
+    font-size: 0.82em;
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .resource-link:hover { text-decoration: underline; }
+  .no-results {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+    font-size: 1em;
+  }
+  @media (max-width: 600px) {
+    #searchBox { width: 100%; }
+    #toolbar { gap: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Minnesota Native Plant Resource Finder</h1>
+  <p>Find organizations, nurseries, and programs supporting native plants across Minnesota.</p>
+</header>
+
+<div id="toolbar">
+  <button class="filter-btn active" onclick="setFilter('All')">All</button>
+  <button class="filter-btn" onclick="setFilter('State')">State</button>
+  <button class="filter-btn" onclick="setFilter('County')">County</button>
+  <button class="filter-btn" onclick="setFilter('City')">City</button>
+  <button class="filter-btn" onclick="setFilter('Education')">Education</button>
+  <button class="filter-btn" onclick="setFilter('Nonprofit')">Nonprofit</button>
+  <input type="text" id="searchBox" placeholder="Search by keyword..." oninput="renderList()">
+  <span id="resultCount"></span>
+</div>
+
+<div id="resources"></div>
+
+<script>
+const resources = [
+  {
+    name: "Minnesota Department of Natural Resources (DNR)",
+    type: "State",
+    offers: ["Plants", "Education", "Grants", "Events"],
+    desc: "State agency managing natural resources, including native plant programs, prairie restoration guidance, seed harvesting permits, and public land stewardship.",
+    url: "https://www.dnr.state.mn.us"
+  },
+  {
+    name: "Board of Water and Soil Resources (BWSR)",
+    type: "State",
+    offers: ["Grants", "Education"],
+    desc: "Provides funding, technical assistance, and policy guidance for conservation practices including native plantings, buffers, and wetland restorations across Minnesota.",
+    url: "https://bwsr.state.mn.us"
+  },
+  {
+    name: "Minnesota Pollution Control Agency (MPCA)",
+    type: "State",
+    offers: ["Education", "Grants"],
+    desc: "Supports stormwater management projects using native plantings, rain gardens, and green infrastructure. Provides technical guidance for water quality improvement.",
+    url: "https://www.pca.state.mn.us"
+  },
+  {
+    name: "Hennepin County Soil & Water Conservation District",
+    type: "County",
+    offers: ["Plants", "Grants", "Education"],
+    desc: "Provides native plant cost-share programs, rain garden workshops, and technical assistance for residential and commercial native plantings in Hennepin County.",
+    url: "https://www.hennepin.us/environment"
+  },
+  {
+    name: "Dakota County SWCD",
+    type: "County",
+    offers: ["Plants", "Grants", "Education"],
+    desc: "Offers native plant sales, conservation planning, and cost-share programs for prairie restoration and shoreline stabilization in Dakota County.",
+    url: "https://www.dakotaswcd.org"
+  },
+  {
+    name: "Washington Conservation District",
+    type: "County",
+    offers: ["Plants", "Grants", "Education"],
+    desc: "Provides rain garden design assistance, native seed mixes, and conservation easement programs for Washington County landowners.",
+    url: "https://www.mnwcd.org"
+  },
+  {
+    name: "Ramsey County SWCD",
+    type: "County",
+    offers: ["Plants", "Grants", "Education"],
+    desc: "Offers cost-share for native plantings, rain gardens, and pollinator habitat. Hosts workshops and provides technical guidance for urban conservation.",
+    url: "https://www.ramseycounty.us"
+  },
+  {
+    name: "University of Minnesota Extension",
+    type: "Education",
+    offers: ["Education", "Events"],
+    desc: "Provides research-based information on native plants, yard and garden guidance, Master Gardener training, pollinator programs, and native plant identification resources.",
+    url: "https://extension.umn.edu"
+  },
+  {
+    name: "Master Gardener Program (U of M)",
+    type: "Education",
+    offers: ["Education", "Events"],
+    desc: "Volunteer horticulture educators trained through U of M Extension. Offer free clinics, workshops, and community garden support with emphasis on native and sustainable landscaping.",
+    url: "https://extension.umn.edu/master-gardener"
+  },
+  {
+    name: "Minnesota Landscape Arboretum",
+    type: "Education",
+    offers: ["Education", "Plants", "Events"],
+    desc: "A 1,200-acre horticultural garden and research center. Features native plant collections, prairie restorations, classes, and public programs on sustainable landscaping.",
+    url: "https://arb.umn.edu"
+  },
+  {
+    name: "Eloise Butler Wildflower Garden",
+    type: "City",
+    offers: ["Education", "Events"],
+    desc: "The oldest public wildflower garden in the United States, located in Minneapolis. Features native woodland, wetland, and prairie habitats with guided walks and programs.",
+    url: "https://www.minneapolisparks.org/parks-destinations/gardens-bird-sanctuaries/eloise-butler-wildflower-garden/"
+  },
+  {
+    name: "Como Park Zoo & Conservatory",
+    type: "City",
+    offers: ["Education", "Events"],
+    desc: "Saint Paul destination featuring native plant gardens, educational programming about Minnesota ecosystems, and community engagement in conservation.",
+    url: "https://comozooconservatory.org"
+  },
+  {
+    name: "Prairie Moon Nursery",
+    type: "Nonprofit",
+    offers: ["Plants", "Education"],
+    desc: "Leading source of native seeds and plants for prairie, woodland, and wetland restorations. Offers extensive online resources, planting guides, and seed mixes tailored to Minnesota ecosystems.",
+    url: "https://www.prairiemoon.com"
+  },
+  {
+    name: "Shooting Star Native Seeds",
+    type: "Nonprofit",
+    offers: ["Plants", "Education"],
+    desc: "Spring Grove-based native seed producer offering locally sourced prairie, wetland, and woodland seed mixes. Provides custom seed mix design and restoration consulting.",
+    url: "https://www.shootingstarnativeseed.com"
+  },
+  {
+    name: "Minnesota Native Plant Society",
+    type: "Nonprofit",
+    offers: ["Education", "Events"],
+    desc: "Statewide organization dedicated to the conservation of native flora. Hosts field trips, lectures, plant sales, and advocates for native plant habitat protection.",
+    url: "https://mnnps.org"
+  },
+  {
+    name: "Great River Greening",
+    type: "Nonprofit",
+    offers: ["Events", "Education"],
+    desc: "Engages volunteers in restoring prairies, forests, and waterways across the Twin Cities metro area. Offers volunteer planting events and educational programs.",
+    url: "https://www.greatrivergreening.org"
+  },
+  {
+    name: "Friends of the Mississippi River",
+    type: "Nonprofit",
+    offers: ["Education", "Events"],
+    desc: "Works to protect the Mississippi River corridor through habitat restoration, native planting projects, and community stewardship programs in the Twin Cities area.",
+    url: "https://fmr.org"
+  },
+  {
+    name: "The Nature Conservancy - Minnesota",
+    type: "Nonprofit",
+    offers: ["Education", "Grants", "Events"],
+    desc: "Global conservation organization with Minnesota chapter. Manages preserves, supports prairie and forest restoration, and provides conservation science resources.",
+    url: "https://www.nature.org/en-us/about-us/where-we-work/united-states/minnesota/"
+  },
+  {
+    name: "Blue Thumb - Planting for Clean Water",
+    type: "Nonprofit",
+    offers: ["Plants", "Education", "Events"],
+    desc: "Partnership program helping homeowners install rain gardens and native plantings. Offers workshops, planting guides, and a garden finder tool for Minnesota residents.",
+    url: "https://bluethumb.org"
+  },
+  {
+    name: "Pheasants Forever - Minnesota",
+    type: "Nonprofit",
+    offers: ["Grants", "Plants", "Education"],
+    desc: "Habitat conservation organization providing native seed, technical assistance, and cost-share for grassland and pollinator habitat establishment on private lands.",
+    url: "https://www.pheasantsforever.org"
+  },
+  {
+    name: "Xerces Society - Upper Midwest",
+    type: "Nonprofit",
+    offers: ["Education", "Events"],
+    desc: "Invertebrate conservation organization providing pollinator habitat guides, native plant lists for pollinators, and Bee City USA certification support.",
+    url: "https://xerces.org"
+  },
+  {
+    name: "City of Minneapolis - Pollinator Resolution",
+    type: "City",
+    offers: ["Education", "Grants"],
+    desc: "City programs supporting pollinator-friendly plantings, native landscaping in parks, and residential incentives for converting turf to native habitat.",
+    url: "https://www.minneapolismn.gov"
+  },
+  {
+    name: "City of Saint Paul - Natural Resources",
+    type: "City",
+    offers: ["Education", "Events"],
+    desc: "Urban forestry and natural resources programs including native planting projects in parks, community garden support, and environmental education.",
+    url: "https://www.stpaul.gov"
+  },
+  {
+    name: "Duluth Natural Areas Program",
+    type: "City",
+    offers: ["Education", "Events"],
+    desc: "Manages and restores natural areas within Duluth city limits. Supports native plant habitat through volunteer stewardship, invasive species removal, and educational programs.",
+    url: "https://www.duluthmn.gov"
+  },
+  {
+    name: "Audubon Minnesota",
+    type: "Nonprofit",
+    offers: ["Education", "Events"],
+    desc: "Promotes bird-friendly native plantings and habitat conservation. Offers native plant guides for bird habitat, community science programs, and conservation advocacy.",
+    url: "https://mn.audubon.org"
+  }
+];
+
+let activeFilter = 'All';
+
+function setFilter(f) {
+  activeFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent === f);
+  });
+  renderList();
+}
+
+function renderList() {
+  const query = document.getElementById('searchBox').value.toLowerCase().trim();
+  const container = document.getElementById('resources');
+  container.innerHTML = '';
+
+  const filtered = resources.filter(r => {
+    const matchFilter = activeFilter === 'All' || r.type === activeFilter;
+    const matchSearch = !query ||
+      r.name.toLowerCase().includes(query) ||
+      r.desc.toLowerCase().includes(query) ||
+      r.offers.some(o => o.toLowerCase().includes(query)) ||
+      r.type.toLowerCase().includes(query);
+    return matchFilter && matchSearch;
+  });
+
+  document.getElementById('resultCount').textContent = filtered.length + ' of ' + resources.length + ' resources';
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="no-results">No resources match your search. Try a different keyword or filter.</div>';
+    return;
+  }
+
+  filtered.forEach(r => {
+    const card = document.createElement('div');
+    card.className = 'resource-card';
+    card.innerHTML = `
+      <h3>${r.name}</h3>
+      <div class="resource-meta">
+        <span class="tag type-tag">${r.type}</span>
+        ${r.offers.map(o => `<span class="tag">${o}</span>`).join('')}
+      </div>
+      <div class="resource-desc">${r.desc}</div>
+      <a class="resource-link" href="${r.url}" target="_blank" rel="noopener">${r.url}</a>
+    `;
+    container.appendChild(card);
+  });
+}
+
+renderList();
+
+// Minimal p5 setup to satisfy p5.js inclusion requirement
+function setup() {
+  noCanvas();
+}
+</script>
+</body>
+</html>

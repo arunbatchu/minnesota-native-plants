@@ -1,0 +1,152 @@
+site_name: Minnesota Native Plants
+repo_url: https://github.com/arunbatchu/minnesota-native-plants
+site_url: https://arunbatchu.github.io/minnesota-native-plants/
+site_description: An interactive intelligent textbook about native plants in Minnesota with interactive simulations and a focus on systems thinking.
+site_author: Arun Batchu
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Chapters:
+    - 1-Introduction to Native Plants:
+      - Content: chapters/01-intro-native-plants-ecology/index.md
+      - Quiz: chapters/01-intro-native-plants-ecology/quiz.md
+    - 2-Ecoregions and Growing Conditions:
+      - Content: chapters/02-ecoregions-growing-conditions/index.md
+      - Quiz: chapters/02-ecoregions-growing-conditions/quiz.md
+    - 3-Prairie Plants and Grasslands:
+      - Content: chapters/03-prairie-plants-grasslands/index.md
+      - Quiz: chapters/03-prairie-plants-grasslands/quiz.md
+    - 4-Woodland and Forest Plants:
+      - Content: chapters/04-woodland-forest-plants/index.md
+      - Quiz: chapters/04-woodland-forest-plants/quiz.md
+    - 5-Wetland and Shoreline Plants:
+      - Content: chapters/05-wetland-shoreline-plants/index.md
+      - Quiz: chapters/05-wetland-shoreline-plants/quiz.md
+    - 6-Pollinators and Wildlife:
+      - Content: chapters/06-pollinators-wildlife/index.md
+      - Quiz: chapters/06-pollinators-wildlife/quiz.md
+    - 7-Plant Identification Skills:
+      - Content: chapters/07-plant-identification-skills/index.md
+      - Quiz: chapters/07-plant-identification-skills/quiz.md
+    - 8-Invasive Species Identification:
+      - Content: chapters/08-invasive-species-id/index.md
+      - Quiz: chapters/08-invasive-species-id/quiz.md
+    - 9-Invasive Species Removal:
+      - Content: chapters/09-invasive-species-removal/index.md
+      - Quiz: chapters/09-invasive-species-removal/quiz.md
+    - 10-Garden Design With Native Plants:
+      - Content: chapters/10-garden-design-native-plants/index.md
+      - Quiz: chapters/10-garden-design-native-plants/quiz.md
+    - 11-Planting, Maintenance, Sourcing:
+      - Content: chapters/11-planting-maintenance-sourcing/index.md
+      - Quiz: chapters/11-planting-maintenance-sourcing/quiz.md
+    - 12-Ecological Restoration:
+      - Content: chapters/12-ecological-restoration/index.md
+      - Quiz: chapters/12-ecological-restoration/quiz.md
+    - 13-Cultural and Indigenous Uses:
+      - Content: chapters/13-cultural-indigenous-uses/index.md
+      - Quiz: chapters/13-cultural-indigenous-uses/quiz.md
+    - 14-Minnesota Resources:
+      - Content: chapters/14-minnesota-resources/index.md
+      - Quiz: chapters/14-minnesota-resources/quiz.md
+    - 15-Systems Thinking in Ecology:
+      - Content: chapters/15-systems-thinking-ecology/index.md
+      - Quiz: chapters/15-systems-thinking-ecology/quiz.md
+    - 16-Critical Thinking and Misinfo:
+      - Content: chapters/16-critical-thinking-misinfo/index.md
+      - Quiz: chapters/16-critical-thinking-misinfo/quiz.md
+    - 17-Capstone Projects:
+      - Content: chapters/17-capstone-projects/index.md
+      - Quiz: chapters/17-capstone-projects/quiz.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept Enumeration: learning-graph/concept-list.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Mascot Style Guide: learning-graph/mascot-test.md
+  - MicroSims:
+    - Graph Viewer: sims/graph-viewer/index.md
+    - Native vs Invasive Sorter: sims/native-vs-invasive-sorter/index.md
+    - MN Ecoregion Explorer: sims/mn-ecoregion-explorer/index.md
+    - Hardiness Zone Lookup: sims/hardiness-zone-lookup/index.md
+    - Prairie Root Depth: sims/prairie-root-depth/index.md
+    - Fire Ecology Simulator: sims/fire-ecology-sim/index.md
+    - Forest Layers Explorer: sims/forest-layers-explorer/index.md
+    - Rain Garden Designer: sims/rain-garden-designer/index.md
+    - Bloom Calendar: sims/bloom-calendar/index.md
+    - Pollinator Match: sims/pollinator-match/index.md
+    - Leaf Shape Identifier: sims/leaf-shape-identifier/index.md
+    - Invasive Species Flashcards: sims/invasive-species-flashcards/index.md
+    - Removal Strategy Selector: sims/removal-strategy-selector/index.md
+    - Site Assessment Tool: sims/site-assessment-tool/index.md
+    - Garden Layout Planner: sims/garden-layout-planner/index.md
+    - Planting Calendar: sims/planting-calendar/index.md
+    - Restoration Timeline: sims/restoration-timeline-sim/index.md
+    - Ethnobotany Explorer: sims/ethnobotany-explorer/index.md
+    - MN Resource Finder: sims/mn-resource-finder/index.md
+    - Feedback Loop Explorer: sims/feedback-loop-explorer/index.md
+    - Source Credibility Evaluator: sims/source-credibility-evaluator/index.md
+    - Garden Design Planner: sims/garden-design-planner/index.md
+  - Glossary: glossary.md
+  - FAQ: faq.md
+  - License: license.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  logo: img/mascot/neutral.png
+  favicon: img/favicon.ico
+  palette:
+    primary: 'green'
+    accent: 'white'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/mascot.css
+
+extra_javascript:
+  - js/mathjax-config.js
+  - https://unpkg.com/mathjax@3/es5/tex-chtml.js
+
+watch:
+  - docs
+  - mkdocs.yml
+
+copyright: Copyright &copy; 2025 Arun Batchu. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+
+extra:
+  generator: false
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: Minnesota Native Plants
+  textbook_version: "1.0"
