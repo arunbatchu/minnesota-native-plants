@@ -107,10 +107,10 @@ flowchart LR
 
     SUB --> EMR --> TRN --> UPL
 
-    style SUB fill:#1E90FF,color:#fff
-    style EMR fill:#4682B4,color:#fff
-    style TRN fill:#228B22,color:#fff
-    style UPL fill:#DAA520,color:#fff
+    style SUB fill:#2196F3,color:#fff
+    style EMR fill:#03A9F4,color:#000
+    style TRN fill:#4CAF50,color:#fff
+    style UPL fill:#FFC107,color:#000
 ```
 
 Plants used for shoreline work fall into zones based on their relationship to the water line:
@@ -363,14 +363,14 @@ flowchart LR
     E --> H["Clean Water<br/>Released<br/>Downstream"]
     H --> I["Groundwater<br/>Recharge"]
 
-    style A fill:#4682B4,color:#fff
-    style B fill:#DEB887,color:#000
-    style C fill:#228B22,color:#fff
-    style D fill:#8B4513,color:#fff
-    style E fill:#4169E1,color:#fff
-    style G fill:#DC143C,color:#fff
-    style H fill:#00CED1,color:#fff
-    style I fill:#1E90FF,color:#fff
+    style A fill:#2196F3,color:#fff
+    style B fill:#FF9800,color:#000
+    style C fill:#4CAF50,color:#fff
+    style D fill:#795548,color:#fff
+    style E fill:#2196F3,color:#fff
+    style G fill:#E91E63,color:#fff
+    style H fill:#009688,color:#fff
+    style I fill:#03A9F4,color:#000
 ```
 
 ### Ecological Functions

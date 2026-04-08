@@ -80,15 +80,15 @@ graph TD
         B4 --> B2
     end
 
-    style A1 fill:#2d6a4f,color:#fff
-    style A2 fill:#2d6a4f,color:#fff
-    style A3 fill:#2d6a4f,color:#fff
-    style A4 fill:#2d6a4f,color:#fff
-    style A5 fill:#2d6a4f,color:#fff
-    style B1 fill:#8b0000,color:#fff
-    style B2 fill:#8b0000,color:#fff
-    style B3 fill:#8b0000,color:#fff
-    style B4 fill:#8b0000,color:#fff
+    style A1 fill:#4CAF50,color:#fff
+    style A2 fill:#4CAF50,color:#fff
+    style A3 fill:#4CAF50,color:#fff
+    style A4 fill:#4CAF50,color:#fff
+    style A5 fill:#4CAF50,color:#fff
+    style B1 fill:#F44336,color:#fff
+    style B2 fill:#F44336,color:#fff
+    style B3 fill:#F44336,color:#fff
+    style B4 fill:#F44336,color:#fff
 ```
 
 ### Positive Feedback Loops (Amplifying)
@@ -180,10 +180,10 @@ graph TD
     BR --> DR["Dams Restore<br>Stream Habitat"]
     DR --> FR["Fish & Amphibians<br>Recover"]
 
-    style W fill:#8b0000,color:#fff
-    style WR fill:#2d6a4f,color:#fff
-    style FD fill:#8b0000,color:#fff
-    style FR fill:#2d6a4f,color:#fff
+    style W fill:#F44336,color:#fff
+    style WR fill:#4CAF50,color:#fff
+    style FD fill:#F44336,color:#fff
+    style FR fill:#4CAF50,color:#fff
 ```
 
 ### Trophic Cascades in Minnesota

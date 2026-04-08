@@ -40,18 +40,18 @@ flowchart LR
     P5 -.- C5["Ch 9, 11, 12"]
     P6 -.- C6["Ch 16"]
 
-    style P1 fill:#2d6a4f,color:#fff
-    style P2 fill:#2d6a4f,color:#fff
-    style P3 fill:#2d6a4f,color:#fff
-    style P4 fill:#2d6a4f,color:#fff
-    style P5 fill:#2d6a4f,color:#fff
-    style P6 fill:#2d6a4f,color:#fff
-    style C1 fill:#eee,color:#333
-    style C2 fill:#eee,color:#333
-    style C3 fill:#eee,color:#333
-    style C4 fill:#eee,color:#333
-    style C5 fill:#eee,color:#333
-    style C6 fill:#eee,color:#333
+    style P1 fill:#4CAF50,color:#fff
+    style P2 fill:#4CAF50,color:#fff
+    style P3 fill:#4CAF50,color:#fff
+    style P4 fill:#4CAF50,color:#fff
+    style P5 fill:#4CAF50,color:#fff
+    style P6 fill:#4CAF50,color:#fff
+    style C1 fill:#607D8B,color:#fff
+    style C2 fill:#607D8B,color:#fff
+    style C3 fill:#607D8B,color:#fff
+    style C4 fill:#607D8B,color:#fff
+    style C5 fill:#607D8B,color:#fff
+    style C6 fill:#607D8B,color:#fff
 ```
 
 Use this interactive garden design planner to experiment with site conditions, select native plants, and generate a layout and maintenance plan -- a hands-on preview of the full capstone process.
@@ -578,15 +578,15 @@ flowchart TD
     E1 -->|"Reference"| E3["Resource Guide<br>Compilation<br>(Concept 288)"]
     F -->|"Yes"| F1["Invasive Removal<br>Plan<br>(Concept 286)"]
 
-    style A fill:#2d6a4f,color:#fff
-    style B1 fill:#40916c,color:#fff
-    style C2 fill:#40916c,color:#fff
-    style C3 fill:#40916c,color:#fff
-    style D2 fill:#40916c,color:#fff
-    style D3 fill:#40916c,color:#fff
-    style E2 fill:#40916c,color:#fff
-    style E3 fill:#40916c,color:#fff
-    style F1 fill:#40916c,color:#fff
+    style A fill:#4CAF50,color:#fff
+    style B1 fill:#009688,color:#fff
+    style C2 fill:#009688,color:#fff
+    style C3 fill:#009688,color:#fff
+    style D2 fill:#009688,color:#fff
+    style D3 fill:#009688,color:#fff
+    style E2 fill:#009688,color:#fff
+    style E3 fill:#009688,color:#fff
+    style F1 fill:#009688,color:#fff
 ```
 
 You may complete one project or several, depending on your goals. Here are some recommendations:

@@ -43,11 +43,11 @@ flowchart TD
     J --> K["Pollinator<br/>Reproduces"]
     K --> C
 
-    style A fill:#228B22,color:#fff
-    style C fill:#DAA520,color:#fff
-    style F fill:#DC143C,color:#fff
-    style G fill:#8B4513,color:#fff
-    style K fill:#FF8C00,color:#fff
+    style A fill:#4CAF50,color:#fff
+    style C fill:#FFC107,color:#000
+    style F fill:#F44336,color:#fff
+    style G fill:#795548,color:#fff
+    style K fill:#FF9800,color:#000
 ```
 
 Pollination is not charity -- it is a transaction. Plants offer nectar (sugar energy) and pollen (protein) as rewards, and pollinators carry pollen between flowers as they feed. This mutualism has driven the evolution of both flowers and pollinators for over 100 million years.
@@ -306,14 +306,14 @@ flowchart TD
     SEED -->|"Prey"| RAPTORS
     PLANTS -->|"Browse &<br/>Shelter"| MAMMALS["Mammals<br/>(Deer, Rabbits)"]
 
-    style PLANTS fill:#228B22,color:#fff
-    style CATER fill:#9ACD32,color:#000
-    style POLL fill:#FFD700,color:#000
-    style SONG fill:#4682B4,color:#fff
-    style SEED fill:#DEB887,color:#000
-    style RAPTORS fill:#8B0000,color:#fff
-    style MAMMALS fill:#8B4513,color:#fff
-    style PRED fill:#FF6347,color:#fff
+    style PLANTS fill:#4CAF50,color:#fff
+    style CATER fill:#8BC34A,color:#000
+    style POLL fill:#FFC107,color:#000
+    style SONG fill:#2196F3,color:#fff
+    style SEED fill:#FF9800,color:#000
+    style RAPTORS fill:#F44336,color:#fff
+    style MAMMALS fill:#795548,color:#fff
+    style PRED fill:#E91E63,color:#fff
 ```
 
 ### How Native Plants Support Birds
