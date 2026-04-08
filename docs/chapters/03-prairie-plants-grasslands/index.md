@@ -362,14 +362,14 @@ flowchart TD
     SKY --> CANOPY --> MID --> GROUND
     GROUND --> SHALLOW --> MEDIUM --> DEEP --> VDEEP
 
-    style SKY fill:#03A9F4,color:#000
-    style CANOPY fill:#8BC34A,color:#000
-    style MID fill:#4CAF50,color:#fff
-    style GROUND fill:#795548,color:#fff
-    style SHALLOW fill:#FF9800,color:#000
-    style MEDIUM fill:#795548,color:#fff
-    style DEEP fill:#795548,color:#fff
-    style VDEEP fill:#607D8B,color:#fff
+    style SKY fill:#B3E5FC,color:#000
+    style CANOPY fill:#DCEDC8,color:#000
+    style MID fill:#C8E6C9,color:#000
+    style GROUND fill:#D7CCC8,color:#000
+    style SHALLOW fill:#FFE0B2,color:#000
+    style MEDIUM fill:#D7CCC8,color:#000
+    style DEEP fill:#D7CCC8,color:#000
+    style VDEEP fill:#CFD8DC,color:#000
 ```
 
 Use the slider below to compare the root depths of native prairie plants against a typical lawn grass side by side.
@@ -456,10 +456,10 @@ flowchart TD
     D -.-> J["Underground roots,<br/>corms, & rhizomes<br/>survive the fire"]
     J -.-> H
 
-    style D fill:#F44336,color:#fff
-    style H fill:#4CAF50,color:#fff
-    style F fill:#FFC107,color:#000
-    style J fill:#795548,color:#fff
+    style D fill:#FFCDD2,color:#000
+    style H fill:#C8E6C9,color:#000
+    style F fill:#FFECB3,color:#000
+    style J fill:#D7CCC8,color:#000
 ```
 
 Simulate how prescribed burns affect prairie health over multiple years by adjusting burn frequency and observing the changes in plant composition.

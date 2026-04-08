@@ -73,12 +73,12 @@ graph TD
     F --> F2["Selective Harvesting"]
     F --> F3["Transplanting & Tending"]
 
-    style A fill:#4CAF50,color:#fff
-    style B fill:#8BC34A,color:#000
-    style C fill:#F44336,color:#fff
-    style D fill:#FF9800,color:#000
-    style E fill:#9C27B0,color:#fff
-    style F fill:#795548,color:#fff
+    style A fill:#C8E6C9,color:#000
+    style B fill:#DCEDC8,color:#000
+    style C fill:#FFCDD2,color:#000
+    style D fill:#FFE0B2,color:#000
+    style E fill:#E1BEE7,color:#000
+    style F fill:#D7CCC8,color:#000
 ```
 
 **Ethnobotany** is the scientific study of relationships between people and plants. The term combines "ethno" (relating to cultures and peoples) and "botany" (the study of plants). Ethnobotanists document how different cultures identify, name, classify, and use plants — for food, medicine, shelter, tools, dyes, ceremony, and more.
@@ -313,9 +313,9 @@ graph LR
     I --> J["Berry & Root<br>Production Increases"]
     J --> E
 
-    style A fill:#F44336,color:#fff
-    style E fill:#4CAF50,color:#fff
-    style H fill:#8BC34A,color:#000
+    style A fill:#FFCDD2,color:#000
+    style E fill:#C8E6C9,color:#000
+    style H fill:#DCEDC8,color:#000
 ```
 
 Fire is arguably the single most important tool that Indigenous peoples used to manage Minnesota's landscapes. The practice of intentional, controlled burning — sometimes called cultural burning or prescribed fire — shaped the ecology of the entire region.

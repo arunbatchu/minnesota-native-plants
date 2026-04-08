@@ -44,10 +44,10 @@ flowchart LR
     PFB -- "Less fire, more trees →" --> DF
     DF -- "Colder, shorter season →" --> CF
 
-    style TP fill:#FFC107,color:#000
-    style PFB fill:#8BC34A,color:#000
-    style DF fill:#4CAF50,color:#fff
-    style CF fill:#009688,color:#fff
+    style TP fill:#FFECB3,color:#000
+    style PFB fill:#DCEDC8,color:#000
+    style DF fill:#C8E6C9,color:#000
+    style CF fill:#B2DFDB,color:#000
 ```
 
 Explore Minnesota's ecoregions interactively by clicking on different regions of the map to see their characteristic plants and growing conditions.
@@ -272,11 +272,11 @@ flowchart TD
 
     Z3A --> Z3B --> Z4A --> Z4B --> Z5A
 
-    style Z3A fill:#9C27B0,color:#fff
-    style Z3B fill:#2196F3,color:#fff
-    style Z4A fill:#03A9F4,color:#000
-    style Z4B fill:#4CAF50,color:#fff
-    style Z5A fill:#FFC107,color:#000
+    style Z3A fill:#E1BEE7,color:#000
+    style Z3B fill:#BBDEFB,color:#000
+    style Z4A fill:#B3E5FC,color:#000
+    style Z4B fill:#C8E6C9,color:#000
+    style Z5A fill:#FFECB3,color:#000
 ```
 
 Use this interactive tool to look up the USDA hardiness zone for any Minnesota location and see which native plants are recommended for that zone.

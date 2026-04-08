@@ -35,9 +35,9 @@ flowchart LR
     A4 --> R
     A5 --> R
 
-    style Start fill:#4CAF50,color:#fff
-    style R fill:#4CAF50,color:#fff
-    style Q1 fill:#009688,color:#fff
+    style Start fill:#C8E6C9,color:#000
+    style R fill:#C8E6C9,color:#000
+    style Q1 fill:#B2DFDB,color:#000
 ```
 
 ### MN DNR Programs
@@ -479,11 +479,11 @@ graph TD
     N -.->|"training & research"| F
     R -.->|"advocacy & labor"| J
 
-    style A fill:#4CAF50,color:#fff
-    style F fill:#009688,color:#fff
-    style J fill:#2196F3,color:#fff
-    style N fill:#9C27B0,color:#fff
-    style R fill:#FF9800,color:#000
+    style A fill:#C8E6C9,color:#000
+    style F fill:#B2DFDB,color:#000
+    style J fill:#BBDEFB,color:#000
+    style N fill:#E1BEE7,color:#000
+    style R fill:#FFE0B2,color:#000
 ```
 
 Use this interactive tool to filter Minnesota native plant resources by type and find the organizations, programs, and services most relevant to your needs and location.

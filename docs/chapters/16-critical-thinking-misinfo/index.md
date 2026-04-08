@@ -122,10 +122,10 @@ flowchart TD
     T3 --> C3["Check: Do they cite<br>sources? Any conflicts<br>of interest?"]
     T4 --> C4["Do not act on this<br>without independent<br>verification"]
 
-    style T1 fill:#4CAF50,color:#fff
-    style T2 fill:#2196F3,color:#fff
-    style T3 fill:#FF9800,color:#000
-    style T4 fill:#F44336,color:#fff
+    style T1 fill:#C8E6C9,color:#000
+    style T2 fill:#BBDEFB,color:#000
+    style T3 fill:#FFE0B2,color:#000
+    style T4 fill:#FFCDD2,color:#000
 ```
 
 Practice evaluating the credibility of a claim by checking its source, evidence, peer review status, and potential conflicts of interest with this interactive tool.
@@ -326,11 +326,11 @@ flowchart TD
     E --> K["Check U of MN<br>Extension or<br>Google Scholar"]
     G --> K
 
-    style A fill:#009688,color:#fff
-    style J fill:#4CAF50,color:#fff
-    style E fill:#FF9800,color:#000
-    style G fill:#FF9800,color:#000
-    style C fill:#F44336,color:#fff
+    style A fill:#B2DFDB,color:#000
+    style J fill:#C8E6C9,color:#000
+    style E fill:#FFE0B2,color:#000
+    style G fill:#FFE0B2,color:#000
+    style C fill:#FFCDD2,color:#000
 ```
 
 **Step 1: Pause before sharing or acting.** If a claim triggers a strong emotional response — excitement, outrage, fear — that is a signal to slow down and verify before you share it or spend money on it.

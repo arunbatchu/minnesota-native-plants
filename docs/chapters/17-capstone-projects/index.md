@@ -40,18 +40,18 @@ flowchart LR
     P5 -.- C5["Ch 9, 11, 12"]
     P6 -.- C6["Ch 16"]
 
-    style P1 fill:#4CAF50,color:#fff
-    style P2 fill:#4CAF50,color:#fff
-    style P3 fill:#4CAF50,color:#fff
-    style P4 fill:#4CAF50,color:#fff
-    style P5 fill:#4CAF50,color:#fff
-    style P6 fill:#4CAF50,color:#fff
-    style C1 fill:#607D8B,color:#fff
-    style C2 fill:#607D8B,color:#fff
-    style C3 fill:#607D8B,color:#fff
-    style C4 fill:#607D8B,color:#fff
-    style C5 fill:#607D8B,color:#fff
-    style C6 fill:#607D8B,color:#fff
+    style P1 fill:#C8E6C9,color:#000
+    style P2 fill:#C8E6C9,color:#000
+    style P3 fill:#C8E6C9,color:#000
+    style P4 fill:#C8E6C9,color:#000
+    style P5 fill:#C8E6C9,color:#000
+    style P6 fill:#C8E6C9,color:#000
+    style C1 fill:#CFD8DC,color:#000
+    style C2 fill:#CFD8DC,color:#000
+    style C3 fill:#CFD8DC,color:#000
+    style C4 fill:#CFD8DC,color:#000
+    style C5 fill:#CFD8DC,color:#000
+    style C6 fill:#CFD8DC,color:#000
 ```
 
 Use this interactive garden design planner to experiment with site conditions, select native plants, and generate a layout and maintenance plan -- a hands-on preview of the full capstone process.
@@ -578,15 +578,15 @@ flowchart TD
     E1 -->|"Reference"| E3["Resource Guide<br>Compilation<br>(Concept 288)"]
     F -->|"Yes"| F1["Invasive Removal<br>Plan<br>(Concept 286)"]
 
-    style A fill:#4CAF50,color:#fff
-    style B1 fill:#009688,color:#fff
-    style C2 fill:#009688,color:#fff
-    style C3 fill:#009688,color:#fff
-    style D2 fill:#009688,color:#fff
-    style D3 fill:#009688,color:#fff
-    style E2 fill:#009688,color:#fff
-    style E3 fill:#009688,color:#fff
-    style F1 fill:#009688,color:#fff
+    style A fill:#C8E6C9,color:#000
+    style B1 fill:#B2DFDB,color:#000
+    style C2 fill:#B2DFDB,color:#000
+    style C3 fill:#B2DFDB,color:#000
+    style D2 fill:#B2DFDB,color:#000
+    style D3 fill:#B2DFDB,color:#000
+    style E2 fill:#B2DFDB,color:#000
+    style E3 fill:#B2DFDB,color:#000
+    style F1 fill:#B2DFDB,color:#000
 ```
 
 You may complete one project or several, depending on your goals. Here are some recommendations:

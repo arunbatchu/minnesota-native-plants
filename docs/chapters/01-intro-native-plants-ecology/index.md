@@ -51,9 +51,9 @@ flowchart TD
     G -- No --> F
     D -- No --> B
 
-    style C fill:#4CAF50,color:#fff
-    style F fill:#FFC107,color:#000
-    style H fill:#F44336,color:#fff
+    style C fill:#C8E6C9,color:#000
+    style F fill:#FFECB3,color:#000
+    style H fill:#FFCDD2,color:#000
 ```
 
 Test your understanding of plant classifications by sorting species into the correct category.
@@ -180,12 +180,12 @@ flowchart LR
     WILD -->|"Pollination &<br/>Seed Dispersal"| NP
     NP -->|"Classified by"| TAX["Taxonomy &<br/>Scientific Names"]
 
-    style NP fill:#4CAF50,color:#fff
-    style ECO fill:#2196F3,color:#fff
-    style BIO fill:#9C27B0,color:#fff
-    style HAB fill:#FFC107,color:#000
-    style WILD fill:#E91E63,color:#fff
-    style TAX fill:#607D8B,color:#fff
+    style NP fill:#C8E6C9,color:#000
+    style ECO fill:#B2DFDB,color:#000
+    style BIO fill:#E1BEE7,color:#000
+    style HAB fill:#FFECB3,color:#000
+    style WILD fill:#F8BBD0,color:#000
+    style TAX fill:#CFD8DC,color:#000
 ```
 
 ### Minnesota's Major Ecosystems

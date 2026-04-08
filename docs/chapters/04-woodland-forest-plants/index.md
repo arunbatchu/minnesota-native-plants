@@ -55,11 +55,11 @@ flowchart TD
     SHR --> GRD
     GRD --> FLR
 
-    style CAN fill:#4CAF50,color:#fff
-    style UND fill:#009688,color:#fff
-    style SHR fill:#8BC34A,color:#000
-    style GRD fill:#FFC107,color:#000
-    style FLR fill:#795548,color:#fff
+    style CAN fill:#C8E6C9,color:#000
+    style UND fill:#B2DFDB,color:#000
+    style SHR fill:#DCEDC8,color:#000
+    style GRD fill:#FFECB3,color:#000
+    style FLR fill:#D7CCC8,color:#000
 ```
 
 Explore each forest layer interactively to discover the species found at each level and how light, moisture, and temperature change from canopy to forest floor.
@@ -169,10 +169,10 @@ flowchart LR
         S8 --> S1
     end
 
-    style S2 fill:#FFC107,color:#000
-    style S3 fill:#4CAF50,color:#fff
-    style S6 fill:#009688,color:#fff
-    style S8 fill:#795548,color:#fff
+    style S2 fill:#FFECB3,color:#000
+    style S3 fill:#C8E6C9,color:#000
+    style S6 fill:#B2DFDB,color:#000
+    style S8 fill:#D7CCC8,color:#000
 ```
 
 Their strategy is elegant: they exploit the brief window between snowmelt and canopy leaf-out, when warm sunlight floods the forest floor. During this time, they grow leaves, flower, set seed, and store enough energy in their underground roots or bulbs to survive the rest of the year in dormancy.
