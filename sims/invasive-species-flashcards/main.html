@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minnesota Invasive Species Flashcards</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #e8f5e9; color: #1b5e20; }
+</style>
+</head>
+<body>
+<script>
+const species = [
+  {
+    common: "Common Buckthorn",
+    scientific: "Rhamnus cathartica",
+    leaves: "Oval, finely toothed, sub-opposite with curved veins",
+    flowers: "Small yellowish-green clusters in spring",
+    growth: "Tall shrub or small tree, up to 25 ft, thorny branch tips",
+    location: "Woodlands, forest edges, and urban areas statewide",
+    harm: "Forms dense thickets that shade out native understory plants; berries spread by birds; alters soil nitrogen",
+    lookalikes: "Glossy Buckthorn (no thorns, untoothed leaves), native Dogwoods (opposite leaves, no thorns)"
+  },
+  {
+    common: "Glossy Buckthorn",
+    scientific: "Frangula alnus",
+    leaves: "Glossy, oval, untoothed with 8-9 parallel veins",
+    flowers: "Small pale yellow-green, 5-petaled in leaf axils",
+    growth: "Shrub to small tree, 15-20 ft, no thorns, dark bark",
+    location: "Wetlands, bogs, and moist forests across central and northern MN",
+    harm: "Invades sensitive wetland habitats; dense shade eliminates native shrubs; persistent leaf retention extends growing season",
+    lookalikes: "Common Buckthorn (has thorns, toothed leaves), Alder (has catkins, different bark)"
+  },
+  {
+    common: "Garlic Mustard",
+    scientific: "Alliaria petiolata",
+    leaves: "Heart to kidney-shaped, coarsely toothed, garlic scent when crushed",
+    flowers: "Small white 4-petaled clusters at stem top, spring",
+    growth: "Biennial herb, rosettes year 1, flowering stalks to 3 ft year 2",
+    location: "Deciduous forests, woodlands, roadsides throughout MN",
+    harm: "Releases chemicals that suppress native plant growth and disrupt mycorrhizal fungi essential for tree seedlings",
+    lookalikes: "Violet species (no garlic smell), native Toothwort (compound leaves), Ground Ivy (square stems)"
+  },
+  {
+    common: "Spotted Knapweed",
+    scientific: "Centaurea stoebe",
+    leaves: "Deeply divided, grayish-green, finely lobed",
+    flowers: "Pink-purple thistle-like with black-tipped bracts",
+    growth: "Biennial to short-lived perennial, 1-4 ft tall, wiry branching",
+    location: "Roadsides, gravel pits, prairies, and disturbed areas statewide",
+    harm: "Produces allelopathic chemicals; each plant makes 1,000+ seeds; degrades prairie habitat and rangeland",
+    lookalikes: "Native Blazing Star (entire leaves, spike flowers), native Bergamot (square stems, mint family)"
+  },
+  {
+    common: "Wild Parsnip",
+    scientific: "Pastinaca sativa",
+    leaves: "Pinnately compound, 5-15 toothed leaflets, celery-like",
+    flowers: "Yellow flat-topped umbels, June-July",
+    growth: "Biennial, rosette year 1, flowering stalk 3-5 ft year 2",
+    location: "Roadsides, ditches, old fields, especially southern and central MN",
+    harm: "Sap causes severe phytophotodermatitis burns; displaces native prairie plants in open habitats",
+    lookalikes: "Golden Alexander (native, 3-part leaves), native Prairie Parsley (finer leaflets)"
+  },
+  {
+    common: "Purple Loosestrife",
+    scientific: "Lythrum salicaria",
+    leaves: "Lance-shaped, opposite or whorled, downy, stalkless",
+    flowers: "Showy magenta-purple spikes, July-September",
+    growth: "Perennial, 3-7 ft tall, square woody stems, dense colonies",
+    location: "Wetlands, stream banks, lake shores, ditches across MN",
+    harm: "Chokes out native cattails, sedges, and wetland plants; degrades wildlife habitat; one plant produces 2.7 million seeds/year",
+    lookalikes: "Native Blue Vervain (blue flowers, toothed leaves), native Blazing Star (alternate leaves, prairie habitat)"
+  },
+  {
+    common: "Reed Canary Grass",
+    scientific: "Phalaris arundinacea",
+    leaves: "Flat, rough-textured blades, 3-10 in long, bluish-green",
+    flowers: "Dense compact panicle, green to purplish, May-June",
+    growth: "Tall perennial grass, 2-6 ft, spreads aggressively by rhizomes",
+    location: "Wetlands, floodplains, ditches, and stream banks statewide",
+    harm: "Forms dense monocultures that eliminate native sedge meadows and wetland plant diversity; alters hydrology",
+    lookalikes: "Native Bluejoint grass (more open panicle), native Wild Rye (awned seeds, clump-forming)"
+  },
+  {
+    common: "Leafy Spurge",
+    scientific: "Euphorbia esula",
+    leaves: "Narrow, linear, alternate, 1-4 in long, blue-green",
+    flowers: "Yellowish-green bracts in umbrella clusters, May-June",
+    growth: "Perennial, 1-3 ft, milky latex sap, deep extensive roots to 15 ft",
+    location: "Prairies, rangeland, roadsides, mainly western and central MN",
+    harm: "Toxic to cattle; deep roots make eradication nearly impossible; displaces native prairie grasses and forbs",
+    lookalikes: "Native Flowering Spurge (white bracts, shorter), Cypress Spurge (more compact, garden escape)"
+  },
+  {
+    common: "Japanese Barberry",
+    scientific: "Berberis thunbergii",
+    leaves: "Small, oval, smooth-edged, clustered, often red-purple cultivars",
+    flowers: "Small pale yellow, hanging clusters, spring",
+    growth: "Dense thorny shrub, 2-6 ft, arching branches, bright red berries",
+    location: "Woodlands, forest edges, urban landscapes in southern MN",
+    harm: "Creates dense thorny thickets; increases tick habitat and Lyme disease risk; bird-dispersed berries colonize forests",
+    lookalikes: "Native Barberry species (toothed leaves, taller), native Winterberry (no thorns, red berries)"
+  },
+  {
+    common: "Emerald Ash Borer",
+    scientific: "Agrilus planipennis",
+    leaves: "N/A (insect) -- Attacks ash trees: compound leaves, 5-9 leaflets",
+    flowers: "N/A (insect) -- Adults are metallic green beetles, 1/2 inch long",
+    growth: "Larvae bore D-shaped exit holes in ash bark; S-shaped tunnels under bark",
+    location: "Found in ash trees statewide; MN quarantine zones in effect",
+    harm: "Has killed hundreds of millions of ash trees in North America; larvae destroy nutrient-conducting tissue under bark",
+    lookalikes: "Native metallic wood borers (larger, different host trees), Six-spotted Tiger Beetle (different shape, ground-dwelling)"
+  }
+];
+
+let currentCard = 0;
+let flipped = false;
+let flipProgress = 0;
+let flipTarget = 0;
+let btnPrev, btnNext, btnFlip;
+
+function setup() {
+  let canvas = createCanvas(windowWidth, max(700, windowHeight));
+  canvas.style('display', 'block');
+  textFont('Segoe UI, Tahoma, sans-serif');
+}
+
+function draw() {
+  background('#e8f5e9');
+  let w = width;
+  let h = height;
+
+  // Header
+  noStroke();
+  fill('#2e7d32');
+  rect(0, 0, w, 100);
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(min(26, w * 0.04));
+  textStyle(BOLD);
+  text('Minnesota Invasive Species Flashcards', w / 2, 32);
+  textSize(min(14, w * 0.025));
+  textStyle(NORMAL);
+  fill(200, 230, 200);
+  text('Click the card to flip it. Learn to identify invasive species.', w / 2, 62);
+
+  // Card counter
+  fill('#1b5e20');
+  textAlign(CENTER, TOP);
+  textSize(16);
+  textStyle(BOLD);
+  text('Card ' + (currentCard + 1) + ' of ' + species.length, w / 2, 115);
+
+  // Progress dots
+  let dotY = 140;
+  let dotSpacing = 22;
+  let dotsW = species.length * dotSpacing;
+  let dotStartX = w / 2 - dotsW / 2 + dotSpacing / 2;
+  for (let i = 0; i < species.length; i++) {
+    if (i === currentCard) {
+      fill('#2e7d32');
+      ellipse(dotStartX + i * dotSpacing, dotY, 12, 12);
+    } else {
+      fill('#c8e6c9');
+      ellipse(dotStartX + i * dotSpacing, dotY, 8, 8);
+    }
+  }
+
+  // Animate flip
+  flipProgress = lerp(flipProgress, flipTarget, 0.12);
+
+  // Card dimensions
+  let cardW = min(600, w - 60);
+  let cardH = min(380, h - 300);
+  let cardX = w / 2 - cardW / 2;
+  let cardY = 165;
+
+  // Flip effect using scale
+  let scaleX = abs(cos(flipProgress * PI));
+  let showBack = flipProgress > 0.5;
+
+  push();
+  translate(w / 2, cardY + cardH / 2);
+  scale(scaleX, 1);
+
+  // Card shadow
+  noStroke();
+  fill(0, 30);
+  rect(-cardW / 2 + 4, -cardH / 2 + 4, cardW, cardH, 16);
+
+  // Card body
+  if (showBack) {
+    fill(255);
+    stroke('#2e7d32');
+    strokeWeight(3);
+    rect(-cardW / 2, -cardH / 2, cardW, cardH, 16);
+    noStroke();
+    drawBack(cardW, cardH);
+  } else {
+    fill('#2e7d32');
+    stroke('#1b5e20');
+    strokeWeight(2);
+    rect(-cardW / 2, -cardH / 2, cardW, cardH, 16);
+    noStroke();
+    drawFront(cardW, cardH);
+  }
+  pop();
+
+  // Navigation buttons
+  let btnW = 120;
+  let btnH = 44;
+  let btnY = cardY + cardH + 25;
+
+  // Previous
+  let prevX = w / 2 - btnW - 80;
+  drawButton(prevX, btnY, btnW, btnH, 'Previous', currentCard > 0);
+
+  // Flip
+  let flipX = w / 2 - btnW / 2;
+  drawButton(flipX, btnY, btnW, btnH, flipped ? 'Show Front' : 'Flip Card', true, true);
+
+  // Next
+  let nextX = w / 2 + 80;
+  drawButton(nextX, btnY, btnW, btnH, 'Next', currentCard < species.length - 1);
+
+  // Instruction hint
+  fill('#666');
+  textSize(12);
+  textStyle(ITALIC);
+  textAlign(CENTER, TOP);
+  text('Tip: Click the card or press Flip to reveal details', w / 2, btnY + 55);
+
+  // Store button positions for click detection
+  this._btnPrev = { x: prevX, y: btnY, w: btnW, h: btnH };
+  this._btnFlip = { x: flipX, y: btnY, w: btnW, h: btnH };
+  this._btnNext = { x: nextX, y: btnY, w: btnW, h: btnH };
+  this._card = { x: cardX, y: cardY, w: cardW, h: cardH };
+}
+
+function drawFront(cw, ch) {
+  let sp = species[currentCard];
+  // Front face: species name centered
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(min(32, cw * 0.06));
+  textStyle(BOLD);
+  text(sp.common, 0, -ch * 0.15);
+
+  // Decorative line
+  stroke(255, 150);
+  strokeWeight(2);
+  line(-60, -ch * 0.15 + 28, 60, -ch * 0.15 + 28);
+  noStroke();
+
+  // Hint
+  fill(200, 230, 200);
+  textSize(min(16, cw * 0.032));
+  textStyle(ITALIC);
+  text('Click to reveal details', 0, ch * 0.15);
+
+  // Number badge
+  fill(255, 60);
+  textSize(80);
+  textStyle(BOLD);
+  text((currentCard + 1).toString(), 0, ch * 0.02);
+}
+
+function drawBack(cw, ch) {
+  let sp = species[currentCard];
+  let lx = -cw / 2 + 25;
+  let rx = cw / 2 - 25;
+  let tw = cw - 50;
+  let yy = -ch / 2 + 20;
+  let lineH = min(16, ch * 0.042);
+
+  // Title
+  fill('#2e7d32');
+  textAlign(CENTER, TOP);
+  textSize(min(20, cw * 0.038));
+  textStyle(BOLD);
+  text(sp.common, 0, yy);
+  yy += lineH + 4;
+
+  // Scientific
+  fill('#558b2f');
+  textSize(min(14, cw * 0.028));
+  textStyle(ITALIC);
+  text(sp.scientific, 0, yy);
+  yy += lineH + 8;
+
+  // Detail rows
+  textAlign(LEFT, TOP);
+  let fields = [
+    { label: 'Leaves:', val: sp.leaves },
+    { label: 'Flowers:', val: sp.flowers },
+    { label: 'Growth:', val: sp.growth },
+    { label: 'Where in MN:', val: sp.location },
+    { label: 'Why Harmful:', val: sp.harm },
+    { label: 'Look-alikes:', val: sp.lookalikes }
+  ];
+
+  for (let f of fields) {
+    if (yy > ch / 2 - 10) break;
+    fill('#2e7d32');
+    textSize(min(12, cw * 0.024));
+    textStyle(BOLD);
+    text(f.label, lx, yy);
+    fill('#333');
+    textStyle(NORMAL);
+    textSize(min(12, cw * 0.023));
+    let labelW = textWidth(f.label) + 6;
+    text(f.val, lx + labelW, yy, tw - labelW, lineH * 2.5);
+    yy += lineH * 2.2;
+  }
+}
+
+function drawButton(x, y, w, h, label, enabled, accent) {
+  if (accent) {
+    fill(enabled ? '#2e7d32' : '#a5d6a7');
+    noStroke();
+    rect(x, y, w, h, 22);
+    fill(255);
+  } else {
+    fill(enabled ? '#ffffff' : '#f1f8e9');
+    stroke(enabled ? '#2e7d32' : '#c8e6c9');
+    strokeWeight(2);
+    rect(x, y, w, h, 22);
+    noStroke();
+    fill(enabled ? '#2e7d32' : '#a5d6a7');
+  }
+  textAlign(CENTER, CENTER);
+  textSize(15);
+  textStyle(BOLD);
+  text(label, x + w / 2, y + h / 2);
+}
+
+function mousePressed() {
+  // Check card click
+  let c = this._card;
+  if (c && mouseX > c.x && mouseX < c.x + c.w && mouseY > c.y && mouseY < c.y + c.h) {
+    toggleFlip();
+    return;
+  }
+  // Check prev
+  let bp = this._btnPrev;
+  if (bp && mouseX > bp.x && mouseX < bp.x + bp.w && mouseY > bp.y && mouseY < bp.y + bp.h && currentCard > 0) {
+    currentCard--;
+    flipped = false;
+    flipTarget = 0;
+    flipProgress = 0;
+  }
+  // Check flip
+  let bf = this._btnFlip;
+  if (bf && mouseX > bf.x && mouseX < bf.x + bf.w && mouseY > bf.y && mouseY < bf.y + bf.h) {
+    toggleFlip();
+  }
+  // Check next
+  let bn = this._btnNext;
+  if (bn && mouseX > bn.x && mouseX < bn.x + bn.w && mouseY > bn.y && mouseY < bn.y + bn.h && currentCard < species.length - 1) {
+    currentCard++;
+    flipped = false;
+    flipTarget = 0;
+    flipProgress = 0;
+  }
+}
+
+function toggleFlip() {
+  flipped = !flipped;
+  flipTarget = flipped ? 1 : 0;
+}
+
+function keyPressed() {
+  if (keyCode === LEFT_ARROW && currentCard > 0) {
+    currentCard--;
+    flipped = false;
+    flipTarget = 0;
+    flipProgress = 0;
+  } else if (keyCode === RIGHT_ARROW && currentCard < species.length - 1) {
+    currentCard++;
+    flipped = false;
+    flipTarget = 0;
+    flipProgress = 0;
+  } else if (keyCode === 32) {
+    toggleFlip();
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(700, windowHeight));
+}
+</script>
+</body>
+</html>

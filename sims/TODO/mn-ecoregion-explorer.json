@@ -1,0 +1,11 @@
+{
+  "sim_id": "mn-ecoregion-explorer",
+  "diagram_name": "Minnesota Ecoregion Explorer",
+  "chapter_number": 2,
+  "chapter_title": "Ecoregions Growing Conditions",
+  "chapter_dir": "02-ecoregions-growing-conditions",
+  "learning_objective": "Students will understand the geographic distribution of Minnesota's four major ecoregions and the distinct plant communities, soil types, and climate conditions associated with each.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Minnesota Ecoregion Explorer</summary>\nType: microsim\n\n**Learning Objective:** Students will understand the geographic distribution of Minnesota's four major ecoregions and the distinct plant communities, soil types, and climate conditions associated with each.\n\n**Controls:**\n- Clickable map regions for each ecoregion\n- Toggle buttons to show/hide layers: dominant plants, soil types, annual rainfall\n\n**Visual Elements:**\n- Simplified map of Minnesota divided into four color-coded ecoregions\n- Info panel displaying representative native plants, soil type, and climate data for the selected region\n- Plant illustrations or icons for key species in each ecoregion\n\n**Behavior:**\n- Clicking a region highlights it and populates the info panel with ecoregion details\n- Toggling layers overlays additional data (rainfall gradient, soil type shading) on the map\n- Hovering over plant names shows a brief description\n\n**Instructional Rationale:**\nSpatial learning through an interactive map helps students connect geographic location to ecological conditions, reinforcing why certain plants thrive in certain parts of the state."
+}

@@ -1,0 +1,11 @@
+{
+  "sim_id": "pollinator-match",
+  "diagram_name": "Pollinator-Plant Matching Game",
+  "chapter_number": 6,
+  "chapter_title": "Pollinators Wildlife",
+  "chapter_dir": "06-pollinators-wildlife",
+  "learning_objective": "Students will learn the specific relationships between Minnesota pollinators and their preferred native plants, reinforcing the concepts of host plants, nectar sources, and pollination syndromes.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Pollinator-Plant Matching Game</summary>\nType: microsim\n\n**Learning Objective:** Students will learn the specific relationships between Minnesota pollinators and their preferred native plants, reinforcing the concepts of host plants, nectar sources, and pollination syndromes.\n\n**Controls:**\n- Draggable pollinator cards (monarch, bumblebee, hummingbird, swallowtail, etc.)\n- Target plant cards showing species name and flower image\n- Check Matches button to validate pairings\n- Difficulty toggle (beginner shows hints, advanced does not)\n\n**Visual Elements:**\n- Pollinator illustrations on the left side\n- Native plant illustrations on the right side\n- Connection lines drawn between matched pairs\n- Color-coded feedback on correctness (green for correct, red for incorrect)\n- Score display and brief explanation for each pairing\n\n**Behavior:**\n- Dragging a pollinator to a plant creates a match connection\n- Some pollinators match multiple plants; students earn partial credit for any correct pairing\n- Checking matches reveals the correct relationships with a one-sentence explanation of each\n- Beginner mode shows flower color and shape hints aligned with pollination syndromes\n\n**Instructional Rationale:**\nMatching exercises engage active recall and help students move beyond memorization to understanding why certain pollinators prefer certain flowers (tube shape for hummingbirds, flat landing platforms for butterflies, etc.), connecting back to the pollination syndromes concept."
+}

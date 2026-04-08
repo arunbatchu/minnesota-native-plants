@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prairie Fire Ecology Simulation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #e8f5e9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; overflow-x: hidden; }
+    </style>
+</head>
+<body>
+<script>
+// Simulation state
+let currentYear = 0;
+let burnHistory = []; // years when burns happened
+let autoPlaying = false;
+let fireAnimFrame = -1; // -1 = no fire anim
+const maxYear = 10;
+
+// Metrics computed per year
+let speciesCount = 0;
+let thatchDepth = 0;
+let woodyInvasion = 0;
+
+// UI positions
+let burnBtnX, burnBtnY, burnBtnW, burnBtnH;
+let sliderX, sliderY, sliderW;
+let playBtnX, playBtnY;
+
+// Plants drawn
+let grasses = [];
+let flowers = [];
+let woodyPlants = [];
+let fireParticles = [];
+
+function setup() {
+    createCanvas(windowWidth, max(650, windowHeight));
+    textFont('Segoe UI');
+    generatePlants();
+    computeMetrics();
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, max(650, windowHeight));
+}
+
+function generatePlants() {
+    grasses = [];
+    flowers = [];
+    woodyPlants = [];
+
+    let groundY = height * 0.6;
+    let w = width;
+
+    // Generate grasses
+    for (let i = 0; i < 60; i++) {
+        grasses.push({
+            x: random(30, w - 30),
+            h: random(40, 80),
+            sway: random(0, TWO_PI)
+        });
+    }
+
+    // Generate wildflowers
+    let flowerTypes = [
+        { name: "Black-eyed Susan", color: '#ffc107', petalColor: '#ff8f00', size: 8 },
+        { name: "Purple Coneflower", color: '#7b1fa2', petalColor: '#9c27b0', size: 9 },
+        { name: "Blazing Star", color: '#e040fb', petalColor: '#ea80fc', size: 7 },
+        { name: "Wild Bergamot", color: '#ce93d8', petalColor: '#ab47bc', size: 8 },
+        { name: "Goldenrod", color: '#fdd835', petalColor: '#f9a825', size: 6 },
+        { name: "Prairie Smoke", color: '#ef9a9a', petalColor: '#e57373', size: 7 }
+    ];
+
+    for (let i = 0; i < 25; i++) {
+        let ft = flowerTypes[i % flowerTypes.length];
+        flowers.push({
+            x: random(40, w - 40),
+            h: random(50, 100),
+            type: ft,
+            visible: true
+        });
+    }
+
+    // Generate potential woody invaders
+    for (let i = 0; i < 8; i++) {
+        woodyPlants.push({
+            x: random(60, w - 60),
+            size: random(20, 40),
+            type: random() > 0.5 ? "Sumac" : "Buckthorn"
+        });
+    }
+}
+
+function computeMetrics() {
+    let yearsSinceLastBurn = currentYear;
+    for (let b of burnHistory) {
+        if (b <= currentYear) {
+            yearsSinceLastBurn = currentYear - b;
+        }
+    }
+
+    // Thatch accumulates without burning
+    thatchDepth = min(yearsSinceLastBurn * 0.8, 6);
+
+    // Woody invasion increases without burns
+    woodyInvasion = min(yearsSinceLastBurn * 0.15, 1);
+
+    // Species diversity
+    let baseSpecies = 25;
+    if (yearsSinceLastBurn <= 2) {
+        speciesCount = baseSpecies + 5; // Post-burn boost
+    } else {
+        speciesCount = max(8, baseSpecies - yearsSinceLastBurn * 3);
+    }
+
+    // Count total burns up to current year
+    let totalBurns = 0;
+    for (let b of burnHistory) {
+        if (b <= currentYear) totalBurns++;
+    }
+    if (totalBurns >= 3) speciesCount = min(35, speciesCount + totalBurns);
+}
+
+function draw() {
+    let w = width;
+    let h = height;
+    let groundY = h * 0.58;
+    let controlY = h * 0.78;
+
+    computeMetrics();
+
+    // Sky gradient
+    for (let y = 0; y < groundY - 20; y++) {
+        let inter = map(y, 0, groundY, 0, 1);
+        stroke(lerpColor(color('#64b5f6'), color('#bbdefb'), inter));
+        line(0, y, w, y);
+    }
+
+    // Sun
+    noStroke();
+    fill(255, 235, 59, 80);
+    ellipse(w * 0.85, 60, 80, 80);
+    fill(255, 235, 59);
+    ellipse(w * 0.85, 60, 50, 50);
+
+    // Ground
+    fill('#5d4037');
+    rectMode(CORNER);
+    rect(0, groundY, w, h - groundY);
+
+    // Thatch layer
+    if (thatchDepth > 0) {
+        fill(lerpColor(color('#8d6e63'), color('#6d4c41'), thatchDepth / 6));
+        rect(0, groundY - thatchDepth * 4, w, thatchDepth * 4);
+
+        // Thatch texture
+        stroke('#a1887f');
+        strokeWeight(0.5);
+        for (let tx = 0; tx < w; tx += 6) {
+            let ty = groundY - random(0, thatchDepth * 3.5);
+            line(tx, ty, tx + random(-4, 4), ty + random(2, 5));
+        }
+    }
+
+    // Green ground surface
+    noStroke();
+    let greenIntensity = map(thatchDepth, 0, 6, 200, 80);
+    fill(50, greenIntensity, 50);
+    rect(0, groundY - 3, w, 6);
+
+    // Draw grasses
+    let yearsSinceBurn = currentYear;
+    for (let b of burnHistory) {
+        if (b <= currentYear) yearsSinceBurn = currentYear - b;
+    }
+
+    for (let g of grasses) {
+        let grassH = g.h * map(thatchDepth, 0, 6, 1, 0.5);
+        let grassColor = lerpColor(color('#66bb6a'), color('#827717'), thatchDepth / 6);
+        stroke(grassColor);
+        strokeWeight(1.5);
+        let sway = sin(frameCount * 0.02 + g.sway) * 3;
+        line(g.x, groundY - thatchDepth * 4, g.x + sway, groundY - thatchDepth * 4 - grassH);
+    }
+
+    // Draw wildflowers (fewer when thatch is high)
+    noStroke();
+    let visibleFlowerCount = floor(map(thatchDepth, 0, 6, flowers.length, 4));
+    for (let i = 0; i < flowers.length; i++) {
+        let f = flowers[i];
+        if (i >= visibleFlowerCount) continue;
+
+        let fy = groundY - thatchDepth * 4;
+        let stemTop = fy - f.h * map(thatchDepth, 0, 6, 1, 0.4);
+
+        // Stem
+        stroke('#388e3c');
+        strokeWeight(1.5);
+        line(f.x, fy, f.x, stemTop);
+
+        // Flower head
+        noStroke();
+        fill(f.type.petalColor);
+        for (let p = 0; p < 6; p++) {
+            let angle = (TWO_PI / 6) * p;
+            ellipse(f.x + cos(angle) * f.type.size * 0.5, stemTop + sin(angle) * f.type.size * 0.5,
+                    f.type.size * 0.6, f.type.size * 0.6);
+        }
+        fill(f.type.color);
+        ellipse(f.x, stemTop, f.type.size * 0.7, f.type.size * 0.7);
+    }
+
+    // Draw woody invaders
+    let woodyCount = floor(woodyInvasion * woodyPlants.length);
+    for (let i = 0; i < woodyCount; i++) {
+        let wp = woodyPlants[i];
+        let treeH = wp.size * (1 + woodyInvasion);
+        let baseY = groundY - thatchDepth * 4;
+
+        // Trunk
+        fill('#5d4037');
+        noStroke();
+        rectMode(CENTER);
+        rect(wp.x, baseY - treeH / 2, 8, treeH, 2);
+
+        // Canopy
+        fill('#33691e');
+        ellipse(wp.x, baseY - treeH, wp.size * 1.2, wp.size);
+
+        // Label
+        fill(255, 255, 255, 180);
+        textSize(9);
+        textAlign(CENTER, BOTTOM);
+        text(wp.type, wp.x, baseY - treeH - wp.size / 2 - 2);
+    }
+
+    // Fire animation
+    if (fireAnimFrame >= 0 && fireAnimFrame < 60) {
+        let progress = fireAnimFrame / 60;
+        let fireX = progress * w;
+
+        // Fire glow
+        for (let fx = max(0, fireX - 80); fx < min(w, fireX + 30); fx += 3) {
+            let intensity = 1 - abs(fx - fireX + 25) / 105;
+            if (intensity > 0) {
+                stroke(255, 100, 0, intensity * 200);
+                strokeWeight(2);
+                let flameH = random(20, 60) * intensity;
+                line(fx, groundY - thatchDepth * 4, fx + random(-5, 5), groundY - thatchDepth * 4 - flameH);
+            }
+        }
+
+        // Smoke
+        noStroke();
+        for (let s = 0; s < 8; s++) {
+            let sx = fireX + random(-40, -10);
+            let sy = groundY - thatchDepth * 4 - random(40, 120);
+            fill(100, 100, 100, random(20, 60));
+            ellipse(sx, sy, random(15, 35), random(10, 25));
+        }
+
+        fireAnimFrame++;
+        if (fireAnimFrame >= 60) {
+            fireAnimFrame = -1;
+        }
+    }
+
+    // --- UI Controls ---
+    rectMode(CORNER);
+    noStroke();
+    fill('#e8f5e9');
+    rect(0, controlY - 10, w, h - controlY + 10);
+
+    // Title
+    fill('#1b5e20');
+    textAlign(CENTER, CENTER);
+    textSize(min(20, w * 0.04));
+    textStyle(BOLD);
+    noStroke();
+    text("Prairie Fire Ecology", w / 2, controlY + 10);
+
+    // Year slider
+    textStyle(NORMAL);
+    textSize(min(14, w * 0.028));
+    fill('#2e7d32');
+    textAlign(LEFT, CENTER);
+    sliderX = w * 0.08;
+    sliderW = w * 0.55;
+    sliderY = controlY + 50;
+    text("Year: " + currentYear, sliderX, sliderY - 18);
+
+    // Slider track
+    stroke('#c8e6c9');
+    strokeWeight(6);
+    line(sliderX, sliderY, sliderX + sliderW, sliderY);
+
+    // Burn markers on track
+    for (let b of burnHistory) {
+        let bx = sliderX + (b / maxYear) * sliderW;
+        fill('#ff5722');
+        noStroke();
+        triangle(bx - 5, sliderY - 8, bx + 5, sliderY - 8, bx, sliderY - 2);
+        textSize(8);
+        textAlign(CENTER, BOTTOM);
+        text("burn", bx, sliderY - 9);
+    }
+
+    // Slider knob
+    let knobX = sliderX + (currentYear / maxYear) * sliderW;
+    noStroke();
+    fill('#2e7d32');
+    ellipse(knobX, sliderY, 22, 22);
+    fill(255);
+    textSize(10);
+    textStyle(BOLD);
+    textAlign(CENTER, CENTER);
+    text(currentYear, knobX, sliderY);
+
+    // Year ticks
+    textStyle(NORMAL);
+    fill('#666');
+    textSize(9);
+    for (let y = 0; y <= maxYear; y += 2) {
+        let tx = sliderX + (y / maxYear) * sliderW;
+        stroke('#aaa');
+        strokeWeight(1);
+        line(tx, sliderY + 6, tx, sliderY + 12);
+        noStroke();
+        textAlign(CENTER, TOP);
+        text(y, tx, sliderY + 13);
+    }
+
+    // Burn button
+    burnBtnX = w * 0.72;
+    burnBtnY = sliderY - 18;
+    burnBtnW = min(100, w * 0.18);
+    burnBtnH = 36;
+
+    let overBurn = mouseX > burnBtnX && mouseX < burnBtnX + burnBtnW &&
+                   mouseY > burnBtnY && mouseY < burnBtnY + burnBtnH;
+    noStroke();
+    fill(overBurn ? '#d84315' : '#ff5722');
+    rect(burnBtnX, burnBtnY, burnBtnW, burnBtnH, 8);
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(min(15, w * 0.03));
+    textStyle(BOLD);
+    text("Burn", burnBtnX + burnBtnW / 2, burnBtnY + burnBtnH / 2);
+
+    // Metrics panel
+    let metricsY = controlY + 85;
+    noStroke();
+    fill(255, 255, 255, 220);
+    rectMode(CORNER);
+    rect(w * 0.05, metricsY, w * 0.9, 80, 10);
+
+    textStyle(BOLD);
+    textSize(min(13, w * 0.026));
+    fill('#1b5e20');
+    textAlign(LEFT, TOP);
+    text("Metrics", w * 0.08, metricsY + 8);
+
+    textStyle(NORMAL);
+    textSize(min(12, w * 0.024));
+    fill('#333');
+
+    // Species count bar
+    let barX = w * 0.08;
+    let barW = w * 0.35;
+    text("Species Count: " + speciesCount, barX, metricsY + 28);
+    fill('#c8e6c9');
+    rect(barX, metricsY + 44, barW, 10, 3);
+    fill('#2e7d32');
+    rect(barX, metricsY + 44, barW * (speciesCount / 35), 10, 3);
+
+    // Thatch bar
+    fill('#333');
+    text("Thatch Depth: " + nf(thatchDepth, 1, 1) + " in", w * 0.52, metricsY + 28);
+    fill('#c8e6c9');
+    rect(w * 0.52, metricsY + 44, barW, 10, 3);
+    fill('#8d6e63');
+    rect(w * 0.52, metricsY + 44, barW * (thatchDepth / 6), 10, 3);
+
+    // Status message
+    textSize(min(11, w * 0.022));
+    fill('#555');
+    textAlign(CENTER, TOP);
+    let msg = "";
+    let ysb = currentYear;
+    for (let b of burnHistory) { if (b <= currentYear) ysb = currentYear - b; }
+    if (ysb === 0) msg = "Fire clears thatch, stimulates wildflower growth!";
+    else if (ysb <= 2) msg = "Post-burn recovery: wildflowers thriving, diversity high.";
+    else if (ysb <= 4) msg = "Thatch accumulating. Woody plants beginning to encroach.";
+    else msg = "Heavy thatch suppresses wildflowers. Woody invaders dominating.";
+    text(msg, w / 2, metricsY + 62);
+
+    // Legend
+    let legY = metricsY + 90;
+    textSize(min(10, w * 0.02));
+    textAlign(LEFT, CENTER);
+    fill('#ff5722');
+    triangle(w * 0.2 - 5, legY + 6, w * 0.2 + 5, legY + 6, w * 0.2, legY);
+    fill('#666');
+    text("= Burn year", w * 0.2 + 10, legY + 4);
+}
+
+function mousePressed() {
+    // Check burn button
+    if (mouseX > burnBtnX && mouseX < burnBtnX + burnBtnW &&
+        mouseY > burnBtnY && mouseY < burnBtnY + burnBtnH) {
+        if (!burnHistory.includes(currentYear)) {
+            burnHistory.push(currentYear);
+            burnHistory.sort((a, b) => a - b);
+            fireAnimFrame = 0;
+        }
+        return;
+    }
+
+    // Check slider
+    if (mouseY > sliderY - 15 && mouseY < sliderY + 15 &&
+        mouseX > sliderX - 10 && mouseX < sliderX + sliderW + 10) {
+        currentYear = round(constrain((mouseX - sliderX) / sliderW * maxYear, 0, maxYear));
+    }
+}
+
+function mouseDragged() {
+    if (mouseY > sliderY - 20 && mouseY < sliderY + 20 &&
+        mouseX > sliderX - 10 && mouseX < sliderX + sliderW + 10) {
+        currentYear = round(constrain((mouseX - sliderX) / sliderW * maxYear, 0, maxYear));
+    }
+}
+
+function touchStarted() {
+    mousePressed();
+    return false;
+}
+
+function touchMoved() {
+    mouseDragged();
+    return false;
+}
+</script>
+</body>
+</html>

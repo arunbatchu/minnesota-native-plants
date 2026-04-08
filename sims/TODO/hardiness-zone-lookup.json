@@ -1,0 +1,11 @@
+{
+  "sim_id": "hardiness-zone-lookup",
+  "diagram_name": "Hardiness Zone Lookup",
+  "chapter_number": 2,
+  "chapter_title": "Ecoregions Growing Conditions",
+  "chapter_dir": "02-ecoregions-growing-conditions",
+  "learning_objective": "Students will be able to determine the USDA hardiness zone for a given Minnesota location and identify native plants suited to that zone's temperature extremes.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Hardiness Zone Lookup</summary>\nType: microsim\n\n**Learning Objective:** Students will be able to determine the USDA hardiness zone for a given Minnesota location and identify native plants suited to that zone's temperature extremes.\n\n**Controls:**\n- Text input for zip code lookup\n- Clickable map of Minnesota for point-based lookup\n- Dropdown to filter recommended plants by type (grasses, wildflowers, shrubs, trees)\n\n**Visual Elements:**\n- Minnesota map color-coded by hardiness zone (3a through 5a)\n- Selected location marker on the map\n- Zone information panel showing temperature range and frost-free days\n- Scrollable list of recommended native plants for the selected zone\n\n**Behavior:**\n- Entering a zip code or clicking the map highlights the corresponding zone and displays zone details\n- The plant list updates to show species hardy to the selected zone\n- Clicking a plant name shows a brief profile with bloom time and habitat preferences\n\n**Instructional Rationale:**\nPersonalizing the hardiness zone concept to the student's own location makes the abstract zone system immediately practical and motivates plant selection decisions grounded in real conditions."
+}

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minnesota Hardiness Zone Lookup</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  body { margin: 0; padding: 0; overflow-x: hidden; background: #e8f5e9; font-family: Arial, sans-serif; }
+  main { display: flex; justify-content: center; }
+</style>
+</head>
+<body>
+<main><div id="canvas-container"></div></main>
+<script>
+// Minnesota Hardiness Zone Lookup MicroSim
+
+const zones = [
+  {
+    name: "Zone 3a",
+    tempRange: "-40 to -35 F  (-40 to -37 C)",
+    color: [30, 80, 160],
+    cities: "International Falls, Roseau, Warroad, Baudette",
+    season: "90-110 days",
+    plants: "White Spruce, Paper Birch, Labrador Tea, Bunchberry, Wild Rose, Jack Pine",
+    desc: "The coldest zone in Minnesota, covering the far northern border region with extreme winter temperatures."
+  },
+  {
+    name: "Zone 3b",
+    tempRange: "-35 to -30 F  (-37 to -34 C)",
+    color: [40, 120, 180],
+    cities: "Duluth, Bemidji, Hibbing, Grand Rapids, Ely",
+    season: "110-125 days",
+    plants: "Red Pine, Balsam Fir, Wild Bergamot, Large-Flowered Trillium, Marsh Marigold",
+    desc: "Covers much of northern Minnesota including the Iron Range and Arrowhead region."
+  },
+  {
+    name: "Zone 4a",
+    tempRange: "-30 to -25 F  (-34 to -32 C)",
+    color: [60, 160, 120],
+    cities: "St. Cloud, Brainerd, Alexandria, Fergus Falls, Morris",
+    season: "125-140 days",
+    plants: "Bur Oak, Big Bluestem, Purple Coneflower, Wild Columbine, Milkweed, Blazing Star",
+    desc: "Central Minnesota, a transitional zone with both prairie and forest characteristics."
+  },
+  {
+    name: "Zone 4b",
+    tempRange: "-25 to -20 F  (-32 to -29 C)",
+    color: [80, 180, 80],
+    cities: "Minneapolis, St. Paul, Rochester, Mankato, Willmar",
+    season: "140-160 days",
+    plants: "Sugar Maple, Black-Eyed Susan, Blue Flag Iris, Bloodroot, Prairie Smoke, Ironweed",
+    desc: "The Twin Cities metro and southern Minnesota, the most populated zone in the state."
+  },
+  {
+    name: "Zone 5a",
+    tempRange: "-20 to -15 F  (-29 to -26 C)",
+    color: [120, 200, 60],
+    cities: "Winona, La Crescent, SE river valleys",
+    season: "155-170 days",
+    plants: "Red Oak, Basswood, Dutchman's Breeches, Hepatica, Wild Ginger, Maidenhair Fern",
+    desc: "A small area in the far southeast along the Mississippi River bluffs, Minnesota's mildest zone."
+  }
+];
+
+let selectedZone = null;
+let hoveredZone = null;
+let mapX, mapY, mapW, mapH;
+
+function setup() {
+  let cnv = createCanvas(windowWidth, 700);
+  cnv.parent('canvas-container');
+  textFont('Arial');
+  doLayout();
+}
+
+function doLayout() {
+  mapW = Math.min(280, windowWidth * 0.35);
+  mapH = mapW * 1.5;
+  mapX = 40;
+  mapY = 80;
+  resizeCanvas(windowWidth, Math.max(600, mapY + mapH + 140));
+}
+
+function windowResized() {
+  doLayout();
+}
+
+function draw() {
+  background('#e8f5e9');
+
+  // Title
+  fill('#2e7d32');
+  noStroke();
+  textAlign(CENTER, CENTER);
+  textSize(22);
+  textStyle(BOLD);
+  text("Minnesota Hardiness Zone Lookup", windowWidth / 2, 30);
+  textSize(13);
+  textStyle(NORMAL);
+  fill('#555');
+  text("Click a zone on the map to see planting details", windowWidth / 2, 55);
+
+  drawZoneMap();
+  drawLegend();
+  drawInfoPanel();
+}
+
+function drawZoneMap() {
+  // Draw zones as horizontal bands (top = coldest, bottom = warmest)
+  let bandHeights = [0.18, 0.22, 0.22, 0.28, 0.10]; // proportional heights
+  let cumY = 0;
+
+  for (let i = 0; i < zones.length; i++) {
+    let bh = bandHeights[i] * mapH;
+    let by = mapY + cumY;
+    let z = zones[i];
+    let isHovered = hoveredZone === i;
+    let isSelected = selectedZone === i;
+
+    if (isSelected) {
+      fill(z.color[0], z.color[1], z.color[2], 255);
+      stroke(255);
+      strokeWeight(3);
+    } else if (isHovered) {
+      fill(z.color[0], z.color[1], z.color[2], 220);
+      stroke(255, 255, 255, 150);
+      strokeWeight(2);
+    } else {
+      fill(z.color[0], z.color[1], z.color[2], 180);
+      stroke(255, 255, 255, 60);
+      strokeWeight(1);
+    }
+
+    rect(mapX, by, mapW, bh);
+
+    // Zone label
+    noStroke();
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(14);
+    textStyle(BOLD);
+    text(z.name, mapX + mapW / 2, by + bh / 2);
+
+    cumY += bh;
+  }
+
+  // State outline
+  noFill();
+  stroke('#2e7d32');
+  strokeWeight(3);
+  rect(mapX, mapY, mapW, mapH, 2);
+
+  // NW angle notch
+  fill('#e8f5e9');
+  noStroke();
+  triangle(mapX, mapY, mapX + mapW * 0.22, mapY, mapX, mapY + mapH * 0.06);
+
+  // Arrowhead bump
+  let z3aColor = zones[0].color;
+  fill(z3aColor[0], z3aColor[1], z3aColor[2], 180);
+  stroke('#2e7d32');
+  strokeWeight(2);
+  triangle(
+    mapX + mapW * 0.68, mapY,
+    mapX + mapW, mapY,
+    mapX + mapW * 0.84, mapY - mapH * 0.04
+  );
+
+  // Temperature gradient arrow
+  let arrowX = mapX - 25;
+  stroke('#2e7d32');
+  strokeWeight(2);
+  line(arrowX, mapY + 10, arrowX, mapY + mapH - 10);
+  // Arrow head pointing down
+  line(arrowX, mapY + mapH - 10, arrowX - 5, mapY + mapH - 20);
+  line(arrowX, mapY + mapH - 10, arrowX + 5, mapY + mapH - 20);
+
+  noStroke();
+  fill('#2e7d32');
+  textSize(9);
+  textAlign(CENTER, CENTER);
+  push();
+  translate(arrowX - 2, mapY + mapH / 2);
+  rotate(-HALF_PI);
+  text("Colder  >>>  Warmer", 0, 0);
+  pop();
+}
+
+function drawLegend() {
+  let lx = mapX;
+  let ly = mapY + mapH + 20;
+
+  textAlign(LEFT, CENTER);
+  textSize(14);
+  textStyle(BOLD);
+  noStroke();
+  fill('#2e7d32');
+  text("Hardiness Zone Legend", lx, ly);
+
+  for (let i = 0; i < zones.length; i++) {
+    let z = zones[i];
+    let y = ly + 22 + i * 22;
+    fill(z.color[0], z.color[1], z.color[2]);
+    noStroke();
+    rect(lx, y - 8, 16, 16, 3);
+    fill('#333');
+    textSize(11);
+    textStyle(NORMAL);
+    text(z.name + "  (" + z.tempRange.split("(")[0].trim() + ")", lx + 22, y);
+  }
+}
+
+function drawInfoPanel() {
+  let px = mapX + mapW + 40;
+  let py = mapY;
+  let pw = windowWidth - px - 30;
+  let ph = mapH;
+
+  // Panel background
+  fill(255, 255, 255, 230);
+  stroke('#2e7d32');
+  strokeWeight(2);
+  rect(px, py, pw, ph, 10);
+
+  if (selectedZone === null) {
+    fill('#888');
+    noStroke();
+    textAlign(CENTER, CENTER);
+    textSize(15);
+    textStyle(NORMAL);
+    text("Click a hardiness zone\non the map to see details", px + pw / 2, py + ph / 2);
+    return;
+  }
+
+  let z = zones[selectedZone];
+  noStroke();
+  let tx = px + 18;
+  let ty = py;
+  let maxTW = pw - 36;
+
+  // Header
+  fill(z.color[0], z.color[1], z.color[2]);
+  rect(px, py, pw, 45, 10, 10, 0, 0);
+  fill(255);
+  textAlign(LEFT, CENTER);
+  textSize(20);
+  textStyle(BOLD);
+  text(z.name, tx, py + 22);
+
+  ty = py + 65;
+
+  // Description
+  fill('#333');
+  textSize(13);
+  textStyle(NORMAL);
+  textAlign(LEFT, TOP);
+  text(z.desc, tx, ty, maxTW, 50);
+  ty += 55;
+
+  // Temperature Range
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Temperature Range", tx, ty);
+  ty += 20;
+  fill('#333');
+  textSize(13);
+  textStyle(NORMAL);
+  text(z.tempRange, tx, ty);
+  ty += 30;
+
+  // Cities
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Cities in This Zone", tx, ty);
+  ty += 20;
+  fill('#333');
+  textSize(12);
+  textStyle(NORMAL);
+  text(z.cities, tx, ty, maxTW, 40);
+  ty += 40;
+
+  // Growing Season
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Growing Season Length", tx, ty);
+  ty += 20;
+  fill('#333');
+  textSize(13);
+  textStyle(NORMAL);
+  text(z.season, tx, ty);
+  ty += 30;
+
+  // Recommended Plants
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Recommended Native Plants", tx, ty);
+  ty += 20;
+  fill('#333');
+  textSize(12);
+  textStyle(NORMAL);
+  text(z.plants, tx, ty, maxTW, 60);
+
+  // Visual thermometer
+  let thermX = px + pw - 55;
+  let thermY = py + 60;
+  let thermH = ph - 100;
+  let thermW = 20;
+
+  // Thermometer background
+  stroke('#ccc');
+  strokeWeight(1);
+  fill(240);
+  rect(thermX, thermY, thermW, thermH, 10);
+
+  // Fill level based on zone (warmer = more filled from bottom)
+  let fillPct = (selectedZone + 1) / zones.length;
+  let fillH = fillPct * thermH;
+  noStroke();
+
+  // Gradient fill
+  for (let yy = 0; yy < fillH; yy++) {
+    let t = yy / fillH;
+    let r2 = lerp(z.color[0], 200, t * 0.3);
+    let g = lerp(z.color[1], 60, t * 0.5);
+    let b = lerp(z.color[2], 60, t * 0.3);
+    fill(r2, g, b);
+    rect(thermX + 2, thermY + thermH - yy - 1, thermW - 4, 1);
+  }
+
+  // Thermometer bulb
+  fill(z.color[0], z.color[1], z.color[2]);
+  noStroke();
+  ellipse(thermX + thermW / 2, thermY + thermH + 12, 30, 30);
+}
+
+function mousePressed() {
+  handleClick(mouseX, mouseY);
+}
+function touchStarted() {
+  if (touches.length > 0) handleClick(touches[0].x, touches[0].y);
+  return false;
+}
+
+function handleClick(mx, my) {
+  let bandHeights = [0.18, 0.22, 0.22, 0.28, 0.10];
+  let cumY = 0;
+  for (let i = 0; i < zones.length; i++) {
+    let bh = bandHeights[i] * mapH;
+    let by = mapY + cumY;
+    if (mx > mapX && mx < mapX + mapW && my > by && my < by + bh) {
+      selectedZone = i;
+      return;
+    }
+    cumY += bh;
+  }
+}
+
+function mouseMoved() {
+  hoveredZone = null;
+  let bandHeights = [0.18, 0.22, 0.22, 0.28, 0.10];
+  let cumY = 0;
+  for (let i = 0; i < zones.length; i++) {
+    let bh = bandHeights[i] * mapH;
+    let by = mapY + cumY;
+    if (mouseX > mapX && mouseX < mapX + mapW && mouseY > by && mouseY < by + bh) {
+      hoveredZone = i;
+      cursor(HAND);
+      return;
+    }
+    cumY += bh;
+  }
+  cursor(ARROW);
+}
+</script>
+</body>
+</html>

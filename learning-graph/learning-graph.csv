@@ -1,0 +1,290 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Native Plant Definition,,FOUND
+2,Non-Native Plant Definition,1,FOUND
+3,Invasive Species Definition,2,FOUND
+4,Plant Identification Basics,1,FOUND
+5,Botany Fundamentals,,FOUND
+6,Ecosystem Definition,,FOUND
+7,Biodiversity,6,FOUND
+8,Habitat,6,FOUND
+9,Plant Taxonomy Basics,5,FOUND
+10,Scientific Nomenclature,9,FOUND
+11,Minnesota Ecoregions,6|8,ECOR
+12,Tallgrass Prairie Region,11,ECOR
+13,Deciduous Forest Region,11,ECOR
+14,Coniferous Forest Region,11,ECOR
+15,Prairie-Forest Border,12|13,ECOR
+16,Minnesota Wetland Types,11,ECOR
+17,USDA Hardiness Zones,,ECOR
+18,Zones 3a Through 5a,17,ECOR
+19,Growing Season Length,17|18,ECOR
+20,Minnesota Soil Types,5,ECOR
+21,Prairie Ecosystem Overview,12|6,PRAI
+22,Tallgrass Prairie History,21,PRAI
+23,Prairie Remnants,22,PRAI
+24,Prairie Grasses,21|4,PRAI
+25,Big Bluestem,24,PRAI
+26,Little Bluestem,24,PRAI
+27,Switchgrass,24,PRAI
+28,Indian Grass,24,PRAI
+29,Prairie Dropseed,24,PRAI
+30,Prairie Wildflowers,21|4,PRAI
+31,Purple Coneflower,30,PRAI
+32,Black-Eyed Susan,30,PRAI
+33,Wild Bergamot,30,PRAI
+34,Blazing Star,30,PRAI
+35,Prairie Clover,30,PRAI
+36,Goldenrod Species,30,PRAI
+37,Aster Species,30,PRAI
+38,Milkweed Species,30,PRAI
+39,Prairie Sedges,24,PRAI
+40,Prairie Soil Ecology,21|20,PRAI
+41,Fire Ecology,21,PRAI
+42,Prescribed Burns,41,PRAI
+43,Prairie Root Systems,24|40,PRAI
+44,Warm Season Grasses,24,PRAI
+45,Cool Season Grasses,24,PRAI
+46,Woodland Ecosystem Overview,13|6,WOOD
+47,Forest Layers,46,WOOD
+48,Canopy Layer,47,WOOD
+49,Understory Layer,47,WOOD
+50,Ground Cover Layer,47,WOOD
+51,Spring Ephemerals,46|50,WOOD
+52,Bloodroot,51,WOOD
+53,Trillium,51,WOOD
+54,Hepatica,51,WOOD
+55,Dutchman's Breeches,51,WOOD
+56,Wild Ginger,50,WOOD
+57,Jack-In-The-Pulpit,50,WOOD
+58,Solomon's Seal,50,WOOD
+59,Native Ferns,50,WOOD
+60,Maidenhair Fern,59,WOOD
+61,Native Shrubs Woodland,49,WOOD
+62,Native Trees Overview,48,WOOD
+63,Oak Species,62,WOOD
+64,Maple Species,62,WOOD
+65,Birch Species,62,WOOD
+66,White Pine,62,WOOD
+67,Shade Tolerant Plants,47|49,WOOD
+68,Woodland Wildflowers,50|46,WOOD
+69,Native Vines,49,WOOD
+70,Wetland Ecosystem Overview,16|6,WETL
+71,Marsh Plants,70,WETL
+72,Bog Plants,70,WETL
+73,Sedge Meadows,70,WETL
+74,Shoreline Stabilization,70,WETL
+75,Rain Garden Plants,70|84,WETL
+76,Blue Flag Iris,71,WETL
+77,Cardinal Flower,71,WETL
+78,Joe-Pye Weed,71,WETL
+79,Native Cattail,71,WETL
+80,Wild Rice,70,WETL
+81,Native Water Plants,70,WETL
+82,Riparian Buffer Plants,74,WETL
+83,Wetland Functions,70|7,WETL
+84,Stormwater Management,83,WETL
+85,Water Filtration Role,83,WETL
+86,Flood Mitigation,83,WETL
+87,Pollinator Overview,6|7,POLL
+88,Native Bee Species,87,POLL
+89,Monarch Butterfly,87,POLL
+90,Monarch Migration,89,POLL
+91,Butterfly Life Cycle,87,POLL
+92,Pollinator Decline Causes,87|3,POLL
+93,Pollinator Habitat Needs,87|8,POLL
+94,Nectar Sources,87|30,POLL
+95,Pollen Sources,87|30,POLL
+96,Host Plants,87|91,POLL
+97,Milkweed And Monarchs,38|89,POLL
+98,Bird Habitat Plants,8|62|61,POLL
+99,Songbird Species Support,98,POLL
+100,Mammal Habitat Plants,8|61,POLL
+101,Beneficial Insects,87,POLL
+102,Pollinator Syndromes,87|94,POLL
+103,Bloom Timing Pollinators,94|95|152,POLL
+104,Invasive Species Impact,3|7,INVA
+105,Common Buckthorn,104|3,INVA
+106,Glossy Buckthorn,104|3,INVA
+107,Garlic Mustard,104|3,INVA
+108,Spotted Knapweed,104|3,INVA
+109,Wild Parsnip,104|3,INVA
+110,Purple Loosestrife,104|3,INVA
+111,Reed Canary Grass,104|3,INVA
+112,Leafy Spurge,104|3,INVA
+113,European Earthworms,104,INVA
+114,Emerald Ash Borer,104,INVA
+115,Japanese Barberry,104|3,INVA
+116,Invasive ID Methods,4|104,INVA
+117,Reporting Invasive Species,116|216,INVA
+118,Early Detection Monitoring,116|129,INVA
+119,Removal Strategy Overview,104,INVA
+120,Manual Removal Methods,119,INVA
+121,Mechanical Removal Methods,119,INVA
+122,Chemical Control Methods,119,INVA
+123,Biological Control Methods,119,INVA
+124,Integrated Pest Management,120|121|122|123,INVA
+125,Buckthorn Removal Challenges,105|119,INVA
+126,Buckthorn Seed Bank,125,INVA
+127,Garlic Mustard Removal,107|120,INVA
+128,Removal Timing,119,INVA
+129,Follow-Up Monitoring,119|128,INVA
+130,Re-Invasion Prevention,129|133,INVA
+131,Removal Trade-Offs,119|277,INVA
+132,Multi-Year Removal Plans,119|128|129,INVA
+133,Site Restoration After Removal,119|187,INVA
+134,Leaf Shape Identification,4|5,PLID
+135,Flower Structure ID,4|5,PLID
+136,Fruit And Seed ID,4|5,PLID
+137,Bark Identification,4|62,PLID
+138,Growth Habit Recognition,4|5,PLID
+139,Using Field Guides,4,PLID
+140,Plant ID Apps And Tools,139,PLID
+141,Seasonal ID Features,4|134|135|136,PLID
+142,Native Vs Invasive ID,4|1|3,PLID
+143,Grass Identification,4|24,PLID
+144,Sedge Identification,4|39,PLID
+145,Site Assessment,20|17,GARD
+146,Sun Exposure Analysis,145,GARD
+147,Soil Moisture Assessment,145,GARD
+148,Soil Type Testing,145|20,GARD
+149,Microclimate Assessment,145|146|147,GARD
+150,Native Garden Design,145|151,GARD
+151,Plant Selection Criteria,1|18|146|147,GARD
+152,Seasonal Bloom Sequence,30|68|199|200|201,GARD
+153,Garden Layout Planning,150|154,GARD
+154,Plant Spacing And Density,150,GARD
+155,Species Diversity Design,150|7,GARD
+156,Layered Planting Design,150|47,GARD
+157,Rain Garden Design,150|84|75,GARD
+158,Pollinator Garden Design,150|87|93,GARD
+159,Shade Garden Design,150|67,GARD
+160,Prairie Garden Design,150|21,GARD
+161,Curb Appeal With Natives,150,GARD
+162,Native Lawn Alternatives,150|24,GARD
+163,Site Preparation,145,GARD
+164,Weed Suppression Methods,163,GARD
+165,Seed Starting Natives,169,GARD
+166,Plug Planting Techniques,163,GARD
+167,Container Plant Install,163,GARD
+168,Bare Root Planting,163,GARD
+169,Seeding Methods,163,GARD
+170,Seed Stratification,169,GARD
+171,Watering Establishment,163,GARD
+172,Native Plant Mulching,163,GARD
+173,First Year Maintenance,163|171,GARD
+174,Long-Term Maintenance,173,GARD
+175,Seasonal Maintenance,174,GARD
+176,Maintenance Calendar,175,GARD
+177,Mowing Native Plantings,174,GARD
+178,Dividing Native Plants,174,GARD
+179,Native Plant Nurseries MN,1,GARD
+180,Seed Sources Minnesota,179,GARD
+181,Seed Mix Selection,180|151,GARD
+182,Local Ecotype Importance,183|1,GARD
+183,Provenance And Genetics,5|1,GARD
+184,Plant Labeling Standards,179,GARD
+185,Nativars Vs Wild Types,1|183,GARD
+186,Seed Collection Ethics,180,GARD
+187,Restoration Ecology Basics,6|7,REST
+188,Restoration Site Assessment,187|145,REST
+189,Prairie Restoration,187|21|42,REST
+190,Woodland Restoration,187|46,REST
+191,Wetland Restoration,187|70,REST
+192,Shoreline Restoration,187|74,REST
+193,Restoration Goals Setting,187,REST
+194,Reference Ecosystems,187,REST
+195,Successional Planting,187|250,REST
+196,Monitoring Restoration,187|129,REST
+197,Adaptive Management,196,REST
+198,Restoration Timelines,187|193,REST
+199,Spring Bloom Plants,51|30,REST
+200,Summer Bloom Plants,30|68,REST
+201,Fall Bloom Plants,36|37,REST
+202,Winter Interest Plants,62|61,REST
+203,Seed Head Interest,136|201,REST
+204,Fall Foliage Color,62|64,REST
+205,Year-Round Landscape Plan,199|200|201|202,REST
+206,Phenology Basics,5,REST
+207,Indigenous Plant Knowledge,1,CULT
+208,Ethnobotany Overview,207,CULT
+209,Medicinal Plant Uses,208,CULT
+210,Food Plants Traditional,208,CULT
+211,Fiber And Craft Plants,208,CULT
+212,Ceremony And Ritual Plants,208,CULT
+213,Wild Harvest Ethics,208,CULT
+214,Traditional Land Mgmt,208|41,CULT
+215,Indigenous Burning Practice,214|42,CULT
+216,MN DNR Programs,,MNRS
+217,BWSR Programs,216,MNRS
+218,MN Noxious Weed Law,3|216,MNRS
+219,State Grant Programs,216|217,MNRS
+220,MN Native Plant Law,216,MNRS
+221,Pollinator Protection MN,216|87,MNRS
+222,County SWCD Programs,217,MNRS
+223,County Master Gardeners,222,MNRS
+224,County Park Programs,222,MNRS
+225,Local Ordinances,222,MNRS
+226,City Native Plant Programs,225,MNRS
+227,Boulevard Planting Rules,226,MNRS
+228,Urban Forestry Programs,226,MNRS
+229,Community Gardens,226,MNRS
+230,U Of MN Extension,,MNRS
+231,MN Landscape Arboretum,230,MNRS
+232,MN State College Programs,230,MNRS
+233,Eloise Butler Garden,230,MNRS
+234,Como Park Conservatory,230,MNRS
+235,Nature Center Programs,230,MNRS
+236,MN Native Plant Society,,MNRS
+237,Pollinator Nonprofits MN,236,MNRS
+238,Land Trust Organizations,236,MNRS
+239,Conservation Volunteers,236,MNRS
+240,Prairie Enthusiasts,236,MNRS
+241,Systems Thinking Overview,,SYST
+242,Ecosystem Interconnections,241|6,SYST
+243,Feedback Loops Ecology,241|242,SYST
+244,Trophic Cascades,243|254,SYST
+245,Unintended Consequences,241|243,SYST
+246,Emergent Properties,241|242,SYST
+247,Resilience In Ecosystems,7|241,SYST
+248,Keystone Species Concept,7|244,SYST
+249,Edge Effects,8|241,SYST
+250,Ecological Succession,6|241,SYST
+251,Nutrient Cycling,6|40,SYST
+252,Carbon Sequestration,251|43,SYST
+253,Mycorrhizal Networks,40|242,SYST
+254,Food Web Dynamics,6|87,SYST
+255,Biodiversity And Stability,7|247,SYST
+256,Ecosystem Services,6|241,SYST
+257,Water Cycle Plants Role,85|241,SYST
+258,Systems Maps Ecology,241|242,SYST
+259,Evidence-Based Practices,,CRIT
+260,Scientific Method Basics,259,CRIT
+261,Peer Review Process,260,CRIT
+262,Source Credibility Eval,259|274,CRIT
+263,Conflict Of Interest,262,CRIT
+264,Marketing Vs Science,259|262,CRIT
+265,Common Plant Myths,1|259,CRIT
+266,Invasive Species Myths,3|259,CRIT
+267,Social Media Misinfo,259|262,CRIT
+268,Product Label Claims,264|184,CRIT
+269,Greenwashing Detection,264|268,CRIT
+270,Fact-Checking Strategies,259|262,CRIT
+271,Confirmation Bias,274,CRIT
+272,Anecdotal Vs Data,260|274,CRIT
+273,Native Plant Misconceptions,1|265,CRIT
+274,Critical Thinking Basics,,CRIT
+275,Evaluating Claims,274|259,CRIT
+276,Logical Fallacies,274,CRIT
+277,Cost-Benefit Analysis,274,CRIT
+278,Risk Assessment Ecology,274|241,CRIT
+279,Trade-Off Analysis,274|277,CRIT
+280,Long-Term Vs Short-Term,274|279,CRIT
+281,Garden Design Capstone,150|152|155|156|176,CAPS
+282,Maintenance Calendar Proj,176|175,CAPS
+283,Pollinator Corridor Plan,158|93|226,CAPS
+284,Field Guide Creation,139|134|135|136|141,CAPS
+285,Community Ed Presentation,1|87|104,CAPS
+286,Invasive Removal Plan,132|133|188,CAPS
+287,Systems Map Project,258|242,CAPS
+288,Resource Guide Compilation,216|222|226|230|236,CAPS
+289,Master Gardener Program,230|223,MNRS

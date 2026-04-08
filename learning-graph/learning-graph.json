@@ -1,0 +1,3362 @@
+{
+  "metadata": {
+    "title": "Minnesota Native Plants",
+    "description": "An interactive intelligent textbook about native plants in Minnesota, covering plant identification, prairie, woodland, and wetland ecosystems, pollinators, invasive species management, garden design, ecological restoration, Minnesota resources, systems thinking, and misinformation detection.",
+    "creator": "Arun Batchu",
+    "date": "2026-04-07",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ECOR": {
+      "classifierName": "Ecoregions and Geography",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PRAI": {
+      "classifierName": "Prairie Ecosystem",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "WOOD": {
+      "classifierName": "Woodland Ecosystem",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "WETL": {
+      "classifierName": "Wetland Ecosystem",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "POLL": {
+      "classifierName": "Pollinators and Wildlife",
+      "color": "SteelBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "INVA": {
+      "classifierName": "Invasive Species",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PLID": {
+      "classifierName": "Plant Identification",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "GARD": {
+      "classifierName": "Garden Design and Maintenance",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "REST": {
+      "classifierName": "Ecological Restoration",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CULT": {
+      "classifierName": "Cultural and Indigenous Uses",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MNRS": {
+      "classifierName": "Minnesota Resources",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "SYST": {
+      "classifierName": "Systems Thinking",
+      "color": "LightPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CRIT": {
+      "classifierName": "Critical Thinking",
+      "color": "Gainsboro",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CAPS": {
+      "classifierName": "Capstone Projects",
+      "color": "Plum",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Native Plant Definition",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Non-Native Plant Definition",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Invasive Species Definition",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Plant Identification Basics",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Botany Fundamentals",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 6,
+      "label": "Ecosystem Definition",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 7,
+      "label": "Biodiversity",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Habitat",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Plant Taxonomy Basics",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Scientific Nomenclature",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Minnesota Ecoregions",
+      "group": "ECOR"
+    },
+    {
+      "id": 12,
+      "label": "Tallgrass Prairie Region",
+      "group": "ECOR"
+    },
+    {
+      "id": 13,
+      "label": "Deciduous Forest Region",
+      "group": "ECOR"
+    },
+    {
+      "id": 14,
+      "label": "Coniferous Forest Region",
+      "group": "ECOR"
+    },
+    {
+      "id": 15,
+      "label": "Prairie-Forest Border",
+      "group": "ECOR"
+    },
+    {
+      "id": 16,
+      "label": "Minnesota Wetland Types",
+      "group": "ECOR"
+    },
+    {
+      "id": 17,
+      "label": "USDA Hardiness Zones",
+      "group": "ECOR",
+      "shape": "box"
+    },
+    {
+      "id": 18,
+      "label": "Zones 3a Through 5a",
+      "group": "ECOR"
+    },
+    {
+      "id": 19,
+      "label": "Growing Season Length",
+      "group": "ECOR"
+    },
+    {
+      "id": 20,
+      "label": "Minnesota Soil Types",
+      "group": "ECOR"
+    },
+    {
+      "id": 21,
+      "label": "Prairie Ecosystem Overview",
+      "group": "PRAI"
+    },
+    {
+      "id": 22,
+      "label": "Tallgrass Prairie History",
+      "group": "PRAI"
+    },
+    {
+      "id": 23,
+      "label": "Prairie Remnants",
+      "group": "PRAI"
+    },
+    {
+      "id": 24,
+      "label": "Prairie Grasses",
+      "group": "PRAI"
+    },
+    {
+      "id": 25,
+      "label": "Big Bluestem",
+      "group": "PRAI"
+    },
+    {
+      "id": 26,
+      "label": "Little Bluestem",
+      "group": "PRAI"
+    },
+    {
+      "id": 27,
+      "label": "Switchgrass",
+      "group": "PRAI"
+    },
+    {
+      "id": 28,
+      "label": "Indian Grass",
+      "group": "PRAI"
+    },
+    {
+      "id": 29,
+      "label": "Prairie Dropseed",
+      "group": "PRAI"
+    },
+    {
+      "id": 30,
+      "label": "Prairie Wildflowers",
+      "group": "PRAI"
+    },
+    {
+      "id": 31,
+      "label": "Purple Coneflower",
+      "group": "PRAI"
+    },
+    {
+      "id": 32,
+      "label": "Black-Eyed Susan",
+      "group": "PRAI"
+    },
+    {
+      "id": 33,
+      "label": "Wild Bergamot",
+      "group": "PRAI"
+    },
+    {
+      "id": 34,
+      "label": "Blazing Star",
+      "group": "PRAI"
+    },
+    {
+      "id": 35,
+      "label": "Prairie Clover",
+      "group": "PRAI"
+    },
+    {
+      "id": 36,
+      "label": "Goldenrod Species",
+      "group": "PRAI"
+    },
+    {
+      "id": 37,
+      "label": "Aster Species",
+      "group": "PRAI"
+    },
+    {
+      "id": 38,
+      "label": "Milkweed Species",
+      "group": "PRAI"
+    },
+    {
+      "id": 39,
+      "label": "Prairie Sedges",
+      "group": "PRAI"
+    },
+    {
+      "id": 40,
+      "label": "Prairie Soil Ecology",
+      "group": "PRAI"
+    },
+    {
+      "id": 41,
+      "label": "Fire Ecology",
+      "group": "PRAI"
+    },
+    {
+      "id": 42,
+      "label": "Prescribed Burns",
+      "group": "PRAI"
+    },
+    {
+      "id": 43,
+      "label": "Prairie Root Systems",
+      "group": "PRAI"
+    },
+    {
+      "id": 44,
+      "label": "Warm Season Grasses",
+      "group": "PRAI"
+    },
+    {
+      "id": 45,
+      "label": "Cool Season Grasses",
+      "group": "PRAI"
+    },
+    {
+      "id": 46,
+      "label": "Woodland Ecosystem Overview",
+      "group": "WOOD"
+    },
+    {
+      "id": 47,
+      "label": "Forest Layers",
+      "group": "WOOD"
+    },
+    {
+      "id": 48,
+      "label": "Canopy Layer",
+      "group": "WOOD"
+    },
+    {
+      "id": 49,
+      "label": "Understory Layer",
+      "group": "WOOD"
+    },
+    {
+      "id": 50,
+      "label": "Ground Cover Layer",
+      "group": "WOOD"
+    },
+    {
+      "id": 51,
+      "label": "Spring Ephemerals",
+      "group": "WOOD"
+    },
+    {
+      "id": 52,
+      "label": "Bloodroot",
+      "group": "WOOD"
+    },
+    {
+      "id": 53,
+      "label": "Trillium",
+      "group": "WOOD"
+    },
+    {
+      "id": 54,
+      "label": "Hepatica",
+      "group": "WOOD"
+    },
+    {
+      "id": 55,
+      "label": "Dutchman's Breeches",
+      "group": "WOOD"
+    },
+    {
+      "id": 56,
+      "label": "Wild Ginger",
+      "group": "WOOD"
+    },
+    {
+      "id": 57,
+      "label": "Jack-In-The-Pulpit",
+      "group": "WOOD"
+    },
+    {
+      "id": 58,
+      "label": "Solomon's Seal",
+      "group": "WOOD"
+    },
+    {
+      "id": 59,
+      "label": "Native Ferns",
+      "group": "WOOD"
+    },
+    {
+      "id": 60,
+      "label": "Maidenhair Fern",
+      "group": "WOOD"
+    },
+    {
+      "id": 61,
+      "label": "Native Shrubs Woodland",
+      "group": "WOOD"
+    },
+    {
+      "id": 62,
+      "label": "Native Trees Overview",
+      "group": "WOOD"
+    },
+    {
+      "id": 63,
+      "label": "Oak Species",
+      "group": "WOOD"
+    },
+    {
+      "id": 64,
+      "label": "Maple Species",
+      "group": "WOOD"
+    },
+    {
+      "id": 65,
+      "label": "Birch Species",
+      "group": "WOOD"
+    },
+    {
+      "id": 66,
+      "label": "White Pine",
+      "group": "WOOD"
+    },
+    {
+      "id": 67,
+      "label": "Shade Tolerant Plants",
+      "group": "WOOD"
+    },
+    {
+      "id": 68,
+      "label": "Woodland Wildflowers",
+      "group": "WOOD"
+    },
+    {
+      "id": 69,
+      "label": "Native Vines",
+      "group": "WOOD"
+    },
+    {
+      "id": 70,
+      "label": "Wetland Ecosystem Overview",
+      "group": "WETL"
+    },
+    {
+      "id": 71,
+      "label": "Marsh Plants",
+      "group": "WETL"
+    },
+    {
+      "id": 72,
+      "label": "Bog Plants",
+      "group": "WETL"
+    },
+    {
+      "id": 73,
+      "label": "Sedge Meadows",
+      "group": "WETL"
+    },
+    {
+      "id": 74,
+      "label": "Shoreline Stabilization",
+      "group": "WETL"
+    },
+    {
+      "id": 75,
+      "label": "Rain Garden Plants",
+      "group": "WETL"
+    },
+    {
+      "id": 76,
+      "label": "Blue Flag Iris",
+      "group": "WETL"
+    },
+    {
+      "id": 77,
+      "label": "Cardinal Flower",
+      "group": "WETL"
+    },
+    {
+      "id": 78,
+      "label": "Joe-Pye Weed",
+      "group": "WETL"
+    },
+    {
+      "id": 79,
+      "label": "Native Cattail",
+      "group": "WETL"
+    },
+    {
+      "id": 80,
+      "label": "Wild Rice",
+      "group": "WETL"
+    },
+    {
+      "id": 81,
+      "label": "Native Water Plants",
+      "group": "WETL"
+    },
+    {
+      "id": 82,
+      "label": "Riparian Buffer Plants",
+      "group": "WETL"
+    },
+    {
+      "id": 83,
+      "label": "Wetland Functions",
+      "group": "WETL"
+    },
+    {
+      "id": 84,
+      "label": "Stormwater Management",
+      "group": "WETL"
+    },
+    {
+      "id": 85,
+      "label": "Water Filtration Role",
+      "group": "WETL"
+    },
+    {
+      "id": 86,
+      "label": "Flood Mitigation",
+      "group": "WETL"
+    },
+    {
+      "id": 87,
+      "label": "Pollinator Overview",
+      "group": "POLL"
+    },
+    {
+      "id": 88,
+      "label": "Native Bee Species",
+      "group": "POLL"
+    },
+    {
+      "id": 89,
+      "label": "Monarch Butterfly",
+      "group": "POLL"
+    },
+    {
+      "id": 90,
+      "label": "Monarch Migration",
+      "group": "POLL"
+    },
+    {
+      "id": 91,
+      "label": "Butterfly Life Cycle",
+      "group": "POLL"
+    },
+    {
+      "id": 92,
+      "label": "Pollinator Decline Causes",
+      "group": "POLL"
+    },
+    {
+      "id": 93,
+      "label": "Pollinator Habitat Needs",
+      "group": "POLL"
+    },
+    {
+      "id": 94,
+      "label": "Nectar Sources",
+      "group": "POLL"
+    },
+    {
+      "id": 95,
+      "label": "Pollen Sources",
+      "group": "POLL"
+    },
+    {
+      "id": 96,
+      "label": "Host Plants",
+      "group": "POLL"
+    },
+    {
+      "id": 97,
+      "label": "Milkweed And Monarchs",
+      "group": "POLL"
+    },
+    {
+      "id": 98,
+      "label": "Bird Habitat Plants",
+      "group": "POLL"
+    },
+    {
+      "id": 99,
+      "label": "Songbird Species Support",
+      "group": "POLL"
+    },
+    {
+      "id": 100,
+      "label": "Mammal Habitat Plants",
+      "group": "POLL"
+    },
+    {
+      "id": 101,
+      "label": "Beneficial Insects",
+      "group": "POLL"
+    },
+    {
+      "id": 102,
+      "label": "Pollinator Syndromes",
+      "group": "POLL"
+    },
+    {
+      "id": 103,
+      "label": "Bloom Timing Pollinators",
+      "group": "POLL"
+    },
+    {
+      "id": 104,
+      "label": "Invasive Species Impact",
+      "group": "INVA"
+    },
+    {
+      "id": 105,
+      "label": "Common Buckthorn",
+      "group": "INVA"
+    },
+    {
+      "id": 106,
+      "label": "Glossy Buckthorn",
+      "group": "INVA"
+    },
+    {
+      "id": 107,
+      "label": "Garlic Mustard",
+      "group": "INVA"
+    },
+    {
+      "id": 108,
+      "label": "Spotted Knapweed",
+      "group": "INVA"
+    },
+    {
+      "id": 109,
+      "label": "Wild Parsnip",
+      "group": "INVA"
+    },
+    {
+      "id": 110,
+      "label": "Purple Loosestrife",
+      "group": "INVA"
+    },
+    {
+      "id": 111,
+      "label": "Reed Canary Grass",
+      "group": "INVA"
+    },
+    {
+      "id": 112,
+      "label": "Leafy Spurge",
+      "group": "INVA"
+    },
+    {
+      "id": 113,
+      "label": "European Earthworms",
+      "group": "INVA"
+    },
+    {
+      "id": 114,
+      "label": "Emerald Ash Borer",
+      "group": "INVA"
+    },
+    {
+      "id": 115,
+      "label": "Japanese Barberry",
+      "group": "INVA"
+    },
+    {
+      "id": 116,
+      "label": "Invasive ID Methods",
+      "group": "INVA"
+    },
+    {
+      "id": 117,
+      "label": "Reporting Invasive Species",
+      "group": "INVA"
+    },
+    {
+      "id": 118,
+      "label": "Early Detection Monitoring",
+      "group": "INVA"
+    },
+    {
+      "id": 119,
+      "label": "Removal Strategy Overview",
+      "group": "INVA"
+    },
+    {
+      "id": 120,
+      "label": "Manual Removal Methods",
+      "group": "INVA"
+    },
+    {
+      "id": 121,
+      "label": "Mechanical Removal Methods",
+      "group": "INVA"
+    },
+    {
+      "id": 122,
+      "label": "Chemical Control Methods",
+      "group": "INVA"
+    },
+    {
+      "id": 123,
+      "label": "Biological Control Methods",
+      "group": "INVA"
+    },
+    {
+      "id": 124,
+      "label": "Integrated Pest Management",
+      "group": "INVA"
+    },
+    {
+      "id": 125,
+      "label": "Buckthorn Removal Challenges",
+      "group": "INVA"
+    },
+    {
+      "id": 126,
+      "label": "Buckthorn Seed Bank",
+      "group": "INVA"
+    },
+    {
+      "id": 127,
+      "label": "Garlic Mustard Removal",
+      "group": "INVA"
+    },
+    {
+      "id": 128,
+      "label": "Removal Timing",
+      "group": "INVA"
+    },
+    {
+      "id": 129,
+      "label": "Follow-Up Monitoring",
+      "group": "INVA"
+    },
+    {
+      "id": 130,
+      "label": "Re-Invasion Prevention",
+      "group": "INVA"
+    },
+    {
+      "id": 131,
+      "label": "Removal Trade-Offs",
+      "group": "INVA"
+    },
+    {
+      "id": 132,
+      "label": "Multi-Year Removal Plans",
+      "group": "INVA"
+    },
+    {
+      "id": 133,
+      "label": "Site Restoration After Removal",
+      "group": "INVA"
+    },
+    {
+      "id": 134,
+      "label": "Leaf Shape Identification",
+      "group": "PLID"
+    },
+    {
+      "id": 135,
+      "label": "Flower Structure ID",
+      "group": "PLID"
+    },
+    {
+      "id": 136,
+      "label": "Fruit And Seed ID",
+      "group": "PLID"
+    },
+    {
+      "id": 137,
+      "label": "Bark Identification",
+      "group": "PLID"
+    },
+    {
+      "id": 138,
+      "label": "Growth Habit Recognition",
+      "group": "PLID"
+    },
+    {
+      "id": 139,
+      "label": "Using Field Guides",
+      "group": "PLID"
+    },
+    {
+      "id": 140,
+      "label": "Plant ID Apps And Tools",
+      "group": "PLID"
+    },
+    {
+      "id": 141,
+      "label": "Seasonal ID Features",
+      "group": "PLID"
+    },
+    {
+      "id": 142,
+      "label": "Native Vs Invasive ID",
+      "group": "PLID"
+    },
+    {
+      "id": 143,
+      "label": "Grass Identification",
+      "group": "PLID"
+    },
+    {
+      "id": 144,
+      "label": "Sedge Identification",
+      "group": "PLID"
+    },
+    {
+      "id": 145,
+      "label": "Site Assessment",
+      "group": "GARD"
+    },
+    {
+      "id": 146,
+      "label": "Sun Exposure Analysis",
+      "group": "GARD"
+    },
+    {
+      "id": 147,
+      "label": "Soil Moisture Assessment",
+      "group": "GARD"
+    },
+    {
+      "id": 148,
+      "label": "Soil Type Testing",
+      "group": "GARD"
+    },
+    {
+      "id": 149,
+      "label": "Microclimate Assessment",
+      "group": "GARD"
+    },
+    {
+      "id": 150,
+      "label": "Native Garden Design",
+      "group": "GARD"
+    },
+    {
+      "id": 151,
+      "label": "Plant Selection Criteria",
+      "group": "GARD"
+    },
+    {
+      "id": 152,
+      "label": "Seasonal Bloom Sequence",
+      "group": "GARD"
+    },
+    {
+      "id": 153,
+      "label": "Garden Layout Planning",
+      "group": "GARD"
+    },
+    {
+      "id": 154,
+      "label": "Plant Spacing And Density",
+      "group": "GARD"
+    },
+    {
+      "id": 155,
+      "label": "Species Diversity Design",
+      "group": "GARD"
+    },
+    {
+      "id": 156,
+      "label": "Layered Planting Design",
+      "group": "GARD"
+    },
+    {
+      "id": 157,
+      "label": "Rain Garden Design",
+      "group": "GARD"
+    },
+    {
+      "id": 158,
+      "label": "Pollinator Garden Design",
+      "group": "GARD"
+    },
+    {
+      "id": 159,
+      "label": "Shade Garden Design",
+      "group": "GARD"
+    },
+    {
+      "id": 160,
+      "label": "Prairie Garden Design",
+      "group": "GARD"
+    },
+    {
+      "id": 161,
+      "label": "Curb Appeal With Natives",
+      "group": "GARD"
+    },
+    {
+      "id": 162,
+      "label": "Native Lawn Alternatives",
+      "group": "GARD"
+    },
+    {
+      "id": 163,
+      "label": "Site Preparation",
+      "group": "GARD"
+    },
+    {
+      "id": 164,
+      "label": "Weed Suppression Methods",
+      "group": "GARD"
+    },
+    {
+      "id": 165,
+      "label": "Seed Starting Natives",
+      "group": "GARD"
+    },
+    {
+      "id": 166,
+      "label": "Plug Planting Techniques",
+      "group": "GARD"
+    },
+    {
+      "id": 167,
+      "label": "Container Plant Install",
+      "group": "GARD"
+    },
+    {
+      "id": 168,
+      "label": "Bare Root Planting",
+      "group": "GARD"
+    },
+    {
+      "id": 169,
+      "label": "Seeding Methods",
+      "group": "GARD"
+    },
+    {
+      "id": 170,
+      "label": "Seed Stratification",
+      "group": "GARD"
+    },
+    {
+      "id": 171,
+      "label": "Watering Establishment",
+      "group": "GARD"
+    },
+    {
+      "id": 172,
+      "label": "Native Plant Mulching",
+      "group": "GARD"
+    },
+    {
+      "id": 173,
+      "label": "First Year Maintenance",
+      "group": "GARD"
+    },
+    {
+      "id": 174,
+      "label": "Long-Term Maintenance",
+      "group": "GARD"
+    },
+    {
+      "id": 175,
+      "label": "Seasonal Maintenance",
+      "group": "GARD"
+    },
+    {
+      "id": 176,
+      "label": "Maintenance Calendar",
+      "group": "GARD"
+    },
+    {
+      "id": 177,
+      "label": "Mowing Native Plantings",
+      "group": "GARD"
+    },
+    {
+      "id": 178,
+      "label": "Dividing Native Plants",
+      "group": "GARD"
+    },
+    {
+      "id": 179,
+      "label": "Native Plant Nurseries MN",
+      "group": "GARD"
+    },
+    {
+      "id": 180,
+      "label": "Seed Sources Minnesota",
+      "group": "GARD"
+    },
+    {
+      "id": 181,
+      "label": "Seed Mix Selection",
+      "group": "GARD"
+    },
+    {
+      "id": 182,
+      "label": "Local Ecotype Importance",
+      "group": "GARD"
+    },
+    {
+      "id": 183,
+      "label": "Provenance And Genetics",
+      "group": "GARD"
+    },
+    {
+      "id": 184,
+      "label": "Plant Labeling Standards",
+      "group": "GARD"
+    },
+    {
+      "id": 185,
+      "label": "Nativars Vs Wild Types",
+      "group": "GARD"
+    },
+    {
+      "id": 186,
+      "label": "Seed Collection Ethics",
+      "group": "GARD"
+    },
+    {
+      "id": 187,
+      "label": "Restoration Ecology Basics",
+      "group": "REST"
+    },
+    {
+      "id": 188,
+      "label": "Restoration Site Assessment",
+      "group": "REST"
+    },
+    {
+      "id": 189,
+      "label": "Prairie Restoration",
+      "group": "REST"
+    },
+    {
+      "id": 190,
+      "label": "Woodland Restoration",
+      "group": "REST"
+    },
+    {
+      "id": 191,
+      "label": "Wetland Restoration",
+      "group": "REST"
+    },
+    {
+      "id": 192,
+      "label": "Shoreline Restoration",
+      "group": "REST"
+    },
+    {
+      "id": 193,
+      "label": "Restoration Goals Setting",
+      "group": "REST"
+    },
+    {
+      "id": 194,
+      "label": "Reference Ecosystems",
+      "group": "REST"
+    },
+    {
+      "id": 195,
+      "label": "Successional Planting",
+      "group": "REST"
+    },
+    {
+      "id": 196,
+      "label": "Monitoring Restoration",
+      "group": "REST"
+    },
+    {
+      "id": 197,
+      "label": "Adaptive Management",
+      "group": "REST"
+    },
+    {
+      "id": 198,
+      "label": "Restoration Timelines",
+      "group": "REST"
+    },
+    {
+      "id": 199,
+      "label": "Spring Bloom Plants",
+      "group": "REST"
+    },
+    {
+      "id": 200,
+      "label": "Summer Bloom Plants",
+      "group": "REST"
+    },
+    {
+      "id": 201,
+      "label": "Fall Bloom Plants",
+      "group": "REST"
+    },
+    {
+      "id": 202,
+      "label": "Winter Interest Plants",
+      "group": "REST"
+    },
+    {
+      "id": 203,
+      "label": "Seed Head Interest",
+      "group": "REST"
+    },
+    {
+      "id": 204,
+      "label": "Fall Foliage Color",
+      "group": "REST"
+    },
+    {
+      "id": 205,
+      "label": "Year-Round Landscape Plan",
+      "group": "REST"
+    },
+    {
+      "id": 206,
+      "label": "Phenology Basics",
+      "group": "REST"
+    },
+    {
+      "id": 207,
+      "label": "Indigenous Plant Knowledge",
+      "group": "CULT"
+    },
+    {
+      "id": 208,
+      "label": "Ethnobotany Overview",
+      "group": "CULT"
+    },
+    {
+      "id": 209,
+      "label": "Medicinal Plant Uses",
+      "group": "CULT"
+    },
+    {
+      "id": 210,
+      "label": "Food Plants Traditional",
+      "group": "CULT"
+    },
+    {
+      "id": 211,
+      "label": "Fiber And Craft Plants",
+      "group": "CULT"
+    },
+    {
+      "id": 212,
+      "label": "Ceremony And Ritual Plants",
+      "group": "CULT"
+    },
+    {
+      "id": 213,
+      "label": "Wild Harvest Ethics",
+      "group": "CULT"
+    },
+    {
+      "id": 214,
+      "label": "Traditional Land Mgmt",
+      "group": "CULT"
+    },
+    {
+      "id": 215,
+      "label": "Indigenous Burning Practice",
+      "group": "CULT"
+    },
+    {
+      "id": 216,
+      "label": "MN DNR Programs",
+      "group": "MNRS",
+      "shape": "box"
+    },
+    {
+      "id": 217,
+      "label": "BWSR Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 218,
+      "label": "MN Noxious Weed Law",
+      "group": "MNRS"
+    },
+    {
+      "id": 219,
+      "label": "State Grant Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 220,
+      "label": "MN Native Plant Law",
+      "group": "MNRS"
+    },
+    {
+      "id": 221,
+      "label": "Pollinator Protection MN",
+      "group": "MNRS"
+    },
+    {
+      "id": 222,
+      "label": "County SWCD Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 223,
+      "label": "County Master Gardeners",
+      "group": "MNRS"
+    },
+    {
+      "id": 224,
+      "label": "County Park Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 225,
+      "label": "Local Ordinances",
+      "group": "MNRS"
+    },
+    {
+      "id": 226,
+      "label": "City Native Plant Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 227,
+      "label": "Boulevard Planting Rules",
+      "group": "MNRS"
+    },
+    {
+      "id": 228,
+      "label": "Urban Forestry Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 229,
+      "label": "Community Gardens",
+      "group": "MNRS"
+    },
+    {
+      "id": 230,
+      "label": "U Of MN Extension",
+      "group": "MNRS",
+      "shape": "box"
+    },
+    {
+      "id": 231,
+      "label": "MN Landscape Arboretum",
+      "group": "MNRS"
+    },
+    {
+      "id": 232,
+      "label": "MN State College Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 233,
+      "label": "Eloise Butler Garden",
+      "group": "MNRS"
+    },
+    {
+      "id": 234,
+      "label": "Como Park Conservatory",
+      "group": "MNRS"
+    },
+    {
+      "id": 235,
+      "label": "Nature Center Programs",
+      "group": "MNRS"
+    },
+    {
+      "id": 236,
+      "label": "MN Native Plant Society",
+      "group": "MNRS",
+      "shape": "box"
+    },
+    {
+      "id": 237,
+      "label": "Pollinator Nonprofits MN",
+      "group": "MNRS"
+    },
+    {
+      "id": 238,
+      "label": "Land Trust Organizations",
+      "group": "MNRS"
+    },
+    {
+      "id": 239,
+      "label": "Conservation Volunteers",
+      "group": "MNRS"
+    },
+    {
+      "id": 240,
+      "label": "Prairie Enthusiasts",
+      "group": "MNRS"
+    },
+    {
+      "id": 241,
+      "label": "Systems Thinking Overview",
+      "group": "SYST",
+      "shape": "box"
+    },
+    {
+      "id": 242,
+      "label": "Ecosystem Interconnections",
+      "group": "SYST"
+    },
+    {
+      "id": 243,
+      "label": "Feedback Loops Ecology",
+      "group": "SYST"
+    },
+    {
+      "id": 244,
+      "label": "Trophic Cascades",
+      "group": "SYST"
+    },
+    {
+      "id": 245,
+      "label": "Unintended Consequences",
+      "group": "SYST"
+    },
+    {
+      "id": 246,
+      "label": "Emergent Properties",
+      "group": "SYST"
+    },
+    {
+      "id": 247,
+      "label": "Resilience In Ecosystems",
+      "group": "SYST"
+    },
+    {
+      "id": 248,
+      "label": "Keystone Species Concept",
+      "group": "SYST"
+    },
+    {
+      "id": 249,
+      "label": "Edge Effects",
+      "group": "SYST"
+    },
+    {
+      "id": 250,
+      "label": "Ecological Succession",
+      "group": "SYST"
+    },
+    {
+      "id": 251,
+      "label": "Nutrient Cycling",
+      "group": "SYST"
+    },
+    {
+      "id": 252,
+      "label": "Carbon Sequestration",
+      "group": "SYST"
+    },
+    {
+      "id": 253,
+      "label": "Mycorrhizal Networks",
+      "group": "SYST"
+    },
+    {
+      "id": 254,
+      "label": "Food Web Dynamics",
+      "group": "SYST"
+    },
+    {
+      "id": 255,
+      "label": "Biodiversity And Stability",
+      "group": "SYST"
+    },
+    {
+      "id": 256,
+      "label": "Ecosystem Services",
+      "group": "SYST"
+    },
+    {
+      "id": 257,
+      "label": "Water Cycle Plants Role",
+      "group": "SYST"
+    },
+    {
+      "id": 258,
+      "label": "Systems Maps Ecology",
+      "group": "SYST"
+    },
+    {
+      "id": 259,
+      "label": "Evidence-Based Practices",
+      "group": "CRIT",
+      "shape": "box"
+    },
+    {
+      "id": 260,
+      "label": "Scientific Method Basics",
+      "group": "CRIT"
+    },
+    {
+      "id": 261,
+      "label": "Peer Review Process",
+      "group": "CRIT"
+    },
+    {
+      "id": 262,
+      "label": "Source Credibility Eval",
+      "group": "CRIT"
+    },
+    {
+      "id": 263,
+      "label": "Conflict Of Interest",
+      "group": "CRIT"
+    },
+    {
+      "id": 264,
+      "label": "Marketing Vs Science",
+      "group": "CRIT"
+    },
+    {
+      "id": 265,
+      "label": "Common Plant Myths",
+      "group": "CRIT"
+    },
+    {
+      "id": 266,
+      "label": "Invasive Species Myths",
+      "group": "CRIT"
+    },
+    {
+      "id": 267,
+      "label": "Social Media Misinfo",
+      "group": "CRIT"
+    },
+    {
+      "id": 268,
+      "label": "Product Label Claims",
+      "group": "CRIT"
+    },
+    {
+      "id": 269,
+      "label": "Greenwashing Detection",
+      "group": "CRIT"
+    },
+    {
+      "id": 270,
+      "label": "Fact-Checking Strategies",
+      "group": "CRIT"
+    },
+    {
+      "id": 271,
+      "label": "Confirmation Bias",
+      "group": "CRIT"
+    },
+    {
+      "id": 272,
+      "label": "Anecdotal Vs Data",
+      "group": "CRIT"
+    },
+    {
+      "id": 273,
+      "label": "Native Plant Misconceptions",
+      "group": "CRIT"
+    },
+    {
+      "id": 274,
+      "label": "Critical Thinking Basics",
+      "group": "CRIT",
+      "shape": "box"
+    },
+    {
+      "id": 275,
+      "label": "Evaluating Claims",
+      "group": "CRIT"
+    },
+    {
+      "id": 276,
+      "label": "Logical Fallacies",
+      "group": "CRIT"
+    },
+    {
+      "id": 277,
+      "label": "Cost-Benefit Analysis",
+      "group": "CRIT"
+    },
+    {
+      "id": 278,
+      "label": "Risk Assessment Ecology",
+      "group": "CRIT"
+    },
+    {
+      "id": 279,
+      "label": "Trade-Off Analysis",
+      "group": "CRIT"
+    },
+    {
+      "id": 280,
+      "label": "Long-Term Vs Short-Term",
+      "group": "CRIT"
+    },
+    {
+      "id": 281,
+      "label": "Garden Design Capstone",
+      "group": "CAPS"
+    },
+    {
+      "id": 282,
+      "label": "Maintenance Calendar Proj",
+      "group": "CAPS"
+    },
+    {
+      "id": 283,
+      "label": "Pollinator Corridor Plan",
+      "group": "CAPS"
+    },
+    {
+      "id": 284,
+      "label": "Field Guide Creation",
+      "group": "CAPS"
+    },
+    {
+      "id": 285,
+      "label": "Community Ed Presentation",
+      "group": "CAPS"
+    },
+    {
+      "id": 286,
+      "label": "Invasive Removal Plan",
+      "group": "CAPS"
+    },
+    {
+      "id": 287,
+      "label": "Systems Map Project",
+      "group": "CAPS"
+    },
+    {
+      "id": 288,
+      "label": "Resource Guide Compilation",
+      "group": "CAPS"
+    },
+    {
+      "id": 289,
+      "label": "Master Gardener Program",
+      "group": "MNRS"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 6
+    },
+    {
+      "from": 9,
+      "to": 5
+    },
+    {
+      "from": 10,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 6
+    },
+    {
+      "from": 11,
+      "to": 8
+    },
+    {
+      "from": 12,
+      "to": 11
+    },
+    {
+      "from": 13,
+      "to": 11
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 15,
+      "to": 12
+    },
+    {
+      "from": 15,
+      "to": 13
+    },
+    {
+      "from": 16,
+      "to": 11
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 20,
+      "to": 5
+    },
+    {
+      "from": 21,
+      "to": 12
+    },
+    {
+      "from": 21,
+      "to": 6
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 21
+    },
+    {
+      "from": 24,
+      "to": 4
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 27,
+      "to": 24
+    },
+    {
+      "from": 28,
+      "to": 24
+    },
+    {
+      "from": 29,
+      "to": 24
+    },
+    {
+      "from": 30,
+      "to": 21
+    },
+    {
+      "from": 30,
+      "to": 4
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 30
+    },
+    {
+      "from": 33,
+      "to": 30
+    },
+    {
+      "from": 34,
+      "to": 30
+    },
+    {
+      "from": 35,
+      "to": 30
+    },
+    {
+      "from": 36,
+      "to": 30
+    },
+    {
+      "from": 37,
+      "to": 30
+    },
+    {
+      "from": 38,
+      "to": 30
+    },
+    {
+      "from": 39,
+      "to": 24
+    },
+    {
+      "from": 40,
+      "to": 21
+    },
+    {
+      "from": 40,
+      "to": 20
+    },
+    {
+      "from": 41,
+      "to": 21
+    },
+    {
+      "from": 42,
+      "to": 41
+    },
+    {
+      "from": 43,
+      "to": 24
+    },
+    {
+      "from": 43,
+      "to": 40
+    },
+    {
+      "from": 44,
+      "to": 24
+    },
+    {
+      "from": 45,
+      "to": 24
+    },
+    {
+      "from": 46,
+      "to": 13
+    },
+    {
+      "from": 46,
+      "to": 6
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 47
+    },
+    {
+      "from": 50,
+      "to": 47
+    },
+    {
+      "from": 51,
+      "to": 46
+    },
+    {
+      "from": 51,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 51
+    },
+    {
+      "from": 54,
+      "to": 51
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 56,
+      "to": 50
+    },
+    {
+      "from": 57,
+      "to": 50
+    },
+    {
+      "from": 58,
+      "to": 50
+    },
+    {
+      "from": 59,
+      "to": 50
+    },
+    {
+      "from": 60,
+      "to": 59
+    },
+    {
+      "from": 61,
+      "to": 49
+    },
+    {
+      "from": 62,
+      "to": 48
+    },
+    {
+      "from": 63,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 62
+    },
+    {
+      "from": 65,
+      "to": 62
+    },
+    {
+      "from": 66,
+      "to": 62
+    },
+    {
+      "from": 67,
+      "to": 47
+    },
+    {
+      "from": 67,
+      "to": 49
+    },
+    {
+      "from": 68,
+      "to": 50
+    },
+    {
+      "from": 68,
+      "to": 46
+    },
+    {
+      "from": 69,
+      "to": 49
+    },
+    {
+      "from": 70,
+      "to": 16
+    },
+    {
+      "from": 70,
+      "to": 6
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 70
+    },
+    {
+      "from": 73,
+      "to": 70
+    },
+    {
+      "from": 74,
+      "to": 70
+    },
+    {
+      "from": 75,
+      "to": 70
+    },
+    {
+      "from": 75,
+      "to": 84
+    },
+    {
+      "from": 76,
+      "to": 71
+    },
+    {
+      "from": 77,
+      "to": 71
+    },
+    {
+      "from": 78,
+      "to": 71
+    },
+    {
+      "from": 79,
+      "to": 71
+    },
+    {
+      "from": 80,
+      "to": 70
+    },
+    {
+      "from": 81,
+      "to": 70
+    },
+    {
+      "from": 82,
+      "to": 74
+    },
+    {
+      "from": 83,
+      "to": 70
+    },
+    {
+      "from": 83,
+      "to": 7
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 83
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 87,
+      "to": 6
+    },
+    {
+      "from": 87,
+      "to": 7
+    },
+    {
+      "from": 88,
+      "to": 87
+    },
+    {
+      "from": 89,
+      "to": 87
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 87
+    },
+    {
+      "from": 92,
+      "to": 87
+    },
+    {
+      "from": 92,
+      "to": 3
+    },
+    {
+      "from": 93,
+      "to": 87
+    },
+    {
+      "from": 93,
+      "to": 8
+    },
+    {
+      "from": 94,
+      "to": 87
+    },
+    {
+      "from": 94,
+      "to": 30
+    },
+    {
+      "from": 95,
+      "to": 87
+    },
+    {
+      "from": 95,
+      "to": 30
+    },
+    {
+      "from": 96,
+      "to": 87
+    },
+    {
+      "from": 96,
+      "to": 91
+    },
+    {
+      "from": 97,
+      "to": 38
+    },
+    {
+      "from": 97,
+      "to": 89
+    },
+    {
+      "from": 98,
+      "to": 8
+    },
+    {
+      "from": 98,
+      "to": 62
+    },
+    {
+      "from": 98,
+      "to": 61
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 8
+    },
+    {
+      "from": 100,
+      "to": 61
+    },
+    {
+      "from": 101,
+      "to": 87
+    },
+    {
+      "from": 102,
+      "to": 87
+    },
+    {
+      "from": 102,
+      "to": 94
+    },
+    {
+      "from": 103,
+      "to": 94
+    },
+    {
+      "from": 103,
+      "to": 95
+    },
+    {
+      "from": 103,
+      "to": 152
+    },
+    {
+      "from": 104,
+      "to": 3
+    },
+    {
+      "from": 104,
+      "to": 7
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 105,
+      "to": 3
+    },
+    {
+      "from": 106,
+      "to": 104
+    },
+    {
+      "from": 106,
+      "to": 3
+    },
+    {
+      "from": 107,
+      "to": 104
+    },
+    {
+      "from": 107,
+      "to": 3
+    },
+    {
+      "from": 108,
+      "to": 104
+    },
+    {
+      "from": 108,
+      "to": 3
+    },
+    {
+      "from": 109,
+      "to": 104
+    },
+    {
+      "from": 109,
+      "to": 3
+    },
+    {
+      "from": 110,
+      "to": 104
+    },
+    {
+      "from": 110,
+      "to": 3
+    },
+    {
+      "from": 111,
+      "to": 104
+    },
+    {
+      "from": 111,
+      "to": 3
+    },
+    {
+      "from": 112,
+      "to": 104
+    },
+    {
+      "from": 112,
+      "to": 3
+    },
+    {
+      "from": 113,
+      "to": 104
+    },
+    {
+      "from": 114,
+      "to": 104
+    },
+    {
+      "from": 115,
+      "to": 104
+    },
+    {
+      "from": 115,
+      "to": 3
+    },
+    {
+      "from": 116,
+      "to": 4
+    },
+    {
+      "from": 116,
+      "to": 104
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 117,
+      "to": 216
+    },
+    {
+      "from": 118,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 129
+    },
+    {
+      "from": 119,
+      "to": 104
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 119
+    },
+    {
+      "from": 122,
+      "to": 119
+    },
+    {
+      "from": 123,
+      "to": 119
+    },
+    {
+      "from": 124,
+      "to": 120
+    },
+    {
+      "from": 124,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 122
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 125,
+      "to": 105
+    },
+    {
+      "from": 125,
+      "to": 119
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 127,
+      "to": 107
+    },
+    {
+      "from": 127,
+      "to": 120
+    },
+    {
+      "from": 128,
+      "to": 119
+    },
+    {
+      "from": 129,
+      "to": 119
+    },
+    {
+      "from": 129,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 130,
+      "to": 133
+    },
+    {
+      "from": 131,
+      "to": 119
+    },
+    {
+      "from": 131,
+      "to": 277
+    },
+    {
+      "from": 132,
+      "to": 119
+    },
+    {
+      "from": 132,
+      "to": 128
+    },
+    {
+      "from": 132,
+      "to": 129
+    },
+    {
+      "from": 133,
+      "to": 119
+    },
+    {
+      "from": 133,
+      "to": 187
+    },
+    {
+      "from": 134,
+      "to": 4
+    },
+    {
+      "from": 134,
+      "to": 5
+    },
+    {
+      "from": 135,
+      "to": 4
+    },
+    {
+      "from": 135,
+      "to": 5
+    },
+    {
+      "from": 136,
+      "to": 4
+    },
+    {
+      "from": 136,
+      "to": 5
+    },
+    {
+      "from": 137,
+      "to": 4
+    },
+    {
+      "from": 137,
+      "to": 62
+    },
+    {
+      "from": 138,
+      "to": 4
+    },
+    {
+      "from": 138,
+      "to": 5
+    },
+    {
+      "from": 139,
+      "to": 4
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 4
+    },
+    {
+      "from": 141,
+      "to": 134
+    },
+    {
+      "from": 141,
+      "to": 135
+    },
+    {
+      "from": 141,
+      "to": 136
+    },
+    {
+      "from": 142,
+      "to": 4
+    },
+    {
+      "from": 142,
+      "to": 1
+    },
+    {
+      "from": 142,
+      "to": 3
+    },
+    {
+      "from": 143,
+      "to": 4
+    },
+    {
+      "from": 143,
+      "to": 24
+    },
+    {
+      "from": 144,
+      "to": 4
+    },
+    {
+      "from": 144,
+      "to": 39
+    },
+    {
+      "from": 145,
+      "to": 20
+    },
+    {
+      "from": 145,
+      "to": 17
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 147,
+      "to": 145
+    },
+    {
+      "from": 148,
+      "to": 145
+    },
+    {
+      "from": 148,
+      "to": 20
+    },
+    {
+      "from": 149,
+      "to": 145
+    },
+    {
+      "from": 149,
+      "to": 146
+    },
+    {
+      "from": 149,
+      "to": 147
+    },
+    {
+      "from": 150,
+      "to": 145
+    },
+    {
+      "from": 150,
+      "to": 151
+    },
+    {
+      "from": 151,
+      "to": 1
+    },
+    {
+      "from": 151,
+      "to": 18
+    },
+    {
+      "from": 151,
+      "to": 146
+    },
+    {
+      "from": 151,
+      "to": 147
+    },
+    {
+      "from": 152,
+      "to": 30
+    },
+    {
+      "from": 152,
+      "to": 68
+    },
+    {
+      "from": 152,
+      "to": 199
+    },
+    {
+      "from": 152,
+      "to": 200
+    },
+    {
+      "from": 152,
+      "to": 201
+    },
+    {
+      "from": 153,
+      "to": 150
+    },
+    {
+      "from": 153,
+      "to": 154
+    },
+    {
+      "from": 154,
+      "to": 150
+    },
+    {
+      "from": 155,
+      "to": 150
+    },
+    {
+      "from": 155,
+      "to": 7
+    },
+    {
+      "from": 156,
+      "to": 150
+    },
+    {
+      "from": 156,
+      "to": 47
+    },
+    {
+      "from": 157,
+      "to": 150
+    },
+    {
+      "from": 157,
+      "to": 84
+    },
+    {
+      "from": 157,
+      "to": 75
+    },
+    {
+      "from": 158,
+      "to": 150
+    },
+    {
+      "from": 158,
+      "to": 87
+    },
+    {
+      "from": 158,
+      "to": 93
+    },
+    {
+      "from": 159,
+      "to": 150
+    },
+    {
+      "from": 159,
+      "to": 67
+    },
+    {
+      "from": 160,
+      "to": 150
+    },
+    {
+      "from": 160,
+      "to": 21
+    },
+    {
+      "from": 161,
+      "to": 150
+    },
+    {
+      "from": 162,
+      "to": 150
+    },
+    {
+      "from": 162,
+      "to": 24
+    },
+    {
+      "from": 163,
+      "to": 145
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 169
+    },
+    {
+      "from": 166,
+      "to": 163
+    },
+    {
+      "from": 167,
+      "to": 163
+    },
+    {
+      "from": 168,
+      "to": 163
+    },
+    {
+      "from": 169,
+      "to": 163
+    },
+    {
+      "from": 170,
+      "to": 169
+    },
+    {
+      "from": 171,
+      "to": 163
+    },
+    {
+      "from": 172,
+      "to": 163
+    },
+    {
+      "from": 173,
+      "to": 163
+    },
+    {
+      "from": 173,
+      "to": 171
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 174
+    },
+    {
+      "from": 178,
+      "to": 174
+    },
+    {
+      "from": 179,
+      "to": 1
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 180
+    },
+    {
+      "from": 181,
+      "to": 151
+    },
+    {
+      "from": 182,
+      "to": 183
+    },
+    {
+      "from": 182,
+      "to": 1
+    },
+    {
+      "from": 183,
+      "to": 5
+    },
+    {
+      "from": 183,
+      "to": 1
+    },
+    {
+      "from": 184,
+      "to": 179
+    },
+    {
+      "from": 185,
+      "to": 1
+    },
+    {
+      "from": 185,
+      "to": 183
+    },
+    {
+      "from": 186,
+      "to": 180
+    },
+    {
+      "from": 187,
+      "to": 6
+    },
+    {
+      "from": 187,
+      "to": 7
+    },
+    {
+      "from": 188,
+      "to": 187
+    },
+    {
+      "from": 188,
+      "to": 145
+    },
+    {
+      "from": 189,
+      "to": 187
+    },
+    {
+      "from": 189,
+      "to": 21
+    },
+    {
+      "from": 189,
+      "to": 42
+    },
+    {
+      "from": 190,
+      "to": 187
+    },
+    {
+      "from": 190,
+      "to": 46
+    },
+    {
+      "from": 191,
+      "to": 187
+    },
+    {
+      "from": 191,
+      "to": 70
+    },
+    {
+      "from": 192,
+      "to": 187
+    },
+    {
+      "from": 192,
+      "to": 74
+    },
+    {
+      "from": 193,
+      "to": 187
+    },
+    {
+      "from": 194,
+      "to": 187
+    },
+    {
+      "from": 195,
+      "to": 187
+    },
+    {
+      "from": 195,
+      "to": 250
+    },
+    {
+      "from": 196,
+      "to": 187
+    },
+    {
+      "from": 196,
+      "to": 129
+    },
+    {
+      "from": 197,
+      "to": 196
+    },
+    {
+      "from": 198,
+      "to": 187
+    },
+    {
+      "from": 198,
+      "to": 193
+    },
+    {
+      "from": 199,
+      "to": 51
+    },
+    {
+      "from": 199,
+      "to": 30
+    },
+    {
+      "from": 200,
+      "to": 30
+    },
+    {
+      "from": 200,
+      "to": 68
+    },
+    {
+      "from": 201,
+      "to": 36
+    },
+    {
+      "from": 201,
+      "to": 37
+    },
+    {
+      "from": 202,
+      "to": 62
+    },
+    {
+      "from": 202,
+      "to": 61
+    },
+    {
+      "from": 203,
+      "to": 136
+    },
+    {
+      "from": 203,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 62
+    },
+    {
+      "from": 204,
+      "to": 64
+    },
+    {
+      "from": 205,
+      "to": 199
+    },
+    {
+      "from": 205,
+      "to": 200
+    },
+    {
+      "from": 205,
+      "to": 201
+    },
+    {
+      "from": 205,
+      "to": 202
+    },
+    {
+      "from": 206,
+      "to": 5
+    },
+    {
+      "from": 207,
+      "to": 1
+    },
+    {
+      "from": 208,
+      "to": 207
+    },
+    {
+      "from": 209,
+      "to": 208
+    },
+    {
+      "from": 210,
+      "to": 208
+    },
+    {
+      "from": 211,
+      "to": 208
+    },
+    {
+      "from": 212,
+      "to": 208
+    },
+    {
+      "from": 213,
+      "to": 208
+    },
+    {
+      "from": 214,
+      "to": 208
+    },
+    {
+      "from": 214,
+      "to": 41
+    },
+    {
+      "from": 215,
+      "to": 214
+    },
+    {
+      "from": 215,
+      "to": 42
+    },
+    {
+      "from": 217,
+      "to": 216
+    },
+    {
+      "from": 218,
+      "to": 3
+    },
+    {
+      "from": 218,
+      "to": 216
+    },
+    {
+      "from": 219,
+      "to": 216
+    },
+    {
+      "from": 219,
+      "to": 217
+    },
+    {
+      "from": 220,
+      "to": 216
+    },
+    {
+      "from": 221,
+      "to": 216
+    },
+    {
+      "from": 221,
+      "to": 87
+    },
+    {
+      "from": 222,
+      "to": 217
+    },
+    {
+      "from": 223,
+      "to": 222
+    },
+    {
+      "from": 224,
+      "to": 222
+    },
+    {
+      "from": 225,
+      "to": 222
+    },
+    {
+      "from": 226,
+      "to": 225
+    },
+    {
+      "from": 227,
+      "to": 226
+    },
+    {
+      "from": 228,
+      "to": 226
+    },
+    {
+      "from": 229,
+      "to": 226
+    },
+    {
+      "from": 231,
+      "to": 230
+    },
+    {
+      "from": 232,
+      "to": 230
+    },
+    {
+      "from": 233,
+      "to": 230
+    },
+    {
+      "from": 234,
+      "to": 230
+    },
+    {
+      "from": 235,
+      "to": 230
+    },
+    {
+      "from": 237,
+      "to": 236
+    },
+    {
+      "from": 238,
+      "to": 236
+    },
+    {
+      "from": 239,
+      "to": 236
+    },
+    {
+      "from": 240,
+      "to": 236
+    },
+    {
+      "from": 242,
+      "to": 241
+    },
+    {
+      "from": 242,
+      "to": 6
+    },
+    {
+      "from": 243,
+      "to": 241
+    },
+    {
+      "from": 243,
+      "to": 242
+    },
+    {
+      "from": 244,
+      "to": 243
+    },
+    {
+      "from": 244,
+      "to": 254
+    },
+    {
+      "from": 245,
+      "to": 241
+    },
+    {
+      "from": 245,
+      "to": 243
+    },
+    {
+      "from": 246,
+      "to": 241
+    },
+    {
+      "from": 246,
+      "to": 242
+    },
+    {
+      "from": 247,
+      "to": 7
+    },
+    {
+      "from": 247,
+      "to": 241
+    },
+    {
+      "from": 248,
+      "to": 7
+    },
+    {
+      "from": 248,
+      "to": 244
+    },
+    {
+      "from": 249,
+      "to": 8
+    },
+    {
+      "from": 249,
+      "to": 241
+    },
+    {
+      "from": 250,
+      "to": 6
+    },
+    {
+      "from": 250,
+      "to": 241
+    },
+    {
+      "from": 251,
+      "to": 6
+    },
+    {
+      "from": 251,
+      "to": 40
+    },
+    {
+      "from": 252,
+      "to": 251
+    },
+    {
+      "from": 252,
+      "to": 43
+    },
+    {
+      "from": 253,
+      "to": 40
+    },
+    {
+      "from": 253,
+      "to": 242
+    },
+    {
+      "from": 254,
+      "to": 6
+    },
+    {
+      "from": 254,
+      "to": 87
+    },
+    {
+      "from": 255,
+      "to": 7
+    },
+    {
+      "from": 255,
+      "to": 247
+    },
+    {
+      "from": 256,
+      "to": 6
+    },
+    {
+      "from": 256,
+      "to": 241
+    },
+    {
+      "from": 257,
+      "to": 85
+    },
+    {
+      "from": 257,
+      "to": 241
+    },
+    {
+      "from": 258,
+      "to": 241
+    },
+    {
+      "from": 258,
+      "to": 242
+    },
+    {
+      "from": 260,
+      "to": 259
+    },
+    {
+      "from": 261,
+      "to": 260
+    },
+    {
+      "from": 262,
+      "to": 259
+    },
+    {
+      "from": 262,
+      "to": 274
+    },
+    {
+      "from": 263,
+      "to": 262
+    },
+    {
+      "from": 264,
+      "to": 259
+    },
+    {
+      "from": 264,
+      "to": 262
+    },
+    {
+      "from": 265,
+      "to": 1
+    },
+    {
+      "from": 265,
+      "to": 259
+    },
+    {
+      "from": 266,
+      "to": 3
+    },
+    {
+      "from": 266,
+      "to": 259
+    },
+    {
+      "from": 267,
+      "to": 259
+    },
+    {
+      "from": 267,
+      "to": 262
+    },
+    {
+      "from": 268,
+      "to": 264
+    },
+    {
+      "from": 268,
+      "to": 184
+    },
+    {
+      "from": 269,
+      "to": 264
+    },
+    {
+      "from": 269,
+      "to": 268
+    },
+    {
+      "from": 270,
+      "to": 259
+    },
+    {
+      "from": 270,
+      "to": 262
+    },
+    {
+      "from": 271,
+      "to": 274
+    },
+    {
+      "from": 272,
+      "to": 260
+    },
+    {
+      "from": 272,
+      "to": 274
+    },
+    {
+      "from": 273,
+      "to": 1
+    },
+    {
+      "from": 273,
+      "to": 265
+    },
+    {
+      "from": 275,
+      "to": 274
+    },
+    {
+      "from": 275,
+      "to": 259
+    },
+    {
+      "from": 276,
+      "to": 274
+    },
+    {
+      "from": 277,
+      "to": 274
+    },
+    {
+      "from": 278,
+      "to": 274
+    },
+    {
+      "from": 278,
+      "to": 241
+    },
+    {
+      "from": 279,
+      "to": 274
+    },
+    {
+      "from": 279,
+      "to": 277
+    },
+    {
+      "from": 280,
+      "to": 274
+    },
+    {
+      "from": 280,
+      "to": 279
+    },
+    {
+      "from": 281,
+      "to": 150
+    },
+    {
+      "from": 281,
+      "to": 152
+    },
+    {
+      "from": 281,
+      "to": 155
+    },
+    {
+      "from": 281,
+      "to": 156
+    },
+    {
+      "from": 281,
+      "to": 176
+    },
+    {
+      "from": 282,
+      "to": 176
+    },
+    {
+      "from": 282,
+      "to": 175
+    },
+    {
+      "from": 283,
+      "to": 158
+    },
+    {
+      "from": 283,
+      "to": 93
+    },
+    {
+      "from": 283,
+      "to": 226
+    },
+    {
+      "from": 284,
+      "to": 139
+    },
+    {
+      "from": 284,
+      "to": 134
+    },
+    {
+      "from": 284,
+      "to": 135
+    },
+    {
+      "from": 284,
+      "to": 136
+    },
+    {
+      "from": 284,
+      "to": 141
+    },
+    {
+      "from": 285,
+      "to": 1
+    },
+    {
+      "from": 285,
+      "to": 87
+    },
+    {
+      "from": 285,
+      "to": 104
+    },
+    {
+      "from": 286,
+      "to": 132
+    },
+    {
+      "from": 286,
+      "to": 133
+    },
+    {
+      "from": 286,
+      "to": 188
+    },
+    {
+      "from": 287,
+      "to": 258
+    },
+    {
+      "from": 287,
+      "to": 242
+    },
+    {
+      "from": 288,
+      "to": 216
+    },
+    {
+      "from": 288,
+      "to": 222
+    },
+    {
+      "from": 288,
+      "to": 226
+    },
+    {
+      "from": 288,
+      "to": 230
+    },
+    {
+      "from": 288,
+      "to": 236
+    },
+    {
+      "from": 289,
+      "to": 230
+    },
+    {
+      "from": 289,
+      "to": 223
+    }
+  ]
+}

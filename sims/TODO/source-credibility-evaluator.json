@@ -1,0 +1,11 @@
+{
+  "sim_id": "source-credibility-evaluator",
+  "diagram_name": "Source Credibility Evaluator",
+  "chapter_number": 16,
+  "chapter_title": "Critical Thinking Misinfo",
+  "chapter_dir": "16-critical-thinking-misinfo",
+  "learning_objective": "Students will be able to systematically assess the credibility of a plant or ecology claim by evaluating its source tier, supporting evidence, peer review status, and potential conflicts of interest.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Source Credibility Evaluator</summary>\nType: microsim\n\n**Learning Objective:** Students will be able to systematically assess the credibility of a plant or ecology claim by evaluating its source tier, supporting evidence, peer review status, and potential conflicts of interest.\n\n**Controls:**\n- Dropdown to select a sample claim (or text input to enter a custom claim)\n- Slider or checklist for source tier rating (Tier 1 through Tier 4)\n- Toggle checkboxes for evidence indicators (cites peer-reviewed research, provides data, acknowledges limitations)\n- Toggle checkboxes for conflict of interest flags (seller of product, funded by industry, undisclosed sponsorship)\n- \"Evaluate\" button to generate a credibility score\n\n**Visual Elements:**\n- Credibility meter or gauge that updates in real time as the user adjusts evaluation criteria\n- Color-coded breakdown showing how each factor (source, evidence, peer review, conflict of interest) contributes to the overall score\n- Sample claims drawn from real native plant scenarios (myth vs. fact examples)\n\n**Behavior:**\n- Adjusting any evaluation criterion immediately updates the credibility score and visual breakdown\n- Selecting a sample claim pre-fills a scenario for the student to evaluate\n- The simulation provides feedback explaining why each factor raises or lowers credibility\n- Students can compare their evaluation against a reference assessment\n\n**Instructional Rationale:**\nCritical evaluation of sources is a skill that improves with structured practice. By breaking credibility assessment into discrete, adjustable factors, this simulation helps students internalize a repeatable framework they can apply to any claim they encounter -- in gardening, ecology, or daily life."
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ethnobotany Explorer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e8f5e9;
+  }
+  header {
+    background: #2e7d32;
+    color: #fff;
+    padding: 18px 24px;
+  }
+  header h1 { font-size: 1.4em; margin-bottom: 4px; }
+  header p { font-size: 0.85em; opacity: 0.9; max-width: 700px; line-height: 1.4; }
+  #app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .plant-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: calc(50% - 8px);
+    min-width: 300px;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .plant-card:hover { box-shadow: 0 4px 16px rgba(46,125,50,0.2); }
+  .card-header {
+    background: linear-gradient(135deg, #2e7d32, #43a047);
+    color: #fff;
+    padding: 14px 18px;
+  }
+  .card-header h3 { font-size: 1.1em; margin-bottom: 2px; }
+  .card-header .sci-name { font-style: italic; font-size: 0.85em; opacity: 0.85; }
+  .card-header .indig-name { font-size: 0.8em; opacity: 0.75; margin-top: 2px; }
+  .card-body { padding: 14px 18px; flex: 1; display: flex; flex-direction: column; }
+  .category-buttons {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .cat-btn {
+    padding: 5px 12px;
+    border: 2px solid #2e7d32;
+    background: #fff;
+    color: #2e7d32;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.15s;
+  }
+  .cat-btn:hover { background: #c8e6c9; }
+  .cat-btn.active { background: #2e7d32; color: #fff; }
+  .cat-btn.disabled { opacity: 0.35; cursor: default; border-color: #999; color: #999; }
+  .use-description {
+    background: #f1f8e9;
+    border-left: 3px solid #2e7d32;
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.88em;
+    color: #333;
+    line-height: 1.5;
+    min-height: 50px;
+    flex: 1;
+  }
+  .use-description .cat-label {
+    font-weight: 700;
+    color: #2e7d32;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .note {
+    text-align: center;
+    padding: 14px;
+    font-size: 0.8em;
+    color: #666;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  @media (max-width: 700px) {
+    .plant-card { width: 100%; min-width: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Ethnobotany Explorer: Native Plants of Minnesota</h1>
+  <p>Explore plants traditionally used by Dakota and Ojibwe peoples. Click category buttons to learn about each plant's traditional uses. Knowledge shared here reflects documented ethnobotanical records and is presented with respect for Indigenous knowledge traditions.</p>
+</header>
+
+<div id="app"></div>
+
+<div class="note">
+  <strong>Cultural Note:</strong> Traditional ecological knowledge belongs to Indigenous communities. The information presented here comes from published ethnobotanical sources and is shared for educational purposes. For deeper understanding, please engage directly with Dakota and Ojibwe communities and cultural organizations.
+</div>
+
+<script>
+const plants = [
+  {
+    common: "Wild Rice",
+    scientific: "Zizania palustris",
+    indigenous: "Manoomin (Ojibwe) / PsiN (Dakota)",
+    uses: {
+      Food: "A sacred and staple food for Ojibwe people, wild rice is harvested from canoes in late summer. Grains are parched over fire, hulled by treading, and winnowed. It is eaten as a side dish, in soups, and combined with berries or maple sugar.",
+      Ceremony: "Wild rice holds deep spiritual significance in Ojibwe culture. The rice harvest is a community event guided by traditional protocols. Offerings of tobacco are made before harvesting, and the first rice is shared in ceremony.",
+      Medicine: "Wild rice water was used as a mild tonic and nutritive drink for those recovering from illness. The plant was considered strengthening medicine."
+    }
+  },
+  {
+    common: "Sugar Maple",
+    scientific: "Acer saccharum",
+    indigenous: "Aninaatig (Ojibwe) / ChaNpa (Dakota)",
+    uses: {
+      Food: "Maple sugaring is a centuries-old spring tradition. Sap is collected from tapped trees and boiled down into syrup, sugar cakes, and candy. Maple sugar was a primary sweetener and trade item, and sugar camps were important social gathering places.",
+      Medicine: "Inner bark tea was used for coughs and digestive issues. Sap was consumed as a spring tonic believed to cleanse the body after winter.",
+      Fiber: "Maple wood was carved into bowls, ladles, and other utensils. The hard wood was also used for frames and tool handles."
+    }
+  },
+  {
+    common: "Prairie Turnip",
+    scientific: "Psoralea esculenta",
+    indigenous: "Tipsinna (Dakota/Lakota)",
+    uses: {
+      Food: "A critically important root vegetable for Plains peoples. The starchy root was dug in early summer, peeled, and eaten raw, roasted, or dried and ground into flour. Braided strings of dried turnip were stored for winter use and widely traded.",
+      Medicine: "Root preparations were used to treat digestive complaints and as a general tonic. The plant was considered to have strengthening properties."
+    }
+  },
+  {
+    common: "Echinacea",
+    scientific: "Echinacea angustifolia",
+    indigenous: "Ichinacea (Dakota adaptation)",
+    uses: {
+      Medicine: "One of the most widely used medicinal plants among Plains peoples. Root was chewed or made into tea for toothaches, sore throats, colds, and infections. Applied externally as a poultice for wounds, burns, and insect stings. Used as a remedy for snakebite.",
+      Ceremony: "Echinacea was used in purification rituals. The root was sometimes included in medicine bundles carried for protection and well-being."
+    }
+  },
+  {
+    common: "Wild Bergamot",
+    scientific: "Monarda fistulosa",
+    indigenous: "Makadewibag (Ojibwe)",
+    uses: {
+      Medicine: "Leaf tea was a common remedy for colds, fevers, headaches, and stomach ailments. Leaves were also inhaled as a decongestant. Poultices of the plant were applied to skin infections and minor wounds.",
+      Food: "Leaves were dried and used as a seasoning herb and tea. The flowers attract pollinators and the plant was recognized as supporting healthy ecosystems around food plants.",
+      Ceremony: "The aromatic leaves were sometimes included in smudging mixtures and used to freshen living spaces."
+    }
+  },
+  {
+    common: "Basswood",
+    scientific: "Tilia americana",
+    indigenous: "Wiigobiish (Ojibwe) / HiN (Dakota)",
+    uses: {
+      Fiber: "Inner bark (bast) was one of the most important fiber sources. It was soaked, stripped, and twisted into strong cordage used for rope, fishing nets, woven bags, and sewing. Bark was also used to make storage containers and tied as lashing material.",
+      Food: "Young leaves and flowers were eaten. Flowers were dried for a mild, pleasant tea. The tree's abundant nectar made it important for wild bee colonies and honey.",
+      Medicine: "Flower tea was used as a calming remedy and for treating colds. Inner bark was chewed for sore throats."
+    }
+  },
+  {
+    common: "Paper Birch",
+    scientific: "Betula papyrifera",
+    indigenous: "Wiigwaas (Ojibwe) / ChaN Ska (Dakota)",
+    uses: {
+      Fiber: "Birch bark was essential material for canoes, housing coverings (wigwams), storage containers, and writing surfaces. Bark was carefully harvested without killing the tree and shaped into lightweight, waterproof vessels of all sizes.",
+      Medicine: "Inner bark tea was used for stomach pain and as a mild pain reliever. Sap was collected as a spring tonic drink. Bark poultices were applied to skin conditions.",
+      Food: "Sap was tapped in spring and consumed fresh as a sweet, nutritious beverage, or boiled down into a mild syrup."
+    }
+  },
+  {
+    common: "Sweetgrass",
+    scientific: "Hierochloe odorata",
+    indigenous: "Wiingashk (Ojibwe) / WachaNga (Dakota)",
+    uses: {
+      Ceremony: "One of the four sacred medicines in Anishinaabe tradition (along with tobacco, cedar, and sage). Braided sweetgrass is burned as smudge to invite positive energies, welcome good spirits, and create a sacred atmosphere for prayer and ceremony.",
+      Fiber: "Braided sweetgrass was woven into baskets and used to decorate clothing and regalia. Its pleasant vanilla-like fragrance made it valued as a natural air freshener.",
+      Medicine: "Sweetgrass tea was used for coughs and sore throats. The pleasant aroma was considered to have calming, stress-relieving properties."
+    }
+  },
+  {
+    common: "White Sage",
+    scientific: "Artemisia ludoviciana",
+    indigenous: "Mashkodewashk (Ojibwe) / PezhiHota (Dakota)",
+    uses: {
+      Ceremony: "Used widely for smudging and purification. Dried leaves are bundled and burned to cleanse spaces, people, and ceremonial objects. Sage is one of the foundational sacred medicines in many Indigenous traditions.",
+      Medicine: "Tea from the leaves was used for stomach problems, headaches, and as an antiseptic wash. Leaves were placed in shoes to prevent foot infections and reduce odor. Used as a remedy for colds and respiratory ailments.",
+      Food: "While primarily ceremonial and medicinal, young leaves were occasionally used as a seasoning. The aromatic qualities made it useful for flavoring dried meat."
+    }
+  },
+  {
+    common: "Cattail",
+    scientific: "Typha latifolia",
+    indigenous: "Apakway (Ojibwe) / WiPazukaN (Dakota)",
+    uses: {
+      Food: "Nearly every part is edible. Young shoots eaten like vegetables in spring. Pollen collected as flour. Root starch was processed into a nutritious food. Green flower spikes were roasted and eaten like corn on the cob. One of the most versatile food plants.",
+      Fiber: "Leaves were woven into mats for flooring, wall coverings, and seating. The fluffy seed heads provided insulation for bedding, pillows, and diapers. Leaves were also woven into baskets and temporary shelters.",
+      Medicine: "Root poultice was applied to wounds, burns, and sores. The jelly-like substance between young leaves was used as a topical antiseptic. Down was used as wound dressing."
+    }
+  }
+];
+
+const categories = ["Food", "Medicine", "Fiber", "Ceremony"];
+
+function buildCards() {
+  const app = document.getElementById('app');
+  plants.forEach((plant, idx) => {
+    const card = document.createElement('div');
+    card.className = 'plant-card';
+    const availCats = categories.filter(c => plant.uses[c]);
+    card.innerHTML = `
+      <div class="card-header">
+        <h3>${plant.common}</h3>
+        <div class="sci-name">${plant.scientific}</div>
+        <div class="indig-name">${plant.indigenous}</div>
+      </div>
+      <div class="card-body">
+        <div class="category-buttons">
+          ${categories.map(cat => {
+            const avail = plant.uses[cat];
+            return `<button class="cat-btn ${!avail ? 'disabled' : ''}"
+                     data-plant="${idx}" data-cat="${cat}"
+                     ${!avail ? 'disabled' : ''}
+                     onclick="showUse(${idx},'${cat}',this)">${cat}</button>`;
+          }).join('')}
+        </div>
+        <div class="use-description" id="use-${idx}">
+          <span style="color:#888; font-size:0.9em;">Click a category above to learn about traditional uses.</span>
+        </div>
+      </div>
+    `;
+    app.appendChild(card);
+  });
+}
+
+function showUse(plantIdx, category, btn) {
+  const plant = plants[plantIdx];
+  if (!plant.uses[category]) return;
+
+  // Toggle active state
+  const card = btn.closest('.plant-card');
+  card.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  const desc = document.getElementById('use-' + plantIdx);
+  desc.innerHTML = `<span class="cat-label">${category}</span>${plant.uses[category]}`;
+}
+
+buildCards();
+
+// Minimal p5 sketch for decorative header element (keeps p5.js requirement)
+function setup() {
+  noCanvas();
+}
+</script>
+</body>
+</html>

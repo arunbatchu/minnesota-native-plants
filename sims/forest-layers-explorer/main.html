@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minnesota Forest Layers Explorer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #e8f5e9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; overflow-x: hidden; }
+    </style>
+</head>
+<body>
+<script>
+const layers = [
+    {
+        name: "Canopy",
+        range: "60-80 ft",
+        yFrac: [0.05, 0.30],
+        color: '#1b5e20',
+        highlight: '#2e7d32',
+        species: ["Bur Oak", "Red Oak", "Sugar Maple", "Basswood", "White Pine"],
+        light: "100% sunlight",
+        role: "Primary photosynthesis zone; intercepts rainfall, moderates temperature, provides nesting for birds of prey and songbirds."
+    },
+    {
+        name: "Understory",
+        range: "15-30 ft",
+        yFrac: [0.30, 0.50],
+        color: '#388e3c',
+        highlight: '#43a047',
+        species: ["Pagoda Dogwood", "Serviceberry", "Ironwood", "Blue Beech"],
+        light: "10-25% sunlight",
+        role: "Shade-tolerant trees awaiting canopy gaps; fruit production supports migratory birds and mammals."
+    },
+    {
+        name: "Shrub Layer",
+        range: "3-10 ft",
+        yFrac: [0.50, 0.65],
+        color: '#4caf50',
+        highlight: '#66bb6a',
+        species: ["American Hazelnut", "Elderberry", "Nannyberry", "Chokecherry", "Gray Dogwood"],
+        light: "5-15% sunlight",
+        role: "Dense cover for nesting birds and small mammals; berry production fuels fall migration."
+    },
+    {
+        name: "Ground Cover",
+        range: "0-2 ft",
+        yFrac: [0.65, 0.78],
+        color: '#81c784',
+        highlight: '#a5d6a7',
+        species: ["Wild Ginger", "Large-leaf Aster", "Solomon's Seal", "Maidenhair Fern", "Bloodroot"],
+        light: "1-5% sunlight",
+        role: "Spring ephemerals bloom before canopy leaf-out; stabilize soil and recycle nutrients."
+    },
+    {
+        name: "Forest Floor",
+        range: "Leaf litter & soil",
+        yFrac: [0.78, 0.88],
+        color: '#5d4037',
+        highlight: '#795548',
+        species: ["Shelf Fungi", "Mycorrhizal Networks", "Mosses", "Lichens", "Decomposing Bacteria"],
+        light: "<1% sunlight",
+        role: "Decomposition hub; fungi form mycorrhizal networks connecting tree roots; nutrient cycling powers the entire forest."
+    }
+];
+
+let selectedLayer = -1;
+let hoverLayer = -1;
+let animProgress = 0;
+let targetProgress = 0;
+
+function setup() {
+    createCanvas(windowWidth, max(700, windowHeight));
+    textFont('Segoe UI');
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, max(700, windowHeight));
+}
+
+function getLayerY(layerIdx) {
+    let drawTop = height * 0.08;
+    let drawBottom = height * 0.88;
+    let totalH = drawBottom - drawTop;
+    return {
+        top: drawTop + layers[layerIdx].yFrac[0] * (totalH / 0.88),
+        bottom: drawTop + layers[layerIdx].yFrac[1] * (totalH / 0.88)
+    };
+}
+
+function draw() {
+    let w = width;
+    let h = height;
+    let forestW = (selectedLayer >= 0) ? w * 0.55 : w * 0.85;
+    let forestX = (selectedLayer >= 0) ? w * 0.02 : w * 0.075;
+
+    // Smooth animation
+    animProgress = lerp(animProgress, targetProgress, 0.1);
+
+    // Sky
+    background('#e8f5e9');
+    for (let y = 0; y < h * 0.12; y++) {
+        let inter = map(y, 0, h * 0.12, 0, 1);
+        stroke(lerpColor(color('#64b5f6'), color('#bbdefb'), inter));
+        line(0, y, w, y);
+    }
+
+    // Title
+    noStroke();
+    fill('#1b5e20');
+    textAlign(CENTER, CENTER);
+    textSize(min(20, w * 0.035));
+    textStyle(BOLD);
+    text("Minnesota Forest Layers", w * (selectedLayer >= 0 ? 0.3 : 0.5), h * 0.04);
+    textStyle(NORMAL);
+    textSize(min(12, w * 0.022));
+    fill('#555');
+    text("Click a layer to explore", w * (selectedLayer >= 0 ? 0.3 : 0.5), h * 0.065);
+
+    // Draw each forest layer
+    for (let i = 0; i < layers.length; i++) {
+        let ly = getLayerY(i);
+        let layerH = ly.bottom - ly.top;
+        let isSelected = (i === selectedLayer);
+        let isHover = (i === hoverLayer);
+
+        // Layer background
+        noStroke();
+        let baseColor = color(layers[i].color);
+        let hlColor = color(layers[i].highlight);
+        if (isSelected) {
+            fill(hlColor);
+            strokeWeight(2);
+            stroke('#fff');
+        } else if (isHover) {
+            fill(lerpColor(baseColor, hlColor, 0.5));
+            noStroke();
+        } else {
+            fill(baseColor);
+            noStroke();
+        }
+        rectMode(CORNER);
+        rect(forestX, ly.top, forestW, layerH, i === 0 ? 8 : 0, i === 0 ? 8 : 0, i === 4 ? 8 : 0, i === 4 ? 8 : 0);
+
+        // Draw vegetation specific to each layer
+        push();
+        drawingContext.save();
+        drawingContext.beginPath();
+        drawingContext.rect(forestX, ly.top, forestW, layerH);
+        drawingContext.clip();
+
+        noStroke();
+        if (i === 0) drawCanopy(forestX, ly.top, forestW, layerH, isSelected);
+        else if (i === 1) drawUnderstory(forestX, ly.top, forestW, layerH, isSelected);
+        else if (i === 2) drawShrubs(forestX, ly.top, forestW, layerH, isSelected);
+        else if (i === 3) drawGroundCover(forestX, ly.top, forestW, layerH, isSelected);
+        else if (i === 4) drawForestFloor(forestX, ly.top, forestW, layerH, isSelected);
+
+        drawingContext.restore();
+        pop();
+
+        // Layer label
+        noStroke();
+        fill(255, 255, 255, isSelected ? 240 : 200);
+        textAlign(LEFT, CENTER);
+        textSize(min(14, w * 0.026));
+        textStyle(BOLD);
+        let labelY = ly.top + layerH / 2;
+        text(layers[i].name, forestX + 12, labelY - 8);
+        textStyle(NORMAL);
+        textSize(min(11, w * 0.02));
+        text(layers[i].range, forestX + 12, labelY + 10);
+
+        // Height scale on right side
+        fill(255, 255, 255, 140);
+        textAlign(RIGHT, CENTER);
+        textSize(min(10, w * 0.018));
+        text(layers[i].range, forestX + forestW - 8, labelY);
+    }
+
+    // Soil below forest floor
+    let lastLayer = getLayerY(4);
+    noStroke();
+    fill('#3e2723');
+    rect(forestX, lastLayer.bottom, forestW, h - lastLayer.bottom, 0, 0, 8, 8);
+
+    // Tree trunks spanning multiple layers
+    drawTrunks(forestX, forestW);
+
+    // Info panel when a layer is selected
+    if (selectedLayer >= 0) {
+        let panelX = w * 0.60;
+        let panelW = w * 0.37;
+        let panelY = h * 0.08;
+        let panelH = h * 0.78;
+        let lay = layers[selectedLayer];
+
+        // Panel background
+        noStroke();
+        fill(255, 255, 255, 240);
+        rect(panelX, panelY, panelW, panelH, 12);
+
+        // Accent bar
+        fill(lay.highlight);
+        rect(panelX, panelY, 6, panelH, 12, 0, 0, 12);
+
+        // Layer name
+        fill(lay.color);
+        textAlign(LEFT, TOP);
+        textSize(min(20, w * 0.035));
+        textStyle(BOLD);
+        text(lay.name, panelX + 20, panelY + 18);
+
+        // Height range
+        textSize(min(13, w * 0.024));
+        textStyle(NORMAL);
+        fill('#666');
+        text(lay.range, panelX + 20, panelY + 44);
+
+        // Light level
+        fill(lay.color);
+        textSize(min(13, w * 0.024));
+        textStyle(BOLD);
+        text("Light Level", panelX + 20, panelY + 75);
+        textStyle(NORMAL);
+        fill('#333');
+        textSize(min(12, w * 0.022));
+        text(lay.light, panelX + 20, panelY + 95);
+
+        // Light bar
+        let lightPct = 0;
+        if (lay.light.includes("100")) lightPct = 1;
+        else if (lay.light.includes("25")) lightPct = 0.25;
+        else if (lay.light.includes("15")) lightPct = 0.15;
+        else if (lay.light.includes("5%")) lightPct = 0.05;
+        else if (lay.light.includes("<1")) lightPct = 0.01;
+
+        fill('#e8f5e9');
+        rect(panelX + 20, panelY + 112, panelW - 40, 10, 5);
+        fill('#fdd835');
+        rect(panelX + 20, panelY + 112, (panelW - 40) * lightPct, 10, 5);
+
+        // Species list
+        fill(lay.color);
+        textSize(min(13, w * 0.024));
+        textStyle(BOLD);
+        text("Key Species", panelX + 20, panelY + 140);
+
+        textStyle(NORMAL);
+        fill('#333');
+        textSize(min(12, w * 0.022));
+        let specY = panelY + 162;
+        for (let sp of lay.species) {
+            fill(lay.highlight);
+            ellipse(panelX + 28, specY + 5, 6, 6);
+            fill('#333');
+            textAlign(LEFT, TOP);
+            text(sp, panelX + 38, specY);
+            specY += 22;
+        }
+
+        // Ecological role
+        fill(lay.color);
+        textSize(min(13, w * 0.024));
+        textStyle(BOLD);
+        textAlign(LEFT, TOP);
+        let roleY = specY + 15;
+        text("Ecological Role", panelX + 20, roleY);
+
+        textStyle(NORMAL);
+        fill('#444');
+        textSize(min(11, w * 0.02));
+        textAlign(LEFT, TOP);
+        // Word wrap the role text
+        let words = lay.role.split(' ');
+        let line = '';
+        let lineY = roleY + 22;
+        let maxLineW = panelW - 40;
+        for (let word of words) {
+            let test = line + word + ' ';
+            if (textWidth(test) > maxLineW && line.length > 0) {
+                text(line.trim(), panelX + 20, lineY);
+                lineY += 18;
+                line = word + ' ';
+            } else {
+                line = test;
+            }
+        }
+        if (line.trim().length > 0) {
+            text(line.trim(), panelX + 20, lineY);
+        }
+
+        // Close button
+        let closeX = panelX + panelW - 32;
+        let closeY = panelY + 12;
+        fill(isMouseOver(closeX, closeY, 22) ? '#ef5350' : '#bbb');
+        ellipse(closeX, closeY + 8, 22, 22);
+        fill(255);
+        textAlign(CENTER, CENTER);
+        textSize(14);
+        textStyle(BOLD);
+        text("x", closeX, closeY + 7);
+    }
+
+    // Determine hover
+    hoverLayer = -1;
+    for (let i = 0; i < layers.length; i++) {
+        let ly = getLayerY(i);
+        if (mouseX > forestX && mouseX < forestX + forestW &&
+            mouseY > ly.top && mouseY < ly.bottom) {
+            hoverLayer = i;
+            cursor(HAND);
+            break;
+        }
+    }
+    if (hoverLayer < 0 && selectedLayer < 0) cursor(ARROW);
+}
+
+function isMouseOver(x, y, r) {
+    return dist(mouseX, mouseY, x, y) < r;
+}
+
+function drawCanopy(x, y, w, h, sel) {
+    // Large tree canopies
+    let treePositions = [0.15, 0.35, 0.55, 0.75, 0.9];
+    for (let tp of treePositions) {
+        let tx = x + w * tp;
+        let ty = y + h * 0.6;
+        let tw = w * 0.22;
+        let th = h * 0.9;
+        fill(sel ? '#2e7d32' : '#1b5e20');
+        ellipse(tx, ty, tw, th);
+        fill(sel ? '#388e3c' : '#2e7d32');
+        ellipse(tx - tw * 0.15, ty - th * 0.1, tw * 0.7, th * 0.6);
+        ellipse(tx + tw * 0.2, ty + th * 0.05, tw * 0.5, th * 0.5);
+    }
+}
+
+function drawUnderstory(x, y, w, h, sel) {
+    let positions = [0.1, 0.3, 0.5, 0.7, 0.85];
+    for (let tp of positions) {
+        let tx = x + w * tp;
+        let ty = y + h * 0.5;
+        let tw = w * 0.12;
+        let th = h * 0.7;
+        fill(sel ? '#4caf50' : '#388e3c');
+        ellipse(tx, ty, tw, th);
+        fill(sel ? '#66bb6a' : '#43a047');
+        ellipse(tx, ty - th * 0.2, tw * 0.6, th * 0.4);
+    }
+}
+
+function drawShrubs(x, y, w, h, sel) {
+    for (let sx = x + 20; sx < x + w - 20; sx += 35) {
+        let sy = y + h * 0.5 + random(-5, 5);
+        let sw = random(20, 35);
+        let sh = random(15, 28);
+        fill(sel ? '#81c784' : '#4caf50');
+        ellipse(sx, sy, sw, sh);
+        fill(sel ? '#a5d6a7' : '#66bb6a');
+        ellipse(sx - 3, sy - 3, sw * 0.5, sh * 0.5);
+    }
+}
+
+function drawGroundCover(x, y, w, h, sel) {
+    // Ferns and small plants
+    for (let gx = x + 10; gx < x + w - 10; gx += 18) {
+        let gy = y + h * 0.7;
+        stroke(sel ? '#66bb6a' : '#4caf50');
+        strokeWeight(1);
+        // Fern fronds
+        for (let f = -2; f <= 2; f++) {
+            let angle = f * 0.3 - HALF_PI;
+            let len = random(8, 18);
+            line(gx, gy, gx + cos(angle) * len, gy + sin(angle) * len);
+            // Leaflets
+            noStroke();
+            fill(sel ? '#a5d6a7' : '#81c784');
+            for (let l = 0.3; l < 1; l += 0.3) {
+                let lx = gx + cos(angle) * len * l;
+                let ly = gy + sin(angle) * len * l;
+                ellipse(lx, ly, 5, 3);
+            }
+            stroke(sel ? '#66bb6a' : '#4caf50');
+            strokeWeight(1);
+        }
+
+        // Small flowers
+        if (random() > 0.6) {
+            noStroke();
+            fill(sel ? '#fff176' : '#ffeb3b');
+            ellipse(gx + random(-5, 5), gy - random(3, 10), 4, 4);
+        }
+    }
+    noStroke();
+}
+
+function drawForestFloor(x, y, w, h, sel) {
+    // Leaf litter
+    for (let lx = x + 5; lx < x + w - 5; lx += 10) {
+        let ly = y + random(5, h - 5);
+        fill(sel ? '#8d6e63' : '#6d4c41');
+        push();
+        translate(lx, ly);
+        rotate(random(TWO_PI));
+        ellipse(0, 0, random(8, 14), random(4, 7));
+        pop();
+    }
+
+    // Mushrooms
+    for (let mx = x + 30; mx < x + w - 30; mx += 55) {
+        let my = y + h * 0.6 + random(-10, 10);
+        fill(sel ? '#d7ccc8' : '#bcaaa4');
+        rectMode(CENTER);
+        rect(mx, my + 6, 4, 12, 1);
+        fill(sel ? '#ef5350' : '#c62828');
+        arc(mx, my, 16, 12, PI, TWO_PI);
+        fill(255, 255, 255, 180);
+        ellipse(mx - 3, my - 2, 2, 2);
+        ellipse(mx + 2, my - 3, 2, 2);
+    }
+    rectMode(CORNER);
+}
+
+function drawTrunks(forestX, forestW) {
+    let trunkPositions = [0.2, 0.5, 0.8];
+    for (let tp of trunkPositions) {
+        let tx = forestX + forestW * tp;
+        let topLayer = getLayerY(0);
+        let bottomLayer = getLayerY(4);
+
+        stroke('#4e342e');
+        strokeWeight(8);
+        line(tx, topLayer.top + 30, tx, bottomLayer.bottom);
+
+        // Bark texture
+        stroke('#3e2723');
+        strokeWeight(1);
+        for (let by = topLayer.top + 40; by < bottomLayer.bottom; by += 15) {
+            line(tx - 3, by, tx - 3, by + 8);
+            line(tx + 3, by + 5, tx + 3, by + 12);
+        }
+    }
+    noStroke();
+}
+
+function mousePressed() {
+    let w = width;
+    let forestW = (selectedLayer >= 0) ? w * 0.55 : w * 0.85;
+    let forestX = (selectedLayer >= 0) ? w * 0.02 : w * 0.075;
+
+    // Check close button
+    if (selectedLayer >= 0) {
+        let panelX = w * 0.60;
+        let panelW = w * 0.37;
+        let closeX = panelX + panelW - 32;
+        let closeY = height * 0.08 + 20;
+        if (dist(mouseX, mouseY, closeX, closeY) < 15) {
+            selectedLayer = -1;
+            return;
+        }
+    }
+
+    // Check layer clicks
+    for (let i = 0; i < layers.length; i++) {
+        let ly = getLayerY(i);
+        if (mouseX > forestX && mouseX < forestX + forestW &&
+            mouseY > ly.top && mouseY < ly.bottom) {
+            selectedLayer = (selectedLayer === i) ? -1 : i;
+            return;
+        }
+    }
+
+    // Click outside to deselect
+    selectedLayer = -1;
+}
+
+function touchStarted() {
+    mousePressed();
+    return false;
+}
+</script>
+</body>
+</html>

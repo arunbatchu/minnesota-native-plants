@@ -1,0 +1,11 @@
+{
+  "sim_id": "forest-layers-explorer",
+  "diagram_name": "Forest Layers Explorer",
+  "chapter_number": 4,
+  "chapter_title": "Woodland Forest Plants",
+  "chapter_dir": "04-woodland-forest-plants",
+  "learning_objective": "Students will understand the vertical structure of a mature forest, identifying representative species at each layer and how light availability decreases from canopy to forest floor.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Forest Layers Explorer</summary>\nType: microsim\n\n**Learning Objective:** Students will understand the vertical structure of a mature forest, identifying representative species at each layer and how light availability decreases from canopy to forest floor.\n\n**Controls:**\n- Clickable layer labels or regions to select a forest layer\n- Toggle between deciduous forest and coniferous forest views\n- Light meter slider showing percentage of sunlight at each layer\n\n**Visual Elements:**\n- Illustrated forest cross-section with all five layers clearly delineated\n- Species icons and labels positioned at their respective layers\n- Light gradient overlay showing sunlight penetration from 100% at canopy to 1-5% at ground level\n- Info panel with species list, ecological role, and adaptations for the selected layer\n\n**Behavior:**\n- Clicking a layer highlights it and populates the info panel with layer-specific details\n- The light meter updates to show the percentage of sunlight reaching that layer\n- Switching between forest types changes the species and visual appearance\n- Hovering over a species icon shows a brief description\n\n**Instructional Rationale:**\nThe layered structure of forests is a foundational concept for understanding woodland ecology. An interactive cross-section lets students explore each layer at their own pace and see how conditions change vertically, reinforcing why different species are found at different heights."
+}

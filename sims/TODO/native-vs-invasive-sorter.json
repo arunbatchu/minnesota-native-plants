@@ -1,0 +1,11 @@
+{
+  "sim_id": "native-vs-invasive-sorter",
+  "diagram_name": "Native vs. Invasive Plant Sorter",
+  "chapter_number": 1,
+  "chapter_title": "Intro Native Plants Ecology",
+  "chapter_dir": "01-intro-native-plants-ecology",
+  "learning_objective": "Students will be able to correctly classify common Minnesota plants as native, non-native, or invasive based on their characteristics and history.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Native vs. Invasive Plant Sorter</summary>\nType: microsim\n\n**Learning Objective:** Students will be able to correctly classify common Minnesota plants as native, non-native, or invasive based on their characteristics and history.\n\n**Controls:**\n- Draggable plant name cards that can be placed into three bins\n- Reset button to start over with a new set of plants\n- Check Answers button to reveal correct/incorrect placements\n\n**Visual Elements:**\n- Three labeled bins: Native, Non-Native, and Invasive\n- Plant name cards with common and scientific names\n- Color-coded feedback (green for correct, red for incorrect)\n- Score counter showing correct placements\n\n**Behavior:**\n- Plants are randomly selected from a pool of 15-20 Minnesota species\n- Dragging a card to a bin snaps it into place\n- Checking answers highlights correct and incorrect placements with brief explanations\n- Resetting shuffles and draws a new set of plants\n\n**Instructional Rationale:**\nActive sorting reinforces the decision tree presented in the chapter and helps students internalize the distinctions between native, non-native, and invasive species through practice rather than passive reading."
+}

@@ -1,0 +1,11 @@
+{
+  "sim_id": "bloom-calendar",
+  "diagram_name": "Interactive Bloom Calendar",
+  "chapter_number": 6,
+  "chapter_title": "Pollinators Wildlife",
+  "chapter_dir": "06-pollinators-wildlife",
+  "learning_objective": "Students will understand the seasonal progression of native plant bloom times and be able to select species that provide continuous pollinator resources from spring through fall.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Interactive Bloom Calendar</summary>\nType: microsim\n\n**Learning Objective:** Students will understand the seasonal progression of native plant bloom times and be able to select species that provide continuous pollinator resources from spring through fall.\n\n**Controls:**\n- Month selector or timeline slider spanning April through October\n- Filter checkboxes for plant type (wildflower, grass, shrub) and habitat (prairie, woodland, wetland)\n- Toggle to highlight gap months where few species are blooming\n\n**Visual Elements:**\n- Horizontal timeline with months labeled across the top\n- Colored bars for each plant species showing their bloom period\n- Plant names with small flower color indicators\n- Gap warning highlights for months with fewer than three blooming species in the selected filter\n\n**Behavior:**\n- Selecting a month highlights all species blooming during that period and shows a summary count\n- Filtering by habitat or plant type narrows the displayed species\n- The gap detector identifies months where pollinator resources may be thin, encouraging students to add species to fill those gaps\n- Clicking a species name shows a brief profile with pollinator associations\n\n**Instructional Rationale:**\nContinuous bloom is one of the most important and most overlooked principles of pollinator gardening. The visual calendar format makes bloom gaps immediately obvious and motivates students to think about seasonal coverage rather than focusing only on midsummer flowers."
+}

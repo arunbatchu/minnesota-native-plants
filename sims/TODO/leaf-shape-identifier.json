@@ -1,0 +1,11 @@
+{
+  "sim_id": "leaf-shape-identifier",
+  "diagram_name": "Leaf Shape Identifier MicroSim",
+  "chapter_number": 7,
+  "chapter_title": "Plant Identification Skills",
+  "chapter_dir": "07-plant-identification-skills",
+  "learning_objective": "Students will understand how combining multiple leaf characteristics \u2014 shape, margin, arrangement, and venation \u2014 systematically narrows plant identification possibilities.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Leaf Shape Identifier MicroSim</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how combining multiple leaf characteristics \u2014 shape, margin, arrangement, and venation \u2014 systematically narrows plant identification possibilities.\n\n**Controls:**\n\n- Dropdown for leaf shape (lanceolate, cordate, elliptic, sagittate, linear)\n- Dropdown for margin type (entire, serrate, lobed, deeply divided)\n- Dropdown for arrangement (opposite, alternate, whorled)\n- Dropdown for venation (parallel, net/branching)\n- Reset button to clear all selections\n\n**Visual Elements:**\n\n- A dynamic illustration of a leaf that updates to reflect the selected features\n- A results panel listing Minnesota native species that match the selected combination\n- A count showing how many candidates remain after each selection\n\n**Behavior:**\n\n- Each feature selection filters the candidate list, reducing matches progressively\n- Hovering over a result shows a brief description and image of the matching species\n- Incompatible combinations display a message explaining why no species match\n\n**Instructional Rationale:**\nBy selecting features one at a time and watching the candidate list shrink, students internalize the process of systematic elimination that field botanists use. This builds confidence before working with a physical field guide."
+}

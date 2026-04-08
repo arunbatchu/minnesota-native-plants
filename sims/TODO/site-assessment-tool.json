@@ -1,0 +1,11 @@
+{
+  "sim_id": "site-assessment-tool",
+  "diagram_name": "Site Assessment Tool MicroSim",
+  "chapter_number": 10,
+  "chapter_title": "Garden Design Native Plants",
+  "chapter_dir": "10-garden-design-native-plants",
+  "learning_objective": "Students will understand how sunlight, soil type, and moisture conditions interact to determine which native plant species will thrive on a given site.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Site Assessment Tool MicroSim</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how sunlight, soil type, and moisture conditions interact to determine which native plant species will thrive on a given site.\n\n**Controls:**\n\n- Dropdown for sun exposure (full sun, partial shade, full shade)\n- Dropdown for soil type (sandy, clay, loam)\n- Dropdown for moisture level (dry, mesic/medium, wet)\n- Dropdown for USDA hardiness zone (3a, 3b, 4a, 4b)\n- Filter checkboxes for plant type (grasses, forbs, shrubs, trees)\n- Reset button to clear selections\n\n**Visual Elements:**\n\n- A results list of recommended native species, each with common name, scientific name, bloom time, and height\n- Color-coded badges indicating wildlife value (pollinator, bird, butterfly host)\n- A seasonal bloom timeline bar showing when each recommended species flowers\n- A count of total matching species for the selected conditions\n\n**Behavior:**\n\n- Changing any input immediately updates the plant recommendations list\n- Selecting stricter conditions narrows the list; relaxing them broadens it\n- Clicking on a species name expands a brief description with planting tips\n- The bloom timeline highlights gaps in the seasonal sequence, prompting the student to consider additional species\n\n**Instructional Rationale:**\nBy experimenting with different site condition combinations, students learn that plant selection is driven by environmental factors rather than personal preference alone. This reinforces the \"right plant, right place\" principle central to native garden design."
+}

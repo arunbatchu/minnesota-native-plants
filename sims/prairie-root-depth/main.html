@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prairie Root Depth Comparison</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #e8f5e9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; overflow-x: hidden; }
+        #canvas-container { display: flex; justify-content: center; }
+    </style>
+</head>
+<body>
+<div id="canvas-container"></div>
+<script>
+let digDepth = 0; // 0 to 1
+let dragging = false;
+let sliderX, sliderY, sliderH;
+
+const plants = [
+    { name: "Big Bluestem", depth: 10, color: '#1b5e20', x: 0.55 },
+    { name: "Switchgrass", depth: 8, color: '#2e7d32', x: 0.68 },
+    { name: "Prairie Dropseed", depth: 5, color: '#388e3c', x: 0.80 },
+    { name: "Purple Coneflower", depth: 4, color: '#7b1fa2', x: 0.92 }
+];
+
+const soilLayers = [
+    { name: "Topsoil", depth: 1, color: '#5d4037' },
+    { name: "Subsoil", depth: 5, color: '#8d6e63' },
+    { name: "Clay/Rock", depth: 10, color: '#a1887f' },
+    { name: "Bedrock", depth: 12, color: '#9e9e9e' }
+];
+
+const maxDepthFt = 12;
+
+function setup() {
+    let cnv = createCanvas(windowWidth, max(600, windowHeight));
+    cnv.parent('canvas-container');
+    textFont('Segoe UI');
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, max(600, windowHeight));
+}
+
+function draw() {
+    const w = width;
+    const h = height;
+    const groundY = h * 0.22;
+    const bottomY = h * 0.95;
+    const visibleDepth = digDepth * maxDepthFt;
+    const pxPerFt = (bottomY - groundY) / maxDepthFt;
+
+    // Sky
+    background('#87CEEB');
+    for (let y = 0; y < groundY; y++) {
+        let inter = map(y, 0, groundY, 0, 1);
+        let c = lerpColor(color('#87CEEB'), color('#b3e5fc'), inter);
+        stroke(c); line(0, y, w, y);
+    }
+
+    // Title
+    noStroke();
+    fill(255, 255, 255, 200);
+    rectMode(CENTER);
+    rect(w / 2, 28, 420, 36, 8);
+    fill('#1b5e20');
+    textAlign(CENTER, CENTER);
+    textSize(min(20, w * 0.04));
+    textStyle(BOLD);
+    text("Prairie Root Depth Comparison", w / 2, 28);
+
+    // Column labels
+    textSize(min(16, w * 0.032));
+    fill('#1b5e20');
+    text("Lawn Grass", w * 0.25, 58);
+    text("Native Prairie Plants", w * 0.72, 58);
+
+    // Divider
+    stroke(255, 255, 255, 120);
+    strokeWeight(2);
+    drawingContext.setLineDash([6, 4]);
+    line(w * 0.48, groundY, w * 0.48, bottomY);
+    drawingContext.setLineDash([]);
+    strokeWeight(1);
+
+    // Draw soil layers
+    noStroke();
+    for (let i = 0; i < soilLayers.length; i++) {
+        let layerTop = (i === 0) ? 0 : soilLayers[i - 1].depth;
+        let layerBot = soilLayers[i].depth;
+        let yTop = groundY + layerTop * pxPerFt;
+        let yBot = groundY + layerBot * pxPerFt;
+
+        // Only draw what's visible
+        if (layerTop > visibleDepth) continue;
+        let drawBot = min(yBot, groundY + visibleDepth * pxPerFt);
+
+        fill(soilLayers[i].color);
+        rectMode(CORNER);
+        rect(0, yTop, w, drawBot - yTop);
+
+        // Label
+        if (visibleDepth >= (layerTop + layerBot) / 2) {
+            fill(255, 255, 255, 200);
+            textAlign(LEFT, CENTER);
+            textSize(min(12, w * 0.025));
+            textStyle(NORMAL);
+            text(soilLayers[i].name, 8, (yTop + drawBot) / 2);
+        }
+    }
+
+    // Depth scale
+    stroke(255, 255, 255, 150);
+    strokeWeight(1);
+    textAlign(RIGHT, CENTER);
+    fill(255, 255, 255, 200);
+    textSize(min(11, w * 0.022));
+    textStyle(NORMAL);
+    for (let ft = 0; ft <= maxDepthFt; ft++) {
+        let y = groundY + ft * pxPerFt;
+        if (ft <= visibleDepth) {
+            line(w * 0.46, y, w * 0.50, y);
+            text(ft + " ft", w * 0.455, y);
+        }
+    }
+
+    // Ground surface line
+    noStroke();
+    fill('#4caf50');
+    rectMode(CORNER);
+    rect(0, groundY - 4, w, 6);
+
+    // Draw grass on surface
+    stroke('#66bb6a');
+    strokeWeight(1.5);
+    for (let gx = 10; gx < w * 0.46; gx += 8) {
+        let gh = random(10, 22);
+        line(gx, groundY - 4, gx + random(-3, 3), groundY - 4 - gh);
+    }
+    for (let gx = w * 0.52; gx < w - 10; gx += 8) {
+        let gh = random(15, 40);
+        line(gx, groundY - 4, gx + random(-4, 4), groundY - 4 - gh);
+    }
+
+    // Lawn grass roots (left side)
+    let lawnDepthFt = 0.5; // 6 inches
+    if (visibleDepth > 0) {
+        let lawnRootBottom = groundY + min(lawnDepthFt, visibleDepth) * pxPerFt;
+        stroke('#8d6e63');
+        strokeWeight(1);
+        for (let rx = w * 0.1; rx < w * 0.4; rx += 12) {
+            let rootLen = lawnRootBottom - groundY;
+            if (rootLen > 0) {
+                for (let j = 0; j < 3; j++) {
+                    let cx = rx + random(-8, 8);
+                    beginShape();
+                    noFill();
+                    curveVertex(cx, groundY);
+                    curveVertex(cx, groundY);
+                    curveVertex(cx + random(-5, 5), groundY + rootLen * 0.5);
+                    curveVertex(cx + random(-8, 8), lawnRootBottom);
+                    curveVertex(cx + random(-8, 8), lawnRootBottom);
+                    endShape();
+                }
+            }
+        }
+
+        // Lawn label
+        if (visibleDepth >= lawnDepthFt) {
+            noStroke();
+            fill(255, 255, 255, 220);
+            rectMode(CENTER);
+            rect(w * 0.25, groundY + lawnDepthFt * pxPerFt + 20, 140, 24, 6);
+            fill('#5d4037');
+            textAlign(CENTER, CENTER);
+            textSize(min(12, w * 0.024));
+            textStyle(BOLD);
+            text("6 inches deep", w * 0.25, groundY + lawnDepthFt * pxPerFt + 20);
+        }
+    }
+
+    // Native prairie roots (right side)
+    noFill();
+    for (let p of plants) {
+        let rootVisibleFt = min(p.depth, visibleDepth);
+        if (rootVisibleFt <= 0) continue;
+
+        let rootBottom = groundY + rootVisibleFt * pxPerFt;
+        let px = w * p.x;
+
+        stroke(p.color);
+        strokeWeight(2);
+
+        // Main taproot
+        beginShape();
+        curveVertex(px, groundY);
+        curveVertex(px, groundY);
+        for (let seg = 1; seg <= 6; seg++) {
+            let frac = seg / 6;
+            let sy = groundY + rootVisibleFt * pxPerFt * frac;
+            curveVertex(px + sin(seg * 1.2) * 6, sy);
+        }
+        curveVertex(px, rootBottom);
+        endShape();
+
+        // Branch roots
+        strokeWeight(1);
+        let branchCount = floor(rootVisibleFt * 2);
+        for (let b = 0; b < branchCount; b++) {
+            let by = groundY + (rootVisibleFt * pxPerFt) * (b + 1) / (branchCount + 1);
+            let dir = (b % 2 === 0) ? 1 : -1;
+            let bLen = random(15, 35);
+            beginShape();
+            curveVertex(px, by);
+            curveVertex(px, by);
+            curveVertex(px + dir * bLen * 0.5, by + random(3, 8));
+            curveVertex(px + dir * bLen, by + random(5, 15));
+            curveVertex(px + dir * bLen, by + random(5, 15));
+            endShape();
+        }
+
+        // Depth label at bottom of visible root
+        if (visibleDepth >= p.depth) {
+            noStroke();
+            fill(255, 255, 255, 220);
+            rectMode(CENTER);
+            let labelY = groundY + p.depth * pxPerFt;
+            rect(px, labelY + 14, 100, 20, 4);
+            fill(p.color);
+            textAlign(CENTER, CENTER);
+            textSize(min(11, w * 0.022));
+            textStyle(BOLD);
+            text(p.depth + " ft deep", px, labelY + 14);
+        }
+
+        // Plant name above ground
+        noStroke();
+        fill(p.color);
+        textAlign(CENTER, BOTTOM);
+        textSize(min(11, w * 0.022));
+        textStyle(NORMAL);
+        text(p.name, px, groundY - 42);
+    }
+
+    // Slider
+    sliderX = w - 40;
+    sliderY = groundY + 20;
+    sliderH = bottomY - groundY - 40;
+    let knobY = sliderY + digDepth * sliderH;
+
+    // Slider track
+    stroke('#2e7d32');
+    strokeWeight(4);
+    line(sliderX, sliderY, sliderX, sliderY + sliderH);
+
+    // Slider knob
+    noStroke();
+    fill('#2e7d32');
+    ellipse(sliderX, knobY, 28, 28);
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(10);
+    textStyle(BOLD);
+    text("DIG", sliderX, knobY);
+
+    // Slider label
+    push();
+    translate(sliderX + 18, sliderY + sliderH / 2);
+    rotate(HALF_PI);
+    fill('#2e7d32');
+    textAlign(CENTER, CENTER);
+    textSize(min(12, w * 0.024));
+    textStyle(NORMAL);
+    text("Drag to dig deeper", 0, 0);
+    pop();
+
+    // Dig cutaway line
+    if (visibleDepth > 0 && visibleDepth < maxDepthFt) {
+        let cutY = groundY + visibleDepth * pxPerFt;
+        stroke(0, 0, 0, 40);
+        strokeWeight(3);
+        drawingContext.setLineDash([8, 4]);
+        line(0, cutY, w - 60, cutY);
+        drawingContext.setLineDash([]);
+    }
+
+    // Current depth indicator
+    noStroke();
+    fill(255, 255, 255, 220);
+    rectMode(CENTER);
+    rect(w / 2, h - 16, 220, 26, 8);
+    fill('#1b5e20');
+    textAlign(CENTER, CENTER);
+    textSize(min(13, w * 0.026));
+    textStyle(BOLD);
+    text("Viewing depth: " + nf(visibleDepth, 1, 1) + " ft", w / 2, h - 16);
+}
+
+function mousePressed() {
+    if (dist(mouseX, mouseY, sliderX, sliderY + digDepth * sliderH) < 20) {
+        dragging = true;
+    }
+}
+
+function mouseDragged() {
+    if (dragging) {
+        digDepth = constrain((mouseY - sliderY) / sliderH, 0, 1);
+    }
+}
+
+function mouseReleased() {
+    dragging = false;
+}
+
+function touchStarted() {
+    if (touches.length > 0) {
+        let t = touches[0];
+        if (dist(t.x, t.y, sliderX, sliderY + digDepth * sliderH) < 30) {
+            dragging = true;
+        }
+    }
+}
+
+function touchMoved() {
+    if (dragging && touches.length > 0) {
+        digDepth = constrain((touches[0].y - sliderY) / sliderH, 0, 1);
+    }
+    return false;
+}
+
+function touchEnded() {
+    dragging = false;
+}
+</script>
+</body>
+</html>

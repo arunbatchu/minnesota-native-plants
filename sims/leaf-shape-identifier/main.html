@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minnesota Native Plant Leaf Identifier</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #e8f5e9; color: #1b5e20; }
+</style>
+</head>
+<body>
+<script>
+// Minnesota Native Plant Database
+const plantDB = [
+  { name: "Wild Bergamot", sci: "Monarda fistulosa", shape: "lance", margin: "toothed", arrangement: "opposite", habitat: "prairie", features: "Lavender flowers, square stems, mint family" },
+  { name: "Prairie Blazing Star", sci: "Liatris pycnostachya", shape: "lance", margin: "smooth", arrangement: "alternate", habitat: "prairie", features: "Purple spike flowers, grass-like leaves" },
+  { name: "Black-Eyed Susan", sci: "Rudbeckia hirta", shape: "lance", margin: "toothed", arrangement: "alternate", habitat: "prairie", features: "Yellow ray flowers with dark center cone" },
+  { name: "Common Milkweed", sci: "Asclepias syriaca", shape: "oval", margin: "smooth", arrangement: "opposite", habitat: "prairie", features: "Pink globe flowers, milky sap, monarch host" },
+  { name: "Wild Columbine", sci: "Aquilegia canadensis", shape: "lobed", margin: "lobed", arrangement: "alternate", habitat: "woodland", features: "Red and yellow spurred flowers, rocky slopes" },
+  { name: "Bloodroot", sci: "Sanguinaria canadensis", shape: "lobed", margin: "lobed", arrangement: "alternate", habitat: "woodland", features: "White spring flowers, orange-red sap in roots" },
+  { name: "Jack-in-the-Pulpit", sci: "Arisaema triphyllum", shape: "compound", margin: "smooth", arrangement: "alternate", habitat: "woodland", features: "Hooded green-purple spathe, 3 leaflets" },
+  { name: "Wild Ginger", sci: "Asarum canadense", shape: "heart", margin: "smooth", arrangement: "opposite", habitat: "woodland", features: "Heart-shaped fuzzy leaves, hidden brown flowers" },
+  { name: "Virginia Waterleaf", sci: "Hydrophyllum virginianum", shape: "lobed", margin: "toothed", arrangement: "alternate", habitat: "woodland", features: "White-purple cluster flowers, mottled leaves" },
+  { name: "Red Oak", sci: "Quercus rubra", shape: "lobed", margin: "lobed", arrangement: "alternate", habitat: "woodland", features: "Pointed leaf lobes, acorns, tall canopy tree" },
+  { name: "Sugar Maple", sci: "Acer saccharum", shape: "lobed", margin: "lobed", arrangement: "opposite", habitat: "woodland", features: "5-lobed leaves, brilliant fall color, syrup source" },
+  { name: "Blue Flag Iris", sci: "Iris versicolor", shape: "lance", margin: "smooth", arrangement: "alternate", habitat: "wetland", features: "Blue-violet flowers, sword-shaped leaves" },
+  { name: "Marsh Marigold", sci: "Caltha palustris", shape: "heart", margin: "toothed", arrangement: "alternate", habitat: "wetland", features: "Bright yellow spring flowers, glossy round leaves" },
+  { name: "Cardinal Flower", sci: "Lobelia cardinalis", shape: "lance", margin: "toothed", arrangement: "alternate", habitat: "wetland", features: "Brilliant red spike flowers, hummingbird magnet" },
+  { name: "Joe-Pye Weed", sci: "Eutrochium maculatum", shape: "lance", margin: "toothed", arrangement: "whorled", habitat: "wetland", features: "Pink-purple dome flowers, whorled leaves, tall" },
+  { name: "Boneset", sci: "Eupatorium perfoliatum", shape: "lance", margin: "toothed", arrangement: "opposite", habitat: "wetland", features: "White flat-top flowers, perfoliate paired leaves" },
+  { name: "Wild Lupine", sci: "Lupinus perennis", shape: "compound", margin: "smooth", arrangement: "alternate", habitat: "prairie", features: "Blue-purple pea flowers, palmate compound leaves" },
+  { name: "Prairie Violet", sci: "Viola pedatifida", shape: "lobed", margin: "lobed", arrangement: "alternate", habitat: "prairie", features: "Deep violet flowers, deeply cut leaves" },
+  { name: "Trillium", sci: "Trillium grandiflorum", shape: "oval", margin: "smooth", arrangement: "whorled", habitat: "woodland", features: "Three white petals, three broad leaves in whorl" },
+  { name: "Solomon's Seal", sci: "Polygonatum biflorum", shape: "oval", margin: "smooth", arrangement: "alternate", habitat: "woodland", features: "Arching stems, dangling white bell flowers" },
+  { name: "Wild Geranium", sci: "Geranium maculatum", shape: "lobed", margin: "toothed", arrangement: "opposite", habitat: "woodland", features: "Pink-lavender flowers, deeply palmately lobed" },
+  { name: "Prairie Smoke", sci: "Geum triflorum", shape: "compound", margin: "toothed", arrangement: "alternate", habitat: "prairie", features: "Pink nodding flowers, feathery seed heads" },
+  { name: "Swamp Milkweed", sci: "Asclepias incarnata", shape: "lance", margin: "smooth", arrangement: "opposite", habitat: "wetland", features: "Pink flowers, narrow leaves, monarch host" },
+  { name: "Hepatica", sci: "Hepatica nobilis", shape: "lobed", margin: "smooth", arrangement: "alternate", habitat: "woodland", features: "Early spring blue-white flowers, 3-lobed leaves" },
+  { name: "Compass Plant", sci: "Silphium laciniatum", shape: "lobed", margin: "lobed", arrangement: "alternate", habitat: "prairie", features: "Yellow sunflower-like, deeply cut basal leaves" },
+  { name: "Prairie Dock", sci: "Silphium terebinthinaceum", shape: "heart", margin: "toothed", arrangement: "alternate", habitat: "prairie", features: "Large basal heart leaves, tall yellow flowers" },
+  { name: "Turtlehead", sci: "Chelone glabra", shape: "lance", margin: "toothed", arrangement: "opposite", habitat: "wetland", features: "White snapdragon-like flowers, toothed leaves" },
+  { name: "Wild Strawberry", sci: "Fragaria virginiana", shape: "compound", margin: "toothed", arrangement: "alternate", habitat: "prairie", features: "White 5-petal flowers, trifoliate leaves, fruit" },
+  { name: "Bunchberry", sci: "Cornus canadensis", shape: "oval", margin: "smooth", arrangement: "whorled", habitat: "woodland", features: "4 white bracts, whorl of 6 leaves, red berries" },
+  { name: "Spotted Joe-Pye Weed", sci: "Eutrochium maculatum", shape: "lance", margin: "toothed", arrangement: "whorled", habitat: "wetland", features: "Purple-spotted stems, whorled leaves" }
+];
+
+let selShape, selMargin, selArrange, selHabitat;
+let results = [];
+let scrollOffset = 0;
+let controlY = 0;
+let panelTop = 0;
+
+function setup() {
+  let canvas = createCanvas(windowWidth, max(700, windowHeight));
+  canvas.style('display', 'block');
+  textFont('Segoe UI, Tahoma, sans-serif');
+
+  controlY = 130;
+  let leftCol = 30;
+  let rightCol = windowWidth / 2 + 10;
+  let selW = min(260, windowWidth / 2 - 50);
+
+  selShape = createSelect();
+  selShape.position(leftCol, controlY + 25);
+  selShape.style('width', selW + 'px');
+  styleSelect(selShape);
+  selShape.option('Any', 'any');
+  selShape.option('Oval', 'oval');
+  selShape.option('Heart-shaped', 'heart');
+  selShape.option('Lance-shaped', 'lance');
+  selShape.option('Lobed', 'lobed');
+  selShape.option('Compound', 'compound');
+  selShape.changed(filterPlants);
+
+  selMargin = createSelect();
+  selMargin.position(rightCol, controlY + 25);
+  selMargin.style('width', selW + 'px');
+  styleSelect(selMargin);
+  selMargin.option('Any', 'any');
+  selMargin.option('Smooth', 'smooth');
+  selMargin.option('Toothed', 'toothed');
+  selMargin.option('Lobed', 'lobed');
+  selMargin.changed(filterPlants);
+
+  selArrange = createSelect();
+  selArrange.position(leftCol, controlY + 95);
+  selArrange.style('width', selW + 'px');
+  styleSelect(selArrange);
+  selArrange.option('Any', 'any');
+  selArrange.option('Alternate', 'alternate');
+  selArrange.option('Opposite', 'opposite');
+  selArrange.option('Whorled', 'whorled');
+  selArrange.changed(filterPlants);
+
+  selHabitat = createSelect();
+  selHabitat.position(rightCol, controlY + 95);
+  selHabitat.style('width', selW + 'px');
+  styleSelect(selHabitat);
+  selHabitat.option('Any', 'any');
+  selHabitat.option('Prairie', 'prairie');
+  selHabitat.option('Woodland', 'woodland');
+  selHabitat.option('Wetland', 'wetland');
+  selHabitat.changed(filterPlants);
+
+  filterPlants();
+}
+
+function styleSelect(sel) {
+  sel.style('padding', '8px 12px');
+  sel.style('font-size', '15px');
+  sel.style('border', '2px solid #81c784');
+  sel.style('border-radius', '8px');
+  sel.style('background', '#ffffff');
+  sel.style('color', '#1b5e20');
+  sel.style('cursor', 'pointer');
+  sel.style('outline', 'none');
+  sel.style('font-family', 'Segoe UI, Tahoma, sans-serif');
+}
+
+function filterPlants() {
+  let sh = selShape.value();
+  let ma = selMargin.value();
+  let ar = selArrange.value();
+  let ha = selHabitat.value();
+
+  results = plantDB.filter(p => {
+    if (sh !== 'any' && p.shape !== sh) return false;
+    if (ma !== 'any' && p.margin !== ma) return false;
+    if (ar !== 'any' && p.arrangement !== ar) return false;
+    if (ha !== 'any' && p.habitat !== ha) return false;
+    return true;
+  });
+  scrollOffset = 0;
+}
+
+function draw() {
+  background('#e8f5e9');
+  let w = width;
+
+  // Header
+  noStroke();
+  fill('#2e7d32');
+  rect(0, 0, w, 110, 0, 0, 0, 0);
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(min(28, w * 0.045));
+  textStyle(BOLD);
+  text('Minnesota Native Plant Identifier', w / 2, 35);
+  textSize(min(15, w * 0.028));
+  textStyle(NORMAL);
+  fill(200, 230, 200);
+  text('Select leaf characteristics to find matching native plants', w / 2, 70);
+
+  // Filter section labels
+  let leftCol = 30;
+  let rightCol = w / 2 + 10;
+  fill('#2e7d32');
+  textAlign(LEFT, TOP);
+  textSize(13);
+  textStyle(BOLD);
+  text('Leaf Shape', leftCol, controlY + 8);
+  text('Leaf Margin', rightCol, controlY + 8);
+  text('Leaf Arrangement', leftCol, controlY + 78);
+  text('Habitat', rightCol, controlY + 78);
+
+  // Results panel
+  panelTop = controlY + 150;
+  fill('#2e7d32');
+  textSize(18);
+  textStyle(BOLD);
+  textAlign(LEFT, TOP);
+  text('Matching Plants (' + results.length + ' found)', leftCol, panelTop);
+
+  // Divider
+  stroke('#81c784');
+  strokeWeight(2);
+  line(leftCol, panelTop + 28, w - 30, panelTop + 28);
+  noStroke();
+
+  let cardY = panelTop + 40 - scrollOffset;
+  let cardH = 105;
+  let cardGap = 12;
+  let cardW = w - 60;
+
+  if (results.length === 0) {
+    fill('#666');
+    textSize(15);
+    textStyle(ITALIC);
+    textAlign(CENTER, TOP);
+    text('No plants match your current selection.\nTry broadening your filters.', w / 2, cardY + 20);
+  }
+
+  // Clip results area
+  let clipTop = panelTop + 32;
+  let clipBottom = height - 10;
+
+  for (let i = 0; i < results.length; i++) {
+    let cy = cardY + i * (cardH + cardGap);
+    if (cy + cardH < clipTop || cy > clipBottom) continue;
+
+    // Card background
+    fill(255, 252);
+    stroke('#c8e6c9');
+    strokeWeight(1);
+    rect(leftCol, cy, cardW, cardH, 10);
+    noStroke();
+
+    // Habitat badge
+    let badgeColors = { prairie: '#ff8f00', woodland: '#2e7d32', wetland: '#0277bd' };
+    let hab = results[i].habitat;
+    fill(badgeColors[hab] || '#666');
+    rect(leftCol + cardW - 100, cy + 10, 90, 24, 12);
+    fill(255);
+    textSize(11);
+    textStyle(BOLD);
+    textAlign(CENTER, CENTER);
+    text(hab.toUpperCase(), leftCol + cardW - 55, cy + 22);
+
+    // Plant name
+    fill('#1b5e20');
+    textSize(17);
+    textStyle(BOLD);
+    textAlign(LEFT, TOP);
+    text(results[i].name, leftCol + 15, cy + 10);
+
+    // Scientific name
+    fill('#558b2f');
+    textSize(13);
+    textStyle(ITALIC);
+    text(results[i].sci, leftCol + 15, cy + 32);
+
+    // Features
+    fill('#444');
+    textSize(12);
+    textStyle(NORMAL);
+    text(results[i].features, leftCol + 15, cy + 52, cardW - 40, 20);
+
+    // Trait tags
+    let tags = [
+      'Shape: ' + results[i].shape,
+      'Margin: ' + results[i].margin,
+      'Arr: ' + results[i].arrangement
+    ];
+    let tx = leftCol + 15;
+    for (let t of tags) {
+      fill('#e8f5e9');
+      let tw = textWidth(t) + 16;
+      rect(tx, cy + 76, tw, 20, 10);
+      fill('#2e7d32');
+      textSize(11);
+      textStyle(NORMAL);
+      textAlign(LEFT, CENTER);
+      text(t, tx + 8, cy + 86);
+      tx += tw + 6;
+    }
+  }
+}
+
+function mouseWheel(event) {
+  let maxScroll = max(0, results.length * 117 - (height - panelTop - 60));
+  scrollOffset = constrain(scrollOffset + event.delta, 0, maxScroll);
+  return false;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(700, windowHeight));
+  let selW = min(260, windowWidth / 2 - 50);
+  let rightCol = windowWidth / 2 + 10;
+  selShape.position(30, controlY + 25);
+  selShape.style('width', selW + 'px');
+  selMargin.position(rightCol, controlY + 25);
+  selMargin.style('width', selW + 'px');
+  selArrange.position(30, controlY + 95);
+  selArrange.style('width', selW + 'px');
+  selHabitat.position(rightCol, controlY + 95);
+  selHabitat.style('width', selW + 'px');
+}
+</script>
+</body>
+</html>

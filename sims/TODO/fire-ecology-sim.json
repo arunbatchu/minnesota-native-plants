@@ -1,0 +1,11 @@
+{
+  "sim_id": "fire-ecology-sim",
+  "diagram_name": "Prairie Fire Ecology Simulator",
+  "chapter_number": 3,
+  "chapter_title": "Prairie Plants Grasslands",
+  "chapter_dir": "03-prairie-plants-grasslands",
+  "learning_objective": "Students will understand how fire frequency affects prairie plant composition, woody encroachment, thatch accumulation, and overall ecosystem health over time.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Prairie Fire Ecology Simulator</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how fire frequency affects prairie plant composition, woody encroachment, thatch accumulation, and overall ecosystem health over time.\n\n**Controls:**\n- Play/Pause button to advance the simulation year by year\n- Burn frequency selector (every 1, 2, 3, 5 years, or never)\n- Season-of-burn toggle (spring vs. fall)\n- Reset button to restart the simulation\n\n**Visual Elements:**\n- Animated prairie cross-section showing grasses, wildflowers, shrub seedlings, and thatch layer\n- Year counter and timeline bar\n- Bar charts tracking warm-season grass cover, wildflower diversity, woody plant encroachment, and thatch depth\n- Fire animation when a burn year occurs\n\n**Behavior:**\n- With regular burns, warm-season grasses and wildflowers thrive while woody plants are suppressed\n- Without fire, thatch accumulates, woody plants encroach, and prairie diversity declines over 10-20 years\n- Spring burns favor warm-season grasses; fall burns slightly favor certain wildflowers\n- The simulation runs for up to 30 years, showing long-term trends\n\n**Instructional Rationale:**\nFire's role in prairie ecology is counterintuitive for many students. Simulating multi-year outcomes lets students discover for themselves that fire is beneficial, not destructive, and that burn timing and frequency produce different ecological outcomes."
+}

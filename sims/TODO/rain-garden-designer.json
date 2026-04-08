@@ -1,0 +1,11 @@
+{
+  "sim_id": "rain-garden-designer",
+  "diagram_name": "Rain Garden Designer",
+  "chapter_number": 5,
+  "chapter_title": "Wetland Shoreline Plants",
+  "chapter_dir": "05-wetland-shoreline-plants",
+  "learning_objective": "Students will understand how rain garden moisture zones (wet center, moist middle, dry edge) determine plant placement, and will practice selecting appropriate native species for each zone.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Rain Garden Designer</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how rain garden moisture zones (wet center, moist middle, dry edge) determine plant placement, and will practice selecting appropriate native species for each zone.\n\n**Controls:**\n- Draggable plant cards for 10-12 native rain garden species\n- Three labeled drop zones representing moisture levels (wet, moist, dry)\n- Check Placement button to validate choices\n- Reset button to start over\n\n**Visual Elements:**\n- Cross-section illustration of a rain garden showing the bowl shape with three distinct moisture zones\n- Water level indicator showing typical ponding depth\n- Plant cards with species name, moisture preference icon, and small illustration\n- Color-coded feedback when placements are checked (green for correct zone, yellow for acceptable, red for wrong zone)\n\n**Behavior:**\n- Dragging a plant card to a zone snaps it into position within that zone\n- Checking placements reveals which species are correctly placed and provides brief explanations for misplacements\n- Students can rearrange plants and recheck until all are correctly placed\n- A completion message summarizes the key principle: wettest plants in the center, driest on the edges\n\n**Instructional Rationale:**\nRain garden design is a practical application of wetland plant ecology. By placing plants into moisture zones, students reinforce their understanding of species-specific moisture tolerances while practicing a skill they can apply in their own landscapes."
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rain Garden Designer - Minnesota Native Plants</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #e8f5e9;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+  #canvas-container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+<div id="canvas-container"></div>
+<script>
+// Rain Garden Designer MicroSim
+// Drag plant labels into correct moisture zones
+
+const PRIMARY = [46, 125, 50];       // #2e7d32
+const BG = [232, 245, 233];         // #e8f5e9
+const ZONE_WET = [33, 150, 243];    // blue
+const ZONE_MOIST = [76, 175, 80];   // green
+const ZONE_DRY = [255, 193, 7];     // amber
+
+// Zone definitions
+const zones = [
+  { name: "Zone 1 - Wet (Center)", color: ZONE_WET, plants: ["Cardinal Flower", "Blue Flag Iris", "Joe-Pye Weed"] },
+  { name: "Zone 2 - Moist (Middle)", color: ZONE_MOIST, plants: ["Black-Eyed Susan", "Wild Bergamot"] },
+  { name: "Zone 3 - Dry (Edge)", color: ZONE_DRY, plants: ["Little Bluestem", "Prairie Dropseed"] }
+];
+
+const allPlants = [
+  "Cardinal Flower", "Blue Flag Iris", "Joe-Pye Weed",
+  "Black-Eyed Susan", "Wild Bergamot",
+  "Little Bluestem", "Prairie Dropseed"
+];
+
+let plantLabels = [];
+let dragging = null;
+let dragOffsetX = 0, dragOffsetY = 0;
+let feedback = "";
+let feedbackColor = [0, 0, 0];
+let score = 0;
+let checked = false;
+let zoneRects = [];
+let gardenY, gardenH, labelStartY;
+
+function setup() {
+  let cnv = createCanvas(windowWidth, max(700, windowHeight));
+  cnv.parent('canvas-container');
+  textFont('Segoe UI');
+  resetGame();
+}
+
+function resetGame() {
+  checked = false;
+  feedback = "";
+  score = 0;
+  plantLabels = [];
+
+  let shuffled = shuffle([...allPlants]);
+  let labelW = 160;
+  let labelH = 36;
+  let cols = min(4, floor((width - 40) / (labelW + 10)));
+  let startX = (width - cols * (labelW + 10)) / 2 + 5;
+  labelStartY = height - 130;
+
+  for (let i = 0; i < shuffled.length; i++) {
+    let col = i % cols;
+    let row = floor(i / cols);
+    plantLabels.push({
+      name: shuffled[i],
+      x: startX + col * (labelW + 10),
+      y: labelStartY + row * (labelH + 8),
+      w: labelW,
+      h: labelH,
+      homeX: startX + col * (labelW + 10),
+      homeY: labelStartY + row * (labelH + 8),
+      placed: false,
+      correct: null
+    });
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(700, windowHeight));
+  resetGame();
+}
+
+function draw() {
+  background(BG);
+
+  // Title
+  fill(PRIMARY);
+  noStroke();
+  textAlign(CENTER, TOP);
+  textSize(22);
+  textStyle(BOLD);
+  text("Rain Garden Designer", width / 2, 12);
+  textStyle(NORMAL);
+  textSize(13);
+  fill(80);
+  text("Drag each plant label into its correct moisture zone", width / 2, 40);
+
+  // Draw cross-section
+  gardenY = 80;
+  gardenH = height - 260;
+  drawGardenCrossSection();
+
+  // Draw plant labels
+  for (let pl of plantLabels) {
+    if (pl === dragging) continue;
+    drawLabel(pl);
+  }
+  // Draw dragged label last (on top)
+  if (dragging) drawLabel(dragging);
+
+  // Buttons
+  drawButtons();
+
+  // Feedback
+  if (feedback) {
+    textAlign(CENTER, TOP);
+    textSize(16);
+    textStyle(BOLD);
+    fill(feedbackColor);
+    text(feedback, width / 2, height - 28);
+    textStyle(NORMAL);
+  }
+}
+
+function drawGardenCrossSection() {
+  let cx = width / 2;
+  let gw = min(width - 60, 800);
+  let baseY = gardenY + gardenH * 0.55;
+  let depthMax = gardenH * 0.35;
+
+  // Sky
+  noStroke();
+  fill(200, 230, 255);
+  rect(cx - gw / 2, gardenY, gw, gardenH, 12);
+
+  // Soil layers - bowl shape
+  zoneRects = [];
+
+  // Zone 3 (dry) - edges
+  fill(ZONE_DRY[0], ZONE_DRY[1], ZONE_DRY[2], 80);
+  beginShape();
+  vertex(cx - gw / 2, baseY);
+  vertex(cx - gw / 2, baseY + depthMax * 0.3);
+  bezierVertex(cx - gw / 4, baseY + depthMax * 0.4, cx - gw / 6, baseY + depthMax * 0.5, cx, baseY + depthMax);
+  bezierVertex(cx + gw / 6, baseY + depthMax * 0.5, cx + gw / 4, baseY + depthMax * 0.4, cx + gw / 2, baseY + depthMax * 0.3);
+  vertex(cx + gw / 2, baseY);
+  endShape(CLOSE);
+
+  // Zone drop areas
+  let z3LeftRect = { x: cx - gw / 2, y: baseY - 40, w: gw * 0.2, h: depthMax + 40 };
+  let z3RightRect = { x: cx + gw / 2 - gw * 0.2, y: baseY - 40, w: gw * 0.2, h: depthMax + 40 };
+
+  // Zone 2 (moist) - middle slopes
+  fill(ZONE_MOIST[0], ZONE_MOIST[1], ZONE_MOIST[2], 80);
+  beginShape();
+  vertex(cx - gw * 0.3, baseY);
+  vertex(cx - gw * 0.3, baseY + depthMax * 0.45);
+  bezierVertex(cx - gw * 0.15, baseY + depthMax * 0.6, cx - gw * 0.05, baseY + depthMax * 0.8, cx, baseY + depthMax);
+  bezierVertex(cx + gw * 0.05, baseY + depthMax * 0.8, cx + gw * 0.15, baseY + depthMax * 0.6, cx + gw * 0.3, baseY + depthMax * 0.45);
+  vertex(cx + gw * 0.3, baseY);
+  endShape(CLOSE);
+
+  let z2LeftRect = { x: cx - gw * 0.3, y: baseY - 40, w: gw * 0.15, h: depthMax + 40 };
+  let z2RightRect = { x: cx + gw * 0.15, y: baseY - 40, w: gw * 0.15, h: depthMax + 40 };
+
+  // Zone 1 (wet) - center deepest
+  fill(ZONE_WET[0], ZONE_WET[1], ZONE_WET[2], 90);
+  beginShape();
+  vertex(cx - gw * 0.15, baseY + depthMax * 0.3);
+  bezierVertex(cx - gw * 0.08, baseY + depthMax * 0.7, cx - gw * 0.03, baseY + depthMax * 0.9, cx, baseY + depthMax);
+  bezierVertex(cx + gw * 0.03, baseY + depthMax * 0.9, cx + gw * 0.08, baseY + depthMax * 0.7, cx + gw * 0.15, baseY + depthMax * 0.3);
+  endShape(CLOSE);
+
+  let z1Rect = { x: cx - gw * 0.15, y: baseY - 40, w: gw * 0.3, h: depthMax + 40 };
+
+  zoneRects = [
+    { ...z1Rect, zone: 0 },
+    { ...z2LeftRect, zone: 1 }, { ...z2RightRect, zone: 1 },
+    { ...z3LeftRect, zone: 2 }, { ...z3RightRect, zone: 2 }
+  ];
+
+  // Water surface in center
+  fill(100, 180, 255, 120);
+  ellipse(cx, baseY + depthMax * 0.75, gw * 0.2, depthMax * 0.15);
+
+  // Water flow arrows
+  stroke(33, 150, 243);
+  strokeWeight(2);
+  drawArrow(cx - gw * 0.35, baseY - 15, cx - gw * 0.12, baseY + depthMax * 0.3);
+  drawArrow(cx + gw * 0.35, baseY - 15, cx + gw * 0.12, baseY + depthMax * 0.3);
+  drawArrow(cx - gw * 0.08, baseY + depthMax * 0.3, cx, baseY + depthMax * 0.65);
+  drawArrow(cx + gw * 0.08, baseY + depthMax * 0.3, cx, baseY + depthMax * 0.65);
+  noStroke();
+
+  // Rain drops
+  fill(100, 180, 255, 150);
+  for (let i = 0; i < 8; i++) {
+    let rx = cx - gw * 0.4 + i * gw * 0.1;
+    let ry = gardenY + 15 + sin(frameCount * 0.05 + i) * 10;
+    ellipse(rx, ry, 4, 8);
+  }
+
+  // Zone labels
+  textAlign(CENTER, TOP);
+  textSize(12);
+  textStyle(BOLD);
+  fill(ZONE_WET);
+  text("Zone 1: Wet", cx, baseY + depthMax + 8);
+  fill(ZONE_MOIST);
+  text("Zone 2: Moist", cx - gw * 0.28, baseY + depthMax + 8);
+  text("Zone 2: Moist", cx + gw * 0.28, baseY + depthMax + 8);
+  fill(ZONE_DRY);
+  text("Zone 3: Dry", cx - gw * 0.42, baseY + depthMax + 8);
+  text("Zone 3: Dry", cx + gw * 0.42, baseY + depthMax + 8);
+  textStyle(NORMAL);
+
+  // Ground line
+  stroke(120, 90, 60);
+  strokeWeight(3);
+  line(cx - gw / 2, baseY, cx + gw / 2, baseY);
+  noStroke();
+}
+
+function drawArrow(x1, y1, x2, y2) {
+  line(x1, y1, x2, y2);
+  let angle = atan2(y2 - y1, x2 - x1);
+  let sz = 8;
+  fill(33, 150, 243);
+  triangle(
+    x2, y2,
+    x2 - sz * cos(angle - PI / 6), y2 - sz * sin(angle - PI / 6),
+    x2 - sz * cos(angle + PI / 6), y2 - sz * sin(angle + PI / 6)
+  );
+  noFill();
+}
+
+function drawLabel(pl) {
+  let c;
+  if (checked && pl.correct === true) c = [46, 125, 50];
+  else if (checked && pl.correct === false) c = [211, 47, 47];
+  else c = [55, 71, 79];
+
+  stroke(c);
+  strokeWeight(2);
+  fill(255, 255, 255, 230);
+  rect(pl.x, pl.y, pl.w, pl.h, 8);
+  noStroke();
+  fill(c);
+  textAlign(CENTER, CENTER);
+  textSize(13);
+  textStyle(BOLD);
+  text(pl.name, pl.x + pl.w / 2, pl.y + pl.h / 2);
+  textStyle(NORMAL);
+
+  if (checked && pl.correct === true) {
+    fill(46, 125, 50);
+    textSize(16);
+    text("✓", pl.x + pl.w - 14, pl.y + pl.h / 2);
+  } else if (checked && pl.correct === false) {
+    fill(211, 47, 47);
+    textSize(16);
+    text("✗", pl.x + pl.w - 14, pl.y + pl.h / 2);
+  }
+}
+
+function drawButtons() {
+  let btnY = height - 60;
+  let btnW = 110, btnH = 36;
+
+  // Check button
+  let checkX = width / 2 - btnW - 10;
+  fill(PRIMARY);
+  noStroke();
+  rect(checkX, btnY, btnW, btnH, 8);
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(14);
+  textStyle(BOLD);
+  text("Check", checkX + btnW / 2, btnY + btnH / 2);
+
+  // Reset button
+  let resetX = width / 2 + 10;
+  fill(120);
+  rect(resetX, btnY, btnW, btnH, 8);
+  fill(255);
+  text("Reset", resetX + btnW / 2, btnY + btnH / 2);
+  textStyle(NORMAL);
+}
+
+function getZoneForPlant(plantName) {
+  for (let i = 0; i < zones.length; i++) {
+    if (zones[i].plants.includes(plantName)) return i;
+  }
+  return -1;
+}
+
+function getDropZone(x, y) {
+  for (let zr of zoneRects) {
+    if (x > zr.x && x < zr.x + zr.w && y > zr.y && y < zr.y + zr.h) {
+      return zr.zone;
+    }
+  }
+  return -1;
+}
+
+function mousePressed() {
+  let btnY = height - 60;
+  let btnW = 110, btnH = 36;
+  let checkX = width / 2 - btnW - 10;
+  let resetX = width / 2 + 10;
+
+  // Check button
+  if (mouseX > checkX && mouseX < checkX + btnW && mouseY > btnY && mouseY < btnY + btnH) {
+    checkAnswers();
+    return;
+  }
+  // Reset button
+  if (mouseX > resetX && mouseX < resetX + btnW && mouseY > btnY && mouseY < btnY + btnH) {
+    resetGame();
+    return;
+  }
+
+  // Pick up label
+  for (let i = plantLabels.length - 1; i >= 0; i--) {
+    let pl = plantLabels[i];
+    if (mouseX > pl.x && mouseX < pl.x + pl.w && mouseY > pl.y && mouseY < pl.y + pl.h) {
+      dragging = pl;
+      dragOffsetX = mouseX - pl.x;
+      dragOffsetY = mouseY - pl.y;
+      checked = false;
+      feedback = "";
+      pl.correct = null;
+      break;
+    }
+  }
+}
+
+function mouseDragged() {
+  if (dragging) {
+    dragging.x = mouseX - dragOffsetX;
+    dragging.y = mouseY - dragOffsetY;
+  }
+}
+
+function mouseReleased() {
+  if (dragging) {
+    let dz = getDropZone(dragging.x + dragging.w / 2, dragging.y + dragging.h / 2);
+    if (dz >= 0) {
+      dragging.placed = true;
+      dragging.placedZone = dz;
+    } else {
+      // Return home
+      dragging.x = dragging.homeX;
+      dragging.y = dragging.homeY;
+      dragging.placed = false;
+      dragging.placedZone = -1;
+    }
+    dragging = null;
+  }
+}
+
+function touchStarted() {
+  mousePressed();
+  return false;
+}
+function touchMoved() {
+  mouseDragged();
+  return false;
+}
+function touchEnded() {
+  mouseReleased();
+  return false;
+}
+
+function checkAnswers() {
+  checked = true;
+  score = 0;
+  let total = plantLabels.length;
+
+  for (let pl of plantLabels) {
+    if (!pl.placed) {
+      pl.correct = false;
+      continue;
+    }
+    let correctZone = getZoneForPlant(pl.name);
+    if (pl.placedZone === correctZone) {
+      pl.correct = true;
+      score++;
+    } else {
+      pl.correct = false;
+    }
+  }
+
+  if (score === total) {
+    feedback = "Perfect! All " + total + " plants correctly placed!";
+    feedbackColor = [46, 125, 50];
+  } else {
+    feedback = score + " of " + total + " correct. Try again!";
+    feedbackColor = [211, 47, 47];
+  }
+}
+</script>
+</body>
+</html>

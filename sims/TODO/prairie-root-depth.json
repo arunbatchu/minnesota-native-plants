@@ -1,0 +1,11 @@
+{
+  "sim_id": "prairie-root-depth",
+  "diagram_name": "Prairie Root Depth Comparison",
+  "chapter_number": 3,
+  "chapter_title": "Prairie Plants Grasslands",
+  "chapter_dir": "03-prairie-plants-grasslands",
+  "learning_objective": "Students will visualize and appreciate the dramatic difference in root depth between native prairie plants and conventional lawn grass, understanding how deep roots contribute to drought resilience, soil building, and water filtration.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Prairie Root Depth Comparison</summary>\nType: microsim\n\n**Learning Objective:** Students will visualize and appreciate the dramatic difference in root depth between native prairie plants and conventional lawn grass, understanding how deep roots contribute to drought resilience, soil building, and water filtration.\n\n**Controls:**\n- Slider to select which prairie species to compare against lawn grass\n- Toggle to show/hide soil layers, water table, and root biomass indicators\n- Zoom slider to scale the vertical view\n\n**Visual Elements:**\n- Side-by-side cross-section showing lawn grass roots (2-4 inches) vs. selected prairie plant roots (up to 15 feet)\n- Soil horizon layers labeled with depth markers\n- Root mass density visualization using color intensity\n- Labels for each species with root depth in feet\n\n**Behavior:**\n- Moving the species slider swaps the prairie plant shown (Big Bluestem, Compass Plant, Prairie Dropseed, etc.)\n- The root visualization scales dynamically to show true proportional depth\n- Toggling soil layers reveals how roots interact with different soil horizons\n\n**Instructional Rationale:**\nThe vast difference between lawn grass and prairie roots is one of the most compelling facts in prairie ecology, but it is difficult to appreciate from text alone. An interactive visual comparison makes this contrast visceral and memorable."
+}

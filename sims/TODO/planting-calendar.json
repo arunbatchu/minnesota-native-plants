@@ -1,0 +1,11 @@
+{
+  "sim_id": "planting-calendar",
+  "diagram_name": "Interactive Planting Calendar MicroSim",
+  "chapter_number": 11,
+  "chapter_title": "Planting Maintenance Sourcing",
+  "chapter_dir": "11-planting-maintenance-sourcing",
+  "learning_objective": "Students will understand the seasonal rhythm of native plant establishment and maintenance in Minnesota, learning which tasks belong in which months and why timing matters.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Interactive Planting Calendar MicroSim</summary>\nType: microsim\n\n**Learning Objective:** Students will understand the seasonal rhythm of native plant establishment and maintenance in Minnesota, learning which tasks belong in which months and why timing matters.\n\n**Controls:**\n\n- Clickable month buttons (January through December) to select a month\n- Filter checkboxes for task categories (planting, watering, weeding, mowing/burning, seed collection, ordering)\n- Toggle between first-year tasks and established-planting tasks\n\n**Visual Elements:**\n\n- A circular or linear calendar displaying all twelve months\n- The selected month expands to show a task list with brief descriptions\n- Color-coded task icons distinguishing planting, maintenance, and planning activities\n- A temperature and daylight bar showing average conditions for the selected month\n- Highlighted critical windows (e.g., \"last frost mid-May,\" \"first frost early October\")\n\n**Behavior:**\n\n- Clicking a month highlights it and displays the associated tasks in a detail panel\n- Toggling between first-year and established-planting views changes which tasks appear\n- Hovering over a task reveals a tooltip with additional timing details and tips\n- Tasks that span multiple months show connecting lines across the calendar\n\n**Instructional Rationale:**\nVisualizing the full annual cycle helps students plan ahead rather than reacting to seasonal changes. Understanding that maintenance timing (e.g., mowing before nesting season, seeding after hard frost) is driven by ecological reasoning deepens their connection between practice and ecology."
+}

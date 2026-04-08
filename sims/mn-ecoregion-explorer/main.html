@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minnesota Ecoregion Explorer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  body { margin: 0; padding: 0; overflow-x: hidden; background: #e8f5e9; font-family: Arial, sans-serif; }
+  main { display: flex; justify-content: center; }
+</style>
+</head>
+<body>
+<main><div id="canvas-container"></div></main>
+<script>
+// Minnesota Ecoregion Explorer MicroSim
+
+const ecoregions = [
+  {
+    name: "Tallgrass Prairie",
+    color: [218, 165, 32],
+    plants: "Big Bluestem, Prairie Dropseed, Purple Coneflower, Black-Eyed Susan, Compass Plant",
+    soil: "Deep, fertile mollisols (black prairie soil)",
+    rainfall: "22-30 inches/year",
+    desc: "Once covering the western and southern third of Minnesota, tallgrass prairies are dominated by grasses that can reach 8 feet tall."
+  },
+  {
+    name: "Prairie-Forest Border",
+    color: [128, 128, 0],
+    plants: "Bur Oak, Big Bluestem, Wild Bergamot, Hazelnut, Prairie Smoke",
+    soil: "Mixed prairie and forest soils, loamy",
+    rainfall: "26-32 inches/year",
+    desc: "A transitional zone where prairie and forest meet, featuring savanna landscapes with scattered oaks and prairie grasses."
+  },
+  {
+    name: "Deciduous Forest",
+    color: [56, 142, 60],
+    plants: "Sugar Maple, Red Oak, Basswood, Trillium, Wild Ginger, Bloodroot",
+    soil: "Alfisols, well-drained loamy soils with leaf litter",
+    rainfall: "28-34 inches/year",
+    desc: "Covering the southeast, this region features rich hardwood forests with vibrant fall colors and diverse understory wildflowers."
+  },
+  {
+    name: "Coniferous Forest",
+    color: [27, 94, 32],
+    plants: "White Pine, Red Pine, Jack Pine, Balsam Fir, White Spruce, Labrador Tea",
+    soil: "Spodosols, thin acidic soils over bedrock or sand",
+    rainfall: "24-30 inches/year",
+    desc: "The northern third of Minnesota, part of the great boreal forest, with dense evergreens, bogs, and over 10,000 lakes."
+  }
+];
+
+let selectedRegion = null;
+let hoveredRegion = null;
+let mapX, mapY, mapW, mapH;
+let infoX, infoY, infoW, infoH;
+
+// Simplified Minnesota outline as normalized polygon (0-1 range)
+// MN is roughly rectangular with the NW angle and the arrowhead
+const mnOutline = [
+  [0.00, 0.00], [0.30, 0.00], [0.30, 0.08],
+  [0.72, 0.08], [0.82, 0.00], [0.95, 0.00],
+  [1.00, 0.12], [0.82, 0.12], [0.75, 0.15],
+  [0.72, 0.10], [0.30, 0.10],
+  [0.30, 0.15], [0.98, 0.15],
+  [0.98, 0.30], [0.95, 0.45],
+  [0.92, 0.60], [0.95, 0.70],
+  [0.92, 0.80], [0.88, 0.90],
+  [0.82, 0.95], [0.72, 1.00],
+  [0.60, 1.00], [0.55, 0.95],
+  [0.45, 0.95], [0.35, 1.00],
+  [0.25, 1.00], [0.00, 1.00]
+];
+
+// Ecoregion zones defined as horizontal bands (approximate)
+// Each is a polygon within the state outline
+function getRegionPolygon(index, mx, my, mw, mh) {
+  // Define bands: top=0, bottom=1 of state
+  const bands = [
+    { top: 0.55, bottom: 1.0 },   // Tallgrass Prairie (SW)
+    { top: 0.35, bottom: 0.65 },  // Prairie-Forest Border (middle band)
+    { top: 0.25, bottom: 0.55 },  // Deciduous Forest (SE-ish)
+    { top: 0.0, bottom: 0.35 }    // Coniferous Forest (north)
+  ];
+  return bands[index];
+}
+
+function setup() {
+  let cnv = createCanvas(windowWidth, Math.max(600, 700));
+  cnv.parent('canvas-container');
+  textFont('Arial');
+  layoutMap();
+}
+
+function layoutMap() {
+  mapW = Math.min(300, windowWidth * 0.4);
+  mapH = mapW * 1.4;
+  mapX = 40;
+  mapY = 80;
+  infoX = mapX + mapW + 40;
+  infoY = mapY;
+  infoW = windowWidth - infoX - 30;
+  infoH = mapH;
+  resizeCanvas(windowWidth, Math.max(600, mapY + mapH + 100));
+}
+
+function windowResized() {
+  layoutMap();
+}
+
+function draw() {
+  background('#e8f5e9');
+
+  // Title
+  fill('#2e7d32');
+  noStroke();
+  textAlign(CENTER, CENTER);
+  textSize(22);
+  textStyle(BOLD);
+  text("Minnesota Ecoregion Explorer", windowWidth / 2, 30);
+  textSize(13);
+  textStyle(NORMAL);
+  fill('#555');
+  text("Click a region on the map to learn about it", windowWidth / 2, 55);
+
+  drawMap();
+  drawLegend();
+  drawInfoPanel();
+}
+
+function drawMap() {
+  // Draw ecoregion bands within state shape
+  // We'll draw 4 horizontal colored bands clipped to the state
+
+  // First draw the full colored bands
+  for (let i = 0; i < ecoregions.length; i++) {
+    let bands = [
+      { top: 0.60, bottom: 1.0 },
+      { top: 0.38, bottom: 0.60 },
+      { top: 0.15, bottom: 0.38 },
+      { top: 0.0, bottom: 0.15 }
+    ];
+    let b = bands[i];
+    let ec = ecoregions[i].color;
+    let isHovered = (hoveredRegion === i);
+    let isSelected = (selectedRegion === i);
+
+    if (isSelected) {
+      fill(ec[0], ec[1], ec[2], 255);
+      strokeWeight(3);
+      stroke(255);
+    } else if (isHovered) {
+      fill(ec[0], ec[1], ec[2], 220);
+      strokeWeight(1);
+      stroke(255, 255, 255, 150);
+    } else {
+      fill(ec[0], ec[1], ec[2], 180);
+      strokeWeight(1);
+      stroke(255, 255, 255, 80);
+    }
+
+    // Draw band as rect clipped to approximate state shape
+    let bx = mapX;
+    let by = mapY + b.top * mapH;
+    let bw = mapW;
+    let bh = (b.bottom - b.top) * mapH;
+
+    rect(bx, by, bw, bh);
+
+    // Region label on map
+    noStroke();
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(11);
+    textStyle(BOLD);
+    text(ecoregions[i].name, bx + bw / 2, by + bh / 2);
+  }
+
+  // State outline
+  noFill();
+  stroke('#2e7d32');
+  strokeWeight(3);
+  rect(mapX, mapY, mapW, mapH, 4);
+
+  // Draw the NW angle notch (approximate)
+  fill('#e8f5e9');
+  noStroke();
+  triangle(mapX, mapY, mapX + mapW * 0.25, mapY, mapX, mapY + mapH * 0.08);
+
+  // Arrowhead region (NE bump)
+  // small triangle bump at top right
+  fill(ecoregions[3].color[0], ecoregions[3].color[1], ecoregions[3].color[2], 180);
+  stroke('#2e7d32');
+  strokeWeight(2);
+  triangle(
+    mapX + mapW * 0.7, mapY,
+    mapX + mapW, mapY,
+    mapX + mapW * 0.85, mapY - mapH * 0.06
+  );
+
+  // Redraw outline top
+  stroke('#2e7d32');
+  strokeWeight(3);
+  noFill();
+  // Left side notch
+  line(mapX, mapY + mapH * 0.08, mapX + mapW * 0.25, mapY);
+}
+
+function drawLegend() {
+  let lx = mapX;
+  let ly = mapY + mapH + 20;
+  textAlign(LEFT, CENTER);
+  textSize(14);
+  textStyle(BOLD);
+  noStroke();
+  fill('#2e7d32');
+  text("Legend", lx, ly);
+
+  for (let i = 0; i < ecoregions.length; i++) {
+    let ec = ecoregions[i];
+    let y = ly + 22 + i * 24;
+    fill(ec.color[0], ec.color[1], ec.color[2]);
+    noStroke();
+    rect(lx, y - 8, 18, 18, 3);
+    fill('#333');
+    textSize(12);
+    textStyle(NORMAL);
+    text(ec.name, lx + 24, y + 1);
+  }
+}
+
+function drawInfoPanel() {
+  let r = selectedRegion !== null ? ecoregions[selectedRegion] : null;
+
+  // Panel background
+  fill(255, 255, 255, 230);
+  stroke('#2e7d32');
+  strokeWeight(2);
+  rect(infoX, infoY, infoW, infoH, 10);
+
+  if (r === null) {
+    fill('#888');
+    noStroke();
+    textAlign(CENTER, CENTER);
+    textSize(15);
+    textStyle(NORMAL);
+    text("Click a region on the map\nto see details", infoX + infoW / 2, infoY + infoH / 2);
+    return;
+  }
+
+  noStroke();
+  let px = infoX + 18;
+  let py = infoY + 25;
+  let maxTW = infoW - 36;
+
+  // Region name header
+  fill(r.color[0], r.color[1], r.color[2]);
+  rect(infoX, infoY, infoW, 45, 10, 10, 0, 0);
+  fill(255);
+  textAlign(LEFT, CENTER);
+  textSize(18);
+  textStyle(BOLD);
+  text(r.name, px, infoY + 22);
+
+  py = infoY + 65;
+
+  // Description
+  fill('#333');
+  textSize(13);
+  textStyle(NORMAL);
+  textAlign(LEFT, TOP);
+  text(r.desc, px, py, maxTW, 60);
+  py += 70;
+
+  // Key Plants
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Key Native Plants", px, py);
+  py += 20;
+  fill('#333');
+  textSize(12);
+  textStyle(NORMAL);
+  text(r.plants, px, py, maxTW, 50);
+  py += 55;
+
+  // Soil Type
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Soil Type", px, py);
+  py += 20;
+  fill('#333');
+  textSize(12);
+  textStyle(NORMAL);
+  text(r.soil, px, py, maxTW, 40);
+  py += 40;
+
+  // Rainfall
+  fill('#2e7d32');
+  textSize(14);
+  textStyle(BOLD);
+  text("Annual Rainfall", px, py);
+  py += 20;
+  fill('#333');
+  textSize(12);
+  textStyle(NORMAL);
+  text(r.rainfall, px, py);
+}
+
+function mousePressed() {
+  handleClick(mouseX, mouseY);
+}
+function touchStarted() {
+  if (touches.length > 0) handleClick(touches[0].x, touches[0].y);
+  return false;
+}
+
+function handleClick(mx, my) {
+  let bands = [
+    { top: 0.60, bottom: 1.0 },
+    { top: 0.38, bottom: 0.60 },
+    { top: 0.15, bottom: 0.38 },
+    { top: 0.0, bottom: 0.15 }
+  ];
+  for (let i = 0; i < bands.length; i++) {
+    let by = mapY + bands[i].top * mapH;
+    let bh = (bands[i].bottom - bands[i].top) * mapH;
+    if (mx > mapX && mx < mapX + mapW && my > by && my < by + bh) {
+      selectedRegion = i;
+      return;
+    }
+  }
+}
+
+function mouseMoved() {
+  hoveredRegion = null;
+  let bands = [
+    { top: 0.60, bottom: 1.0 },
+    { top: 0.38, bottom: 0.60 },
+    { top: 0.15, bottom: 0.38 },
+    { top: 0.0, bottom: 0.15 }
+  ];
+  for (let i = 0; i < bands.length; i++) {
+    let by = mapY + bands[i].top * mapH;
+    let bh = (bands[i].bottom - bands[i].top) * mapH;
+    if (mouseX > mapX && mouseX < mapX + mapW && mouseY > by && mouseY < by + bh) {
+      hoveredRegion = i;
+      cursor(HAND);
+      return;
+    }
+  }
+  cursor(ARROW);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garden Layout Planner - Minnesota Native Plants</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #e8f5e9; color: #1b5e20; overflow: hidden; }
+</style>
+</head>
+<body>
+<script>
+// === PLANT PALETTE ===
+const PALETTE = [
+  { id: 0, name: "Purple Coneflower", abbr: "PC", color: "#E91E63", spacing: 18, cost: 8, blooms: ["summer"] },
+  { id: 1, name: "Black-Eyed Susan", abbr: "BS", color: "#FFC107", spacing: 12, cost: 6, blooms: ["summer","fall"] },
+  { id: 2, name: "Wild Bergamot", abbr: "WB", color: "#9C27B0", spacing: 18, cost: 7, blooms: ["summer"] },
+  { id: 3, name: "Big Bluestem", abbr: "BB", color: "#5D4037", spacing: 24, cost: 5, blooms: ["fall"] },
+  { id: 4, name: "Prairie Dropseed", abbr: "PD", color: "#8D6E63", spacing: 18, cost: 9, blooms: ["fall"] },
+  { id: 5, name: "Wild Columbine", abbr: "WC", color: "#F44336", spacing: 12, cost: 7, blooms: ["spring"] },
+  { id: 6, name: "Blazing Star", abbr: "BZ", color: "#AB47BC", spacing: 12, cost: 8, blooms: ["summer","fall"] },
+  { id: 7, name: "Joe-Pye Weed", abbr: "JP", color: "#CE93D8", spacing: 24, cost: 7, blooms: ["summer"] },
+  { id: 8, name: "New England Aster", abbr: "NA", color: "#7B1FA2", spacing: 18, cost: 6, blooms: ["fall"] },
+  { id: 9, name: "Goldenrod", abbr: "GR", color: "#FFD54F", spacing: 18, cost: 5, blooms: ["fall"] },
+];
+
+// === STATE ===
+const GRID = 10;
+let grid = []; // grid[row][col] = plantId or -1
+let selectedPlant = -1;
+let dragging = false;
+let dragPlantId = -1;
+let sidebarW = 200;
+let headerH = 60;
+let cellSize;
+let gridOffsetX, gridOffsetY;
+let hoverCell = null;
+
+function setup() {
+  createCanvas(windowWidth, max(windowHeight, 700));
+  resetGrid();
+  recalcLayout();
+}
+
+function resetGrid() {
+  grid = [];
+  for (let r = 0; r < GRID; r++) {
+    grid[r] = [];
+    for (let c = 0; c < GRID; c++) {
+      grid[r][c] = -1;
+    }
+  }
+}
+
+function recalcLayout() {
+  sidebarW = min(220, max(170, width * 0.2));
+  let availW = width - sidebarW - 40;
+  let availH = height - headerH - 180;
+  cellSize = min(floor(availW / GRID), floor(availH / GRID), 55);
+  gridOffsetX = sidebarW + (availW - cellSize * GRID) / 2 + 10;
+  gridOffsetY = headerH + 20;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(windowHeight, 700));
+  recalcLayout();
+}
+
+function draw() {
+  background('#e8f5e9');
+  drawHeader();
+  drawSidebar();
+  drawGrid();
+  drawInfoPanel();
+  drawCursor();
+}
+
+function drawHeader() {
+  fill('#2e7d32');
+  noStroke();
+  rect(0, 0, width, headerH);
+  fill(255);
+  textSize(20);
+  textAlign(LEFT, CENTER);
+  text("Garden Layout Planner", 20, headerH / 2);
+  textSize(13);
+  textAlign(RIGHT, CENTER);
+  text("Minnesota Native Plants", width - 20, headerH / 2);
+}
+
+function drawSidebar() {
+  // Background
+  fill('#ffffff');
+  noStroke();
+  rect(0, headerH, sidebarW, height - headerH);
+  fill('#c8e6c9');
+  rect(sidebarW - 1, headerH, 1, height - headerH);
+
+  // Title
+  fill('#2e7d32');
+  textSize(14);
+  textAlign(LEFT, TOP);
+  textStyle(BOLD);
+  text("Plant Palette", 12, headerH + 12);
+  textStyle(NORMAL);
+  textSize(10);
+  fill('#689f38');
+  text("Click to select, then click grid", 12, headerH + 30);
+
+  // Plant list
+  let py = headerH + 52;
+  let itemH = 46;
+  for (let i = 0; i < PALETTE.length; i++) {
+    let p = PALETTE[i];
+    let y = py + i * itemH;
+    let isSelected = selectedPlant === i;
+
+    // Highlight
+    if (isSelected) {
+      fill('#e8f5e9');
+      noStroke();
+      rect(4, y - 2, sidebarW - 12, itemH - 2, 6);
+    }
+
+    // Color circle with spacing ring
+    fill(p.color);
+    noStroke();
+    ellipse(28, y + 14, 22);
+    noFill();
+    stroke(p.color);
+    strokeWeight(1);
+    let ringR = map(p.spacing, 12, 24, 26, 34);
+    drawingContext.setLineDash([3, 3]);
+    ellipse(28, y + 14, ringR);
+    drawingContext.setLineDash([]);
+
+    // Name and spacing
+    noStroke();
+    fill('#1b5e20');
+    textSize(12);
+    textAlign(LEFT, TOP);
+    text(p.name, 46, y + 4);
+    fill('#689f38');
+    textSize(10);
+    text(p.spacing + '" spacing  |  $' + p.cost, 46, y + 20);
+  }
+
+  // Reset button
+  let btnY = py + PALETTE.length * itemH + 12;
+  fill('#ef5350');
+  noStroke();
+  rect(12, btnY, sidebarW - 28, 34, 8);
+  fill('#fff');
+  textSize(13);
+  textAlign(CENTER, CENTER);
+  text("Reset Garden", sidebarW / 2, btnY + 17);
+
+  // Deselect button
+  if (selectedPlant >= 0) {
+    btnY += 44;
+    fill('#81c784');
+    rect(12, btnY, sidebarW - 28, 30, 8);
+    fill('#1b5e20');
+    textSize(12);
+    text("Deselect (Esc)", sidebarW / 2, btnY + 15);
+  }
+}
+
+function drawGrid() {
+  // Grid background
+  fill('#f1f8e9');
+  stroke('#c8e6c9');
+  strokeWeight(1);
+  rect(gridOffsetX - 2, gridOffsetY - 2, cellSize * GRID + 4, cellSize * GRID + 4, 4);
+
+  // Cells
+  for (let r = 0; r < GRID; r++) {
+    for (let c = 0; c < GRID; c++) {
+      let x = gridOffsetX + c * cellSize;
+      let y = gridOffsetY + r * cellSize;
+      let pid = grid[r][c];
+
+      // Cell background
+      if (hoverCell && hoverCell.r === r && hoverCell.c === c && selectedPlant >= 0) {
+        fill('#c8e6c9');
+      } else {
+        fill('#ffffff');
+      }
+      stroke('#dcedc8');
+      strokeWeight(1);
+      rect(x, y, cellSize, cellSize);
+
+      // Plant
+      if (pid >= 0) {
+        let p = PALETTE[pid];
+        // Spacing ring
+        noFill();
+        stroke(p.color);
+        strokeWeight(1);
+        drawingContext.setLineDash([2, 2]);
+        let ringPx = map(p.spacing, 12, 24, cellSize * 0.7, cellSize * 1.3);
+        ellipse(x + cellSize / 2, y + cellSize / 2, ringPx);
+        drawingContext.setLineDash([]);
+
+        // Plant circle
+        fill(p.color);
+        noStroke();
+        ellipse(x + cellSize / 2, y + cellSize / 2, cellSize * 0.55);
+
+        // Abbreviation
+        fill('#fff');
+        textSize(max(9, cellSize * 0.22));
+        textAlign(CENTER, CENTER);
+        textStyle(BOLD);
+        text(p.abbr, x + cellSize / 2, y + cellSize / 2);
+        textStyle(NORMAL);
+      }
+    }
+  }
+
+  // Grid labels
+  fill('#689f38');
+  textSize(9);
+  textAlign(CENTER, TOP);
+  for (let c = 0; c < GRID; c++) {
+    text((c + 1), gridOffsetX + c * cellSize + cellSize / 2, gridOffsetY + cellSize * GRID + 4);
+  }
+  textAlign(RIGHT, CENTER);
+  for (let r = 0; r < GRID; r++) {
+    text(String.fromCharCode(65 + r), gridOffsetX - 6, gridOffsetY + r * cellSize + cellSize / 2);
+  }
+
+  // Scale indicator
+  textAlign(LEFT, TOP);
+  textSize(10);
+  fill('#689f38');
+  text("Each cell = 12\" x 12\"", gridOffsetX, gridOffsetY + cellSize * GRID + 18);
+}
+
+function drawInfoPanel() {
+  let panelY = gridOffsetY + cellSize * GRID + 38;
+  let panelX = gridOffsetX;
+  let panelW = cellSize * GRID;
+
+  // Panel bg
+  fill('#ffffff');
+  noStroke();
+  rect(panelX - 5, panelY, panelW + 10, 110, 10);
+
+  fill('#2e7d32');
+  textSize(14);
+  textAlign(LEFT, TOP);
+  textStyle(BOLD);
+  text("Garden Summary", panelX + 10, panelY + 10);
+  textStyle(NORMAL);
+
+  // Calculate stats
+  let speciesSet = new Set();
+  let totalCost = 0;
+  let plantCount = 0;
+  let hasSpring = false, hasSummer = false, hasFall = false;
+
+  for (let r = 0; r < GRID; r++) {
+    for (let c = 0; c < GRID; c++) {
+      let pid = grid[r][c];
+      if (pid >= 0) {
+        speciesSet.add(pid);
+        totalCost += PALETTE[pid].cost;
+        plantCount++;
+        let p = PALETTE[pid];
+        if (p.blooms.includes("spring")) hasSpring = true;
+        if (p.blooms.includes("summer")) hasSummer = true;
+        if (p.blooms.includes("fall")) hasFall = true;
+      }
+    }
+  }
+
+  let statY = panelY + 32;
+  let statGap = min(panelW / 4, 160);
+  textSize(12);
+
+  // Species count
+  fill('#1b5e20');
+  textAlign(LEFT, TOP);
+  text("Species: " + speciesSet.size, panelX + 10, statY);
+  text("Plants: " + plantCount, panelX + 10, statY + 18);
+
+  // Cost
+  text("Est. Cost: $" + totalCost, panelX + statGap, statY);
+
+  // Bloom coverage
+  let bx = panelX + statGap;
+  let by = statY + 18;
+  text("Bloom Coverage:", bx, by);
+
+  bx += 105;
+  drawCheck("Spring", bx, by, hasSpring);
+  bx += 70;
+  drawCheck("Summer", bx, by, hasSummer);
+  bx += 75;
+  drawCheck("Fall", bx, by, hasFall);
+}
+
+function drawCheck(label, x, y, checked) {
+  if (checked) {
+    fill('#2e7d32');
+    textSize(14);
+    text("\u2713", x, y - 1);
+    fill('#1b5e20');
+  } else {
+    fill('#bdbdbd');
+    textSize(14);
+    text("\u2717", x, y - 1);
+    fill('#bdbdbd');
+  }
+  textSize(12);
+  text(label, x + 16, y);
+}
+
+function drawCursor() {
+  if (selectedPlant >= 0 && mouseX > sidebarW && mouseY > headerH) {
+    let p = PALETTE[selectedPlant];
+    noStroke();
+    fill(red(color(p.color)), green(color(p.color)), blue(color(p.color)), 120);
+    ellipse(mouseX, mouseY, cellSize * 0.5);
+    fill(255, 255, 255, 180);
+    textSize(9);
+    textAlign(CENTER, CENTER);
+    textStyle(BOLD);
+    text(p.abbr, mouseX, mouseY);
+    textStyle(NORMAL);
+  }
+}
+
+function mouseMoved() {
+  updateHoverCell();
+}
+
+function updateHoverCell() {
+  let c = floor((mouseX - gridOffsetX) / cellSize);
+  let r = floor((mouseY - gridOffsetY) / cellSize);
+  if (r >= 0 && r < GRID && c >= 0 && c < GRID) {
+    hoverCell = { r, c };
+  } else {
+    hoverCell = null;
+  }
+}
+
+function mousePressed() {
+  // Sidebar plant selection
+  if (mouseX < sidebarW && mouseY > headerH) {
+    let py = headerH + 52;
+    let itemH = 46;
+    for (let i = 0; i < PALETTE.length; i++) {
+      let y = py + i * itemH;
+      if (mouseY > y && mouseY < y + itemH) {
+        selectedPlant = (selectedPlant === i) ? -1 : i;
+        return;
+      }
+    }
+    // Reset button
+    let btnY = py + PALETTE.length * itemH + 12;
+    if (mouseY > btnY && mouseY < btnY + 34) {
+      resetGrid();
+      return;
+    }
+    // Deselect button
+    if (selectedPlant >= 0) {
+      btnY += 44;
+      if (mouseY > btnY && mouseY < btnY + 30) {
+        selectedPlant = -1;
+        return;
+      }
+    }
+    return;
+  }
+
+  // Grid click
+  if (hoverCell) {
+    let { r, c } = hoverCell;
+    if (selectedPlant >= 0) {
+      // Place or remove plant
+      if (grid[r][c] === selectedPlant) {
+        grid[r][c] = -1; // remove same plant
+      } else {
+        grid[r][c] = selectedPlant;
+      }
+    } else {
+      // No plant selected - remove existing
+      grid[r][c] = -1;
+    }
+  }
+}
+
+function keyPressed() {
+  if (keyCode === ESCAPE) {
+    selectedPlant = -1;
+  }
+  // Number keys 1-9, 0 for plant 10
+  if (key >= '1' && key <= '9') {
+    selectedPlant = int(key) - 1;
+  }
+  if (key === '0') {
+    selectedPlant = 9;
+  }
+}
+</script>
+</body>
+</html>

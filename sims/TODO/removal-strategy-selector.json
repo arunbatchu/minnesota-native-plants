@@ -1,0 +1,11 @@
+{
+  "sim_id": "removal-strategy-selector",
+  "diagram_name": "Removal Strategy Selector MicroSim",
+  "chapter_number": 9,
+  "chapter_title": "Invasive Species Removal",
+  "chapter_dir": "09-invasive-species-removal",
+  "learning_objective": "Students will understand how site conditions, species identity, and available resources determine which combination of removal methods is most appropriate.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Removal Strategy Selector MicroSim</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how site conditions, species identity, and available resources determine which combination of removal methods is most appropriate.\n\n**Controls:**\n\n- Dropdown for target invasive species (Buckthorn, Garlic Mustard, Wild Parsnip, Purple Loosestrife, Reed Canary Grass, Spotted Knapweed)\n- Dropdown for infestation size (a few plants, small patch, large area covering an acre or more)\n- Dropdown for site type (prairie, woodland, wetland, shoreline, residential yard)\n- Checkbox for proximity to water\n- Checkbox for whether herbicide use is acceptable\n- Submit button to generate recommendation\n\n**Visual Elements:**\n\n- A results panel displaying the recommended removal strategy with primary and secondary methods\n- A timeline bar showing the recommended multi-year treatment schedule\n- Icons indicating which tools and safety equipment are needed\n- A difficulty rating (low, moderate, high) for the recommended approach\n\n**Behavior:**\n\n- Selecting different combinations of inputs produces tailored removal strategies\n- Water proximity automatically restricts chemical options and flags manual alternatives\n- The timeline adjusts based on species and infestation size, showing expected years of follow-up\n- Hovering over each recommended method reveals a brief description of the technique\n\n**Instructional Rationale:**\nMatching removal methods to real-world conditions teaches students to think strategically rather than defaulting to a single approach. This mirrors the integrated pest management decision-making process used by professional land managers."
+}

@@ -1,0 +1,11 @@
+{
+  "sim_id": "feedback-loop-explorer",
+  "diagram_name": "Feedback Loop Explorer",
+  "chapter_number": 15,
+  "chapter_title": "Systems Thinking Ecology",
+  "chapter_dir": "15-systems-thinking-ecology",
+  "learning_objective": "Students will understand how positive (amplifying) and negative (stabilizing) feedback loops operate in ecosystems by constructing and visualizing their own loop diagrams from ecosystem components.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Feedback Loop Explorer</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how positive (amplifying) and negative (stabilizing) feedback loops operate in ecosystems by constructing and visualizing their own loop diagrams from ecosystem components.\n\n**Controls:**\n- Draggable ecosystem component nodes (e.g., vegetation, soil, herbivores, predators, water, nutrients)\n- Arrow-drawing tool to connect components and define influence direction\n- Toggle to label each connection as positive (+) or negative (-) influence\n- Reset button to clear the canvas and start over\n\n**Visual Elements:**\n- Canvas with ecosystem component icons that can be placed and connected\n- Arrows between components colored by influence type (green for positive, red for negative)\n- Automatic detection and highlighting of completed loops with label (reinforcing or balancing)\n- Example starter loops that students can modify\n\n**Behavior:**\n- Dragging components onto the canvas and drawing arrows between them creates a systems diagram\n- When a closed loop is formed, the simulation highlights it and identifies whether it is reinforcing (positive) or balancing (negative)\n- Hovering over a loop displays a plain-language explanation of how the feedback operates\n- Students can build multiple loops on the same canvas to see how they interact\n\n**Instructional Rationale:**\nFeedback loops are central to systems thinking but difficult to grasp from static diagrams alone. By actively constructing loops and receiving immediate visual feedback on loop type and behavior, students develop intuition for how small changes can either stabilize or destabilize ecosystems."
+}

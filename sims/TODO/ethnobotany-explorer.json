@@ -1,0 +1,11 @@
+{
+  "sim_id": "ethnobotany-explorer",
+  "diagram_name": "Ethnobotany Explorer",
+  "chapter_number": 13,
+  "chapter_title": "Cultural Indigenous Uses",
+  "chapter_dir": "13-cultural-indigenous-uses",
+  "learning_objective": "Students will understand how a single native plant connects to multiple categories of traditional use -- food, medicine, fiber, and ceremony -- reflecting the holistic nature of Indigenous ethnobotanical knowledge.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Ethnobotany Explorer</summary>\nType: microsim\n\n**Learning Objective:** Students will understand how a single native plant connects to multiple categories of traditional use -- food, medicine, fiber, and ceremony -- reflecting the holistic nature of Indigenous ethnobotanical knowledge.\n\n**Controls:**\n- Category filter buttons (Food, Medicine, Fiber, Ceremony, All) to display plants by use type\n- Clickable plant cards to reveal detailed information about each species\n\n**Visual Elements:**\n- Grid of illustrated plant cards showing common name, scientific name, and primary use icons\n- Expanded card view with description of traditional uses, cultural context, and associated Indigenous nation(s)\n- Color-coded category indicators on each card\n\n**Behavior:**\n- Selecting a category filter highlights plants with that use and dims others\n- Clicking a plant card expands it to show full ethnobotanical details\n- Plants with multiple uses appear under all relevant categories\n\n**Instructional Rationale:**\nBy letting students explore plants across multiple use categories, this simulation reinforces the holistic and relational nature of Indigenous plant knowledge -- showing that plants are not reducible to a single purpose but participate in interconnected systems of food, healing, craft, and spiritual life."
+}

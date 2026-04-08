@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecosystem Feedback Loop Explorer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #e8f5e9; color: #1b5e20; }
+  #controls {
+    background: #fff; border-bottom: 2px solid #2e7d32; padding: 12px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  }
+  #controls h1 { font-size: 1.1rem; color: #2e7d32; margin-right: 12px; }
+  .btn {
+    padding: 7px 16px; border: 2px solid #2e7d32; border-radius: 6px;
+    background: #e8f5e9; color: #2e7d32; cursor: pointer; font-size: 0.85rem;
+    font-weight: 600; transition: all 0.2s;
+  }
+  .btn:hover { background: #2e7d32; color: #fff; }
+  .btn.active { background: #2e7d32; color: #fff; }
+  .btn.red { border-color: #c62828; color: #c62828; }
+  .btn.red:hover, .btn.red.active { background: #c62828; color: #fff; }
+  #info {
+    background: #fff; border-top: 2px solid #2e7d32; padding: 10px 20px;
+    font-size: 0.85rem; min-height: 40px;
+  }
+  .sep { width: 1px; height: 28px; background: #c8e6c9; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<div id="controls">
+  <h1>Feedback Loop Explorer</h1>
+  <div class="sep"></div>
+  <button class="btn" id="btnPositive" onclick="setArrowType('positive')">+ Positive</button>
+  <button class="btn red" id="btnNegative" onclick="setArrowType('negative')">- Negative</button>
+  <div class="sep"></div>
+  <button class="btn" onclick="loadPreset('yellowstone')">Yellowstone Wolves</button>
+  <button class="btn" onclick="loadPreset('buckthorn')">Buckthorn Invasion</button>
+  <div class="sep"></div>
+  <button class="btn" onclick="resetAll()">Reset</button>
+</div>
+<div id="sketch-container"></div>
+<div id="info">Drag nodes to reposition. Click a node then click another to draw an arrow. Use +/- buttons to set arrow type.</div>
+<script>
+let nodes = [];
+let arrows = [];
+let arrowType = 'positive';
+let draggingNode = null;
+let selectedNode = null;
+let dragOffsetX = 0, dragOffsetY = 0;
+let canvasH;
+const controlsH = 56;
+
+const nodeData = [
+  { label: 'Wolves', emoji: '🐺' },
+  { label: 'Deer', emoji: '🦌' },
+  { label: 'Trees', emoji: '🌳' },
+  { label: 'Grass', emoji: '🌿' },
+  { label: 'Soil', emoji: '🪨' },
+  { label: 'Water', emoji: '💧' }
+];
+
+function setup() {
+  canvasH = max(400, windowHeight - 110);
+  let cnv = createCanvas(windowWidth, canvasH);
+  cnv.parent('sketch-container');
+  textFont('Segoe UI, system-ui, sans-serif');
+  initNodes();
+  updateButtonStyles();
+}
+
+function initNodes() {
+  nodes = [];
+  let cx = width / 2;
+  let cy = height / 2;
+  let r = min(width, height) * 0.3;
+  for (let i = 0; i < nodeData.length; i++) {
+    let angle = -PI / 2 + (TWO_PI * i) / nodeData.length;
+    nodes.push({
+      x: cx + r * cos(angle),
+      y: cy + r * sin(angle),
+      label: nodeData[i].label,
+      emoji: nodeData[i].emoji,
+      r: 38
+    });
+  }
+}
+
+function draw() {
+  background('#e8f5e9');
+  drawGrid();
+  for (let a of arrows) drawArrow(a);
+  for (let i = 0; i < nodes.length; i++) drawNode(nodes[i], i === selectedNode);
+  analyzeLoops();
+}
+
+function drawGrid() {
+  stroke(200, 230, 200);
+  strokeWeight(0.5);
+  for (let x = 0; x < width; x += 40) line(x, 0, x, height);
+  for (let y = 0; y < height; y += 40) line(0, y, width, y);
+}
+
+function drawNode(n, selected) {
+  push();
+  if (selected) {
+    fill(46, 125, 50, 40);
+    noStroke();
+    ellipse(n.x, n.y, n.r * 2 + 16);
+  }
+  // shadow
+  fill(0, 0, 0, 20);
+  noStroke();
+  ellipse(n.x + 2, n.y + 3, n.r * 2);
+  // body
+  fill(255);
+  stroke(selected ? '#1b5e20' : '#2e7d32');
+  strokeWeight(selected ? 3 : 2);
+  ellipse(n.x, n.y, n.r * 2);
+  // emoji
+  noStroke();
+  textAlign(CENTER, CENTER);
+  textSize(22);
+  text(n.emoji, n.x, n.y - 8);
+  textSize(11);
+  fill('#1b5e20');
+  textStyle(BOLD);
+  text(n.label, n.x, n.y + 16);
+  pop();
+}
+
+function drawArrow(a) {
+  let from = nodes[a.from];
+  let to = nodes[a.to];
+  let dx = to.x - from.x;
+  let dy = to.y - from.y;
+  let d = sqrt(dx * dx + dy * dy);
+  if (d === 0) return;
+  let ux = dx / d, uy = dy / d;
+  let x1 = from.x + ux * from.r;
+  let y1 = from.y + uy * from.r;
+  let x2 = to.x - ux * to.r;
+  let y2 = to.y - uy * to.r;
+
+  // curve offset for bidirectional
+  let hasBi = arrows.some(o => o.from === a.to && o.to === a.from);
+  let cx2 = (x1 + x2) / 2, cy2 = (y1 + y2) / 2;
+  if (hasBi) {
+    let perpX = -uy * 30, perpY = ux * 30;
+    cx2 += perpX; cy2 += perpY;
+  }
+
+  let col = a.type === 'positive' ? color(46, 125, 50) : color(198, 40, 40);
+  push();
+  noFill();
+  stroke(col);
+  strokeWeight(2.5);
+  beginShape();
+  vertex(x1, y1);
+  quadraticVertex(cx2, cy2, x2, y2);
+  endShape();
+
+  // arrowhead
+  let t = 0.95;
+  let ax = (1-t)*(1-t)*x1 + 2*(1-t)*t*cx2 + t*t*x2;
+  let ay = (1-t)*(1-t)*y1 + 2*(1-t)*t*cy2 + t*t*y2;
+  let tang_x = x2 - 2*(1-t)*cx2 - (1-2*t)*x1 + (2*t-1)*x2;
+  let ang = atan2(y2 - ay, x2 - ax);
+  fill(col);
+  noStroke();
+  translate(x2, y2);
+  rotate(ang);
+  triangle(0, 0, -14, -6, -14, 6);
+  pop();
+
+  // sign label
+  push();
+  let mx = 0.25*x1 + 0.5*cx2 + 0.25*x2;
+  let my = 0.25*y1 + 0.5*cy2 + 0.25*y2;
+  fill(255);
+  stroke(col);
+  strokeWeight(1.5);
+  ellipse(mx, my, 22, 22);
+  noStroke();
+  fill(col);
+  textAlign(CENTER, CENTER);
+  textSize(16);
+  textStyle(BOLD);
+  text(a.type === 'positive' ? '+' : '-', mx, my - 1);
+  pop();
+}
+
+function mousePressed() {
+  let mx = mouseX, my = mouseY;
+  if (my < 0 || my > height) return;
+
+  for (let i = 0; i < nodes.length; i++) {
+    let n = nodes[i];
+    if (dist(mx, my, n.x, n.y) < n.r) {
+      if (selectedNode !== null && selectedNode !== i) {
+        // draw arrow
+        let exists = arrows.findIndex(a => a.from === selectedNode && a.to === i);
+        if (exists >= 0) {
+          arrows.splice(exists, 1);
+        } else {
+          arrows.push({ from: selectedNode, to: i, type: arrowType });
+        }
+        selectedNode = null;
+        return;
+      }
+      selectedNode = i;
+      draggingNode = i;
+      dragOffsetX = n.x - mx;
+      dragOffsetY = n.y - my;
+      return;
+    }
+  }
+  selectedNode = null;
+}
+
+function mouseDragged() {
+  if (draggingNode !== null) {
+    nodes[draggingNode].x = mouseX + dragOffsetX;
+    nodes[draggingNode].y = mouseY + dragOffsetY;
+    selectedNode = null;
+  }
+}
+
+function mouseReleased() {
+  draggingNode = null;
+}
+
+function windowResized() {
+  canvasH = max(400, windowHeight - 110);
+  resizeCanvas(windowWidth, canvasH);
+  initNodes();
+  arrows = [];
+  selectedNode = null;
+}
+
+function setArrowType(t) {
+  arrowType = t;
+  updateButtonStyles();
+}
+
+function updateButtonStyles() {
+  document.getElementById('btnPositive').className = 'btn' + (arrowType === 'positive' ? ' active' : '');
+  document.getElementById('btnNegative').className = 'btn red' + (arrowType === 'negative' ? ' active' : '');
+}
+
+function resetAll() {
+  arrows = [];
+  selectedNode = null;
+  initNodes();
+}
+
+function loadPreset(name) {
+  resetAll();
+  if (name === 'yellowstone') {
+    // Wolves -deer, Deer -trees, Trees +soil, Soil +water, Water +grass, Grass +deer
+    let idx = n => nodes.findIndex(nd => nd.label === n);
+    arrows = [
+      { from: idx('Wolves'), to: idx('Deer'), type: 'negative' },
+      { from: idx('Deer'), to: idx('Trees'), type: 'negative' },
+      { from: idx('Trees'), to: idx('Soil'), type: 'positive' },
+      { from: idx('Soil'), to: idx('Water'), type: 'positive' },
+      { from: idx('Water'), to: idx('Grass'), type: 'positive' },
+      { from: idx('Grass'), to: idx('Deer'), type: 'positive' },
+      { from: idx('Wolves'), to: idx('Trees'), type: 'positive' },
+    ];
+  } else if (name === 'buckthorn') {
+    let idx = n => nodes.findIndex(nd => nd.label === n);
+    arrows = [
+      { from: idx('Trees'), to: idx('Grass'), type: 'negative' },
+      { from: idx('Grass'), to: idx('Soil'), type: 'positive' },
+      { from: idx('Soil'), to: idx('Water'), type: 'positive' },
+      { from: idx('Water'), to: idx('Trees'), type: 'positive' },
+      { from: idx('Deer'), to: idx('Grass'), type: 'negative' },
+      { from: idx('Trees'), to: idx('Deer'), type: 'positive' },
+    ];
+  }
+}
+
+function analyzeLoops() {
+  let info = document.getElementById('info');
+  if (arrows.length === 0) {
+    info.innerHTML = 'Drag nodes to reposition. Click a node then click another to draw an arrow. Use +/- buttons to set arrow type.';
+    return;
+  }
+
+  // find simple cycles using DFS
+  let cycles = [];
+  let adj = {};
+  for (let a of arrows) {
+    if (!adj[a.from]) adj[a.from] = [];
+    adj[a.from].push({ to: a.to, type: a.type });
+  }
+
+  function dfs(start, current, path, types) {
+    let neighbors = adj[current] || [];
+    for (let n of neighbors) {
+      if (n.to === start && path.length >= 2) {
+        cycles.push({ path: [...path], types: [...types, n.type] });
+      } else if (!path.includes(n.to)) {
+        dfs(start, n.to, [...path, n.to], [...types, n.type]);
+      }
+    }
+  }
+
+  for (let i = 0; i < nodes.length; i++) {
+    dfs(i, i, [i], []);
+  }
+
+  // deduplicate cycles
+  let unique = [];
+  let seen = new Set();
+  for (let c of cycles) {
+    let sorted = [...c.path].sort((a,b) => a-b);
+    let key = sorted.join(',');
+    if (!seen.has(key)) {
+      seen.add(key);
+      unique.push(c);
+    }
+  }
+
+  if (unique.length === 0) {
+    info.innerHTML = `<b>${arrows.length} connection(s)</b> drawn. No complete loops detected yet.`;
+    return;
+  }
+
+  let html = '';
+  for (let c of unique) {
+    let negCount = c.types.filter(t => t === 'negative').length;
+    let loopType = (negCount % 2 === 0) ? 'Reinforcing' : 'Balancing';
+    let loopColor = loopType === 'Reinforcing' ? '#c62828' : '#2e7d32';
+    let names = c.path.map(i => nodes[i].emoji + ' ' + nodes[i].label).join(' → ');
+    html += `<span style="color:${loopColor};font-weight:700;">${loopType} loop:</span> ${names} → ${nodes[c.path[0]].emoji} &nbsp;&nbsp;`;
+  }
+  info.innerHTML = html;
+}
+</script>
+</body>
+</html>

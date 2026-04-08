@@ -1,0 +1,11 @@
+{
+  "sim_id": "mn-resource-finder",
+  "diagram_name": "Minnesota Resource Finder",
+  "chapter_number": 14,
+  "chapter_title": "Minnesota Resources",
+  "chapter_dir": "14-minnesota-resources",
+  "learning_objective": "Students will be able to navigate the multi-layered landscape of Minnesota native plant resources by filtering organizations and programs by type (state, county, city, education, nonprofit) and focus area.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Minnesota Resource Finder</summary>\nType: microsim\n\n**Learning Objective:** Students will be able to navigate the multi-layered landscape of Minnesota native plant resources by filtering organizations and programs by type (state, county, city, education, nonprofit) and focus area.\n\n**Controls:**\n- Dropdown or button filters for resource level (State, County, City, Educational, Nonprofit)\n- Text search box to filter by keyword\n- Toggle to show or hide program descriptions\n\n**Visual Elements:**\n- Filterable list or card grid of Minnesota native plant resources\n- Icons indicating resource type (government, education, nonprofit, funding)\n- Brief description and link placeholder for each resource\n\n**Behavior:**\n- Selecting a resource level filter displays only resources at that level\n- Keyword search narrows results across all fields (name, description, type)\n- Clicking a resource card expands it to show full details and related programs\n\n**Instructional Rationale:**\nThe sheer number of resources available in Minnesota can be overwhelming for newcomers. This simulation helps students develop a mental model of how resources are organized -- from state agencies down to neighborhood groups -- and practice finding the right starting point for their specific needs."
+}

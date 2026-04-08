@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Source Credibility Evaluator</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #e8f5e9; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<script>
+const claims = [
+  {
+    text: "Neonicotinoid-free plants are always safe for pollinators.",
+    context: "Commonly shared on social media gardening groups without scientific citation."
+  },
+  {
+    text: "Purple coneflower (Echinacea) boosts human immune function when consumed as tea.",
+    context: "Claim from a herbal supplement company marketing page."
+  },
+  {
+    text: "Planting native milkweed along highways significantly increases monarch butterfly populations.",
+    context: "Published in a peer-reviewed ecology journal, University of Minnesota study."
+  },
+  {
+    text: "Buckthorn was intentionally introduced to Minnesota as a conservation strategy.",
+    context: "Found in an anonymous blog post with no references."
+  },
+  {
+    text: "Rain gardens with native plants reduce stormwater runoff by up to 90%.",
+    context: "Cited in an EPA technical report with monitored field data."
+  }
+];
+
+let currentClaim = 0;
+let sliders = [
+  { label: 'Source Authority', value: 3, desc: 'Expertise and credentials of the source' },
+  { label: 'Evidence Quality', value: 3, desc: 'Strength and type of supporting evidence' },
+  { label: 'Peer Review Status', value: 3, desc: 'Has the claim been peer-reviewed?' },
+  { label: 'Conflict of Interest', value: 3, desc: 'Risk of bias from financial or other interests' }
+];
+
+let draggingSlider = -1;
+let sliderX, sliderW;
+let btnNextHover = false, btnPrevHover = false;
+
+function setup() {
+  let cnv = createCanvas(windowWidth, max(600, windowHeight));
+  textFont('Segoe UI, system-ui, sans-serif');
+}
+
+function draw() {
+  background('#e8f5e9');
+  let w = min(width - 40, 700);
+  let startX = (width - w) / 2;
+  let y = 20;
+
+  // Title
+  push();
+  fill('#2e7d32');
+  noStroke();
+  textSize(22);
+  textStyle(BOLD);
+  textAlign(CENTER, TOP);
+  text('Source Credibility Evaluator', width / 2, y);
+  y += 40;
+
+  // Claim card
+  fill(255);
+  stroke('#2e7d32');
+  strokeWeight(2);
+  rect(startX, y, w, 100, 10);
+  noStroke();
+  fill('#1b5e20');
+  textSize(11);
+  textStyle(BOLD);
+  textAlign(LEFT, TOP);
+  text(`CLAIM ${currentClaim + 1} OF ${claims.length}`, startX + 16, y + 12);
+  fill('#212121');
+  textSize(14);
+  textStyle(NORMAL);
+  textWrap(WORD);
+  text(claims[currentClaim].text, startX + 16, y + 32, w - 32);
+  fill('#666');
+  textSize(11);
+  textStyle(ITALIC);
+  text(claims[currentClaim].context, startX + 16, y + 72, w - 32);
+  y += 120;
+
+  // Navigation buttons
+  let btnW = 120, btnH = 34;
+  let prevX = startX;
+  let nextX = startX + w - btnW;
+
+  // Prev button
+  btnPrevHover = mouseX > prevX && mouseX < prevX + btnW && mouseY > y && mouseY < y + btnH;
+  fill(btnPrevHover ? '#2e7d32' : '#e8f5e9');
+  stroke('#2e7d32'); strokeWeight(2);
+  rect(prevX, y, btnW, btnH, 6);
+  noStroke();
+  fill(btnPrevHover ? 255 : '#2e7d32');
+  textSize(13); textStyle(BOLD); textAlign(CENTER, CENTER);
+  text('< Prev Claim', prevX + btnW / 2, y + btnH / 2);
+
+  // Next button
+  btnNextHover = mouseX > nextX && mouseX < nextX + btnW && mouseY > y && mouseY < y + btnH;
+  fill(btnNextHover ? '#2e7d32' : '#e8f5e9');
+  stroke('#2e7d32'); strokeWeight(2);
+  rect(nextX, y, btnW, btnH, 6);
+  noStroke();
+  fill(btnNextHover ? 255 : '#2e7d32');
+  text('Next Claim >', nextX + btnW / 2, y + btnH / 2);
+  y += 54;
+
+  // Sliders
+  sliderX = startX + 200;
+  sliderW = w - 220;
+
+  for (let i = 0; i < sliders.length; i++) {
+    let sy = y + i * 72;
+    // Label
+    noStroke();
+    fill('#1b5e20');
+    textSize(13); textStyle(BOLD); textAlign(LEFT, TOP);
+    text(sliders[i].label, startX, sy);
+    fill('#666');
+    textSize(10); textStyle(NORMAL);
+    text(sliders[i].desc, startX, sy + 18);
+
+    // Track
+    stroke('#c8e6c9'); strokeWeight(4);
+    line(sliderX, sy + 10, sliderX + sliderW, sy + 10);
+
+    // Ticks and labels
+    for (let v = 1; v <= 5; v++) {
+      let tx = sliderX + ((v - 1) / 4) * sliderW;
+      stroke('#a5d6a7'); strokeWeight(2);
+      line(tx, sy + 4, tx, sy + 16);
+      noStroke(); fill('#999');
+      textSize(9); textAlign(CENTER);
+      text(v, tx, sy + 28);
+    }
+
+    // Filled track
+    let fillEnd = sliderX + ((sliders[i].value - 1) / 4) * sliderW;
+    stroke('#2e7d32'); strokeWeight(4);
+    line(sliderX, sy + 10, fillEnd, sy + 10);
+
+    // Handle
+    let hx = sliderX + ((sliders[i].value - 1) / 4) * sliderW;
+    fill(255); stroke('#2e7d32'); strokeWeight(2);
+    ellipse(hx, sy + 10, 20, 20);
+    noStroke(); fill('#2e7d32');
+    textSize(11); textStyle(BOLD); textAlign(CENTER, CENTER);
+    text(sliders[i].value, hx, sy + 10);
+  }
+
+  y += sliders.length * 72 + 10;
+  pop();
+
+  // Calculate score
+  // Conflict of Interest is inverted (high = bad)
+  let auth = sliders[0].value;
+  let evid = sliders[1].value;
+  let peer = sliders[2].value;
+  let coi = 6 - sliders[3].value; // invert: 5 risk -> 1 score
+  let raw = (auth * 0.3 + evid * 0.3 + peer * 0.25 + coi * 0.15);
+  let score = round(((raw - 1) / 4) * 100);
+
+  // Score display
+  let scoreColor;
+  let verdict;
+  if (score >= 70) { scoreColor = color(46, 125, 50); verdict = 'Reliable'; }
+  else if (score >= 40) { scoreColor = color(245, 166, 35); verdict = 'Needs Verification'; }
+  else { scoreColor = color(198, 40, 40); verdict = 'Likely Misleading'; }
+
+  push();
+  // Score card
+  fill(255);
+  stroke(scoreColor); strokeWeight(3);
+  rect(startX, y, w, 110, 10);
+
+  // Score circle
+  let cx = startX + 70;
+  let cy2 = y + 55;
+  noStroke();
+  fill(red(scoreColor), green(scoreColor), blue(scoreColor), 30);
+  ellipse(cx, cy2, 80, 80);
+  fill(scoreColor);
+  textSize(28); textStyle(BOLD); textAlign(CENTER, CENTER);
+  text(score, cx, cy2 - 5);
+  textSize(10); textStyle(NORMAL);
+  text('/ 100', cx, cy2 + 18);
+
+  // Verdict
+  fill(scoreColor);
+  textSize(20); textStyle(BOLD); textAlign(LEFT, TOP);
+  text(verdict, startX + 130, y + 20);
+
+  // Bar
+  fill('#eee');
+  noStroke();
+  rect(startX + 130, y + 52, w - 160, 14, 7);
+  fill(scoreColor);
+  rect(startX + 130, y + 52, (w - 160) * score / 100, 14, 7);
+
+  // Breakdown
+  fill('#666');
+  textSize(10); textStyle(NORMAL);
+  text(`Authority: ${sliders[0].value}/5   Evidence: ${sliders[1].value}/5   Peer Review: ${sliders[2].value}/5   COI Risk: ${sliders[3].value}/5`, startX + 130, y + 80);
+  pop();
+}
+
+function mousePressed() {
+  let w = min(width - 40, 700);
+  let startX = (width - w) / 2;
+  let btnW = 120, btnH = 34;
+  let btnY = 180;
+
+  // Prev/Next buttons
+  if (mouseY > btnY && mouseY < btnY + btnH) {
+    if (mouseX > startX && mouseX < startX + btnW) {
+      currentClaim = (currentClaim - 1 + claims.length) % claims.length;
+      for (let s of sliders) s.value = 3;
+      return;
+    }
+    if (mouseX > startX + w - btnW && mouseX < startX + w) {
+      currentClaim = (currentClaim + 1) % claims.length;
+      for (let s of sliders) s.value = 3;
+      return;
+    }
+  }
+
+  // Check sliders
+  let y = 234;
+  for (let i = 0; i < sliders.length; i++) {
+    let sy = y + i * 72;
+    let hx = sliderX + ((sliders[i].value - 1) / 4) * sliderW;
+    if (dist(mouseX, mouseY, hx, sy + 10) < 15) {
+      draggingSlider = i;
+      return;
+    }
+    // click on track
+    if (mouseX >= sliderX && mouseX <= sliderX + sliderW && mouseY > sy - 5 && mouseY < sy + 30) {
+      let v = round(1 + ((mouseX - sliderX) / sliderW) * 4);
+      sliders[i].value = constrain(v, 1, 5);
+      draggingSlider = i;
+      return;
+    }
+  }
+}
+
+function mouseDragged() {
+  if (draggingSlider >= 0) {
+    let v = round(1 + ((mouseX - sliderX) / sliderW) * 4);
+    sliders[draggingSlider].value = constrain(v, 1, 5);
+  }
+}
+
+function mouseReleased() {
+  draggingSlider = -1;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(600, windowHeight));
+}
+</script>
+</body>
+</html>

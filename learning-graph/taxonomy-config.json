@@ -1,0 +1,77 @@
+{
+  "FOUND": {
+    "range": [1, 10],
+    "keywords": [],
+    "exclude": []
+  },
+  "ECOR": {
+    "range": [11, 20],
+    "keywords": [],
+    "exclude": []
+  },
+  "PRAI": {
+    "range": [21, 45],
+    "keywords": [],
+    "exclude": []
+  },
+  "WOOD": {
+    "range": [46, 69],
+    "keywords": [],
+    "exclude": []
+  },
+  "WETL": {
+    "range": [70, 86],
+    "keywords": [],
+    "exclude": []
+  },
+  "POLL": {
+    "range": [87, 103],
+    "keywords": [],
+    "exclude": []
+  },
+  "INVA": {
+    "range": [104, 133],
+    "keywords": [],
+    "exclude": []
+  },
+  "PLID": {
+    "range": [134, 144],
+    "keywords": [],
+    "exclude": []
+  },
+  "GARD": {
+    "range": [145, 186],
+    "keywords": [],
+    "exclude": []
+  },
+  "REST": {
+    "range": [187, 206],
+    "keywords": [],
+    "exclude": []
+  },
+  "CULT": {
+    "range": [207, 215],
+    "keywords": [],
+    "exclude": []
+  },
+  "MNRS": {
+    "range": [216, 240],
+    "keywords": [],
+    "exclude": []
+  },
+  "SYST": {
+    "range": [241, 258],
+    "keywords": [],
+    "exclude": []
+  },
+  "CRIT": {
+    "range": [259, 280],
+    "keywords": [],
+    "exclude": []
+  },
+  "CAPS": {
+    "range": [281, 288],
+    "keywords": ["capstone", "project"],
+    "exclude": []
+  }
+}

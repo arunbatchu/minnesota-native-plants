@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pollinator Match - Minnesota Native Plants</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #e8f5e9;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+  #canvas-container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+<div id="canvas-container"></div>
+<script>
+// Pollinator Match MicroSim
+
+const PRIMARY = [46, 125, 50];
+const BG = [232, 245, 233];
+
+const pairs = [
+  {
+    pollinator: "Monarch Butterfly",
+    plant: "Milkweed",
+    explanation: "Monarchs lay eggs exclusively on milkweed; larvae feed on its leaves.",
+    icon: "M"
+  },
+  {
+    pollinator: "Rusty Patched Bumblebee",
+    plant: "Wild Bergamot",
+    explanation: "This endangered bee relies on Wild Bergamot's tubular flowers for nectar.",
+    icon: "B"
+  },
+  {
+    pollinator: "Ruby-throated Hummingbird",
+    plant: "Cardinal Flower",
+    explanation: "Cardinal Flower's deep red tubular blooms are perfectly shaped for hummingbird bills.",
+    icon: "H"
+  },
+  {
+    pollinator: "Sweat Bee",
+    plant: "Goldenrod",
+    explanation: "Small sweat bees are major pollinators of Goldenrod's tiny clustered flowers.",
+    icon: "S"
+  },
+  {
+    pollinator: "Painted Lady",
+    plant: "Aster",
+    explanation: "Painted Lady butterflies depend on late-blooming asters for fall migration fuel.",
+    icon: "P"
+  }
+];
+
+let pollinators = [];
+let plantsList = [];
+let connections = []; // {pollinatorIdx, plantIdx}
+let drawing = false;
+let drawFrom = -1; // pollinator index being drawn from
+let drawEnd = null; // {x, y} current mouse pos while drawing
+let checked = false;
+let score = 0;
+let showExplanations = false;
+let cardW, cardH, colL, colR, startY, cardGap;
+
+function setup() {
+  let cnv = createCanvas(windowWidth, max(650, windowHeight));
+  cnv.parent('canvas-container');
+  textFont('Segoe UI');
+  resetGame();
+}
+
+function resetGame() {
+  checked = false;
+  score = 0;
+  showExplanations = false;
+  connections = [];
+  drawing = false;
+  drawFrom = -1;
+
+  // Shuffle plant order for display
+  let indices = [0, 1, 2, 3, 4];
+  plantsList = shuffle(indices);
+  pollinators = [0, 1, 2, 3, 4]; // keep pollinator order fixed for clarity
+
+  computeLayout();
+}
+
+function computeLayout() {
+  cardW = min(220, (width - 100) / 2.5);
+  cardH = 52;
+  cardGap = 18;
+  colL = width * 0.15;
+  colR = width * 0.85 - cardW;
+  startY = 120;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(650, windowHeight));
+  computeLayout();
+}
+
+function getPollinatorCard(idx) {
+  let i = pollinators[idx];
+  return {
+    x: colL,
+    y: startY + idx * (cardH + cardGap),
+    w: cardW,
+    h: cardH,
+    label: pairs[i].label,
+    pairIdx: i
+  };
+}
+
+function getPlantCard(idx) {
+  let i = plantsList[idx];
+  return {
+    x: colR,
+    y: startY + idx * (cardH + cardGap),
+    w: cardW,
+    h: cardH,
+    pairIdx: i
+  };
+}
+
+function draw() {
+  background(BG);
+
+  // Title
+  fill(PRIMARY);
+  noStroke();
+  textAlign(CENTER, TOP);
+  textSize(22);
+  textStyle(BOLD);
+  text("Pollinator-Plant Match", width / 2, 12);
+  textStyle(NORMAL);
+  textSize(13);
+  fill(80);
+  text("Draw lines connecting each pollinator to its preferred native plant", width / 2, 40);
+
+  // Score
+  textAlign(RIGHT, TOP);
+  textSize(14);
+  textStyle(BOLD);
+  fill(PRIMARY);
+  text("Score: " + score + " / " + pairs.length, width - 30, 12);
+  textStyle(NORMAL);
+
+  // Column headers
+  textSize(15);
+  textStyle(BOLD);
+  fill(PRIMARY);
+  textAlign(CENTER, BOTTOM);
+  text("Pollinators", colL + cardW / 2, startY - 10);
+  text("Native Plants", colR + cardW / 2, startY - 10);
+  textStyle(NORMAL);
+
+  // Draw existing connections
+  for (let conn of connections) {
+    let pCard = getPollinatorCard(conn.pollinatorIdx);
+    let plCard = getPlantCard(conn.plantIdx);
+    let isCorrect = checked && pairs[pollinators[conn.pollinatorIdx]].plant === pairs[plantsList[conn.plantIdx]].plant;
+    let isWrong = checked && !isCorrect;
+
+    if (isCorrect) {
+      stroke(46, 125, 50);
+      strokeWeight(3);
+    } else if (isWrong) {
+      stroke(211, 47, 47);
+      strokeWeight(3);
+    } else {
+      stroke(100, 100, 100);
+      strokeWeight(2);
+    }
+    drawConnection(pCard.x + pCard.w, pCard.y + pCard.h / 2, plCard.x, plCard.y + plCard.h / 2);
+  }
+
+  // Draw active line
+  if (drawing && drawEnd) {
+    let pCard = getPollinatorCard(drawFrom);
+    stroke(PRIMARY[0], PRIMARY[1], PRIMARY[2], 180);
+    strokeWeight(2.5);
+    drawDashedLine(pCard.x + pCard.w, pCard.y + pCard.h / 2, drawEnd.x, drawEnd.y);
+  }
+
+  // Draw pollinator cards
+  for (let i = 0; i < 5; i++) {
+    let pIdx = pollinators[i];
+    let p = pairs[pIdx];
+    let cy = startY + i * (cardH + cardGap);
+    let highlight = drawing && drawFrom === i;
+    let connResult = checked ? getConnectionResult(i, true) : null;
+    drawCard(colL, cy, cardW, cardH, p.pollinator, p.icon, getPollinatorColor(pIdx), highlight, connResult, true);
+
+    // Connection dot on right
+    fill(highlight ? PRIMARY : [150, 150, 150]);
+    noStroke();
+    ellipse(colL + cardW + 6, cy + cardH / 2, 12, 12);
+    fill(255);
+    ellipse(colL + cardW + 6, cy + cardH / 2, 6, 6);
+  }
+
+  // Draw plant cards
+  for (let i = 0; i < 5; i++) {
+    let pIdx = plantsList[i];
+    let p = pairs[pIdx];
+    let cy = startY + i * (cardH + cardGap);
+    let connResult = checked ? getConnectionResult(i, false) : null;
+    drawCard(colR, cy, cardW, cardH, p.plant, null, getPlantColor(pIdx), false, connResult, false);
+
+    // Connection dot on left
+    fill(150, 150, 150);
+    noStroke();
+    ellipse(colR - 6, cy + cardH / 2, 12, 12);
+    fill(255);
+    ellipse(colR - 6, cy + cardH / 2, 6, 6);
+  }
+
+  // Buttons
+  drawButtons();
+
+  // Explanations
+  if (showExplanations) {
+    drawExplanations();
+  }
+}
+
+function getPollinatorColor(pairIdx) {
+  let colors = [
+    [255, 152, 0],   // orange - monarch
+    [255, 193, 7],   // amber - bumblebee
+    [244, 67, 54],   // red - hummingbird
+    [76, 175, 80],   // green - sweat bee
+    [233, 30, 99]    // pink - painted lady
+  ];
+  return colors[pairIdx];
+}
+
+function getPlantColor(pairIdx) {
+  let colors = [
+    [129, 199, 132],  // light green - milkweed
+    [149, 117, 205],  // purple - bergamot
+    [229, 57, 53],    // red - cardinal flower
+    [255, 213, 79],   // gold - goldenrod
+    [186, 104, 200]   // lavender - aster
+  ];
+  return colors[pairIdx];
+}
+
+function getConnectionResult(idx, isPollinator) {
+  if (!checked) return null;
+  for (let conn of connections) {
+    if (isPollinator && conn.pollinatorIdx === idx) {
+      let correct = pairs[pollinators[conn.pollinatorIdx]].plant === pairs[plantsList[conn.plantIdx]].plant;
+      return correct ? "correct" : "wrong";
+    }
+    if (!isPollinator && conn.plantIdx === idx) {
+      let correct = pairs[pollinators[conn.pollinatorIdx]].plant === pairs[plantsList[conn.plantIdx]].plant;
+      return correct ? "correct" : "wrong";
+    }
+  }
+  return "unconnected";
+}
+
+function drawCard(x, y, w, h, label, icon, clr, highlight, result, isLeft) {
+  // Card shadow
+  noStroke();
+  fill(0, 0, 0, 20);
+  rect(x + 2, y + 2, w, h, 10);
+
+  // Card body
+  if (result === "correct") {
+    stroke(46, 125, 50);
+    strokeWeight(3);
+  } else if (result === "wrong") {
+    stroke(211, 47, 47);
+    strokeWeight(3);
+  } else if (highlight) {
+    stroke(PRIMARY[0], PRIMARY[1], PRIMARY[2]);
+    strokeWeight(3);
+  } else {
+    stroke(200);
+    strokeWeight(1);
+  }
+  fill(255);
+  rect(x, y, w, h, 10);
+
+  // Color accent bar
+  noStroke();
+  fill(clr);
+  if (isLeft) {
+    rect(x, y, 6, h, 10, 0, 0, 10);
+  } else {
+    rect(x + w - 6, y, 6, h, 0, 10, 10, 0);
+  }
+
+  // Icon circle
+  if (icon) {
+    fill(clr[0], clr[1], clr[2], 40);
+    ellipse(x + 28, y + h / 2, 32, 32);
+    fill(clr);
+    textAlign(CENTER, CENTER);
+    textSize(16);
+    textStyle(BOLD);
+    text(icon, x + 28, y + h / 2);
+    textStyle(NORMAL);
+  }
+
+  // Label
+  fill(50);
+  textAlign(isLeft ? LEFT : RIGHT, CENTER);
+  textSize(13);
+  textStyle(BOLD);
+  let tx = isLeft ? x + (icon ? 50 : 14) : x + w - 14;
+  text(label, tx, y + h / 2);
+  textStyle(NORMAL);
+
+  // Result icon
+  if (result === "correct") {
+    fill(46, 125, 50);
+    textSize(18);
+    textAlign(CENTER, CENTER);
+    text("✓", isLeft ? x + w - 18 : x + 18, y + h / 2);
+  } else if (result === "wrong") {
+    fill(211, 47, 47);
+    textSize(18);
+    textAlign(CENTER, CENTER);
+    text("✗", isLeft ? x + w - 18 : x + 18, y + h / 2);
+  }
+}
+
+function drawConnection(x1, y1, x2, y2) {
+  noFill();
+  let cpOffset = (x2 - x1) * 0.4;
+  bezier(x1, y1, x1 + cpOffset, y1, x2 - cpOffset, y2, x2, y2);
+}
+
+function drawDashedLine(x1, y1, x2, y2) {
+  let d = dist(x1, y1, x2, y2);
+  let segments = floor(d / 8);
+  for (let i = 0; i < segments; i += 2) {
+    let t1 = i / segments;
+    let t2 = min((i + 1) / segments, 1);
+    let sx = lerp(x1, x2, t1);
+    let sy = lerp(y1, y2, t1);
+    let ex = lerp(x1, x2, t2);
+    let ey = lerp(y1, y2, t2);
+    line(sx, sy, ex, ey);
+  }
+}
+
+function drawButtons() {
+  let btnY = startY + 5 * (cardH + cardGap) + 20;
+  let btnW = 110, btnH = 38;
+  let totalW = btnW * 3 + 30;
+  let startX = (width - totalW) / 2;
+
+  // Check button
+  fill(PRIMARY);
+  noStroke();
+  rect(startX, btnY, btnW, btnH, 8);
+  fill(255);
+  textAlign(CENTER, CENTER);
+  textSize(14);
+  textStyle(BOLD);
+  text("Check", startX + btnW / 2, btnY + btnH / 2);
+
+  // Show Answers button
+  let showX = startX + btnW + 15;
+  fill(checked ? [33, 150, 243] : [180, 180, 180]);
+  rect(showX, btnY, btnW, btnH, 8);
+  fill(255);
+  text(showExplanations ? "Hide Info" : "Show Info", showX + btnW / 2, btnY + btnH / 2);
+
+  // Reset button
+  let resetX = showX + btnW + 15;
+  fill(120);
+  rect(resetX, btnY, btnW, btnH, 8);
+  fill(255);
+  text("Reset", resetX + btnW / 2, btnY + btnH / 2);
+  textStyle(NORMAL);
+}
+
+function drawExplanations() {
+  let expY = startY + 5 * (cardH + cardGap) + 75;
+  let expW = min(width - 60, 600);
+  let expX = (width - expW) / 2;
+
+  fill(255, 255, 255, 240);
+  stroke(200);
+  strokeWeight(1);
+  rect(expX, expY, expW, pairs.length * 48 + 20, 10);
+  noStroke();
+
+  for (let i = 0; i < pairs.length; i++) {
+    let p = pairs[i];
+    let ey = expY + 14 + i * 48;
+
+    fill(PRIMARY);
+    textAlign(LEFT, TOP);
+    textSize(13);
+    textStyle(BOLD);
+    text(p.pollinator + "  →  " + p.plant, expX + 16, ey);
+    textStyle(NORMAL);
+    fill(80);
+    textSize(12);
+    text(p.explanation, expX + 16, ey + 18, expW - 32);
+  }
+}
+
+function mousePressed() {
+  // Check buttons
+  let btnY = startY + 5 * (cardH + cardGap) + 20;
+  let btnW = 110, btnH = 38;
+  let totalW = btnW * 3 + 30;
+  let startX = (width - totalW) / 2;
+
+  if (mouseY > btnY && mouseY < btnY + btnH) {
+    if (mouseX > startX && mouseX < startX + btnW) {
+      checkAnswers();
+      return;
+    }
+    let showX = startX + btnW + 15;
+    if (mouseX > showX && mouseX < showX + btnW && checked) {
+      showExplanations = !showExplanations;
+      return;
+    }
+    let resetX = showX + btnW + 15;
+    if (mouseX > resetX && mouseX < resetX + btnW) {
+      resetGame();
+      return;
+    }
+  }
+
+  // Check if clicking on a pollinator card's right dot area
+  for (let i = 0; i < 5; i++) {
+    let cy = startY + i * (cardH + cardGap);
+    let dotX = colL + cardW + 6;
+    let dotY = cy + cardH / 2;
+
+    if (dist(mouseX, mouseY, dotX, dotY) < 20 || (mouseX > colL && mouseX < colL + cardW + 20 && mouseY > cy && mouseY < cy + cardH)) {
+      // Remove existing connection from this pollinator
+      connections = connections.filter(c => c.pollinatorIdx !== i);
+      drawing = true;
+      drawFrom = i;
+      drawEnd = { x: mouseX, y: mouseY };
+      checked = false;
+      showExplanations = false;
+      return;
+    }
+  }
+}
+
+function mouseDragged() {
+  if (drawing) {
+    drawEnd = { x: mouseX, y: mouseY };
+  }
+}
+
+function mouseReleased() {
+  if (drawing) {
+    // Check if releasing on a plant card
+    for (let i = 0; i < 5; i++) {
+      let cy = startY + i * (cardH + cardGap);
+      let dotX = colR - 6;
+      let dotY = cy + cardH / 2;
+
+      if (dist(mouseX, mouseY, dotX, dotY) < 20 || (mouseX > colR - 20 && mouseX < colR + cardW && mouseY > cy && mouseY < cy + cardH)) {
+        // Remove any existing connection to this plant
+        connections = connections.filter(c => c.plantIdx !== i);
+        connections.push({ pollinatorIdx: drawFrom, plantIdx: i });
+        break;
+      }
+    }
+    drawing = false;
+    drawFrom = -1;
+    drawEnd = null;
+  }
+}
+
+function touchStarted() {
+  mousePressed();
+  return false;
+}
+function touchMoved() {
+  mouseDragged();
+  return false;
+}
+function touchEnded() {
+  mouseReleased();
+  return false;
+}
+
+function checkAnswers() {
+  checked = true;
+  score = 0;
+
+  for (let conn of connections) {
+    let pollinatorPairIdx = pollinators[conn.pollinatorIdx];
+    let plantPairIdx = plantsList[conn.plantIdx];
+    if (pollinatorPairIdx === plantPairIdx) {
+      score++;
+    }
+  }
+}
+</script>
+</body>
+</html>

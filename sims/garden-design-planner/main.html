@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Native Garden Design Planner</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #e8f5e9; color: #1b5e20; overflow-x: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<script>
+// Plant database
+const allPlants = [
+  { name: 'Purple Coneflower', sci: 'Echinacea purpurea', sun: 'full', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 36, bloom: [6,7,8], color: '#9C27B0', maint: 'Low - drought tolerant once established', emoji: '🌸' },
+  { name: 'Black-eyed Susan', sci: 'Rudbeckia hirta', sun: 'full', moisture: 'dry', soil: 'any', zone: [3,4,5], h: 30, bloom: [6,7,8,9], color: '#FFC107', maint: 'Low - self-seeds freely', emoji: '🌻' },
+  { name: 'Wild Bergamot', sci: 'Monarda fistulosa', sun: 'full', moisture: 'dry', soil: 'any', zone: [3,4,5], h: 40, bloom: [7,8], color: '#CE93D8', maint: 'Low - attracts pollinators', emoji: '🌺' },
+  { name: 'Joe-Pye Weed', sci: 'Eutrochium maculatum', sun: 'full', moisture: 'wet', soil: 'clay', zone: [3,4,5], h: 72, bloom: [7,8,9], color: '#E91E63', maint: 'Low - great for rain gardens', emoji: '🌷' },
+  { name: 'Prairie Blazing Star', sci: 'Liatris pycnostachya', sun: 'full', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 48, bloom: [7,8], color: '#7B1FA2', maint: 'Low - monarch magnet', emoji: '🌾' },
+  { name: 'Common Milkweed', sci: 'Asclepias syriaca', sun: 'full', moisture: 'dry', soil: 'sandy', zone: [3,4,5], h: 48, bloom: [6,7], color: '#F8BBD0', maint: 'Low - essential for monarchs', emoji: '🦋' },
+  { name: 'Blue Flag Iris', sci: 'Iris versicolor', sun: 'partial', moisture: 'wet', soil: 'clay', zone: [3,4,5], h: 30, bloom: [5,6], color: '#3F51B5', maint: 'Low - wetland species', emoji: '💜' },
+  { name: 'Cardinal Flower', sci: 'Lobelia cardinalis', sun: 'partial', moisture: 'wet', soil: 'loam', zone: [3,4,5], h: 36, bloom: [7,8,9], color: '#F44336', maint: 'Medium - needs consistent moisture', emoji: '❤' },
+  { name: 'Wild Columbine', sci: 'Aquilegia canadensis', sun: 'partial', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 24, bloom: [4,5,6], color: '#FF5722', maint: 'Low - hummingbird favorite', emoji: '🧡' },
+  { name: 'Solomon\'s Seal', sci: 'Polygonatum biflorum', sun: 'shade', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 36, bloom: [5,6], color: '#CDDC39', maint: 'Low - elegant shade plant', emoji: '🌿' },
+  { name: 'Wild Ginger', sci: 'Asarum canadense', sun: 'shade', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 8, bloom: [4,5], color: '#795548', maint: 'Low - excellent ground cover', emoji: '🍃' },
+  { name: 'Pennsylvania Sedge', sci: 'Carex pensylvanica', sun: 'shade', moisture: 'dry', soil: 'any', zone: [3,4,5], h: 10, bloom: [4,5], color: '#8BC34A', maint: 'Very low - lawn alternative', emoji: '🌱' },
+  { name: 'Big Bluestem', sci: 'Andropogon gerardii', sun: 'full', moisture: 'medium', soil: 'any', zone: [3,4,5], h: 72, bloom: [8,9], color: '#FF9800', maint: 'Low - iconic prairie grass', emoji: '🌾' },
+  { name: 'Prairie Dropseed', sci: 'Sporobolus heterolepis', sun: 'full', moisture: 'dry', soil: 'any', zone: [3,4,5], h: 24, bloom: [8,9], color: '#BCAAA4', maint: 'Very low - fragrant in fall', emoji: '🌿' },
+  { name: 'Swamp Milkweed', sci: 'Asclepias incarnata', sun: 'full', moisture: 'wet', soil: 'clay', zone: [3,4,5], h: 48, bloom: [6,7,8], color: '#EC407A', maint: 'Low - rain garden star', emoji: '🦋' },
+  { name: 'New England Aster', sci: 'Symphyotrichum novae-angliae', sun: 'full', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 48, bloom: [8,9,10], color: '#7C4DFF', maint: 'Low - late season pollinator food', emoji: '💐' },
+  { name: 'Bloodroot', sci: 'Sanguinaria canadensis', sun: 'shade', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 8, bloom: [3,4], color: '#FAFAFA', maint: 'Low - spring ephemeral', emoji: '🤍' },
+  { name: 'Jack-in-the-Pulpit', sci: 'Arisaema triphyllum', sun: 'shade', moisture: 'wet', soil: 'loam', zone: [3,4,5], h: 18, bloom: [4,5], color: '#4CAF50', maint: 'Low - woodland treasure', emoji: '🪴' },
+  { name: 'Nodding Wild Onion', sci: 'Allium cernuum', sun: 'full', moisture: 'dry', soil: 'sandy', zone: [3,4,5], h: 18, bloom: [7,8], color: '#F48FB1', maint: 'Very low - deer resistant', emoji: '🧅' },
+  { name: 'Culver\'s Root', sci: 'Veronicastrum virginicum', sun: 'full', moisture: 'medium', soil: 'loam', zone: [3,4,5], h: 60, bloom: [6,7,8], color: '#E0E0E0', maint: 'Low - elegant spires', emoji: '🕯' }
+];
+
+let step = 1;
+let siteConditions = { sun: 'full', moisture: 'medium', soil: 'loam', zone: 4 };
+let recommended = [];
+let selected = [];
+let gridPlants = []; // { plantIdx, gridX, gridY }
+let gridCols = 8, gridRows = 6;
+let gridCellSize;
+let draggingPlantIdx = -1;
+let draggingFromPalette = false;
+let dragX = 0, dragY = 0;
+let exportText = '';
+let showExport = false;
+let scrollOffsetStep2 = 0;
+
+// dropdown state
+let dropdowns = [
+  { label: 'Sun Exposure', key: 'sun', options: ['full', 'partial', 'shade'], open: false },
+  { label: 'Moisture Level', key: 'moisture', options: ['dry', 'medium', 'wet'], open: false },
+  { label: 'Soil Type', key: 'soil', options: ['sandy', 'loam', 'clay', 'any'], open: false },
+  { label: 'Hardiness Zone', key: 'zone', options: [3, 4, 5], open: false }
+];
+
+function setup() {
+  createCanvas(windowWidth, max(700, windowHeight));
+  textFont('Segoe UI, system-ui, sans-serif');
+  gridCellSize = min(60, (min(width - 40, 700) - 160) / gridCols);
+}
+
+function draw() {
+  background('#e8f5e9');
+  let w = min(width - 40, 720);
+  let sx = (width - w) / 2;
+
+  drawHeader(sx, w);
+
+  if (step === 1) drawStep1(sx, w);
+  else if (step === 2) drawStep2(sx, w);
+  else if (step === 3) drawStep3(sx, w);
+  else if (step === 4) drawStep4(sx, w);
+
+  drawNavButtons(sx, w);
+
+  if (showExport) drawExportOverlay(sx, w);
+}
+
+function drawHeader(sx, w) {
+  push();
+  fill('#2e7d32');
+  noStroke();
+  textSize(20); textStyle(BOLD); textAlign(CENTER, TOP);
+  text('Native Garden Design Planner', width / 2, 16);
+  // Step indicator
+  let stepLabels = ['Site Conditions', 'Select Plants', 'Place on Grid', 'Summary'];
+  let stepW = w / 4;
+  for (let i = 0; i < 4; i++) {
+    let cx = sx + stepW * i + stepW / 2;
+    let cy = 52;
+    // circle
+    fill(i + 1 === step ? '#2e7d32' : (i + 1 < step ? '#66bb6a' : '#c8e6c9'));
+    noStroke();
+    ellipse(cx, cy, 28, 28);
+    fill(i + 1 <= step ? 255 : '#2e7d32');
+    textSize(13); textStyle(BOLD); textAlign(CENTER, CENTER);
+    text(i + 1, cx, cy);
+    // label
+    fill('#1b5e20');
+    textSize(10); textStyle(NORMAL); textAlign(CENTER, TOP);
+    text(stepLabels[i], cx, cy + 18);
+    // connector
+    if (i < 3) {
+      stroke(i + 1 < step ? '#66bb6a' : '#c8e6c9');
+      strokeWeight(2);
+      line(cx + 16, cy, cx + stepW - 16, cy);
+    }
+  }
+  pop();
+}
+
+function drawStep1(sx, w) {
+  let y = 100;
+  push();
+  fill('#1b5e20');
+  textSize(16); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Step 1: Select Your Site Conditions', sx, y);
+  y += 30;
+
+  for (let i = 0; i < dropdowns.length; i++) {
+    let dd = dropdowns[i];
+    let dy = y + i * 70;
+    // label
+    noStroke(); fill('#1b5e20');
+    textSize(12); textStyle(BOLD); textAlign(LEFT, TOP);
+    text(dd.label, sx, dy);
+    // dropdown box
+    fill(255); stroke('#2e7d32'); strokeWeight(2);
+    rect(sx, dy + 20, 220, 34, 6);
+    noStroke(); fill('#333');
+    textSize(13); textStyle(NORMAL); textAlign(LEFT, CENTER);
+    let val = siteConditions[dd.key];
+    text(String(val).charAt(0).toUpperCase() + String(val).slice(1), sx + 12, dy + 37);
+    // arrow
+    fill('#2e7d32');
+    triangle(sx + 200, dy + 32, sx + 210, dy + 32, sx + 205, dy + 42);
+
+    // open dropdown
+    if (dd.open) {
+      for (let j = 0; j < dd.options.length; j++) {
+        let oy = dy + 56 + j * 32;
+        fill(mouseX > sx && mouseX < sx + 220 && mouseY > oy && mouseY < oy + 32 ? '#c8e6c9' : 255);
+        stroke('#c8e6c9'); strokeWeight(1);
+        rect(sx, oy, 220, 32, j === dd.options.length - 1 ? 6 : 0);
+        noStroke(); fill('#333');
+        textSize(12); textAlign(LEFT, CENTER);
+        let opt = dd.options[j];
+        text(String(opt).charAt(0).toUpperCase() + String(opt).slice(1), sx + 12, oy + 16);
+      }
+    }
+  }
+  pop();
+}
+
+function drawStep2(sx, w) {
+  let y = 100;
+  push();
+  fill('#1b5e20'); noStroke();
+  textSize(16); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Step 2: Select 8-10 Plants', sx, y);
+  fill('#666');
+  textSize(11); textStyle(NORMAL);
+  text(`${selected.length} selected (need 8-10)`, sx + 240, y + 4);
+  y += 30;
+
+  for (let i = 0; i < recommended.length; i++) {
+    let p = recommended[i];
+    let py = y + i * 52;
+    if (py > height - 80) break;
+    let isSel = selected.includes(i);
+    fill(isSel ? '#c8e6c9' : 255);
+    stroke(isSel ? '#2e7d32' : '#ddd'); strokeWeight(isSel ? 2 : 1);
+    rect(sx, py, w, 46, 8);
+    // emoji
+    noStroke();
+    textSize(20); textAlign(LEFT, CENTER);
+    text(p.emoji, sx + 10, py + 23);
+    // name
+    fill('#1b5e20');
+    textSize(13); textStyle(BOLD); textAlign(LEFT, CENTER);
+    text(p.name, sx + 40, py + 16);
+    // sci name
+    fill('#666');
+    textSize(10); textStyle(ITALIC);
+    text(p.sci, sx + 40, py + 34);
+    // height
+    textStyle(NORMAL);
+    fill('#888');
+    textAlign(RIGHT, CENTER);
+    text(`${p.h}" tall`, sx + w - 16, py + 16);
+    // bloom months
+    let months = ['J','F','M','A','M','J','J','A','S','O','N','D'];
+    let bx = sx + w - 160;
+    for (let m = 0; m < 12; m++) {
+      let inBloom = p.bloom.includes(m + 1);
+      fill(inBloom ? p.color : '#eee');
+      noStroke();
+      rect(bx + m * 11, py + 30, 9, 10, 2);
+    }
+    // checkbox
+    fill(isSel ? '#2e7d32' : '#eee');
+    stroke(isSel ? '#2e7d32' : '#bbb'); strokeWeight(2);
+    rect(sx + w - 36, py + 12, 22, 22, 4);
+    if (isSel) {
+      stroke(255); strokeWeight(2.5);
+      line(sx + w - 32, py + 23, sx + w - 27, py + 28);
+      line(sx + w - 27, py + 28, sx + w - 19, py + 18);
+    }
+  }
+  pop();
+}
+
+function drawStep3(sx, w) {
+  let y = 100;
+  push();
+  fill('#1b5e20'); noStroke();
+  textSize(16); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Step 3: Place Plants on Grid', sx, y);
+  y += 30;
+
+  gridCellSize = min(60, (w - 160) / gridCols);
+  let gridW = gridCols * gridCellSize;
+  let gridH = gridRows * gridCellSize;
+  let gx = sx;
+  let gy = y;
+
+  // Grid
+  for (let r = 0; r < gridRows; r++) {
+    for (let c = 0; c < gridCols; c++) {
+      let cx = gx + c * gridCellSize;
+      let cy = gy + r * gridCellSize;
+      fill(255, 255, 255, 180);
+      stroke('#c8e6c9'); strokeWeight(1);
+      rect(cx, cy, gridCellSize, gridCellSize);
+    }
+  }
+
+  // Placed plants
+  for (let gp of gridPlants) {
+    let p = recommended[selected[gp.plantIdx]];
+    let cx = gx + gp.gridX * gridCellSize;
+    let cy = gy + gp.gridY * gridCellSize;
+    fill(p.color + '40');
+    stroke(p.color); strokeWeight(2);
+    rect(cx + 2, cy + 2, gridCellSize - 4, gridCellSize - 4, 6);
+    noStroke();
+    textSize(min(20, gridCellSize * 0.4));
+    textAlign(CENTER, CENTER);
+    text(p.emoji, cx + gridCellSize / 2, cy + gridCellSize / 2 - 6);
+    fill('#333');
+    textSize(min(8, gridCellSize * 0.15));
+    textStyle(NORMAL);
+    text(p.name.split(' ')[0], cx + gridCellSize / 2, cy + gridCellSize / 2 + 12);
+  }
+
+  // Plant palette on right
+  let palX = gx + gridW + 20;
+  let palW = w - gridW - 20;
+  fill('#fff');
+  stroke('#2e7d32'); strokeWeight(1);
+  rect(palX, gy, palW, gridH, 8);
+  noStroke(); fill('#2e7d32');
+  textSize(11); textStyle(BOLD); textAlign(CENTER, TOP);
+  text('Your Plants', palX + palW / 2, gy + 6);
+
+  for (let i = 0; i < selected.length; i++) {
+    let p = recommended[selected[i]];
+    let py = gy + 24 + i * 36;
+    if (py + 30 > gy + gridH) break;
+    noStroke();
+    textSize(16); textAlign(LEFT, CENTER);
+    text(p.emoji, palX + 6, py + 14);
+    fill('#333');
+    textSize(9); textStyle(NORMAL); textAlign(LEFT, CENTER);
+    text(p.name.substring(0, 12), palX + 28, py + 14);
+  }
+
+  // dragging
+  if (draggingPlantIdx >= 0) {
+    let p = recommended[selected[draggingPlantIdx]];
+    push();
+    textSize(28); textAlign(CENTER, CENTER);
+    text(p.emoji, dragX, dragY);
+    pop();
+  }
+  pop();
+}
+
+function drawStep4(sx, w) {
+  let y = 100;
+  push();
+  fill('#1b5e20'); noStroke();
+  textSize(16); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Step 4: Garden Summary', sx, y);
+  y += 30;
+
+  // Species list
+  fill(255); stroke('#2e7d32'); strokeWeight(2);
+  rect(sx, y, w, min(200, selected.length * 22 + 30), 8);
+  noStroke(); fill('#2e7d32');
+  textSize(12); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Selected Species', sx + 12, y + 8);
+  for (let i = 0; i < selected.length; i++) {
+    let p = recommended[selected[i]];
+    fill('#333');
+    textSize(11); textStyle(NORMAL);
+    text(`${p.emoji} ${p.name} (${p.sci}) - ${p.h}" tall`, sx + 12, y + 28 + i * 18);
+  }
+  y += min(200, selected.length * 22 + 30) + 12;
+
+  // Bloom calendar
+  fill(255); stroke('#2e7d32'); strokeWeight(2);
+  let calH = selected.length * 18 + 40;
+  rect(sx, y, w, calH, 8);
+  noStroke(); fill('#2e7d32');
+  textSize(12); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Bloom Calendar', sx + 12, y + 8);
+  let months = ['Mar','Apr','May','Jun','Jul','Aug','Sep','Oct'];
+  let mStartX = sx + 140;
+  let mW = (w - 160) / 8;
+  for (let m = 0; m < 8; m++) {
+    fill('#666');
+    textSize(9); textAlign(CENTER, TOP); textStyle(BOLD);
+    text(months[m], mStartX + m * mW + mW / 2, y + 24);
+  }
+  for (let i = 0; i < selected.length; i++) {
+    let p = recommended[selected[i]];
+    let py = y + 38 + i * 18;
+    fill('#333');
+    textSize(9); textStyle(NORMAL); textAlign(LEFT, CENTER);
+    text(p.name, sx + 12, py + 6);
+    for (let m = 0; m < 8; m++) {
+      let month = m + 3; // March=3
+      let inBloom = p.bloom.includes(month);
+      fill(inBloom ? p.color : '#f5f5f5');
+      noStroke();
+      rect(mStartX + m * mW + 1, py, mW - 2, 14, 3);
+    }
+  }
+  y += calH + 12;
+
+  // Height profile
+  if (y + 140 < height - 80) {
+    fill(255); stroke('#2e7d32'); strokeWeight(2);
+    rect(sx, y, w, 130, 8);
+    noStroke(); fill('#2e7d32');
+    textSize(12); textStyle(BOLD); textAlign(LEFT, TOP);
+    text('Height Profile (inches)', sx + 12, y + 8);
+    let maxH = 0;
+    for (let i of selected) maxH = max(maxH, recommended[i].h);
+    let barW = min(40, (w - 40) / selected.length - 4);
+    for (let i = 0; i < selected.length; i++) {
+      let p = recommended[selected[i]];
+      let bx = sx + 20 + i * (barW + 4);
+      let bh = (p.h / max(maxH, 1)) * 80;
+      fill(p.color);
+      rect(bx, y + 110 - bh, barW, bh, 3, 3, 0, 0);
+      fill('#333');
+      textSize(8); textAlign(CENTER, TOP); textStyle(NORMAL);
+      text(p.h + '"', bx + barW / 2, y + 112);
+      // rotated name would be complex, just show emoji
+      textSize(12);
+      text(p.emoji, bx + barW / 2, y + 24);
+    }
+    y += 142;
+  }
+
+  // Maintenance
+  if (y + 80 < height - 80) {
+    fill(255); stroke('#2e7d32'); strokeWeight(2);
+    let mh = selected.length * 16 + 30;
+    rect(sx, y, w, mh, 8);
+    noStroke(); fill('#2e7d32');
+    textSize(12); textStyle(BOLD); textAlign(LEFT, TOP);
+    text('Maintenance Notes', sx + 12, y + 8);
+    for (let i = 0; i < selected.length; i++) {
+      let p = recommended[selected[i]];
+      fill('#555');
+      textSize(10); textStyle(NORMAL);
+      text(`${p.emoji} ${p.name}: ${p.maint}`, sx + 12, y + 28 + i * 16);
+    }
+  }
+  pop();
+}
+
+function drawNavButtons(sx, w) {
+  let y = height - 55;
+  let btnW = 130, btnH = 38;
+  push();
+  // Back
+  if (step > 1) {
+    let bx = sx;
+    let hover = mouseX > bx && mouseX < bx + btnW && mouseY > y && mouseY < y + btnH;
+    fill(hover ? '#2e7d32' : '#e8f5e9');
+    stroke('#2e7d32'); strokeWeight(2);
+    rect(bx, y, btnW, btnH, 8);
+    noStroke(); fill(hover ? 255 : '#2e7d32');
+    textSize(13); textStyle(BOLD); textAlign(CENTER, CENTER);
+    text('< Back', bx + btnW / 2, y + btnH / 2);
+  }
+  // Next / Export
+  if (step < 4) {
+    let nx = sx + w - btnW;
+    let canProceed = true;
+    if (step === 2) canProceed = selected.length >= 8 && selected.length <= 10;
+    let hover = mouseX > nx && mouseX < nx + btnW && mouseY > y && mouseY < y + btnH;
+    fill(!canProceed ? '#ccc' : (hover ? '#2e7d32' : '#e8f5e9'));
+    stroke(!canProceed ? '#ccc' : '#2e7d32'); strokeWeight(2);
+    rect(nx, y, btnW, btnH, 8);
+    noStroke(); fill(!canProceed ? '#999' : (hover ? 255 : '#2e7d32'));
+    textSize(13); textStyle(BOLD); textAlign(CENTER, CENTER);
+    text('Next >', nx + btnW / 2, y + btnH / 2);
+  } else {
+    let nx = sx + w - btnW;
+    let hover = mouseX > nx && mouseX < nx + btnW && mouseY > y && mouseY < y + btnH;
+    fill(hover ? '#2e7d32' : '#e8f5e9');
+    stroke('#2e7d32'); strokeWeight(2);
+    rect(nx, y, btnW, btnH, 8);
+    noStroke(); fill(hover ? 255 : '#2e7d32');
+    textSize(13); textStyle(BOLD); textAlign(CENTER, CENTER);
+    text('Export Summary', nx + btnW / 2, y + btnH / 2);
+  }
+  pop();
+}
+
+function drawExportOverlay(sx, w) {
+  push();
+  fill(0, 0, 0, 120);
+  rect(0, 0, width, height);
+  let ox = (width - min(w, 600)) / 2;
+  let oy = 60;
+  let ow = min(w, 600);
+  let oh = height - 120;
+  fill(255);
+  stroke('#2e7d32'); strokeWeight(3);
+  rect(ox, oy, ow, oh, 12);
+  // close btn
+  fill('#c62828'); noStroke();
+  ellipse(ox + ow - 20, oy + 20, 28, 28);
+  fill(255); textSize(16); textStyle(BOLD); textAlign(CENTER, CENTER);
+  text('X', ox + ow - 20, oy + 19);
+  // title
+  fill('#2e7d32'); noStroke();
+  textSize(16); textStyle(BOLD); textAlign(LEFT, TOP);
+  text('Garden Plan Export', ox + 20, oy + 16);
+  // text content
+  fill('#333');
+  textSize(11); textStyle(NORMAL); textAlign(LEFT, TOP);
+  textWrap(WORD);
+  text(exportText, ox + 20, oy + 44, ow - 40);
+  pop();
+}
+
+function generateRecommendations() {
+  recommended = [];
+  let scored = allPlants.map((p, idx) => {
+    let score = 0;
+    if (p.sun === siteConditions.sun) score += 3;
+    else if (siteConditions.sun === 'partial') score += 1;
+    if (p.moisture === siteConditions.moisture) score += 3;
+    if (p.soil === siteConditions.soil || p.soil === 'any') score += 2;
+    if (p.zone.includes(siteConditions.zone)) score += 2;
+    return { plant: p, score, idx };
+  });
+  scored.sort((a, b) => b.score - a.score);
+  recommended = scored.slice(0, 15).map(s => s.plant);
+  selected = [];
+  gridPlants = [];
+}
+
+function generateExportText() {
+  let lines = [];
+  lines.push('=== NATIVE GARDEN DESIGN PLAN ===');
+  lines.push('');
+  lines.push(`Site: ${siteConditions.sun} sun, ${siteConditions.moisture} moisture, ${siteConditions.soil} soil, Zone ${siteConditions.zone}`);
+  lines.push('');
+  lines.push('SELECTED SPECIES:');
+  for (let i of selected) {
+    let p = recommended[i];
+    lines.push(`  - ${p.name} (${p.sci}), ${p.h}" tall`);
+  }
+  lines.push('');
+  lines.push('BLOOM SCHEDULE:');
+  let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  for (let m = 1; m <= 12; m++) {
+    let blooming = [];
+    for (let i of selected) {
+      if (recommended[i].bloom.includes(m)) blooming.push(recommended[i].name);
+    }
+    if (blooming.length > 0) lines.push(`  ${months[m-1]}: ${blooming.join(', ')}`);
+  }
+  lines.push('');
+  lines.push('MAINTENANCE NOTES:');
+  for (let i of selected) {
+    let p = recommended[i];
+    lines.push(`  ${p.name}: ${p.maint}`);
+  }
+  lines.push('');
+  lines.push(`Grid placements: ${gridPlants.length} plants placed`);
+  exportText = lines.join('\n');
+}
+
+function mousePressed() {
+  let w = min(width - 40, 720);
+  let sx = (width - w) / 2;
+
+  // Export overlay close
+  if (showExport) {
+    let ow = min(w, 600);
+    let ox = (width - ow) / 2;
+    if (dist(mouseX, mouseY, ox + ow - 20, 80) < 16) {
+      showExport = false;
+      return;
+    }
+    return;
+  }
+
+  // Nav buttons
+  let navY = height - 55;
+  let btnW = 130, btnH = 38;
+  if (mouseY > navY && mouseY < navY + btnH) {
+    // Back
+    if (step > 1 && mouseX > sx && mouseX < sx + btnW) {
+      step--;
+      return;
+    }
+    // Next
+    let nx = sx + w - btnW;
+    if (mouseX > nx && mouseX < nx + btnW) {
+      if (step === 1) {
+        generateRecommendations();
+        step = 2;
+      } else if (step === 2 && selected.length >= 8 && selected.length <= 10) {
+        step = 3;
+      } else if (step === 3) {
+        step = 4;
+      } else if (step === 4) {
+        generateExportText();
+        showExport = true;
+      }
+      return;
+    }
+  }
+
+  // Step-specific interactions
+  if (step === 1) handleStep1Click(sx);
+  else if (step === 2) handleStep2Click(sx, w);
+  else if (step === 3) handleStep3Press(sx, w);
+}
+
+function handleStep1Click(sx) {
+  let y = 130;
+  for (let i = 0; i < dropdowns.length; i++) {
+    let dd = dropdowns[i];
+    let dy = y + i * 70;
+
+    // Check if clicking on open dropdown option
+    if (dd.open) {
+      for (let j = 0; j < dd.options.length; j++) {
+        let oy = dy + 56 + j * 32;
+        if (mouseX > sx && mouseX < sx + 220 && mouseY > oy && mouseY < oy + 32) {
+          siteConditions[dd.key] = dd.options[j];
+          dd.open = false;
+          return;
+        }
+      }
+    }
+
+    // Toggle dropdown
+    if (mouseX > sx && mouseX < sx + 220 && mouseY > dy + 20 && mouseY < dy + 54) {
+      // close all others
+      for (let d of dropdowns) d.open = false;
+      dd.open = !dd.open;
+      return;
+    }
+  }
+  // close all if clicking elsewhere
+  for (let d of dropdowns) d.open = false;
+}
+
+function handleStep2Click(sx, w) {
+  let y = 130;
+  for (let i = 0; i < recommended.length; i++) {
+    let py = y + i * 52;
+    if (py > height - 80) break;
+    if (mouseX > sx && mouseX < sx + w && mouseY > py && mouseY < py + 46) {
+      let idx = selected.indexOf(i);
+      if (idx >= 0) {
+        selected.splice(idx, 1);
+      } else if (selected.length < 10) {
+        selected.push(i);
+      }
+      return;
+    }
+  }
+}
+
+function handleStep3Press(sx, w) {
+  gridCellSize = min(60, (w - 160) / gridCols);
+  let gridW = gridCols * gridCellSize;
+  let gx = sx;
+  let gy = 130;
+  let palX = gx + gridW + 20;
+  let palW = w - gridW - 20;
+
+  // Check palette
+  for (let i = 0; i < selected.length; i++) {
+    let py = gy + 24 + i * 36;
+    if (mouseX > palX && mouseX < palX + palW && mouseY > py && mouseY < py + 30) {
+      draggingPlantIdx = i;
+      draggingFromPalette = true;
+      dragX = mouseX;
+      dragY = mouseY;
+      return;
+    }
+  }
+
+  // Check grid - remove plant on click
+  for (let j = gridPlants.length - 1; j >= 0; j--) {
+    let gp = gridPlants[j];
+    let cx = gx + gp.gridX * gridCellSize;
+    let cy = gy + gp.gridY * gridCellSize;
+    if (mouseX > cx && mouseX < cx + gridCellSize && mouseY > cy && mouseY < cy + gridCellSize) {
+      gridPlants.splice(j, 1);
+      return;
+    }
+  }
+}
+
+function mouseDragged() {
+  if (step === 3 && draggingPlantIdx >= 0) {
+    dragX = mouseX;
+    dragY = mouseY;
+  }
+}
+
+function mouseReleased() {
+  if (step === 3 && draggingPlantIdx >= 0) {
+    let w = min(width - 40, 720);
+    let sx = (width - w) / 2;
+    gridCellSize = min(60, (w - 160) / gridCols);
+    let gx = sx;
+    let gy = 130;
+
+    let gc = floor((mouseX - gx) / gridCellSize);
+    let gr = floor((mouseY - gy) / gridCellSize);
+    if (gc >= 0 && gc < gridCols && gr >= 0 && gr < gridRows) {
+      // remove existing plant at this cell
+      gridPlants = gridPlants.filter(gp => !(gp.gridX === gc && gp.gridY === gr));
+      gridPlants.push({ plantIdx: draggingPlantIdx, gridX: gc, gridY: gr });
+    }
+    draggingPlantIdx = -1;
+    draggingFromPalette = false;
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, max(700, windowHeight));
+  gridCellSize = min(60, (min(width - 40, 700) - 160) / gridCols);
+}
+</script>
+</body>
+</html>

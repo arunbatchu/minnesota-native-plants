@@ -1,0 +1,11 @@
+{
+  "sim_id": "garden-layout-planner",
+  "diagram_name": "Garden Layout Planner MicroSim",
+  "chapter_number": 10,
+  "chapter_title": "Garden Design Native Plants",
+  "chapter_dir": "10-garden-design-native-plants",
+  "learning_objective": "Students will practice arranging native plants in a garden bed by height, bloom time, and spacing, learning to create naturalistic drifts rather than rigid rows.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Garden Layout Planner MicroSim</summary>\nType: microsim\n\n**Learning Objective:** Students will practice arranging native plants in a garden bed by height, bloom time, and spacing, learning to create naturalistic drifts rather than rigid rows.\n\n**Controls:**\n\n- A plant palette sidebar with draggable native plant icons organized by height (short, medium, tall)\n- Grid size selector (8x8, 10x10, 12x12 feet)\n- Toggle to show/hide spacing circles around placed plants\n- Toggle to show/hide bloom-time color coding (spring, summer, fall)\n- Clear grid button to start over\n- A \"Check Layout\" button for feedback\n\n**Visual Elements:**\n\n- A top-down garden grid where each cell represents one square foot\n- Plant icons showing approximate mature spread when placed\n- Spacing circles that turn red when plants are placed too close together\n- A seasonal bloom bar at the bottom summarizing which months have active blooms based on placed plants\n- A height profile view along one edge showing the front-to-back height gradient\n\n**Behavior:**\n\n- Dragging a plant onto the grid places it and shows its spacing circle\n- Overlapping spacing circles change color to warn of crowding\n- The bloom bar updates in real time as plants are added or removed\n- The \"Check Layout\" button provides feedback on height arrangement, bloom coverage, and drift grouping\n- Placing fewer than three of the same species triggers a suggestion to plant in drifts\n\n**Instructional Rationale:**\nHands-on arrangement builds spatial reasoning about plant spacing, height layering, and seasonal coverage. Immediate visual feedback on spacing and bloom gaps reinforces design principles without requiring an actual garden to experiment with."
+}

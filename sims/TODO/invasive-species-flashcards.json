@@ -1,0 +1,11 @@
+{
+  "sim_id": "invasive-species-flashcards",
+  "diagram_name": "Invasive Species Flashcards MicroSim",
+  "chapter_number": 8,
+  "chapter_title": "Invasive Species Id",
+  "chapter_dir": "08-invasive-species-id",
+  "learning_objective": "Students will be able to recognize Minnesota's most common invasive species by their key identifying features and understand why each is harmful.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-07",
+  "specification": "<summary>Invasive Species Flashcards MicroSim</summary>\nType: microsim\n\n**Learning Objective:** Students will be able to recognize Minnesota's most common invasive species by their key identifying features and understand why each is harmful.\n\n**Controls:**\n\n- Flip button to reveal the identification features on the back of each card\n- Next/Previous buttons to cycle through species cards\n- Shuffle button to randomize card order\n- Category filter to focus on woody plants, herbaceous plants, or insects\n\n**Visual Elements:**\n\n- Front of card shows the species common name and a representative illustration\n- Back of card lists key ID features, look-alike species, habitat, and why it is harmful\n- Progress indicator showing how many cards have been reviewed\n- A score tracker for self-assessment (know it / still learning)\n\n**Behavior:**\n\n- Clicking the card or pressing the flip button reveals identification details\n- Cards marked \"still learning\" appear more frequently when shuffled\n- Completing all cards displays a summary of which species need more review\n\n**Instructional Rationale:**\nSpaced repetition through flashcards builds rapid recall of invasive species features, which is essential for field identification where quick recognition prevents invasives from going unnoticed."
+}
