@@ -594,3 +594,5 @@ Before starting this chapter, you should have completed [Chapter 10: Garden Desi
 ## What's Next
 
 In Chapter 12, we'll scale up from garden-level plantings to landscape-level work, exploring the science and practice of ecological restoration — repairing damaged ecosystems and rebuilding native plant communities across larger sites.
+
+[See Annotated References](./references.md)

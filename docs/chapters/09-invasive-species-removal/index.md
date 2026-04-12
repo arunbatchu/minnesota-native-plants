@@ -562,3 +562,5 @@ Before reading this chapter, you should have completed [Chapter 8: Invasive Spec
 ## What's Next
 
 In Chapter 10, we'll shift from fighting invasives to designing with natives. You'll learn how to plan and design gardens, landscapes, and restoration projects using Minnesota native plants — putting the ecological knowledge from this chapter into beautiful, practical action.
+
+[See Annotated References](./references.md)

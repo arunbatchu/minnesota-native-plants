@@ -467,3 +467,5 @@ This chapter builds on concepts introduced in Chapters 1 through 5:
 ## What's Next
 
 In Chapter 8, we'll put your identification skills to work on one of the most pressing challenges in Minnesota land management — identifying invasive species in the field so you can take action before they take over.
+
+[See Annotated References](./references.md)

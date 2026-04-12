@@ -400,3 +400,5 @@ A solid understanding of Minnesota's native plant communities (Chapters 1-5) wil
 ## What's Next
 
 In Chapter 14, we explore Minnesota-specific resources for native plant enthusiasts — including nurseries, organizations, online tools, and field guides that can support your learning and stewardship efforts.
+
+[See Annotated References](./references.md)

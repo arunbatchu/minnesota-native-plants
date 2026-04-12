@@ -650,3 +650,5 @@ You have reached the end of the Minnesota Native Plants course. Whether you arri
 But knowledge only matters when you use it. The prairie that once stretched across a third of Minnesota did not disappear overnight, and it will not return overnight. It comes back one garden at a time, one pollinator corridor at a time, one buckthorn removal at a time — through the work of people like you.
 
 Go plant something native.
+
+[See Annotated References](./references.md)

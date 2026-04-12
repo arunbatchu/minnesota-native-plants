@@ -570,3 +570,5 @@ Before reading this chapter, you should be familiar with the foundational concep
 ## What's Next
 
 In Chapter 5, we'll move from the forest to the water's edge, exploring Minnesota's wetland and shoreline plants — the native species that thrive in marshes, bogs, lakeshores, and stream corridors.
+
+[See Annotated References](./references.md)

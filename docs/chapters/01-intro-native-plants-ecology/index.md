@@ -296,3 +296,5 @@ This chapter assumes only the prerequisites listed in the [course description](.
 ## What's Next
 
 In Chapter 2, we'll zoom in on Minnesota's geography — its ecoregions, hardiness zones, and soil types — so you can understand which native plants thrive where.
+
+[See Annotated References](./references.md)

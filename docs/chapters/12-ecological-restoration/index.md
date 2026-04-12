@@ -668,3 +668,5 @@ Before studying this chapter, you should be familiar with concepts from:
 ## What's Next
 
 In **Chapter 13: Cultural and Indigenous Uses**, you will explore the deep relationships between Minnesota's native plants and the Indigenous peoples who have stewarded them for thousands of years. You will learn how traditional ecological knowledge informs modern restoration practice and how cultural connections to plants enrich our understanding of the landscape.
+
+[See Annotated References](./references.md)

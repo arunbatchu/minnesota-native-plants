@@ -3,7 +3,7 @@
 This page shows the implementation status of features in this intelligent textbook.
 
 **Book:** Minnesota Native Plants
-**Scan Date:** 2026-04-09
+**Scan Date:** 2026-04-12
 
 ## Content Statistics
 
@@ -51,11 +51,11 @@ This page shows the implementation status of features in this intelligent textbo
 | MathJax | :white_check_mark: | `pymdownx.arithmatex` + MathJax CDN |
 | Footnotes | :white_check_mark: | `footnotes` extension |
 | MD in HTML | :white_check_mark: | Required for mascot admonitions |
-| GLightbox | :x: | Image zoom on click — not installed |
-| KaTeX | :x: | Using MathJax instead |
+| GLightbox | :white_check_mark: | Image zoom on click — `mkdocs-glightbox` plugin |
+| Emoji | :white_check_mark: | `pymdownx.emoji` with Material twemoji |
+| KaTeX | :x: | Using MathJax instead — not needed |
 | Tabbed content | :x: | Not needed currently |
 | Task lists | :x: | Not needed currently |
-| Emoji | :x: | Not needed per style guide |
 
 ## Site-Wide Resources
 
@@ -89,15 +89,15 @@ This page shows the implementation status of features in this intelligent textbo
 | Concept list | :white_check_mark: | 289 concepts enumerated |
 | Quality metrics | :white_check_mark: | DAG validation, indegree analysis |
 | Taxonomy distribution | :white_check_mark: | All categories under 30% |
-| Book metrics report | :x: | Run book-metrics-generator skill |
-| Chapter metrics report | :x: | Run book-metrics-generator skill |
+| Book metrics report | :white_check_mark: | Book and chapter metrics generated |
+| Chapter metrics report | :white_check_mark: | Per-chapter word counts, sections, diagrams |
 
 ## Publishing Features
 
 | Feature | Status | Notes |
 |---------|--------|-------|
 | GitHub Pages deployment | :white_check_mark: | Live at arunbatchu.github.io |
-| Social media cards | :x: | Needs `pip install "mkdocs-material[imaging]"` |
+| Social media cards | :white_check_mark: | `mkdocs-material[imaging]` with social plugin |
 | Edit page button | :white_check_mark: | `content.action.edit` enabled |
 
 ## Content Generation
@@ -108,23 +108,24 @@ This page shows the implementation status of features in this intelligent textbo
 | Mascot images | :white_check_mark: | 7 poses, transparent backgrounds |
 | Mascot CSS admonitions | :white_check_mark: | 7 custom admonition types |
 | CLAUDE.md style guide | :white_check_mark: | Character guidelines + project conventions |
-| About page | :x: | Not yet created |
-| References per chapter | :x: | Run reference-generator skill |
-| Instructor's guide | :x: | Run book-installer instructor guide |
-| Custom 404 page | :x: | Run book-installer custom-404 |
+| About page | :white_check_mark: | Project overview with Bree introduction |
+| References per chapter | :white_check_mark: | 10 curated references per chapter (170 total) |
+| Instructor's guide | :white_check_mark: | Course structure, assessment strategies, audience guides |
+| Custom 404 page | :white_check_mark: | Friendly error page featuring Bree |
 
 ## Summary
 
-- **Implemented:** 42 features
-- **Not implemented:** 14 features
-- **Implementation rate:** 75%
+- **Implemented:** 50 features
+- **Not implemented:** 5 features (3 intentionally deferred, 2 planned)
+- **Implementation rate:** 91%
 
-## Recommended Next Steps
+## Remaining Items
 
-1. **References** — Run `reference-generator` skill to add curated references per chapter
-2. **About page** — Create docs/about.md with project background
-3. **Book metrics** — Run `book-metrics-generator` for detailed statistics
-4. **Social cards** — Install imaging dependencies for social media previews
-5. **GLightbox** — Add image zoom for plant photos
-6. **Celebration animations** — Interactive plant ID quizzes with confetti
-7. **Custom 404** — Friendly error page featuring Bree
+| Feature | Status | Notes |
+|---------|--------|-------|
+| KaTeX | Deferred | Using MathJax — no need for both |
+| Tabbed content | Deferred | Not needed for current content |
+| Task lists | Deferred | Not needed for current content |
+| Google Analytics | Needs config | Add Google Analytics property ID |
+| Celebration animations | Planned | Interactive plant ID quizzes with confetti |
+| Interactive infographic overlays | Planned | Hover/quiz infographics |

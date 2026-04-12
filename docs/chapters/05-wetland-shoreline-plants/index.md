@@ -523,3 +523,5 @@ This chapter builds on concepts introduced in earlier chapters:
 ## What's Next
 
 In Chapter 6, we'll explore the animals that depend on these plants — the pollinators, birds, and wildlife that make native plant communities come alive.
+
+[See Annotated References](./references.md)

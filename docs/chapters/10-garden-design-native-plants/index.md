@@ -565,3 +565,5 @@ This chapter builds on concepts from earlier chapters:
 ## What's Next
 
 In Chapter 11, we'll move from design to action — covering soil preparation, planting techniques, watering schedules, and the hands-on skills you need to install and establish your native garden successfully.
+
+[See Annotated References](./references.md)

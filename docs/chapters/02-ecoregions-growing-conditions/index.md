@@ -431,3 +431,5 @@ This chapter builds on the foundational concepts from [Chapter 1: Introduction t
 ## What's Next
 
 In Chapter 3, we'll dive into the plants of Minnesota's prairies and grasslands — the wildflowers, grasses, and forbs that make up one of the most beautiful and ecologically important plant communities on the continent.
+
+[See Annotated References](./references.md)

@@ -595,3 +595,5 @@ This chapter builds on concepts from:
 ## What's Next
 
 In Chapter 4, we'll move from the open prairie into the shade of Minnesota's forests, exploring the woodland wildflowers, understory shrubs, and canopy trees that make up the state's deciduous and coniferous forest ecosystems.
+
+[See Annotated References](./references.md)

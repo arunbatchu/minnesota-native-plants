@@ -605,3 +605,5 @@ This chapter builds on concepts from the following earlier chapters:
 ## What's Next
 
 In Chapter 7, we'll sharpen your plant identification skills with detailed techniques for recognizing native species by their leaves, flowers, seeds, and growth habits -- so you can find and name the pollinator plants you just learned about.
+
+[See Annotated References](./references.md)

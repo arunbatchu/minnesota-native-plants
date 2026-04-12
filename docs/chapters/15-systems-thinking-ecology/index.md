@@ -493,3 +493,5 @@ This chapter builds on concepts from Chapters 1 through 6. You should be familia
 ## What's Next
 
 In Chapter 16, we will apply our systems thinking skills to a different kind of challenge: evaluating information critically, recognizing misinformation about ecology and native plants, and developing the habits of mind that distinguish careful thinkers from casual ones.
+
+[See Annotated References](./references.md)

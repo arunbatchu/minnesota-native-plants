@@ -584,3 +584,5 @@ This chapter builds on the foundational knowledge from [Chapter 1: Introduction 
 ## What's Next
 
 In [Chapter 17: Capstone Projects](../17-capstone-projects/index.md), you will apply everything you have learned — including the critical thinking skills from this chapter — to real-world projects that bring together ecology, design, restoration, and community engagement.
+
+[See Annotated References](./references.md)

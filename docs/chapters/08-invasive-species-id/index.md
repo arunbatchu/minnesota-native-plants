@@ -541,3 +541,5 @@ Before reading this chapter, you should have completed:
 ## What's Next
 
 In Chapter 9, we will move from identifying invasive species to taking action against them — learning practical strategies for invasive species removal, habitat restoration, and long-term land management that supports native plant communities.
+
+[See Annotated References](./references.md)

@@ -598,3 +598,5 @@ This chapter assumes you have completed [Chapter 1: Introduction to Native Plant
 ## What's Next
 
 In Chapter 15, we'll step back and look at the big picture -- how systems thinking and ecological principles connect everything you've learned into a holistic understanding of Minnesota's native plant communities.
+
+[See Annotated References](./references.md)
