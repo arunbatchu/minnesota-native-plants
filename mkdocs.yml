@@ -1,5 +1,6 @@
 site_name: Minnesota Native Plants
 repo_url: https://github.com/arunbatchu/minnesota-native-plants
+edit_uri: edit/main/docs/
 site_url: https://arunbatchu.github.io/minnesota-native-plants/
 site_description: An interactive intelligent textbook about native plants in Minnesota with interactive simulations and a focus on systems thinking.
 site_author: Arun Batchu
