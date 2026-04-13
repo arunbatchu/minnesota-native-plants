@@ -23,6 +23,9 @@ Minnesota contains four major ecoregions:
 - **Coniferous (Boreal) Forest** — the northeastern corner and Boundary Waters area
 - **Prairie-Forest Border** — the transition zone where prairie and forest intermingle
 
+![EPA Level III Ecoregions of Minnesota](../../img/chapters/02-ecoregions/mn-ecoregion-map.png)
+*Map: EPA Level III Ecoregions of Minnesota. Source: U.S. Environmental Protection Agency (public domain).*
+
 The following diagram shows how Minnesota's ecoregions transition from west to east across the state, driven by increasing rainfall and changing fire frequency.
 
 ```mermaid
@@ -91,6 +94,9 @@ The Minnesota Department of Natural Resources (DNR) further divides these four b
 
 ## Tallgrass Prairie Region
 
+![Big Bluestem grass towering in a tallgrass prairie](../../img/chapters/02-ecoregions/tallgrass-prairie.jpg)
+*Big Bluestem (Andropogon gerardii), the signature grass of the tallgrass prairie, can reach 6 to 8 feet tall. Photo: Jennifer Briggs / USFWS (CC BY 2.0).*
+
 The **tallgrass prairie** once covered roughly one-third of Minnesota — about 18 million acres stretching across the western and southern parts of the state. Today, less than 2% of that original prairie remains, making it one of the most endangered ecosystems in North America.
 
 ### What Defines Tallgrass Prairie
@@ -119,6 +125,9 @@ You can experience remnant and restored tallgrass prairie at several locations a
 - **Schaefer Prairie** (The Nature Conservancy) near Glencoe
 
 ## Deciduous Forest Region
+
+![Hiking trail through deciduous forest at Nerstrand Big Woods State Park](../../img/chapters/02-ecoregions/deciduous-forest.jpg)
+*A hiking trail winds through the deciduous forest canopy at Nerstrand Big Woods State Park, one of the best remaining Big Woods remnants in Minnesota. Photo: Wikimedia Commons (CC BY-SA 2.0).*
 
 The **deciduous forest** region covers central and southeastern Minnesota. **Deciduous** means "falling off" — these are the hardwood trees that drop their leaves each autumn, painting the landscape in brilliant reds, oranges, and golds.
 
@@ -149,6 +158,9 @@ Deciduous forests have a rich understory of shrubs and wildflowers. Because sunl
 - **Frontenac State Park** along the Mississippi River near Red Wing
 
 ## Coniferous Forest Region
+
+![Boreal forest and lake in the Boundary Waters Canoe Area Wilderness](../../img/chapters/02-ecoregions/boreal-forest-bwca.jpg)
+*Boreal forest surrounds a lake in the Boundary Waters Canoe Area Wilderness, northeastern Minnesota. Photo: U.S. Forest Service (public domain).*
 
 The **coniferous forest** (also called the boreal forest) blankets northeastern Minnesota. **Coniferous** means "cone-bearing" — these are the evergreen trees that keep their needles year-round: spruces, pines, and firs.
 
@@ -230,6 +242,9 @@ Wetlands provide outsized ecological benefits:
 Minnesota has lost over 50% of its original wetland area since European settlement. Protecting and restoring wetlands is a critical conservation priority.
 
 ## USDA Hardiness Zones
+
+![USDA Plant Hardiness Zone Map for Minnesota](../../img/chapters/02-ecoregions/usda-hardiness-zones-mn.jpg)
+*USDA Plant Hardiness Zone Map for Minnesota, showing Zones 3a through 5a. Source: USDA Agricultural Research Service (public domain).*
 
 If you have ever bought a perennial plant at a garden center, you have probably seen a label that says something like "Hardy to Zone 4." What does that mean?
 
@@ -431,5 +446,13 @@ This chapter builds on the foundational concepts from [Chapter 1: Introduction t
 ## What's Next
 
 In Chapter 3, we'll dive into the plants of Minnesota's prairies and grasslands — the wildflowers, grasses, and forbs that make up one of the most beautiful and ecologically important plant communities on the continent.
+
+## Image Credits
+
+- Ecoregion map: U.S. Environmental Protection Agency, Level III Ecoregions of Minnesota (public domain)
+- Tallgrass prairie photo: Jennifer Briggs / USFWS Mountain-Prairie (CC BY 2.0)
+- Deciduous forest photo: Wikimedia Commons contributor (CC BY-SA 2.0)
+- Boreal forest photo: U.S. Forest Service (public domain)
+- USDA Hardiness Zone map: USDA Agricultural Research Service, 2023 Plant Hardiness Zone Map (public domain)
 
 [See Annotated References](./references.md)
