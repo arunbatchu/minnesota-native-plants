@@ -175,6 +175,10 @@ flowchart TD
 - **Aesthetic appeal** — Native gardens can and should be beautiful. Use color, texture, height, and form to create visual interest throughout the seasons.
 - **Low maintenance** — Design for the long term. A well-designed native garden requires less work each year as plants establish, not more.
 
+Use the interactive garden design planner below to experiment with plant placement, color combinations, and layout patterns for different garden styles.
+
+<iframe src="../../sims/garden-design-planner/main.html" width="100%" height="600px" scrolling="no"></iframe>
+
 ### Starting Small
 
 If you are new to native plant gardening, start with a single bed rather than converting your entire yard at once. A 10-by-10-foot pollinator garden or a small rain garden near a downspout is an excellent first project. You will learn what works on your site, build confidence, and have a demonstration area that inspires future expansion.
@@ -231,6 +235,10 @@ One of the most rewarding aspects of native garden design is planning for contin
 - Smooth Blue Aster (*Symphyotrichum laeve*)
 
 Aim for at least three species blooming in each season. This ensures that no matter when a pollinator visits your garden, it finds food.
+
+Use the interactive bloom calendar below to explore when Minnesota native plants flower and find species to fill gaps in your seasonal sequence.
+
+<iframe src="../../sims/bloom-calendar/main.html" width="100%" height="600px" scrolling="no"></iframe>
 
 ## Garden Layout Planning
 
@@ -349,6 +357,9 @@ Not every garden will include all five layers. A small prairie planting may only
 
 ## Rain Garden Design
 
+![A residential rain garden planted along a street](../../img/chapters/10-garden-design/rain-garden.jpg)
+*A residential rain garden captures stormwater runoff and filters it through native plants and deep root systems. Photo: Wikimedia Commons (CC0 public domain).*
+
 A rain garden is a shallow, planted depression designed to capture and absorb stormwater runoff from roofs, driveways, and lawns. Rain gardens are one of the most practical and impactful native garden projects a homeowner can build.
 
 ### How Rain Gardens Work
@@ -386,7 +397,14 @@ A rain garden has three moisture zones, each requiring different plants:
 - **Zone 2 (slopes)** — Moist but not saturated. Plant with Joe-Pye Weed, Swamp Milkweed, Black-Eyed Susan, and Switch Grass.
 - **Zone 3 (rim)** — Driest area, similar to surrounding landscape. Plant with Little Bluestem, Purple Coneflower, Wild Bergamot, and Prairie Dropseed.
 
+Try designing your own rain garden below — position plants across the three moisture zones and see how your design handles a storm event.
+
+<iframe src="../../sims/rain-garden-designer/main.html" width="100%" height="600px" scrolling="no"></iframe>
+
 ## Pollinator Garden Design
+
+![Native pollinator garden with purple coneflowers and prairie clover](../../img/chapters/10-garden-design/pollinator-garden.jpg)
+*A native pollinator garden at Horicon National Wildlife Refuge featuring Purple Coneflower, Prairie Clover, and Yellow Coneflower. Photo: U.S. Fish and Wildlife Service (public domain).*
 
 Pollinator gardens are designed specifically to support bees, butterflies, moths, and hummingbirds. Minnesota's native pollinators are declining, and backyard pollinator gardens are a meaningful way to help reverse that trend.
 
@@ -409,6 +427,9 @@ Pollinator gardens are designed specifically to support bees, butterflies, moths
 
 ## Shade Garden Design
 
+![Shade garden with hostas and a pavilion at the Dubuque Arboretum](../../img/chapters/10-garden-design/shade-garden.jpg)
+*A shade garden at the Dubuque Arboretum demonstrates how foliage texture and layered plantings create beauty under the canopy. Photo: Wikimedia Commons (CC BY-SA 4.0).*
+
 Many Minnesota yards have significant shade from mature trees and north-facing exposures. Shade does not mean you cannot garden with natives — it means you work with a different, equally beautiful plant palette.
 
 ### Understanding Shade Types
@@ -430,6 +451,9 @@ Many Minnesota yards have significant shade from mature trees and north-facing e
 In shade gardens, texture and foliage become more important than flower color. Combine the fine, feathery texture of ferns with the bold, broad leaves of Wild Ginger and the upright form of Solomon's Seal. Use light-colored flowers and variegated foliage to brighten dark corners.
 
 ## Prairie Garden Design
+
+![A native prairie plant garden with grasses and wildflowers](../../img/chapters/10-garden-design/native-prairie-garden.jpg)
+*A native prairie plant garden showcases the natural beauty of grasses and wildflowers growing together in naturalistic drifts. Photo: Wikimedia Commons (CC BY-SA 4.0).*
 
 Prairie gardens bring the drama and movement of Minnesota's vanishing grasslands into residential landscapes. A well-designed prairie garden is dynamic — swaying in the wind, changing color through the seasons, and alive with insects and birds.
 
@@ -565,5 +589,12 @@ This chapter builds on concepts from earlier chapters:
 ## What's Next
 
 In Chapter 11, we'll move from design to action — covering soil preparation, planting techniques, watering schedules, and the hands-on skills you need to install and establish your native garden successfully.
+
+## Image Credits
+
+- Pollinator garden: U.S. Fish and Wildlife Service, Horicon National Wildlife Refuge (public domain)
+- Rain garden: Wikimedia Commons contributor (CC0 public domain)
+- Shade garden: Wikimedia Commons contributor, Dubuque Arboretum (CC BY-SA 4.0)
+- Native prairie garden: Wikimedia Commons contributor (CC BY-SA 4.0)
 
 [See Annotated References](./references.md)
