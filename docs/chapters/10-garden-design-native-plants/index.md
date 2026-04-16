@@ -427,8 +427,8 @@ Pollinator gardens are designed specifically to support bees, butterflies, moths
 
 ## Shade Garden Design
 
-![Shade garden with hostas and a pavilion at the Dubuque Arboretum](../../img/chapters/10-garden-design/shade-garden.jpg)
-*A shade garden at the Dubuque Arboretum demonstrates how foliage texture and layered plantings create beauty under the canopy. Photo: Wikimedia Commons (CC BY-SA 4.0).*
+![Native ferns in a woodland shade garden at Eloise Butler Wildflower Garden, Minneapolis](../../img/chapters/10-garden-design/shade-garden-mn.jpg)
+*Native ferns thrive in the woodland shade garden at the Eloise Butler Wildflower Garden and Bird Sanctuary in Minneapolis. Photo: Wikimedia Commons (CC0 public domain).*
 
 Many Minnesota yards have significant shade from mature trees and north-facing exposures. Shade does not mean you cannot garden with natives — it means you work with a different, equally beautiful plant palette.
 
@@ -594,7 +594,7 @@ In Chapter 11, we'll move from design to action — covering soil preparation, p
 
 - Pollinator garden: U.S. Fish and Wildlife Service, Horicon National Wildlife Refuge (public domain)
 - Rain garden: Wikimedia Commons contributor (CC0 public domain)
-- Shade garden: Wikimedia Commons contributor, Dubuque Arboretum (CC BY-SA 4.0)
+- Shade garden ferns: Eloise Butler Wildflower Garden, Minneapolis (CC0 public domain)
 - Native prairie garden: Wikimedia Commons contributor (CC BY-SA 4.0)
 
 [See Annotated References](./references.md)
