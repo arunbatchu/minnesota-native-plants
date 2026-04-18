@@ -42,6 +42,24 @@
 [data-md-color-scheme="slate"] .md-sidebar--secondary {
   border-color: rgba(255, 255, 255, 0.08);
 }
+
+/* Collapse the right-sidebar Table of Contents by default, showing only
+   top-level section headings (H2). Nested headings (H3, H4) are revealed
+   only when the user is viewing that section (toc.follow adds --active to
+   the link whose heading is in view) or hovers over the section entry.
+   Uses :has() which is supported in all modern browsers. */
+@media screen and (min-width: 76.25em) {
+  /* Hide nested nav by default */
+  .md-sidebar--secondary .md-nav__item > .md-nav {
+    display: none;
+  }
+  /* Reveal when an active link is inside this item (user is in this section)
+     OR when the user hovers the item. */
+  .md-sidebar--secondary .md-nav__item:has(.md-nav__link--active) > .md-nav,
+  .md-sidebar--secondary .md-nav__item:hover > .md-nav {
+    display: block;
+  }
+}
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
     height: 50px;
     width: 50px;
