@@ -65,12 +65,12 @@ Warm-season grasses (also called C4 grasses) are the signature plants of the tal
 
 The major warm-season prairie grasses include Big Bluestem, Little Bluestem, Switchgrass, Indian Grass, and Prairie Dropseed. These are the species that give the tallgrass prairie its character — they are the tall, swaying grasses that dominate the summer and fall landscape.
 
-<div class="plant-gallery-grid" markdown>
-<a href="../../plants/big-bluestem.md" class="plant-gallery-card"><img src="../../plants/img/big-bluestem-1.jpg" alt="Big Bluestem"><div class="plant-gallery-caption">Big Bluestem<br><em>Andropogon gerardii</em></div></a>
-<a href="../../plants/little-bluestem.md" class="plant-gallery-card"><img src="../../plants/img/little-bluestem-1.jpg" alt="Little Bluestem"><div class="plant-gallery-caption">Little Bluestem<br><em>Schizachyrium scoparium</em></div></a>
-<a href="../../plants/switchgrass.md" class="plant-gallery-card"><img src="../../plants/img/switchgrass-1.jpg" alt="Switchgrass"><div class="plant-gallery-caption">Switchgrass<br><em>Panicum virgatum</em></div></a>
-<a href="../../plants/indian-grass.md" class="plant-gallery-card"><img src="../../plants/img/indian-grass-1.jpg" alt="Indian Grass"><div class="plant-gallery-caption">Indian Grass<br><em>Sorghastrum nutans</em></div></a>
-<a href="../../plants/prairie-dropseed.md" class="plant-gallery-card"><img src="../../plants/img/prairie-dropseed-1.jpg" alt="Prairie Dropseed"><div class="plant-gallery-caption">Prairie Dropseed<br><em>Sporobolus heterolepis</em></div></a>
+<div class="plant-gallery-grid">
+<a href="../../plants/big-bluestem/" class="plant-gallery-card"><img src="../../plants/img/big-bluestem-1.jpg" alt="Big Bluestem"><div class="plant-gallery-caption">Big Bluestem<br><em>Andropogon gerardii</em></div></a>
+<a href="../../plants/little-bluestem/" class="plant-gallery-card"><img src="../../plants/img/little-bluestem-1.jpg" alt="Little Bluestem"><div class="plant-gallery-caption">Little Bluestem<br><em>Schizachyrium scoparium</em></div></a>
+<a href="../../plants/switchgrass/" class="plant-gallery-card"><img src="../../plants/img/switchgrass-1.jpg" alt="Switchgrass"><div class="plant-gallery-caption">Switchgrass<br><em>Panicum virgatum</em></div></a>
+<a href="../../plants/indian-grass/" class="plant-gallery-card"><img src="../../plants/img/indian-grass-1.jpg" alt="Indian Grass"><div class="plant-gallery-caption">Indian Grass<br><em>Sorghastrum nutans</em></div></a>
+<a href="../../plants/prairie-dropseed/" class="plant-gallery-card"><img src="../../plants/img/prairie-dropseed-1.jpg" alt="Prairie Dropseed"><div class="plant-gallery-caption">Prairie Dropseed<br><em>Sporobolus heterolepis</em></div></a>
 </div>
 
 Warm-season grasses share several traits:
@@ -91,11 +91,11 @@ Native cool-season grasses found in Minnesota prairies include:
 - **June Grass** (*Koeleria macrantha*) — a compact bunchgrass common on dry prairies
 - **Porcupine Grass** (*Hesperostipa spartea*) — named for its long, twisted awns that resemble porcupine quills
 
-Cool-season grasses are valuable in prairie restorations because they establish quickly and provide ground cover while slower-growing warm-season grasses take hold. However, non-native cool-season grasses such as [Smooth Brome](../../plants/smooth-brome.md) (*Bromus inermis*) and [Kentucky Bluegrass](../../plants/kentucky-bluegrass.md) (*Poa pratensis*) are aggressive invaders of prairie remnants and restoration sites.
+Cool-season grasses are valuable in prairie restorations because they establish quickly and provide ground cover while slower-growing warm-season grasses take hold. However, non-native cool-season grasses such as [Smooth Brome](../../plants/smooth-brome/) (*Bromus inermis*) and [Kentucky Bluegrass](../../plants/kentucky-bluegrass/) (*Poa pratensis*) are aggressive invaders of prairie remnants and restoration sites.
 
 ### Big Bluestem
 
-[Big Bluestem](../../plants/big-bluestem.md) (*Andropogon gerardii*) is the undisputed king of the tallgrass prairie. This towering warm-season grass can reach heights of six to eight feet in a good year, and its roots may extend eight to ten feet below the surface. It is so closely associated with the tallgrass prairie that the ecosystem is sometimes called the "Big Bluestem prairie."
+[Big Bluestem](../../plants/big-bluestem/) (*Andropogon gerardii*) is the undisputed king of the tallgrass prairie. This towering warm-season grass can reach heights of six to eight feet in a good year, and its roots may extend eight to ten feet below the surface. It is so closely associated with the tallgrass prairie that the ecosystem is sometimes called the "Big Bluestem prairie."
 
 Big Bluestem gets its name from the bluish-purple color at the base of its stems in summer. Its most recognizable feature is the seed head, which typically splits into three finger-like branches — earning it the nickname "turkey foot."
 
@@ -111,7 +111,7 @@ Big Bluestem is a sod-forming grass, spreading by underground stems called rhizo
 
 ### Little Bluestem
 
-[Little Bluestem](../../plants/little-bluestem.md) (*Schizachyrium scoparium*) is the most widespread native grass in North America and one of the most versatile plants in the prairie. Despite its name, it is not simply a smaller version of Big Bluestem — it belongs to a different genus entirely.
+[Little Bluestem](../../plants/little-bluestem/) (*Schizachyrium scoparium*) is the most widespread native grass in North America and one of the most versatile plants in the prairie. Despite its name, it is not simply a smaller version of Big Bluestem — it belongs to a different genus entirely.
 
 Little Bluestem is a bunchgrass, growing in distinct clumps rather than spreading by rhizomes. It typically reaches two to four feet tall. In autumn, it turns a spectacular reddish-bronze color, and its fluffy white seed heads catch the light beautifully. This fall display has made it one of the most popular native grasses for home landscaping.
 
@@ -127,7 +127,7 @@ Little Bluestem grows in a wider range of conditions than Big Bluestem, tolerati
 
 ### Switchgrass
 
-[Switchgrass](../../plants/switchgrass.md) (*Panicum virgatum*) is a tall, robust warm-season grass that grows four to six feet tall in dense, upright clumps. It is common on moist prairies, along stream banks, and in low-lying areas where moisture collects.
+[Switchgrass](../../plants/switchgrass/) (*Panicum virgatum*) is a tall, robust warm-season grass that grows four to six feet tall in dense, upright clumps. It is common on moist prairies, along stream banks, and in low-lying areas where moisture collects.
 
 Switchgrass produces an open, airy seed head that spreads wide above the foliage, giving it an elegant, fountain-like appearance. Its seeds are an important food source for sparrows, juncos, and other seed-eating birds during fall and winter.
 
@@ -143,7 +143,7 @@ Switchgrass has received attention as a potential biofuel crop because of its hi
 
 ### Indian Grass
 
-[Indian Grass](../../plants/indian-grass.md) (*Sorghastrum nutans*) is one of the most beautiful grasses in the tallgrass prairie. It grows four to six feet tall with a graceful, arching habit, and its golden-bronze, plume-like seed heads are stunning in late summer and fall.
+[Indian Grass](../../plants/indian-grass/) (*Sorghastrum nutans*) is one of the most beautiful grasses in the tallgrass prairie. It grows four to six feet tall with a graceful, arching habit, and its golden-bronze, plume-like seed heads are stunning in late summer and fall.
 
 Indian Grass is a warm-season bunchgrass that often grows intermixed with Big Bluestem and Switchgrass. It is distinguished by its distinctive "rifle sight" ligule — a small, claw-like projection where the leaf blade meets the stem — which is the most reliable way to identify it when it is not in flower.
 
@@ -159,7 +159,7 @@ Indian Grass is an excellent choice for meadow plantings and naturalized areas. 
 
 ### Prairie Dropseed
 
-[Prairie Dropseed](../../plants/prairie-dropseed.md) (*Sporobolus heterolepis*) is a compact, fine-textured bunchgrass that occupies a special place in high-quality prairies. Unlike the tall, showy grasses described above, Prairie Dropseed grows just two to three feet tall in neat, rounded mounds of extremely fine, hair-like foliage.
+[Prairie Dropseed](../../plants/prairie-dropseed/) (*Sporobolus heterolepis*) is a compact, fine-textured bunchgrass that occupies a special place in high-quality prairies. Unlike the tall, showy grasses described above, Prairie Dropseed grows just two to three feet tall in neat, rounded mounds of extremely fine, hair-like foliage.
 
 What makes Prairie Dropseed remarkable is what you smell before what you see. When it blooms in late summer, its delicate, open seed heads release a distinctive fragrance that some describe as buttered popcorn or cilantro. This unusual trait makes it immediately identifiable on a late-summer prairie walk.
 
@@ -200,17 +200,17 @@ Prairie wildflowers have evolved remarkable adaptations:
 
 The wildflowers described below represent some of the most recognizable and ecologically important species in Minnesota's prairies.
 
-<div class="plant-gallery-grid" markdown>
-<a href="../../plants/purple-coneflower.md" class="plant-gallery-card"><img src="../../plants/img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
-<a href="../../plants/black-eyed-susan.md" class="plant-gallery-card"><img src="../../plants/img/black-eyed-susan-1.jpg" alt="Black-Eyed Susan"><div class="plant-gallery-caption">Black-Eyed Susan<br><em>Rudbeckia hirta</em></div></a>
-<a href="../../plants/wild-bergamot.md" class="plant-gallery-card"><img src="../../plants/img/wild-bergamot-1.jpg" alt="Wild Bergamot"><div class="plant-gallery-caption">Wild Bergamot<br><em>Monarda fistulosa</em></div></a>
-<a href="../../plants/blazing-star.md" class="plant-gallery-card"><img src="../../plants/img/blazing-star-1.jpg" alt="Blazing Star"><div class="plant-gallery-caption">Blazing Star<br><em>Liatris ligulistylis</em></div></a>
-<a href="../../plants/butterfly-milkweed.md" class="plant-gallery-card"><img src="../../plants/img/butterfly-milkweed-1.jpg" alt="Butterfly Milkweed"><div class="plant-gallery-caption">Butterfly Milkweed<br><em>Asclepias tuberosa</em></div></a>
+<div class="plant-gallery-grid">
+<a href="../../plants/purple-coneflower/" class="plant-gallery-card"><img src="../../plants/img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
+<a href="../../plants/black-eyed-susan/" class="plant-gallery-card"><img src="../../plants/img/black-eyed-susan-1.jpg" alt="Black-Eyed Susan"><div class="plant-gallery-caption">Black-Eyed Susan<br><em>Rudbeckia hirta</em></div></a>
+<a href="../../plants/wild-bergamot/" class="plant-gallery-card"><img src="../../plants/img/wild-bergamot-1.jpg" alt="Wild Bergamot"><div class="plant-gallery-caption">Wild Bergamot<br><em>Monarda fistulosa</em></div></a>
+<a href="../../plants/blazing-star/" class="plant-gallery-card"><img src="../../plants/img/blazing-star-1.jpg" alt="Blazing Star"><div class="plant-gallery-caption">Blazing Star<br><em>Liatris ligulistylis</em></div></a>
+<a href="../../plants/butterfly-milkweed/" class="plant-gallery-card"><img src="../../plants/img/butterfly-milkweed-1.jpg" alt="Butterfly Milkweed"><div class="plant-gallery-caption">Butterfly Milkweed<br><em>Asclepias tuberosa</em></div></a>
 </div>
 
 ### Purple Coneflower
 
-[Purple Coneflower](../../plants/purple-coneflower.md) (*Echinacea purpurea*) is one of the most widely recognized prairie wildflowers, thanks in part to its popularity in herbal medicine and home gardens. It produces large, daisy-like flowers with drooping pink-purple petals surrounding a spiny, dome-shaped central cone. The cone is actually made up of hundreds of tiny individual flowers (called florets), each of which produces a seed.
+[Purple Coneflower](../../plants/purple-coneflower/) (*Echinacea purpurea*) is one of the most widely recognized prairie wildflowers, thanks in part to its popularity in herbal medicine and home gardens. It produces large, daisy-like flowers with drooping pink-purple petals surrounding a spiny, dome-shaped central cone. The cone is actually made up of hundreds of tiny individual flowers (called florets), each of which produces a seed.
 
 Key characteristics:
 
@@ -220,11 +220,11 @@ Key characteristics:
 - **Soil preference**: Dry to mesic, well-drained soils
 - **Sun**: Full sun to light shade
 
-Minnesota is also home to the [Pale Purple Coneflower](../../plants/pale-purple-coneflower.md) (*Echinacea pallida*), which has narrower, more drooping petals, and the rare [Topeka Purple Coneflower](../../plants/topeka-purple-coneflower.md) (*Echinacea atrorubens*). All coneflowers are important pollinator plants, attracting bees, butterflies, and beneficial insects. Their seed heads persist through winter and provide food for goldfinches and other seed-eating birds.
+Minnesota is also home to the [Pale Purple Coneflower](../../plants/pale-purple-coneflower/) (*Echinacea pallida*), which has narrower, more drooping petals, and the rare [Topeka Purple Coneflower](../../plants/topeka-purple-coneflower/) (*Echinacea atrorubens*). All coneflowers are important pollinator plants, attracting bees, butterflies, and beneficial insects. Their seed heads persist through winter and provide food for goldfinches and other seed-eating birds.
 
 ### Black-Eyed Susan
 
-[Black-Eyed Susan](../../plants/black-eyed-susan.md) (*Rudbeckia hirta*) is perhaps the most cheerful wildflower on the prairie — its bright golden-yellow petals surrounding a dark brown-black central disk are unmistakable. It blooms abundantly from June through September and is one of the easiest native wildflowers to grow from seed.
+[Black-Eyed Susan](../../plants/black-eyed-susan/) (*Rudbeckia hirta*) is perhaps the most cheerful wildflower on the prairie — its bright golden-yellow petals surrounding a dark brown-black central disk are unmistakable. It blooms abundantly from June through September and is one of the easiest native wildflowers to grow from seed.
 
 Key characteristics:
 
@@ -238,7 +238,7 @@ Black-Eyed Susan is technically a short-lived perennial or biennial, meaning ind
 
 ### Wild Bergamot
 
-[Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*) is a member of the mint family that produces rounded clusters of lavender-pink, tubular flowers at the top of its stems. It blooms from July through September and is one of the most important pollinator plants in the prairie, attracting bumblebees, butterflies, hummingbird moths, and even hummingbirds.
+[Wild Bergamot](../../plants/wild-bergamot/) (*Monarda fistulosa*) is a member of the mint family that produces rounded clusters of lavender-pink, tubular flowers at the top of its stems. It blooms from July through September and is one of the most important pollinator plants in the prairie, attracting bumblebees, butterflies, hummingbird moths, and even hummingbirds.
 
 Key characteristics:
 
@@ -265,7 +265,7 @@ All Blazing Stars are exceptional pollinator plants. They bloom during monarch b
 
 ### Prairie Clover
 
-Prairie Clover includes two common species that add both beauty and ecological value to the tallgrass prairie. [White Prairie Clover](../../plants/white-prairie-clover.md) (*Dalea candida*) and [Purple Prairie Clover](../../plants/purple-prairie-clover.md) (*Dalea purpurea*) are legumes, meaning they partner with specialized soil bacteria to convert atmospheric nitrogen into a form that plants can use — a process called nitrogen fixation.
+Prairie Clover includes two common species that add both beauty and ecological value to the tallgrass prairie. [White Prairie Clover](../../plants/white-prairie-clover/) (*Dalea candida*) and [Purple Prairie Clover](../../plants/purple-prairie-clover/) (*Dalea purpurea*) are legumes, meaning they partner with specialized soil bacteria to convert atmospheric nitrogen into a form that plants can use — a process called nitrogen fixation.
 
 Key characteristics:
 
@@ -288,7 +288,7 @@ Common prairie Goldenrod species include:
 - **Canada Goldenrod** (*Solidago canadensis*) — gracefully arching plumes; common in meadows and roadsides
 - **Gray Goldenrod** (*Solidago nemoralis*) — compact, one-sided plumes; thrives in poor, dry soils
 
-A common misconception blames Goldenrod for hay fever. In reality, Goldenrod pollen is heavy and sticky, carried by insects rather than wind. The true culprit is [Common Ragweed](../../plants/common-ragweed.md) (*Ambrosia artemisiifolia*), which blooms at the same time and releases vast quantities of wind-borne pollen. Goldenrod is falsely accused because its bright yellow flowers are visible, while Ragweed's tiny green flowers go unnoticed.
+A common misconception blames Goldenrod for hay fever. In reality, Goldenrod pollen is heavy and sticky, carried by insects rather than wind. The true culprit is [Common Ragweed](../../plants/common-ragweed/) (*Ambrosia artemisiifolia*), which blooms at the same time and releases vast quantities of wind-borne pollen. Goldenrod is falsely accused because its bright yellow flowers are visible, while Ragweed's tiny green flowers go unnoticed.
 
 Goldenrods are among the most valuable late-season pollinator plants, supporting bees, butterflies, beetles, and beneficial wasps when few other flowers are available.
 

@@ -200,7 +200,7 @@ This boundary is not a sharp line. It is a broad zone where patches of prairie a
 
 The prairie-forest border contains a unique blend of communities:
 
-- **Oak savannas** — open woodlands with widely spaced [Bur Oak](../../plants/bur-oak.md) (*Quercus macrocarpa*) trees and a prairie grass understory
+- **Oak savannas** — open woodlands with widely spaced [Bur Oak](../../plants/bur-oak/) (*Quercus macrocarpa*) trees and a prairie grass understory
 - **Brushland** — thickets of shrubs and small trees along waterways
 - **Mixed grassland-woodland mosaics** — patches of prairie and forest side by side
 
@@ -227,8 +227,8 @@ Minnesota's wetlands fall into several broad types:
 - **Wet meadows** — Seasonally flooded grasslands. The soil is saturated in spring but may dry out by midsummer. Home to sedges, rushes, and moisture-loving wildflowers.
 - **Bogs** — Acidic wetlands with a thick mat of sphagnum moss. Bogs receive water mainly from rain, making them nutrient-poor. They support specialized plants like pitcher plants and Labrador tea.
 - **Fens** — Groundwater-fed wetlands that are less acidic than bogs. Fens support a high diversity of sedges, grasses, and rare orchids.
-- **Swamps** — Forested wetlands dominated by trees like [Black Ash](../../plants/black-ash.md) (*Fraxinus nigra*), [Tamarack](../../plants/tamarack.md) (*Larix laricina*), or [Northern White Cedar](../../plants/northern-white-cedar.md) (*Thuja occidentalis*).
-- **Floodplain forests** — Wooded areas along rivers that are periodically flooded, supporting [Silver Maple](../../plants/silver-maple.md) (*Acer saccharinum*) and cottonwoods.
+- **Swamps** — Forested wetlands dominated by trees like [Black Ash](../../plants/black-ash/) (*Fraxinus nigra*), [Tamarack](../../plants/tamarack/) (*Larix laricina*), or [Northern White Cedar](../../plants/northern-white-cedar/) (*Thuja occidentalis*).
+- **Floodplain forests** — Wooded areas along rivers that are periodically flooded, supporting [Silver Maple](../../plants/silver-maple/) (*Acer saccharinum*) and cottonwoods.
 
 ### Why Wetlands Matter
 
@@ -395,8 +395,8 @@ Minnesota has several major soil types that correspond to its ecoregions:
 
 Matching plants to your soil type is just as important as matching them to your hardiness zone:
 
-- **Sandy soils** suit drought-tolerant prairie species like Prairie Dropseed, [Butterfly Milkweed](../../plants/butterfly-milkweed.md) (*Asclepias tuberosa*), and [Pasque Flower](../../plants/pasque-flower.md) (*Anemone patens*)
-- **Clay soils** suit moisture-tolerant species like [Blue Flag Iris](../../plants/blue-flag-iris.md) (*Iris versicolor*), [Joe Pye Weed](../../plants/joe-pye-weed.md) (*Eutrochium maculatum*), and [Swamp Milkweed](../../plants/swamp-milkweed.md) (*Asclepias incarnata*)
+- **Sandy soils** suit drought-tolerant prairie species like Prairie Dropseed, [Butterfly Milkweed](../../plants/butterfly-milkweed/) (*Asclepias tuberosa*), and [Pasque Flower](../../plants/pasque-flower/) (*Anemone patens*)
+- **Clay soils** suit moisture-tolerant species like [Blue Flag Iris](../../plants/blue-flag-iris/) (*Iris versicolor*), [Joe Pye Weed](../../plants/joe-pye-weed/) (*Eutrochium maculatum*), and [Swamp Milkweed](../../plants/swamp-milkweed/) (*Asclepias incarnata*)
 - **Rich loam** supports the widest variety of native plants, from prairie wildflowers to woodland species
 - **Acidic, sandy soils** in the northeast support blueberries, ferns, and boreal wildflowers
 

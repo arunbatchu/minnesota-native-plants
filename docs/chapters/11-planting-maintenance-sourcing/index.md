@@ -67,10 +67,10 @@ Many Minnesota native plants can be started from seed indoors, giving you a head
 
 ### Species That Start Well Indoors
 
-- [Black-Eyed Susan](../../plants/black-eyed-susan.md) (*Rudbeckia hirta*) — germinates in 7 to 14 days, no stratification needed
-- [Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*) — germinates in 10 to 14 days with light
-- [Purple Coneflower](../../plants/purple-coneflower.md) (*Echinacea purpurea*) — benefits from 4 weeks of cold stratification before sowing
-- [Butterfly Milkweed](../../plants/butterfly-milkweed.md) (*Asclepias tuberosa*) — needs 4 to 6 weeks cold stratification
+- [Black-Eyed Susan](../../plants/black-eyed-susan/) (*Rudbeckia hirta*) — germinates in 7 to 14 days, no stratification needed
+- [Wild Bergamot](../../plants/wild-bergamot/) (*Monarda fistulosa*) — germinates in 10 to 14 days with light
+- [Purple Coneflower](../../plants/purple-coneflower/) (*Echinacea purpurea*) — benefits from 4 weeks of cold stratification before sowing
+- [Butterfly Milkweed](../../plants/butterfly-milkweed/) (*Asclepias tuberosa*) — needs 4 to 6 weeks cold stratification
 
 ## Plug Planting Techniques
 

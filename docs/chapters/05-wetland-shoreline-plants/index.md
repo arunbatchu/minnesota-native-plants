@@ -60,7 +60,7 @@ What makes bogs special is their chemistry. Because bogs receive most of their w
 Bog plants have evolved remarkable strategies for surviving in nutrient-poor, acidic conditions:
 
 - **Carnivorous plants** — Sundews (*Drosera* species) and pitcher plants (*Sarracenia purpurea*) supplement their nutrition by trapping and digesting insects
-- **Ericaceous shrubs** — [Leatherleaf](../../plants/leatherleaf.md) (*Chamaedaphne calyculata*), [Labrador Tea](../../plants/labrador-tea.md) (*Rhododendron groenlandicum*), and bog cranberry (*Vaccinium oxycoccos*) have tough, waxy leaves that conserve nutrients
+- **Ericaceous shrubs** — [Leatherleaf](../../plants/leatherleaf/) (*Chamaedaphne calyculata*), [Labrador Tea](../../plants/labrador-tea/) (*Rhododendron groenlandicum*), and bog cranberry (*Vaccinium oxycoccos*) have tough, waxy leaves that conserve nutrients
 - **Sphagnum moss** (*Sphagnum* species) — The bog builder itself, capable of holding 20 times its dry weight in water and actively acidifying its surroundings
 - **Orchids** — Several native orchid species, including the showy lady's slipper, grow in bog margins where conditions are less extreme
 - **Tamarack** (*Larix laricina*) — Minnesota's only native deciduous conifer, common in bog margins
@@ -84,7 +84,7 @@ Though they may look like ordinary grassland at first glance, sedge meadows are 
 - **Water storage** — Their dense root systems act like sponges, absorbing excess rainfall and releasing it slowly
 - **Transition zones** — They buffer deeper wetlands from upland runoff, filtering sediment and nutrients before they reach open water
 
-Common sedge meadow plants include [Tussock Sedge](../../plants/tussock-sedge.md) (*Carex stricta*), which forms distinctive raised mounds, [Blue Joint Grass](../../plants/blue-joint-grass.md) (*Calamagrostis canadensis*), Spotted Joe-Pye Weed (*Eutrochium maculatum*), and [Swamp Milkweed](../../plants/swamp-milkweed.md) (*Asclepias incarnata*).
+Common sedge meadow plants include [Tussock Sedge](../../plants/tussock-sedge/) (*Carex stricta*), which forms distinctive raised mounds, [Blue Joint Grass](../../plants/blue-joint-grass/) (*Calamagrostis canadensis*), Spotted Joe-Pye Weed (*Eutrochium maculatum*), and [Swamp Milkweed](../../plants/swamp-milkweed/) (*Asclepias incarnata*).
 
 ## Shoreline Stabilization
 
@@ -115,7 +115,7 @@ flowchart LR
 
 Plants used for shoreline work fall into zones based on their relationship to the water line:
 
-- **Submerged zone** — [Wild Celery](../../plants/wild-celery.md) (*Vallisneria americana*), pondweeds (*Potamogeton* species) — roots hold bottom sediments
+- **Submerged zone** — [Wild Celery](../../plants/wild-celery/) (*Vallisneria americana*), pondweeds (*Potamogeton* species) — roots hold bottom sediments
 - **Emergent zone** — Bulrushes, native cattails, Blue Flag Iris — roots knit shoreline soils together while stems absorb wave energy
 - **Transitional zone** — Sedges, Blue Joint Grass, native willows (*Salix* species) — stabilize the bank above typical water levels
 - **Upland buffer** — Native grasses and wildflowers — intercept runoff before it reaches the shore
@@ -134,12 +134,12 @@ When rain hits a roof or driveway, it flows into the rain garden instead of runn
 
 Rain garden plants must tolerate both temporary flooding and dry periods between storms. These species handle that cycle well:
 
-<div class="plant-gallery-grid" markdown>
-<a href="../../plants/joe-pye-weed.md" class="plant-gallery-card"><img src="../../plants/img/joe-pye-weed-1.jpg" alt="Joe Pye Weed"><div class="plant-gallery-caption">Joe Pye Weed<br><em>Eutrochium maculatum</em></div></a>
-<a href="../../plants/cardinal-flower.md" class="plant-gallery-card"><img src="../../plants/img/cardinal-flower-1.jpg" alt="Cardinal Flower"><div class="plant-gallery-caption">Cardinal Flower<br><em>Lobelia cardinalis</em></div></a>
-<a href="../../plants/blue-flag-iris.md" class="plant-gallery-card"><img src="../../plants/img/blue-flag-iris-1.jpg" alt="Blue Flag Iris"><div class="plant-gallery-caption">Blue Flag Iris<br><em>Iris versicolor</em></div></a>
-<a href="../../plants/swamp-milkweed.md" class="plant-gallery-card"><img src="../../plants/img/swamp-milkweed-1.jpg" alt="Swamp Milkweed"><div class="plant-gallery-caption">Swamp Milkweed<br><em>Asclepias incarnata</em></div></a>
-<a href="../../plants/great-blue-lobelia.md" class="plant-gallery-card"><img src="../../plants/img/great-blue-lobelia-1.jpg" alt="Great Blue Lobelia"><div class="plant-gallery-caption">Blue Lobelia<br><em>Lobelia siphilitica</em></div></a>
+<div class="plant-gallery-grid">
+<a href="../../plants/joe-pye-weed/" class="plant-gallery-card"><img src="../../plants/img/joe-pye-weed-1.jpg" alt="Joe Pye Weed"><div class="plant-gallery-caption">Joe Pye Weed<br><em>Eutrochium maculatum</em></div></a>
+<a href="../../plants/cardinal-flower/" class="plant-gallery-card"><img src="../../plants/img/cardinal-flower-1.jpg" alt="Cardinal Flower"><div class="plant-gallery-caption">Cardinal Flower<br><em>Lobelia cardinalis</em></div></a>
+<a href="../../plants/blue-flag-iris/" class="plant-gallery-card"><img src="../../plants/img/blue-flag-iris-1.jpg" alt="Blue Flag Iris"><div class="plant-gallery-caption">Blue Flag Iris<br><em>Iris versicolor</em></div></a>
+<a href="../../plants/swamp-milkweed/" class="plant-gallery-card"><img src="../../plants/img/swamp-milkweed-1.jpg" alt="Swamp Milkweed"><div class="plant-gallery-caption">Swamp Milkweed<br><em>Asclepias incarnata</em></div></a>
+<a href="../../plants/great-blue-lobelia/" class="plant-gallery-card"><img src="../../plants/img/great-blue-lobelia-1.jpg" alt="Great Blue Lobelia"><div class="plant-gallery-caption">Blue Lobelia<br><em>Lobelia siphilitica</em></div></a>
 </div>
 
 - **Joe-Pye Weed** (*Eutrochium maculatum*) — Tall, mauve-pink flower clusters loved by butterflies; tolerates wet feet
@@ -191,7 +191,7 @@ Rain garden design is a practical application of wetland plant ecology. By placi
 
 ## Blue Flag Iris
 
-[Blue Flag Iris](../../plants/blue-flag-iris.md) (*Iris versicolor*) is one of Minnesota's most beautiful native wetland wildflowers. Growing 2 to 3 feet tall, it produces striking blue-violet flowers with intricate yellow and white markings that guide pollinators to the nectar.
+[Blue Flag Iris](../../plants/blue-flag-iris/) (*Iris versicolor*) is one of Minnesota's most beautiful native wetland wildflowers. Growing 2 to 3 feet tall, it produces striking blue-violet flowers with intricate yellow and white markings that guide pollinators to the nectar.
 
 ### Identification and Habitat
 
@@ -213,7 +213,7 @@ Blue Flag Iris provides early-season nectar for bumblebees and other pollinators
 
 ## Cardinal Flower
 
-[Cardinal Flower](../../plants/cardinal-flower.md) (*Lobelia cardinalis*) may be the most eye-catching native wildflower found along Minnesota's streams and wetlands. Its spikes of brilliant scarlet-red flowers are unmistakable in late summer.
+[Cardinal Flower](../../plants/cardinal-flower/) (*Lobelia cardinalis*) may be the most eye-catching native wildflower found along Minnesota's streams and wetlands. Its spikes of brilliant scarlet-red flowers are unmistakable in late summer.
 
 ### Identification and Habitat
 
@@ -271,7 +271,7 @@ When present in balanced numbers, native Broad-leaved Cattail is a valuable wetl
 
 ## Wild Rice
 
-[Wild Rice](../../plants/wild-rice.md) (*Zizania palustris*), known as *manoomin* in the Ojibwe language, is Minnesota's state grain and one of its most culturally and ecologically significant plants. It is an annual aquatic grass that grows in shallow lakes, rivers, and streams across the northern half of the state.
+[Wild Rice](../../plants/wild-rice/) (*Zizania palustris*), known as *manoomin* in the Ojibwe language, is Minnesota's state grain and one of its most culturally and ecologically significant plants. It is an annual aquatic grass that grows in shallow lakes, rivers, and streams across the northern half of the state.
 
 ### Growth and Habitat
 
@@ -347,10 +347,10 @@ When rain falls on farm fields, parking lots, or lawns, it picks up sediment, fe
 
 Effective riparian buffers include plants from multiple layers:
 
-- **Grasses and sedges** — [Switchgrass](../../plants/switchgrass.md) (*Panicum virgatum*), [Big Bluestem](../../plants/big-bluestem.md) (*Andropogon gerardii*), various sedges (*Carex* species)
-- **Wildflowers** — Joe-Pye Weed, [Boneset](../../plants/boneset.md) (*Eupatorium perfoliatum*), [Great Blue Lobelia](../../plants/great-blue-lobelia.md) (*Lobelia siphilitica*), Swamp Milkweed
-- **Shrubs** — [Red-osier Dogwood](../../plants/red-osier-dogwood.md) (*Cornus sericea*), native willows (*Salix* species), [Elderberry](../../plants/elderberry.md) (*Sambucus canadensis*)
-- **Trees** — [Silver Maple](../../plants/silver-maple.md) (*Acer saccharinum*), [Swamp White Oak](../../plants/swamp-white-oak.md) (*Quercus bicolor*), [Tamarack](../../plants/tamarack.md) (*Larix laricina*)
+- **Grasses and sedges** — [Switchgrass](../../plants/switchgrass/) (*Panicum virgatum*), [Big Bluestem](../../plants/big-bluestem/) (*Andropogon gerardii*), various sedges (*Carex* species)
+- **Wildflowers** — Joe-Pye Weed, [Boneset](../../plants/boneset/) (*Eupatorium perfoliatum*), [Great Blue Lobelia](../../plants/great-blue-lobelia/) (*Lobelia siphilitica*), Swamp Milkweed
+- **Shrubs** — [Red-osier Dogwood](../../plants/red-osier-dogwood/) (*Cornus sericea*), native willows (*Salix* species), [Elderberry](../../plants/elderberry/) (*Sambucus canadensis*)
+- **Trees** — [Silver Maple](../../plants/silver-maple/) (*Acer saccharinum*), [Swamp White Oak](../../plants/swamp-white-oak/) (*Quercus bicolor*), [Tamarack](../../plants/tamarack/) (*Larix laricina*)
 
 A minimum 50-foot buffer captures the majority of sediment and nutrients. Wider buffers — 100 feet or more — provide additional wildlife habitat and greater pollutant removal.
 

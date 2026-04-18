@@ -54,7 +54,7 @@ Pollination is not charity -- it is a transaction. Plants offer nectar (sugar en
 
 ## Native Bee Species
 
-Minnesota is home to more than 400 species of native bees. Most people picture the [European Honeybee](../../plants/european-honeybee.md) (*Apis mellifera*) when they hear "bee," but honeybees are not native to North America. Our native bees are far more diverse and, flower for flower, are often more effective pollinators.
+Minnesota is home to more than 400 species of native bees. Most people picture the [European Honeybee](../../plants/european-honeybee/) (*Apis mellifera*) when they hear "bee," but honeybees are not native to North America. Our native bees are far more diverse and, flower for flower, are often more effective pollinators.
 
 ### Major Groups of Native Bees
 
@@ -66,7 +66,7 @@ Minnesota is home to more than 400 species of native bees. Most people picture t
 
 - **Leafcutter bees** (*Megachile* species) -- Solitary bees that cut small circles from leaves to line their nest cells. They are excellent pollinators of many wildflowers and garden plants.
 
-- **Mason bees** (*Osmia* species) -- Solitary bees that nest in hollow stems and woodpecker holes. [Blue Orchard Mason Bees](../../plants/blue-orchard-mason-bees.md) (*Osmia lignaria*) are exceptionally efficient pollinators.
+- **Mason bees** (*Osmia* species) -- Solitary bees that nest in hollow stems and woodpecker holes. [Blue Orchard Mason Bees](../../plants/blue-orchard-mason-bees/) (*Osmia lignaria*) are exceptionally efficient pollinators.
 
 - **Squash bees** (*Peponapis* and *Xenoglossa* species) -- Specialists that pollinate squash, pumpkin, and gourd flowers, often before dawn.
 
@@ -83,7 +83,7 @@ Most native bees are **solitary** -- each female builds her own nest, provisions
 
 ## Monarch Butterfly
 
-[The Monarch Butterfly](../../plants/the-monarch-butterfly.md) (*Danaus plexippus*) is one of the most recognizable insects in North America and an important symbol of pollinator conservation. With its bold orange-and-black wings spanning 3.5 to 4 inches, the monarch is hard to miss in a Minnesota prairie.
+[The Monarch Butterfly](../../plants/the-monarch-butterfly/) (*Danaus plexippus*) is one of the most recognizable insects in North America and an important symbol of pollinator conservation. With its bold orange-and-black wings spanning 3.5 to 4 inches, the monarch is hard to miss in a Minnesota prairie.
 
 Monarchs are milkweed specialists. Their caterpillars feed exclusively on plants in the milkweed family (Asclepiadaceae), and the toxins they absorb from milkweed make both caterpillars and adult butterflies distasteful to predators. The bright orange coloring is a warning signal -- it tells birds and other predators that this butterfly is not a good meal.
 
@@ -170,23 +170,23 @@ Even small amounts of pesticides can harm pollinators. Creating pesticide-free a
 
 Spring:
 
-- [Wild Columbine](../../plants/wild-columbine.md) (*Aquilegia canadensis*) -- hummingbirds and long-tongued bees
-- [Wild Lupine](../../plants/wild-lupine.md) (*Lupinus perennis*) -- bumblebees
-- [Virginia Bluebells](../../plants/virginia-bluebells.md) (*Mertensia virginica*) -- bumblebees and butterflies
+- [Wild Columbine](../../plants/wild-columbine/) (*Aquilegia canadensis*) -- hummingbirds and long-tongued bees
+- [Wild Lupine](../../plants/wild-lupine/) (*Lupinus perennis*) -- bumblebees
+- [Virginia Bluebells](../../plants/virginia-bluebells/) (*Mertensia virginica*) -- bumblebees and butterflies
 
 Summer:
 
-- [Purple Coneflower](../../plants/purple-coneflower.md) (*Echinacea purpurea*) -- butterflies, bees, and skippers
-- [Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*) -- bumblebees, hummingbirds, and butterflies
+- [Purple Coneflower](../../plants/purple-coneflower/) (*Echinacea purpurea*) -- butterflies, bees, and skippers
+- [Wild Bergamot](../../plants/wild-bergamot/) (*Monarda fistulosa*) -- bumblebees, hummingbirds, and butterflies
 - Joe-Pye Weed (*Eutrochium maculatum*) -- a magnet for butterflies and bees
-- [Common Milkweed](../../plants/common-milkweed.md) (*Asclepias syriaca*) -- heavily visited by many pollinator species
-- [Black-Eyed Susan](../../plants/black-eyed-susan.md) (*Rudbeckia hirta*) -- broad appeal across pollinator groups
+- [Common Milkweed](../../plants/common-milkweed/) (*Asclepias syriaca*) -- heavily visited by many pollinator species
+- [Black-Eyed Susan](../../plants/black-eyed-susan/) (*Rudbeckia hirta*) -- broad appeal across pollinator groups
 
 Fall:
 
-- [New England Aster](../../plants/new-england-aster.md) (*Symphyotrichum novae-angliae*) -- critical late-season nectar for migrating monarchs
-- [Stiff Goldenrod](../../plants/stiff-goldenrod.md) (*Solidago rigida*) -- bees and butterflies rely on goldenrod in autumn
-- [Showy Goldenrod](../../plants/showy-goldenrod.md) (*Solidago speciosa*) -- one of the last major nectar sources of the season
+- [New England Aster](../../plants/new-england-aster/) (*Symphyotrichum novae-angliae*) -- critical late-season nectar for migrating monarchs
+- [Stiff Goldenrod](../../plants/stiff-goldenrod/) (*Solidago rigida*) -- bees and butterflies rely on goldenrod in autumn
+- [Showy Goldenrod](../../plants/showy-goldenrod/) (*Solidago speciosa*) -- one of the last major nectar sources of the season
 
 ## Pollen Sources
 
@@ -227,7 +227,7 @@ Adult butterflies can sip nectar from many different flowers, but their caterpil
 - **Great Spangled Fritillary** -- violets (*Viola* species)
 - **Red Admiral** -- nettles (*Urtica* and *Boehmeria* species)
 - **Viceroy** -- willows (*Salix* species) and poplars
-- **Baltimore Checkerspot** -- [White Turtlehead](../../plants/white-turtlehead.md) (*Chelone glabra*)
+- **Baltimore Checkerspot** -- [White Turtlehead](../../plants/white-turtlehead/) (*Chelone glabra*)
 - **Karner Blue** -- Wild Lupine (*Lupinus perennis*) only
 
 Test your knowledge of pollinator-plant relationships by matching pollinator species to their preferred native host and nectar plants.
@@ -424,7 +424,7 @@ Tiny parasitoid wasps lay their eggs inside or on pest insects. The developing w
 - Mildly fragrant with a sweet or minty scent
 - Tubular or with a landing platform
 - Open during the day
-- Examples: [Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*), [Lead Plant](../../plants/lead-plant.md) (*Amorpha canescens*)
+- Examples: [Wild Bergamot](../../plants/wild-bergamot/) (*Monarda fistulosa*), [Lead Plant](../../plants/lead-plant/) (*Amorpha canescens*)
 
 **Butterfly-pollinated flowers** tend to be:
 
@@ -439,28 +439,28 @@ Tiny parasitoid wasps lay their eggs inside or on pest insects. The developing w
 - Red, orange, or deep pink
 - Odorless (hummingbirds have a poor sense of smell)
 - Tubular and pendant (hanging), so only hovering birds can reach the nectar
-- Examples: [Wild Columbine](../../plants/wild-columbine.md) (*Aquilegia canadensis*), [Cardinal Flower](../../plants/cardinal-flower.md) (*Lobelia cardinalis*)
+- Examples: [Wild Columbine](../../plants/wild-columbine/) (*Aquilegia canadensis*), [Cardinal Flower](../../plants/cardinal-flower/) (*Lobelia cardinalis*)
 
 **Moth-pollinated flowers** tend to be:
 
 - White or pale-colored (visible at night)
 - Strongly fragrant, especially in the evening
 - Open or deepen at dusk
-- Examples: [Evening Primrose](../../plants/evening-primrose.md) (*Oenothera biennis*), some native honeysuckles
+- Examples: [Evening Primrose](../../plants/evening-primrose/) (*Oenothera biennis*), some native honeysuckles
 
 **Beetle-pollinated flowers** tend to be:
 
 - White or dull-colored
 - Strongly scented, sometimes fruity or fermented
 - Open and bowl-shaped with easily accessible pollen
-- Examples: [Wild Rose](../../plants/wild-rose.md) (*Rosa blanda*), some magnolia relatives
+- Examples: [Wild Rose](../../plants/wild-rose/) (*Rosa blanda*), some magnolia relatives
 
 **Fly-pollinated flowers** tend to be:
 
 - Dull red, brown, or purple
 - Sometimes foul-smelling (mimicking rotting material)
 - Open and accessible
-- Examples: [Wild Ginger](../../plants/wild-ginger.md) (*Asarum canadense*), [Jack-in-the-Pulpit](../../plants/jack-in-the-pulpit.md) (*Arisaema triphyllum*)
+- Examples: [Wild Ginger](../../plants/wild-ginger/) (*Asarum canadense*), [Jack-in-the-Pulpit](../../plants/jack-in-the-pulpit/) (*Arisaema triphyllum*)
 
 ## Bloom Timing and Pollinators
 
@@ -478,43 +478,43 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 
 **Early Spring (April-May):**
 
-- [Pasque Flower](../../plants/pasque-flower.md) (*Anemone patens*) -- one of the very first prairie blooms
-- [Virginia Bluebells](../../plants/virginia-bluebells.md) (*Mertensia virginica*)
+- [Pasque Flower](../../plants/pasque-flower/) (*Anemone patens*) -- one of the very first prairie blooms
+- [Virginia Bluebells](../../plants/virginia-bluebells/) (*Mertensia virginica*)
 - Wild Columbine (*Aquilegia canadensis*)
-- [Golden Alexanders](../../plants/golden-alexanders.md) (*Zizia aurea*)
+- [Golden Alexanders](../../plants/golden-alexanders/) (*Zizia aurea*)
 
 **Late Spring (May-June):**
 
 - Wild Lupine (*Lupinus perennis*)
-- [Spiderwort](../../plants/spiderwort.md) (*Tradescantia ohiensis*)
-- [Cream Gentian](../../plants/cream-gentian.md) (*Gentiana alba*)
+- [Spiderwort](../../plants/spiderwort/) (*Tradescantia ohiensis*)
+- [Cream Gentian](../../plants/cream-gentian/) (*Gentiana alba*)
 
 **Early Summer (June-July):**
 
 - Wild Bergamot (*Monarda fistulosa*)
-- [Butterfly Milkweed](../../plants/butterfly-milkweed.md) (*Asclepias tuberosa*)
-- [Purple Coneflower](../../plants/purple-coneflower.md) (*Echinacea purpurea*)
-- [Black-Eyed Susan](../../plants/black-eyed-susan.md) (*Rudbeckia hirta*)
+- [Butterfly Milkweed](../../plants/butterfly-milkweed/) (*Asclepias tuberosa*)
+- [Purple Coneflower](../../plants/purple-coneflower/) (*Echinacea purpurea*)
+- [Black-Eyed Susan](../../plants/black-eyed-susan/) (*Rudbeckia hirta*)
 
 **Midsummer (July-August):**
 
 - Joe-Pye Weed (*Eutrochium maculatum*)
-- [Blazing Star](../../plants/blazing-star.md) (*Liatris ligulistylis*) -- a monarch magnet
-- [Cup Plant](../../plants/cup-plant.md) (*Silphium perfoliatum*)
+- [Blazing Star](../../plants/blazing-star/) (*Liatris ligulistylis*) -- a monarch magnet
+- [Cup Plant](../../plants/cup-plant/) (*Silphium perfoliatum*)
 - Common Milkweed (*Asclepias syriaca*)
 
 **Late Summer (August-September):**
 
-- [Ironweed](../../plants/ironweed.md) (*Vernonia fasciculata*)
-- [Cardinal Flower](../../plants/cardinal-flower.md) (*Lobelia cardinalis*)
-- [Great Blue Lobelia](../../plants/great-blue-lobelia.md) (*Lobelia siphilitica*)
+- [Ironweed](../../plants/ironweed/) (*Vernonia fasciculata*)
+- [Cardinal Flower](../../plants/cardinal-flower/) (*Lobelia cardinalis*)
+- [Great Blue Lobelia](../../plants/great-blue-lobelia/) (*Lobelia siphilitica*)
 
 **Fall (September-October):**
 
-- [New England Aster](../../plants/new-england-aster.md) (*Symphyotrichum novae-angliae*)
-- [Smooth Blue Aster](../../plants/smooth-blue-aster.md) (*Symphyotrichum laeve*)
-- [Stiff Goldenrod](../../plants/stiff-goldenrod.md) (*Solidago rigida*)
-- [Showy Goldenrod](../../plants/showy-goldenrod.md) (*Solidago speciosa*)
+- [New England Aster](../../plants/new-england-aster/) (*Symphyotrichum novae-angliae*)
+- [Smooth Blue Aster](../../plants/smooth-blue-aster/) (*Symphyotrichum laeve*)
+- [Stiff Goldenrod](../../plants/stiff-goldenrod/) (*Solidago rigida*)
+- [Showy Goldenrod](../../plants/showy-goldenrod/) (*Solidago speciosa*)
 
 Explore the interactive bloom calendar below to see which native plants provide nectar and pollen in each month of the growing season.
 

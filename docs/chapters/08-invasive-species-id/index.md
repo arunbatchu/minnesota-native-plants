@@ -67,14 +67,14 @@ Invasive species thrive in Minnesota because they arrive without the insects, di
 
 The rest of this chapter covers Minnesota's most problematic invasive plants in detail. Here they are side by side for quick visual identification:
 
-<div class="plant-gallery-grid" markdown>
-<a href="../../plants/common-buckthorn.md" class="plant-gallery-card"><img src="../../plants/img/common-buckthorn-1.jpg" alt="Common Buckthorn"><div class="plant-gallery-caption">Common Buckthorn<br><em>Rhamnus cathartica</em></div></a>
-<a href="../../plants/glossy-buckthorn.md" class="plant-gallery-card"><img src="../../plants/img/glossy-buckthorn-1.jpg" alt="Glossy Buckthorn"><div class="plant-gallery-caption">Glossy Buckthorn<br><em>Frangula alnus</em></div></a>
-<a href="../../plants/garlic-mustard.md" class="plant-gallery-card"><img src="../../plants/img/garlic-mustard-1.jpg" alt="Garlic Mustard"><div class="plant-gallery-caption">Garlic Mustard<br><em>Alliaria petiolata</em></div></a>
-<a href="../../plants/spotted-knapweed.md" class="plant-gallery-card"><img src="../../plants/img/spotted-knapweed-1.jpg" alt="Spotted Knapweed"><div class="plant-gallery-caption">Spotted Knapweed<br><em>Centaurea stoebe</em></div></a>
-<a href="../../plants/wild-parsnip.md" class="plant-gallery-card"><img src="../../plants/img/wild-parsnip-1.jpg" alt="Wild Parsnip"><div class="plant-gallery-caption">Wild Parsnip<br><em>Pastinaca sativa</em></div></a>
-<a href="../../plants/purple-loosestrife.md" class="plant-gallery-card"><img src="../../plants/img/purple-loosestrife-1.jpg" alt="Purple Loosestrife"><div class="plant-gallery-caption">Purple Loosestrife<br><em>Lythrum salicaria</em></div></a>
-<a href="../../plants/leafy-spurge.md" class="plant-gallery-card"><img src="../../plants/img/leafy-spurge-1.jpg" alt="Leafy Spurge"><div class="plant-gallery-caption">Leafy Spurge<br><em>Euphorbia esula</em></div></a>
+<div class="plant-gallery-grid">
+<a href="../../plants/common-buckthorn/" class="plant-gallery-card"><img src="../../plants/img/common-buckthorn-1.jpg" alt="Common Buckthorn"><div class="plant-gallery-caption">Common Buckthorn<br><em>Rhamnus cathartica</em></div></a>
+<a href="../../plants/glossy-buckthorn/" class="plant-gallery-card"><img src="../../plants/img/glossy-buckthorn-1.jpg" alt="Glossy Buckthorn"><div class="plant-gallery-caption">Glossy Buckthorn<br><em>Frangula alnus</em></div></a>
+<a href="../../plants/garlic-mustard/" class="plant-gallery-card"><img src="../../plants/img/garlic-mustard-1.jpg" alt="Garlic Mustard"><div class="plant-gallery-caption">Garlic Mustard<br><em>Alliaria petiolata</em></div></a>
+<a href="../../plants/spotted-knapweed/" class="plant-gallery-card"><img src="../../plants/img/spotted-knapweed-1.jpg" alt="Spotted Knapweed"><div class="plant-gallery-caption">Spotted Knapweed<br><em>Centaurea stoebe</em></div></a>
+<a href="../../plants/wild-parsnip/" class="plant-gallery-card"><img src="../../plants/img/wild-parsnip-1.jpg" alt="Wild Parsnip"><div class="plant-gallery-caption">Wild Parsnip<br><em>Pastinaca sativa</em></div></a>
+<a href="../../plants/purple-loosestrife/" class="plant-gallery-card"><img src="../../plants/img/purple-loosestrife-1.jpg" alt="Purple Loosestrife"><div class="plant-gallery-caption">Purple Loosestrife<br><em>Lythrum salicaria</em></div></a>
+<a href="../../plants/leafy-spurge/" class="plant-gallery-card"><img src="../../plants/img/leafy-spurge-1.jpg" alt="Leafy Spurge"><div class="plant-gallery-caption">Leafy Spurge<br><em>Euphorbia esula</em></div></a>
 </div>
 
 !!! mascot-warning "Learn before you pull"
@@ -83,7 +83,7 @@ The rest of this chapter covers Minnesota's most problematic invasive plants in 
 
 ## Common Buckthorn
 
-[Common Buckthorn](../../plants/common-buckthorn.md) (*Rhamnus cathartica*) is arguably Minnesota's most widespread and damaging woody invasive plant. Originally from Europe, it was introduced to North America in the 1800s as a hedgerow and ornamental plant. It has since invaded woodlands, prairies, and wetland edges across the entire state.
+[Common Buckthorn](../../plants/common-buckthorn/) (*Rhamnus cathartica*) is arguably Minnesota's most widespread and damaging woody invasive plant. Originally from Europe, it was introduced to North America in the 1800s as a hedgerow and ornamental plant. It has since invaded woodlands, prairies, and wetland edges across the entire state.
 
 ### How to Identify Common Buckthorn
 
@@ -104,7 +104,7 @@ Buckthorn shades out native wildflowers and tree seedlings, reducing woodland bi
 
 ## Glossy Buckthorn
 
-[Glossy Buckthorn](../../plants/glossy-buckthorn.md) (*Frangula alnus*), also called Alder Buckthorn, is closely related to Common Buckthorn but prefers wetter habitats. It is a serious threat to Minnesota's bogs, fens, sedge meadows, and wetland edges.
+[Glossy Buckthorn](../../plants/glossy-buckthorn/) (*Frangula alnus*), also called Alder Buckthorn, is closely related to Common Buckthorn but prefers wetter habitats. It is a serious threat to Minnesota's bogs, fens, sedge meadows, and wetland edges.
 
 ### How to Identify Glossy Buckthorn
 
@@ -133,7 +133,7 @@ Glossy Buckthorn can transform open wetlands into dense shrub thickets, eliminat
 
 ## Garlic Mustard
 
-[Garlic Mustard](../../plants/garlic-mustard.md) (*Alliaria petiolata*) is a biennial herb from Europe that invades woodland understories across Minnesota. It is one of the most damaging invasive plants in deciduous forests.
+[Garlic Mustard](../../plants/garlic-mustard/) (*Alliaria petiolata*) is a biennial herb from Europe that invades woodland understories across Minnesota. It is one of the most damaging invasive plants in deciduous forests.
 
 ### How to Identify Garlic Mustard
 
@@ -152,7 +152,7 @@ Garlic Mustard releases allelopathic compounds into the soil that disrupt the my
 
 ## Spotted Knapweed
 
-[Spotted Knapweed](../../plants/spotted-knapweed.md) (*Centaurea stoebe*) is a perennial plant from Europe that aggressively invades prairies, roadsides, and open areas. It is well-established across Minnesota.
+[Spotted Knapweed](../../plants/spotted-knapweed/) (*Centaurea stoebe*) is a perennial plant from Europe that aggressively invades prairies, roadsides, and open areas. It is well-established across Minnesota.
 
 ### How to Identify Spotted Knapweed
 
@@ -172,7 +172,7 @@ Spotted Knapweed releases allelopathic chemicals that suppress surrounding plant
 
 ## Wild Parsnip
 
-[Wild Parsnip](../../plants/wild-parsnip.md) (*Pastinaca sativa*) is a biennial plant from Europe that has spread aggressively along Minnesota roadsides, ditches, and prairies. It poses a direct threat to human health.
+[Wild Parsnip](../../plants/wild-parsnip/) (*Pastinaca sativa*) is a biennial plant from Europe that has spread aggressively along Minnesota roadsides, ditches, and prairies. It poses a direct threat to human health.
 
 ### How to Identify Wild Parsnip
 
@@ -200,7 +200,7 @@ Beyond the burn hazard to humans, Wild Parsnip displaces native roadside and pra
 
 ## Purple Loosestrife
 
-[Purple Loosestrife](../../plants/purple-loosestrife.md) (*Lythrum salicaria*) is a perennial wetland plant from Europe that has devastated Minnesota's marshes, lakeshores, and river corridors.
+[Purple Loosestrife](../../plants/purple-loosestrife/) (*Lythrum salicaria*) is a perennial wetland plant from Europe that has devastated Minnesota's marshes, lakeshores, and river corridors.
 
 ### How to Identify Purple Loosestrife
 
@@ -220,7 +220,7 @@ Purple Loosestrife forms dense, monotypic stands that replace native cattails, s
 
 ## Reed Canary Grass
 
-[Reed Canary Grass](../../plants/reed-canary-grass.md) (*Phalaris arundinacea*) is a perennial grass that dominates wetlands, floodplains, and shorelines across Minnesota. While a native form exists in North America, the aggressive invasive strains are of European origin and are the ones causing widespread ecological damage.
+[Reed Canary Grass](../../plants/reed-canary-grass/) (*Phalaris arundinacea*) is a perennial grass that dominates wetlands, floodplains, and shorelines across Minnesota. While a native form exists in North America, the aggressive invasive strains are of European origin and are the ones causing widespread ecological damage.
 
 ### How to Identify Reed Canary Grass
 
@@ -240,7 +240,7 @@ Reed Canary Grass is one of the most difficult invasive species to control. Its 
 
 ## Leafy Spurge
 
-[Leafy Spurge](../../plants/leafy-spurge.md) (*Euphorbia esula*) is a deep-rooted perennial from Eurasia that has invaded prairies and grasslands, particularly in western and northwestern Minnesota.
+[Leafy Spurge](../../plants/leafy-spurge/) (*Euphorbia esula*) is a deep-rooted perennial from Eurasia that has invaded prairies and grasslands, particularly in western and northwestern Minnesota.
 
 ### How to Identify Leafy Spurge
 
@@ -290,7 +290,7 @@ European Earthworms consume the duff layer that native plants need to germinate 
 
 ## Emerald Ash Borer
 
-[Emerald Ash Borer](../../plants/emerald-ash-borer.md) (*Agrilus planipennis*), commonly called EAB, is an invasive beetle from Asia that has devastated ash tree populations across Minnesota and the eastern United States. While it is an insect rather than a plant, EAB belongs in this chapter because of its catastrophic impact on Minnesota's native forests.
+[Emerald Ash Borer](../../plants/emerald-ash-borer/) (*Agrilus planipennis*), commonly called EAB, is an invasive beetle from Asia that has devastated ash tree populations across Minnesota and the eastern United States. While it is an insect rather than a plant, EAB belongs in this chapter because of its catastrophic impact on Minnesota's native forests.
 
 ### How to Identify Emerald Ash Borer
 
@@ -304,7 +304,7 @@ European Earthworms consume the duff layer that native plants need to germinate 
 
 ### Where to Look
 
-EAB attacks all native ash species — [Green Ash](../../plants/green-ash.md) (*Fraxinus pennsylvanica*), [White Ash](../../plants/white-ash.md) (*Fraxinus americana*), and [Black Ash](../../plants/black-ash.md) (*Fraxinus nigra*). It has been confirmed in dozens of Minnesota counties and continues to spread.
+EAB attacks all native ash species — [Green Ash](../../plants/green-ash/) (*Fraxinus pennsylvanica*), [White Ash](../../plants/white-ash/) (*Fraxinus americana*), and [Black Ash](../../plants/black-ash/) (*Fraxinus nigra*). It has been confirmed in dozens of Minnesota counties and continues to spread.
 
 ### Why It Is Harmful
 
@@ -312,7 +312,7 @@ EAB larvae feed under the bark of ash trees, destroying the tissues that transpo
 
 ## Japanese Barberry
 
-[Japanese Barberry](../../plants/japanese-barberry.md) (*Berberis thunbergii*) is an ornamental shrub from Japan that is still widely sold in nurseries despite its invasive potential. It is an increasing problem in Minnesota's woodlands and forest edges.
+[Japanese Barberry](../../plants/japanese-barberry/) (*Berberis thunbergii*) is an ornamental shrub from Japan that is still widely sold in nurseries despite its invasive potential. It is an increasing problem in Minnesota's woodlands and forest edges.
 
 ### How to Identify Japanese Barberry
 

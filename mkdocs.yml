@@ -129,9 +129,9 @@ theme:
   include_sidebar: true
   features:
     - content.code.copy
-    - navigation.expand
     - navigation.path
     - navigation.indexes
+    - navigation.tracking
     - toc.follow
     - navigation.top
     - navigation.footer

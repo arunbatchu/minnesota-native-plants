@@ -295,18 +295,18 @@ One of the most important reasons to build identification skills is to tell nati
 
 **Golden Alexanders vs. Wild Parsnip**
 
-- [Golden Alexanders](../../plants/golden-alexanders.md) (*Zizia aurea*) is a native prairie plant with yellow umbel flowers that blooms in May-June. Its stems are smooth, and its leaves are compound with toothed leaflets.
-- [Wild Parsnip](../../plants/wild-parsnip.md) (*Pastinaca sativa*) is an invasive that looks similar but blooms later (June-July), grows taller (up to 5 feet), and has grooved, angular stems. Its sap causes severe chemical burns on skin exposed to sunlight.
+- [Golden Alexanders](../../plants/golden-alexanders/) (*Zizia aurea*) is a native prairie plant with yellow umbel flowers that blooms in May-June. Its stems are smooth, and its leaves are compound with toothed leaflets.
+- [Wild Parsnip](../../plants/wild-parsnip/) (*Pastinaca sativa*) is an invasive that looks similar but blooms later (June-July), grows taller (up to 5 feet), and has grooved, angular stems. Its sap causes severe chemical burns on skin exposed to sunlight.
 
 **Native Grapes vs. Porcelain Berry**
 
-- [Wild Grape](../../plants/wild-grape.md) (*Vitis riparia*) is a native vine with simple, lobed leaves and dark purple-black fruit.
-- [Porcelain Berry](../../plants/porcelain-berry.md) (*Ampelopsis brevipedunculata*) is an invasive vine with deeply lobed leaves and colorful (blue, pink, purple) berries. It smothers native vegetation.
+- [Wild Grape](../../plants/wild-grape/) (*Vitis riparia*) is a native vine with simple, lobed leaves and dark purple-black fruit.
+- [Porcelain Berry](../../plants/porcelain-berry/) (*Ampelopsis brevipedunculata*) is an invasive vine with deeply lobed leaves and colorful (blue, pink, purple) berries. It smothers native vegetation.
 
 **Native Cattails vs. Narrow-Leaved Cattail**
 
-- [Broad-Leaved Cattail](../../plants/broad-leaved-cattail.md) (*Typha latifolia*) is native. Its flower spike has the male and female portions touching with no gap.
-- [Narrow-Leaved Cattail](../../plants/narrow-leaved-cattail.md) (*Typha angustifolia*) is invasive. Look for a clear gap between the male and female portions of the flower spike.
+- [Broad-Leaved Cattail](../../plants/broad-leaved-cattail/) (*Typha latifolia*) is native. Its flower spike has the male and female portions touching with no gap.
+- [Narrow-Leaved Cattail](../../plants/narrow-leaved-cattail/) (*Typha angustifolia*) is invasive. Look for a clear gap between the male and female portions of the flower spike.
 
 ### General Rules for Telling Them Apart
 
