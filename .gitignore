@@ -11,3 +11,6 @@ docs/learning-graph/taxonomy-config.json
 docs/learning-graph/color-config.json
 docs/learning-graph/learning-graph-schema.json
 /tmp/
+
+# Plant gallery: keep species.json committed for reproducibility, ignore the backup
+.plant-gallery/species-all.json

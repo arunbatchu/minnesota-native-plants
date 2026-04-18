@@ -1,0 +1,848 @@
+{
+  "Asclepias tuberosa": {
+    "slug": "butterfly-milkweed",
+    "common_name": "Butterfly Milkweed",
+    "scientific_name": "Asclepias tuberosa",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants",
+      "11-planting-maintenance-sourcing"
+    ],
+    "images": [
+      {
+        "file": "plants/img/butterfly-milkweed-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "H. Zell",
+        "description": "Asclepias tuberosa, Asclepiadaceae, Butterfly Weed, fruits. The roots are used in homeopathy as remedy: Asclepias tuberosa (Asc-t.)",
+        "source_title": "File:Asclepias tuberosa 004.JPG"
+      },
+      {
+        "file": "plants/img/butterfly-milkweed-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from central and eastern North America Common name: Butterfly Milkweed Photographed in the Camp Robinson Special Use Area Wildlife Management Area, Faulkner County, Arkansas",
+        "source_title": "File:Asclepias tuberosa interior.jpg"
+      }
+    ],
+    "wikipedia_title": "Asclepias tuberosa",
+    "summary": "Asclepias tuberosa, commonly known as butterfly weed, is a species of milkweed native to eastern and southwestern North America. It is commonly known as butterfly weed because of the butterflies that are attracted to the plant by its color and its copious production of nectar.",
+    "fetch_status": "ok"
+  },
+  "Echinacea purpurea": {
+    "slug": "purple-coneflower",
+    "common_name": "Purple Coneflower",
+    "scientific_name": "Echinacea purpurea",
+    "mentioned_in": [
+      "03-prairie-plants-grasslands",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants",
+      "11-planting-maintenance-sourcing"
+    ],
+    "images": [
+      {
+        "file": "plants/img/purple-coneflower-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Quercus2018",
+        "description": "Dried Echinacea Purpea Bloom",
+        "source_title": "File:Dried Echinacea Spines.jpg"
+      },
+      {
+        "file": "plants/img/purple-coneflower-2.jpg",
+        "license": "Public domain",
+        "credit": "Darrell.barrell at English Wikipedia",
+        "description": "author: darrell.barrell description: closeup of echinacea purpura flower",
+        "source_title": "File:Echinacea-purpura-flower-closeup.jpg"
+      }
+    ],
+    "wikipedia_title": "Echinacea purpurea",
+    "summary": "Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog coneflower, or Echinacea, is a North American species of flowering plant in the family Asteraceae. It is native to parts of eastern North America and present to some extent in the wild in much of the eastern, southeastern and midwestern United States, as well as in the Canadian Province of Ontario. It is most common in the Ozarks, the Mississippi Valley, and the Ohio Valley.",
+    "fetch_status": "ok"
+  },
+  "Eutrochium maculatum": {
+    "slug": "joe-pye-weed",
+    "common_name": "Joe Pye Weed",
+    "scientific_name": "Eutrochium maculatum",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "05-wetland-shoreline-plants",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/joe-pye-weed-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "TIFFANYLAUFER",
+        "description": "A monarch butterfly feeds on Joe Pye Weed, Eutrochium maculatum.",
+        "source_title": "File:Monarch&JoePyeWeed 02.jpg"
+      },
+      {
+        "file": "plants/img/joe-pye-weed-2.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Seney Natural History Association",
+        "description": "Bee on Joe-pye Weed - Natalie Luka",
+        "source_title": "File:Seney National Wildlife Refuge - Youth (9705383116).jpg"
+      }
+    ],
+    "wikipedia_title": "Eutrochium",
+    "summary": "Eutrochium is a North American genus of herbaceous flowering plants in the family Asteraceae. They are commonly referred to as Joe-Pye weeds. They are native to the United States and Canada, and have non-dissected foliage and pigmented flowers.",
+    "fetch_status": "ok"
+  },
+  "Monarda fistulosa": {
+    "slug": "wild-bergamot",
+    "common_name": "Wild Bergamot",
+    "scientific_name": "Monarda fistulosa",
+    "mentioned_in": [
+      "03-prairie-plants-grasslands",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants",
+      "11-planting-maintenance-sourcing"
+    ],
+    "images": [
+      {
+        "file": "plants/img/wild-bergamot-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from North America Common name: Beebalm, Wild Bergamot Photographed in Little Rock, Arkansas",
+        "source_title": "File:Monarda fistulosa Arkansas.jpg"
+      },
+      {
+        "file": "plants/img/wild-bergamot-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "D. Gordon E. Robertson",
+        "description": "Wild Bergamot (Monarda fistulosa), Ottawa, Ontario, Canada",
+        "source_title": "File:Wild Bergamot, Ottawa.jpg"
+      }
+    ],
+    "wikipedia_title": "Monarda fistulosa",
+    "summary": "Monarda fistulosa, the wild bergamot or bee balm, is a wildflower in the mint family Lamiaceae, widespread and abundant as a native plant in much of North America. This plant, with showy summer-blooming pink to lavender flowers, is often used as a honey plant, medicinal plant, and garden ornamental.  The species is quite variable, and several subspecies or varieties have been recognized within it.",
+    "fetch_status": "ok"
+  },
+  "Rudbeckia hirta": {
+    "slug": "black-eyed-susan",
+    "common_name": "Black-Eyed Susan",
+    "scientific_name": "Rudbeckia hirta",
+    "mentioned_in": [
+      "03-prairie-plants-grasslands",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants",
+      "11-planting-maintenance-sourcing"
+    ],
+    "images": [
+      {
+        "file": "plants/img/black-eyed-susan-1.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Russ",
+        "description": "black eyed susan dyke road",
+        "source_title": "File:Black eyed susan dyke road (20013843578).jpg"
+      },
+      {
+        "file": "plants/img/black-eyed-susan-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Sebastian Martin Dicke",
+        "description": "Schwarz\u00e4ugige Rudbeckie",
+        "source_title": "File:Nahaufnahme einer Bl\u00fcte einer Schwarz\u00e4ugigen Rudbeckie.jpg"
+      }
+    ],
+    "wikipedia_title": "Rudbeckia hirta",
+    "summary": "Rudbeckia hirta, commonly called black-eyed Susan and yellow coneflower, is a North American flowering plant in the family Asteraceae. It grows to 1 metre (3+1\u20442 ft) tall with daisy-like yellow flower heads. There are numerous cultivars.",
+    "fetch_status": "ok"
+  },
+  "Lobelia cardinalis": {
+    "slug": "cardinal-flower",
+    "common_name": "Cardinal Flower",
+    "scientific_name": "Lobelia cardinalis",
+    "mentioned_in": [
+      "05-wetland-shoreline-plants",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/cardinal-flower-1.jpg",
+        "license": "Public domain",
+        "credit": "Tim Ross",
+        "description": "Cardinal flower (Lobelia cardinalis) on bank of Ichetucknee River, in Ichetucknee Springs State Park, Columbia Co., Florida USA",
+        "source_title": "File:06-08-16 LobeliaCardinalisIR.jpg"
+      },
+      {
+        "file": "plants/img/cardinal-flower-2.jpg",
+        "license": "Public domain",
+        "credit": "Barnes, Dr. Thomas G.",
+        "description": "Cardinal Flower (Lobelia cardinalis).",
+        "source_title": "File:Lobelia cardinalis - Cardinal Flower.jpg"
+      }
+    ],
+    "wikipedia_title": "Lobelia cardinalis",
+    "summary": "Lobelia cardinalis, the cardinal flower (syn. L. fulgens), is a species of flowering plant in the bellflower family   Campanulaceae native to the Americas, from southeastern Canada south through the eastern and southwestern United States, Mexico and Central America to northern Colombia.",
+    "fetch_status": "ok"
+  },
+  "Lobelia siphilitica": {
+    "slug": "great-blue-lobelia",
+    "common_name": "Great Blue Lobelia",
+    "scientific_name": "Lobelia siphilitica",
+    "mentioned_in": [
+      "05-wetland-shoreline-plants",
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/great-blue-lobelia-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Campanula cespitosa.jpg"
+      },
+      {
+        "file": "plants/img/great-blue-lobelia-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from eastern North America Common name: Great Blue Lobelia Photographed on the North Sylamore Creek Trail, Ozark National Forest, Stone County, Arkansas",
+        "source_title": "File:Lobelia siphilitica.jpg"
+      }
+    ],
+    "wikipedia_title": "Lobelia siphilitica",
+    "summary": "Lobelia siphilitica, the great blue lobelia, great lobelia, or blue cardinal flower, is a plant species within the family Campanulaceae. It is an herbaceous perennial dicot native to eastern and central Canada and United States. There are two recognized varieties of Lobelia siphilitica, var.",
+    "fetch_status": "ok"
+  },
+  "Zizia aurea": {
+    "slug": "golden-alexanders",
+    "common_name": "Golden Alexanders",
+    "scientific_name": "Zizia aurea",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "07-plant-identification-skills",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/golden-alexanders-1.jpg",
+        "license": "GFDL 1.2",
+        "credit": "Photo by and (c)2007 Derek Ramsey (Ram-Man)",
+        "description": "D\u00e9tail de l'inflorescence de Zizia aurea ; photo prise au Mount Cuba Center, Greenville, Delaware, USA",
+        "source_title": "File:Golden Alexanders Zizia aurea Flowers 3008px.JPG"
+      },
+      {
+        "file": "plants/img/golden-alexanders-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Choess",
+        "description": "Zizia aurea growing on a serpentine barrens, Nottingham County Park, Nottingham, Pennsylvania.",
+        "source_title": "File:Zizia aurea 004.jpg"
+      }
+    ],
+    "wikipedia_title": "Zizia aurea",
+    "summary": "Zizia aurea (golden alexanders, golden zizia) is a flowering herbaceous perennial plant of the carrot family Apiaceae. It is native to eastern Canada and the United States, from the eastern Great Plains to the Atlantic Coast. The genus is named for Johann Baptist Ziz, a German botanist.",
+    "fetch_status": "ok"
+  },
+  "Acer saccharinum": {
+    "slug": "silver-maple",
+    "common_name": "Silver Maple",
+    "scientific_name": "Acer saccharinum",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "05-wetland-shoreline-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/silver-maple-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Silver Maple foliage during autumn along Glen Mawr Drive in Ewing, New Jersey",
+        "source_title": "File:2014-11-02 15 41 21 Silver Maple foliage during autumn along Glen Mawr Drive in Ewing, New Jersey.JPG"
+      },
+      {
+        "file": "plants/img/silver-maple-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Daniel Cahen",
+        "description": "Female flowers of Acer saccharinum",
+        "source_title": "File:Acer saccharinum female flowers.jpg"
+      }
+    ],
+    "wikipedia_title": "Acer saccharinum",
+    "summary": "Acer saccharinum, commonly known as silver maple, creek maple, silverleaf maple, soft maple, large maple, water maple, swamp maple, or white maple, is a species of maple native to the eastern and central United States and southeastern Canada. It is one of the most common trees in the United States.\nAlthough the silver maple's Latin name is similar, it should not be confused with Acer saccharum, the sugar maple.",
+    "fetch_status": "ok"
+  },
+  "Alliaria petiolata": {
+    "slug": "garlic-mustard",
+    "common_name": "Garlic Mustard",
+    "scientific_name": "Alliaria petiolata",
+    "mentioned_in": [
+      "08-invasive-species-id",
+      "09-invasive-species-removal"
+    ],
+    "images": [
+      {
+        "file": "plants/img/garlic-mustard-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Didier Descouens",
+        "description": "Alliaria petiolata - Flowers",
+        "source_title": "File:(MHNT) Alliaria petiolata - flowers.jpg"
+      },
+      {
+        "file": "plants/img/garlic-mustard-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "O. Pichard",
+        "description": "Alliaria petiolata - Alliaire officinalle - Marais de Belloy-sur-Somme (Somme) 26/04/2007",
+        "source_title": "File:Alliaria petiolata marais-belloy-sur-somme 80 26042007 3.jpg"
+      }
+    ],
+    "wikipedia_title": "Alliaria petiolata",
+    "summary": "Alliaria petiolata, or  garlic mustard, is a biennial flowering plant in the mustard family (Brassicaceae). It is native to Europe, western and central Asia, north-western Africa, Morocco, Iberia and the British Isles, north to northern Scandinavia, and east to northern Pakistan and Xinjiang in western China. It has now become a tenacious invasive plant across the northern U.S., in particular because of its earlier springtime emergence than many native species, often in the forest understory.",
+    "fetch_status": "ok"
+  },
+  "Andropogon gerardii": {
+    "slug": "big-bluestem",
+    "common_name": "Big Bluestem",
+    "scientific_name": "Andropogon gerardii",
+    "mentioned_in": [
+      "03-prairie-plants-grasslands",
+      "05-wetland-shoreline-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/big-bluestem-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Matt Lavin from Bozeman, Montana, USA",
+        "description": "The bunched habit is revealed along mowed roadsides during late summer where the cool season grasses (e.g., Bromus inermis) have not put on growth since mid summer mowing whereas Andropogon has. Most of the warm season grass diversity and abundance in eastern Montana is found roadside and not as muc",
+        "source_title": "File:Andropogon gerardii (3904160434).jpg"
+      },
+      {
+        "file": "plants/img/big-bluestem-2.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Matt Lavin from Bozeman, Montana, USA",
+        "description": "The ligule is a lacerated membrane.",
+        "source_title": "File:Andropogon gerardii (4055509299).jpg"
+      }
+    ],
+    "wikipedia_title": "Andropogon gerardi",
+    "summary": "Andropogon gerardi, commonly known as big bluestem, is a species of tall grass native to much of the Great Plains and grassland regions of central and eastern North America. It is also known as tall bluestem, bluejoint, and turkeyfoot.",
+    "fetch_status": "ok"
+  },
+  "Anemone patens": {
+    "slug": "pasque-flower",
+    "common_name": "Pasque Flower",
+    "scientific_name": "Anemone patens",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "06-pollinators-wildlife"
+    ],
+    "images": [
+      {
+        "file": "plants/img/pasque-flower-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Jerzy Strzelecki",
+        "description": "Pulsatilla patens, Poland, The Biebrza Marshes",
+        "source_title": "File:Pulsatilla patens01(js).jpg"
+      },
+      {
+        "file": "plants/img/pasque-flower-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Oleg Bor",
+        "description": "\u041f\u043e\u0434\u0441\u043d\u0435\u0436\u043d\u0438\u043a. \u0411\u0443\u0440\u044f\u0442\u0438\u044f",
+        "source_title": "File:\u041f\u0440\u043e\u0441\u0442\u0440\u0435\u043b. \u0421\u043e\u043d-\u0442\u0440\u0430\u0432\u0430. \u0411\u0443\u0440\u044f\u0442\u0438\u044f.jpg"
+      }
+    ],
+    "wikipedia_title": "Pulsatilla patens",
+    "summary": "Pulsatilla patens is a species of flowering plant in the family Ranunculaceae, native to Europe, Russia, Mongolia, and China. Common names include Eastern pasqueflower and cutleaf anemone.",
+    "fetch_status": "ok"
+  },
+  "Aquilegia canadensis": {
+    "slug": "wild-columbine",
+    "common_name": "Wild Columbine",
+    "scientific_name": "Aquilegia canadensis",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/wild-columbine-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "KENPEI",
+        "description": "Aquilegia canadensis 'Corbett'",
+        "source_title": "File:Aquilegia canadensis 'Corbett'1.jpg"
+      },
+      {
+        "file": "plants/img/wild-columbine-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "\u1e5c\u03ad\u0111\u1e43\u03ac\u044f\u0137v\u044e\u0128\u0457\u03ae\u012b\u1e63\u0162 Drop me a lineReview Me!",
+        "description": "en:Wild Columbine (Aquilegia canadensis) in Normal, IL. Shows flower and seed pod.",
+        "source_title": "File:Aquilegia canadensis Redmarkviolinist.jpg"
+      }
+    ],
+    "wikipedia_title": "Aquilegia canadensis",
+    "summary": "Aquilegia canadensis, the Canadian columbine, Canada columbine, eastern red columbine, or wild columbine, is a species of flowering plant in the buttercup family. It is a perennial plant that is native to the woodlands and rocky areas in eastern North America in both the United States and southern Canada. It readily hybridizes with other plants in the columbine genus and is a common garden plant.",
+    "fetch_status": "ok"
+  },
+  "Arisaema triphyllum": {
+    "slug": "jack-in-the-pulpit",
+    "common_name": "Jack-in-the-Pulpit",
+    "scientific_name": "Arisaema triphyllum",
+    "mentioned_in": [
+      "04-woodland-forest-plants",
+      "06-pollinators-wildlife"
+    ],
+    "images": [
+      {
+        "file": "plants/img/jack-in-the-pulpit-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Geoffrey.landis",
+        "description": "Arisaema triphyllum (Jack in the Pulpit), Fairview Park OH. Photo by Geoffrey A. Landis.",
+        "source_title": "File:Arisaema triphyllum (Jack in the Pulpit).jpg"
+      },
+      {
+        "file": "plants/img/jack-in-the-pulpit-2.jpg",
+        "license": "CC BY-SA 2.5 ca",
+        "credit": "\u0421\u0421\u0421\u0420",
+        "description": "Arisaema triphyllum blooming in Bob Hunter Memorial Park.",
+        "source_title": "File:Arisaema triphyllum Bob Hunter Memorial Park.jpg"
+      }
+    ],
+    "wikipedia_title": "Arisaema triphyllum",
+    "summary": "Arisaema triphyllum, the Jack-in-the-pulpit, is a species of flowering plant in the arum family Araceae. It is a member of the Arisaema triphyllum complex, a group of four or five closely related taxa in eastern North America. The specific name triphyllum means \"three-leaved\", a characteristic feature of the species, which is also referred to as Indian turnip, bog onion, and brown dragon.",
+    "fetch_status": "ok"
+  },
+  "Asarum canadense": {
+    "slug": "wild-ginger",
+    "common_name": "Wild Ginger",
+    "scientific_name": "Asarum canadense",
+    "mentioned_in": [
+      "04-woodland-forest-plants",
+      "06-pollinators-wildlife"
+    ],
+    "images": [
+      {
+        "file": "plants/img/wild-ginger-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Aristolochic acid.png"
+      },
+      {
+        "file": "plants/img/wild-ginger-2.jpg",
+        "license": "Public domain",
+        "credit": "Britton, N.L., and A. Brown",
+        "description": "illustration of Asarum canadense",
+        "source_title": "File:Asarum canadense-linedrawing2.png"
+      }
+    ],
+    "wikipedia_title": "Asarum canadense",
+    "summary": "Asarum canadense, commonly known as Canada wild ginger, Canadian snakeroot, Indian Ginger, Coltsfoot, and Broad-Leaved Asarabacca, is a herbaceous, perennial plant. It should not be confused for Asarum reflexum, a closely related species, or Asarum acuminatum, a variety of A. canadense.\nIt forms dense colonies in the understory of deciduous forests throughout its native range in eastern North America.",
+    "fetch_status": "ok"
+  },
+  "Asclepias incarnata": {
+    "slug": "swamp-milkweed",
+    "common_name": "Swamp Milkweed",
+    "scientific_name": "Asclepias incarnata",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "05-wetland-shoreline-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/swamp-milkweed-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "ThatLexingtonKyGuy",
+        "description": "Asclepias incarnata flowers",
+        "source_title": "File:Asclepias incarnata flowers.jpg"
+      },
+      {
+        "file": "plants/img/swamp-milkweed-2.jpg",
+        "license": "GFDL 1.2",
+        "credit": "Photo (c)2007 Derek Ramsey (Ram-Man)",
+        "description": "Photograph of a Monarch butterfly (Danaus plexippus en ) caterpillar feeding on a leaf of the Swamp Milkweeden (Asclepias incarnata en ). The photo was taken in a private garden in Lancaster, Pennsylvania.",
+        "source_title": "File:Monarch Butterfly Danaus plexippus Vertical Caterpillar 2000px.jpg"
+      }
+    ],
+    "wikipedia_title": "Asclepias incarnata",
+    "summary": "Asclepias incarnata, the swamp milkweed, rose milkweed, rose milkflower, swamp silkweed, or white Indian hemp, is a herbaceous perennial plant species native to North America. It grows in damp through wet soils and also is cultivated as a garden plant for its flowers, which attract butterflies and other pollinators with nectar. Like most other milkweeds, it has latex containing toxic steroids, a characteristic that repels many species of insects and mammals.",
+    "fetch_status": "ok"
+  },
+  "Fraxinus nigra": {
+    "slug": "black-ash",
+    "common_name": "Black Ash",
+    "scientific_name": "Fraxinus nigra",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "08-invasive-species-id"
+    ],
+    "images": [
+      {
+        "file": "plants/img/black-ash-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Kkl456",
+        "description": "Image of black ash bark. Bark is corky and spongy. Tree is growing in a seasonally wet, riparian habitat.",
+        "source_title": "File:FraNigBark.jpeg"
+      },
+      {
+        "file": "plants/img/black-ash-2.jpg",
+        "license": "CC BY 3.0 us",
+        "credit": "Keith Kanoti, Maine Forest Service, USA",
+        "description": "Fraxinus nigra leaves",
+        "source_title": "File:Fraxinus nigra leaves.jpg"
+      }
+    ],
+    "wikipedia_title": "Fraxinus nigra",
+    "summary": "Fraxinus nigra, or the black ash, is a species of ash native to much of eastern Canada and the northeastern United States, from western Newfoundland west to southeastern Manitoba, and south to Illinois and northern Virginia. Formerly abundant, as of 2017 the species is threatened with near total extirpation throughout its range within the next century as a result of infestation by an invasive parasitic insect known as the emerald ash borer (Agrilus planipennis).",
+    "fetch_status": "ok"
+  },
+  "Iris versicolor": {
+    "slug": "blue-flag-iris",
+    "common_name": "Blue Flag Iris",
+    "scientific_name": "Iris versicolor",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "05-wetland-shoreline-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/blue-flag-iris-1.jpg",
+        "license": "Public domain",
+        "credit": "Charles Frederick Millspaugh",
+        "description": "Plate 173 from American Medicinal Plants, Iris versicolor",
+        "source_title": "File:American Medicinal Plants-173-0967-Iris versicolor.jpg"
+      },
+      {
+        "file": "plants/img/blue-flag-iris-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "D. Gordon E. Robertson",
+        "description": "Northern Blue Flag (Iris versicolor), Ottawa, Ontario",
+        "source_title": "File:Blue Flag, Ottawa.jpg"
+      }
+    ],
+    "wikipedia_title": "Iris versicolor",
+    "summary": "Iris versicolor or Iris versicolour is also commonly known as the blue flag, harlequin blueflag, larger blue flag, northern blue flag, and poison flag, plus other variations of these names, and in Great Britain and Ireland as purple iris.\nIt is a species of Iris native to North America, in Eastern Canada and the Eastern United States. It is common in sedge meadows, marshes, and along streambanks and shores.",
+    "fetch_status": "ok"
+  },
+  "Larix laricina": {
+    "slug": "tamarack",
+    "common_name": "Tamarack",
+    "scientific_name": "Larix laricina",
+    "mentioned_in": [
+      "02-ecoregions-growing-conditions",
+      "05-wetland-shoreline-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/tamarack-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Tamarack seedling in a sphagnum bog adjacent to Taborton Road (Rensselaer County Route 42) in Sand Lake, New York",
+        "source_title": "File:2015-08-20 17 12 36 Tamarack seedling in a sphagnum bog adjacent to Taborton Road (Rensselaer County Route 42) in Sand Lake, New York.jpg"
+      },
+      {
+        "file": "plants/img/tamarack-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "American Larches/Tamaracks changing color in autumn in a bog near Rensselaer County Route 42 (Taborton Road) in Sand Lake, Rensselaer County, New York",
+        "source_title": "File:2024-10-17 12 32 32 American Larches-Tamaracks changing color in autumn in a bog near Rensselaer County Route 42 (Taborton Road) in Sand Lake, Rensselaer County, New York.jpg"
+      }
+    ],
+    "wikipedia_title": "Larix laricina",
+    "summary": "Larix laricina, commonly known as the tamarack, hackmatack, eastern larch, black larch, red larch, or American larch, is a species of larch native to Canada, from eastern Yukon and Inuvik, Northwest Territories east to Newfoundland, and also south into the upper northeastern United States from Minnesota to Cranesville Swamp, West Virginia; there is also an isolated population in central Alaska.",
+    "fetch_status": "ok"
+  },
+  "Liatris ligulistylis": {
+    "slug": "blazing-star",
+    "common_name": "Blazing Star",
+    "scientific_name": "Liatris ligulistylis",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/blazing-star-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Teunie at Dutch Wikipedia",
+        "description": "Koninginnenkruid. Zelf gemaakte foto.",
+        "source_title": "File:Koninginnenkruid2.jpg"
+      }
+    ],
+    "wikipedia_title": "Liatris ligulistylis",
+    "summary": "Liatris ligulistylis (Rocky Mountain blazing star, northern plains blazing star, or meadow blazing star) is a flowering plant of the family Asteraceae, native to the central United States and central Canada.",
+    "fetch_status": "ok"
+  },
+  "Mertensia virginica": {
+    "slug": "virginia-bluebells",
+    "common_name": "Virginia Bluebells",
+    "scientific_name": "Mertensia virginica",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/virginia-bluebells-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Amos Oliver Doyle",
+        "description": "White Bluebells (Mertensia virginica) growing in Central Illinois U.S.A.",
+        "source_title": "File:Bluebell3.jpg"
+      },
+      {
+        "file": "plants/img/virginia-bluebells-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Correlated alembic",
+        "description": "A bumblebee hanging from a bluebell in Pennsylvania, United States of America.",
+        "source_title": "File:Bumblebee hanging from bluebell.jpg"
+      }
+    ],
+    "wikipedia_title": "Mertensia virginica",
+    "summary": "Mertensia virginica (common names Virginia bluebells, Virginia cowslip, lungwort oysterleaf, Roanoke bells) is a spring ephemeral plant in the Boraginaceae (borage) family with bell-shaped sky-blue flowers, native to eastern North America.",
+    "fetch_status": "ok"
+  },
+  "Panicum virgatum": {
+    "slug": "switchgrass",
+    "common_name": "Switchgrass",
+    "scientific_name": "Panicum virgatum",
+    "mentioned_in": [
+      "03-prairie-plants-grasslands",
+      "05-wetland-shoreline-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/switchgrass-1.jpg",
+        "license": "Public domain",
+        "credit": "Chhe (talk)",
+        "description": "A picture of Panicum virgatum.",
+        "source_title": "File:PanicumVirgatum.jpg"
+      },
+      {
+        "file": "plants/img/switchgrass-2.jpg",
+        "license": "Public domain",
+        "credit": "Warren Gretz, DOE/NREL",
+        "description": "Switchgrass (Panicum virgatum, Alamo variety) grown at the University of Alabama's test plot close to Auburn, Alabama, USA. \u2013 Switchgrass is one of the most promising energy crops in the southern United States of America (USA). Once switchgrass blanketed the prairies, protecting the soil, cleansing ",
+        "source_title": "File:Panicum virgatum.jpg"
+      }
+    ],
+    "wikipedia_title": "Panicum virgatum",
+    "summary": "Panicum virgatum, commonly known as switchgrass and panic grass, is a perennial warm season bunchgrass native to North America, where it occurs naturally from 55\u00b0N latitude in Canada southwards into the United States and Mexico. Switchgrass is one of the dominant species of the central North American tallgrass prairie and can be found in remnant prairies, in native grass pastures, and naturalized along roadsides. It is used primarily for soil conservation, forage production, game cover, as an ornamental grass, in phytoremediation projects, fiber, electricity, heat production, for biosequestration of atmospheric carbon dioxide, and more recently as a biomass crop for the production of ethanol and butanol.",
+    "fetch_status": "ok"
+  },
+  "Pastinaca sativa": {
+    "slug": "wild-parsnip",
+    "common_name": "Wild Parsnip",
+    "scientific_name": "Pastinaca sativa",
+    "mentioned_in": [
+      "07-plant-identification-skills",
+      "08-invasive-species-id"
+    ],
+    "images": [
+      {
+        "file": "plants/img/wild-parsnip-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Skogkatten",
+        "description": "Flowering parsnip june 2016 southern Sweden.",
+        "source_title": "File:Parsnip flowering second year, June 2016.jpg"
+      },
+      {
+        "file": "plants/img/wild-parsnip-2.jpg",
+        "license": "",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Parsnip with honey and mustard.JPG"
+      }
+    ],
+    "wikipedia_title": "Parsnip",
+    "summary": "The parsnip (Pastinaca sativa) is a root vegetable closely related to carrot and parsley, all belonging to the flowering plant family Apiaceae. It is a biennial plant usually grown as an annual. Its long taproot has light cream colored skin and flesh, and, left in the ground to mature, becomes sweeter in flavor after winter frosts.",
+    "fetch_status": "ok"
+  },
+  "Rhamnus cathartica": {
+    "slug": "common-buckthorn",
+    "common_name": "Common Buckthorn",
+    "scientific_name": "Rhamnus cathartica",
+    "mentioned_in": [
+      "08-invasive-species-id",
+      "09-invasive-species-removal"
+    ],
+    "images": [
+      {
+        "file": "plants/img/common-buckthorn-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "MartinFields",
+        "description": "A cutting board made from common buckthorn and Norway maple.",
+        "source_title": "File:Buckthorn cutting board.JPG"
+      },
+      {
+        "file": "plants/img/common-buckthorn-2.jpg",
+        "license": "Public domain",
+        "credit": "K\u00f6hler, F. E. (Franz Eugen)",
+        "description": "Illustration of RHAMNUS cathartica L. 63 (Rhamnus cathartica L., common buckthorn)",
+        "source_title": "File:Illustration of Rhamnus catharticus 63-cropped.png"
+      }
+    ],
+    "wikipedia_title": "Rhamnus cathartica",
+    "summary": "Rhamnus cathartica, the European buckthorn, common buckthorn, purging buckthorn, or just buckthorn, is a species of small tree in the flowering plant family Rhamnaceae. It is native to Europe, northwest Africa and western Asia, from the central British Isles south to Morocco, and east to Kyrgyzstan. It was introduced to North America as an ornamental shrub in the early 19th century or perhaps before, and is now naturalized in the northern half of the continent, and is classified as an invasive plant in several US states and in Ontario and Qu\u00e9bec, Canada.",
+    "fetch_status": "ok"
+  },
+  "Sanguinaria canadensis": {
+    "slug": "bloodroot",
+    "common_name": "Bloodroot",
+    "scientific_name": "Sanguinaria canadensis",
+    "mentioned_in": [
+      "04-woodland-forest-plants",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/bloodroot-1.jpg",
+        "license": "CC0",
+        "credit": "Slayerwulfe",
+        "description": "Wild Flower, bloodroot",
+        "source_title": "File:(Root) wildflower.JPG"
+      },
+      {
+        "file": "plants/img/bloodroot-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Basefilm",
+        "description": "Bloodroot. Single plant shown in early spring when in bloom, while leaves are still clasping around the stem.",
+        "source_title": "File:Bloodroot-apr-2010-clasping-leaves.jpg"
+      }
+    ],
+    "wikipedia_title": "Sanguinaria",
+    "summary": "Sanguinaria canadensis, bloodroot, is a perennial, herbaceous flowering plant native to eastern North America. It is the only species in the genus Sanguinaria, included in the poppy family Papaveraceae, and is most closely related to Eomecon of eastern Asia. \nSanguinaria canadensis is sometimes known as Canada puccoon, bloodwort, redroot, red puccoon, and black paste.",
+    "fetch_status": "ok"
+  },
+  "Silphium perfoliatum": {
+    "slug": "cup-plant",
+    "common_name": "Cup Plant",
+    "scientific_name": "Silphium perfoliatum",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/cup-plant-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Cup plant.jpg"
+      },
+      {
+        "file": "plants/img/cup-plant-2.jpg",
+        "license": "Public domain",
+        "credit": "No machine-readable author provided. Hardyplants assumed (based on copyright claims).",
+        "description": "Flowers of Cup Plant - Silphium perfoliatum",
+        "source_title": "File:Cupplants.jpg"
+      }
+    ],
+    "wikipedia_title": "Silphium perfoliatum",
+    "summary": "Silphium perfoliatum, the cup plant or cup-plant, is a species of  flowering plant in the family Asteraceae, native to eastern and central North America. It is an erect herbaceous perennial with triangular toothed leaves, and daisy-like yellow composite flower heads in summer.\nThe specific epithet perfoliatum means \"through the leaf.\"\nThere are two varieties:\n\nSilphium perfoliatum var.",
+    "fetch_status": "ok"
+  },
+  "Solidago rigida": {
+    "slug": "stiff-goldenrod",
+    "common_name": "Stiff Goldenrod",
+    "scientific_name": "Solidago rigida",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/stiff-goldenrod-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Matt Lavin from Bozeman, Montana, USA",
+        "description": "Some plants of Solidago rigida will lose the basal leaf bunch during the late season probably due to dessication.",
+        "source_title": "File:Solidago rigida (4991314459).jpg"
+      },
+      {
+        "file": "plants/img/stiff-goldenrod-2.jpg",
+        "license": "Public domain",
+        "credit": "Mason Brock (Masebrock)",
+        "description": "Solidago rigida ssp. glabrata, dry limestone barren along roadside near Hymes Knob. Lewis County, Kentucky.",
+        "source_title": "File:Solidago rigida glabrata.jpg"
+      }
+    ],
+    "wikipedia_title": "Solidago rigida",
+    "summary": "Solidago rigida, known by the common names stiff goldenrod and stiff-leaved goldenrod, is a North American plant species in the family Asteraceae. It has a widespread distribution in Canada and the United States, where it is found primarily east of the Rocky Mountains. It is typically found in open, dry areas associated with calcareous or sandy soil.",
+    "fetch_status": "ok"
+  },
+  "Solidago speciosa": {
+    "slug": "showy-goldenrod",
+    "common_name": "Showy Goldenrod",
+    "scientific_name": "Solidago speciosa",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/showy-goldenrod-1.jpg",
+        "license": "Public domain",
+        "credit": "New York Botanical Garden.",
+        "description": "SOLIDAGO ALTISSII",
+        "source_title": "File:Addisonia (PLATE 075) (8577495976) inflorescence transparent background.png"
+      },
+      {
+        "file": "plants/img/showy-goldenrod-2.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Joshua Mayer from Madison, WI, USA",
+        "description": "Snake Creek Fen Wisconsin State Natural Area #281 Green Lake County",
+        "source_title": "File:Showy Goldenrod (Solidago speciosa) - Flickr - wackybadger.jpg"
+      }
+    ],
+    "wikipedia_title": "Solidago speciosa",
+    "summary": "Solidago speciosa, the showy goldenrod, is a North American species of flowering plants in the family Asteraceae. It grows in the province of Ontario in central Canada, as well as in the eastern and central United States (from the Atlantic coast west as far as the Great Plains, so from Maine to Georgia (except Delaware) west as far as Texas, Nebraska, and the Dakotas).\nSolidago speciosa is a perennial herb up to 200 cm (80 inches, over 6 feet) tall, producing a thick underground caudex.",
+    "fetch_status": "ok"
+  },
+  "Symphyotrichum laeve": {
+    "slug": "smooth-blue-aster",
+    "common_name": "Smooth Blue Aster",
+    "scientific_name": "Symphyotrichum laeve",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/smooth-blue-aster-1.jpg",
+        "license": "CC BY 4.0",
+        "credit": "The New York Botanical Garden",
+        "description": "Aster gravesii (Symphyotrichum \u00d7 gravesii) specimen",
+        "source_title": "File:Aster gravesii (Symphyotrichum x gravesii) specimen (cropped).jpg"
+      },
+      {
+        "file": "plants/img/smooth-blue-aster-2.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Harvard University Herbaria",
+        "description": "Aster woldenii (Symphyotrichum \u00d7 woldenii) isotype, Emmet County, Iowa, 6 September 1924, collected by B.O. Wolden.",
+        "source_title": "File:Aster woldenii isotype (inflorescence).jpg"
+      }
+    ],
+    "wikipedia_title": "Symphyotrichum laeve",
+    "summary": "Symphyotrichum laeve (formerly Aster laevis) is a flowering plant native to Canada, the United States, and Coahuila (Mexico). It has the common names of smooth blue aster, smooth aster, smooth-leaved aster, glaucous Michaelmas-daisy and glaucous aster.",
+    "fetch_status": "ok"
+  },
+  "Symphyotrichum novae-angliae": {
+    "slug": "new-england-aster",
+    "common_name": "New England Aster",
+    "scientific_name": "Symphyotrichum novae-angliae",
+    "mentioned_in": [
+      "06-pollinators-wildlife",
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/new-england-aster-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Niepok\u00f3j Zbigniew",
+        "description": "Aster nowoangielski. (Aster novae-angliae) Aster nowoangielski lub aster ameryka\u0144ski. Marcinki nowoangielskie (Symphyotrichum novae-angliae)",
+        "source_title": "File:Aster nowoangielski 01.jpg"
+      },
+      {
+        "file": "plants/img/new-england-aster-2.jpg",
+        "license": "Public domain",
+        "credit": "Jon Sullivan",
+        "description": "A leaf.",
+        "source_title": "File:Leaf 1 web.jpg"
+      }
+    ],
+    "wikipedia_title": "Symphyotrichum novae-angliae",
+    "summary": "Symphyotrichum novae-angliae (formerly Aster novae-angliae) is a species of flowering plant in the aster family (Asteraceae) native to central and eastern North America. Commonly known as New England aster, hairy Michaelmas-daisy, or Michaelmas daisy, it is a perennial, herbaceous plant usually between 30 and 120 centimeters (1 and 4 feet) tall and 60 to 90 cm (2 to 3 ft) wide.\nThe usually deep purple flowers have up to 100 ray florets which are rarely pink or white.",
+    "fetch_status": "ok"
+  }
+}
