@@ -18,6 +18,30 @@
     max-width: 86rem;
   }
 }
+
+/* Faint vertical dividers between sidebars and the center content on
+   desktop, so the eye can anchor on the reading column. Light enough
+   to be decorative, not heavy enough to compete with content. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  .md-sidebar--secondary {
+    border-left: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  /* Slight breathing room inside the main content so text doesn't hug
+     the divider lines. */
+  .md-content {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Dark-mode aware: Material swaps the scheme via [data-md-color-scheme="slate"]. */
+[data-md-color-scheme="slate"] .md-sidebar--primary,
+[data-md-color-scheme="slate"] .md-sidebar--secondary {
+  border-color: rgba(255, 255, 255, 0.08);
+}
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
     height: 50px;
     width: 50px;
