@@ -65,7 +65,7 @@ Invasive species thrive in Minnesota because they arrive without the insects, di
 
 ## Common Buckthorn
 
-Common Buckthorn (*Rhamnus cathartica*) is arguably Minnesota's most widespread and damaging woody invasive plant. Originally from Europe, it was introduced to North America in the 1800s as a hedgerow and ornamental plant. It has since invaded woodlands, prairies, and wetland edges across the entire state.
+[Common Buckthorn](../../plants/common-buckthorn.md) (*Rhamnus cathartica*) is arguably Minnesota's most widespread and damaging woody invasive plant. Originally from Europe, it was introduced to North America in the 1800s as a hedgerow and ornamental plant. It has since invaded woodlands, prairies, and wetland edges across the entire state.
 
 ### How to Identify Common Buckthorn
 
@@ -115,7 +115,7 @@ Glossy Buckthorn can transform open wetlands into dense shrub thickets, eliminat
 
 ## Garlic Mustard
 
-Garlic Mustard (*Alliaria petiolata*) is a biennial herb from Europe that invades woodland understories across Minnesota. It is one of the most damaging invasive plants in deciduous forests.
+[Garlic Mustard](../../plants/garlic-mustard.md) (*Alliaria petiolata*) is a biennial herb from Europe that invades woodland understories across Minnesota. It is one of the most damaging invasive plants in deciduous forests.
 
 ### How to Identify Garlic Mustard
 
@@ -154,7 +154,7 @@ Spotted Knapweed releases allelopathic chemicals that suppress surrounding plant
 
 ## Wild Parsnip
 
-Wild Parsnip (*Pastinaca sativa*) is a biennial plant from Europe that has spread aggressively along Minnesota roadsides, ditches, and prairies. It poses a direct threat to human health.
+[Wild Parsnip](../../plants/wild-parsnip.md) (*Pastinaca sativa*) is a biennial plant from Europe that has spread aggressively along Minnesota roadsides, ditches, and prairies. It poses a direct threat to human health.
 
 ### How to Identify Wild Parsnip
 
@@ -286,7 +286,7 @@ Emerald Ash Borer (*Agrilus planipennis*), commonly called EAB, is an invasive b
 
 ### Where to Look
 
-EAB attacks all native ash species — Green Ash (*Fraxinus pennsylvanica*), White Ash (*Fraxinus americana*), and Black Ash (*Fraxinus nigra*). It has been confirmed in dozens of Minnesota counties and continues to spread.
+EAB attacks all native ash species — Green Ash (*Fraxinus pennsylvanica*), White Ash (*Fraxinus americana*), and [Black Ash](../../plants/black-ash.md) (*Fraxinus nigra*). It has been confirmed in dozens of Minnesota counties and continues to spread.
 
 ### Why It Is Harmful
 

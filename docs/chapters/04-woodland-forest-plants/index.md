@@ -185,7 +185,7 @@ Common Minnesota spring ephemerals include Bloodroot, Trillium, Hepatica, Dutchm
 
 ## Bloodroot
 
-Bloodroot (*Sanguinaria canadensis*) is one of the earliest spring ephemerals to appear, often blooming in April when patches of snow still linger nearby. Its common name comes from the bright red-orange sap in its roots and stems — a feature unique among Minnesota wildflowers.
+[Bloodroot](../../plants/bloodroot.md) (*Sanguinaria canadensis*) is one of the earliest spring ephemerals to appear, often blooming in April when patches of snow still linger nearby. Its common name comes from the bright red-orange sap in its roots and stems — a feature unique among Minnesota wildflowers.
 
 Key identification features:
 
@@ -253,7 +253,7 @@ A close relative, Squirrel Corn (*Dicentra canadensis*), blooms at the same time
 
 ## Wild Ginger
 
-Wild Ginger (*Asarum canadense*) is not a spring ephemeral — it keeps its leaves through the growing season — but it is one of the most useful and attractive native woodland ground covers. Its large, heart-shaped, velvety leaves form dense mats that suppress weeds and stabilize soil.
+[Wild Ginger](../../plants/wild-ginger.md) (*Asarum canadense*) is not a spring ephemeral — it keeps its leaves through the growing season — but it is one of the most useful and attractive native woodland ground covers. Its large, heart-shaped, velvety leaves form dense mats that suppress weeds and stabilize soil.
 
 Key identification features:
 
@@ -269,7 +269,7 @@ Wild Ginger gets its common name from the spicy fragrance of its roots, which we
 
 ## Jack-In-The-Pulpit
 
-Jack-in-the-Pulpit (*Arisaema triphyllum*) is one of the most distinctive and recognizable native woodland plants. Its unusual flower structure makes it a favorite of hikers and naturalists.
+[Jack-in-the-Pulpit](../../plants/jack-in-the-pulpit.md) (*Arisaema triphyllum*) is one of the most distinctive and recognizable native woodland plants. Its unusual flower structure makes it a favorite of hikers and naturalists.
 
 Key identification features:
 

@@ -295,8 +295,8 @@ One of the most important reasons to build identification skills is to tell nati
 
 **Golden Alexanders vs. Wild Parsnip**
 
-- Golden Alexanders (*Zizia aurea*) is a native prairie plant with yellow umbel flowers that blooms in May-June. Its stems are smooth, and its leaves are compound with toothed leaflets.
-- Wild Parsnip (*Pastinaca sativa*) is an invasive that looks similar but blooms later (June-July), grows taller (up to 5 feet), and has grooved, angular stems. Its sap causes severe chemical burns on skin exposed to sunlight.
+- [Golden Alexanders](../../plants/golden-alexanders.md) (*Zizia aurea*) is a native prairie plant with yellow umbel flowers that blooms in May-June. Its stems are smooth, and its leaves are compound with toothed leaflets.
+- [Wild Parsnip](../../plants/wild-parsnip.md) (*Pastinaca sativa*) is an invasive that looks similar but blooms later (June-July), grows taller (up to 5 feet), and has grooved, angular stems. Its sap causes severe chemical burns on skin exposed to sunlight.
 
 **Native Grapes vs. Porcelain Berry**
 

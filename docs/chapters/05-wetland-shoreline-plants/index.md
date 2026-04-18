@@ -84,7 +84,7 @@ Though they may look like ordinary grassland at first glance, sedge meadows are 
 - **Water storage** — Their dense root systems act like sponges, absorbing excess rainfall and releasing it slowly
 - **Transition zones** — They buffer deeper wetlands from upland runoff, filtering sediment and nutrients before they reach open water
 
-Common sedge meadow plants include Tussock Sedge (*Carex stricta*), which forms distinctive raised mounds, Blue Joint Grass (*Calamagrostis canadensis*), Spotted Joe-Pye Weed (*Eutrochium maculatum*), and Swamp Milkweed (*Asclepias incarnata*).
+Common sedge meadow plants include Tussock Sedge (*Carex stricta*), which forms distinctive raised mounds, Blue Joint Grass (*Calamagrostis canadensis*), Spotted Joe-Pye Weed (*Eutrochium maculatum*), and [Swamp Milkweed](../../plants/swamp-milkweed.md) (*Asclepias incarnata*).
 
 ## Shoreline Stabilization
 
@@ -183,7 +183,7 @@ Rain garden design is a practical application of wetland plant ecology. By placi
 
 ## Blue Flag Iris
 
-Blue Flag Iris (*Iris versicolor*) is one of Minnesota's most beautiful native wetland wildflowers. Growing 2 to 3 feet tall, it produces striking blue-violet flowers with intricate yellow and white markings that guide pollinators to the nectar.
+[Blue Flag Iris](../../plants/blue-flag-iris.md) (*Iris versicolor*) is one of Minnesota's most beautiful native wetland wildflowers. Growing 2 to 3 feet tall, it produces striking blue-violet flowers with intricate yellow and white markings that guide pollinators to the nectar.
 
 ### Identification and Habitat
 
@@ -205,7 +205,7 @@ Blue Flag Iris provides early-season nectar for bumblebees and other pollinators
 
 ## Cardinal Flower
 
-Cardinal Flower (*Lobelia cardinalis*) may be the most eye-catching native wildflower found along Minnesota's streams and wetlands. Its spikes of brilliant scarlet-red flowers are unmistakable in late summer.
+[Cardinal Flower](../../plants/cardinal-flower.md) (*Lobelia cardinalis*) may be the most eye-catching native wildflower found along Minnesota's streams and wetlands. Its spikes of brilliant scarlet-red flowers are unmistakable in late summer.
 
 ### Identification and Habitat
 
@@ -339,10 +339,10 @@ When rain falls on farm fields, parking lots, or lawns, it picks up sediment, fe
 
 Effective riparian buffers include plants from multiple layers:
 
-- **Grasses and sedges** — Switchgrass (*Panicum virgatum*), Big Bluestem (*Andropogon gerardii*), various sedges (*Carex* species)
-- **Wildflowers** — Joe-Pye Weed, Boneset (*Eupatorium perfoliatum*), Great Blue Lobelia (*Lobelia siphilitica*), Swamp Milkweed
+- **Grasses and sedges** — [Switchgrass](../../plants/switchgrass.md) (*Panicum virgatum*), [Big Bluestem](../../plants/big-bluestem.md) (*Andropogon gerardii*), various sedges (*Carex* species)
+- **Wildflowers** — Joe-Pye Weed, Boneset (*Eupatorium perfoliatum*), [Great Blue Lobelia](../../plants/great-blue-lobelia.md) (*Lobelia siphilitica*), Swamp Milkweed
 - **Shrubs** — Red-osier Dogwood (*Cornus sericea*), native willows (*Salix* species), Elderberry (*Sambucus canadensis*)
-- **Trees** — Silver Maple (*Acer saccharinum*), Swamp White Oak (*Quercus bicolor*), Tamarack (*Larix laricina*)
+- **Trees** — [Silver Maple](../../plants/silver-maple.md) (*Acer saccharinum*), Swamp White Oak (*Quercus bicolor*), [Tamarack](../../plants/tamarack.md) (*Larix laricina*)
 
 A minimum 50-foot buffer captures the majority of sediment and nutrients. Wider buffers — 100 feet or more — provide additional wildlife habitat and greater pollutant removal.
 

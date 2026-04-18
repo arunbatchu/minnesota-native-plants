@@ -204,35 +204,46 @@ One of the most rewarding aspects of native garden design is planning for contin
 
 ### Spring (April to May)
 
-- Bloodroot (*Sanguinaria canadensis*)
-- Virginia Bluebells (*Mertensia virginica*)
-- Wild Columbine (*Aquilegia canadensis*)
-- Prairie Smoke (*Geum triflorum*)
-- Golden Alexanders (*Zizia aurea*)
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/bloodroot.md" class="plant-gallery-card"><img src="../../plants/img/bloodroot-1.jpg" alt="Bloodroot"><div class="plant-gallery-caption">Bloodroot<br><em>Sanguinaria canadensis</em></div></a>
+<a href="../../plants/virginia-bluebells.md" class="plant-gallery-card"><img src="../../plants/img/virginia-bluebells-1.jpg" alt="Virginia Bluebells"><div class="plant-gallery-caption">Virginia Bluebells<br><em>Mertensia virginica</em></div></a>
+<a href="../../plants/wild-columbine.md" class="plant-gallery-card"><img src="../../plants/img/wild-columbine-1.jpg" alt="Wild Columbine"><div class="plant-gallery-caption">Wild Columbine<br><em>Aquilegia canadensis</em></div></a>
+<a href="../../plants/golden-alexanders.md" class="plant-gallery-card"><img src="../../plants/img/golden-alexanders-1.jpg" alt="Golden Alexanders"><div class="plant-gallery-caption">Golden Alexanders<br><em>Zizia aurea</em></div></a>
+</div>
+
+Also blooming in spring: **Prairie Smoke** (*Geum triflorum*)
 
 ### Early Summer (June to July)
 
-- Wild Bergamot (*Monarda fistulosa*)
-- Butterfly Weed (*Asclepias tuberosa*)
-- Black-Eyed Susan (*Rudbeckia hirta*)
-- Purple Coneflower (*Echinacea purpurea*)
-- Spiderwort (*Tradescantia ohiensis*)
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/wild-bergamot.md" class="plant-gallery-card"><img src="../../plants/img/wild-bergamot-1.jpg" alt="Wild Bergamot"><div class="plant-gallery-caption">Wild Bergamot<br><em>Monarda fistulosa</em></div></a>
+<a href="../../plants/butterfly-milkweed.md" class="plant-gallery-card"><img src="../../plants/img/butterfly-milkweed-1.jpg" alt="Butterfly Milkweed"><div class="plant-gallery-caption">Butterfly Milkweed<br><em>Asclepias tuberosa</em></div></a>
+<a href="../../plants/black-eyed-susan.md" class="plant-gallery-card"><img src="../../plants/img/black-eyed-susan-1.jpg" alt="Black-Eyed Susan"><div class="plant-gallery-caption">Black-Eyed Susan<br><em>Rudbeckia hirta</em></div></a>
+<a href="../../plants/purple-coneflower.md" class="plant-gallery-card"><img src="../../plants/img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
+</div>
+
+Also blooming in early summer: **Spiderwort** (*Tradescantia ohiensis*)
 
 ### Late Summer (August to September)
 
-- Joe-Pye Weed (*Eutrochium maculatum*)
-- Ironweed (*Vernonia fasciculata*)
-- Blazing Star (*Liatris ligulistylis*)
-- Cup Plant (*Silphium perfoliatum*)
-- Cardinal Flower (*Lobelia cardinalis*)
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/joe-pye-weed.md" class="plant-gallery-card"><img src="../../plants/img/joe-pye-weed-1.jpg" alt="Joe Pye Weed"><div class="plant-gallery-caption">Joe Pye Weed<br><em>Eutrochium maculatum</em></div></a>
+<a href="../../plants/blazing-star.md" class="plant-gallery-card"><img src="../../plants/img/blazing-star-1.jpg" alt="Blazing Star"><div class="plant-gallery-caption">Blazing Star<br><em>Liatris ligulistylis</em></div></a>
+<a href="../../plants/cup-plant.md" class="plant-gallery-card"><img src="../../plants/img/cup-plant-1.jpg" alt="Cup Plant"><div class="plant-gallery-caption">Cup Plant<br><em>Silphium perfoliatum</em></div></a>
+<a href="../../plants/cardinal-flower.md" class="plant-gallery-card"><img src="../../plants/img/cardinal-flower-1.jpg" alt="Cardinal Flower"><div class="plant-gallery-caption">Cardinal Flower<br><em>Lobelia cardinalis</em></div></a>
+</div>
+
+Also blooming in late summer: **Ironweed** (*Vernonia fasciculata*)
 
 ### Fall (September to October)
 
-- New England Aster (*Symphyotrichum novae-angliae*)
-- Showy Goldenrod (*Solidago speciosa*)
-- Stiff Goldenrod (*Solidago rigida*)
-- Blue Lobelia (*Lobelia siphilitica*)
-- Smooth Blue Aster (*Symphyotrichum laeve*)
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/new-england-aster.md" class="plant-gallery-card"><img src="../../plants/img/new-england-aster-1.jpg" alt="New England Aster"><div class="plant-gallery-caption">New England Aster<br><em>Symphyotrichum novae-angliae</em></div></a>
+<a href="../../plants/showy-goldenrod.md" class="plant-gallery-card"><img src="../../plants/img/showy-goldenrod-1.jpg" alt="Showy Goldenrod"><div class="plant-gallery-caption">Showy Goldenrod<br><em>Solidago speciosa</em></div></a>
+<a href="../../plants/stiff-goldenrod.md" class="plant-gallery-card"><img src="../../plants/img/stiff-goldenrod-1.jpg" alt="Stiff Goldenrod"><div class="plant-gallery-caption">Stiff Goldenrod<br><em>Solidago rigida</em></div></a>
+<a href="../../plants/great-blue-lobelia.md" class="plant-gallery-card"><img src="../../plants/img/great-blue-lobelia-1.jpg" alt="Great Blue Lobelia"><div class="plant-gallery-caption">Great Blue Lobelia<br><em>Lobelia siphilitica</em></div></a>
+<a href="../../plants/smooth-blue-aster.md" class="plant-gallery-card"><img src="../../plants/img/smooth-blue-aster-1.jpg" alt="Smooth Blue Aster"><div class="plant-gallery-caption">Smooth Blue Aster<br><em>Symphyotrichum laeve</em></div></a>
+</div>
 
 Aim for at least three species blooming in each season. This ensures that no matter when a pollinator visits your garden, it finds food.
 

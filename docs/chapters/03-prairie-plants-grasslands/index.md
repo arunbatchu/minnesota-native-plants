@@ -87,7 +87,7 @@ Cool-season grasses are valuable in prairie restorations because they establish 
 
 ### Big Bluestem
 
-Big Bluestem (*Andropogon gerardii*) is the undisputed king of the tallgrass prairie. This towering warm-season grass can reach heights of six to eight feet in a good year, and its roots may extend eight to ten feet below the surface. It is so closely associated with the tallgrass prairie that the ecosystem is sometimes called the "Big Bluestem prairie."
+[Big Bluestem](../../plants/big-bluestem.md) (*Andropogon gerardii*) is the undisputed king of the tallgrass prairie. This towering warm-season grass can reach heights of six to eight feet in a good year, and its roots may extend eight to ten feet below the surface. It is so closely associated with the tallgrass prairie that the ecosystem is sometimes called the "Big Bluestem prairie."
 
 Big Bluestem gets its name from the bluish-purple color at the base of its stems in summer. Its most recognizable feature is the seed head, which typically splits into three finger-like branches — earning it the nickname "turkey foot."
 
@@ -119,7 +119,7 @@ Little Bluestem grows in a wider range of conditions than Big Bluestem, tolerati
 
 ### Switchgrass
 
-Switchgrass (*Panicum virgatum*) is a tall, robust warm-season grass that grows four to six feet tall in dense, upright clumps. It is common on moist prairies, along stream banks, and in low-lying areas where moisture collects.
+[Switchgrass](../../plants/switchgrass.md) (*Panicum virgatum*) is a tall, robust warm-season grass that grows four to six feet tall in dense, upright clumps. It is common on moist prairies, along stream banks, and in low-lying areas where moisture collects.
 
 Switchgrass produces an open, airy seed head that spreads wide above the foliage, giving it an elegant, fountain-like appearance. Its seeds are an important food source for sparrows, juncos, and other seed-eating birds during fall and winter.
 
@@ -194,7 +194,7 @@ The wildflowers described below represent some of the most recognizable and ecol
 
 ### Purple Coneflower
 
-Purple Coneflower (*Echinacea purpurea*) is one of the most widely recognized prairie wildflowers, thanks in part to its popularity in herbal medicine and home gardens. It produces large, daisy-like flowers with drooping pink-purple petals surrounding a spiny, dome-shaped central cone. The cone is actually made up of hundreds of tiny individual flowers (called florets), each of which produces a seed.
+[Purple Coneflower](../../plants/purple-coneflower.md) (*Echinacea purpurea*) is one of the most widely recognized prairie wildflowers, thanks in part to its popularity in herbal medicine and home gardens. It produces large, daisy-like flowers with drooping pink-purple petals surrounding a spiny, dome-shaped central cone. The cone is actually made up of hundreds of tiny individual flowers (called florets), each of which produces a seed.
 
 Key characteristics:
 
@@ -208,7 +208,7 @@ Minnesota is also home to the Pale Purple Coneflower (*Echinacea pallida*), whic
 
 ### Black-Eyed Susan
 
-Black-Eyed Susan (*Rudbeckia hirta*) is perhaps the most cheerful wildflower on the prairie — its bright golden-yellow petals surrounding a dark brown-black central disk are unmistakable. It blooms abundantly from June through September and is one of the easiest native wildflowers to grow from seed.
+[Black-Eyed Susan](../../plants/black-eyed-susan.md) (*Rudbeckia hirta*) is perhaps the most cheerful wildflower on the prairie — its bright golden-yellow petals surrounding a dark brown-black central disk are unmistakable. It blooms abundantly from June through September and is one of the easiest native wildflowers to grow from seed.
 
 Key characteristics:
 
@@ -222,7 +222,7 @@ Black-Eyed Susan is technically a short-lived perennial or biennial, meaning ind
 
 ### Wild Bergamot
 
-Wild Bergamot (*Monarda fistulosa*) is a member of the mint family that produces rounded clusters of lavender-pink, tubular flowers at the top of its stems. It blooms from July through September and is one of the most important pollinator plants in the prairie, attracting bumblebees, butterflies, hummingbird moths, and even hummingbirds.
+[Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*) is a member of the mint family that produces rounded clusters of lavender-pink, tubular flowers at the top of its stems. It blooms from July through September and is one of the most important pollinator plants in the prairie, attracting bumblebees, butterflies, hummingbird moths, and even hummingbirds.
 
 Key characteristics:
 

@@ -170,23 +170,23 @@ Even small amounts of pesticides can harm pollinators. Creating pesticide-free a
 
 Spring:
 
-- Wild Columbine (*Aquilegia canadensis*) -- hummingbirds and long-tongued bees
+- [Wild Columbine](../../plants/wild-columbine.md) (*Aquilegia canadensis*) -- hummingbirds and long-tongued bees
 - Wild Lupine (*Lupinus perennis*) -- bumblebees
-- Virginia Bluebells (*Mertensia virginica*) -- bumblebees and butterflies
+- [Virginia Bluebells](../../plants/virginia-bluebells.md) (*Mertensia virginica*) -- bumblebees and butterflies
 
 Summer:
 
-- Purple Coneflower (*Echinacea purpurea*) -- butterflies, bees, and skippers
-- Wild Bergamot (*Monarda fistulosa*) -- bumblebees, hummingbirds, and butterflies
+- [Purple Coneflower](../../plants/purple-coneflower.md) (*Echinacea purpurea*) -- butterflies, bees, and skippers
+- [Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*) -- bumblebees, hummingbirds, and butterflies
 - Joe-Pye Weed (*Eutrochium maculatum*) -- a magnet for butterflies and bees
 - Common Milkweed (*Asclepias syriaca*) -- heavily visited by many pollinator species
-- Black-Eyed Susan (*Rudbeckia hirta*) -- broad appeal across pollinator groups
+- [Black-Eyed Susan](../../plants/black-eyed-susan.md) (*Rudbeckia hirta*) -- broad appeal across pollinator groups
 
 Fall:
 
-- New England Aster (*Symphyotrichum novae-angliae*) -- critical late-season nectar for migrating monarchs
-- Stiff Goldenrod (*Solidago rigida*) -- bees and butterflies rely on goldenrod in autumn
-- Showy Goldenrod (*Solidago speciosa*) -- one of the last major nectar sources of the season
+- [New England Aster](../../plants/new-england-aster.md) (*Symphyotrichum novae-angliae*) -- critical late-season nectar for migrating monarchs
+- [Stiff Goldenrod](../../plants/stiff-goldenrod.md) (*Solidago rigida*) -- bees and butterflies rely on goldenrod in autumn
+- [Showy Goldenrod](../../plants/showy-goldenrod.md) (*Solidago speciosa*) -- one of the last major nectar sources of the season
 
 ## Pollen Sources
 
@@ -439,7 +439,7 @@ Tiny parasitoid wasps lay their eggs inside or on pest insects. The developing w
 - Red, orange, or deep pink
 - Odorless (hummingbirds have a poor sense of smell)
 - Tubular and pendant (hanging), so only hovering birds can reach the nectar
-- Examples: Wild Columbine (*Aquilegia canadensis*), Cardinal Flower (*Lobelia cardinalis*)
+- Examples: Wild Columbine (*Aquilegia canadensis*), [Cardinal Flower](../../plants/cardinal-flower.md) (*Lobelia cardinalis*)
 
 **Moth-pollinated flowers** tend to be:
 
@@ -460,7 +460,7 @@ Tiny parasitoid wasps lay their eggs inside or on pest insects. The developing w
 - Dull red, brown, or purple
 - Sometimes foul-smelling (mimicking rotting material)
 - Open and accessible
-- Examples: Wild Ginger (*Asarum canadense*), Jack-in-the-Pulpit (*Arisaema triphyllum*)
+- Examples: [Wild Ginger](../../plants/wild-ginger.md) (*Asarum canadense*), [Jack-in-the-Pulpit](../../plants/jack-in-the-pulpit.md) (*Arisaema triphyllum*)
 
 ## Bloom Timing and Pollinators
 
@@ -478,10 +478,10 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 
 **Early Spring (April-May):**
 
-- Pasque Flower (*Anemone patens*) -- one of the very first prairie blooms
+- [Pasque Flower](../../plants/pasque-flower.md) (*Anemone patens*) -- one of the very first prairie blooms
 - Virginia Bluebells (*Mertensia virginica*)
 - Wild Columbine (*Aquilegia canadensis*)
-- Golden Alexanders (*Zizia aurea*)
+- [Golden Alexanders](../../plants/golden-alexanders.md) (*Zizia aurea*)
 
 **Late Spring (May-June):**
 
@@ -492,27 +492,27 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 **Early Summer (June-July):**
 
 - Wild Bergamot (*Monarda fistulosa*)
-- Butterfly Milkweed (*Asclepias tuberosa*)
+- [Butterfly Milkweed](../../plants/butterfly-milkweed.md) (*Asclepias tuberosa*)
 - Purple Coneflower (*Echinacea purpurea*)
 - Black-Eyed Susan (*Rudbeckia hirta*)
 
 **Midsummer (July-August):**
 
 - Joe-Pye Weed (*Eutrochium maculatum*)
-- Blazing Star (*Liatris ligulistylis*) -- a monarch magnet
-- Cup Plant (*Silphium perfoliatum*)
+- [Blazing Star](../../plants/blazing-star.md) (*Liatris ligulistylis*) -- a monarch magnet
+- [Cup Plant](../../plants/cup-plant.md) (*Silphium perfoliatum*)
 - Common Milkweed (*Asclepias syriaca*)
 
 **Late Summer (August-September):**
 
 - Ironweed (*Vernonia fasciculata*)
 - Cardinal Flower (*Lobelia cardinalis*)
-- Great Blue Lobelia (*Lobelia siphilitica*)
+- [Great Blue Lobelia](../../plants/great-blue-lobelia.md) (*Lobelia siphilitica*)
 
 **Fall (September-October):**
 
 - New England Aster (*Symphyotrichum novae-angliae*)
-- Smooth Blue Aster (*Symphyotrichum laeve*)
+- [Smooth Blue Aster](../../plants/smooth-blue-aster.md) (*Symphyotrichum laeve*)
 - Stiff Goldenrod (*Solidago rigida*)
 - Showy Goldenrod (*Solidago speciosa*)
 
