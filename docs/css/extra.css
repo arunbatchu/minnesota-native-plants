@@ -142,10 +142,33 @@
   color: #666;
   font-size: 0.85rem;
 }
-/* Plant card photos at top of species pages */
-h1 + p + p img,
-.md-content img[alt^="Close-up"],
-.md-content img[alt^="The"] {
-  max-width: 600px;
+/* Content figure images: cap size and center so they feel like figures, not
+   page-dominating walls. Applies to any image that sits alone in a paragraph
+   (the standard markdown ![alt](url) pattern). Excludes mascot images and
+   plant gallery thumbnails via their own class selectors below. */
+.md-typeset p > img:only-child {
+  display: block;
+  max-width: min(720px, 100%);
+  height: auto;
+  margin: 1.25rem auto 0.25rem;
   border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+/* Captions in italics (markdown `*caption*`) that follow a figure should
+   center under the image and stay muted. */
+.md-typeset p > img:only-child + em,
+.md-typeset p:has(> img:only-child) + p > em:only-child {
+  display: block;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.62);
+  font-size: 0.88em;
+  margin-top: 0.25rem;
+}
+/* Mascot and plant-gallery images are already styled separately and should
+   NOT get the figure treatment. Override just in case. */
+.md-typeset img.mascot-admonition-img,
+.md-typeset .plant-gallery-card img {
+  max-width: none;
+  margin: 0;
+  box-shadow: none;
 }
