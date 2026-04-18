@@ -2,6 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+/* Widen the page grid on large screens. Default MkDocs Material caps at 61rem,
+   which leaves generous empty gutters on modern wide displays. 78rem gives
+   the content column about 54rem of horizontal space — comfortable for
+   reading while letting tables, diagrams, and the plant gallery grids
+   breathe. On very wide displays (≥1600px), we go to 86rem. */
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 78rem;
+  }
+}
+@media screen and (min-width: 100em) {
+  .md-grid {
+    max-width: 86rem;
+  }
+}
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
     height: 50px;
     width: 50px;
