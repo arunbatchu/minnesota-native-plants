@@ -23,7 +23,6 @@ Rhamnus cathartica, the European buckthorn, common buckthorn, purging buckthorn,
 
 ## Mentioned In
 
-- [Invasive Species Id](../chapters/08-invasive-species-id/index.md)
 - [Invasive Species Removal](../chapters/09-invasive-species-removal/index.md)
 
 ## Image Credits

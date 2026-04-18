@@ -300,13 +300,13 @@ One of the most important reasons to build identification skills is to tell nati
 
 **Native Grapes vs. Porcelain Berry**
 
-- Wild Grape (*Vitis riparia*) is a native vine with simple, lobed leaves and dark purple-black fruit.
-- Porcelain Berry (*Ampelopsis brevipedunculata*) is an invasive vine with deeply lobed leaves and colorful (blue, pink, purple) berries. It smothers native vegetation.
+- [Wild Grape](../../plants/wild-grape.md) (*Vitis riparia*) is a native vine with simple, lobed leaves and dark purple-black fruit.
+- [Porcelain Berry](../../plants/porcelain-berry.md) (*Ampelopsis brevipedunculata*) is an invasive vine with deeply lobed leaves and colorful (blue, pink, purple) berries. It smothers native vegetation.
 
 **Native Cattails vs. Narrow-Leaved Cattail**
 
-- Broad-Leaved Cattail (*Typha latifolia*) is native. Its flower spike has the male and female portions touching with no gap.
-- Narrow-Leaved Cattail (*Typha angustifolia*) is invasive. Look for a clear gap between the male and female portions of the flower spike.
+- [Broad-Leaved Cattail](../../plants/broad-leaved-cattail.md) (*Typha latifolia*) is native. Its flower spike has the male and female portions touching with no gap.
+- [Narrow-Leaved Cattail](../../plants/narrow-leaved-cattail.md) (*Typha angustifolia*) is invasive. Look for a clear gap between the male and female portions of the flower spike.
 
 ### General Rules for Telling Them Apart
 

@@ -25,7 +25,6 @@ The usually deep purple flowers have up to 100 ray florets which are rarely pink
 ## Mentioned In
 
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
-- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits
 

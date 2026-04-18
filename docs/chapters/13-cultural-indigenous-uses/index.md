@@ -165,7 +165,7 @@ Native plants were central to the diets of Minnesota's Indigenous peoples. Far f
 
 - **Wild Rice** (*Zizania palustris*) — Called *manoomin* in Ojibwemowin, wild rice is perhaps the most culturally important plant food in Minnesota. It grows in shallow lakes and rivers across the northern part of the state and has been a staple of the Ojibwe diet for centuries. The annual wild rice harvest is a communal event with deep spiritual significance. Wild rice is hand-harvested from canoes using wooden knockers — a practice that has remained essentially unchanged for generations.
 
-- **Maple Sugar** — Sugar maples (*Acer saccharum*) provided the primary sweetener for both Dakota and Ojibwe peoples. The spring sugaring season (*iskigamizigan* in Ojibwemowin) was a major social and economic event. Sap was collected and boiled down into syrup, sugar cakes, and granulated sugar that could be stored and traded.
+- **Maple Sugar** — [Sugar maples](../../plants/sugar-maples.md) (*Acer saccharum*) provided the primary sweetener for both Dakota and Ojibwe peoples. The spring sugaring season (*iskigamizigan* in Ojibwemowin) was a major social and economic event. Sap was collected and boiled down into syrup, sugar cakes, and granulated sugar that could be stored and traded.
 
 - **Prairie Turnip** (*Psoralea esculenta*) — Known as *tipsin* or *tipsinna* in Dakota, this starchy root vegetable was a staple food of the Dakota and other Plains peoples. The roots were dug in early summer, peeled, and dried for winter storage. Prairie turnips were also an important trade item.
 

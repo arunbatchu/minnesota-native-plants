@@ -23,7 +23,6 @@ Alliaria petiolata, or  garlic mustard, is a biennial flowering plant in the mus
 
 ## Mentioned In
 
-- [Invasive Species Id](../chapters/08-invasive-species-id/index.md)
 - [Invasive Species Removal](../chapters/09-invasive-species-removal/index.md)
 
 ## Image Credits

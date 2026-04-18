@@ -183,6 +183,14 @@ Spring ephemerals include some of Minnesota's most beautiful and recognizable wi
 
 Common Minnesota spring ephemerals include Bloodroot, Trillium, Hepatica, Dutchman's Breeches, Virginia Bluebells, Trout Lily, and Spring Beauty.
 
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/bloodroot.md" class="plant-gallery-card"><img src="../../plants/img/bloodroot-1.jpg" alt="Bloodroot"><div class="plant-gallery-caption">Bloodroot<br><em>Sanguinaria canadensis</em></div></a>
+<a href="../../plants/dutchman-s-breeches.md" class="plant-gallery-card"><img src="../../plants/img/dutchman-s-breeches-1.jpg" alt="Dutchman's Breeches"><div class="plant-gallery-caption">Dutchman's Breeches<br><em>Dicentra cucullaria</em></div></a>
+<a href="../../plants/large-flowered-trillium.md" class="plant-gallery-card"><img src="../../plants/img/large-flowered-trillium-1.jpg" alt="Large-flowered Trillium"><div class="plant-gallery-caption">Large-flowered Trillium<br><em>Trillium grandiflorum</em></div></a>
+<a href="../../plants/virginia-bluebells.md" class="plant-gallery-card"><img src="../../plants/img/virginia-bluebells-1.jpg" alt="Virginia Bluebells"><div class="plant-gallery-caption">Virginia Bluebells<br><em>Mertensia virginica</em></div></a>
+<a href="../../plants/wild-ginger.md" class="plant-gallery-card"><img src="../../plants/img/wild-ginger-1.jpg" alt="Wild Ginger"><div class="plant-gallery-caption">Wild Ginger<br><em>Asarum canadense</em></div></a>
+</div>
+
 ## Bloodroot
 
 [Bloodroot](../../plants/bloodroot.md) (*Sanguinaria canadensis*) is one of the earliest spring ephemerals to appear, often blooming in April when patches of snow still linger nearby. Its common name comes from the bright red-orange sap in its roots and stems — a feature unique among Minnesota wildflowers.
@@ -203,7 +211,7 @@ The red sap was used historically by Indigenous peoples for dye and medicinal pu
 
 Trilliums are the signature wildflowers of Minnesota's deciduous forests. Their name comes from the Latin for "three" — everything about a Trillium comes in threes: three petals, three sepals, three leaves.
 
-The most common species in Minnesota is Large-flowered Trillium (*Trillium grandiflorum*), which produces showy white flowers that gradually turn pink as they age. Other Minnesota trilliums include:
+The most common species in Minnesota is [Large-flowered Trillium](../../plants/large-flowered-trillium.md) (*Trillium grandiflorum*), which produces showy white flowers that gradually turn pink as they age. Other Minnesota trilliums include:
 
 - **Red Trillium** (*Trillium erectum*) — deep red-maroon flowers with an unpleasant scent that attracts fly pollinators
 - **Nodding Trillium** (*Trillium cernuum*) — white flowers that hang downward beneath the leaves
@@ -237,7 +245,7 @@ Hepatica is a wonderful indicator of spring's arrival. Look for it on south-faci
 
 ## Dutchman's Breeches
 
-Dutchman's Breeches (*Dicentra cucullaria*) is one of the most whimsically named spring ephemerals. Its white flowers hang upside down from an arching stem and look exactly like tiny pairs of old-fashioned pantaloons hung on a clothesline to dry.
+[Dutchman's Breeches](../../plants/dutchmans-breeches.md) (*Dicentra cucullaria*) is one of the most whimsically named spring ephemerals. Its white flowers hang upside down from an arching stem and look exactly like tiny pairs of old-fashioned pantaloons hung on a clothesline to dry.
 
 Key identification features:
 
@@ -249,7 +257,7 @@ Key identification features:
 
 Dutchman's Breeches grows from small, grain-like bulblets clustered underground. It is pollinated primarily by early-emerging queen bumblebees, which are among the few insects strong enough to pry open the flowers and reach the nectar hidden inside the spurs.
 
-A close relative, Squirrel Corn (*Dicentra canadensis*), blooms at the same time and in the same habitats. Squirrel Corn has heart-shaped flowers without the pronounced spurs, and its underground bulblets resemble kernels of corn.
+A close relative, [Squirrel Corn](../../plants/squirrel-corn.md) (*Dicentra canadensis*), blooms at the same time and in the same habitats. Squirrel Corn has heart-shaped flowers without the pronounced spurs, and its underground bulblets resemble kernels of corn.
 
 ## Wild Ginger
 
@@ -291,7 +299,7 @@ Jack-in-the-Pulpit has a remarkable ability to change sex. Young or stressed pla
 
 ## Solomon's Seal
 
-Solomon's Seal (*Polygonatum biflorum*) is an elegant woodland perennial with long, arching stems and pairs of small, bell-shaped flowers dangling beneath the leaves. It is one of the most graceful native plants for shade gardens.
+[Solomon's Seal](../../plants/solomons-seal.md) (*Polygonatum biflorum*) is an elegant woodland perennial with long, arching stems and pairs of small, bell-shaped flowers dangling beneath the leaves. It is one of the most graceful native plants for shade gardens.
 
 Key identification features:
 
@@ -302,7 +310,7 @@ Key identification features:
 - **Fruit** — dark blue-black berries in fall
 - **Habitat** — mesic to dry deciduous woodlands, forest edges
 
-A closely related species, False Solomon's Seal (*Maianthemum racemosum*), looks similar at first glance but has an entirely different flower arrangement — a fluffy plume of tiny white flowers at the tip of the stem rather than dangling bells along its length. Distinguishing these two is an excellent identification exercise.
+A closely related species, [False Solomon's Seal](../../plants/false-solomons-seal.md) (*Maianthemum racemosum*), looks similar at first glance but has an entirely different flower arrangement — a fluffy plume of tiny white flowers at the tip of the stem rather than dangling bells along its length. Distinguishing these two is an excellent identification exercise.
 
 The common name "Solomon's Seal" refers to the round scars left on the rhizome where previous years' stems were attached. These circular marks were thought to resemble the seal of King Solomon.
 
@@ -319,11 +327,11 @@ Key characteristics that distinguish ferns from flowering plants:
 
 Ferns thrive in the moist, shaded conditions found on the woodland floor. They are among the best plants for stabilizing soil on shaded slopes and filling the ground cover layer beneath trees. Some species are deciduous, dying back in winter, while others are semi-evergreen.
 
-Common woodland ferns in Minnesota include Maidenhair Fern, Lady Fern (*Athyrium filix-femina*), Christmas Fern (*Polystichum acrostichoides*), Ostrich Fern (*Matteuccia struthiopteris*), and Sensitive Fern (*Onoclea sensibilis*).
+Common woodland ferns in Minnesota include Maidenhair Fern, [Lady Fern](../../plants/lady-fern.md) (*Athyrium filix-femina*), [Christmas Fern](../../plants/christmas-fern.md) (*Polystichum acrostichoides*), [Ostrich Fern](../../plants/ostrich-fern.md) (*Matteuccia struthiopteris*), and [Sensitive Fern](../../plants/sensitive-fern.md) (*Onoclea sensibilis*).
 
 ## Maidenhair Fern
 
-Maidenhair Fern (*Adiantum pedatum*) is widely considered one of the most beautiful ferns in North America. Its delicate, fan-shaped fronds and distinctive dark, wiry stems make it immediately recognizable and a prized addition to shade gardens.
+[Maidenhair Fern](../../plants/maidenhair-fern.md) (*Adiantum pedatum*) is widely considered one of the most beautiful ferns in North America. Its delicate, fan-shaped fronds and distinctive dark, wiry stems make it immediately recognizable and a prized addition to shade gardens.
 
 Key identification features:
 
@@ -335,7 +343,7 @@ Key identification features:
 
 Maidenhair Fern is a slow-growing species that does not tolerate disturbance well. Finding it in a forest is a good indicator of stable, mature woodland conditions. In the garden, it needs consistent moisture and protection from drying winds. It pairs beautifully with spring ephemerals and other shade-loving woodland natives.
 
-The common name refers to the dark, hair-like stems, which were once compared to human hair. A related species, Southern Maidenhair (*Adiantum capillus-veneris*), does not occur in Minnesota.
+The common name refers to the dark, hair-like stems, which were once compared to human hair. A related species, [Southern Maidenhair](../../plants/southern-maidenhair.md) (*Adiantum capillus-veneris*), does not occur in Minnesota.
 
 ## Native Shrubs of the Woodland
 
@@ -427,7 +435,7 @@ Birch bark has been used for centuries by Indigenous peoples for canoe building,
 
 ## White Pine
 
-White Pine (*Pinus strobus*) is Minnesota's state tree and one of its most historically significant species. Before European settlement, vast White Pine forests covered much of northern Minnesota, with individual trees reaching 150 feet or more in height and 4 to 5 feet in diameter.
+[White Pine](../../plants/white-pine.md) (*Pinus strobus*) is Minnesota's state tree and one of its most historically significant species. Before European settlement, vast White Pine forests covered much of northern Minnesota, with individual trees reaching 150 feet or more in height and 4 to 5 feet in diameter.
 
 Key identification features:
 
@@ -495,7 +503,7 @@ Minnesota's native woodland vines include:
 
 - **Virginia Creeper** (*Parthenocissus quinquefolia*) — identified by its compound leaves with five leaflets (unlike Poison Ivy, which has three). Brilliant scarlet fall color. Berries are an important food source for songbirds.
 - **Wild Grape** (*Vitis riparia*) — vigorous climber with lobed leaves and clusters of small, tart grapes. Provides both fruit and dense nesting cover for birds.
-- **Bittersweet** (*Celastrus scandens*) — also called American Bittersweet. Twining vine with yellow-orange fruit capsules that split open to reveal bright red berries. Caution: the invasive Oriental Bittersweet (*Celastrus orbiculatus*) is often confused with the native species.
+- **Bittersweet** (*Celastrus scandens*) — also called American Bittersweet. Twining vine with yellow-orange fruit capsules that split open to reveal bright red berries. Caution: the invasive [Oriental Bittersweet](../../plants/oriental-bittersweet.md) (*Celastrus orbiculatus*) is often confused with the native species.
 - **Moonseed** (*Menispermum canadense*) — a twining vine with round, shield-shaped leaves and small blue-black fruits. All parts are poisonous.
 - **Hog Peanut** (*Amphicarpaea bracteata*) — a delicate, low-climbing vine in the bean family that produces both aerial seed pods and underground peanut-like seeds
 
@@ -505,7 +513,7 @@ Native vines provide important ecological value:
 - **Nesting habitat** — dense vine tangles provide protected nesting sites for songbirds
 - **Structural diversity** — vines add vertical complexity to the forest, connecting the ground cover layer to the canopy
 
-When identifying vines, remember the old saying: "Leaves of three, let it be." This refers to Poison Ivy (*Toxicodendron radicans*), which is native to Minnesota but causes allergic skin reactions in most people. Virginia Creeper's five leaflets and Wild Grape's single lobed leaf are your best visual cues for distinguishing them from Poison Ivy.
+When identifying vines, remember the old saying: "Leaves of three, let it be." This refers to [Poison Ivy](../../plants/poison-ivy.md) (*Toxicodendron radicans*), which is native to Minnesota but causes allergic skin reactions in most people. Virginia Creeper's five leaflets and Wild Grape's single lobed leaf are your best visual cues for distinguishing them from Poison Ivy.
 
 ## Chapter Summary
 

@@ -14,3 +14,4 @@ docs/learning-graph/learning-graph-schema.json
 
 # Plant gallery: keep species.json committed for reproducibility, ignore the backup
 .plant-gallery/species-all.json
+.claude/

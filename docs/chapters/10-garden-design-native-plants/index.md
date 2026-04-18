@@ -429,6 +429,14 @@ Pollinator gardens are designed specifically to support bees, butterflies, moths
 
 ### Essential Pollinator Plants for Minnesota
 
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/butterfly-milkweed.md" class="plant-gallery-card"><img src="../../plants/img/butterfly-milkweed-1.jpg" alt="Butterfly Milkweed"><div class="plant-gallery-caption">Butterfly Milkweed<br><em>Asclepias tuberosa</em></div></a>
+<a href="../../plants/wild-bergamot.md" class="plant-gallery-card"><img src="../../plants/img/wild-bergamot-1.jpg" alt="Wild Bergamot"><div class="plant-gallery-caption">Wild Bergamot<br><em>Monarda fistulosa</em></div></a>
+<a href="../../plants/blazing-star.md" class="plant-gallery-card"><img src="../../plants/img/blazing-star-1.jpg" alt="Blazing Star"><div class="plant-gallery-caption">Blazing Star<br><em>Liatris ligulistylis</em></div></a>
+<a href="../../plants/purple-coneflower.md" class="plant-gallery-card"><img src="../../plants/img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
+<a href="../../plants/wild-columbine.md" class="plant-gallery-card"><img src="../../plants/img/wild-columbine-1.jpg" alt="Wild Columbine"><div class="plant-gallery-caption">Wild Columbine<br><em>Aquilegia canadensis</em></div></a>
+</div>
+
 - **Milkweeds** (*Asclepias* species) — essential for Monarch butterflies
 - **Wild Bergamot** (*Monarda fistulosa*) — attracts a wide range of native bees
 - **Blazing Star** (*Liatris* species) — a magnet for Monarch butterflies during fall migration
@@ -470,10 +478,30 @@ Prairie gardens bring the drama and movement of Minnesota's vanishing grasslands
 
 ### Prairie Plant Communities
 
-Prairie plants fall into two broad categories:
+Prairie plants fall into two broad categories. **Grasses** should make up 30 to 50 percent of a prairie planting — they provide structure, movement, and winter interest. **Forbs** (non-grass flowering plants) provide the color and the nectar.
 
-- **Grasses** — Big Bluestem, Little Bluestem, Prairie Dropseed, Side-Oats Grama, Indian Grass. Grasses should make up 30 to 50 percent of a prairie planting by plant count. They provide the structure, movement, and winter interest that define the prairie aesthetic.
-- **Forbs** — all the non-grass flowering plants. Prairie Smoke, Purple Coneflower, Blazing Star, Black-Eyed Susan, Compass Plant, Wild Bergamot. Forbs provide the color and the nectar.
+**Prairie grasses — the backbone of the planting:**
+
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/big-bluestem.md" class="plant-gallery-card"><img src="../../plants/img/big-bluestem-1.jpg" alt="Big Bluestem"><div class="plant-gallery-caption">Big Bluestem<br><em>Andropogon gerardii</em></div></a>
+<a href="../../plants/little-bluestem.md" class="plant-gallery-card"><img src="../../plants/img/little-bluestem-1.jpg" alt="Little Bluestem"><div class="plant-gallery-caption">Little Bluestem<br><em>Schizachyrium scoparium</em></div></a>
+<a href="../../plants/prairie-dropseed.md" class="plant-gallery-card"><img src="../../plants/img/prairie-dropseed-1.jpg" alt="Prairie Dropseed"><div class="plant-gallery-caption">Prairie Dropseed<br><em>Sporobolus heterolepis</em></div></a>
+<a href="../../plants/indian-grass.md" class="plant-gallery-card"><img src="../../plants/img/indian-grass-1.jpg" alt="Indian Grass"><div class="plant-gallery-caption">Indian Grass<br><em>Sorghastrum nutans</em></div></a>
+<a href="../../plants/switchgrass.md" class="plant-gallery-card"><img src="../../plants/img/switchgrass-1.jpg" alt="Switchgrass"><div class="plant-gallery-caption">Switchgrass<br><em>Panicum virgatum</em></div></a>
+</div>
+
+Also consider: **Side-Oats Grama** (*Bouteloua curtipendula*).
+
+**Prairie forbs — the color palette:**
+
+<div class="plant-gallery-grid" markdown>
+<a href="../../plants/purple-coneflower.md" class="plant-gallery-card"><img src="../../plants/img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
+<a href="../../plants/black-eyed-susan.md" class="plant-gallery-card"><img src="../../plants/img/black-eyed-susan-1.jpg" alt="Black-Eyed Susan"><div class="plant-gallery-caption">Black-Eyed Susan<br><em>Rudbeckia hirta</em></div></a>
+<a href="../../plants/wild-bergamot.md" class="plant-gallery-card"><img src="../../plants/img/wild-bergamot-1.jpg" alt="Wild Bergamot"><div class="plant-gallery-caption">Wild Bergamot<br><em>Monarda fistulosa</em></div></a>
+<a href="../../plants/blazing-star.md" class="plant-gallery-card"><img src="../../plants/img/blazing-star-1.jpg" alt="Blazing Star"><div class="plant-gallery-caption">Blazing Star<br><em>Liatris ligulistylis</em></div></a>
+</div>
+
+Also consider: **Prairie Smoke** (*Geum triflorum*) and **Compass Plant** (*Silphium laciniatum*).
 
 ### Prairie Garden Sizes
 

@@ -200,7 +200,7 @@ This boundary is not a sharp line. It is a broad zone where patches of prairie a
 
 The prairie-forest border contains a unique blend of communities:
 
-- **Oak savannas** — open woodlands with widely spaced Bur Oak (*Quercus macrocarpa*) trees and a prairie grass understory
+- **Oak savannas** — open woodlands with widely spaced [Bur Oak](../../plants/bur-oak.md) (*Quercus macrocarpa*) trees and a prairie grass understory
 - **Brushland** — thickets of shrubs and small trees along waterways
 - **Mixed grassland-woodland mosaics** — patches of prairie and forest side by side
 
@@ -227,7 +227,7 @@ Minnesota's wetlands fall into several broad types:
 - **Wet meadows** — Seasonally flooded grasslands. The soil is saturated in spring but may dry out by midsummer. Home to sedges, rushes, and moisture-loving wildflowers.
 - **Bogs** — Acidic wetlands with a thick mat of sphagnum moss. Bogs receive water mainly from rain, making them nutrient-poor. They support specialized plants like pitcher plants and Labrador tea.
 - **Fens** — Groundwater-fed wetlands that are less acidic than bogs. Fens support a high diversity of sedges, grasses, and rare orchids.
-- **Swamps** — Forested wetlands dominated by trees like [Black Ash](../../plants/black-ash.md) (*Fraxinus nigra*), [Tamarack](../../plants/tamarack.md) (*Larix laricina*), or Northern White Cedar (*Thuja occidentalis*).
+- **Swamps** — Forested wetlands dominated by trees like [Black Ash](../../plants/black-ash.md) (*Fraxinus nigra*), [Tamarack](../../plants/tamarack.md) (*Larix laricina*), or [Northern White Cedar](../../plants/northern-white-cedar.md) (*Thuja occidentalis*).
 - **Floodplain forests** — Wooded areas along rivers that are periodically flooded, supporting [Silver Maple](../../plants/silver-maple.md) (*Acer saccharinum*) and cottonwoods.
 
 ### Why Wetlands Matter

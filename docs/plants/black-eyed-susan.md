@@ -23,10 +23,7 @@ Rudbeckia hirta, commonly called black-eyed Susan and yellow coneflower, is a No
 
 ## Mentioned In
 
-- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
-- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
-- [Planting Maintenance Sourcing](../chapters/11-planting-maintenance-sourcing/index.md)
 
 ## Image Credits
 
