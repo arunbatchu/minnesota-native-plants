@@ -1,4 +1,13 @@
 {
+  "Harmonia axyridis": {
+    "slug": "asian-lady-beetle",
+    "common_name": "Asian Lady Beetle",
+    "scientific_name": "Harmonia axyridis",
+    "mentioned_in": [
+      "06-pollinators-wildlife"
+    ],
+    "images": []
+  },
   "Andropogon gerardii": {
     "slug": "big-bluestem",
     "common_name": "Big Bluestem",
@@ -588,6 +597,33 @@
     "summary": "Oenothera biennis, the common evening-primrose, is a species of flowering plant in the family Onagraceae, native to eastern and central North America, from Newfoundland west to Alberta, southeast to Florida, and southwest to Texas, and widely naturalized elsewhere in temperate and subtropical regions. Evening primrose oil is produced from the plant.\nOther common names include evening star, sundrop, weedy evening primrose, German rampion, hog weed, King's cure-all and fever-plant.",
     "fetch_status": "ok"
   },
+  "Baptisia australis": {
+    "slug": "false-blue-indigo",
+    "common_name": "False Blue Indigo",
+    "scientific_name": "Baptisia australis",
+    "mentioned_in": [
+      "03-prairie-plants-grasslands"
+    ],
+    "images": [
+      {
+        "file": "plants/img/false-blue-indigo-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from eastern North America Common name: Blue Wild Indigo Photographed in Rock Creek Natural Area, Sharp County, Arkansas",
+        "source_title": "File:Baptisia australis.jpg"
+      },
+      {
+        "file": "plants/img/false-blue-indigo-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Baptisia australis0.jpg"
+      }
+    ],
+    "wikipedia_title": "Baptisia australis",
+    "summary": "Baptisia australis, commonly known as blue wild indigo or blue false indigo, is a flowering plant in the family Fabaceae (legumes). It is a perennial herb native to much of central and eastern North America and is particularly common in the Midwest, but it has also been introduced well beyond its natural range. Naturally it can be found growing wild at the borders of woods, along streams or in open meadows.",
+    "fetch_status": "ok"
+  },
   "Maianthemum racemosum": {
     "slug": "false-solomons-seal",
     "common_name": "False Solomon's Seal",
@@ -696,6 +732,33 @@
     ],
     "wikipedia_title": "Zizia aurea",
     "summary": "Zizia aurea (golden alexanders, golden zizia) is a flowering herbaceous perennial plant of the carrot family Apiaceae. It is native to eastern Canada and the United States, from the eastern Great Plains to the Atlantic Coast. The genus is named for Johann Baptist Ziz, a German botanist.",
+    "fetch_status": "ok"
+  },
+  "Cornus racemosa": {
+    "slug": "gray-dogwood",
+    "common_name": "Gray Dogwood",
+    "scientific_name": "Cornus racemosa",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/gray-dogwood-1.jpg",
+        "license": "Public domain",
+        "credit": "Elbert L. Little, Jr., of the U.S. Department of Agriculture, Forest Service, and others",
+        "description": "Natural distribution map for Cornus racemosa",
+        "source_title": "File:Cornus racemosa range map 1.png"
+      },
+      {
+        "file": "plants/img/gray-dogwood-2.jpg",
+        "license": "Public domain",
+        "credit": "Mitternacht90 at English Wikipedia",
+        "description": "Northern Swamp Dogwood berries",
+        "source_title": "File:Northern Swamp Dogwood berries.jpg"
+      }
+    ],
+    "wikipedia_title": "Cornus racemosa",
+    "summary": "Cornus racemosa, the northern swamp dogwood, gray dogwood, or panicle dogwood, is a shrubby plant native to southeastern Canada and the northeastern United States. It is a member of the dogwood genus Cornus and the family Cornaceae.",
     "fetch_status": "ok"
   },
   "Lobelia siphilitica": {
@@ -965,6 +1028,33 @@
     "summary": "Athyrium filix-femina, the lady fern or common lady-fern, is a large, feathery species of fern native to temperate Asia, Europe, and North Africa. It is often abundant (one of the more common ferns) in damp, shady woodland environments and is often grown for decoration.\nIts common names \"lady fern\" and \"female fern\" refer to how its reproductive structures (sori) are concealed in an inconspicuous \u2013 deemed \"female\" \u2013 manner on the frond.",
     "fetch_status": "ok"
   },
+  "Trillium grandiflorum": {
+    "slug": "large-flowered-trillium",
+    "common_name": "Large-flowered Trillium",
+    "scientific_name": "Trillium grandiflorum",
+    "mentioned_in": [
+      "04-woodland-forest-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/large-flowered-trillium-1.jpg",
+        "license": "Public domain",
+        "credit": "Simon Garbutt. SiGarb 20:53, 4 December 2006 (UTC)",
+        "description": "Flowers of a double-flowered cultivar of Trillium grandiflorum (probably either 'Flore Pleno' or 'Snowbunting') exhibited on a stall at the Journ\u00e9es de Plantes de Courson (French plant fair)",
+        "source_title": "File:Double Trillium grandiflorum.jpg"
+      },
+      {
+        "file": "plants/img/large-flowered-trillium-2.jpg",
+        "license": "CC BY-SA 2.5 ca",
+        "credit": "\u0421\u0421\u0421\u0420",
+        "description": "White trillium (Trillium grandiflorum) blooming in Backus Woods.",
+        "source_title": "File:Trillium grandiflorum at Backus Woods.jpg"
+      }
+    ],
+    "wikipedia_title": "Trillium grandiflorum",
+    "summary": "Trillium grandiflorum, the white trillium, large-flowered trillium, great white trillium, white wake-robin or French: trille blanc, is a species of flowering plant in the family Melanthiaceae. A monocotyledonous, herbaceous perennial, the plant is native to eastern North America, from northern Quebec to the southern parts of the United States through the Appalachian Mountains into northernmost Georgia and west to Minnesota. There are also several isolated populations in Nova Scotia, Maine, southern Illinois, and Iowa.",
+    "fetch_status": "ok"
+  },
   "Amorpha canescens": {
     "slug": "lead-plant",
     "common_name": "Lead Plant",
@@ -1086,33 +1176,6 @@
     "summary": "Adiantum pedatum, the northern maidenhair fern, is a species of fern in the family Pteridaceae, native to moist forests in eastern North America. Like other ferns in the genus, the name maidenhair refers to the slender, shining black stipes. Taxonomy classification disputes occur due to the distribution of A. Pedatum in both North America and East Asia.",
     "fetch_status": "ok"
   },
-  "Trillium grandiflorum": {
-    "slug": "large-flowered-trillium",
-    "common_name": "Large-flowered Trillium",
-    "scientific_name": "Trillium grandiflorum",
-    "mentioned_in": [
-      "04-woodland-forest-plants"
-    ],
-    "images": [
-      {
-        "file": "plants/img/large-flowered-trillium-1.jpg",
-        "license": "Public domain",
-        "credit": "Simon Garbutt. SiGarb 20:53, 4 December 2006 (UTC)",
-        "description": "Flowers of a double-flowered cultivar of Trillium grandiflorum (probably either 'Flore Pleno' or 'Snowbunting') exhibited on a stall at the Journ\u00e9es de Plantes de Courson (French plant fair)",
-        "source_title": "File:Double Trillium grandiflorum.jpg"
-      },
-      {
-        "file": "plants/img/large-flowered-trillium-2.jpg",
-        "license": "CC BY-SA 2.5 ca",
-        "credit": "\u0421\u0421\u0421\u0420",
-        "description": "White trillium (Trillium grandiflorum) blooming in Backus Woods.",
-        "source_title": "File:Trillium grandiflorum at Backus Woods.jpg"
-      }
-    ],
-    "wikipedia_title": "Trillium grandiflorum",
-    "summary": "Trillium grandiflorum, the white trillium, large-flowered trillium, great white trillium, white wake-robin or French: trille blanc, is a species of flowering plant in the family Melanthiaceae. A monocotyledonous, herbaceous perennial, the plant is native to eastern North America, from northern Quebec to the southern parts of the United States through the Appalachian Mountains into northernmost Georgia and west to Minnesota. There are also several isolated populations in Nova Scotia, Maine, southern Illinois, and Iowa.",
-    "fetch_status": "ok"
-  },
   "Typha angustifolia": {
     "slug": "narrow-leaved-cattail",
     "common_name": "Narrow-Leaved Cattail",
@@ -1165,6 +1228,33 @@
     ],
     "wikipedia_title": "Symphyotrichum novae-angliae",
     "summary": "Symphyotrichum novae-angliae (formerly Aster novae-angliae) is a species of flowering plant in the aster family (Asteraceae) native to central and eastern North America. Commonly known as New England aster, hairy Michaelmas-daisy, or Michaelmas daisy, it is a perennial, herbaceous plant usually between 30 and 120 centimeters (1 and 4 feet) tall and 60 to 90 cm (2 to 3 ft) wide.\nThe usually deep purple flowers have up to 100 ray florets which are rarely pink or white.",
+    "fetch_status": "ok"
+  },
+  "Physocarpus opulifolius": {
+    "slug": "ninebark",
+    "common_name": "Ninebark",
+    "scientific_name": "Physocarpus opulifolius",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/ninebark-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Anatoly Mikhaltsov",
+        "description": "Physocarpus opulifolius / Cross section of the stalk of Physocarpus opulifolius. Author's permanent product, author's polychrome coloring of tissues. A panorama of 32 frames. Light microscopy, bright field",
+        "source_title": "File:Physocarpus opulifolius.jpg"
+      },
+      {
+        "file": "plants/img/ninebark-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Nichole Ouellette",
+        "description": "Capitale-Nationale, Portneuf Regional County Municipality, Deschambault-Grondines (Municipality), Grondines (Sector), chemin des Anc\u00eatres, Wednesday, June 9, 2021.",
+        "source_title": "File:Physocarpus opulifolius 016.jpg"
+      }
+    ],
+    "wikipedia_title": "Physocarpus opulifolius",
+    "summary": "Physocarpus opulifolius,  known as common ninebark, Eastern ninebark, Atlantic ninebark, or simply ninebark, is a species of flowering plant in the rose family Rosaceae, native to eastern North America, named for its peeling multi-hued bark.",
     "fetch_status": "ok"
   },
   "Thuja occidentalis": {
@@ -1377,6 +1467,33 @@
     "summary": "Sporobolus heterolepis, commonly known as prairie dropseed, is a species of prairie grass native to the tallgrass and mixed grass prairies of central North America from Texas to southern Canada. It is also found further east,  to the Atlantic coast of the United States and Canada, but is much less common beyond the Great Plains and is restricted to specialized habitats. It is found in 27 states and four Canadian provinces.",
     "fetch_status": "ok"
   },
+  "Geum triflorum": {
+    "slug": "prairie-smoke",
+    "common_name": "Prairie Smoke",
+    "scientific_name": "Geum triflorum",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/prairie-smoke-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Matt Lavin from Bozeman, Montana, USA",
+        "description": "The achenes sit in the persistant hypanthium and bear plumose tails (modified styles).",
+        "source_title": "File:Geum triflorum (5088031442).jpg"
+      },
+      {
+        "file": "plants/img/prairie-smoke-2.jpg",
+        "license": "CC0",
+        "credit": "Patrick Alexander from Las Cruces, NM",
+        "description": "Geum triflorum, 13 miles east of Taos, 9 May 2007.",
+        "source_title": "File:Geum triflorum - Flickr - aspidoscelis (2).jpg"
+      }
+    ],
+    "wikipedia_title": "Geum triflorum",
+    "summary": "Geum triflorum, commonly known as prairie smoke, old man's whiskers, or three-flowered avens, is a spring-blooming perennial herbaceous plant of the Rosaceae family. It is a hemiboreal continental climate species that is widespread in colder and drier environments of western North America, although it does occur in isolated populations as far east as New York and Ontario. It is particularly known for the long feathery plumes on the seed heads that have inspired many of the regional common names and aid in wind dispersal of its seeds.",
+    "fetch_status": "ok"
+  },
   "Echinacea purpurea": {
     "slug": "purple-coneflower",
     "common_name": "Purple Coneflower",
@@ -1515,6 +1632,33 @@
     ],
     "wikipedia_title": "Onoclea sensibilis",
     "summary": "Onoclea sensibilis, the sensitive fern, also known as the bead fern, is a coarse-textured, medium to large-sized deciduous perennial fern. The name comes from its sensitivity to frost, the fronds dying quickly when first touched by it. It is sometimes treated as the only species in Onoclea, but some authors do not consider the genus monotypic.",
+    "fetch_status": "ok"
+  },
+  "Amelanchier laevis": {
+    "slug": "serviceberry",
+    "common_name": "Serviceberry",
+    "scientific_name": "Amelanchier laevis",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/serviceberry-1.jpg",
+        "license": "CC0",
+        "credit": "Dan Keck from Ohio",
+        "description": "Chadwick Arboretum and Learning Gardens Arboretum North The Ohio State University Columbus, Ohio",
+        "source_title": "File:Allegheny Serviceberry (41909182552).jpg"
+      },
+      {
+        "file": "plants/img/serviceberry-2.jpg",
+        "license": "Public domain",
+        "credit": "Robert H. Mohlenbrock",
+        "description": "Amelanchier laevis bark and leaf",
+        "source_title": "File:Amelanchier laevis.jpg"
+      }
+    ],
+    "wikipedia_title": "Amelanchier laevis",
+    "summary": "Amelanchier laevis, the smooth shadbush, smooth serviceberry or Allegheny serviceberry, is a North American species of tree in the rose family Rosaceae, growing up to 9 metres (30 ft) tall. It is native to eastern Canada and the eastern United States, from Newfoundland west to Ontario, Minnesota, and Iowa, south as far as Georgia and Alabama.",
     "fetch_status": "ok"
   },
   "Solidago speciosa": {

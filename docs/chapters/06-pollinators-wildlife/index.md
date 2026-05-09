@@ -228,7 +228,7 @@ Adult butterflies can sip nectar from many different flowers, but their caterpil
 - **Red Admiral** -- nettles (*Urtica* and *Boehmeria* species)
 - **Viceroy** -- willows (*Salix* species) and poplars
 - **Baltimore Checkerspot** -- [White Turtlehead](../../plants/white-turtlehead/) (*Chelone glabra*)
-- **Karner Blue** -- Wild Lupine (*Lupinus perennis*) only
+- **Karner Blue** -- [Wild Lupine](../../plants/wild-lupine.md) (*Lupinus perennis*) only
 
 Test your knowledge of pollinator-plant relationships by matching pollinator species to their preferred native host and nectar plants.
 
@@ -480,7 +480,7 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 
 - [Pasque Flower](../../plants/pasque-flower/) (*Anemone patens*) -- one of the very first prairie blooms
 - [Virginia Bluebells](../../plants/virginia-bluebells/) (*Mertensia virginica*)
-- Wild Columbine (*Aquilegia canadensis*)
+- [Wild Columbine](../../plants/wild-columbine.md) (*Aquilegia canadensis*)
 - [Golden Alexanders](../../plants/golden-alexanders/) (*Zizia aurea*)
 
 **Late Spring (May-June):**
@@ -491,7 +491,7 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 
 **Early Summer (June-July):**
 
-- Wild Bergamot (*Monarda fistulosa*)
+- [Wild Bergamot](../../plants/wild-bergamot.md) (*Monarda fistulosa*)
 - [Butterfly Milkweed](../../plants/butterfly-milkweed/) (*Asclepias tuberosa*)
 - [Purple Coneflower](../../plants/purple-coneflower/) (*Echinacea purpurea*)
 - [Black-Eyed Susan](../../plants/black-eyed-susan/) (*Rudbeckia hirta*)
@@ -501,7 +501,7 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 - Joe-Pye Weed (*Eutrochium maculatum*)
 - [Blazing Star](../../plants/blazing-star/) (*Liatris ligulistylis*) -- a monarch magnet
 - [Cup Plant](../../plants/cup-plant/) (*Silphium perfoliatum*)
-- Common Milkweed (*Asclepias syriaca*)
+- [Common Milkweed](../../plants/common-milkweed.md) (*Asclepias syriaca*)
 
 **Late Summer (August-September):**
 

@@ -211,7 +211,7 @@ One of the most rewarding aspects of native garden design is planning for contin
 <a href="../../plants/golden-alexanders/" class="plant-gallery-card"><img src="../../plants/img/golden-alexanders-1.jpg" alt="Golden Alexanders"><div class="plant-gallery-caption">Golden Alexanders<br><em>Zizia aurea</em></div></a>
 </div>
 
-Also blooming in spring: **Prairie Smoke** (*Geum triflorum*)
+Also blooming in spring: [Prairie Smoke](../../plants/prairie-smoke.md) (*Geum triflorum*)
 
 ### Early Summer (June to July)
 
@@ -355,7 +355,7 @@ Nature does not plant in rows. In a forest or prairie, plants grow at multiple h
 - **Ground layer** (0 to 6 inches) — mosses, Wild Strawberry, sedges, and creeping ground covers
 - **Herbaceous layer** (6 inches to 3 feet) — the bulk of your wildflowers and short grasses
 - **Tall herbaceous layer** (3 to 6 feet) — Joe-Pye Weed, Cup Plant, Big Bluestem, tall asters
-- **Shrub layer** (3 to 15 feet) — Dogwood, Ninebark, Serviceberry, Elderberry
+- **Shrub layer** (3 to 15 feet) — [Gray Dogwood](../../plants/gray-dogwood.md) (*Cornus racemosa*), [Ninebark](../../plants/ninebark.md) (*Physocarpus opulifolius*), [Serviceberry](../../plants/serviceberry.md) (*Amelanchier laevis*), Elderberry. These four are foundational native shrubs for residential design — Serviceberry offers four-season interest with white spring bloom, June berries, and fiery fall color; Ninebark provides architectural form and exfoliating winter bark; Gray Dogwood produces white berries on red pedicels that birds strip in fall.
 - **Canopy layer** (over 15 feet) — trees such as Bur Oak, Paper Birch, or Ironwood
 
 Not every garden will include all five layers. A small prairie planting may only use the ground, herbaceous, and tall herbaceous layers. A woodland garden may use all five. The key is to think vertically, not just horizontally.

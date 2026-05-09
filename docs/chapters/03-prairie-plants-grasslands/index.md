@@ -565,6 +565,7 @@ In this chapter, you learned:
 - **Cool-season grasses** (Canada Wild Rye, June Grass, Porcupine Grass) complement warm-season grasses by growing in spring and fall
 - **Prairie wildflowers** bloom in overlapping waves from spring through fall, supporting pollinators continuously
 - Key wildflowers include **Purple Coneflower**, **Black-Eyed Susan**, **Wild Bergamot**, **Blazing Star**, **Prairie Clover**, **Goldenrod**, **Aster**, and **Milkweed** species
+- Long-lived structural forbs such as [False Blue Indigo](../../plants/false-blue-indigo.md) (*Baptisia australis*) anchor the prairie composition for decades — slow to establish but nearly indestructible once rooted
 - **Prairie sedges** contribute ground cover and habitat in wet and mesic prairies
 - **Prairie soils** are among the richest on Earth, built by thousands of years of root growth and decomposition
 - **Prairie root systems** extend many feet underground, storing carbon, filtering water, and surviving drought and fire

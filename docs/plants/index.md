@@ -1,13 +1,14 @@
-# Minnesota Native Plant Gallery
+# Native Plant Gallery
 
 Click any plant to see photos, growing conditions, and the chapters that mention it.
 
-_90 species in this gallery._
+_96 species in this gallery._
 
 ## All Species
 
 | Plant | Scientific Name | Mentioned In |
 |-------|-----------------|--------------|
+| [Asian Lady Beetle](asian-lady-beetle.md) | *Harmonia axyridis* | 06 |
 | [Big Bluestem](big-bluestem.md) | *Andropogon gerardii* | 03, 05 |
 | [Black Ash](black-ash.md) | *Fraxinus nigra* | 02, 08 |
 | [Black-Eyed Susan](black-eyed-susan.md) | *Rudbeckia hirta* | 06 |
@@ -30,10 +31,12 @@ _90 species in this gallery._
 | [Elderberry](elderberry.md) | *Sambucus canadensis* | 05 |
 | [Emerald Ash Borer](emerald-ash-borer.md) | *Agrilus planipennis* | 08 |
 | [Evening Primrose](evening-primrose.md) | *Oenothera biennis* | 06 |
+| [False Blue Indigo](false-blue-indigo.md) | *Baptisia australis* | 03 |
 | [False Solomon's Seal](false-solomons-seal.md) | *Maianthemum racemosum* | 04 |
 | [Garlic Mustard](garlic-mustard.md) | *Alliaria petiolata* | 09 |
 | [Glossy Buckthorn](glossy-buckthorn.md) | *Frangula alnus* | 08 |
 | [Golden Alexanders](golden-alexanders.md) | *Zizia aurea* | 06, 07, 10 |
+| [Gray Dogwood](gray-dogwood.md) | *Cornus racemosa* | 10 |
 | [Great Blue Lobelia](great-blue-lobelia.md) | *Lobelia siphilitica* | 05, 06, 10 |
 | [Green Ash](green-ash.md) | *Fraxinus pennsylvanica* | 08 |
 | [Indian Grass](indian-grass.md) | *Sorghastrum nutans* | 03 |
@@ -52,6 +55,7 @@ _90 species in this gallery._
 | [Maidenhair Fern](maidenhair-fern.md) | *Adiantum pedatum* | 04 |
 | [Narrow-Leaved Cattail](narrow-leaved-cattail.md) | *Typha angustifolia* | 07 |
 | [New England Aster](new-england-aster.md) | *Symphyotrichum novae-angliae* | 06 |
+| [Ninebark](ninebark.md) | *Physocarpus opulifolius* | 10 |
 | [Northern White Cedar](northern-white-cedar.md) | *Thuja occidentalis* | 02 |
 | [Oriental Bittersweet](oriental-bittersweet.md) | *Celastrus orbiculatus* | 04 |
 | [Ostrich Fern](ostrich-fern.md) | *Matteuccia struthiopteris* | 04 |
@@ -60,12 +64,14 @@ _90 species in this gallery._
 | [Poison Ivy](poison-ivy.md) | *Toxicodendron radicans* | 04 |
 | [Porcelain Berry](porcelain-berry.md) | *Ampelopsis brevipedunculata* | 07 |
 | [Prairie Dropseed](prairie-dropseed.md) | *Sporobolus heterolepis* | 03 |
+| [Prairie Smoke](prairie-smoke.md) | *Geum triflorum* | 10 |
 | [Purple Coneflower](purple-coneflower.md) | *Echinacea purpurea* | 06 |
 | [Purple Loosestrife](purple-loosestrife.md) | *Lythrum salicaria* | 08 |
 | [Purple Prairie Clover](purple-prairie-clover.md) | *Dalea purpurea* | 03 |
 | [Red-osier Dogwood](red-osier-dogwood.md) | *Cornus sericea* | 05 |
 | [Reed Canary Grass](reed-canary-grass.md) | *Phalaris arundinacea* | 08 |
 | [Sensitive Fern](sensitive-fern.md) | *Onoclea sensibilis* | 04 |
+| [Serviceberry](serviceberry.md) | *Amelanchier laevis* | 10 |
 | [Showy Goldenrod](showy-goldenrod.md) | *Solidago speciosa* | 06 |
 | [Silver Maple](silver-maple.md) | *Acer saccharinum* | 02, 05 |
 | [Smooth Blue Aster](smooth-blue-aster.md) | *Symphyotrichum laeve* | 06, 10 |
@@ -125,10 +131,12 @@ _90 species in this gallery._
 <a href="elderberry.md" class="plant-gallery-card"><img src="img/elderberry-1.jpg" alt="Elderberry"><div class="plant-gallery-caption">Elderberry<br><em>Sambucus canadensis</em></div></a>
 <a href="emerald-ash-borer.md" class="plant-gallery-card"><img src="img/emerald-ash-borer-1.jpg" alt="Emerald Ash Borer"><div class="plant-gallery-caption">Emerald Ash Borer<br><em>Agrilus planipennis</em></div></a>
 <a href="evening-primrose.md" class="plant-gallery-card"><img src="img/evening-primrose-1.jpg" alt="Evening Primrose"><div class="plant-gallery-caption">Evening Primrose<br><em>Oenothera biennis</em></div></a>
+<a href="false-blue-indigo.md" class="plant-gallery-card"><img src="img/false-blue-indigo-1.jpg" alt="False Blue Indigo"><div class="plant-gallery-caption">False Blue Indigo<br><em>Baptisia australis</em></div></a>
 <a href="false-solomons-seal.md" class="plant-gallery-card"><img src="img/false-solomons-seal-1.jpg" alt="False Solomon's Seal"><div class="plant-gallery-caption">False Solomon's Seal<br><em>Maianthemum racemosum</em></div></a>
 <a href="garlic-mustard.md" class="plant-gallery-card"><img src="img/garlic-mustard-1.jpg" alt="Garlic Mustard"><div class="plant-gallery-caption">Garlic Mustard<br><em>Alliaria petiolata</em></div></a>
 <a href="glossy-buckthorn.md" class="plant-gallery-card"><img src="img/glossy-buckthorn-1.jpg" alt="Glossy Buckthorn"><div class="plant-gallery-caption">Glossy Buckthorn<br><em>Frangula alnus</em></div></a>
 <a href="golden-alexanders.md" class="plant-gallery-card"><img src="img/golden-alexanders-1.jpg" alt="Golden Alexanders"><div class="plant-gallery-caption">Golden Alexanders<br><em>Zizia aurea</em></div></a>
+<a href="gray-dogwood.md" class="plant-gallery-card"><img src="img/gray-dogwood-1.jpg" alt="Gray Dogwood"><div class="plant-gallery-caption">Gray Dogwood<br><em>Cornus racemosa</em></div></a>
 <a href="great-blue-lobelia.md" class="plant-gallery-card"><img src="img/great-blue-lobelia-1.jpg" alt="Great Blue Lobelia"><div class="plant-gallery-caption">Great Blue Lobelia<br><em>Lobelia siphilitica</em></div></a>
 <a href="green-ash.md" class="plant-gallery-card"><img src="img/green-ash-1.jpg" alt="Green Ash"><div class="plant-gallery-caption">Green Ash<br><em>Fraxinus pennsylvanica</em></div></a>
 <a href="indian-grass.md" class="plant-gallery-card"><img src="img/indian-grass-1.jpg" alt="Indian Grass"><div class="plant-gallery-caption">Indian Grass<br><em>Sorghastrum nutans</em></div></a>
@@ -147,6 +155,7 @@ _90 species in this gallery._
 <a href="maidenhair-fern.md" class="plant-gallery-card"><img src="img/maidenhair-fern-1.jpg" alt="Maidenhair Fern"><div class="plant-gallery-caption">Maidenhair Fern<br><em>Adiantum pedatum</em></div></a>
 <a href="narrow-leaved-cattail.md" class="plant-gallery-card"><img src="img/narrow-leaved-cattail-1.jpg" alt="Narrow-Leaved Cattail"><div class="plant-gallery-caption">Narrow-Leaved Cattail<br><em>Typha angustifolia</em></div></a>
 <a href="new-england-aster.md" class="plant-gallery-card"><img src="img/new-england-aster-1.jpg" alt="New England Aster"><div class="plant-gallery-caption">New England Aster<br><em>Symphyotrichum novae-angliae</em></div></a>
+<a href="ninebark.md" class="plant-gallery-card"><img src="img/ninebark-1.jpg" alt="Ninebark"><div class="plant-gallery-caption">Ninebark<br><em>Physocarpus opulifolius</em></div></a>
 <a href="northern-white-cedar.md" class="plant-gallery-card"><img src="img/northern-white-cedar-1.jpg" alt="Northern White Cedar"><div class="plant-gallery-caption">Northern White Cedar<br><em>Thuja occidentalis</em></div></a>
 <a href="oriental-bittersweet.md" class="plant-gallery-card"><img src="img/oriental-bittersweet-1.jpg" alt="Oriental Bittersweet"><div class="plant-gallery-caption">Oriental Bittersweet<br><em>Celastrus orbiculatus</em></div></a>
 <a href="ostrich-fern.md" class="plant-gallery-card"><img src="img/ostrich-fern-1.jpg" alt="Ostrich Fern"><div class="plant-gallery-caption">Ostrich Fern<br><em>Matteuccia struthiopteris</em></div></a>
@@ -155,11 +164,13 @@ _90 species in this gallery._
 <a href="poison-ivy.md" class="plant-gallery-card"><img src="img/poison-ivy-1.jpg" alt="Poison Ivy"><div class="plant-gallery-caption">Poison Ivy<br><em>Toxicodendron radicans</em></div></a>
 <a href="porcelain-berry.md" class="plant-gallery-card"><img src="img/porcelain-berry-1.jpg" alt="Porcelain Berry"><div class="plant-gallery-caption">Porcelain Berry<br><em>Ampelopsis brevipedunculata</em></div></a>
 <a href="prairie-dropseed.md" class="plant-gallery-card"><img src="img/prairie-dropseed-1.jpg" alt="Prairie Dropseed"><div class="plant-gallery-caption">Prairie Dropseed<br><em>Sporobolus heterolepis</em></div></a>
+<a href="prairie-smoke.md" class="plant-gallery-card"><img src="img/prairie-smoke-1.jpg" alt="Prairie Smoke"><div class="plant-gallery-caption">Prairie Smoke<br><em>Geum triflorum</em></div></a>
 <a href="purple-coneflower.md" class="plant-gallery-card"><img src="img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
 <a href="purple-loosestrife.md" class="plant-gallery-card"><img src="img/purple-loosestrife-1.jpg" alt="Purple Loosestrife"><div class="plant-gallery-caption">Purple Loosestrife<br><em>Lythrum salicaria</em></div></a>
 <a href="purple-prairie-clover.md" class="plant-gallery-card"><img src="img/purple-prairie-clover-1.jpg" alt="Purple Prairie Clover"><div class="plant-gallery-caption">Purple Prairie Clover<br><em>Dalea purpurea</em></div></a>
 <a href="red-osier-dogwood.md" class="plant-gallery-card"><img src="img/red-osier-dogwood-1.jpg" alt="Red-osier Dogwood"><div class="plant-gallery-caption">Red-osier Dogwood<br><em>Cornus sericea</em></div></a>
 <a href="sensitive-fern.md" class="plant-gallery-card"><img src="img/sensitive-fern-1.jpg" alt="Sensitive Fern"><div class="plant-gallery-caption">Sensitive Fern<br><em>Onoclea sensibilis</em></div></a>
+<a href="serviceberry.md" class="plant-gallery-card"><img src="img/serviceberry-1.jpg" alt="Serviceberry"><div class="plant-gallery-caption">Serviceberry<br><em>Amelanchier laevis</em></div></a>
 <a href="showy-goldenrod.md" class="plant-gallery-card"><img src="img/showy-goldenrod-1.jpg" alt="Showy Goldenrod"><div class="plant-gallery-caption">Showy Goldenrod<br><em>Solidago speciosa</em></div></a>
 <a href="silver-maple.md" class="plant-gallery-card"><img src="img/silver-maple-1.jpg" alt="Silver Maple"><div class="plant-gallery-caption">Silver Maple<br><em>Acer saccharinum</em></div></a>
 <a href="smooth-blue-aster.md" class="plant-gallery-card"><img src="img/smooth-blue-aster-1.jpg" alt="Smooth Blue Aster"><div class="plant-gallery-caption">Smooth Blue Aster<br><em>Symphyotrichum laeve</em></div></a>
