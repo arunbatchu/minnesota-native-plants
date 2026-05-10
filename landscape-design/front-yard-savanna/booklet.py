@@ -31,7 +31,8 @@ Section order:
 from __future__ import annotations
 
 from pathlib import Path
-from reportlab.lib.pagesizes import letter
+from contextlib import contextmanager
+from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib.units import inch
 from reportlab.lib.colors import HexColor
 from reportlab.pdfgen import canvas as rl_canvas
@@ -85,6 +86,29 @@ def _register_fonts() -> tuple[str, str, str, str]:
 
 
 F_SERIF, F_SERIF_B, F_SANS, F_SANS_B = _register_fonts()
+
+
+# ============================================================
+# Landscape orientation context — for image-heavy pages.
+# Mutates module-level PAGE_W/PAGE_H so the existing helpers
+# (_content_box, _page_chrome, _fill_paper) Just Work.
+# ============================================================
+
+@contextmanager
+def landscape_orientation(c):
+    """Switch the canvas (and module-level dimensions) to landscape
+    letter for the duration of the with-block. Restores portrait on exit.
+    """
+    global PAGE_W, PAGE_H
+    portrait_w, portrait_h = PAGE_W, PAGE_H
+    landscape_w, landscape_h = landscape(letter)
+    c.setPageSize((landscape_w, landscape_h))
+    PAGE_W, PAGE_H = landscape_w, landscape_h
+    try:
+        yield
+    finally:
+        PAGE_W, PAGE_H = portrait_w, portrait_h
+        c.setPageSize((portrait_w, portrait_h))
 
 
 # ============================================================
@@ -1048,40 +1072,44 @@ def build():
     c.showPage()
 
     page = 6
-    page_full_image(c, page,
-        ANNOTATED / "site-plan.png",
-        section="Site Plan", kicker="03 — Site Plan",
-        title="Top-down master drawing",
-        caption="Scale 1\" = 4 ft. North up. Curved bed expands forward "
-                "into the lawn, deepest at the west third where the bench "
-                "pocket lives. The vegetated swale (steel blue) replaces "
-                "the river-rock channel.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "site-plan.png",
+            section="Site Plan", kicker="03 — Site Plan",
+            title="Top-down master drawing",
+            caption="Scale 1\" = 4 ft. North up. Curved bed expands forward "
+                    "into the lawn, deepest at the west third where the "
+                    "bench pocket lives. The vegetated swale (steel blue) "
+                    "replaces the river-rock channel.")
+        c.showPage()
 
     page = 7
-    page_full_image(c, page,
-        ANNOTATED / "sections.png",
-        section="Cross-Sections", kicker="04 — Cross-Sections",
-        title="Side views, three cuts",
-        caption="A: through the west third — Serviceberry over bench, "
-                "tiered prairie forbs out to the lawn edge.  B: through "
-                "the center bed — Ninebarks pruned LOW so the bay-window "
-                "sightline at ~4.5 ft AGL stays open.  C: through the "
-                "vegetated swale — three moisture bands; sedges and "
-                "rushes armor the channel; biodegradable blanket year 1.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "sections.png",
+            section="Cross-Sections", kicker="04 — Cross-Sections",
+            title="Side views, three cuts",
+            caption="A: through the west third — Serviceberry over bench, "
+                    "tiered prairie forbs out to the lawn edge.  B: through "
+                    "the center bed — Ninebarks pruned LOW so the bay-"
+                    "window sightline at ~4.5 ft AGL stays open.  C: "
+                    "through the vegetated swale — three moisture bands; "
+                    "sedges and rushes armor the channel; biodegradable "
+                    "blanket year 1.")
+        c.showPage()
 
     page = 8
-    page_full_image(c, page,
-        ANNOTATED / "construction-details.png",
-        section="Construction Details", kicker="05 — Construction Details",
-        title="Path, bench pad, edges",
-        caption="Detail 1: stepping-stone bed prep — 4\" Class 5 base, "
-                "2\" screenings.  Detail 2: bench pad on pea gravel.  "
-                "Detail 3: trench-cut edge — soft, naturalistic, "
-                "re-cut each spring.  Detail 4: fieldstone mowing strip "
-                "as a low-maintenance alternative.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "construction-details.png",
+            section="Construction Details", kicker="05 — Construction Details",
+            title="Path, bench pad, edges",
+            caption="Detail 1: stepping-stone bed prep — 4\" Class 5 base, "
+                    "2\" screenings.  Detail 2: bench pad on pea gravel.  "
+                    "Detail 3: trench-cut edge — soft, naturalistic, "
+                    "re-cut each spring.  Detail 4: fieldstone mowing strip "
+                    "as a low-maintenance alternative.")
+        c.showPage()
 
     page = 9
     page_notes(c, page,
@@ -1099,15 +1127,16 @@ def build():
     c.showPage()
 
     page = 12
-    page_full_image(c, page,
-        ANNOTATED / "bloom-gantt.png",
-        section="Bloom Calendar", kicker="07 — Bloom Calendar",
-        title="Continuous bloom April → November",
-        caption="18 species; no gap month. The garden is in bloom from "
-                "Serviceberry's April white through Cardinal Flower's "
-                "September red — and then Bluestem and seedheads carry "
-                "winter.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "bloom-gantt.png",
+            section="Bloom Calendar", kicker="07 — Bloom Calendar",
+            title="Continuous bloom April → November",
+            caption="18 species; no gap month. The garden is in bloom from "
+                    "Serviceberry's April white through Cardinal Flower's "
+                    "September red — and then Bluestem and seedheads carry "
+                    "winter.")
+        c.showPage()
 
     page = 13
     page_notes(c, page,
@@ -1117,74 +1146,82 @@ def build():
     c.showPage()
 
     page = 14
-    page_full_image(c, page,
-        ANNOTATED / "render-year1.png",
-        section="Year 1", kicker="08 — Year 1",
-        title="The day after planting",
-        caption="Honest expectation-setting. Visible mulch and bare soil "
-                "between plants. Plants installed at 1-quart and 1-gal "
-                "container size. Most forbs won't bloom heavily this "
-                "first season — root establishment.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "render-year1.png",
+            section="Year 1", kicker="08 — Year 1",
+            title="The day after planting",
+            caption="Honest expectation-setting. Visible mulch and bare "
+                    "soil between plants. Plants installed at 1-quart and "
+                    "1-gal container size. Most forbs won't bloom heavily "
+                    "this first season — root establishment.")
+        c.showPage()
 
     page = 15
-    page_full_image(c, page,
-        ANNOTATED / "render-year3.png",
-        section="Year 3", kicker="09 — Year 3",
-        title="Established",
-        caption="Drifts have filled in. Most forbs bloom on schedule. "
-                "Pollinator populations have discovered the garden. "
-                "Bluestem and Dropseed are at three-quarters mature size.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "render-year3.png",
+            section="Year 3", kicker="09 — Year 3",
+            title="Established",
+            caption="Drifts have filled in. Most forbs bloom on schedule. "
+                    "Pollinator populations have discovered the garden. "
+                    "Bluestem and Dropseed are at three-quarters mature "
+                    "size.")
+        c.showPage()
 
     page = 16
-    page_full_image(c, page,
-        ANNOTATED / "render-year5.png",
-        section="Year 5", kicker="10 — Year 5",
-        title="Matured",
-        caption="Late-afternoon August. Cardinal Flower in red bloom. "
-                "Ninebarks at full height; Serviceberry casting dappled "
-                "shade. The look is wild and intentional — clearly "
-                "designed but no longer maintained-looking. "
-                "Self-seeded Black-eyed Susan has filled small gaps.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "render-year5.png",
+            section="Year 5", kicker="10 — Year 5",
+            title="Matured",
+            caption="Late-afternoon August. Cardinal Flower in red bloom. "
+                    "Ninebarks at full height; Serviceberry casting dappled "
+                    "shade. The look is wild and intentional — clearly "
+                    "designed but no longer maintained-looking. "
+                    "Self-seeded Black-eyed Susan has filled small gaps.")
+        c.showPage()
 
     page = 17
-    page_full_image(c, page,
-        ANNOTATED / "render-year3_spring.png",
-        section="Year 3 — Spring", kicker="09b — Year 3, May",
-        title="The spring wave",
-        caption="Mid-May. Wild Lupine in violet-blue, Prairie Smoke "
-                "groundcover in dusty pink, Baptisia just emerging. "
-                "Serviceberry leafing out. Ninebarks budding. The "
-                "vegetated swale is filling with fresh sedge growth. "
-                "Different mood, same garden, three months earlier.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "render-year3_spring.png",
+            section="Year 3 — Spring", kicker="09b — Year 3, May",
+            title="The spring wave",
+            caption="Mid-May. Wild Lupine in violet-blue, Prairie Smoke "
+                    "groundcover in dusty pink, Baptisia just emerging. "
+                    "Serviceberry leafing out. Ninebarks budding. The "
+                    "vegetated swale is filling with fresh sedge growth. "
+                    "Different mood, same garden, three months earlier.")
+        c.showPage()
 
     page = 18
-    page_full_image(c, page,
-        ANNOTATED / "render-year3_with_bench.png",
-        section="Bench in Place", kicker="10b — Year 3, the bench",
-        title="What the seating pocket feels like",
-        caption="Closer view of the west-third bench pocket. Weathered "
-                "cedar bench under the Serviceberry, surrounded on three "
-                "sides by Wild Bergamot and Cardinal Flower. Stepping-"
-                "stone path entering from the right. Late afternoon golden "
-                "side light. This is the room you sit in.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "render-year3_with_bench.png",
+            section="Bench in Place", kicker="10b — Year 3, the bench",
+            title="What the seating pocket feels like",
+            caption="Closer view of the west-third bench pocket. Weathered "
+                    "cedar bench under the Serviceberry, surrounded on "
+                    "three sides by Wild Bergamot and Cardinal Flower. "
+                    "Stepping-stone path entering from the right. Late "
+                    "afternoon golden side light. This is the room you "
+                    "sit in.")
+        c.showPage()
 
     page = 19
-    page_full_image(c, page,
-        ANNOTATED / "render-vignette.png",
-        section="Bench Vignette", kicker="11 — Bench Vignette",
-        title="An afternoon at the seat",
-        caption="Weathered cedar bench tucked under the Serviceberry. "
-                "Wild Bergamot left, Purple Coneflower right, Butterfly "
-                "Milkweed in front with a Monarch resting on it. "
-                "Stepping-stone path emerging from the right. "
-                "Dappled afternoon light. This is what we're building "
-                "toward.")
-    c.showPage()
+    with landscape_orientation(c):
+        page_full_image(c, page,
+            ANNOTATED / "render-vignette.png",
+            section="Bench Vignette", kicker="11 — Bench Vignette",
+            title="An afternoon at the seat",
+            caption="Weathered cedar bench tucked under the Serviceberry. "
+                    "Wild Bergamot left, Purple Coneflower right, "
+                    "Butterfly Milkweed in front with a Monarch resting "
+                    "on it. Stepping-stone path emerging from the right. "
+                    "Dappled afternoon light. This is what we're building "
+                    "toward.")
+        c.showPage()
 
     page = 20
     page_notes(c, page,
