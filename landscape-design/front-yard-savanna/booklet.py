@@ -429,7 +429,6 @@ def page_title_and_contents(c):
         ("10", "Year 5",                          "How it looks matured"),
         ("·",  "    Year 3 — May spring",         "Lupine, Baptisia, Prairie Smoke"),
         ("·",  "    Bench in place",              "Closer view of the seating pocket"),
-        ("11", "Bench Vignette",                  "An afternoon at the seat"),
         ("",   "Notes",                           ""),
         ("12", "Mood Board",                      "Gardens to visit, "
                                                   "references"),
@@ -884,8 +883,8 @@ def page_maintenance_risk(c, page_num: int):
 
 def page_back_cover(c, page_num: int):
     _fill_paper(c)
-    # Subtle vignette image at top
-    hero = ANNOTATED / "render-vignette.png"
+    # Wide aspirational image — the actual scene at maturity
+    hero = ANNOTATED / "render-year5.png"
     if hero.exists():
         c.drawImage(str(hero), 0, PAGE_H * 0.45,
                     width=PAGE_W, height=PAGE_H * 0.55,
@@ -1226,19 +1225,10 @@ def build():
                     "sit in.")
         c.showPage()
 
-    page = 19
-    with landscape_orientation(c):
-        page_full_image(c, page,
-            ANNOTATED / "render-vignette.png",
-            section="Bench Vignette", kicker="11 — Bench Vignette",
-            title="An afternoon at the seat",
-            caption="Weathered cedar bench tucked under the Serviceberry. "
-                    "Wild Bergamot left, Purple Coneflower right, "
-                    "Butterfly Milkweed in front with a Monarch resting "
-                    "on it. Stepping-stone path emerging from the right. "
-                    "Dappled afternoon light. This is what we're building "
-                    "toward.")
-        c.showPage()
+    # Page 19 (Bench Vignette) removed — the rendered close-up was a
+    # generic prairie-bench shot disconnected from the actual scene.
+    # The bench-in-place shot on page 18 already shows the bench
+    # correctly grounded in the front yard, so we don't need a second.
 
     page = 20
     page_notes(c, page,
