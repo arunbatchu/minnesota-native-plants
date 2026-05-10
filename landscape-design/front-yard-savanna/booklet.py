@@ -218,9 +218,13 @@ def _draw_paragraph(c, text: str, x: float, y: float, w: float,
 
 def _draw_image_fit(c, path: Path, x: float, y: float, w: float, h: float,
                     caption: str | None = None,
-                    caption_height: float = 0.4 * inch):
+                    caption_height: float = 0.4 * inch,
+                    rotate: int = 0):
     """Draw an image scaled to fit (preserving aspect) in the box,
-    optionally with a caption below."""
+    optionally with a caption below.
+
+    rotate: degrees counter-clockwise. Use -90 or 270 for "lay sideways
+    so the long axis runs top-to-bottom" (book turned 90° CW to read)."""
     if not path.exists():
         c.setFillColor(HexColor("#f4cccc"))
         c.rect(x, y, w, h, fill=1, stroke=1)
@@ -231,6 +235,8 @@ def _draw_image_fit(c, path: Path, x: float, y: float, w: float, h: float,
         return
 
     img = PILImage.open(path)
+    if rotate:
+        img = img.rotate(rotate, expand=True, resample=PILImage.BICUBIC)
     iw, ih = img.size
     img_h_for_box = h - (caption_height if caption else 0)
     aspect = iw / ih
@@ -243,9 +249,16 @@ def _draw_image_fit(c, path: Path, x: float, y: float, w: float, h: float,
         draw_w = img_h_for_box * aspect
     draw_x = x + (w - draw_w) / 2
     draw_y = y + (img_h_for_box - draw_h) + (caption_height if caption else 0)
-    c.drawImage(str(path), draw_x, draw_y,
-                width=draw_w, height=draw_h,
-                preserveAspectRatio=True, mask="auto")
+    if rotate:
+        # Use ImageReader so we can pass the rotated PIL.Image directly
+        from reportlab.lib.utils import ImageReader
+        c.drawImage(ImageReader(img), draw_x, draw_y,
+                    width=draw_w, height=draw_h,
+                    preserveAspectRatio=True, mask="auto")
+    else:
+        c.drawImage(str(path), draw_x, draw_y,
+                    width=draw_w, height=draw_h,
+                    preserveAspectRatio=True, mask="auto")
     if caption:
         c.setFillColor(C_MUTED)
         c.setFont(F_SANS, 8.5)
@@ -498,7 +511,8 @@ def page_notes(c, page_num: int, prompt: str = ""):
 
 def page_full_image(c, page_num: int, image_path: Path,
                     section: str, kicker: str, title: str,
-                    caption: str = ""):
+                    caption: str = "",
+                    rotate_image: int = 0):
     _fill_paper(c)
     _page_chrome(c, page_num, section=section)
     x, y, w, h = _content_box(page_num)
@@ -518,7 +532,7 @@ def page_full_image(c, page_num: int, image_path: Path,
     img_bottom = y + (1.0 * inch if caption else 0.3 * inch)
     img_h = img_top - img_bottom
     _draw_image_fit(c, image_path, x, img_bottom, w, img_h,
-                    caption=None)
+                    caption=None, rotate=rotate_image)
 
     if caption:
         cy = y + 0.85 * inch
@@ -1127,16 +1141,19 @@ def build():
     c.showPage()
 
     page = 12
-    with landscape_orientation(c):
-        page_full_image(c, page,
-            ANNOTATED / "bloom-gantt.png",
-            section="Bloom Calendar", kicker="07 — Bloom Calendar",
-            title="Continuous bloom April → November",
-            caption="18 species; no gap month. The garden is in bloom from "
-                    "Serviceberry's April white through Cardinal Flower's "
-                    "September red — and then Bluestem and seedheads carry "
-                    "winter.")
-        c.showPage()
+    # Portrait page + image rotated 90° clockwise: months run top→bottom
+    # (Apr at top, Nov at bottom), species along the right edge.
+    # Trade-off: reader rotates the booklet 90° CW to read, but each
+    # bloom bar is ~9" long instead of ~6.5" — most legible layout.
+    page_full_image(c, page,
+        ANNOTATED / "bloom-gantt.png",
+        section="Bloom Calendar", kicker="07 — Bloom Calendar",
+        title="Continuous bloom April → November",
+        caption="Rotate the booklet 90° clockwise to read. Months run "
+                "top to bottom, species along the right edge. 18 species, "
+                "no gap month.",
+        rotate_image=270)
+    c.showPage()
 
     page = 13
     page_notes(c, page,
