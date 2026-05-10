@@ -15,3 +15,11 @@ docs/learning-graph/learning-graph-schema.json
 # Plant gallery: keep species.json committed for reproducibility, ignore the backup
 .plant-gallery/species-all.json
 .claude/
+
+# Landscape design — generated PDFs are regenerated from the .py sources
+# (illustrations stay cached in illustrations/*.png and docs/plants/img/*.png,
+# so re-running booklet.py / profiles.py is fast and deterministic).
+landscape-design/**/booklet.pdf
+landscape-design/**/plant-profiles.pdf
+landscape-design/**/profiles/*.pdf
+landscape-design/**/annotated/*.pdf
