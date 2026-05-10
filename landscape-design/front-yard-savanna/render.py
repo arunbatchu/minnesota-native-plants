@@ -63,10 +63,19 @@ running along the foundation under the bay window, with patches of white \
 river-rock visible at the right edge near a downspout.
 
 I am replacing the mugo pines with a Minnesota-native Oak Savanna Edge \
-planting. Please keep the house, sky, lawn, sidewalk, and overall photo \
+planting. Please keep the house, sky, lawn, and overall photo \
 composition exactly the same — only edit the planting bed area in front of \
 the bay window. Do not change the camera angle. Do not add buildings or \
 fences. Keep the bird feeder shepherd's hooks visible on the left.
+
+CRITICAL — DO NOT add any of these (they are not in the design):
+  - No sidewalk, walkway, or concrete strip across the foreground
+  - No paving stones, flagstone patio, or pavement of any kind in the
+    foreground or front of the planting bed
+  - No driveway, curb, or street visible in the front of the lawn
+  - No decorative rocks, gravel mulch, or stone borders in the bed
+The transition is simple: existing lawn meets the new planting bed
+directly with a soft trench-cut edge. Foreground is grass lawn only.
 """
 
 PROMPTS = {
@@ -202,17 +211,24 @@ emphasizing the BENCH POCKET in the WEST third of the bed:
 
   - WEST third (LEFT of bay window): a young Serviceberry tree about 8 \
     feet tall casting dappled afternoon shade over a weathered-cedar \
-    BENCH set in a pea-gravel pad, oriented to face EAST (back toward \
-    the front yard). The bench is partially nested into the planting, \
-    surrounded on three sides by tall prairie forbs.
+    BENCH set in a small pea-gravel pad about 5 feet wide, oriented to \
+    face EAST (back toward the front yard). The bench is partially \
+    nested into the planting, surrounded on three sides by tall prairie \
+    forbs. The pea-gravel pad is barely visible — it's just under the \
+    bench, not extending into the lawn.
   - Behind the bench: drifts of Wild Bergamot (lavender-pink pom-poms) \
     and a few Cardinal Flower spikes in red.
   - In front of the bay window: low Ninebarks pruned about 30 inches \
     tall, drifts of Purple Coneflower and Butterfly Milkweed (orange).
-  - Stepping-stone limestone path enters from the right and curves \
-    gracefully to the bench.
+  - Three or four small natural-cut limestone STEPPING STONES (not a \
+    paved path, not flagstone patio — just spaced individual stones \
+    set into the lawn or planting), forming a gentle suggestion of a \
+    path from the right edge of the bed to the bench. The stones are \
+    embedded in the planting and grass — they should not look like \
+    a continuous walk.
   - At the RIGHT side: vegetated bioswale with sedges and Blue Flag \
     Iris. NO ROCK.
+  - FOREGROUND: just lawn. No sidewalk, no concrete, no paving.
 
 Time of day: late afternoon, warm golden side light. Preserve the \
 bird-feeder shepherd's hooks. Photographic, naturalistic, the bench \
