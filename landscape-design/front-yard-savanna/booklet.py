@@ -1281,8 +1281,59 @@ def build():
     print(f"booklet (body): {OUT_PDF}")
 
     _splice_in_plant_profiles()
+    _make_installer_variant()
 
     return OUT_PDF
+
+
+def _make_installer_variant() -> None:
+    """Produce booklet-installer.pdf: the same booklet with the
+    Cost & Install page removed (so it's safe to share with potential
+    installers without revealing budget or competing-firm names)."""
+    try:
+        from pypdf import PdfReader, PdfWriter
+    except ImportError:
+        print("  (pypdf not installed — skipping installer variant)")
+        return
+
+    src = PdfReader(str(OUT_PDF))
+    out_path = ROOT / "booklet-installer.pdf"
+
+    # Identify the cost page by scanning for the unique kicker text
+    # we drew on it ("13 — Cost & Install").
+    cost_page_idx = None
+    for i, page in enumerate(src.pages):
+        try:
+            text = page.extract_text() or ""
+        except Exception:
+            text = ""
+        if "13 — Cost & Install" in text or "What you're spending" in text:
+            cost_page_idx = i
+            break
+
+    if cost_page_idx is None:
+        print("  (could not locate Cost & Install page; "
+              "installer variant will be identical to full booklet)")
+        cost_page_idx = -1  # skip removal but still emit
+
+    writer = PdfWriter()
+    for i, page in enumerate(src.pages):
+        if i == cost_page_idx:
+            continue
+        writer.add_page(page)
+
+    # Update document metadata so the installer version has its own title
+    writer.add_metadata({
+        "/Title": "Front-Yard Oak Savanna Edge — Installer Edition",
+        "/Author": "Claude (Anthropic) for Arun & Rima Batchu",
+        "/Subject": "Minnesota native plant landscape design (installer brief)",
+    })
+
+    with open(out_path, "wb") as f:
+        writer.write(f)
+    n = len(writer.pages)
+    print(f"booklet-installer.pdf: {out_path}  ({n} pages, "
+          f"Cost page removed)")
 
 
 def _draw_profiles_divider(canvas_path: Path) -> None:

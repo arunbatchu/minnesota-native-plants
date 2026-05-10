@@ -43,9 +43,11 @@ Goal: get apples-to-apples quotes from 2-3 firms, with confidence that whoever y
 
 ## Attach the booklet PDF
 
-Send `booklet.pdf` (the printable design package, ~26 pages) as the email attachment. It contains everything the installer needs to bid.
+**Send `booklet-installer.pdf`** (49 pages) as the email attachment. It is the same design package as `booklet.pdf` but **with the Cost & Install page removed** so installers don't see your budget range or the names of the other firms you're getting quotes from. The package still contains everything they need to bid: site plan, sections, construction details, planting plan, bloom calendar, year-1/3/5 renderings, mood board references, maintenance plan, and the Curtis-style plant profiles.
 
-If you want a leaner attachment, send instead:
+⚠ Do NOT send `booklet.pdf` (the full version) to installers. That one is for you and your family — it includes the budget range we're working from and the firms we're soliciting.
+
+If you want a leaner attachment instead, send only:
 - `annotated/site-plan.pdf` (the master drawing)
 - `plan.md` exported as PDF (the planting list and quantities)
 - `annotated/render-year3.png` (so they can see what's expected)

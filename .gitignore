@@ -20,6 +20,7 @@ docs/learning-graph/learning-graph-schema.json
 # (illustrations stay cached in illustrations/*.png and docs/plants/img/*.png,
 # so re-running booklet.py / profiles.py is fast and deterministic).
 landscape-design/**/booklet.pdf
+landscape-design/**/booklet-installer.pdf
 landscape-design/**/plant-profiles.pdf
 landscape-design/**/profiles/*.pdf
 landscape-design/**/annotated/*.pdf
