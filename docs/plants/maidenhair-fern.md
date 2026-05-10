@@ -2,6 +2,8 @@
 
 *Adiantum pedatum*
 
+
+
 ![Figure from book](img/maidenhair-fern-1.jpg)
 
 ![Adiantum pedatum (northern maidenhair fern), Willsboro, NY](img/maidenhair-fern-2.jpg)

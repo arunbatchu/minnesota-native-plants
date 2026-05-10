@@ -2,6 +2,8 @@
 
 *Aquilegia canadensis*
 
+
+
 ![Aquilegia canadensis 'Corbett'](img/wild-columbine-1.jpg)
 
 ![en:Wild Columbine (Aquilegia canadensis) in Normal, IL. Shows flower and seed pod.](img/wild-columbine-2.jpg)

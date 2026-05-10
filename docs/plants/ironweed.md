@@ -2,6 +2,8 @@
 
 *Vernonia fasciculata*
 
+
+
 ![Chamomile Flowers](img/ironweed-1.jpg)
 
 Vernonia fasciculata, the smooth ironweed or common ironweed, or prairie ironweed is a species of perennial plant in the family Asteraceae. It is native to Manitoba in Canada and the north-central U.S.A.

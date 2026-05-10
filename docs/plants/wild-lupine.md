@@ -2,6 +2,10 @@
 
 *Lupinus perennis*
 
+![Botanical illustration of Wild Lupine (Lupinus perennis)](img/wild-lupine-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Lupinus perennis** *— Curtis-style illustration.*
+
 ![Lupinus perennis in full glorious bloom in Lake County, Illinois](img/wild-lupine-1.jpg)
 
 ![Title: Studies of Plant Life in Canada: Wild Flowers, Flowering Shrubs, and Grasses Author: Traill, Catharine Parr (1802](img/wild-lupine-2.jpg)

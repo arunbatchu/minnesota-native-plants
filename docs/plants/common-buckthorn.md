@@ -2,6 +2,8 @@
 
 *Rhamnus cathartica*
 
+
+
 ![A cutting board made from common buckthorn and Norway maple.](img/common-buckthorn-1.jpg)
 
 ![Illustration of RHAMNUS cathartica L. 63 (Rhamnus cathartica L., common buckthorn)](img/common-buckthorn-2.jpg)

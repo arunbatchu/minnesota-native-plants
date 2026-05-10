@@ -2,6 +2,8 @@
 
 *Cornus sericea*
 
+
+
 ![Author: User:Jkelly Description: Cornus sericea (syn. Cornus stolonifera), Red Osier Dogwood, on display at a garden sho](img/red-osier-dogwood-1.jpg)
 
 ![Plate from book](img/red-osier-dogwood-2.jpg)

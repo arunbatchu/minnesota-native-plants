@@ -2,6 +2,8 @@
 
 *Eutrochium maculatum*
 
+
+
 ![A monarch butterfly feeds on Joe Pye Weed, Eutrochium maculatum.](img/joe-pye-weed-1.jpg)
 
 ![Bee on Joe-pye Weed - Natalie Luka](img/joe-pye-weed-2.jpg)

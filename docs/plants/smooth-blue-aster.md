@@ -2,6 +2,10 @@
 
 *Symphyotrichum laeve*
 
+![Botanical illustration of Smooth Blue Aster (Symphyotrichum laeve)](img/smooth-blue-aster-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Symphyotrichum laeve** *— Curtis-style illustration.*
+
 ![Aster gravesii (Symphyotrichum × gravesii) specimen](img/smooth-blue-aster-1.jpg)
 
 ![Aster woldenii (Symphyotrichum × woldenii) isotype, Emmet County, Iowa, 6 September 1924, collected by B.O. Wolden.](img/smooth-blue-aster-2.jpg)

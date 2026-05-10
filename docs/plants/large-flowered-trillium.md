@@ -2,6 +2,8 @@
 
 *Trillium grandiflorum*
 
+
+
 ![Flowers of a double-flowered cultivar of Trillium grandiflorum (probably either 'Flore Pleno' or 'Snowbunting') exhibite](img/large-flowered-trillium-1.jpg)
 
 ![White trillium (Trillium grandiflorum) blooming in Backus Woods.](img/large-flowered-trillium-2.jpg)

@@ -2,6 +2,8 @@
 
 *Quercus macrocarpa*
 
+
+
 ![Andricus dimorphus galls on Bur Oak leaf.](img/bur-oak-1.jpg)
 
 ![The Big Tree in Boone County, Missouri in springtime being enjoyed by picnickers](img/bur-oak-2.jpg)

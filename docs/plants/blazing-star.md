@@ -2,6 +2,8 @@
 
 *Liatris ligulistylis*
 
+
+
 ![Koninginnenkruid. Zelf gemaakte foto.](img/blazing-star-1.jpg)
 
 Liatris ligulistylis (Rocky Mountain blazing star, northern plains blazing star, or meadow blazing star) is a flowering plant of the family Asteraceae, native to the central United States and central Canada.

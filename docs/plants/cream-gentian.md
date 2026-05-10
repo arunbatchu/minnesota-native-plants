@@ -2,6 +2,8 @@
 
 *Gentiana alba*
 
+
+
 ![Cream Gentian](img/cream-gentian-1.jpg)
 
 ![Species from central and eastern North America Common name: white gentian Photographed in Mount Magazine State Park, Log](img/cream-gentian-2.jpg)

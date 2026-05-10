@@ -2,6 +2,8 @@
 
 *Athyrium filix-femina*
 
+
+
 ![Athyrium filix-femina, Jesmond Dene, Newcastle, Northumberland, UK; 11 May 2006](img/lady-fern-1.jpg)
 
 ![Sori of Athyrium filix-femina (Woodsiaceae); Tannwald near Ligerz, Canton of Bern, Switzerland](img/lady-fern-2.jpg)

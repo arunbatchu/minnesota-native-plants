@@ -2,6 +2,8 @@
 
 *Fraxinus americana*
 
+
+
 ![White Ash foliage during autumn along Pennington Road (New Jersey Route 31) in Ewing, New Jersey](img/white-ash-1.jpg)
 
 ![White Ash Fraxinus americana (Oleaceae). Quebec, Canada.](img/white-ash-2.jpg)

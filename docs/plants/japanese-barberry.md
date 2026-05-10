@@ -2,6 +2,8 @@
 
 *Berberis thunbergii*
 
+
+
 ![Berberis thunbergii shoot with fruit](img/japanese-barberry-1.jpg)
 
 ![Berberis thunbergii (pl. Berberys Thunberga)](img/japanese-barberry-2.jpg)

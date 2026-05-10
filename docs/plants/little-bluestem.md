@@ -2,6 +2,10 @@
 
 *Schizachyrium scoparium*
 
+![Botanical illustration of Little Bluestem (Schizachyrium scoparium)](img/little-bluestem-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Schizachyrium scoparium** *— Curtis-style illustration.*
+
 ![Little Bluestem](img/little-bluestem-1.jpg)
 
 ![This is a close-up photo of Schizachyrium scoparium (little bluestem grass).](img/little-bluestem-2.jpg)

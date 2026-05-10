@@ -2,6 +2,8 @@
 
 *Typha angustifolia*
 
+
+
 ![Lesser Bulrush Typha angustifolia, Burradon Pond, Northumberland](img/narrow-leaved-cattail-1.jpg)
 
 ![Typha angustifolia L. (Lesser Bulrush or Narrowleaf Cattail or Lesser Reedmace). Habitat: а backwater on Volgograd Reser](img/narrow-leaved-cattail-2.jpg)

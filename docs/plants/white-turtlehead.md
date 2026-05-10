@@ -2,6 +2,8 @@
 
 *Chelone glabra*
 
+
+
 ![Chelone glabra flowers from a plant in cultivation](img/white-turtlehead-1.jpg)
 
 ![Chelone glabra On the Rough Trail at the Red River Gorge, Kentucky.](img/white-turtlehead-2.jpg)

@@ -2,6 +2,8 @@
 
 *Lythrum salicaria*
 
+
+
 ![Shrill carder bee (Bombus sylvarum) on the purple loosestrife (Lythrum salicaria). Pollen basket contains dark green pol](img/purple-loosestrife-1.jpg)
 
 ![Purple-loosestrife, an invasive species, now dominates the Cooper Marsh Conservation Area, near Cornwall, Ontario.](img/purple-loosestrife-2.jpg)

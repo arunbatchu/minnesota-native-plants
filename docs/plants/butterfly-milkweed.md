@@ -2,6 +2,10 @@
 
 *Asclepias tuberosa*
 
+![Botanical illustration of Butterfly Milkweed (Asclepias tuberosa)](img/butterfly-milkweed-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Asclepias tuberosa** *— Curtis-style illustration.*
+
 ![Asclepias tuberosa, Asclepiadaceae, Butterfly Weed, fruits. The roots are used in homeopathy as remedy: Asclepias tubero](img/butterfly-milkweed-1.jpg)
 
 ![Species from central and eastern North America Common name: Butterfly Milkweed Photographed in the Camp Robinson Special](img/butterfly-milkweed-2.jpg)

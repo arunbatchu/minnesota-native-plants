@@ -2,6 +2,8 @@
 
 *Vallisneria americana*
 
+
+
 ![Vallisneria american growing in lake](img/wild-celery-1.jpg)
 
 Vallisneria americana, commonly called wild celery, water-celery, tape grass, or  eelgrass,  is a plant in the family Hydrocharitaceae, the "tape-grasses". It is native to the Americas, especially eastern North America.

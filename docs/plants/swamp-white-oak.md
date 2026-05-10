@@ -2,6 +2,8 @@
 
 *Quercus bicolor*
 
+
+
 ![Swamp White Oak (Quercus bicolor) leaves National Botanic Garden of Belgium - Meise (Belgium).](img/swamp-white-oak-1.jpg)
 
 Quercus bicolor, the swamp white oak, is a North American species of medium-sized trees in the beech family. It is a common element of America's north central and northeastern mixed forests. It can survive in a variety of habitats.

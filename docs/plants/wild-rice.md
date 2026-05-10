@@ -2,6 +2,8 @@
 
 *Zizania palustris*
 
+
+
 ![Ojibwe cedar bark pouch for wild rice, collection of the American Museum of Natural History](img/wild-rice-1.jpg)
 
 ![Please attribute to Lorie Shaull if used elsewhere.](img/wild-rice-2.jpg)

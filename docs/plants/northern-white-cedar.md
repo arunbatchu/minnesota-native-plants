@@ -2,6 +2,8 @@
 
 *Thuja occidentalis*
 
+
+
 ![Northern Whitecedar (Thuja occidentalis) in Algonquin Provincial Park, Nipissing District, Ontario, Canada.](img/northern-white-cedar-1.jpg)
 
 ![Poland. Warsaw. Powsin. Botanical Garden](img/northern-white-cedar-2.jpg)

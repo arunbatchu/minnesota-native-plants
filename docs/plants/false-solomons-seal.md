@@ -2,6 +2,8 @@
 
 *Maianthemum racemosum*
 
+
+
 ![Maianthemum racemosum plant showing ripe fruit in late fall.](img/false-solomons-seal-1.jpg)
 
 ![Maianthemum racemosum, Solomon's plume, on a roadside in Waterloo Township, Athens County, Ohio](img/false-solomons-seal-2.jpg)

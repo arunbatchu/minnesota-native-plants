@@ -2,6 +2,8 @@
 
 *Toxicodendron radicans*
 
+
+
 ![Poison Ivy foliage during autumn leaf coloration in Ewing, New Jersey](img/poison-ivy-1.jpg)
 
 ![Eastern Poison Ivy (Toxicodendron radicans) range map based on the USDA map located at http://plants.usda.gov/core/profi](img/poison-ivy-2.jpg)

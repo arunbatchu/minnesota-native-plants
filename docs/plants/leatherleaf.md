@@ -2,6 +2,8 @@
 
 *Chamaedaphne calyculata*
 
+
+
 ![Chamaedaphne calyculata, Litauen](img/leatherleaf-1.jpg)
 
 Chamaedaphne calyculata, known commonly as leatherleaf or cassandra, is a perennial dwarf shrub in the plant family Ericaceae and the only species in the genus Chamaedaphne. It is commonly seen in cold, acidic bogs and forms large, spreading colonies.

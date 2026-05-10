@@ -2,6 +2,10 @@
 
 *Asclepias incarnata*
 
+![Botanical illustration of Swamp Milkweed (Asclepias incarnata)](img/swamp-milkweed-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Asclepias incarnata** *— Curtis-style illustration.*
+
 ![Asclepias incarnata flowers](img/swamp-milkweed-1.jpg)
 
 ![Photograph of a Monarch butterfly (Danaus plexippus en ) caterpillar feeding on a leaf of the Swamp Milkweeden (Asclepia](img/swamp-milkweed-2.jpg)

@@ -2,6 +2,8 @@
 
 *Polystichum acrostichoides*
 
+
+
 ![Photograph of an unfurling frond of the Christmas Fernen (Polystichum acrostichoides en ). Photo taken at the Mt. Cuba C](img/christmas-fern-1.jpg)
 
 ![Photograph of the Christmas Fern (Polystichum acrostichoides). Photo taken at the Tyler Arboretum where it was identifie](img/christmas-fern-2.jpg)

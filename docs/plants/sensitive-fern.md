@@ -2,6 +2,8 @@
 
 *Onoclea sensibilis*
 
+
+
 ![Phlogophora meticulosa - blýskavka mramorovaná. In the following weeks, this guy is going to grow dirty brown on top and](img/sensitive-fern-1.jpg)
 
 ![Onoclea sensibilis, Onocleaceae, Sensitive fern, Bead fern, sori (“beads”); Botanic Garden Universiy Tübingen, Germany.](img/sensitive-fern-2.jpg)

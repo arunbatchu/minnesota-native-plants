@@ -2,6 +2,8 @@
 
 *Zizia aurea*
 
+
+
 ![Détail de l'inflorescence de Zizia aurea ; photo prise au Mount Cuba Center, Greenville, Delaware, USA](img/golden-alexanders-1.jpg)
 
 ![Zizia aurea growing on a serpentine barrens, Nottingham County Park, Nottingham, Pennsylvania.](img/golden-alexanders-2.jpg)

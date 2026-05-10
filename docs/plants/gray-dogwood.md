@@ -2,6 +2,10 @@
 
 *Cornus racemosa*
 
+![Botanical illustration of Gray Dogwood (Cornus racemosa)](img/gray-dogwood-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Cornus racemosa** *— Curtis-style illustration.*
+
 ![Natural distribution map for Cornus racemosa](img/gray-dogwood-1.jpg)
 
 ![Northern Swamp Dogwood berries](img/gray-dogwood-2.jpg)

@@ -2,6 +2,8 @@
 
 *Asarum canadense*
 
+
+
 ![Wild Ginger](img/wild-ginger-1.jpg)
 
 ![illustration of Asarum canadense](img/wild-ginger-2.jpg)

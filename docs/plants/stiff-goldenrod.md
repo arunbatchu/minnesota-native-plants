@@ -2,6 +2,8 @@
 
 *Solidago rigida*
 
+
+
 ![Some plants of Solidago rigida will lose the basal leaf bunch during the late season probably due to dessication.](img/stiff-goldenrod-1.jpg)
 
 ![Solidago rigida ssp. glabrata, dry limestone barren along roadside near Hymes Knob. Lewis County, Kentucky.](img/stiff-goldenrod-2.jpg)

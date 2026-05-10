@@ -2,6 +2,8 @@
 
 *Arisaema triphyllum*
 
+
+
 ![Arisaema triphyllum (Jack in the Pulpit), Fairview Park OH. Photo by Geoffrey A. Landis.](img/jack-in-the-pulpit-1.jpg)
 
 ![Arisaema triphyllum blooming in Bob Hunter Memorial Park.](img/jack-in-the-pulpit-2.jpg)

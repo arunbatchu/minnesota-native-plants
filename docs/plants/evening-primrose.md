@@ -2,6 +2,8 @@
 
 *Oenothera biennis*
 
+
+
 ![Primrose moth, Schinia florida, on an evening primrose, petals have been removed to reveal the insect.](img/evening-primrose-1.jpg)
 
 ![The presence of Schinia florida is evident from the pink wing tips.](img/evening-primrose-2.jpg)

@@ -2,6 +2,8 @@
 
 *Ambrosia artemisiifolia*
 
+
+
 ![Ambrosia artem - Pollen (Rasterelektronenmikroskop)](img/common-ragweed-1.jpg)
 
 ![Annual Ragweed (Ambrosia artemisiifolia) Seeds](img/common-ragweed-2.jpg)

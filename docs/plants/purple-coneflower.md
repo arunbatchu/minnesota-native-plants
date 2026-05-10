@@ -2,6 +2,10 @@
 
 *Echinacea purpurea*
 
+![Botanical illustration of Purple Coneflower (Echinacea purpurea)](img/purple-coneflower-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Echinacea purpurea** *— Curtis-style illustration.*
+
 ![Dried Echinacea Purpea Bloom](img/purple-coneflower-1.jpg)
 
 ![author: darrell.barrell description: closeup of echinacea purpura flower](img/purple-coneflower-2.jpg)

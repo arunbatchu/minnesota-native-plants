@@ -2,6 +2,8 @@
 
 *Eupatorium perfoliatum*
 
+
+
 ![Eupatorium perfoliatum](img/boneset-1.jpg)
 
 ![Eupatorium perfoliatum range map](img/boneset-2.jpg)

@@ -2,6 +2,8 @@
 
 *Poa pratensis*
 
+
+
 ![Natural monument Na Popovickém kopci](img/kentucky-bluegrass-1.jpg)
 
 ![The most common lawn grass in north temperate areas renders this species a persistent colonizer of open dry site vegetat](img/kentucky-bluegrass-2.jpg)

@@ -2,6 +2,8 @@
 
 *Rhododendron groenlandicum*
 
+
+
 ![Ledum groenlandicum Oeder 20090619.16 near McCleod Lake, BC](img/labrador-tea-1.jpg)
 
 ![Labrador Tea (Rhododendron groenlandicum) in Port Rexton, Newfoundland and Labrador, Canada.](img/labrador-tea-2.jpg)

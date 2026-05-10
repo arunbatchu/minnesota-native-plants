@@ -2,6 +2,8 @@
 
 *Mertensia virginica*
 
+
+
 ![White Bluebells (Mertensia virginica) growing in Central Illinois U.S.A.](img/virginia-bluebells-1.jpg)
 
 ![A bumblebee hanging from a bluebell in Pennsylvania, United States of America.](img/virginia-bluebells-2.jpg)

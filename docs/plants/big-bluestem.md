@@ -2,6 +2,8 @@
 
 *Andropogon gerardii*
 
+
+
 ![The bunched habit is revealed along mowed roadsides during late summer where the cool season grasses (e.g., Bromus inerm](img/big-bluestem-1.jpg)
 
 ![The ligule is a lacerated membrane.](img/big-bluestem-2.jpg)

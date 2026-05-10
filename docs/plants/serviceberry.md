@@ -2,6 +2,10 @@
 
 *Amelanchier laevis*
 
+![Botanical illustration of Serviceberry (Amelanchier laevis)](img/serviceberry-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Amelanchier laevis** *— Curtis-style illustration.*
+
 ![Chadwick Arboretum and Learning Gardens Arboretum North The Ohio State University Columbus, Ohio](img/serviceberry-1.jpg)
 
 ![Amelanchier laevis bark and leaf](img/serviceberry-2.jpg)

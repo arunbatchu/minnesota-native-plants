@@ -2,6 +2,8 @@
 
 *Typha latifolia*
 
+
+
 ![Bulrush (Typha latifolia), River Ivel, Bedfordshire, 22 September 2012.](img/broad-leaved-cattail-1.jpg)
 
 ![Die Rohrkolben (Typha), regional auch als Lampenputzer, Schlootfeger oder Kanonenputzer bezeichnet, sind die einzige Gat](img/broad-leaved-cattail-2.jpg)

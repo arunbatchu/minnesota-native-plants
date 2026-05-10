@@ -2,6 +2,10 @@
 
 *Lobelia cardinalis*
 
+![Botanical illustration of Cardinal Flower (Lobelia cardinalis)](img/cardinal-flower-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Lobelia cardinalis** *— Curtis-style illustration.*
+
 ![Cardinal flower (Lobelia cardinalis) on bank of Ichetucknee River, in Ichetucknee Springs State Park, Columbia Co., Flor](img/cardinal-flower-1.jpg)
 
 ![Cardinal Flower (Lobelia cardinalis).](img/cardinal-flower-2.jpg)

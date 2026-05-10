@@ -2,6 +2,8 @@
 
 *Agrilus planipennis*
 
+
+
 ![Agrilus planipennis, the emerald ash borer](img/emerald-ash-borer-1.jpg)
 
 ![Scarring left behind by emerald ash borer larvae on a dead ash tree trunk, this one photographed after it fell naturally](img/emerald-ash-borer-2.jpg)

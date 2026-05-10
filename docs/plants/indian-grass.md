@@ -2,6 +2,8 @@
 
 *Sorghastrum nutans*
 
+
+
 ![A picture of Sorghastrum nutans.](img/indian-grass-1.jpg)
 
 ![The ligule protrudes from the leaf sheath rather than from the leaf blade and this is found in other related grasses of ](img/indian-grass-2.jpg)

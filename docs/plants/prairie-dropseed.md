@@ -2,6 +2,10 @@
 
 *Sporobolus heterolepis*
 
+![Botanical illustration of Prairie Dropseed (Sporobolus heterolepis)](img/prairie-dropseed-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Sporobolus heterolepis** *— Curtis-style illustration.*
+
 ![Sporobolus heterolepis. Botanical specimen in the Denver Botanic Gardens, 1007 York Street, Denver, Colorado, USA.](img/prairie-dropseed-1.jpg)
 
 Sporobolus heterolepis, commonly known as prairie dropseed, is a species of prairie grass native to the tallgrass and mixed grass prairies of central North America from Texas to southern Canada. It is also found further east,  to the Atlantic coast of the United States and Canada, but is much less common beyond the Great Plains and is restricted to specialized habitats. It is found in 27 states and four Canadian provinces.

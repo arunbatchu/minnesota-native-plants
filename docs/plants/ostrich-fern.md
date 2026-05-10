@@ -2,6 +2,8 @@
 
 *Matteuccia struthiopteris*
 
+
+
 ![こごみ（fiddlehead ferns sprouts）](img/ostrich-fern-1.jpg)
 
 ![Mauricie, MRC Les Chenaux, Sainte-Anne-de-la-Pérade, 2e Avenue, le samedi 29 mai 2021.](img/ostrich-fern-2.jpg)

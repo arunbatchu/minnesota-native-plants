@@ -2,6 +2,8 @@
 
 *Echinacea pallida*
 
+
+
 ![A bee pollinating an unidentified species of purple coneflower (Echinacea) at the Smithsonian National Zoological Park i](img/pale-purple-coneflower-1.jpg)
 
 ![Echinacea purpurea 'Maxima'](img/pale-purple-coneflower-2.jpg)

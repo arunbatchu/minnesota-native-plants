@@ -2,6 +2,8 @@
 
 *Centaurea stoebe*
 
+
+
 ![Centaurea stoebe (Centaurea maculosa) produces a bloom of purplish flowering heads that are each delimited by an array o](img/spotted-knapweed-1.jpg)
 
 ![Centaurea stoebe ssp. micranthos in East Wenatchee, Douglas County Washington](img/spotted-knapweed-2.jpg)

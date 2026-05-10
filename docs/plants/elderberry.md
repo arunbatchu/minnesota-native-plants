@@ -2,6 +2,8 @@
 
 *Sambucus canadensis*
 
+
+
 ![Sambucus canadensis, Adoxaceae, American Elderberry, infrutescence.](img/elderberry-1.jpg)
 
 ![Sambucus canadensis- American Elderberry, American elder, elderberry, sweet elder, shambhukosha- in Herbal Garden, in Ra](img/elderberry-2.jpg)

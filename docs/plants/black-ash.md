@@ -2,6 +2,8 @@
 
 *Fraxinus nigra*
 
+
+
 ![Image of black ash bark. Bark is corky and spongy. Tree is growing in a seasonally wet, riparian habitat.](img/black-ash-1.jpg)
 
 ![Fraxinus nigra leaves](img/black-ash-2.jpg)

@@ -2,6 +2,8 @@
 
 *Symphyotrichum novae-angliae*
 
+
+
 ![Aster nowoangielski. (Aster novae-angliae) Aster nowoangielski lub aster amerykański. Marcinki nowoangielskie (Symphyotr](img/new-england-aster-1.jpg)
 
 ![A leaf.](img/new-england-aster-2.jpg)

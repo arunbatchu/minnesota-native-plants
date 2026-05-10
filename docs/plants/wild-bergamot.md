@@ -2,6 +2,10 @@
 
 *Monarda fistulosa*
 
+![Botanical illustration of Wild Bergamot (Monarda fistulosa)](img/wild-bergamot-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Monarda fistulosa** *— Curtis-style illustration.*
+
 ![Species from North America Common name: Beebalm, Wild Bergamot Photographed in Little Rock, Arkansas](img/wild-bergamot-1.jpg)
 
 ![Wild Bergamot (Monarda fistulosa), Ottawa, Ontario, Canada](img/wild-bergamot-2.jpg)

@@ -2,6 +2,8 @@
 
 *Pinus strobus*
 
+
+
 ![Photograph of the bark of the Eastern White Pineen (Pinus strobus en ). Photo taken at the Tyler Arboretum where its spe](img/white-pine-1.jpg)
 
 ![Pest insects affecting white pine. This illustrations shows: 1. Nearly full grown larva of imperial moth, Basilona imper](img/white-pine-2.jpg)

@@ -2,6 +2,8 @@
 
 *Frangula alnus*
 
+
+
 ![Alder buckthorn in Brede High Wood](img/glossy-buckthorn-1.jpg)
 
 ![Autumn-coloured foliage of Frangula alnus cultivar 'Asplenifolia'](img/glossy-buckthorn-2.jpg)

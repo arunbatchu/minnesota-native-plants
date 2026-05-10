@@ -2,6 +2,8 @@
 
 *Larix laricina*
 
+
+
 ![Tamarack seedling in a sphagnum bog adjacent to Taborton Road (Rensselaer County Route 42) in Sand Lake, New York](img/tamarack-1.jpg)
 
 ![American Larches/Tamaracks changing color in autumn in a bog near Rensselaer County Route 42 (Taborton Road) in Sand Lak](img/tamarack-2.jpg)

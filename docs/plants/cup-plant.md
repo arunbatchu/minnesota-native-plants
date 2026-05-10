@@ -2,6 +2,8 @@
 
 *Silphium perfoliatum*
 
+
+
 ![Cup Plant](img/cup-plant-1.jpg)
 
 ![Flowers of Cup Plant - Silphium perfoliatum](img/cup-plant-2.jpg)

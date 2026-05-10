@@ -2,6 +2,8 @@
 
 *Acer saccharinum*
 
+
+
 ![Silver Maple foliage during autumn along Glen Mawr Drive in Ewing, New Jersey](img/silver-maple-1.jpg)
 
 ![Female flowers of Acer saccharinum](img/silver-maple-2.jpg)

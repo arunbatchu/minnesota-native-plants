@@ -2,6 +2,8 @@
 
 *Sanguinaria canadensis*
 
+
+
 ![Wild Flower, bloodroot](img/bloodroot-1.jpg)
 
 ![Bloodroot. Single plant shown in early spring when in bloom, while leaves are still clasping around the stem.](img/bloodroot-2.jpg)

@@ -2,6 +2,8 @@
 
 *Bromus inermis*
 
+
+
 ![Flowering Smooth/Austrian/Hungarian bromegrass (Bromus inermis).](img/smooth-brome-1.jpg)
 
 Bromus inermis is a species of the true grass family (Poaceae). This rhizomatous grass is native to Europe and considered invasive in North America.

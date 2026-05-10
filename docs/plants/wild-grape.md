@@ -2,6 +2,8 @@
 
 *Vitis riparia*
 
+
+
 ![Cluster of frost grapes (Southeast Michigan)](img/wild-grape-1.jpg)
 
 ![Frost grapes and leaves (Southeast Michigan)](img/wild-grape-2.jpg)

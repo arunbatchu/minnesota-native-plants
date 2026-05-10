@@ -2,6 +2,8 @@
 
 *Danaus plexippus*
 
+
+
 ![photo circa 2000; taken in our Island of Hawaii gardens by myself using a Canon Hi8 camcorder and Webtv device.](img/the-monarch-butterfly-1.jpg)
 
 ![Asclepias asperula in Red Rock Canyon, Nevada](img/the-monarch-butterfly-2.jpg)

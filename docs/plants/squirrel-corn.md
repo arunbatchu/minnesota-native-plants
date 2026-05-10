@@ -2,6 +2,8 @@
 
 *Dicentra canadensis*
 
+
+
 ![Dicentra canadensis' — Squirrel corn; in flower. This is a native plant growing wild in Claude Moore Colonial Farm Park ](img/squirrel-corn-2.jpg)
 
 Dicentra canadensis, the squirrel corn, is a flowering plant from eastern North America with oddly shaped white flowers and finely divided leaves.

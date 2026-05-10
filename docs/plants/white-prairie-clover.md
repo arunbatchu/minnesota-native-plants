@@ -2,6 +2,8 @@
 
 *Dalea candida*
 
+
+
 ![Flower of Crotalaria retusa L. taken on O‘ahu, Hawaiian Islands by Eric Guinther.](img/white-prairie-clover-1.jpg)
 
 ![Dalea candida](img/white-prairie-clover-2.jpg)

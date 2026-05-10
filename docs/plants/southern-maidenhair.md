@@ -2,6 +2,8 @@
 
 *Adiantum capillus-veneris*
 
+
+
 ![Adiantum capillus-veneris in Arugot stream near Ein Gedi, Judean Desert area, Israel.](img/southern-maidenhair-1.jpg)
 
 ![Maidenhair fern (Adiantum capillus-veneris) in Anento (Zaragoza, Spain).](img/southern-maidenhair-2.jpg)

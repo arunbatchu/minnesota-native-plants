@@ -2,6 +2,8 @@
 
 *Calamagrostis canadensis*
 
+
+
 ![Calamagrostis canadensis](img/blue-joint-grass-1.jpg)
 
 Calamagrostis canadensis is a species of grass, having three or more varieties, in the family Poaceae. It is known variously by the common names of bluejoint, bluejoint reedgrass, marsh reedgrass, Canadian reedgrass, meadow pinegrass, Canada bluejoint and marsh pinegrass.

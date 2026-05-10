@@ -2,6 +2,10 @@
 
 *Iris versicolor*
 
+![Botanical illustration of Blue Flag Iris (Iris versicolor)](img/blue-flag-iris-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Iris versicolor** *— Curtis-style illustration.*
+
 ![Plate 173 from American Medicinal Plants, Iris versicolor](img/blue-flag-iris-1.jpg)
 
 ![Northern Blue Flag (Iris versicolor), Ottawa, Ontario](img/blue-flag-iris-2.jpg)

@@ -2,6 +2,8 @@
 
 *Asclepias syriaca*
 
+
+
 ![Scientific Name: Asclepias syriaca L. Common Name: Common Milkweed Certainty: pretty sure (notes) Location: Southern App](img/common-milkweed-1.jpg)
 
 ![Asclepias syriaca, Apocyanaceae, Common Milkweed, Butterfly flower, Silkweed, Silky Swallow-wort, Virginia Silkweed, fru](img/common-milkweed-2.jpg)

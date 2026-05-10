@@ -2,6 +2,10 @@
 
 *Geum triflorum*
 
+![Botanical illustration of Prairie Smoke (Geum triflorum)](img/prairie-smoke-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Geum triflorum** *— Curtis-style illustration.*
+
 ![The achenes sit in the persistant hypanthium and bear plumose tails (modified styles).](img/prairie-smoke-1.jpg)
 
 ![Geum triflorum, 13 miles east of Taos, 9 May 2007.](img/prairie-smoke-2.jpg)

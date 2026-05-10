@@ -2,6 +2,10 @@
 
 *Carex stricta*
 
+![Botanical illustration of Tussock Sedge (Carex stricta)](img/tussock-sedge-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Carex stricta** *— Curtis-style illustration.*
+
 ![Carex stricta at James Woodworth Prairie Preserve](img/tussock-sedge-1.jpg)
 
 Carex stricta is a species of sedge known by the common names upright sedge and tussock sedge. The plant grows in moist marshes, forests and alongside bodies of water. It grows up to 2 feet (0.61 m) tall and 2 feet (0.61 m) wide.

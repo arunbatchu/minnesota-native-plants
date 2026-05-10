@@ -2,6 +2,10 @@
 
 *Baptisia australis*
 
+![Botanical illustration of False Blue Indigo (Baptisia australis)](img/false-blue-indigo-illustration.png){ .plant-illustration }
+
+*Botanical plate of* **Baptisia australis** *— Curtis-style illustration.*
+
 ![Species from eastern North America Common name: Blue Wild Indigo Photographed in Rock Creek Natural Area, Sharp County, ](img/false-blue-indigo-1.jpg)
 
 ![False Blue Indigo](img/false-blue-indigo-2.jpg)

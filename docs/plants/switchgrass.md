@@ -2,6 +2,8 @@
 
 *Panicum virgatum*
 
+
+
 ![A picture of Panicum virgatum.](img/switchgrass-1.jpg)
 
 ![Switchgrass (Panicum virgatum, Alamo variety) grown at the University of Alabama's test plot close to Auburn, Alabama, U](img/switchgrass-2.jpg)

@@ -2,6 +2,8 @@
 
 *Solidago speciosa*
 
+
+
 ![SOLIDAGO ALTISSII](img/showy-goldenrod-1.jpg)
 
 ![Snake Creek Fen Wisconsin State Natural Area #281 Green Lake County](img/showy-goldenrod-2.jpg)

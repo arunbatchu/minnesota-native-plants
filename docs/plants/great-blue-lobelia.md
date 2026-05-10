@@ -2,6 +2,8 @@
 
 *Lobelia siphilitica*
 
+
+
 ![Great Blue Lobelia](img/great-blue-lobelia-1.jpg)
 
 ![Species from eastern North America Common name: Great Blue Lobelia Photographed on the North Sylamore Creek Trail, Ozark](img/great-blue-lobelia-2.jpg)

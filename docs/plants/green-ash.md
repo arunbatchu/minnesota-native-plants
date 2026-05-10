@@ -2,6 +2,8 @@
 
 *Fraxinus pennsylvanica*
 
+
+
 ![Green Ash foliage during autumn coloration in Ewing, New Jersey](img/green-ash-1.jpg)
 
 ![Green Ash](img/green-ash-2.jpg)

@@ -2,6 +2,8 @@
 
 *Celastrus orbiculatus*
 
+
+
 ![An example of Oriental bittersweet photographed on a book scanner.](img/oriental-bittersweet-1.jpg)
 
 ![From left to right: a leaf that grows on the Or. Bittersweet; a second, rounded, oblique leaf; and a distinctive white r](img/oriental-bittersweet-2.jpg)
