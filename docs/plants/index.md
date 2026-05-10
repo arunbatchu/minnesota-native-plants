@@ -2,13 +2,12 @@
 
 Click any plant to see photos, growing conditions, and the chapters that mention it.
 
-_96 species in this gallery._
+_95 species in this gallery._
 
 ## All Species
 
 | Plant | Scientific Name | Mentioned In |
 |-------|-----------------|--------------|
-| [Asian Lady Beetle](asian-lady-beetle.md) | *Harmonia axyridis* | 06 |
 | [Big Bluestem](big-bluestem.md) | *Andropogon gerardii* | 03, 05 |
 | [Black Ash](black-ash.md) | *Fraxinus nigra* | 02, 08 |
 | [Black-Eyed Susan](black-eyed-susan.md) | *Rudbeckia hirta* | 06 |

@@ -399,6 +399,7 @@ def page_title_and_contents(c):
         ("13", "Cost & Install",                  "Phasing, quotes, "
                                                   "installers"),
         ("14", "Maintenance & Risk",              "Year-by-year care"),
+        ("15", "Plant Profiles",                  "Curtis-style botanical pages — 16 species"),
         ("",   "Notes & sketches",                "Multiple lined pages"),
     ]
 
@@ -1223,8 +1224,126 @@ def build():
     c.showPage()
 
     c.save()
-    print(f"booklet: {OUT_PDF}")
+    print(f"booklet (body): {OUT_PDF}")
+
+    _splice_in_plant_profiles()
+
     return OUT_PDF
+
+
+def _draw_profiles_divider(canvas_path: Path) -> None:
+    """Single-page section divider for the Plant Profiles section."""
+    c = rl_canvas.Canvas(str(canvas_path), pagesize=letter)
+    _fill_paper(c)
+
+    # Centered title block
+    c.setFillColor(C_ACCENT)
+    c.setFont(F_SANS_B, 10)
+    c.drawCentredString(PAGE_W / 2, PAGE_H * 0.62, "15 — PLANT PROFILES")
+
+    c.setFillColor(C_TITLE)
+    c.setFont(F_SERIF_B, 36)
+    c.drawCentredString(PAGE_W / 2, PAGE_H * 0.55,
+                        "The Sixteen Plants")
+
+    c.setFillColor(C_INK)
+    c.setFont(F_SERIF, 13)
+    c.drawCentredString(PAGE_W / 2, PAGE_H * 0.50,
+                        "Botanical plates with qualities, care, "
+                        "history, and reason to be")
+
+    # Decorative rule
+    c.setStrokeColor(C_RULE)
+    c.setLineWidth(1.0)
+    c.line(PAGE_W * 0.35, PAGE_H * 0.46,
+           PAGE_W * 0.65, PAGE_H * 0.46)
+
+    # Body
+    pad = 1.4 * inch
+    body = ("The pages that follow profile every species in the "
+            "design, from the Serviceberry that anchors the west "
+            "end to the Tussock Sedge that armors the swale "
+            "channel. Each plate is a hand-painted-style botanical "
+            "illustration in the spirit of Curtis's Botanical "
+            "Magazine, generated specifically for this project. "
+            "Each profile carries four short sections: what the "
+            "plant looks like, how to care for it, where it comes "
+            "from, and the ecological reason it earns its place "
+            "in your garden.")
+    f_body = ImageFont = None  # noqa
+    c.setFillColor(C_INK)
+    c.setFont(F_SERIF, 11.5)
+    # naive wrap
+    words = body.split()
+    cur, lines = "", []
+    max_w = PAGE_W - 2 * pad
+    for w in words:
+        trial = (cur + " " + w).strip()
+        if c.stringWidth(trial, F_SERIF, 11.5) <= max_w:
+            cur = trial
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    cy = PAGE_H * 0.40
+    for line in lines:
+        c.drawCentredString(PAGE_W / 2, cy, line)
+        cy -= 0.22 * inch
+
+    # Mascot moment
+    c.setFillColor(C_MUTED)
+    c.setFont(F_SERIF_B, 10)
+    c.drawCentredString(PAGE_W / 2, PAGE_H * 0.18,
+                        "— Bree the Bee approves —")
+
+    c.showPage()
+    c.save()
+
+
+def _splice_in_plant_profiles() -> None:
+    """Reopen booklet.pdf, insert a divider + plant-profiles.pdf
+    BEFORE the back cover (which is the last page)."""
+    profiles_pdf = ROOT / "plant-profiles.pdf"
+    if not profiles_pdf.exists():
+        print("  (no plant-profiles.pdf — skipping splice)")
+        return
+
+    try:
+        from pypdf import PdfReader, PdfWriter
+    except ImportError:
+        print("  (pypdf not installed — skipping splice)")
+        return
+
+    # Build the divider as its own one-page PDF
+    divider_pdf = ROOT / ".divider-tmp.pdf"
+    _draw_profiles_divider(divider_pdf)
+
+    body = PdfReader(str(OUT_PDF))
+    profiles = PdfReader(str(profiles_pdf))
+    divider = PdfReader(str(divider_pdf))
+
+    writer = PdfWriter()
+    # body pages 0..N-2 (everything except back cover at N-1)
+    body_pages = list(body.pages)
+    back_cover = body_pages[-1]
+    for p in body_pages[:-1]:
+        writer.add_page(p)
+    # divider
+    for p in divider.pages:
+        writer.add_page(p)
+    # all profile pages
+    for p in profiles.pages:
+        writer.add_page(p)
+    # back cover last
+    writer.add_page(back_cover)
+
+    with open(OUT_PDF, "wb") as f:
+        writer.write(f)
+    divider_pdf.unlink(missing_ok=True)
+
+    n = len(writer.pages)
+    print(f"booklet (with profiles): {OUT_PDF}  ({n} pages)")
 
 
 if __name__ == "__main__":
