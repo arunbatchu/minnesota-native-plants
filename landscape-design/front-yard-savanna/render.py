@@ -165,15 +165,24 @@ provides dappled afternoon shade. To either side, drifts of Wild \
 Bergamot (lavender-pink pom-pom flowers ~3 ft tall) and Purple \
 Coneflower (purple drooping rays with yellow-orange centers) bloom at \
 shoulder height. In the foreground, a tuft of Little Bluestem grass \
-blue-green in summer color; a path of natural-cut limestone steppers \
-emerges from the right. A Monarch butterfly rests on a nearby Butterfly \
-Milkweed (vivid orange umbel). Soft warm afternoon light filters \
-through the serviceberry leaves. Bees hum among the bergamot. Tan \
-stucco wall of a house visible far behind the planting. Photographic, \
-high detail, naturalistic light, intimate scale, gentle. The feel is \
-"sit here for an hour with a coffee and watch the prairie work."
+blue-green in summer color. A Monarch butterfly rests on a nearby \
+Butterfly Milkweed (vivid orange umbel). Soft warm afternoon light \
+filters through the serviceberry leaves. Bees hum among the bergamot. \
+Tan stucco wall of a house visible far behind the planting.
 
-Aspect ratio: landscape, like a magazine spread.
+CRITICAL — what NOT to include:
+  - NO flagstone patio
+  - NO continuous paved walk
+  - NO large pavers or chunky stones in the foreground
+  - NO sidewalk visible
+  - The path is just two or three small natural-cut limestone \
+    steppers — NOT shown as a continuous walk. Either show them \
+    individually embedded in lawn / mulch off to one side, OR omit \
+    the path entirely from this close-up frame.
+
+Photographic, high detail, naturalistic light, intimate scale, gentle. \
+The feel is "sit here for an hour with a coffee and watch the prairie \
+work." Aspect ratio: landscape, like a magazine spread.
 """,
 }
 
