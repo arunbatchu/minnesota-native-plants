@@ -2,12 +2,13 @@
 
 Click any plant to see photos, growing conditions, and the chapters that mention it.
 
-_95 species in this gallery._
+_100 species in this gallery._
 
 ## All Species
 
 | Plant | Scientific Name | Mentioned In |
 |-------|-----------------|--------------|
+| [Asian Lady Beetle](asian-lady-beetle.md) | *Harmonia axyridis* | 06 |
 | [Big Bluestem](big-bluestem.md) | *Andropogon gerardii* | 03, 05 |
 | [Black Ash](black-ash.md) | *Fraxinus nigra* | 02, 08 |
 | [Black-Eyed Susan](black-eyed-susan.md) | *Rudbeckia hirta* | 06 |
@@ -32,11 +33,12 @@ _95 species in this gallery._
 | [Evening Primrose](evening-primrose.md) | *Oenothera biennis* | 06 |
 | [False Blue Indigo](false-blue-indigo.md) | *Baptisia australis* | 03 |
 | [False Solomon's Seal](false-solomons-seal.md) | *Maianthemum racemosum* | 04 |
+| [Fox Sedge](fox-sedge.md) | *Carex vulpinoidea* | 10 |
 | [Garlic Mustard](garlic-mustard.md) | *Alliaria petiolata* | 09 |
 | [Glossy Buckthorn](glossy-buckthorn.md) | *Frangula alnus* | 08 |
 | [Golden Alexanders](golden-alexanders.md) | *Zizia aurea* | 06, 07, 10 |
 | [Gray Dogwood](gray-dogwood.md) | *Cornus racemosa* | 10 |
-| [Great Blue Lobelia](great-blue-lobelia.md) | *Lobelia siphilitica* | 05, 06, 10 |
+| [Great Blue Lobelia](great-blue-lobelia.md) | *Lobelia siphilitica* | 10 |
 | [Green Ash](green-ash.md) | *Fraxinus pennsylvanica* | 08 |
 | [Indian Grass](indian-grass.md) | *Sorghastrum nutans* | 03 |
 | [Ironweed](ironweed.md) | *Vernonia fasciculata* | 06 |
@@ -67,6 +69,7 @@ _95 species in this gallery._
 | [Purple Coneflower](purple-coneflower.md) | *Echinacea purpurea* | 06 |
 | [Purple Loosestrife](purple-loosestrife.md) | *Lythrum salicaria* | 08 |
 | [Purple Prairie Clover](purple-prairie-clover.md) | *Dalea purpurea* | 03 |
+| [Pussytoes](pussytoes.md) | *Antennaria neglecta* | 10 |
 | [Red-osier Dogwood](red-osier-dogwood.md) | *Cornus sericea* | 05 |
 | [Reed Canary Grass](reed-canary-grass.md) | *Phalaris arundinacea* | 08 |
 | [Sensitive Fern](sensitive-fern.md) | *Onoclea sensibilis* | 04 |
@@ -75,6 +78,7 @@ _95 species in this gallery._
 | [Silver Maple](silver-maple.md) | *Acer saccharinum* | 02, 05 |
 | [Smooth Blue Aster](smooth-blue-aster.md) | *Symphyotrichum laeve* | 06, 10 |
 | [Smooth Brome](smooth-brome.md) | *Bromus inermis* | 03 |
+| [Soft Rush](soft-rush.md) | *Juncus effusus* | 10 |
 | [Solomon's Seal](solomons-seal.md) | *Polygonatum biflorum* | 04 |
 | [Southern Maidenhair](southern-maidenhair.md) | *Adiantum capillus-veneris* | 04 |
 | [Spiderwort](spiderwort.md) | *Tradescantia ohiensis* | 06 |
@@ -103,6 +107,7 @@ _95 species in this gallery._
 | [Wild Parsnip](wild-parsnip.md) | *Pastinaca sativa* | 07, 08 |
 | [Wild Rice](wild-rice.md) | *Zizania palustris* | 05 |
 | [Wild Rose](wild-rose.md) | *Rosa blanda* | 06 |
+| [Wild Strawberry](wild-strawberry.md) | *Fragaria virginiana* | 10 |
 
 ## Visual Gallery
 
@@ -132,6 +137,7 @@ _95 species in this gallery._
 <a href="evening-primrose.md" class="plant-gallery-card"><img src="img/evening-primrose-1.jpg" alt="Evening Primrose"><div class="plant-gallery-caption">Evening Primrose<br><em>Oenothera biennis</em></div></a>
 <a href="false-blue-indigo.md" class="plant-gallery-card"><img src="img/false-blue-indigo-1.jpg" alt="False Blue Indigo"><div class="plant-gallery-caption">False Blue Indigo<br><em>Baptisia australis</em></div></a>
 <a href="false-solomons-seal.md" class="plant-gallery-card"><img src="img/false-solomons-seal-1.jpg" alt="False Solomon's Seal"><div class="plant-gallery-caption">False Solomon's Seal<br><em>Maianthemum racemosum</em></div></a>
+<a href="fox-sedge.md" class="plant-gallery-card"><img src="img/fox-sedge-1.jpg" alt="Fox Sedge"><div class="plant-gallery-caption">Fox Sedge<br><em>Carex vulpinoidea</em></div></a>
 <a href="garlic-mustard.md" class="plant-gallery-card"><img src="img/garlic-mustard-1.jpg" alt="Garlic Mustard"><div class="plant-gallery-caption">Garlic Mustard<br><em>Alliaria petiolata</em></div></a>
 <a href="glossy-buckthorn.md" class="plant-gallery-card"><img src="img/glossy-buckthorn-1.jpg" alt="Glossy Buckthorn"><div class="plant-gallery-caption">Glossy Buckthorn<br><em>Frangula alnus</em></div></a>
 <a href="golden-alexanders.md" class="plant-gallery-card"><img src="img/golden-alexanders-1.jpg" alt="Golden Alexanders"><div class="plant-gallery-caption">Golden Alexanders<br><em>Zizia aurea</em></div></a>
@@ -167,6 +173,7 @@ _95 species in this gallery._
 <a href="purple-coneflower.md" class="plant-gallery-card"><img src="img/purple-coneflower-1.jpg" alt="Purple Coneflower"><div class="plant-gallery-caption">Purple Coneflower<br><em>Echinacea purpurea</em></div></a>
 <a href="purple-loosestrife.md" class="plant-gallery-card"><img src="img/purple-loosestrife-1.jpg" alt="Purple Loosestrife"><div class="plant-gallery-caption">Purple Loosestrife<br><em>Lythrum salicaria</em></div></a>
 <a href="purple-prairie-clover.md" class="plant-gallery-card"><img src="img/purple-prairie-clover-1.jpg" alt="Purple Prairie Clover"><div class="plant-gallery-caption">Purple Prairie Clover<br><em>Dalea purpurea</em></div></a>
+<a href="pussytoes.md" class="plant-gallery-card"><img src="img/pussytoes-1.jpg" alt="Pussytoes"><div class="plant-gallery-caption">Pussytoes<br><em>Antennaria neglecta</em></div></a>
 <a href="red-osier-dogwood.md" class="plant-gallery-card"><img src="img/red-osier-dogwood-1.jpg" alt="Red-osier Dogwood"><div class="plant-gallery-caption">Red-osier Dogwood<br><em>Cornus sericea</em></div></a>
 <a href="sensitive-fern.md" class="plant-gallery-card"><img src="img/sensitive-fern-1.jpg" alt="Sensitive Fern"><div class="plant-gallery-caption">Sensitive Fern<br><em>Onoclea sensibilis</em></div></a>
 <a href="serviceberry.md" class="plant-gallery-card"><img src="img/serviceberry-1.jpg" alt="Serviceberry"><div class="plant-gallery-caption">Serviceberry<br><em>Amelanchier laevis</em></div></a>
@@ -174,6 +181,7 @@ _95 species in this gallery._
 <a href="silver-maple.md" class="plant-gallery-card"><img src="img/silver-maple-1.jpg" alt="Silver Maple"><div class="plant-gallery-caption">Silver Maple<br><em>Acer saccharinum</em></div></a>
 <a href="smooth-blue-aster.md" class="plant-gallery-card"><img src="img/smooth-blue-aster-1.jpg" alt="Smooth Blue Aster"><div class="plant-gallery-caption">Smooth Blue Aster<br><em>Symphyotrichum laeve</em></div></a>
 <a href="smooth-brome.md" class="plant-gallery-card"><img src="img/smooth-brome-1.jpg" alt="Smooth Brome"><div class="plant-gallery-caption">Smooth Brome<br><em>Bromus inermis</em></div></a>
+<a href="soft-rush.md" class="plant-gallery-card"><img src="img/soft-rush-1.jpg" alt="Soft Rush"><div class="plant-gallery-caption">Soft Rush<br><em>Juncus effusus</em></div></a>
 <a href="solomons-seal.md" class="plant-gallery-card"><img src="img/solomons-seal-1.jpg" alt="Solomon's Seal"><div class="plant-gallery-caption">Solomon's Seal<br><em>Polygonatum biflorum</em></div></a>
 <a href="southern-maidenhair.md" class="plant-gallery-card"><img src="img/southern-maidenhair-1.jpg" alt="Southern Maidenhair"><div class="plant-gallery-caption">Southern Maidenhair<br><em>Adiantum capillus-veneris</em></div></a>
 <a href="spiderwort.md" class="plant-gallery-card"><img src="img/spiderwort-2.jpg" alt="Spiderwort"><div class="plant-gallery-caption">Spiderwort<br><em>Tradescantia ohiensis</em></div></a>
@@ -202,5 +210,6 @@ _95 species in this gallery._
 <a href="wild-parsnip.md" class="plant-gallery-card"><img src="img/wild-parsnip-1.jpg" alt="Wild Parsnip"><div class="plant-gallery-caption">Wild Parsnip<br><em>Pastinaca sativa</em></div></a>
 <a href="wild-rice.md" class="plant-gallery-card"><img src="img/wild-rice-1.jpg" alt="Wild Rice"><div class="plant-gallery-caption">Wild Rice<br><em>Zizania palustris</em></div></a>
 <a href="wild-rose.md" class="plant-gallery-card"><img src="img/wild-rose-1.jpg" alt="Wild Rose"><div class="plant-gallery-caption">Wild Rose<br><em>Rosa blanda</em></div></a>
+<a href="wild-strawberry.md" class="plant-gallery-card"><img src="img/wild-strawberry-1.jpg" alt="Wild Strawberry"><div class="plant-gallery-caption">Wild Strawberry<br><em>Fragaria virginiana</em></div></a>
 
 </div>

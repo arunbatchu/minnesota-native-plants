@@ -768,6 +768,250 @@ SPECIES = {
             "\"green stormwater function\" to \"emotional anchor.\""
         ),
     },
+    "fox-sedge": {
+        "common": "Fox Sedge",
+        "scientific": "Carex vulpinoidea",
+        "family": "Cyperaceae",
+        "subtitle": "Brown Fox Sedge",
+        "qualities": (
+            "A clumping native sedge of wet meadows, ditches, and "
+            "vegetated bioswales, growing 2 to 3 feet tall. Narrow "
+            "bright-green blades arch outward from a tight basal clump. "
+            "In June and July, distinctive bristly seedheads emerge — "
+            "each one resembling a small foxtail or pipe-cleaner, "
+            "which gives the species its name. The seedheads turn "
+            "from green to golden brown as they ripen and persist into "
+            "fall, providing structural interest after most prairie "
+            "forbs have finished blooming."
+        ),
+        "care": (
+            "Moist to wet soil; tolerates seasonal flooding and "
+            "occasional summer drying once established. Full sun to "
+            "part shade. Hardy to USDA Zone 3. Plant from plug stock "
+            "at 9 to 12 inches spacing for fast canopy closure. As "
+            "with all sedges, the close spacing matters because the "
+            "purpose is to outcompete weeds and bind the soil with "
+            "fibrous roots. No maintenance required; can be cut "
+            "to 6 inches in late winter or burned on a controlled "
+            "spring schedule."
+        ),
+        "history": (
+            "The genus Carex contains over 2,000 species worldwide and "
+            "is one of the largest plant genera; it includes some of "
+            "the most ancient grass-like plants on Earth. Sedges were "
+            "co-dominant species of the sedge meadows that once "
+            "covered substantial acreage in poorly-drained Minnesota "
+            "lowlands. The Ojibwe and Anishinaabe used several Carex "
+            "species for woven mats and basketry. Most sedge meadow "
+            "habitat in Minnesota has been drained and converted to "
+            "agriculture; what remains is among the state's most "
+            "endangered ecosystems."
+        ),
+        "reason": (
+            "Fox Sedge pairs with Tussock Sedge as the structural "
+            "backbone of a vegetated bioswale — the species that "
+            "physically holds soil against stormwater flow. The "
+            "bristly seedheads feed sparrows and small finches "
+            "through fall and winter. The species hosts the larvae "
+            "of several skipper butterflies and Eyed Brown butterflies. "
+            "In a residential bioswale conversion (rock to vegetated), "
+            "Fox Sedge provides the visual texture and the structural "
+            "function in equal measure."
+        ),
+    },
+    "soft-rush": {
+        "common": "Soft Rush",
+        "scientific": "Juncus effusus",
+        "family": "Juncaceae",
+        "subtitle": "Common Rush",
+        "qualities": (
+            "A clumping wetland rush forming distinct fountain-like "
+            "tussocks 2 to 3 feet tall. Smooth cylindrical bright-green "
+            "stems rise vertically from a tight basal clump — the "
+            "stems are the photosynthetic organs (true leaves are "
+            "reduced to small basal sheaths). Inconspicuous brown "
+            "panicles of tiny flowers burst out from the side of "
+            "the stems near the top in early summer, persisting as "
+            "structural seedheads through fall."
+        ),
+        "care": (
+            "Wet to consistently moist soil; tolerates seasonal "
+            "flooding. Full sun to part shade. Hardy to USDA Zone 3. "
+            "Plant from plug stock or 1-gallon container, 12 to 18 "
+            "inches apart for a clump-forming display. Long-lived; "
+            "established clumps can persist for decades. No "
+            "maintenance needed; can be cut to 6 inches in late "
+            "winter, though leaving stems standing through winter "
+            "provides cover for small wildlife."
+        ),
+        "history": (
+            "Soft Rush is one of the few truly cosmopolitan plants — "
+            "it grows wild on every continent except Antarctica. "
+            "Throughout its range it has been used for centuries to "
+            "weave chair seats, mats, and baskets. In medieval England, "
+            "the pith of the stems was soaked in tallow to make "
+            "\"rushlights,\" the cheapest form of household lighting "
+            "before commercial candles became affordable. The "
+            "Anishinaabe and other Great Lakes peoples used it "
+            "similarly for mat-making."
+        ),
+        "reason": (
+            "Soft Rush is a structural element of vegetated bioswales "
+            "and rain gardens, providing vertical contrast to the "
+            "horizontal arch of sedges and the showy spikes of Iris "
+            "and Cardinal Flower. The dense clumps shelter "
+            "amphibians, small birds, and overwintering native bees. "
+            "It tolerates the seasonal flooding that defeats most "
+            "other plants — making it a reliable choice for the "
+            "low spots of a vegetated swale where standing water "
+            "occasionally sits."
+        ),
+    },
+    "great-blue-lobelia": {
+        "common": "Great Blue Lobelia",
+        "scientific": "Lobelia siphilitica",
+        "family": "Campanulaceae",
+        "subtitle": "Blue Cardinal Flower",
+        "qualities": (
+            "An upright wetland perennial 2 to 3 feet tall, with "
+            "lance-shaped leaves on stiff vertical stems. From August "
+            "into September it produces dense terminal spikes of "
+            "two-lipped sky-blue tubular flowers — the showiest "
+            "true-blue native bloom of late summer in Minnesota. Each "
+            "flower has a distinctive pair of white striped throats "
+            "that guide pollinators to the nectar. Self-seeds modestly "
+            "in suitable conditions."
+        ),
+        "care": (
+            "Moist to wet soil; tolerates average garden soil if "
+            "watered. Full sun to part shade. Hardy to USDA Zone 4. "
+            "Plant from 1-gallon stock in spring; do not let the root "
+            "ball dry out during establishment. Mulch lightly in fall. "
+            "Short-lived (3-5 year) but reliably self-seeds. "
+            "Companion-plant with Cardinal Flower; the two species "
+            "occasionally hybridize naturally to produce striking "
+            "purple-blooming offspring."
+        ),
+        "history": (
+            "The species name *siphilitica* reflects its (now-debunked) "
+            "historical use as a treatment for syphilis among "
+            "Indigenous peoples; the root contains alkaloids that are "
+            "toxic in large doses but were used medicinally in small "
+            "preparations. The species has been cultivated since the "
+            "17th century, when it was introduced to European gardens "
+            "as one of the first North American plant exports. The "
+            "rich blue color was sought-after when blue flowers were "
+            "rare in European horticulture."
+        ),
+        "reason": (
+            "Great Blue Lobelia provides a critical late-summer nectar "
+            "source for long-tongued bumblebees, who are strong enough "
+            "to pry open the two-lipped flowers; smaller bees can't. "
+            "Its August-September bloom fills the gap between "
+            "midsummer Bergamot and fall asters. Planted alongside "
+            "Cardinal Flower in a vegetated bioswale's moist slope, "
+            "the red-and-blue pairing is one of the most striking "
+            "color contrasts in the native flora — and supports "
+            "both bee and hummingbird pollinators in one composition."
+        ),
+    },
+    "pussytoes": {
+        "common": "Pussytoes",
+        "scientific": "Antennaria neglecta",
+        "family": "Asteraceae",
+        "subtitle": "Field Pussytoes · Plantain-leaved Everlasting",
+        "qualities": (
+            "A low evergreen mat-forming perennial of dry prairies "
+            "and oak openings. Silvery-gray rosettes of small "
+            "spoon-shaped fuzzy leaves spread by surface runners to "
+            "form a dense ground-hugging carpet 2 to 4 inches tall. "
+            "In May, short 4-to-6-inch stalks rise above the foliage "
+            "bearing tight white fuzzy flower clusters that look "
+            "uncannily like a kitten's toepads — giving the species "
+            "its common name."
+        ),
+        "care": (
+            "Full sun, dry well-drained soil; ideal for sandy or "
+            "rocky sites and sun-baked margins. Hates wet feet — "
+            "site away from downspouts and drainage paths. Plant "
+            "from plug stock 6 to 9 inches apart. Hardy to USDA "
+            "Zone 3. Fully steppable once established — tolerates "
+            "moderate foot traffic without damage, making it a "
+            "rare native option for paths, stepping-stone gaps, and "
+            "service-area buffers."
+        ),
+        "history": (
+            "Pussytoes belong to a group of plants called "
+            "\"everlastings\" because the dried flower clusters "
+            "retain their form and color for years; they were "
+            "widely used in Victorian dried-flower arrangements and "
+            "memorial wreaths. Several Plains tribes used a leaf "
+            "preparation as a remedy for snakebite (largely symbolic) "
+            "and as a smoke for purification ceremonies. The genus "
+            "is named *Antennaria* for the flower's resemblance to "
+            "butterfly antennae."
+        ),
+        "reason": (
+            "Pussytoes is the larval host plant for the American "
+            "Lady butterfly (*Vanessa virginiensis*) — caterpillars "
+            "build silken nests on the silvery foliage. Few native "
+            "groundcovers tolerate foot traffic, drought, AND host "
+            "a charismatic butterfly all at once; this one does. In "
+            "a residential design it solves the problem of \"what "
+            "to plant where service techs walk\" — the HVAC "
+            "buffer, the gas-meter approach — without resorting to "
+            "non-native ground cover or sterile gravel."
+        ),
+    },
+    "wild-strawberry": {
+        "common": "Wild Strawberry",
+        "scientific": "Fragaria virginiana",
+        "family": "Rosaceae",
+        "subtitle": "Virginia Strawberry · Mountain Strawberry",
+        "qualities": (
+            "A spreading native perennial groundcover 4 to 6 inches "
+            "tall, with characteristic three-leaflet (trifoliate) "
+            "compound leaves on slender stalks. White five-petaled "
+            "flowers with bright yellow centers appear in May and "
+            "June, followed by small red strawberries in June and "
+            "July — true strawberries, smaller but more intensely "
+            "flavored than commercial varieties. Spreads aggressively "
+            "by surface runners (stolons) to form a dense knit-together "
+            "mat."
+        ),
+        "care": (
+            "Full sun to part shade; tolerates a wide range of soils "
+            "from sandy loam to clay. Drought-tolerant once "
+            "established. Hardy to USDA Zone 3. Plant from plug or "
+            "4-inch container 12 inches apart; will fill in within "
+            "two seasons. Fully steppable. No pest or disease issues "
+            "in residential settings. Removes runners as needed if "
+            "you want to contain spread."
+        ),
+        "history": (
+            "*Fragaria virginiana* is one of the two parent species of "
+            "the modern cultivated strawberry (*Fragaria × ananassa*) — "
+            "the cultivated berry is a hybrid produced in 1750s "
+            "France between this North American species and the "
+            "Chilean strawberry. The Anishinaabe called wild "
+            "strawberry \"ode'imin\" (heart berry) and considered "
+            "it sacred; June was traditionally Strawberry Moon "
+            "(Ode'imin Giizis). The leaves have been used for tea "
+            "since pre-contact times across most of the species' "
+            "range."
+        ),
+        "reason": (
+            "Wild Strawberry is one of the few truly edible native "
+            "groundcovers — the tiny berries that you (or the "
+            "robins) harvest in June are real strawberries, "
+            "concentrated in flavor. The flowers feed early-season "
+            "native bees; the leaves host the larvae of the Grey "
+            "Hairstreak butterfly. As a ground-hugging tough native, "
+            "it converts the service-area buffer or any path edge "
+            "from sterile mulch into ecologically functional "
+            "habitat — and gives you something to taste in passing."
+        ),
+    },
     "swamp-milkweed": {
         "common": "Swamp Milkweed",
         "scientific": "Asclepias incarnata",

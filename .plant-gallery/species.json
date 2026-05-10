@@ -1,4 +1,13 @@
 {
+  "Harmonia axyridis": {
+    "slug": "asian-lady-beetle",
+    "common_name": "Asian Lady Beetle",
+    "scientific_name": "Harmonia axyridis",
+    "mentioned_in": [
+      "06-pollinators-wildlife"
+    ],
+    "images": []
+  },
   "Andropogon gerardii": {
     "slug": "big-bluestem",
     "common_name": "Big Bluestem",
@@ -642,6 +651,26 @@
     "summary": "Maianthemum racemosum, the treacleberry, feathery false lily of the valley, false Solomon's seal, Solomon's plume or false spikenard, is a species of flowering plant native to North America. It is a common, widespread plant with numerous common names and synonyms, known from every US state except Hawaii, and from every Canadian province and territory (except Nunavut and the Yukon), as well as from Mexico.",
     "fetch_status": "ok"
   },
+  "Carex vulpinoidea": {
+    "slug": "fox-sedge",
+    "common_name": "Fox Sedge",
+    "scientific_name": "Carex vulpinoidea",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/fox-sedge-1.jpg",
+        "license": "Public domain",
+        "credit": "Johann Georg Sturm (Painter: Jacob Sturm)",
+        "description": "1. Carex binervis Sm. 2. Carex punctata Gaudin Original Caption 1. Leisten-Segge, Carex binervis Sm. 2. Punkt-Segge, Carex punctata Gaudin",
+        "source_title": "File:Carex spp Sturm55.jpg"
+      }
+    ],
+    "wikipedia_title": "List of Carex species",
+    "summary": "The genus Carex, the sedges, is one of the largest genera of flowering plants, containing over 2000 species, according to the Royal Botanic Gardens at Kew. In May 2015, the Global Carex Group argued for a broader circumscription of Carex, which added all the species formerly classified in Cymophyllus (1 species), Kobresia (c. 60 species), Schoenoxiphium (c.",
+    "fetch_status": "ok"
+  },
   "Alliaria petiolata": {
     "slug": "garlic-mustard",
     "common_name": "Garlic Mustard",
@@ -757,8 +786,6 @@
     "common_name": "Great Blue Lobelia",
     "scientific_name": "Lobelia siphilitica",
     "mentioned_in": [
-      "05-wetland-shoreline-plants",
-      "06-pollinators-wildlife",
       "10-garden-design-native-plants"
     ],
     "images": [
@@ -1559,6 +1586,26 @@
     "summary": "Dalea purpurea is a species of flowering plant in the legume family known as purple prairie clover. Native to central North America, purple prairie clover is a relatively common member of the Great Plains and prairie ecosystems. It blooms in the summer with dense spikes of bright purple flowers that attract many species of insects.",
     "fetch_status": "ok"
   },
+  "Antennaria neglecta": {
+    "slug": "pussytoes",
+    "common_name": "Pussytoes",
+    "scientific_name": "Antennaria neglecta",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/pussytoes-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "El Grafo",
+        "description": "Antennaria nebrascensis (syn. Antennaria neglecta) at the \u00d6BG Bayreuth",
+        "source_title": "File:Antennaria neglecta \u00d6BG 2012-05-20 03.jpg"
+      }
+    ],
+    "wikipedia_title": "Antennaria neglecta",
+    "summary": "Antennaria neglecta  is a North American species of flowering plants in the family Asteraceae known by the common name field pussytoes. It is widespread across much of Canada (including Northwest Territories plus all provinces except Newfoundland and Labrador) as well as the northeastern and north-central United States.\nAntennaria neglecta  is an herb up to 25 cm (10 inches) tall with as many as 8 flowering heads per plant.",
+    "fetch_status": "ok"
+  },
   "Cornus sericea": {
     "slug": "red-osier-dogwood",
     "common_name": "Red-osier Dogwood",
@@ -1753,6 +1800,33 @@
     ],
     "wikipedia_title": "Bromus inermis",
     "summary": "Bromus inermis is a species of the true grass family (Poaceae). This rhizomatous grass is native to Europe and considered invasive in North America.\nThe plant is an erect, leafy, long-lived perennial, 46 to 91 cm (1+1\u20442 to 3 ft) tall, rhizomatous and commonly producing a dense sod.",
+    "fetch_status": "ok"
+  },
+  "Juncus effusus": {
+    "slug": "soft-rush",
+    "common_name": "Soft Rush",
+    "scientific_name": "Juncus effusus",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/soft-rush-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "The original uploader was Meggar at English Wikipedia.",
+        "description": "photo by Meggar",
+        "source_title": "File:Juncus effuses.jpg"
+      },
+      {
+        "file": "plants/img/soft-rush-2.jpg",
+        "license": "Public domain",
+        "credit": "Rosser1954 Roger Griffith",
+        "description": "The moth Coleophora caespitiella pupal cases on Juncus effusus. North Ayrshire, Scotland.",
+        "source_title": "File:Soft Rush with cocoons of Coleophora caespitiella.JPG"
+      }
+    ],
+    "wikipedia_title": "Juncus effusus",
+    "summary": "Juncus effusus is a perennial herbaceous flowering plant species in the rush family Juncaceae, with the common names common rush or soft rush.  In North America, the common name soft rush also refers to Juncus interior.",
     "fetch_status": "ok"
   },
   "Polygonatum biflorum": {
@@ -2458,6 +2532,33 @@
     ],
     "wikipedia_title": "Rosa blanda",
     "summary": "Rosa blanda, commonly known as the smooth rose, meadow/wild rose, or prairie rose, is a species of rose native to North America. Among roses, it is closest to a \"thornless\" rose, with just a few thorns at the base. The meadow rose occurs as a colony-forming shrub growing to 1 m (3.3 ft) high, naturally in prairies and meadows.",
+    "fetch_status": "ok"
+  },
+  "Fragaria virginiana": {
+    "slug": "wild-strawberry",
+    "common_name": "Wild Strawberry",
+    "scientific_name": "Fragaria virginiana",
+    "mentioned_in": [
+      "10-garden-design-native-plants"
+    ],
+    "images": [
+      {
+        "file": "plants/img/wild-strawberry-1.jpg",
+        "license": "CC BY 2.5",
+        "credit": "Shipher Wu (photograph) and Gee-way Lin (aphid provision), National Taiwan University",
+        "description": "Pea aphids extracting sap from the stem and leaves of garden peas.",
+        "source_title": "File:Acyrthosiphon pisum (pea aphid)-PLoS.jpg"
+      },
+      {
+        "file": "plants/img/wild-strawberry-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Nichole Ouellette/ouellette001.com",
+        "description": "46\u00b0 36' 22.15\" N - 072\u00b0 19' 56.12\" W, Mauricie, Les Chenaux Regional County Municipality, Saint-Prosper, Pronovost Road, Tuesday, June 2, 2009.",
+        "source_title": "File:Fragaria virginiana 028.jpg"
+      }
+    ],
+    "wikipedia_title": "Fragaria virginiana",
+    "summary": "Fragaria virginiana, known as Virginia strawberry, wild strawberry, common strawberry, or mountain strawberry, is a perennial North American strawberry that grows across much of the United States and southern Canada. It is one of the two species of wild strawberry that were hybridized to create the modern domesticated garden strawberry (Fragaria \u00d7 ananassa).",
     "fetch_status": "ok"
   }
 }

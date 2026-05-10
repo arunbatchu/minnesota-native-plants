@@ -352,7 +352,7 @@ Nature does not plant in rows. In a forest or prairie, plants grow at multiple h
 
 ### Planting Layers
 
-- **Ground layer** (0 to 6 inches) — mosses, Wild Strawberry, sedges, and creeping ground covers
+- **Ground layer** (0 to 6 inches) — mosses, [Wild Strawberry](../../plants/wild-strawberry.md) (*Fragaria virginiana*), [Pussytoes](../../plants/pussytoes.md) (*Antennaria neglecta*), sedges, and creeping ground covers. The stepable natives (Pussytoes, Wild Strawberry) are especially useful around utility access points where workers need to walk.
 - **Herbaceous layer** (6 inches to 3 feet) — the bulk of your wildflowers and short grasses
 - **Tall herbaceous layer** (3 to 6 feet) — Joe-Pye Weed, Cup Plant, Big Bluestem, tall asters
 - **Shrub layer** (3 to 15 feet) — [Gray Dogwood](../../plants/gray-dogwood.md) (*Cornus racemosa*), [Ninebark](../../plants/ninebark.md) (*Physocarpus opulifolius*), [Serviceberry](../../plants/serviceberry.md) (*Amelanchier laevis*), Elderberry. These four are foundational native shrubs for residential design — Serviceberry offers four-season interest with white spring bloom, June berries, and fiery fall color; Ninebark provides architectural form and exfoliating winter bark; Gray Dogwood produces white berries on red pedicels that birds strip in fall.
@@ -404,7 +404,7 @@ flowchart TD
 
 A rain garden has three moisture zones, each requiring different plants:
 
-- **Zone 1 (center/bottom)** — Wettest area, standing water for hours after rain. Plant with Blue Flag Iris, Marsh Marigold, Blue Lobelia, and sedges.
+- **Zone 1 (center/bottom)** — Wettest area, standing water for hours after rain. Plant with Blue Flag Iris, Marsh Marigold, [Great Blue Lobelia](../../plants/great-blue-lobelia.md) (*Lobelia siphilitica*), and clumping sedges and rushes such as Tussock Sedge, [Fox Sedge](../../plants/fox-sedge.md) (*Carex vulpinoidea*), and [Soft Rush](../../plants/soft-rush.md) (*Juncus effusus*) — these form a dense fibrous root mat that armors the channel against erosion.
 - **Zone 2 (slopes)** — Moist but not saturated. Plant with Joe-Pye Weed, Swamp Milkweed, Black-Eyed Susan, and Switch Grass.
 - **Zone 3 (rim)** — Driest area, similar to surrounding landscape. Plant with Little Bluestem, Purple Coneflower, Wild Bergamot, and Prairie Dropseed.
 

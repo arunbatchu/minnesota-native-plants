@@ -485,7 +485,7 @@ One of the most important -- and most often overlooked -- aspects of pollinator 
 
 **Late Spring (May-June):**
 
-- Wild Lupine (*Lupinus perennis*)
+- [Wild Lupine](../../plants/wild-lupine.md) (*Lupinus perennis*)
 - [Spiderwort](../../plants/spiderwort/) (*Tradescantia ohiensis*)
 - [Cream Gentian](../../plants/cream-gentian/) (*Gentiana alba*)
 

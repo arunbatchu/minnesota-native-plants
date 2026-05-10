@@ -2,7 +2,9 @@
 
 *Lobelia siphilitica*
 
+![Botanical illustration of Great Blue Lobelia (Lobelia siphilitica)](img/great-blue-lobelia-illustration.png){ .plant-illustration }
 
+*Botanical plate of* **Lobelia siphilitica** *— Curtis-style illustration.*
 
 ![Great Blue Lobelia](img/great-blue-lobelia-1.jpg)
 
@@ -25,8 +27,6 @@ Lobelia siphilitica, the great blue lobelia, great lobelia, or blue cardinal flo
 
 ## Mentioned In
 
-- [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
-- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 - [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits
