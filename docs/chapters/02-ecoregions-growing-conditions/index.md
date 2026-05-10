@@ -402,6 +402,39 @@ Matching plants to your soil type is just as important as matching them to your 
 
 A simple soil test from your local University of Minnesota Extension office can tell you your soil's texture, pH, and nutrient levels. This is one of the most valuable steps you can take before planting.
 
+### Look Up Your Actual Soil — Free, Five Minutes
+
+The USDA Natural Resources Conservation Service publishes a parcel-level soil survey for nearly every property in the United States. You can pull a detailed soil report for your own yard in about five minutes:
+
+1. Go to **[USDA Web Soil Survey](https://websoilsurvey.nrcs.usda.gov/app/)**
+2. Click **Start WSS**, then enter your street address
+3. Use the AOI (Area of Interest) tool to draw a rectangle around your yard
+4. Click the **Soil Map** tab — each colored area is a different soil map unit, named (e.g., "HsB — Hayden loam, 2 to 6 percent slopes")
+5. Click any unit name to see properties: parent material, drainage class, available water capacity, depth to bedrock, common uses
+
+This single lookup tells you more than any plant tag. A Minneapolis suburb with "Hayden loam" or "Lester loam" supports completely different native plant communities than a north-shore yard with "Cathro muck" or sandy "Mahtomedi" soils. Match your plants to what's actually under your feet.
+
+!!! mascot-tip "Bree's Tip"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Bree tip">
+    The Web Soil Survey also lets you generate a printable PDF report
+    of your parcel's soil — bring it along when you visit a native
+    nursery or talk to a designer. It signals you've done your homework.
+
+### Find What Grew Here Before 1850 — The Marschner Map
+
+Between 1929 and 1931, geographer Francis Marschner reconstructed Minnesota's pre-settlement vegetation from the original 1850s Public Land Survey notes. The result — the **Marschner map** — is the single best reference for "what plant community would have existed on this exact spot before European settlement."
+
+Browse it at the **[Minnesota Natural Resource Atlas — Pre-settlement Vegetation](https://mnatlas.org/resources/vegetation-presettlement/)**. Type in any address and the map shows your parcel's historic community: bur oak savanna, tallgrass prairie, big woods (maple-basswood forest), tamarack swamp, white pine forest, and so on.
+
+This is genuinely useful for design. If your parcel was historically bur oak savanna, restoring a small pocket of savanna vegetation isn't just "planting natives" — it's literally repairing a fragment of the ecosystem that belongs there. The Marschner classification also tells you what soils, hydrology, and fire regime your community evolved with, all of which inform plant selection.
+
+!!! mascot-thinking "Key Insight"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
+    Combining your USDA soil survey result with the Marschner pre-
+    settlement community gives you the strongest possible answer to
+    "what should I plant here?" — soil + history + climate, all
+    pointing in the same direction.
+
 ## Chapter Summary
 
 !!! mascot-celebration "Wonderful Progress!"

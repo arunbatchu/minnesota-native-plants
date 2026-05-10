@@ -230,6 +230,35 @@ Adult butterflies can sip nectar from many different flowers, but their caterpil
 - **Baltimore Checkerspot** -- [White Turtlehead](../../plants/white-turtlehead/) (*Chelone glabra*)
 - **Karner Blue** -- [Wild Lupine](../../plants/wild-lupine.md) (*Lupinus perennis*) only
 
+### Pollinator–Host Plant Matrix (planning reference)
+
+This matrix flips the lookup: instead of "what does this butterfly need," it answers "if I plant this species, which Lepidoptera does it support?" Useful when designing a garden — you can build the planting list to support specific target species.
+
+| Native plant | Larval host for |
+|---|---|
+| **Wild Lupine** (*Lupinus perennis*) | Karner Blue Butterfly (federally endangered; lupine is its **only** food plant) |
+| **Milkweeds** — Common, Swamp, Butterfly Weed (*Asclepias spp.*) | Monarch Butterfly; Milkweed Tussock Moth |
+| **Violets** (*Viola spp.*) | All Fritillary butterflies (Great Spangled, Aphrodite, Atlantis, Regal) |
+| **Golden Alexanders** (*Zizia aurea*) | Black Swallowtail; Ozark Swallowtail |
+| **White Turtlehead** (*Chelone glabra*) | Baltimore Checkerspot |
+| **Pussytoes** (*Antennaria neglecta*) | American Lady |
+| **Wild Strawberry** (*Fragaria virginiana*) | Grey Hairstreak; multiple skippers |
+| **False Blue Indigo** (*Baptisia australis*) | Wild Indigo Duskywing skipper; Hoary Edge |
+| **Wild Bergamot** (*Monarda fistulosa*) | Hermit Sphinx; Orange Mint Moth |
+| **Native asters** (*Symphyotrichum spp.*) | Pearl Crescent; Painted Crescent |
+| **Native goldenrods** (*Solidago spp.*) | Wavy-lined Emerald moth; ~115 documented species |
+| **Native willows** (*Salix spp.*) | Viceroy; Mourning Cloak; Red-spotted Purple |
+| **Pagoda Dogwood** (*Cornus alternifolia*) | Spring Azure |
+| **Bur Oak** (*Quercus macrocarpa*) | ~534 documented species — the most generous host plant in MN |
+| **Black Cherry** (*Prunus serotina*) | Eastern Tiger Swallowtail; Cecropia Moth; ~456 species |
+
+Two principles emerge from this matrix:
+
+1. **Specialists are vulnerable.** A butterfly with one host plant (Karner Blue → lupine, Baltimore Checkerspot → turtlehead) is one habitat loss away from local extirpation. Including these plants in your design is a direct conservation act.
+2. **Native trees are king.** A single Bur Oak supports more Lepidoptera than an entire perennial border of forbs. If you have room for one native tree, plant an oak.
+
+Doug Tallamy's research (*Bringing Nature Home*, 2007; *Nature's Best Hope*, 2019) is the comprehensive source for these counts.
+
 Test your knowledge of pollinator-plant relationships by matching pollinator species to their preferred native host and nectar plants.
 
 <iframe src="../../sims/pollinator-match/main.html" width="100%" height="500px" scrolling="no"></iframe>

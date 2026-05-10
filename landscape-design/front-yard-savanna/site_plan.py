@@ -80,11 +80,14 @@ BENCH = (12, 17.5)
 BENCH_W, BENCH_L = 1.5, 5  # 18" deep × 5 ft long (in plan, runs east-west)
 
 # ---- plant placements (id, x, y, mature_radius_ft, color, abbrev) ----
+# (label, x, y, planting_radius_ft, mature_radius_ft, color, abbrev)
+# Trees and shrubs draw at PLANTING size as a solid disc, with a dotted
+# outline showing mature canopy footprint so the plan reads as installable.
 WOODY = [
-    ("Serviceberry",       14, 23.5, 6.0, "#7a4a2a", "SVB"),
-    ("Gray Dogwood",       11, 24.5, 4.0, "#a8723e", "GDW"),
-    ("Ninebark (W)",       19, 26,   2.5, "#9a5a3a", "NIN"),
-    ("Ninebark (E)",       33, 26,   2.5, "#9a5a3a", "NIN"),
+    ("Serviceberry",       14, 23.5, 1.5, 6.0, "#7a4a2a", "SVB"),
+    ("Gray Dogwood",       11, 24.5, 1.0, 4.0, "#a8723e", "GDW"),
+    ("Ninebark (W)",       19, 26,   0.8, 2.5, "#9a5a3a", "NIN"),
+    ("Ninebark (E)",       33, 26,   0.8, 2.5, "#9a5a3a", "NIN"),
 ]
 
 # Forb drifts as elliptical patches with quantity labels
@@ -260,13 +263,22 @@ ax.text(bx, by - 1.2, "BENCH\n(east-facing)", ha="center", va="top",
         fontsize=8, color="#3a2818", weight="bold")
 
 # --- woody plants ---
-for label, x, y, r, color, abbrev in WOODY:
-    ax.add_patch(patches.Circle((x, y), r,
+# Solid disc = planting size (what the installer sees on day 1)
+# Dotted ring = mature canopy footprint (what to allow space for)
+for label, x, y, planting_r, mature_r, color, abbrev in WOODY:
+    # Mature canopy outline (dotted)
+    ax.add_patch(patches.Circle((x, y), mature_r,
+                                  facecolor="none", edgecolor=color,
+                                  linewidth=1.0, linestyle=(0, (2, 2)),
+                                  zorder=3.8, alpha=0.5))
+    # Planting size (solid)
+    ax.add_patch(patches.Circle((x, y), planting_r,
                                   facecolor=color, edgecolor="#1a1a1a",
-                                  linewidth=1.0, zorder=4, alpha=0.65))
-    ax.add_patch(patches.Circle((x, y), 0.25,
+                                  linewidth=1.0, zorder=4, alpha=0.85))
+    # Trunk dot
+    ax.add_patch(patches.Circle((x, y), 0.15,
                                   facecolor="#1a1a1a", zorder=4.5))
-    ax.text(x, y - r - 0.3, abbrev, ha="center", va="top",
+    ax.text(x, y - mature_r - 0.3, abbrev, ha="center", va="top",
             fontsize=7.5, weight="bold", color="#1a1a1a")
 
 # --- forb drifts ---
@@ -348,6 +360,7 @@ legend_items = [
     ("●", "#7a4a2a", "Serviceberry (SVB) — west anchor, 15-20 ft mature"),
     ("●", "#a8723e", "Gray Dogwood (GDW)"),
     ("●", "#9a5a3a", "Ninebark (NIN) — flanking bay window, kept low"),
+    ("◌", "#7a4a2a", "Dotted ring = mature canopy at year ~10"),
     ("⬭", "#c66da8", "Forb drift — number = quantity"),
     ("⬭", "#5b8a72", "Swale plug planting"),
     ("○", "#5d8a5a", "Existing tree to preserve"),

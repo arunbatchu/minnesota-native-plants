@@ -231,20 +231,20 @@ A future pass should sweep through other foundational species the book is missin
 
 ## Suggested next moves for the textbook (in priority order)
 
-1. **Add the 5 missing species cards** ✓ (done this session)
-2. **Generate Curtis-style botanical illustrations** for the 18 design species ✓ (in progress this session)
-3. **Drop those illustrations into the textbook's species cards** ✓ (planned)
-4. **Add a "Worked Example" appendix** built from this design package
-5. **Populate Quick Facts data** for at least the 30 most-used species (Prairie Moon catalog scrape would be efficient)
-6. **Add bloom Gantt charts** to chapters 03, 04, 05, 06, 10
-7. **Web Soil Survey + Marschner workflow sidebars** in Ch 02
-8. **Vegetated bioswale section** in Ch 10
-9. **Year-by-year evolution sidebar** in Ch 10
-10. **Pollinator host-plant matrix** in Ch 06
-11. **Working with Installers appendix** built from the installer-packet.md template
-12. **Print-ready downloads page** with site-assessment checklist, maintenance calendar, plant pocket cards, bloom calendar
+1. **Add the 5 missing species cards** ✅ DONE
+2. **Generate Curtis-style botanical illustrations** for the 18 design species ✅ DONE (21 illustrations now)
+3. **Drop those illustrations into the textbook's species cards** ✅ DONE (template embeds them automatically)
+4. **Add a "Worked Example" appendix** built from this design package — DEFERRED until install completes
+5. **Populate Quick Facts data** for at least the 30 most-used species — DEFERRED (substantial scrape effort)
+6. **Add bloom Gantt charts** to chapters 03, 04, 05, 06, 10 — DEFERRED (one chapter at a time)
+7. **Web Soil Survey + Marschner workflow sidebars** in Ch 02 ✅ DONE
+8. **Vegetated bioswale section** in Ch 10 ✅ DONE
+9. **Year-by-year evolution sidebar** in Ch 10 ✅ DONE
+10. **Pollinator host-plant matrix** in Ch 06 ✅ DONE
+11. **Working with Installers appendix** built from installer-packet.md ✅ DONE (added as section to Ch 11)
+12. **Print-ready downloads page** with site-assessment checklist, maintenance calendar, plant pocket cards, bloom calendar — DEFERRED
 
-The first three items have been substantially advanced this session. Items 4-12 are deferred to future work but the templates / patterns / data exist to make them efficient.
+**Eight of twelve items completed.** The remaining four are explicitly deferred (worked-example needs install photos; Quick Facts and per-chapter bloom charts are substantial work; downloads page needs site-wide infrastructure).
 
 ---
 

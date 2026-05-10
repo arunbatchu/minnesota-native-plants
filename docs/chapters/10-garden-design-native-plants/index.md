@@ -324,6 +324,25 @@ Native landscapes in the wild are dense — a square foot of healthy prairie may
 
 A common beginner mistake is spacing plants too far apart based on conventional gardening norms. In a native garden, plants are meant to grow into one another, creating a woven tapestry of foliage and bloom.
 
+### What a Native Garden Looks Like Over Time
+
+The most-asked question after a new native planting goes in is "did it fail?" — usually in the second summer when half the species haven't yet bloomed. The honest answer is no; native gardens follow a different timeline than conventional perennial borders, and knowing the trajectory in advance prevents a lot of unnecessary worry.
+
+| Year | What it looks like | What's actually happening |
+|---|---|---|
+| **Year 1** | Looks "planted" — small individual plants with visible mulch and bare soil between them. Many forbs do not bloom heavily; some skip blooming entirely. | Roots are establishing. Native species put energy into root systems before topgrowth — a Baptisia spends its first summer building a 2-foot taproot before showing leaves. |
+| **Year 2** | Plants visibly larger; gaps still visible. Most forbs bloom on schedule but in modest numbers. Sedges close the swale channel. | Plants are now established and beginning canopy expansion. The root system is doing its real work. |
+| **Year 3** | "Established." Drifts begin to fill in. Bluestem and Dropseed are at three-quarters mature size. Pollinator populations have discovered the garden. | This is the year most photographs of "native gardens" represent. Drifts knit together, and the garden begins to feel intentional rather than freshly-planted. |
+| **Year 5** | Matured. Drifts overlap. Some species have self-seeded into adjacent gaps; some original plantings have died out as expected (lupines often do). The composition is now succeeding rather than just established. | The garden is now self-managing — pulling weeds twice a year is enough. Soil microbiome has built; pollinator populations are stable. |
+| **Year 10+** | Self-managing meadow. Composition has shifted noticeably from year 3 — some species expanded, others contracted. Shrubs are at full size; trees are visibly larger. | The garden is editing itself. Your job is now occasional gentle intervention — cutting back, removing aggressive self-seeders, replacing what genuinely fails. |
+
+!!! mascot-encourage "Hang in there"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Bree encouraging">
+    Year 2 is the hardest. The bare soil hasn't filled in, the bloom is
+    sparse, and the garden looks like work hasn't paid off. Resist the
+    urge to dig things up or fill in with non-natives. Year 3 always
+    comes — and then year 5 makes you forget you ever doubted.
+
 ## Species Diversity Design
 
 Diversity is not just an ecological principle — it is a design strategy. A garden with 20 species is more resilient, more visually interesting, and more valuable to wildlife than a garden with 5 species.
@@ -411,6 +430,43 @@ A rain garden has three moisture zones, each requiring different plants:
 Try designing your own rain garden below — position plants across the three moisture zones and see how your design handles a storm event.
 
 <iframe src="../../sims/rain-garden-designer/main.html" width="100%" height="600px" scrolling="no"></iframe>
+
+## Vegetated Bioswales — Conveying Stormwater With Plants Instead of Rock
+
+A rain garden captures and *holds* water in a depression. A **bioswale** *moves* water — a shallow planted channel that conveys stormwater across a landscape while slowing it, filtering it, and giving plants a chance to take it up.
+
+Many residential properties in the Twin Cities have an existing river-rock dry-creek somewhere — usually channeling roof runoff from a downspout out to the lawn or street. These rock channels function as drainage but support no ecology, look sterile, and accumulate leaf litter and weeds in the gaps between stones. Replacing them with a vegetated bioswale gives you the same drainage performance plus a small piece of restored sedge meadow — one of Minnesota's most endangered habitats.
+
+### How a vegetated bioswale works
+
+The principle is simple: dense fibrous-rooted plants form a living mat that holds soil against flowing water. Where rock physically armors a channel, plant roots and stems do the same job ecologically. Water flowing through a planted swale slows down, infiltrates, and feeds the plants — which in turn shelter pollinators, amphibians, and ground-nesting birds.
+
+The two structural species in any Minnesota bioswale are sedges:
+
+- [Tussock Sedge](../../plants/tussock-sedge/) (*Carex stricta*) — the keystone, forming raised tussocks that physically lift the plant above standing water
+- [Fox Sedge](../../plants/fox-sedge/) (*Carex vulpinoidea*) — clumping, with bristly seedheads that look like a fox's tail
+
+Both spread by short rhizomes and weave together at 9 to 12 inch spacing into a dense mat that handles flow events without erosion. [Soft Rush](../../plants/soft-rush/) (*Juncus effusus*) adds vertical contrast and tolerates the deepest standing water. Together these three form the *channel center* — the wettest band, where water sits longest after a storm.
+
+### Three moisture bands, like a rain garden
+
+| Band | What it does | Plant with |
+|---|---|---|
+| **Channel center** | Carries flow; standing water for hours after rain | Tussock Sedge, Fox Sedge, Soft Rush, [Blue Flag Iris](../../plants/blue-flag-iris/) |
+| **Moist slope** | Wet but rarely flooded | [Swamp Milkweed](../../plants/swamp-milkweed/), [Cardinal Flower](../../plants/cardinal-flower/), [Great Blue Lobelia](../../plants/great-blue-lobelia/) |
+| **Dry rim** | Transitions to surrounding landscape | Little Bluestem, Prairie Dropseed, Wild Petunia |
+
+### Construction notes
+
+A bioswale is more delicate during establishment than after. The first growing season — before sedges have rooted — is when the swale is vulnerable to scour from heavy rain. Three protections help:
+
+1. **Plant from plug stock at tight 9-12 inch spacing.** Closer than typical native gardens. The goal is rapid canopy closure to outcompete weeds and bind soil.
+2. **Cover the channel with biodegradable jute or coir blanket** for the first growing season. Sedges break through it as they grow; the blanket biodegrades within 18-24 months.
+3. **No mulch in the channel center.** Mulch in a flow path floats away. Mulch only on the dry rim and inter-plant gaps in the upper moisture band.
+
+If you're converting an existing river-rock dry-creek, dig a small **test pit** before full removal. You may find an underlayment fabric, a gravel base, or even an existing drain tile — preserve any drain tile during the conversion. Hand-pull weeds (especially creeping charlie) before removing rocks; disturbing it without removal first spreads it aggressively.
+
+The Met Council's Minimal Impact Design Standards (MIDS) toolkit provides Twin Cities-specific bioswale specs at [metrocouncil.org](https://metrocouncil.org/), including sizing calculations for your roof's runoff volume.
 
 ## Pollinator Garden Design
 

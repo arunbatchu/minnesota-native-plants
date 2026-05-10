@@ -537,6 +537,87 @@ Most Minnesota native seeds ripen between late July and October. Ripe seeds typi
 - Dry seeds thoroughly in a warm, well-ventilated area for one to two weeks.
 - Store seeds in paper envelopes or breathable containers in a cool, dry location. Many native seeds remain viable for two to five years when stored properly.
 
+## Working With Professional Installers
+
+Many native-garden projects can be installed DIY — especially small beds, simple plug plantings, or seed-sown prairies. But some projects benefit from a professional contractor: large bed conversions, mature shrub or tree installations, removing established non-native shrubs (mugo pine, junipers, yews), bioswale construction, and any project that combines plants with hardscape (paths, bench pads, edging).
+
+This section is a practical guide to choosing and working with installers who can do native work *well*. Many landscape companies will *try* native plantings, but few have the species knowledge, source relationships, and bioswale experience that distinguishes a real native specialist.
+
+### When to hire a pro vs. DIY
+
+| Hire a pro | DIY |
+|---|---|
+| Removing mature mugo pines, junipers, or other deep-rooted woody shrubs (mini-excavator territory) | Single bed installs from plugs or 1-gal containers |
+| Installing mature B&B trees and shrubs (Serviceberry, Pagoda Dogwood, mature Ninebark) | Forb and grass plantings |
+| Converting river-rock dry-creeks to vegetated bioswales | Seed-sown prairies (with patience) |
+| Building stepping-stone paths, bench pads, retaining structures | Mulching, weeding, year-1 watering |
+| Single-season "instant garden" install for entertainment / sale prep | Multi-year phased plantings |
+| Stormwater compliance (rain garden permitted by city) | Standard residential beds |
+
+### Recommended firms in the Twin Cities metro
+
+These four firms have demonstrated experience with native installations and bioswale work:
+
+- **Prairie Restorations Inc.** ([prairieresto.com](https://www.prairieresto.com)) — MN's oldest native-restoration firm (since 1977). The default choice for any savanna or prairie palette.
+- **Outback Nursery** ([outbacknursery.com](https://www.outbacknursery.com)) — Hastings; sells the 1-gal native stock and installs what they grow.
+- **Landscape Alternatives** ([landscapealternatives.com](https://landscapealternatives.com)) — Shafer; full design-build with native focus.
+- **Metro Blooms** ([metroblooms.org](https://metroblooms.org)) — Twin Cities non-profit; rain-garden specialists; offers free consultations and design support.
+
+Get **2 to 3 quotes minimum** for any project over $5,000. Apples-to-apples comparison requires asking the same questions of each.
+
+### Questions to ask every installer
+
+Take this list to every site visit. Same questions to all bidders. Their answers tell you who actually does this work.
+
+**Experience.** How many oak-savanna or prairie-style residential installs have you done in the past 3 years? Can you show me 2-3 references — gardens you can drive me past or homeowners I can call? Have you converted river-rock drainage swales to vegetated bioswales before?
+
+**Removal.** How will you remove existing mature shrubs (if any)? Mini-excavator? Hand? What's the disposal process? Will you handle the creeping charlie pre-removal, or is that on us? Will you test-pit before full removal to confirm what's underneath?
+
+**Plants & sources.** Where do you source your plants? Specifically — are they MN-provenance, or generic nursery stock from somewhere warmer? Will you guarantee Prairie Moon Nursery, Outback Nursery, or Glacial Ridge Growers as sources for our specified species? What size containers do you install? Will you install woody specimens at B&B size, not bare-root?
+
+**Hardscape.** What's your stepping-stone source — natural-cut Chilton limestone or equivalent? Show me a sample. How do you set steppers — screenings or mortared? What edge treatment do you recommend? Do you have a bench-pad spec, or do we provide one?
+
+**Bioswale (if applicable).** Walk me through how you'd plant the swale channel. (Listen for: dense plug spacing, biodegradable erosion blanket, sedge/rush armor matrix.) What's your year-1 protection plan if a heavy storm hits before sedges root?
+
+**Warranty & care.** What's your warranty on woody plants? On forbs and grasses? Do you offer a year-1 maintenance contract? When do you recommend we install — spring or fall?
+
+**Schedule & cost.** Lead time? Single-season install or phased? Quote breakdown by line item? What's *not* included?
+
+### Red flags
+
+- "We can do this with junipers and daylilies, those are native." (Daylilies are not native.)
+- "Rock is just easier for the swale." (They haven't done a vegetated bioswale.)
+- "We'll spray Roundup before planting." (Pre-emergent is fine; broad-spectrum on a future pollinator garden is not.)
+- "Yeah we can get those plants from Bachman's." (A great garden center, but doesn't carry MN-provenance natives.)
+- No written warranty.
+
+### Green flags
+
+- They ask about your soil before quoting.
+- They ask if you've done the Web Soil Survey lookup.
+- They look at your sightline constraints (e.g., bay windows, sidewalks) and nod.
+- They pronounce *Schizachyrium* correctly and know *Carex stricta* vs. *Carex vulpinoidea*.
+- They have opinions on Serviceberry cultivars vs. straight species.
+- They know what the Marschner map is.
+- They've been to the Arboretum's prairie garden.
+
+### A fair price range
+
+For Twin Cities residential native plant installs, expect rough total project costs in these ranges (2026 dollars). Each project varies widely with site conditions, removal complexity, and hardscape.
+
+| Project size | Typical total range |
+|---|---|
+| Small front bed (~100 sq ft, plants only) | $800 – $1,800 |
+| Medium pollinator garden (~300 sq ft, plugs + 1-gal) | $2,500 – $5,000 |
+| Full residential conversion with hardscape (~400 sq ft + path + bench) | $8,000 – $15,000 |
+| Whole-yard native landscaping (1/3 acre) | $25,000 – $60,000 |
+
+These are approximations. Verify with current quotes. Costs typically break down as roughly: 15-25% removal, 20-30% hardscape, 20-30% plants, 30-40% labor.
+
+### After the install — the year-1 contract
+
+Many homeowners don't know to ask for year-1 maintenance, then struggle through the establishment season alone. A year-1 maintenance contract typically includes: weekly watering visits during the first 6 weeks, weed pulls every 2-3 weeks through the first growing season, end-of-season inspection, and warranty replacements for any failed woody plants. Cost is typically 10-15% of the install price. Worth it for any project over $5,000.
+
 ## Chapter Summary
 
 !!! mascot-celebration "You're Ready to Plant!"
