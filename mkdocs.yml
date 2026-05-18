@@ -10,6 +10,7 @@ nav:
   - About: about.md
   - Course Description: course-description.md
   - Plant Gallery: plants/index.md
+  - Designs: designs/index.md
   - Chapters:
     - 1-Introduction to Native Plants:
       - Content: chapters/01-intro-native-plants-ecology/index.md
