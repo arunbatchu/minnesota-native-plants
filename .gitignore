@@ -2,6 +2,8 @@ site/
 .cache/
 __pycache__/
 *.pyc
+*.DS_Store
+.DS_Store
 .env
 docs/img/mascot/generate-mascot.py
 docs/sims/TODO/
