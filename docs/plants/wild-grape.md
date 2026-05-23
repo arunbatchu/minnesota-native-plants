@@ -25,7 +25,9 @@ Vitis riparia Michx, with common names riverbank grape or frost grape, is a vine
 
 ## Mentioned In
 
+- [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
 - [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Cultural Indigenous Uses](../chapters/13-cultural-indigenous-uses/index.md)
 
 ## Image Credits
 

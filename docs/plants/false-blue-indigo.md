@@ -28,6 +28,7 @@ Baptisia australis, commonly known as blue wild indigo or blue false indigo, is 
 ## Mentioned In
 
 - [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
+- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 
 ## Image Credits
 

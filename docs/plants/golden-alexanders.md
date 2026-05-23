@@ -27,7 +27,7 @@ Zizia aurea (golden alexanders, golden zizia) is a flowering herbaceous perennia
 
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 - [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
-- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

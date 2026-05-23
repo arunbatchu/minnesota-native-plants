@@ -26,7 +26,9 @@ Solidago speciosa is a perennial herb up to 200 cm (80 inches, over 6 feet) tall
 
 ## Mentioned In
 
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

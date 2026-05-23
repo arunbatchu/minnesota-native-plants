@@ -27,6 +27,8 @@ Panicum virgatum, commonly known as switchgrass and panic grass, is a perennial 
 
 - [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

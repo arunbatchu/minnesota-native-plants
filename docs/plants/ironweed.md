@@ -25,6 +25,7 @@ Vernonia fasciculata inhabits areas with moist soils and prairies. It flowers in
 ## Mentioned In
 
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits
 

@@ -26,6 +26,7 @@ Cornus sericea, the red osier or red-osier dogwood, is a species of flowering pl
 ## Mentioned In
 
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

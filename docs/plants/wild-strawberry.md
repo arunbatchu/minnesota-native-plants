@@ -27,6 +27,7 @@ Fragaria virginiana, known as Virginia strawberry, wild strawberry, common straw
 
 ## Mentioned In
 
+- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 - [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits

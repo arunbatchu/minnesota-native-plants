@@ -27,6 +27,7 @@ Larix laricina, commonly known as the tamarack, hackmatack, eastern larch, black
 
 - [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

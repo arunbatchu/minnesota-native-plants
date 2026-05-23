@@ -26,6 +26,8 @@ Thuja occidentalis, also known as northern white-cedar, eastern white-cedar, or 
 ## Mentioned In
 
 - [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
+- [Cultural Indigenous Uses](../chapters/13-cultural-indigenous-uses/index.md)
 
 ## Image Credits
 

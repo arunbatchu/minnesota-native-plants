@@ -25,8 +25,11 @@ Andropogon gerardi, commonly known as big bluestem, is a species of tall grass n
 
 ## Mentioned In
 
+- [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
 - [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

@@ -25,8 +25,10 @@ Arisaema triphyllum, the Jack-in-the-pulpit, is a species of flowering plant in 
 
 ## Mentioned In
 
+- [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
 - [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

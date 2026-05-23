@@ -23,6 +23,7 @@ Amorpha canescens, known as leadplant, downy indigo bush, prairie shoestring, or
 
 ## Mentioned In
 
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 
 ## Image Credits

@@ -1,20 +1,18 @@
 # Black-Eyed Susan
 
-*Rudbeckia hirta*
+*Rudbera hirta*
 
 
 
-![black eyed susan dyke road](img/black-eyed-susan-1.jpg)
+_No photos available yet. See [Learn More](#learn-more) links below._
 
-![Schwarzäugige Rudbeckie](img/black-eyed-susan-2.jpg)
 
-Rudbeckia hirta, commonly called black-eyed Susan and yellow coneflower, is a North American flowering plant in the family Asteraceae. It grows to 1 metre (3+1⁄2 ft) tall with daisy-like yellow flower heads. There are numerous cultivars.
 
 ## Quick Facts
 
 | | |
 |---|---|
-| **Scientific name** | *Rudbeckia hirta* |
+| **Scientific name** | *Rudbera hirta* |
 | **Family** | — |
 | **Height** | — |
 | **Bloom time** | — |
@@ -25,13 +23,12 @@ Rudbeckia hirta, commonly called black-eyed Susan and yellow coneflower, is a No
 
 ## Mentioned In
 
-- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 
-- Russ (CC BY 2.0)
-- Sebastian Martin Dicke (CC BY-SA 4.0)
+_No images yet._
 
 ## Learn More
 
-- [Wikipedia: Rudbeckia hirta](https://en.wikipedia.org/wiki/Rudbeckia_hirta)
+- [Wikipedia: Rudbera hirta](https://en.wikipedia.org/wiki/Rudbera_hirta)

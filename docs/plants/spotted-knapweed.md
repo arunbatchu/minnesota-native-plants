@@ -25,6 +25,7 @@ Centaurea stoebe, the spotted knapweed or panicled knapweed, is a species of Cen
 
 ## Mentioned In
 
+- [Intro Native Plants Ecology](../chapters/01-intro-native-plants-ecology/index.md)
 - [Invasive Species Id](../chapters/08-invasive-species-id/index.md)
 
 ## Image Credits

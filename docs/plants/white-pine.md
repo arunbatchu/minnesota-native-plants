@@ -25,6 +25,7 @@ Pinus strobus, commonly called the eastern white pine, northern white pine, whit
 
 ## Mentioned In
 
+- [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
 - [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
 
 ## Image Credits

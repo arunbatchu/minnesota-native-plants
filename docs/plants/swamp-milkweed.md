@@ -28,7 +28,10 @@ Asclepias incarnata, the swamp milkweed, rose milkweed, rose milkflower, swamp s
 ## Mentioned In
 
 - [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
+- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

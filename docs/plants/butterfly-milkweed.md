@@ -28,9 +28,10 @@ Asclepias tuberosa, commonly known as butterfly weed, is a species of milkweed n
 ## Mentioned In
 
 - [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
-- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 - [Planting Maintenance Sourcing](../chapters/11-planting-maintenance-sourcing/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

@@ -26,6 +26,9 @@ Quercus macrocarpa, the bur oak or burr oak, is a species of oak tree native to 
 ## Mentioned In
 
 - [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
+- [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
+- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
 
 ## Image Credits
 

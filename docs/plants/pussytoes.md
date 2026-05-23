@@ -26,6 +26,7 @@ Antennaria neglecta  is an herb up to 25 cm (10 inches) tall with as many as 8 f
 
 ## Mentioned In
 
+- [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 - [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits

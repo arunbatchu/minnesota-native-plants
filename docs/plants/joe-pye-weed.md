@@ -25,8 +25,10 @@ Eutrochium is a North American genus of herbaceous flowering plants in the famil
 
 ## Mentioned In
 
+- [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

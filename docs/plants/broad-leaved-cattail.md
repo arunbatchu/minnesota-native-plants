@@ -25,7 +25,9 @@ Typha latifolia is a perennial herbaceous wetland plant in the genus Typha. It i
 
 ## Mentioned In
 
+- [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
 - [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Cultural Indigenous Uses](../chapters/13-cultural-indigenous-uses/index.md)
 
 ## Image Credits
 

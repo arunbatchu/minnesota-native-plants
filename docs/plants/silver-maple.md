@@ -27,6 +27,7 @@ Although the silver maple's Latin name is similar, it should not be confused wit
 ## Mentioned In
 
 - [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
+- [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
 
 ## Image Credits

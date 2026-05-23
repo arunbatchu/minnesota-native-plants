@@ -25,6 +25,7 @@ The parsnip (Pastinaca sativa) is a root vegetable closely related to carrot and
 
 ## Mentioned In
 
+- [Intro Native Plants Ecology](../chapters/01-intro-native-plants-ecology/index.md)
 - [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
 - [Invasive Species Id](../chapters/08-invasive-species-id/index.md)
 

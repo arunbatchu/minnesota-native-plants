@@ -29,6 +29,8 @@ Little bluestem is a perennial bunchgrass and is prominent in tallgrass prairies
 ## Mentioned In
 
 - [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

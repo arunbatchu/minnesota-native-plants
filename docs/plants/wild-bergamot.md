@@ -27,7 +27,13 @@ Monarda fistulosa, the wild bergamot or bee balm, is a wildflower in the mint fa
 
 ## Mentioned In
 
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
+- [Planting Maintenance Sourcing](../chapters/11-planting-maintenance-sourcing/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
+- [Cultural Indigenous Uses](../chapters/13-cultural-indigenous-uses/index.md)
 
 ## Image Credits
 

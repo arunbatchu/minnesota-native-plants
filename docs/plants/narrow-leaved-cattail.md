@@ -25,6 +25,7 @@ Typha angustifolia is a perennial herbaceous plant in the genus Typha, native th
 
 ## Mentioned In
 
+- [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
 - [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
 
 ## Image Credits

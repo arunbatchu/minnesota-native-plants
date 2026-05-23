@@ -25,6 +25,7 @@ Lythrum salicaria or purple-loosestrife is a flowering plant belonging to the fa
 
 ## Mentioned In
 
+- [Intro Native Plants Ecology](../chapters/01-intro-native-plants-ecology/index.md)
 - [Invasive Species Id](../chapters/08-invasive-species-id/index.md)
 
 ## Image Credits

@@ -25,6 +25,8 @@ The genus Carex, the sedges, is one of the largest genera of flowering plants, c
 
 ## Mentioned In
 
+- [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
 - [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits

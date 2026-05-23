@@ -24,6 +24,7 @@ Tradescantia ohiensis, commonly known as bluejacket or Ohio spiderwort, is an he
 ## Mentioned In
 
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
 
 ## Image Credits
 

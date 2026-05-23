@@ -26,8 +26,11 @@ Sanguinaria canadensis is sometimes known as Canada puccoon, bloodwort, redroot,
 
 ## Mentioned In
 
+- [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
 - [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
-- [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
+- [Plant Identification Skills](../chapters/07-plant-identification-skills/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
+- [Cultural Indigenous Uses](../chapters/13-cultural-indigenous-uses/index.md)
 
 ## Image Credits
 

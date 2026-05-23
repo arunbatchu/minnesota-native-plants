@@ -25,6 +25,7 @@ Asclepias syriaca, commonly called common milkweed, butterfly flower, silkweed, 
 
 ## Mentioned In
 
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
 
 ## Image Credits

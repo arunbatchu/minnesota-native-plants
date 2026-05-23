@@ -28,6 +28,7 @@ Geum triflorum, commonly known as prairie smoke, old man's whiskers, or three-fl
 ## Mentioned In
 
 - [Garden Design Native Plants](../chapters/10-garden-design-native-plants/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

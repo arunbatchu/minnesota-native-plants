@@ -23,7 +23,9 @@ Acer saccharum, the sugar maple, is a species of flowering plant in the soapberr
 
 ## Mentioned In
 
-- [Cultural Indigenous Uses](../chapters/13-cultural-indigenous-uses/index.md)
+- [Ecoregions Growing Conditions](../chapters/02-ecoregions-growing-conditions/index.md)
+- [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

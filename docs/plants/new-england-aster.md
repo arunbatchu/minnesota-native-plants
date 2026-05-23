@@ -26,7 +26,9 @@ The usually deep purple flowers have up to 100 ray florets which are rarely pink
 
 ## Mentioned In
 
+- [Prairie Plants Grasslands](../chapters/03-prairie-plants-grasslands/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

@@ -27,7 +27,9 @@ Lobelia cardinalis, the cardinal flower (syn. L. fulgens), is a species of flowe
 
 ## Mentioned In
 
+- [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
 - [Pollinators Wildlife](../chapters/06-pollinators-wildlife/index.md)
+- [Ecological Restoration](../chapters/12-ecological-restoration/index.md)
 
 ## Image Credits
 

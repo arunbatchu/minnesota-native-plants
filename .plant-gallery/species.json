@@ -34,10 +34,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": [],
+    "images": [
+      {
+        "file": "plants/img/american-cranberrybush-viburnum-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Edward Tremel (Edward Tremel)",
+        "description": "A Highbush Cranberry plant",
+        "source_title": "File:Highbush Cranberry.jpg"
+      },
+      {
+        "file": "plants/img/american-cranberrybush-viburnum-2.jpg",
+        "license": "Public domain",
+        "credit": "U.S. Geological Survey",
+        "description": "Range map of Viburnum trilobum",
+        "source_title": "File:Viburnum opulus americanum range map 3.png"
+      }
+    ],
     "wikipedia_title": "Viburnum trilobum",
     "summary": "Viburnum trilobum (cranberrybush viburnum, American cranberrybush, high bush cranberry, or highbush cranberry) is a species of Viburnum native to northern North America, from Newfoundland west to British Columbia, south to Washington state and east to northern Virginia. It is very closely related to the European and Asian Viburnum opulus, and is often treated as a variety of it, as Viburnum opulus L. var. americanum Ait., or as a subspecies, Viburnum opulus subsp.",
-    "fetch_status": "error: Giving up after 3 rate-limit retries"
+    "fetch_status": "ok"
   },
   "Ulmus americana": {
     "slug": "american-elm",
@@ -74,10 +89,25 @@
       "04-woodland-forest-plants",
       "12-ecological-restoration"
     ],
-    "images": [],
+    "images": [
+      {
+        "file": "plants/img/american-hazelnut-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Corylus americana0.jpg"
+      },
+      {
+        "file": "plants/img/american-hazelnut-2.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Corylus americana1.jpg"
+      }
+    ],
     "wikipedia_title": "Corylus americana",
     "summary": "Corylus americana, the American hazelnut or American hazel, is a species of deciduous shrub in the genus Corylus, native to the eastern and central United States and extreme southern parts of eastern and central Canada.",
-    "fetch_status": "error: Giving up after 3 rate-limit retries"
+    "fetch_status": "ok"
   },
   "Amsonia tabernaemontana": {
     "slug": "amsonia",
@@ -152,10 +182,25 @@
     "mentioned_in": [
       "02-ecoregions-growing-conditions"
     ],
-    "images": [],
+    "images": [
+      {
+        "file": "plants/img/balsam-fir-1.jpg",
+        "license": "Public domain",
+        "credit": "U.S. Fish and Wildlife Service",
+        "description": "Abies balsamea tree with cones, Sherburne National Wildlife Refuge, Minnesota",
+        "source_title": "File:Abies balsamea.jpg"
+      },
+      {
+        "file": "plants/img/balsam-fir-2.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Superior National Forest",
+        "description": "Abies balsamea 2",
+        "source_title": "File:Abies balsamea 2 (5097476331).jpg"
+      }
+    ],
     "wikipedia_title": "Abies balsamea",
     "summary": "Abies balsamea or balsam fir is a North American fir, native to most of eastern and central Canada (Newfoundland west to central Alberta) and the northeastern United States (Minnesota east to Maine, and south in the Appalachian Mountains to West Virginia).",
-    "fetch_status": "error: Giving up after 3 rate-limit retries"
+    "fetch_status": "ok"
   },
   "Corylus cornuta": {
     "slug": "beaked-hazelnut",
@@ -282,10 +327,25 @@
     "mentioned_in": [
       "06-pollinators-wildlife"
     ],
-    "images": [],
+    "images": [
+      {
+        "file": "plants/img/black-cherry-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Black Cherry foliage during autumn along Upper Ferry Road in Ewing, New Jersey",
+        "source_title": "File:2014-11-02 11 47 15 Black Cherry foliage during autumn along Upper Ferry Road in Ewing, New Jersey.JPG"
+      },
+      {
+        "file": "plants/img/black-cherry-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Amerikaanse vogelkers Prunus serotina closeup.jpg"
+      }
+    ],
     "wikipedia_title": "Prunus serotina",
     "summary": "Prunus serotina, commonly called black cherry, wild black cherry, rum cherry, or mountain black cherry, is a deciduous tree or shrub in the rose family Rosaceae. Despite its common names, it is not very closely related to commonly cultivated cherries. It is found in the Americas.",
-    "fetch_status": "error: Giving up after 3 rate-limit retries"
+    "fetch_status": "ok"
   },
   "Juglans nigra": {
     "slug": "black-walnut",
@@ -500,10 +560,25 @@
     "mentioned_in": [
       "06-pollinators-wildlife"
     ],
-    "images": [],
+    "images": [
+      {
+        "file": "plants/img/blue-orchard-mason-bees-1.jpg",
+        "license": "CC BY 4.0",
+        "credit": "(c) Doug Wolfe, some rights reserved (CC BY)",
+        "description": "Photo of Blue Orchard Bee uploaded from iNaturalist.",
+        "source_title": "File:Blue Orchard Bee imported from iNaturalist photo 118675601 on 16 July 2024.jpg"
+      },
+      {
+        "file": "plants/img/blue-orchard-mason-bees-2.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Red58bill",
+        "description": "Homemade Mason bee condos",
+        "source_title": "File:Mason.rolls.jpg"
+      }
+    ],
     "wikipedia_title": "Osmia lignaria",
     "summary": "Osmia lignaria, commonly known as the orchard mason bee or blue orchard bee, is a megachilid bee that makes nests in natural holes and reeds, creating individual cells for its brood that are separated by mud dividers. Unlike carpenter bees, it cannot drill holes in wood. O. lignaria is a common species used for early spring fruit bloom in the United States and Canada, though a number of other Osmia species are cultured for use in pollination.",
-    "fetch_status": "error: Giving up after 3 rate-limit retries"
+    "fetch_status": "ok"
   },
   "Solidago caesia": {
     "slug": "blue-stemmed-goldenrod",
@@ -589,7 +664,8 @@
     ],
     "images": [],
     "wikipedia_title": "Acer negundo",
-    "fetch_status": "error: Giving up after 3 rate-limit retries"
+    "fetch_status": "error: Giving up after 3 rate-limit retries",
+    "summary": "Acer negundo, also known as the box elder, boxelder maple, Manitoba maple or ash-leaved maple, is a species of maple native to North America from Canada to Honduras. It is a fast-growing, short-lived tree with opposite, ash-like compound leaves. It is sometimes considered a weedy or invasive species, and has been naturalized throughout much of the world, including South America, Australia, New Zealand, South Africa, much of Europe, and parts of Asia."
   },
   "Typha latifolia": {
     "slug": "broad-leaved-cattail",
@@ -654,7 +730,25 @@
     "mentioned_in": [
       "02-ecoregions-growing-conditions"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/bunchberry-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Flowersinmyyard",
+        "description": "Immature bunchberry flowers",
+        "source_title": "File:Bunchberry Immature flowers.jpg"
+      },
+      {
+        "file": "plants/img/bunchberry-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "D. Gordon E. Robertson",
+        "description": "Bunchberry (Cornus canadensis) flowers in Bonnechere Provincial Park, Ontario, Canada",
+        "source_title": "File:Bunchberry plants.jpg"
+      }
+    ],
+    "wikipedia_title": "Cornus canadensis",
+    "summary": "Cornus canadensis is a species of flowering plant in the dogwood family Cornaceae, native to eastern Asia and North America. Common names include Canadian dwarf cornel, Canadian bunchberry, quatre-temps, crackerberry, and creeping dogwood. It is a creeping, rhizomatous perennial growing to about 20 centimetres (8 inches) tall.",
+    "fetch_status": "ok"
   },
   "Quercus macrocarpa": {
     "slug": "bur-oak",
@@ -724,7 +818,25 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/canada-goldenrod-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "\u677e\u5ca1\u660e\u82b3",
+        "description": "2016-10-15 Solidago canadensis,IN Sasayama,Hyogo \u30bb\u30a4\u30bf\u30ab\u30a2\u30ef\u30c0\u30c1\u30bd\u30a6(\u7be0\u5c71\u5e02\u5473\u9593)",
+        "source_title": "File:2016-10-15 Solidago canadensis,IN Sasayama,Hyogo \u30bb\u30a4\u30bf\u30ab\u30a2\u30ef\u30c0\u30c1\u30bd\u30a6(\u7be0\u5c71\u5e02) DSCF1299.jpg"
+      },
+      {
+        "file": "plants/img/canada-goldenrod-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Georg Slickers",
+        "description": "Canadian goldenrod (Solidago canadensis), Alt-Treptow, Berlin, Germany",
+        "source_title": "File:Solidago canadensis 20050815 248.jpg"
+      }
+    ],
+    "wikipedia_title": "Solidago canadensis",
+    "summary": "Solidago canadensis, known as Canada goldenrod or Canadian goldenrod, is an herbaceous perennial plant of the family Asteraceae. It forms colonies of upright growing plants, with many small yellow flowers in a branching inflorescence held above the foliage. It is native to northeastern and north-central North America and is an invasive plant in other parts of the continent and several areas worldwide, including Eurasia.",
+    "fetch_status": "ok"
   },
   "Elymus canadensis": {
     "slug": "canada-wild-rye",
@@ -733,7 +845,18 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/canada-wild-rye-1.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Crazytwoknobs",
+        "description": "Elymus Canadensis, Pizzo seed production beds, Leland IL.",
+        "source_title": "File:Elymus canadensisEVB.jpg"
+      }
+    ],
+    "wikipedia_title": "Elymus canadensis",
+    "summary": "Elymus canadensis, synonyms including Elymus wiegandii, commonly known as Canada wild rye or Canadian wildrye, is a species of wild rye native to much of North America. It is most abundant in the central plains and Great Plains. It grows in a number of ecosystems, including woodlands, savannas, dunes, and prairies, sometimes in areas that have been disturbed.",
+    "fetch_status": "ok"
   },
   "Lobelia cardinalis": {
     "slug": "cardinal-flower",
@@ -771,7 +894,10 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [],
+    "fetch_status": "error: Giving up after 3 rate-limit retries",
+    "wikipedia_title": "Prunus virginiana",
+    "summary": "Prunus virginiana, commonly called bitter-berry, chokecherry, Virginia bird cherry, and western chokecherry (also black chokecherry for P. virginiana var. demissa), is a species of bird cherry (Prunus subgenus Padus) native to North America."
   },
   "Polystichum acrostichoides": {
     "slug": "christmas-fern",
@@ -807,7 +933,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/closed-gentian-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "D. Gordon E. Robertson",
+        "description": "Closed Bottle Gentian (Gentiana andrewsii), Ottawa, Ontario, Canada",
+        "source_title": "File:Closed Bottle Gentian.jpg"
+      },
+      {
+        "file": "plants/img/closed-gentian-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Gentiana-clusii-ClusiusEnzian.jpg"
+      }
+    ],
+    "wikipedia_title": "Gentiana andrewsii",
+    "summary": "Gentiana andrewsii, the bottle gentian, closed gentian, or closed bottle gentian, is an herbaceous species of flowering plant in the gentian family Gentianaceae. Gentiana andrewsii is native to northeastern North America, from the Dakotas to the East Coast and through eastern Canada.\nIt shares the common name \"bottle gentian\" with several other species.",
+    "fetch_status": "ok"
   },
   "Rhamnus cathartica": {
     "slug": "common-buckthorn",
@@ -901,7 +1045,25 @@
       "10-garden-design-native-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/compass-plant-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Frank Mayfield",
+        "description": "Silphium laciniatum at James Woodworth Prairie Preserve, Glenview, IL, USA",
+        "source_title": "File:Silphium laciniatum.jpg"
+      },
+      {
+        "file": "plants/img/compass-plant-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from central North America and the Black Belt region of Alabama and Mississippi Common name: Compass Plant, Compass Flower, Rosinweed Photographed at the Camp Robinson Special Use Area Wildlife Management Area, Faulkner County, Arkansas",
+        "source_title": "File:Silphium laciniatum Arkansas.jpg"
+      }
+    ],
+    "wikipedia_title": "Silphium laciniatum",
+    "summary": "Silphium laciniatum is a species of flowering plant in the family Asteraceae known commonly as compassplant or compass plant. It is native to North America, where it occurs in Ontario in Canada and the eastern and central United States as far west as New Mexico. Other common names include prairie compass plant, pilotweed, polarplant, gum weed, cut-leaf silphium, and turpentine plant.",
+    "fetch_status": "ok"
   },
   "Ceratophyllum demersum": {
     "slug": "coontail",
@@ -910,7 +1072,18 @@
     "mentioned_in": [
       "05-wetland-shoreline-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/coontail-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Stefan.lefnaer",
+        "description": "Leaves Taxonym: Ceratophyllum demersum ss Fischer et al. Ef\u00d6LS 2008 ISBN 978-3-85474-187-9 Location: Marchfeldkanal near Gro\u00df-Jedlersdorf, Wien-Floridsdorf - ca. 160 m a.s.l. Habitat: canal",
+        "source_title": "File:Ceratophyllum demersum s. str. sl3.jpg"
+      }
+    ],
+    "wikipedia_title": "Ceratophyllum demersum",
+    "summary": "Ceratophyllum demersum, commonly known as hornwort (a common name shared with the unrelated Anthocerotophyta), rigid hornwort, coontail, or coon's tail, is a species of flowering plant in the genus Ceratophyllum. It is a submerged, free-floating aquatic plant, with a cosmopolitan distribution, native to all continents except Antarctica. It is a harmful weed introduced in New Zealand.",
+    "fetch_status": "ok"
   },
   "Vaccinium macrocarpon": {
     "slug": "cranberry",
@@ -919,7 +1092,10 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Vaccinium macrocarpon",
+    "summary": "Vaccinium macrocarpon, also called large cranberry, American cranberry and bearberry, is a North American species of cranberry in the subgenus Oxycoccus.\nThe name cranberry comes from the shape of the flower stamen, which looks like a crane's beak.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Gentiana alba": {
     "slug": "cream-gentian",
@@ -956,7 +1132,25 @@
       "10-garden-design-native-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/culvers-root-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "ThatLexingtonKyGuy",
+        "description": "A bee on a Culver's Root flower.",
+        "source_title": "File:Culver's Root.jpg"
+      },
+      {
+        "file": "plants/img/culvers-root-2.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Crazytwoknobs",
+        "description": "Culver's root, Veronicastrum virginicum. Shot from above at around 4pm, Leland IL.",
+        "source_title": "File:CulversRoot.jpg"
+      }
+    ],
+    "wikipedia_title": "Veronicastrum virginicum",
+    "summary": "Veronicastrum virginicum, or Culver's root, is a species of flowering plant in the plantain family, Plantaginaceae. It is native to the eastern United States and south-eastern Canada. Growing to 200 cm (79 in) tall by 45 cm (18 in) broad, it is an erect herbaceous perennial with slender racemes of white or occasionally pink or purple flowers in summer.",
+    "fetch_status": "ok"
   },
   "Silphium perfoliatum": {
     "slug": "cup-plant",
@@ -993,7 +1187,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/dogbane-1.jpg",
+        "license": "Public domain",
+        "credit": "U. S. Department of Agriculture",
+        "description": "Range in North America via USDA",
+        "source_title": "File:Apca.png"
+      },
+      {
+        "file": "plants/img/dogbane-2.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Thayne Tuason",
+        "description": "Apocynum cannibinum flowering near the Columbia River in East Wenatchee, Douglas County Washington",
+        "source_title": "File:Apocynum-cannibinum 8973014557 o 2.jpg"
+      }
+    ],
+    "wikipedia_title": "Apocynum cannabinum",
+    "summary": "Apocynum cannabinum (dogbane, amy root, hemp dogbane, prairie dogbane, Indian hemp, hemp dogsbane, rheumatism root, dogsbane, or wild cotton) is a perennial herbaceous plant that grows throughout much of North America\u2014in the southern half of Canada and throughout the United States. It is poisonous to humans, dogs, cats, and horses. All parts of the plant contain toxic cardiac glycosides that can cause potentially fatal cardiac arrhythmias if ingested.",
+    "fetch_status": "ok"
   },
   "Liatris punctata": {
     "slug": "dotted-blazing-star",
@@ -1002,7 +1214,18 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/dotted-blazing-star-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Matt Lavin from Bozeman, Montana, USA",
+        "description": "Liatris punctata habit",
+        "source_title": "File:Liatris punctata.jpg"
+      }
+    ],
+    "wikipedia_title": "Liatris punctata",
+    "summary": "Liatris punctata is a species of flowering plant in the family Asteraceae known by the common names dotted gayfeather, dotted blazingstar, and narrow-leaved blazingstar. It is native to North America, where it occurs throughout the plains of central Canada, the central United States, and northern Mexico.",
+    "fetch_status": "ok"
   },
   "Dicentra cucullaria": {
     "slug": "dutchmans-breeches",
@@ -1038,7 +1261,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/echinacea-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Ernie",
+        "description": "The narrow-leaved purple coneflower, blacksamson echinacea (Echinacea angustifolia) is a herbaceous plant species in Asteraceae. This low key image shows the plant's flower during bloom.",
+        "source_title": "File:Echinacea angustifolia - 01Aug2009 - 01.jpg"
+      },
+      {
+        "file": "plants/img/echinacea-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Photo by David J. Stang",
+        "description": "Location taken: Merrifield Garden Center, Fairfax VA USA. Names: Echinacea angustifolia'Narrowleaf' , Furupraktbille, Marienprachtk\u00e4fer, Narrowleaf Echinacea, \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0441\u043e\u0441\u043d\u043e\u0432\u0430\u044f \u0437\u043b\u0430\u0442\u043a Classification: Plantae &gt; Tracheophyta &gt; Spermatopsida &gt; Asterales &gt; Asteraceae &gt; Heliantheae &gt; Zinn",
+        "source_title": "File:Echinacea angustifolia Narrowleaf 2zz.jpg"
+      }
+    ],
+    "wikipedia_title": "Echinacea angustifolia",
+    "summary": "Echinacea angustifolia, the narrow-leaved purple coneflower or blacksamson echinacea, is a species of flowering plant in the family Asteraceae. It is native to North America, where it is widespread across much of the Great Plains of central Canada and the central United States, with additional populations in surrounding regions.\nE. angustifolia is a perennial herb with spindle-shaped taproots that are often branched.",
+    "fetch_status": "ok"
   },
   "Sambucus canadensis": {
     "slug": "elderberry",
@@ -1101,7 +1342,10 @@
     "mentioned_in": [
       "06-pollinators-wildlife"
     ],
-    "images": []
+    "images": [],
+    "fetch_status": "error: Giving up after 3 rate-limit retries",
+    "wikipedia_title": "Western honey bee",
+    "summary": "The western honey bee (Apis mellifera) is the most common of the 7\u201312 species of honey bees worldwide. The genus name Apis is Latin for 'bee', and mellifera is the Latin for 'honey-bearing' or 'honey-carrying', referring to the species' production of honey.\nLike all honey bee species, the western honey bee is eusocial, creating colonies with a single fertile female (or \"queen\"), many normally non-reproductive females or \"workers\", and a small proportion of fertile males or \"drones\"."
   },
   "Oenothera biennis": {
     "slug": "evening-primrose",
@@ -1298,7 +1542,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/goldthread-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Jomegat",
+        "description": "Photograph of Coptis groenlandica blossom and foliage. The foliage of this plant is the small, toothed trifoliate leaves.",
+        "source_title": "File:Coptis groenlandica.jpg"
+      },
+      {
+        "file": "plants/img/goldthread-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Jomegat",
+        "description": "Photo of a Coptis groenlandica specimen.",
+        "source_title": "File:Coptis groenlandica2.jpg"
+      }
+    ],
+    "wikipedia_title": "Coptis trifolia",
+    "summary": "Coptis trifolia, commonly known as the threeleaf goldthread or savoyane, is a perennial plant in the family Ranunculaceae native to North America.",
+    "fetch_status": "ok"
   },
   "Cornus racemosa": {
     "slug": "gray-dogwood",
@@ -1334,7 +1596,18 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/gray-goldenrod-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric in SF",
+        "description": "Species from North America except the far western states Common name: Oldfield Goldenrod, Gray goldenrod Photographed at Terre Noir Natural Area, Clark County, Arkansas",
+        "source_title": "File:Solidago nemoralis Arkansas.jpg"
+      }
+    ],
+    "wikipedia_title": "Solidago nemoralis",
+    "summary": "Solidago nemoralis is a species of flowering plant in the family Asteraceae. It is native to North America, where it is widely found in Canada (every province except Newfoundland and Labrador) and the United States (all states wholly or partially east of the Rocky Mountains). Its common names include gray goldenrod, gray-stem goldenrod, old-field goldenrod, field goldenrod, prairie goldenrod, dwarf goldenrod, and dyersweed goldenrod.",
+    "fetch_status": "ok"
   },
   "Lobelia siphilitica": {
     "slug": "great-blue-lobelia",
@@ -1399,7 +1672,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/harebell-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Arnstein R\u00f8nning",
+        "description": "Campanula rotundifolia",
+        "source_title": "File:Blaaklokke.JPG"
+      },
+      {
+        "file": "plants/img/harebell-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Campanula rotondifolia.jpg"
+      }
+    ],
+    "wikipedia_title": "Campanula rotundifolia",
+    "summary": "Campanula rotundifolia, the harebell or common harebell, Scottish bluebell, or bluebell in Scotland, is a species of flowering plant in the bellflower family Campanulaceae. This herbaceous perennial is found throughout the north temperate regions of the Old World according to the Plants of the World Online database, or throughout the northern hemisphere in other interpretations (see Taxonomy, below). In Scotland, it is often known simply as bluebell.",
+    "fetch_status": "ok"
   },
   "Carex gravida": {
     "slug": "heavy-sedge",
@@ -1408,7 +1699,18 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/heavy-sedge-1.jpg",
+        "license": "Public domain",
+        "credit": "Doug Goldman. Provided by USDA NRCS National Plants Data Team (NPDT). United States, VA, Bedford Co. July 16, 2011.",
+        "description": "Carex gravida L.H.Bailey - Heavy sedge",
+        "source_title": "File:Carex gravida 002.jpg"
+      }
+    ],
+    "wikipedia_title": "Carex gravida",
+    "summary": "Carex gravida, also known as heavy-fruited sedge, heavy sedge or long-awned bracted sedge, is a tussock-forming species of perennial sedge in the family Cyperaceae. It is native to southern parts of Canada and parts of the United States.",
+    "fetch_status": "ok"
   },
   "Hepatica nobilis": {
     "slug": "hepatica",
@@ -1417,7 +1719,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/hepatica-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Tulipasylvestris",
+        "description": "This is a photo of a protected natural area in Sweden with ID: 2013502 .",
+        "source_title": "File:Anemone hepatica in the Horsan nature reserve.jpg"
+      },
+      {
+        "file": "plants/img/hepatica-2.jpg",
+        "license": "CC0",
+        "credit": "Hyunjung Kim",
+        "description": "Asian liverleaf (Anemone hepatica var. japonica)",
+        "source_title": "File:Asian liverleaf.jpg"
+      }
+    ],
+    "wikipedia_title": "Anemone hepatica",
+    "summary": "Anemone hepatica (syn. Hepatica nobilis), the common hepatica, liverwort, liverleaf, kidneywort, or pennywort, is a species of flowering plant in the buttercup family Ranunculaceae, native to woodland in temperate regions of the Northern Hemisphere. This herbaceous perennial grows from a rhizome.",
+    "fetch_status": "ok"
   },
   "Amphicarpaea bracteata": {
     "slug": "hog-peanut",
@@ -1426,7 +1746,10 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Amphicarpaea bracteata",
+    "summary": "Amphicarpaea bracteata (American hog peanut or hog-peanut or ground bean) is an annual to perennial vine in the legume family, native to woodland, thickets, and moist slopes in eastern North America. A. bracteata can be found in eastern North America, as well as further west into the Midwestern region, including Iowa, Indiana, Illinois, and Wisconsin.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Sorghastrum nutans": {
     "slug": "indian-grass",
@@ -1488,7 +1811,25 @@
       "04-woodland-forest-plants",
       "07-plant-identification-skills"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/ironwood-1.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Katja Schulz from Washington, D. C., USA",
+        "description": "Ostrya virginiana. Rock Creek Park, Washington, DC, USA",
+        "source_title": "File:Eastern Hophornbeam - Flickr - treegrow (3).jpg"
+      },
+      {
+        "file": "plants/img/ironwood-2.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Katja Schulz from Washington, D. C., USA",
+        "description": "Ostrya virginiana. Cultivated. National Botanic Garden, Washington, DC, USA. 3 April 2011.",
+        "source_title": "File:Eastern Hophornbeam - Flickr - treegrow (4).jpg"
+      }
+    ],
+    "wikipedia_title": "Ostrya virginiana",
+    "summary": "Ostrya virginiana, the American hophornbeam, is a species of Ostrya native to eastern North America, from Nova Scotia west to southern Manitoba and eastern Wyoming, southeast to northern Florida and southwest to eastern Texas. Populations from Mexico and Central America are also regarded as the same species, although some authors prefer to separate them as a distinct species, Ostrya guatemalensis. Other names include eastern hophornbeam, hardhack (in New England), ironwood, and leverwood.",
+    "fetch_status": "ok"
   },
   "Arisaema triphyllum": {
     "slug": "jack-in-the-pulpit",
@@ -1554,7 +1895,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/jerusalem-artichoke-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Dianebees",
+        "description": "Wasps feeding on the stems of Jerusalem Artichokes. Photo taken late August 2019.",
+        "source_title": "File:Artichokes-wasps-feeding.jpg"
+      },
+      {
+        "file": "plants/img/jerusalem-artichoke-2.jpg",
+        "license": "Public domain",
+        "credit": "Claude Monet",
+        "description": "",
+        "source_title": "File:Jerusalem Artichoke Flowers E10330.jpg"
+      }
+    ],
+    "wikipedia_title": "Jerusalem artichoke",
+    "summary": "The Jerusalem artichoke (Helianthus tuberosus), also called sunroot, sunchoke, wild sunflower, topinambur, or earth apple, is a species of sunflower native to central North America. It is cultivated widely across the temperate zone for its tuber, which is used as a root vegetable.",
+    "fetch_status": "ok"
   },
   "Eutrochium maculatum": {
     "slug": "joe-pye-weed",
@@ -1593,7 +1952,18 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/june-grass-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Don Pedro28",
+        "description": "Koeleria macrantha, the hill \u0160ibeni\u010dn\u00edk near Mikulov, Southern Moravia, Czech Republic",
+        "source_title": "File:Koeleria macrantha.JPG"
+      }
+    ],
+    "wikipedia_title": "Koeleria macrantha",
+    "summary": "Koeleria macrantha is a species of grass known by the common name prairie Junegrass in North America and crested hair-grass in the UK. It is widespread across much of Eurasia and North America. It occurs in many habitat types.",
+    "fetch_status": "ok"
   },
   "Poa pratensis": {
     "slug": "kentucky-bluegrass",
@@ -1683,7 +2053,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/lake-sedge-1.jpg",
+        "license": "CC0",
+        "credit": "Agyle",
+        "description": "US and Canadian distribution of Carex lacustris Willd. Derived from federal government USDA PLANTS database, removing extraneous logo and species ID.",
+        "source_title": "File:CALA16-2.png"
+      },
+      {
+        "file": "plants/img/lake-sedge-2.jpg",
+        "license": "Public domain",
+        "credit": "Robert H. Mohlenbrock. USDA NRCS. 1995. Northeast wetland flora: Field office guide to plant species. Northeast National Technical Center, Chester. Courtesy of USDA NRCS Wetland Science Institute.",
+        "description": "Carex lacustris Willd. (hairy sedge)",
+        "source_title": "File:Carex lacustris NRCS-1.jpg"
+      }
+    ],
+    "wikipedia_title": "Carex lacustris",
+    "summary": "Carex lacustris, known as lake sedge (lucastris is from the Latin lacus, or lake), is a tufted grass-like perennial of the sedge family (Cyperaceae), native to southern Canada and the northern United States. C. lacustris us an herbaceous surface-piercing plant that grows in water up to 50 cm (1.6 ft) deep, and grows 50\u2013150 cm (1.6\u20134.9 ft) tall. It grows well in marshes and swampy woods of the boreal forest, along river and lake shores, in ditches, marshes, swamps, and other wetland habitat.",
+    "fetch_status": "ok"
   },
   "Trillium grandiflorum": {
     "slug": "large-flowered-trillium",
@@ -1720,7 +2108,10 @@
       "02-ecoregions-growing-conditions",
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Eurybia macrophylla",
+    "fetch_status": "error: Giving up after 3 rate-limit retries",
+    "summary": "Eurybia macrophylla, commonly known as the bigleaf aster, large-leaved aster, largeleaf aster or  bigleaf wood aster, is an herbaceous perennial in the family Asteraceae that was formerly treated in the genus Aster. It is native to eastern North America, with a range extending from eastern and central  Canada (from Nova Scotia to Manitoba) through the northeastern  deciduous and mixed forests of New England and the Great Lakes region and south along the Appalachians as far as the northeastern corner of Georgia, and west as far as Minnesota, Missouri and Arkansas. The flowers appear in the late summer to early fall and show ray florets that are usually either a deep lavender or violet, but sometimes white, and disc florets that are cream-coloured or light yellow, becoming purple as they mature."
   },
   "Amorpha canescens": {
     "slug": "lead-plant",
@@ -1797,7 +2188,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/leatherwood-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Fritzflohrreynolds",
+        "description": "Photo of Dirca palustris in flower. This is a native plant growing wild along the Potomac Heritage Trail, in Fairfax county Virginia, USA. This species is a member of the Thymelaeaceae family.",
+        "source_title": "File:Dirca palustris - Eastern Leatherwood.jpg"
+      },
+      {
+        "file": "plants/img/leatherwood-2.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Peter Quakenbush",
+        "description": "Eastern leatherwood (Dirca palustris) in the United States",
+        "source_title": "File:Dirca palustris 508914641.jpg"
+      }
+    ],
+    "wikipedia_title": "Dirca palustris",
+    "summary": "Dirca palustris, or eastern leatherwood, is a flowering shrub in the family Thymelaeceae native to eastern North America. The name leatherwood refers to the toughness of its elastic and fibrous bark, which was used to make cordage by Native American tribes, and later, European settlers. Other common names include leatherbark, wicopee (or wicopy), rope-bark, moosewood, and bois de plomb in Canada.",
+    "fetch_status": "ok"
   },
   "Schizachyrium scoparium": {
     "slug": "little-bluestem",
@@ -1862,7 +2271,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/maple-leaved-viburnum-1.jpg",
+        "license": "Public domain",
+        "credit": "U. S. Department of Agriculture",
+        "description": "Range in North America via USDA",
+        "source_title": "File:Viac.png"
+      },
+      {
+        "file": "plants/img/maple-leaved-viburnum-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Joseph stewart",
+        "description": "Photograph taken in Wrentham, MA on 19 October 2015 of a viburnum acerifolium (aka mapleleaf viburnum) bush. Viburnum acerifolium",
+        "source_title": "File:Viburnum acerifolium, mapleleaf viburnum, 19 Oct 2015, Wrentham, MA.jpg"
+      }
+    ],
+    "wikipedia_title": "Viburnum acerifolium",
+    "summary": "Viburnum acerifolium, the mapleleaf viburnum, maple-leaved arrowwood or dockmackie, is a species of Viburnum native to eastern North America.",
+    "fetch_status": "ok"
   },
   "Liatris spicata": {
     "slug": "marsh-blazing-star",
@@ -1871,7 +2298,25 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/marsh-blazing-star-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "H. Zell",
+        "description": "Liatris spicata, Asteraceae, Dense Blazing Star, Prairie Gay Feather, inflorescences. The fresh, underground parts are used in homeopathy as remedy: Liatris spicata (Liatr.)",
+        "source_title": "File:Liatris spicata 002.JPG"
+      },
+      {
+        "file": "plants/img/marsh-blazing-star-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "H. Zell",
+        "description": "Liatris spicata, Asteraceae, Dense Blazing Star, Prairie Gay Feather, inflorescences. The fresh, underground parts are used in homeopathy as remedy: Liatris spicata (Liatr.)",
+        "source_title": "File:Liatris spicata 003.JPG"
+      }
+    ],
+    "wikipedia_title": "Liatris spicata",
+    "summary": "Liatris spicata, the dense blazing star, prairie feather, gayfeather or button snakewort, is a herbaceous perennial flowering plant in the family Asteraceae. It is native to eastern North America where it grows in moist prairies and meadows.\nThe plants have tall spikes of purple flowers resembling bottle brushes or feathers that grow 1\u20135 ft (0.30\u20131.52 m) tall.",
+    "fetch_status": "ok"
   },
   "Caltha palustris": {
     "slug": "marsh-marigold",
@@ -1880,7 +2325,10 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Caltha palustris",
+    "summary": "Caltha palustris, known as marsh-marigold and kingcup, is a small to medium sized perennial herbaceous plant of the buttercup family, native to marshes, fens, ditches and wet woodland in temperate regions of the Northern Hemisphere. It flowers between April and August, dependent on altitude and latitude, but occasional flowers may occur at other times.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Menispermum canadense": {
     "slug": "moonseed",
@@ -1889,7 +2337,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/moonseed-1.jpg",
+        "license": "CC0",
+        "credit": "Cbaile19",
+        "description": "Canada Moonseed (Menispermum canadense) blooming in Frick Park, Pittsburgh",
+        "source_title": "File:Menispermum canadense, 2015-06-02, Frick Park, 02.jpg"
+      },
+      {
+        "file": "plants/img/moonseed-2.jpg",
+        "license": "Public domain",
+        "credit": "Jaume Saint-Hilaire, Jean Henri,1772-1845.",
+        "description": "Menispermum canadense, (caption: MENISPERME DU CANADA) from Traite des arbrisseaux et des arbustes cultives en France et en pleine terre. Paris : chez l'auteur, 1825, page 104.",
+        "source_title": "File:Menispermum canadense, Saint-Hilaire-1.png"
+      }
+    ],
+    "wikipedia_title": "Menispermum canadense",
+    "summary": "Menispermum canadense, the Canadian moonseed, common moonseed, or yellow parilla, is a species of flowering plant in the family Menispermaceae, native to eastern North America, from southern Canada south to northern Florida, and from the Atlantic coast west to Manitoba and Texas. It occurs in thickets, moist woods, and the banks of streams.",
+    "fetch_status": "ok"
   },
   "Viburnum lentago": {
     "slug": "nannyberry",
@@ -1898,7 +2364,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/nannyberry-1.jpg",
+        "license": "Public domain",
+        "credit": "Herman, D.E., et al. 1996. North Dakota tree handbook. USDA NRCS ND State Soil Conservation Committee; NDSU Extension and Western Area Power Administration, Bismarck. Courtesy of ND State Soil Conserv",
+        "description": "Viburnum lentago L. - nannyberry",
+        "source_title": "File:Viburnum lentago NRCS-005.jpg"
+      },
+      {
+        "file": "plants/img/nannyberry-2.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Viburnum lentago NRCS-006.jpg"
+      }
+    ],
+    "wikipedia_title": "Viburnum lentago",
+    "summary": "Viburnum lentago, the nannyberry, sheepberry, or sweet viburnum, is a species of Viburnum native to North America.",
+    "fetch_status": "ok"
   },
   "Typha angustifolia": {
     "slug": "narrow-leaved-cattail",
@@ -1935,7 +2419,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/nettle-1.jpg",
+        "license": "CC BY-SA 2.5",
+        "credit": "Kobako",
+        "description": "Urtica-Spinach with eggs and potato.",
+        "source_title": "File:Brennnesselspinat.jpg"
+      },
+      {
+        "file": "plants/img/nettle-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Chainwit.",
+        "description": "Mamaliga (Polenta) & Mancare de urzici (Stinging nettle stew) at Caru' cu Bere, Bucharest",
+        "source_title": "File:Bucharest - Caru cu Bere - interior (MAR 2023) - img 09.jpg"
+      }
+    ],
+    "wikipedia_title": "Urtica dioica",
+    "summary": "Urtica dioica, often known as common nettle, burn nettle, stinging nettle, nettle leaf, or just a nettle or stinger, is a herbaceous perennial flowering plant in the family Urticaceae. Originally native to Europe, much of temperate Asia and western North Africa, it is now found worldwide. \nThe species is divided into six subspecies, five of which have many hollow stinging hairs called trichomes on the leaves and stems, which act like hypodermic needles, injecting histamine and other chemicals that produce a stinging sensation upon contact (\"contact urticaria\", a form of contact dermatitis).",
+    "fetch_status": "ok"
   },
   "Symphyotrichum novae-angliae": {
     "slug": "new-england-aster",
@@ -2000,7 +2502,10 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Trillium cernuum",
+    "summary": "Trillium cernuum is a species of flowering plant in the bunchflower family Melanthiaceae. The specific epithet cernuum means \"drooping, curving forwards, facing downwards\", a distinctive habit of its flower. It is commonly called nodding trillium or nodding wakerobin (not to be confused with Trillium flexipes) since the flower is invariably found nodding beneath the leaves.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Thuja occidentalis": {
     "slug": "northern-white-cedar",
@@ -2093,7 +2598,25 @@
       "04-woodland-forest-plants",
       "06-pollinators-wildlife"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/pagoda-dogwood-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Cornus alternifolia - Krauss.jpg"
+      },
+      {
+        "file": "plants/img/pagoda-dogwood-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Cody Hough",
+        "description": "Pagoda Dogwood (Cornus alternifolia) on the beaches of Warren Dunes State Park in Sawyer, MI.",
+        "source_title": "File:Cornus alternifolia 005.jpg"
+      }
+    ],
+    "wikipedia_title": "Cornus alternifolia",
+    "summary": "Cornus alternifolia is a species of flowering plant in the dogwood family Cornaceae, native to eastern North America, from Newfoundland west to southern Manitoba and Minnesota, and south to northern Florida and Mississippi. It is rare in the southern United States. It is commonly known as green osier, alternate-leaved dogwood, and pagoda dogwood.",
+    "fetch_status": "ok"
   },
   "Echinacea pallida": {
     "slug": "pale-purple-coneflower",
@@ -2159,7 +2682,25 @@
       "07-plant-identification-skills",
       "10-garden-design-native-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/pennsylvania-sedge-1.jpg",
+        "license": "Public domain",
+        "credit": "Chhe (talk)",
+        "description": "A picture of Carex pensylvanica.",
+        "source_title": "File:CarexPensylvanica.jpg"
+      },
+      {
+        "file": "plants/img/pennsylvania-sedge-2.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Jay Sturner from USA",
+        "description": "Pennsylvania Sedge or Common Oak Sedge (Carex pensylvanica) in East Woods of the Morton Arboretum",
+        "source_title": "File:Pennsylvania Sedge or Common Oak Sedge (Carex pensylvanica) in East Woods of the Morton Arboretum - Flickr - Jay Sturner.jpg"
+      }
+    ],
+    "wikipedia_title": "Carex pensylvanica",
+    "summary": "Carex pensylvanica is a species of flowering plant in the sedge family commonly called Pennsylvania sedge (sometimes shortened to Penn sedge). Other common names include early sedge, common oak sedge, and yellow sedge.",
+    "fetch_status": "ok"
   },
   "Pontederia cordata": {
     "slug": "pickerelweed",
@@ -2168,7 +2709,25 @@
     "mentioned_in": [
       "05-wetland-shoreline-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/pickerelweed-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "D. Gordon E. Robertson",
+        "description": "Pickerelweed (Pontederia cordata), along Rideau River, Ottawa, Ontario, Canada",
+        "source_title": "File:Pickerelweed, Rideau River.jpg"
+      },
+      {
+        "file": "plants/img/pickerelweed-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Cephas",
+        "description": "Pontederia cordata, Plaisance National Park, Quebec, Canada.",
+        "source_title": "File:Pontederia cordata 4 PP.jpg"
+      }
+    ],
+    "wikipedia_title": "Pontederia cordata",
+    "summary": "Pontederia cordata, common name pickerelweed (USA) or pickerel weed (UK), is a monocotyledonous aquatic plant native to the Americas. It grows in a variety of wetlands, including pond and lake margins across an extremely large range from eastern Canada south to Argentina. A few examples include northern rivers, the Everglades and Louisiana.",
+    "fetch_status": "ok"
   },
   "Quercus palustris": {
     "slug": "pin-oak",
@@ -2177,7 +2736,10 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Quercus palustris",
+    "summary": "Quercus palustris, also called pin oak, swamp oak, or swamp Spanish oak, is a tree in the red oak section (Quercus sect. Lobatae) of the genus Quercus. Pin oak is one of the most commonly used landscaping oaks in its native range due to its ease of transplant, relatively fast growth, and pollution tolerance.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Toxicodendron radicans": {
     "slug": "poison-ivy",
@@ -2240,7 +2802,25 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/porcupine-grass-1.jpg",
+        "license": "Public domain",
+        "credit": "USFWS Mountain-Prairie",
+        "description": "Stipa spartea (Porcupine grass) is a needlegrass with a long awn (the \"hair\" extending from each seed). The seed of these cool season grasses is very sharp and twists to seed itself into the ground with help from the awn. However, these needles can cause problems to cattle and other grazers when for",
+        "source_title": "File:Porcupine Grass (Closeup) (14258034487).jpg"
+      },
+      {
+        "file": "plants/img/porcupine-grass-2.jpg",
+        "license": "CC BY 2.5",
+        "credit": "Hardyplants at English Wikipedia",
+        "description": "Taken By Paul Henjum, 02/25/07 own work, Seed of Stipa spartea",
+        "source_title": "File:Stipa spartea seeds2.jpg"
+      }
+    ],
+    "wikipedia_title": "Hesperostipa spartea",
+    "summary": "Hesperostipa spartea, formerly Stipa spartea,  is a species of grass known by the common names porcupine grass, western porcupine grass, short-awn porcupine grass, porcupine needlegrass, and big needlegrass. It is native to North America, where it is widespread from British Columbia to Ontario in Canada and through the central and Great Lakes regions of the United States. It is a bunchgrass species in the genus Hesperostipa.",
+    "fetch_status": "ok"
   },
   "Liatris pycnostachya": {
     "slug": "prairie-blazing-star",
@@ -2251,7 +2831,25 @@
       "05-wetland-shoreline-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/prairie-blazing-star-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from central North America Common name: Prairie Blazing Star Photographed along the Camp Robinson Special Use Area Woodlands Auto Tour, Faulkner County, Arkansas",
+        "source_title": "File:Liatris pycnostachya var. pycnostachya.jpg"
+      },
+      {
+        "file": "plants/img/prairie-blazing-star-2.jpg",
+        "license": "Public domain",
+        "credit": "Hardyplants at English Wikipedia",
+        "description": "Self made scan of the seeds of Liatris pycnostachya, made 01/2008.",
+        "source_title": "File:SeedsLiatrispycnostachya.jpg"
+      }
+    ],
+    "wikipedia_title": "Liatris pycnostachya",
+    "summary": "Liatris pycnostachya, the prairie blazing star, cattail gayfeather, Kansas gayfeather, or cattail blazing star, is a perennial plant in the Asteraceae family that is native to the tallgrass prairies of the central United States.",
+    "fetch_status": "ok"
   },
   "Sporobolus heterolepis": {
     "slug": "prairie-dropseed",
@@ -2284,7 +2882,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/prairie-phlox-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Joshua Mayer",
+        "description": "Downy or prairie phlox (Phlox pilosa) and prairie dock or basal-leaved rosinweed (Silphium terebinthinaceum) at the Young Prairie State Natural Area in Walworth County, Wisconsin.",
+        "source_title": "File:Downy phlox and prairie dock.jpg"
+      },
+      {
+        "file": "plants/img/prairie-phlox-2.jpg",
+        "license": "Public domain",
+        "credit": "Mason Brock (Masebrock)",
+        "description": "Phlox pilosa, barren at Flat Rock Cedar Glades and Barrens State Natural Area Rutherford County, Tennessee.",
+        "source_title": "File:Phlox pilosa Central Basin TN.jpg"
+      }
+    ],
+    "fetch_status": "ok",
+    "wikipedia_title": "Phlox pilosa",
+    "summary": "Phlox pilosa, the downy phlox or prairie phlox, is an herbaceous plant in the family Polemoniaceae.  It is native to eastern North America, where it is found in open areas such as prairies and woodlands."
   },
   "Carex prairea": {
     "slug": "prairie-sedge",
@@ -2293,7 +2909,25 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/prairie-sedge-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Ivar Leidus",
+        "description": "Hedgehog grass covered with morning dew",
+        "source_title": "File:Carex flava - Niitv\u00e4lja.jpg"
+      },
+      {
+        "file": "plants/img/prairie-sedge-2.jpg",
+        "license": "Public domain",
+        "credit": "Britton, N.L., and A. Brown. 1913. An illustrated flora of the northern United States, Canada and the British Possessions. 3 vols. Charles Scribner's Sons, New York. Vol. 1: 370. Courtesy of Kentucky ",
+        "description": "Carex prairea Dewey ex Alph. Wood - prairie sedge",
+        "source_title": "File:Carex prairea BB-1913.png"
+      }
+    ],
+    "wikipedia_title": "Carex prairea",
+    "summary": "Carex prairea, common name prairie sedge, is a species of Carex native to North America.",
+    "fetch_status": "ok"
   },
   "Geum triflorum": {
     "slug": "prairie-smoke",
@@ -2330,7 +2964,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/prairie-turnip-1.jpg",
+        "license": "Public domain",
+        "credit": "Rheanna Kautzman",
+        "description": "The flower of the prairie turnip. Photo taken in Badlands National Park, South Dakota",
+        "source_title": "File:Prairie turnip, Badlands National Park.JPG"
+      },
+      {
+        "file": "plants/img/prairie-turnip-2.jpg",
+        "license": "Public domain",
+        "credit": "Unknown authorUnknown author",
+        "description": "The leaves, flower, and tubers of Psoralea Esculenta also known as Pediomelum esculentum and the Prairie Turnip",
+        "source_title": "File:PsoraleaEsculenta2.jpg"
+      }
+    ],
+    "wikipedia_title": "Pediomelum esculentum",
+    "summary": "Pediomelum esculentum, synonym Psoralea esculenta, common name prairie turnip or timpsila, is an herbaceous perennial plant native to prairies and dry woodlands of central North America, which bears a starchy tuberous root edible as a root vegetable. English names for the plant include tipsin, teepsenee, breadroot, breadroot scurf pea, large Indian breadroot, prairie potato and pomme blanche.  The prairie turnip continues to be a staple food of the Plains Indians.",
+    "fetch_status": "ok"
   },
   "Echinacea purpurea": {
     "slug": "purple-coneflower",
@@ -2440,7 +3092,10 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [],
+    "fetch_status": "error: Giving up after 3 rate-limit retries",
+    "wikipedia_title": "Populus tremuloides",
+    "summary": "Populus tremuloides is a deciduous tree native to cooler areas of North America, one of several species referred to by the common name aspen. It is commonly called quaking aspen, trembling aspen, American aspen, mountain or golden aspen, trembling poplar, white poplar, and popple, as well as others. The trees have tall trunks, up to 25 metres (82 feet) tall, with smooth pale bark, scarred with black."
   },
   "Eryngium yuccifolium": {
     "slug": "rattlesnake-master",
@@ -2449,7 +3104,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/rattlesnake-master-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Photographed at Camp Robinson Special Use Area Wildlife Management Area, Faulkner County, Arkansas",
+        "source_title": "File:Eryngium yuccifolium.jpg"
+      },
+      {
+        "file": "plants/img/rattlesnake-master-2.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Thomas Koffel",
+        "description": "Eryngium yuccifolium - Rattlesnake Master",
+        "source_title": "File:Eryngium yuccifolium - Rattlesnake Master - Photo 81444879, (c) Thomas Koffel, some rights reserved (CC BY).jpg"
+      }
+    ],
+    "wikipedia_title": "Eryngium yuccifolium",
+    "summary": "Eryngium yuccifolium, known as rattlesnake master, button eryngo, and button snake-root, is a perennial herb of the parsley family native to the tallgrass prairies of central and eastern North America. It grows from Minnesota east to Ohio and south to Texas and Florida, including a few spots in Connecticut, New Jersey, Maryland, and Delaware. There are two varieties found in the wild, the northern rattlesnake master (Eryngium yuccifolium var.",
+    "fetch_status": "ok"
   },
   "Acer rubrum": {
     "slug": "red-maple",
@@ -2459,7 +3132,25 @@
       "04-woodland-forest-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/red-maple-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Red Maple during autumn along Terrace Boulevard in Ewing, New Jersey",
+        "source_title": "File:2014-10-30 13 47 46 Red Maple during autumn along Terrace Boulevard in Ewing, New Jersey.JPG"
+      },
+      {
+        "file": "plants/img/red-maple-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Male Red Maple flowers on Bayberry Road in Ewing, New Jersey",
+        "source_title": "File:2015-04-12 16 31 55 Male Red Maple flowers on Bayberry Road in Ewing, New Jersey.jpg"
+      }
+    ],
+    "wikipedia_title": "Acer rubrum",
+    "summary": "Acer rubrum, the red maple, also known as swamp maple, water maple, or soft maple, is one of the most common and widespread deciduous trees of eastern and central North America. The U.S. Forest Service recognizes it as the most abundant native tree in eastern North America. The red maple ranges from southeastern Manitoba around the Lake of the Woods on the border with Ontario and Minnesota, east to Newfoundland, south to Florida, and southwest to East Texas.",
+    "fetch_status": "ok"
   },
   "Quercus rubra": {
     "slug": "red-oak",
@@ -2469,7 +3160,25 @@
       "02-ecoregions-growing-conditions",
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/red-oak-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Red Oak foliage during autumn on Farrell Avenue in Ewing, New Jersey",
+        "source_title": "File:2014-10-30 10 49 37 Red Oak foliage during autumn on Farrell Avenue in Ewing, New Jersey.JPG"
+      },
+      {
+        "file": "plants/img/red-oak-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Bay & Gables",
+        "description": "A large northern red oak tree in Glen Abbey, Oakville, Ontario.",
+        "source_title": "File:A large northern red oak tree in Glen Abbey, Oakville, Ontario.jpg"
+      }
+    ],
+    "wikipedia_title": "Quercus rubra",
+    "summary": "Quercus rubra, the northern red oak or common red oak, is an oak tree in the red oak group (Quercus section Lobatae). It is a native of North America, in the eastern and central United States and southeast and south-central Canada. It has been introduced to small areas in Western Europe, where it can frequently be seen cultivated in gardens and parks.",
+    "fetch_status": "ok"
   },
   "Pinus resinosa": {
     "slug": "red-pine",
@@ -2479,7 +3188,10 @@
       "02-ecoregions-growing-conditions",
       "07-plant-identification-skills"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Pinus resinosa",
+    "summary": "Pinus resinosa, known as red pine (also Norway pine in Minnesota), is a pine native to Eastern North America, with a distribution from Pennsylvania and the Great Lakes region to Manitoba and Newfoundland. It is an adaptable species, and is a valuable forestry species in its native range. One of only two American members of subsection Pinus, the species is characterised by low genetic diversity.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Trillium erectum": {
     "slug": "red-trillium",
@@ -2488,7 +3200,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/red-trillium-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Geoffrey.landis",
+        "description": "Close-up of Red Trillium flower, Rocky River reservation, Westlake Ohio. Photo by Geoffrey A. Landis.",
+        "source_title": "File:Red Trillium Close Up.jpg"
+      },
+      {
+        "file": "plants/img/red-trillium-2.jpg",
+        "license": "CC BY-SA 2.5 ca",
+        "credit": "The Cosmonaut",
+        "description": "Red trillium (Trillium erectum).",
+        "source_title": "File:Trillium erectum - Stephen's Gulch CA.jpg"
+      }
+    ],
+    "wikipedia_title": "Trillium erectum",
+    "summary": "Trillium erectum, the red trillium, also known as wake robin, purple trillium, bethroot, or stinking benjamin, is a species of flowering plant in the family Melanthiaceae. The plant takes its common name \"wake robin\" by analogy with the European robin, which has a red breast heralding spring. Likewise Trillium erectum is a spring ephemeral plant whose life-cycle is synchronized with that of the forests in which it lives.",
+    "fetch_status": "ok"
   },
   "Sambucus racemosa": {
     "slug": "red-berried-elder",
@@ -2497,7 +3227,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/red-berried-elder-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Jean-Pol GRANDMONT",
+        "description": "Red Elderberry",
+        "source_title": "File:0 Sambucus racemosa - Vallorcine.JPG"
+      },
+      {
+        "file": "plants/img/red-berried-elder-2.jpg",
+        "license": "CC0",
+        "credit": "Awinch1001",
+        "description": "Sambucus racemosa leaves in San Francisco.",
+        "source_title": "File:Sambucus.racemosa.leaves.SF.jpg"
+      }
+    ],
+    "wikipedia_title": "Sambucus racemosa",
+    "summary": "Sambucus racemosa is a species of elder known by the common names red-berried elder and red elderberry. It produces a red drupe.\nThe species is native across much of the Northern Hemisphere.",
+    "fetch_status": "ok"
   },
   "Cornus sericea": {
     "slug": "red-osier-dogwood",
@@ -2534,10 +3282,25 @@
     "mentioned_in": [
       "08-invasive-species-id"
     ],
-    "images": [],
+    "images": [
+      {
+        "file": "plants/img/reed-canary-grass-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Franz Xaver",
+        "description": "Rohr-Glanzgras (Phalaris arundinacea), S\u00fc\u00dfgr\u00e4ser (Poaceae) - \u00d6sterreich/Austria/Autriche: Ober\u00f6sterreich, Hausruckviertel, Niederholzham N Schwanenstadt",
+        "source_title": "File:Phalaris arundinacea 1.jpg"
+      },
+      {
+        "file": "plants/img/reed-canary-grass-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Krish Dulal",
+        "description": "Phalaris arundinacea in garden of Islington college, Nepal.",
+        "source_title": "File:Phalaris arundinacea NP.JPG"
+      }
+    ],
     "wikipedia_title": "Phalaris arundinacea",
     "summary": "Phalaris arundinacea, or reed canary grass, is a tall, perennial grass that commonly forms extensive single-species stands along the margins of lakes and streams and in wet open areas, with a wide distribution in Europe, Asia, northern Africa and North America. Other common names for the plant include gardener's-garters and ribbon grass in English, alpiste roseau in French, Rohrglanzgras in German, kusa-yoshi in Japanese, cani\u00e7o-malhado in Portuguese, and hierba cinta and pasto cinto in Spanish.",
-    "fetch_status": "no_images_downloaded"
+    "fetch_status": "ok"
   },
   "Betula nigra": {
     "slug": "river-birch",
@@ -2546,7 +3309,10 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Betula nigra",
+    "summary": "Betula nigra, the black birch, river birch or water birch, is a species of birch native to the Eastern United States from New Hampshire west to southern Minnesota, and south to northern Florida and west to Texas. It is one of the few heat-tolerant birches in a family of mostly cold-weather trees which do not thrive in USDA Zone 6 and up. B. nigra commonly occurs in floodplains and swamps.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Liatris aspera": {
     "slug": "rough-blazing-star",
@@ -2556,7 +3322,25 @@
       "03-prairie-plants-grasslands",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/rough-blazing-star-1.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Crazytwoknobs",
+        "description": "Liatris Aspera, from above. Pizzo & Associates grounds, Leland IL.",
+        "source_title": "File:LiatrisAspera.jpg"
+      },
+      {
+        "file": "plants/img/rough-blazing-star-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from central North America with scattered populations in southeastern North America Common name: Rough Blazing Star Photographed in Mt. Magazine State Park, Logan County, Arkansas",
+        "source_title": "File:Liatris aspera2.jpg"
+      }
+    ],
+    "wikipedia_title": "Liatris aspera",
+    "summary": "Liatris aspera (known as rough blazing star, button blazing star, lacerate blazing star, tall prairie blazing star, or tall gayfeather) is a perennial wildflower in the Asteraceae family that is found in central to eastern North America in habitats that range from mesic to dry prairie and dry savanna.",
+    "fetch_status": "ok"
   },
   "Onoclea sensibilis": {
     "slug": "sensitive-fern",
@@ -2619,7 +3403,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/shooting-star-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Pfly",
+        "description": "Dodecatheon flower: \"Spring, 2003; the first year after I planted this Dodecatheon \"Shooting Star\" that it flowered. I was afraid it would not come back the next year. But it has bloomed just like this each spring. A favorite flower.\"",
+        "source_title": "File:Dodecatheon by pfly.jpg"
+      },
+      {
+        "file": "plants/img/shooting-star-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "H. Zell",
+        "description": "Dodecatheon meadia L. (1753) , Shooting Star, habitus; Botanical Garden KIT, Karlsruhe, Germany.",
+        "source_title": "File:Dodecatheon meadia 01.JPG"
+      }
+    ],
+    "wikipedia_title": "Primula meadia",
+    "summary": "Primula meadia (syn. Dodecatheon meadia), known by the common names shooting star, eastern shooting star, American cowslip, roosterheads, and prairie pointers is a species of flowering plant in the primula family Primulaceae. Also, the plant belongs to a group of herbaceous perennials.",
+    "fetch_status": "ok"
   },
   "Solidago speciosa": {
     "slug": "showy-goldenrod",
@@ -2657,7 +3459,25 @@
     "mentioned_in": [
       "10-garden-design-native-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/side-oats-grama-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Bouteloua curtipendula.jpg"
+      },
+      {
+        "file": "plants/img/side-oats-grama-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Erutuon",
+        "description": "A closeup of the hanging spikes of sideoats grama (Bouteloua curtipendula) in bloom, with orange stamens hanging below and feathery stigmas sticking out sideways.",
+        "source_title": "File:Bouteloua curtipendula closeup of spikes in bloom.jpg"
+      }
+    ],
+    "wikipedia_title": "Bouteloua curtipendula",
+    "summary": "Bouteloua curtipendula, commonly known as sideoats grama, is a perennial, short prairie grass that is native throughout the temperate and tropical Western Hemisphere, from Canada south to Argentina.\nThe species epithet comes from Latin curtus \"shortened\" and pendulus \"hanging\".",
+    "fetch_status": "ok"
   },
   "Acer saccharinum": {
     "slug": "silver-maple",
@@ -2695,7 +3515,10 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Symplocarpus foetidus",
+    "summary": "Symplocarpus foetidus, commonly known as skunk cabbage or eastern skunk cabbage (also swamp cabbage, clumpfoot cabbage, or meadow cabbage, foetid pothos or polecat weed), is a low-growing plant that grows in wetlands and moist hill slopes of eastern North America. Bruised leaves present an odor reminiscent of skunk.\nSymplocarpus combines the Greek word symploce, meaning \"connection\" and carpos, meaning \"fruit\", to indicate that the plant has a compound fruit.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Symphyotrichum oolentangiense": {
     "slug": "sky-blue-aster",
@@ -2704,7 +3527,25 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/sky-blue-aster-1.jpg",
+        "license": "CC BY 4.0",
+        "credit": "aarongunnar",
+        "description": "sky blue aster (Symphyotrichum oolentangiense)",
+        "source_title": "File:Symphyotrichum oolentangiense 4922157.jpg"
+      },
+      {
+        "file": "plants/img/sky-blue-aster-2.jpg",
+        "license": "CC0",
+        "credit": "Reuven Martin",
+        "description": "Symphyotrichum oolentangiense (Azure Aster, Sky Blue Aster) inflorescense, Ontario, Canada",
+        "source_title": "File:Symphyotrichum oolentangiense inflorescense.jpg"
+      }
+    ],
+    "wikipedia_title": "Symphyotrichum oolentangiense",
+    "summary": "Symphyotrichum oolentangiense (formerly Aster oolentangiensis and Aster azureus), commonly known as skyblue aster and azure aster, is a species of flowering plant in the family Asteraceae native to eastern North America.",
+    "fetch_status": "ok"
   },
   "Symphyotrichum laeve": {
     "slug": "smooth-blue-aster",
@@ -2762,7 +3603,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/smooth-sumac-1.jpg",
+        "license": "Public domain",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Rhus glabra.jpg"
+      },
+      {
+        "file": "plants/img/smooth-sumac-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from North America Common name: Smooth Sumac Photographed in Boyle Park, Little Rock, Pulaski County, Arkansas",
+        "source_title": "File:Rhus glabra AR.jpg"
+      }
+    ],
+    "wikipedia_title": "Rhus glabra",
+    "summary": "Rhus glabra, the smooth sumac (also known as white sumac, upland sumac, or scarlet sumac), is a North American species of sumac in the family Anacardiaceae.",
+    "fetch_status": "ok"
   },
   "Helenium autumnale": {
     "slug": "sneezeweed",
@@ -2771,7 +3630,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/sneezeweed-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Dominicus Johannes Bergsma",
+        "description": "Morning dew-covered flower bud of a Helenium autumnale. Focus stack of 34 photos.",
+        "source_title": "File:Bloemknop van een Helenium autumnale. 20-08-2023. (d.j.b).jpg"
+      },
+      {
+        "file": "plants/img/sneezeweed-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "",
+        "description": "",
+        "source_title": "File:Helenium autumnale1.jpg"
+      }
+    ],
+    "wikipedia_title": "Helenium autumnale",
+    "summary": "Helenium autumnale is a North American species of flowering plants in the family Asteraceae. Common names include common sneezeweed and large-flowered sneezeweed.",
+    "fetch_status": "ok"
   },
   "Trillium nivale": {
     "slug": "snow-trillium",
@@ -2780,7 +3657,10 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Trillium nivale",
+    "summary": "Trillium nivale, the snow trillium or dwarf white trillium, is a species of flowering plant in the family Melanthiaceae. It is native to parts of the east and midwest United States, primarily the Great Lakes States, the Ohio Valley, and the Upper Mississippi Valley, as far north as central Minnesota.\nTrillium nivale is a perennial herbaceous plant that flowers late winter or early spring, occasionally while snow is still on the ground.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Juncus effusus": {
     "slug": "soft-rush",
@@ -2816,7 +3696,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/soft-stem-bulrush-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Christian Fischer",
+        "description": "The plant Grey Club-rush, Schoenoplectus tabernaemontani.",
+        "source_title": "File:SchoenoplectusTabernaemontani.jpg"
+      },
+      {
+        "file": "plants/img/soft-stem-bulrush-2.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Kevin Thiele from Perth, Australia",
+        "description": "KRT3936",
+        "source_title": "File:Schoenoplectus tabernaemontani - Flickr - Kevin Thiele.jpg"
+      }
+    ],
+    "wikipedia_title": "Schoenoplectus tabernaemontani",
+    "summary": "Schoenoplectus tabernaemontani is a species of flowering plant in the sedge family known by the common names grey club-rush, softstem bulrush, and great bulrush.",
+    "fetch_status": "ok"
   },
   "Polygonatum biflorum": {
     "slug": "solomons-seal",
@@ -2941,7 +3839,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/staghorn-sumac-1.jpg",
+        "license": "CC0",
+        "credit": "AnRo0002",
+        "description": "Essigbaum (Rhus typhina) in Hockenheim-Talhaus",
+        "source_title": "File:20150420Rhus typhina1.jpg"
+      },
+      {
+        "file": "plants/img/staghorn-sumac-2.jpg",
+        "license": "Public domain",
+        "credit": "U.S. Geological Survey",
+        "description": "Range map of Rhus typhina \u2014 native to the Eastern U.S.",
+        "source_title": "File:Rhus typhina range map 4.png"
+      }
+    ],
+    "wikipedia_title": "Rhus typhina",
+    "summary": "Rhus typhina, the staghorn sumac, is a species of flowering plant in the family Anacardiaceae, native to eastern North America. It is primarily found in southeastern Canada, the northeastern and midwestern United States, and the Appalachian Mountains, but it is widely cultivated as an ornamental throughout the temperate world. It is an invasive species in some parts of the world.",
+    "fetch_status": "ok"
   },
   "Solidago rigida": {
     "slug": "stiff-goldenrod",
@@ -3001,7 +3917,8 @@
     "mentioned_in": [
       "03-prairie-plants-grasslands"
     ],
-    "images": []
+    "images": [],
+    "fetch_status": "no_page"
   },
   "Symphyotrichum puniceum": {
     "slug": "swamp-aster",
@@ -3010,7 +3927,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/swamp-aster-1.jpg",
+        "license": "CC0",
+        "credit": "University of Minnesota Bell Museum",
+        "description": "Symphyotrichum x longulum hybrid specimen (possibly holotype)",
+        "source_title": "File:Aster longulus specimen.jpg"
+      },
+      {
+        "file": "plants/img/swamp-aster-2.jpg",
+        "license": "CC0",
+        "credit": "Shaun Pogacnik",
+        "description": "swamp aster (Symphyotrichum puniceum)",
+        "source_title": "File:Symphyotrichum puniceum 96170432.jpg"
+      }
+    ],
+    "wikipedia_title": "Symphyotrichum puniceum",
+    "summary": "Symphyotrichum puniceum (formerly Aster puniceus), is a species of flowering plant in the family Asteraceae native to eastern North America. It is commonly known as purplestem aster, red-stalk aster, red-stemmed aster, red-stem aster, and swamp aster. It also has been called early purple aster, cocash, swanweed, and  meadow scabish.",
+    "fetch_status": "ok"
   },
   "Asclepias incarnata": {
     "slug": "swamp-milkweed",
@@ -3071,7 +4006,10 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Hierochloe odorata",
+    "summary": "Hierochloe odorata or Anthoxanthum nitens (commonly known as sweet grass, manna grass, Mary's grass or vanilla grass, and as holy grass in the UK, bison grass e.g. by Polish vodka producers) is an aromatic herb native to northern Eurasia and North America. It is considered sacred by many Indigenous peoples in Canada and the United States.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Panicum virgatum": {
     "slug": "switchgrass",
@@ -3193,7 +4131,25 @@
     "mentioned_in": [
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/trout-lily-1.jpg",
+        "license": "Public domain",
+        "credit": "U. S. Department of Agriculture.",
+        "description": "Range map courtesy of USDA (plants.udsa.gov)",
+        "source_title": "File:ERAM5.png"
+      },
+      {
+        "file": "plants/img/trout-lily-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Mttswa",
+        "description": "Erythronium americanum in full flower; Aman Park; Grand Rapids, Michigan",
+        "source_title": "File:Erythronium americanum; Yellow Trout Lily.jpg"
+      }
+    ],
+    "wikipedia_title": "Erythronium americanum",
+    "summary": "Erythronium americanum, the trout lily, yellow trout lily, fawn lily, yellow adder's-tongue, or yellow dogtooth violet, is a species of perennial, colony forming, spring ephemeral flower native to North America and dwelling in woodland habitats. Within its range it is a very common and widespread species, especially in eastern North America. The common name \"trout lily\" refers to the appearance of its gray-green leaves mottled with brown or gray, which allegedly resemble the coloring of brook trout.",
+    "fetch_status": "ok"
   },
   "Carex stricta": {
     "slug": "tussock-sedge",
@@ -3252,7 +4208,25 @@
       "04-woodland-forest-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/virginia-creeper-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Mick Stephenson mixpix 16:18, 19 March 2007 (UTC)",
+        "description": "Autumnal foliage of Virginia Creeper Parthenocissus quinquefolia, Forques, southern France, 2006Shot with Nikon D70s",
+        "source_title": "File:6370VirginiaCreeper.jpg"
+      },
+      {
+        "file": "plants/img/virginia-creeper-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Friedrich Haag",
+        "description": "This is a photograph of a cultural monument.It is on the list of cultural monuments of Bad D\u00fcrkheim. Designation: Monument zone spa gardens extension Construction time: 1930s Description: Expansion of the spa gardens with geometric passageway and planting in the 1930s Fountain hall, 1933/34, archite",
+        "source_title": "File:Bad D\u00fcrkheim Schlossgartenstra\u00dfe 2 001 2020 10 20.jpg"
+      }
+    ],
+    "wikipedia_title": "Parthenocissus quinquefolia",
+    "summary": "Parthenocissus quinquefolia, commonly known as Virginia creeper, woodbine, five-leaved ivy, or five-finger, is a species of flowering vine in the grape family Vitaceae.\nThe species is native to eastern and central North America, with its range extending from south-eastern Canada and the eastern United States, west to Manitoba and Utah, and as far south as eastern Mexico and Guatemala. It has been introduced globally and is considered an invasive species to varying degrees in the European Union, the United Kingdom, China, Australia, and Cuba.",
+    "fetch_status": "ok"
   },
   "Hydrophyllum virginianum": {
     "slug": "virginia-waterleaf",
@@ -3261,7 +4235,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/virginia-waterleaf-1.jpg",
+        "license": "Public domain",
+        "credit": "Mason Brock (Masebrock)",
+        "description": "Hydrophyllum virginianum var. virginianum in mesic woodland lot on a karst plain, near the town of Lickskillet. Logan County, Kentucky.",
+        "source_title": "File:Hydrophyllum virginianum var virginianum.jpg"
+      },
+      {
+        "file": "plants/img/virginia-waterleaf-2.jpg",
+        "license": "Public domain",
+        "credit": "Douglas W. Jones",
+        "description": "Ripening seed pods of virginia waterleaf (Hydrophyllum virginianum) in early June, Iowa City, Iowa.",
+        "source_title": "File:VirginiaWaterleafSeedPods.jpg"
+      }
+    ],
+    "wikipedia_title": "Hydrophyllum virginianum",
+    "summary": "Hydrophyllum virginianum, commonly called Virginia waterleaf or eastern waterleaf, is an herbaceous perennial plant native to Eastern North America where it is primarily found in the Midwest, Northeast, and Appalachian regions. The genus Hydrophyllum is placed in the family Hydrophyllaceae.\nIts natural habitat is in bottomland forests, mesic upland forests, and rocky forested bluffs.",
+    "fetch_status": "ok"
   },
   "Myriophyllum sibiricum": {
     "slug": "water-milfoil",
@@ -3270,7 +4262,25 @@
     "mentioned_in": [
       "05-wetland-shoreline-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/water-milfoil-1.jpg",
+        "license": "Public domain",
+        "credit": "TsunamiCarlos",
+        "description": "Myriophyllum matogrossense is a fast growing aquarium plant from South America.",
+        "source_title": "File:Myriophyllum matogrossense.jpg"
+      },
+      {
+        "file": "plants/img/water-milfoil-2.jpg",
+        "license": "CC0",
+        "credit": "Sharika Elahi",
+        "description": "Siberian water-milfoil (Myriophyllum sibiricum)",
+        "source_title": "File:Myriophyllum sibiricum 95298624.jpg"
+      }
+    ],
+    "wikipedia_title": "Myriophyllum sibiricum",
+    "summary": "Myriophyllum sibiricum is a species of water milfoil known by the common names shortspike watermilfoil, northern watermilfoil, and Siberian water-milfoil. It is native to Russia, China, and much of North America, where it grows in aquatic habitat such as ponds and streams. It generally grows over a meter long, its green stem drying white.",
+    "fetch_status": "ok"
   },
   "Fraxinus americana": {
     "slug": "white-ash",
@@ -3306,7 +4316,10 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [],
+    "fetch_status": "error: Giving up after 3 rate-limit retries",
+    "wikipedia_title": "Actaea pachypoda",
+    "summary": "Actaea pachypoda, the white baneberry or doll's-eyes, is a species of flowering plant in the genus Actaea, of the family Ranunculaceae.\nThe plant is native to eastern North America, in eastern Canada, and the Midwestern and Eastern United States. It requires organically rich, humusy soil with excellent drainage, and is found in hardwood and mixed forest stands."
   },
   "Betula papyrifera": {
     "slug": "white-birch",
@@ -3319,7 +4332,25 @@
       "12-ecological-restoration",
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/white-birch-1.jpg",
+        "license": "CC BY 2.0",
+        "credit": "InAweofGod'sCreation",
+        "description": "The trail leads to the site of Old Farm the home of George Dorr, one of the original advocates for the acquisition of land for Acadia National Park. The home site is located at Schooner Cove. The house has been torn down, but remains of george's salt water swimming pool, fed by the tide, can still b",
+        "source_title": "File:13. The Fall of Acadia (4039110079).jpg"
+      },
+      {
+        "file": "plants/img/white-birch-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Walter Siegmund (talk)",
+        "description": "Paper Birch",
+        "source_title": "File:Betula papyrifera 8853.JPG"
+      }
+    ],
+    "wikipedia_title": "Betula papyrifera",
+    "summary": "Betula papyrifera (paper birch, also known as (American) white birch and canoe birch) is a short-lived species of birch native to northern North America. Paper birch is named after the tree's thin white bark, which often peels in paper-like layers from the trunk. Paper birch is often one of the first species to colonize a burned area within the northern latitudes, and is an important species for moose browsing.",
+    "fetch_status": "ok"
   },
   "Quercus alba": {
     "slug": "white-oak",
@@ -3328,7 +4359,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/white-oak-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Famartin",
+        "description": "New foliage of Quercus alba (White Oak) along the Mount Misery Trail in Brendan T. Byrne State Forest, New Jersey",
+        "source_title": "File:2013-05-10 13 16 53 New foliage of White Oak along the Mount Misery Trail in Brendan T. Byrne State Forest, New Jersey.jpg"
+      },
+      {
+        "file": "plants/img/white-oak-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "White Oak foliage during autumn along Lower Ferry Road in Ewing, New Jersey",
+        "source_title": "File:2014-11-02 11 37 14 White Oak foliage during autumn along Lower Ferry Road in Ewing, New Jersey.JPG"
+      }
+    ],
+    "wikipedia_title": "Quercus alba",
+    "summary": "Quercus alba, the white oak, is one of the preeminent hardwoods of eastern and central North America. It is a long-lived oak, native to eastern and central North America and found from Minnesota, Ontario, Quebec, and southern Maine south as far as northern Florida and eastern Texas. Specimens have been documented to be over 450 years old.",
+    "fetch_status": "ok"
   },
   "Pinus strobus": {
     "slug": "white-pine",
@@ -3392,7 +4441,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/white-sage-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Stan Shebs",
+        "description": "Artemisia ludoviciana subsp. albula at Wheeler Camp Spring west of Blue Diamond, Red Rock Canyon, Spring Mountains, southern Nevada (elev. about 1050 m)",
+        "source_title": "File:Artemisia ludoviciana ssp albula 7.jpg"
+      },
+      {
+        "file": "plants/img/white-sage-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Raffi Kojian",
+        "description": "This photo is from Gardenology.org and is available under CC-BY-SA 3.0 license. If you use it, please include attribution to Gardenology.org, with a link if the media allows it. If the name is missing, click here.",
+        "source_title": "File:Gardenology.org-IMG 2731 rbgs11jan.jpg"
+      }
+    ],
+    "wikipedia_title": "Artemisia ludoviciana",
+    "summary": "Artemisia ludoviciana is a North American species of flowering plant in the daisy family Asteraceae, known by several common names, including silver wormwood, western mugwort, Louisiana wormwood, white sagebrush, lobed cud-weed, prairie sage, and gray sagewort. \nLudoviciana is the Latinized version of the word Louisiana.",
+    "fetch_status": "ok"
   },
   "Ageratina altissima": {
     "slug": "white-snakeroot",
@@ -3402,7 +4469,10 @@
       "04-woodland-forest-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Ageratina altissima",
+    "summary": "Ageratina altissima, also known as white snakeroot, richweed, or white sanicle, is a poisonous perennial herb in the family Asteraceae, native to eastern and central North America. An older binomial name for this species is Eupatorium rugosum, but the genus Eupatorium has undergone taxonomic revision by botanists, and some species once included in it have been moved to other genera.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Picea glauca": {
     "slug": "white-spruce",
@@ -3412,7 +4482,25 @@
       "02-ecoregions-growing-conditions",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/white-spruce-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Daniel Dumais",
+        "description": "Mature white spruce in Quebec, Canada",
+        "source_title": "File:2009-05-13 EPB mature (02) DDumais.jpg"
+      },
+      {
+        "file": "plants/img/white-spruce-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Geographer",
+        "description": "Picea glauca var. albertiana A dwarf Alberta white spruce in Los Angeles County Arboretum and Botanic Garden",
+        "source_title": "File:A dwarf Alberta white spruce.jpg"
+      }
+    ],
+    "wikipedia_title": "Picea glauca",
+    "summary": "Picea glauca, the white spruce, is a species of spruce native to the northern temperate and boreal forests in Canada and United States, North America.\nPicea glauca is native from central Alaska all through the east, across western and southern/central Canada to the Avalon Peninsula in Newfoundland, Quebec, Ontario and south to Montana, North Dakota, Minnesota, Wisconsin, Michigan, Upstate New York and Vermont, along with the mountainous and immediate coastal portions of New Hampshire and Maine, where temperatures are just barely cool and moist enough to support it. There is also an isolated population in the Black Hills of South Dakota and Wyoming.",
+    "fetch_status": "ok"
   },
   "Chelone glabra": {
     "slug": "white-turtlehead",
@@ -3448,7 +4536,18 @@
     "mentioned_in": [
       "05-wetland-shoreline-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/white-water-lily-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Famartin",
+        "description": "Fully open American White Water Lily flower and leaves in a shallow cove of Success Lake within the Colliers Mills Wildlife Management Area in Jackson Township, Ocean County, New Jersey",
+        "source_title": "File:2024-08-20 14 33 27 Fully open American White Water Lily flower and leaves in a shallow cove of Success Lake within the Colliers Mills Wildlife Management Area in Jackson Township, Ocean County, New Jersey.jpg"
+      }
+    ],
+    "wikipedia_title": "Nymphaea odorata",
+    "summary": "Nymphaea odorata, also known as the American white waterlily, fragrant water-lily, beaver root, fragrant white water lily, white water lily, sweet-scented white water lily, and sweet-scented water lily, is an aquatic plant belonging to the genus Nymphaea. It can commonly be found in shallow lakes, ponds, and permanent slow moving waters throughout North America where it ranges from Central America to northern Canada. It is also reported from Brazil and Guyana.",
+    "fetch_status": "ok"
   },
   "Asclepias verticillata": {
     "slug": "whorled-milkweed",
@@ -3458,7 +4557,25 @@
       "03-prairie-plants-grasslands",
       "06-pollinators-wildlife"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/whorled-milkweed-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Eric Hunt",
+        "description": "Species from central and eastern North America Common name: Whorled Milkweed Photographed in Gillam Park at the Little Rock Audubon Center, Arkansas",
+        "source_title": "File:Asclepias verticillata Arkansas.jpg"
+      },
+      {
+        "file": "plants/img/whorled-milkweed-2.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Mark Fickett",
+        "description": "Cluster of flowers on Asclepias verticillata (whorled milkweed). Taken 2013 Aug 18 in Pennsylvania, USA.",
+        "source_title": "File:Asclepias verticillata flower cluster.jpg"
+      }
+    ],
+    "wikipedia_title": "Asclepias verticillata",
+    "summary": "Asclepias verticillata, the whorled milkweed, eastern whorled milkweed, or horsetail milkweed, is a species of milkweed native to most of eastern North America and parts of western Canada and the United States.",
+    "fetch_status": "ok"
   },
   "Monarda fistulosa": {
     "slug": "wild-bergamot",
@@ -3500,7 +4617,10 @@
     "mentioned_in": [
       "02-ecoregions-growing-conditions"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Vaccinium angustifolium",
+    "summary": "Vaccinium angustifolium, commonly known as the wild lowbush blueberry, is a species of blueberry native to eastern and central Canada and the northeastern United States. It is the most common commercially used wild blueberry and is considered the \"low sweet\" berry.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Vallisneria americana": {
     "slug": "wild-celery",
@@ -3558,7 +4678,25 @@
       "04-woodland-forest-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/wild-geranium-1.jpg",
+        "license": "Public domain",
+        "credit": "Hardyplants at English Wikipedia",
+        "description": "Self made, Taken June 2007, in Minnesota by Paul Henjum.",
+        "source_title": "File:G.maculatum.jpg"
+      },
+      {
+        "file": "plants/img/wild-geranium-2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Eric in SF",
+        "description": "Species from eastern North America Common name: Spotted Geranium Photographed in Leatherwood Lake Park, Eureka Springs, Arkansas",
+        "source_title": "File:Geranium maculatum Leatherwood Lake.jpg"
+      }
+    ],
+    "wikipedia_title": "Geranium maculatum",
+    "summary": "Geranium maculatum, the wild geranium, spotted geranium, or wood geranium, is a perennial plant native to woodlands in eastern North America, from southern Manitoba and southwestern Quebec south to Alabama and Georgia and west to Oklahoma and South Dakota.",
+    "fetch_status": "ok"
   },
   "Asarum canadense": {
     "slug": "wild-ginger",
@@ -3654,7 +4792,25 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/wild-onion-1.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Matt Lavin from Bozeman, Montana, USA",
+        "description": "The peduncle nods just below the flowering head, thus rendering the common name nodding onion.",
+        "source_title": "File:Allium cernuum (3287845832).jpg"
+      },
+      {
+        "file": "plants/img/wild-onion-2.jpg",
+        "license": "CC0",
+        "credit": "Patrick Alexander from Las Cruces, NM",
+        "description": "Allium cernuum, Three Rivers Trail, Sierra Blanca, Lincoln County, New Mexico, 20 Jul 2010.",
+        "source_title": "File:Allium cernuum - Flickr - aspidoscelis (2).jpg"
+      }
+    ],
+    "wikipedia_title": "Allium cernuum",
+    "summary": "Allium cernuum, known as nodding onion or lady's leek, is a perennial plant in the genus Allium. It grows in open areas in North America.",
+    "fetch_status": "ok"
   },
   "Pastinaca sativa": {
     "slug": "wild-parsnip",
@@ -3693,7 +4849,25 @@
       "06-pollinators-wildlife",
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/wild-plum-1.jpg",
+        "license": "Public domain",
+        "credit": "USDA-NRCS PLANTS Database / Herman, D.E., et al. 1996. North Dakota tree handbook. USDA NRCS ND State Soil Conservation Committee; NDSU Extension and Western Area Power Administration, Bismarck.",
+        "description": "Prunus americana Marsh. - American plum",
+        "source_title": "File:Pram 004 php.jpg"
+      },
+      {
+        "file": "plants/img/wild-plum-2.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Andrew Ciscel",
+        "description": "American Plum (Prunus americana), May 6, 2007, Minneapolis",
+        "source_title": "File:Prunus americana.jpg"
+      }
+    ],
+    "wikipedia_title": "Prunus americana",
+    "summary": "Prunus americana, commonly called the American plum, wild plum, or Marshall's large yellow sweet plum, is a species of Prunus native to North America from Saskatchewan and Idaho south to New Mexico and east to Qu\u00e9bec, Maine and Florida.\nPrunus americana has often been planted outside its native range and sometimes escapes cultivation. It is commonly confused with the Canada plum (Prunus nigra), although the fruit is smaller and rounder and bright red as opposed to yellow.",
+    "fetch_status": "ok"
   },
   "Zizania palustris": {
     "slug": "wild-rice",
@@ -3778,7 +4952,10 @@
     "mentioned_in": [
       "13-cultural-indigenous-uses"
     ],
-    "images": []
+    "images": [],
+    "wikipedia_title": "Achillea millefolium",
+    "summary": "Achillea millefolium, commonly known as yarrow () or common yarrow, is a flowering plant in the family Asteraceae. Growing to 1 metre (3+1\u20443 feet) tall, it is characterized by small whitish flowers, a tall stem of fernlike leaves, and a pungent odor.\nThe plant is native to temperate regions of Eurasia and North America.",
+    "fetch_status": "error: Giving up after 3 rate-limit retries"
   },
   "Betula alleghaniensis": {
     "slug": "yellow-birch",
@@ -3787,7 +4964,25 @@
     "mentioned_in": [
       "04-woodland-forest-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/yellow-birch-1.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Joseph OBrien",
+        "description": "Yellow birch bark via forestryimages.org",
+        "source_title": "File:B alleghaniensis 01.jpg"
+      },
+      {
+        "file": "plants/img/yellow-birch-2.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Nichole Ouellette/ouellette001.com",
+        "description": "Betula alleghaniensis Britton. \u2014 Bouleau des All\u00e9ghanys. \u2014 Merisier. \u2014 (Yellow birch).",
+        "source_title": "File:Betula alleghaniensis 000 2333 3466.jpg"
+      }
+    ],
+    "wikipedia_title": "Betula alleghaniensis",
+    "summary": "Betula alleghaniensis, the yellow birch, golden birch, or swamp birch, is a large species of birch native to northeastern North America. Its vernacular names refer to the golden color of the tree's bark. In the past its scientific name was Betula lutea, the yellow birch.",
+    "fetch_status": "ok"
   },
   "Nuphar variegata": {
     "slug": "yellow-pond-lily",
@@ -3796,7 +4991,25 @@
     "mentioned_in": [
       "05-wetland-shoreline-plants"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/yellow-pond-lily-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Kevmin",
+        "description": "A group of dispersed fossil Nuphar carlquistii seeds. Ypresian, 49.5 million years old; Klondike Mountain Formation, Republic, Ferry County Washington, USA.",
+        "source_title": "File:Nuphar carlquistii seeds 01a.jpg"
+      },
+      {
+        "file": "plants/img/yellow-pond-lily-2.jpg",
+        "license": "CC BY 3.0",
+        "credit": "David Perez",
+        "description": "Yellow Water-lily Nuphar lutea fruit. Burgos (Spain)",
+        "source_title": "File:Nuphar lutea 02 by-dpc.jpg"
+      }
+    ],
+    "wikipedia_title": "Nuphar",
+    "summary": "Nuphar is a genus of aquatic plants in the family Nymphaeaceae, with a temperate to subarctic Northern Hemisphere distribution. Common names include water-lily (Eurasian species; shared with many other genera in the same family), pond-lily, alligator-bonnet or bonnet lily, and spatterdock (North American species).",
+    "fetch_status": "ok"
   },
   "Solidago flexicaulis": {
     "slug": "zigzag-goldenrod",
@@ -3806,6 +5019,24 @@
       "04-woodland-forest-plants",
       "12-ecological-restoration"
     ],
-    "images": []
+    "images": [
+      {
+        "file": "plants/img/zigzag-goldenrod-1.jpg",
+        "license": "Public domain",
+        "credit": "New York Botanical Garden.",
+        "description": "SOLIDAGO ALTISSII",
+        "source_title": "File:Addisonia (PLATE 075) (8577495976) inflorescence transparent background.png"
+      },
+      {
+        "file": "plants/img/zigzag-goldenrod-2.jpg",
+        "license": "Public domain",
+        "credit": "Mason Brock (Masebrock)",
+        "description": "Solidago flexicaulis, growing on forested limestone bluffs, on the West Fork of the Red River at the Clarksville Greenway, Montgomery County, Tennessee. (Image originally misidentified as Solidago ulmifolia.)",
+        "source_title": "File:Solidago flexicaulis.jpg"
+      }
+    ],
+    "wikipedia_title": "Solidago flexicaulis",
+    "summary": "Solidago flexicaulis, the broadleaved goldenrod, or zigzag goldenrod, is a North American species of herbaceous perennial plants in the family Asteraceae. It is native to the eastern and central parts of the United States and Canada, from Nova Scotia west to Ontario and the Dakotas, and south as far as Alabama and Louisiana. It grows in a variety of habitats including mesic upland forests, well drained floodplain forests, seepage swamp hummocks, and rocky woodlands.",
+    "fetch_status": "ok"
   }
 }

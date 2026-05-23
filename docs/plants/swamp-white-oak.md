@@ -23,6 +23,7 @@ Quercus bicolor, the swamp white oak, is a North American species of medium-size
 
 ## Mentioned In
 
+- [Woodland Forest Plants](../chapters/04-woodland-forest-plants/index.md)
 - [Wetland Shoreline Plants](../chapters/05-wetland-shoreline-plants/index.md)
 
 ## Image Credits
