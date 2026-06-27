@@ -1,0 +1,4 @@
+# Build dependencies for the MkDocs Material site.
+# Install with: pip install -r requirements.txt
+mkdocs-material[imaging]
+mkdocs-glightbox
