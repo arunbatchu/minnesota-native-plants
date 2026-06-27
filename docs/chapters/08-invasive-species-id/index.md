@@ -331,6 +331,35 @@ Japanese Barberry escapes from landscaping into woodlands, forest edges, roadsid
 
 Japanese Barberry forms dense thickets that displace native shrubs and wildflowers. Its dense growth creates humid microhabitats that favor blacklegged ticks (deer ticks), potentially increasing tick-borne disease risk. Research in the eastern United States has shown significantly higher tick densities in barberry-infested forests compared to forests with native understory plants.
 
+## Creeping Charlie
+
+Creeping Charlie (*Glechoma hederacea*), also called ground ivy or gill-over-the-ground, is a low, mat-forming perennial in the mint family. Brought from Europe — partly as a medicinal and culinary herb — it is now one of the most familiar weeds in Minnesota lawns and shaded gardens. Many gardeners meet it long before they meet buckthorn or garlic mustard.
+
+### How to Identify Creeping Charlie
+
+- **Leaves**: Round to kidney-shaped with scalloped (rounded-toothed) edges, growing in opposite pairs along the stem. Crushed leaves give off a distinct minty smell.
+- **Stems**: Square in cross-section (a classic mint-family trait) and creeping along the ground. The stems root at each node where they touch the soil, which is how the plant spreads so quickly.
+- **Flowers**: Small, funnel-shaped, blue to purple, appearing in spring (April through June).
+- **Growth habit**: Forms dense, low evergreen mats that spread 1 to 3 feet wide and stay green well into the cold months.
+
+### Where to Look
+
+Creeping Charlie thrives in shaded, moist, nutrient-poor ground — exactly the conditions where lawn grass struggles. Look for it in shady lawns, garden beds, woodland edges, and disturbed areas throughout the state.
+
+### Why It Is Harmful
+
+Creeping Charlie spreads aggressively and can blanket a lawn or garden bed, crowding out turf grass and ornamental plants. Disturbing a patch without removing it — for example, raking or digging through it — breaks the stems into fragments that can each root and start new plants.
+
+!!! mascot-thinking "Invasive, but Not a 'Noxious Weed'"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
+    Here's an important distinction, garden friends. The Minnesota DNR lists
+    creeping Charlie as an **invasive** plant, but it is **not** on the state's
+    regulated **Noxious Weed List** — so there's no legal requirement to control
+    it. Unlike buckthorn or garlic mustard, it isn't considered a major threat to
+    healthy natural areas; it mostly takes over disturbed ground, lawns, and
+    gardens. So treat it as a persistent weed to manage in your own yard rather
+    than an emergency in the woods. Every plant has a story!
+
 ## Invasive ID Methods
 
 Identifying invasive species in the field becomes easier with practice and the right approach. Here are practical methods anyone can use.
@@ -525,6 +554,7 @@ In this chapter, you learned:
 - **European Earthworms** destroy the forest duff layer that native plants depend on — never dump fishing bait
 - **Emerald Ash Borer** kills ash trees and is identified by D-shaped exit holes and canopy dieback
 - **Japanese Barberry** escapes from landscaping and increases tick habitat in forests
+- **Creeping Charlie** is a square-stemmed, mat-forming lawn and garden weed — invasive but not a regulated noxious weed in Minnesota
 - **Field identification** improves with practice using visual features, seasonal timing, apps, and field guides
 - **Reporting** sightings to the MN DNR through EDDMapS or the DNR invasive species program is critical
 - **Early detection monitoring** is the most effective and affordable invasive species strategy
