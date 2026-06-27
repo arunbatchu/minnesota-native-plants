@@ -304,6 +304,44 @@ Understanding garlic mustard's two-year life cycle is essential for effective re
 
 Like buckthorn, garlic mustard has a seed bank that requires multiple years of removal. Plan to return to the same site for at least **four to six years** to exhaust the seed supply. Many land managers report that consistent annual pulling gradually reduces garlic mustard populations, but skipping even a single year can undo several years of progress.
 
+## Creeping Charlie Removal
+
+Creeping Charlie (*Glechoma hederacea*), or ground ivy, is the mat-forming lawn and garden weed you met in Chapter 8. It spreads by creeping stems that root at every node, so the goal is to remove the whole network of stems — not just the leaves you can see — and then replace it with something that can hold the ground.
+
+### How to Handle It
+
+- **Fix the conditions first.** Creeping Charlie moves in where lawn grass is weak — usually shade, compacted soil, or poor drainage. Improving those conditions (or, in deep shade, giving up on turf and planting a shade-loving ground cover) does more than any single weeding.
+- **Hand-pull small patches.** Loosen the soil and lift the creeping stems slowly so they pull up in long runners. Because the stems root at the nodes, work patiently to get as much as you can — any rooted fragment left behind can restart the patch.
+- **Smother larger areas.** Cover the patch with cardboard or several layers of newspaper topped with mulch for a full growing season. Blocking light is one of the most reliable non-chemical ways to clear a dense mat before replanting.
+- **Don't disturb without removing.** Tilling, raking, or digging through Creeping Charlie chops the stems into rooting fragments and spreads it. Remove it first, then disturb the soil.
+- **Spot-treat as a last resort.** For stubborn lawn infestations, a broadleaf herbicide is most effective when applied in **fall**, when the plant moves resources (and the herbicide) down to its roots. Always follow the label, and avoid spraying near garden plants or water.
+
+!!! mascot-warning "Skip the Borax Myth"
+    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Bree warning">
+    You may have read that sprinkling borax kills Creeping Charlie. University
+    research has found this home remedy unreliable, and the boron it leaves behind
+    can build up in the soil and harm the very lawn and garden plants you're trying
+    to protect. Stick with pulling, smothering, and good lawn health instead.
+
+### What to Replace It With
+
+Bare soil is an open invitation for Creeping Charlie to return, so replant cleared ground promptly. Choose a Minnesota-native ground cover suited to the light and moisture of the spot — these plants knit together into a living mat that competes with weeds while feeding pollinators. Good native "creepers" include:
+
+- **Wild Ginger** (*Asarum canadense*) — heart-shaped leaves that form a lush carpet in shade and moist, rich soil; an excellent direct stand-in for Creeping Charlie's shady niche
+- **Woodland Phlox** (*Phlox divaricata*) — spreads politely in part shade and blooms light blue-purple in spring for bees, butterflies, and hummingbirds
+- **Wild Strawberry** (*Fragaria virginiana*) — a fast, sun-to-part-shade ground cover with white flowers, edible berries, and runners that fill in bare ground
+- **Pennsylvania Sedge** (*Carex pensylvanica*) — a soft, low sedge that makes a fine no-mow lawn alternative in dry shade
+- **Common Selfheal** (*Prunella vulgaris* var. *lanceolata*, the native variety) — a low, mint-family bloomer for sunny to lightly shaded spots that tolerates foot traffic
+
+For a sunny, walkable area where a non-native is acceptable, low-growing **creeping thyme** is a common drought-tolerant choice, though it is not native. When in doubt, lean on native species — they support far more local wildlife than any turf or non-native ground cover.
+
+!!! mascot-tip "Match the Plant to the Spot"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Bree giving a tip">
+    Creeping Charlie loves shade and moisture, so the spots you clear are often
+    too shady for grass anyway. That's the perfect place for Wild Ginger or
+    Woodland Phlox. Let's grow together — replace a weed with a plant that earns
+    its keep!
+
 ## Removal Timing
 
 When you remove invasive species matters as much as how you remove them. Poorly timed efforts can waste labor, spread seeds, or even make infestations worse.
