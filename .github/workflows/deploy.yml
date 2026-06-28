@@ -1,0 +1,58 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+# Avoid overlapping deploys racing to push to gh-pages.
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git credentials
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # System libraries required by the Material "social" plugin to render
+      # social-share card images (cairosvg / Pillow).
+      - name: Install imaging system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+
+      # Cache fetched Google Fonts and rendered social cards between runs.
+      - name: Set cache id
+        run: echo "cache_id=$(date --utc '+%V')" >> "$GITHUB_ENV"
+
+      - name: Cache MkDocs Material assets
+        uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build and deploy to gh-pages
+        run: mkdocs gh-deploy --force
