@@ -611,6 +611,32 @@ Native lawn alternatives reduce or replace turfgrass with low-growing native spe
 - **Buffalograss** (*Bouteloua dactyloides*) — A warm-season native grass adapted to dry, sunny sites. Low-growing and drought-tolerant, it can be mowed or left unmowed.
 - **Native ground cover mixes** — Combinations of Wild Strawberry, Self-Heal, and Violets create a flowering "lawn" that supports pollinators while staying low.
 
+### Bee Lawns
+
+A **bee lawn** is a low, mowable lawn interplanted with short flowering plants that feed pollinators — a lawn that still looks and works like a lawn, but hums with bees. The idea was developed and tested right here in Minnesota, through research at the University of Minnesota's Bee Lab and Turfgrass Science program (see Chapter 14). Their studies found that a flowering lawn in the Twin Cities can support **60 or more species of bees** while staying walkable and low-maintenance.
+
+The classic University of Minnesota bee lawn mix combines low-input **fine fescue grasses** with a few hardy, low-growing flowers:
+
+- **Dutch White Clover** (*Trifolium repens*) — a nitrogen-fixing legume whose flowers are a magnet for bees
+- **Self-Heal** (*Prunella vulgaris*) — a low, mint-family bloomer; choose the native variety (*var. lanceolata*) when you can
+- **Creeping Thyme** (*Thymus serpyllum*) — part of the original mix, though the University no longer recommends it because of long-term performance and seed-supply issues
+
+An honest note: these flowers are mostly **non-native** (though bee-beneficial), so a bee lawn is a pollinator-friendly *lawn alternative*, not a true native plant community. Think of it as an easy, low-input stepping stone — far better for bees than conventional turf, and a natural companion to native garden beds.
+
+To establish and keep a bee lawn:
+
+- **Mow high and infrequently** (3 inches or more), letting the flowers bloom between mowings.
+- **Skip broadleaf herbicides** — they kill the very flowers you are trying to grow.
+- **Overseed** the flowers into a thin, existing fine-fescue lawn, or start fresh on bare soil in late summer or early spring.
+
+!!! mascot-tip "Bree Loves a Bee Lawn"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Bree giving a tip">
+    A bee lawn is one of the easiest ways to help pollinators, garden friends —
+    you barely change how you use the space, but suddenly it's full of food for
+    bees like me! Minnesota's **Lawns to Legumes** program (Chapter 14) even
+    offers cost-share funding and planting guides to help you get started. Let's
+    grow together!
+
 ### Transition Strategies
 
 Replacing an entire lawn at once is rarely practical. Consider these phased approaches:
@@ -646,6 +672,7 @@ In this chapter, you learned:
 - **Prairie gardens** combine grasses and forbs for movement, color, and deep ecological roots
 - **Curb appeal** strategies use cues to care so native plantings look intentional and inviting
 - **Native lawn alternatives** replace turfgrass with low-growing species that support wildlife
+- **Bee lawns**, developed by University of Minnesota research, mix fine fescue with low flowers like Dutch white clover and self-heal to feed dozens of bee species
 
 ## Concepts Covered
 
