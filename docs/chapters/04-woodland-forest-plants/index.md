@@ -297,6 +297,23 @@ Jack-in-the-Pulpit has a remarkable ability to change sex. Young or stressed pla
     the most striking sights on a fall woodland walk. But don't eat the berries
     — they contain calcium oxalate crystals that cause intense burning.
 
+## More Spring Ephemerals
+
+The woodland floor hosts many more spring ephemerals beyond the well-known bloodroot and trillium. These small, early bloomers race to flower and store energy before the tree canopy leafs out and casts the forest into summer shade. A walk through a rich Minnesota woodland in April and May — for example, the woodland section of the [Eloise Butler Wildflower Garden](../../chapters/14-minnesota-resources/index.md) in Minneapolis — can reveal a whole tapestry of them:
+
+- **[Spring Beauty](../../plants/spring-beauty/)** (*Claytonia virginica*) — low carpets of small white-to-pink flowers veined with darker pink. An early, important nectar source for native bees, including a specialist bee that relies on it.
+- **[White Trout Lily](../../plants/white-trout-lily/)** (*Erythronium albidum*) — mottled, trout-patterned leaves and nodding white flowers. Colonies spread slowly and can be centuries old, with only a few plants blooming each year.
+- **[Large-Flowered Bellwort](../../plants/large-flowered-bellwort/)** (*Uvularia grandiflora*) — drooping, pale yellow bell-shaped flowers with twisted petals on a stem that seems to pierce its leaves.
+- **[Wood Anemone](../../plants/wood-anemone/)** (*Anemone quinquefolia*) — delicate white "windflowers" held above whorls of divided leaves; the blooms open in sun and close on cloudy days.
+
+!!! mascot-thinking "Why the Rush to Bloom?"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
+    Ever wonder why so many woodland flowers bloom all at once in early spring,
+    garden friends? Before the trees leaf out, sunlight pours all the way down to
+    the forest floor. Spring ephemerals seize that brief, bright window to flower,
+    feed the first bees, and store energy — then they fade away for the year by
+    early summer. Let's explore the prairie... and the woods!
+
 ## Solomon's Seal
 
 [Solomon's Seal](../../plants/solomons-seal/) (*Polygonatum biflorum*) is an elegant woodland perennial with long, arching stems and pairs of small, bell-shaped flowers dangling beneath the leaves. It is one of the most graceful native plants for shade gardens.

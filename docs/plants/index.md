@@ -2,7 +2,7 @@
 
 Click any plant to see photos, growing conditions, and the chapters that mention it.
 
-_202 species in this gallery._
+_212 species in this gallery._
 
 ## All Species
 
@@ -42,6 +42,7 @@ _202 species in this gallery._
 | [Bur Oak](bur-oak.md) | *Quercus macrocarpa* | 02, 04, 06, 07 |
 | [Butterfly Milkweed](butterfly-milkweed.md) | *Asclepias tuberosa* | 02, 03, 06, 11, 12 |
 | [Canada Goldenrod](canada-goldenrod.md) | *Solidago canadensis* | 03 |
+| [Canada Milk-Vetch](canada-milk-vetch.md) | *Astragalus canadensis* | 03, 14 |
 | [Canada Wild Rye](canada-wild-rye.md) | *Elymus canadensis* | 03 |
 | [Cardinal Flower](cardinal-flower.md) | *Lobelia cardinalis* | 05, 06, 12 |
 | [Chokecherry](chokecherry.md) | *Prunus virginiana* | 13 |
@@ -75,6 +76,7 @@ _202 species in this gallery._
 | [Gray Goldenrod](gray-goldenrod.md) | *Solidago nemoralis* | 03 |
 | [Great Blue Lobelia](great-blue-lobelia.md) | *Lobelia siphilitica* | 05, 06, 10 |
 | [Green Ash](green-ash.md) | *Fraxinus pennsylvanica* | 08 |
+| [Ground Plum](ground-plum.md) | *Astragalus crassicarpus* | 03, 14 |
 | [Harebell](harebell.md) | *Campanula rotundifolia* | 12 |
 | [Heavy Sedge](heavy-sedge.md) | *Carex gravida* | 03 |
 | [Hepatica](hepatica.md) | *Hepatica nobilis* | 12 |
@@ -91,6 +93,7 @@ _202 species in this gallery._
 | [Labrador Tea](labrador-tea.md) | *Rhododendron groenlandicum* | 05 |
 | [Lady Fern](lady-fern.md) | *Athyrium filix-femina* | 04 |
 | [Lake Sedge](lake-sedge.md) | *Carex lacustris* | 12 |
+| [Large-Flowered Bellwort](large-flowered-bellwort.md) | *Uvularia grandiflora* | 04, 14 |
 | [Large-flowered Trillium](large-flowered-trillium.md) | *Trillium grandiflorum* | 04 |
 | [Large-leaved Aster](large-leaved-aster.md) | *Eurybia macrophylla* | 02, 04 |
 | [Lead Plant](lead-plant.md) | *Amorpha canescens* | 03, 06 |
@@ -108,12 +111,14 @@ _202 species in this gallery._
 | [Nettle](nettle.md) | *Urtica dioica* | 13 |
 | [New England Aster](new-england-aster.md) | *Symphyotrichum novae-angliae* | 03, 06, 12 |
 | [Ninebark](ninebark.md) | *Physocarpus opulifolius* | 10 |
+| [Nodding Fescue](nodding-fescue.md) | *Festuca subverticillata* | 03, 14 |
 | [Nodding Trillium](nodding-trillium.md) | *Trillium cernuum* | 04 |
 | [Northern White Cedar](northern-white-cedar.md) | *Thuja occidentalis* | 02, 12, 13 |
 | [Oriental Bittersweet](oriental-bittersweet.md) | *Celastrus orbiculatus* | 04 |
 | [Ostrich Fern](ostrich-fern.md) | *Matteuccia struthiopteris* | 04 |
 | [Pagoda Dogwood](pagoda-dogwood.md) | *Cornus alternifolia* | 04, 06 |
 | [Pale Purple Coneflower](pale-purple-coneflower.md) | *Echinacea pallida* | 03 |
+| [Partridge Pea](partridge-pea.md) | *Chamaecrista fasciculata* | 03, 14 |
 | [Pasque Flower](pasque-flower.md) | *Anemone patens* | 02, 06, 12 |
 | [Pennsylvania Sedge](pennsylvania-sedge.md) | *Carex pensylvanica* | 07, 10 |
 | [Pickerelweed](pickerelweed.md) | *Pontederia cordata* | 05 |
@@ -121,6 +126,7 @@ _202 species in this gallery._
 | [Poison Ivy](poison-ivy.md) | *Toxicodendron radicans* | 04 |
 | [Porcelain Berry](porcelain-berry.md) | *Ampelopsis brevipedunculata* | 07 |
 | [Porcupine Grass](porcupine-grass.md) | *Hesperostipa spartea* | 03 |
+| [Poverty Oat Grass](poverty-oat-grass.md) | *Danthonia spicata* | 03, 14 |
 | [Prairie Blazing Star](prairie-blazing-star.md) | *Liatris pycnostachya* | 03, 05, 12 |
 | [Prairie Dropseed](prairie-dropseed.md) | *Sporobolus heterolepis* | 02, 03, 07, 10, 12 |
 | [Prairie Phlox](prairie-phlox.md) | *Phlox pilosa* | 12 |
@@ -146,6 +152,7 @@ _202 species in this gallery._
 | [Serviceberry](serviceberry.md) | *Amelanchier laevis* | 10 |
 | [Shooting Star](shooting-star.md) | *Dodecatheon meadia* | 12 |
 | [Showy Goldenrod](showy-goldenrod.md) | *Solidago speciosa* | 03, 06, 12 |
+| [Showy Lady's Slipper](showy-lady-slipper.md) | *Cypripedium reginae* | 05, 14 |
 | [Side-Oats Grama](side-oats-grama.md) | *Bouteloua curtipendula* | 10 |
 | [Silver Maple](silver-maple.md) | *Acer saccharinum* | 02, 04, 05 |
 | [Skunk Cabbage](skunk-cabbage.md) | *Symplocarpus foetidus* | 12 |
@@ -161,6 +168,7 @@ _202 species in this gallery._
 | [Southern Maidenhair](southern-maidenhair.md) | *Adiantum capillus-veneris* | 04 |
 | [Spiderwort](spiderwort.md) | *Tradescantia ohiensis* | 06, 10 |
 | [Spotted Knapweed](spotted-knapweed.md) | *Centaurea stoebe* | 01, 08 |
+| [Spring Beauty](spring-beauty.md) | *Claytonia virginica* | 04, 14 |
 | [Squirrel Corn](squirrel-corn.md) | *Dicentra canadensis* | 04 |
 | [Staghorn Sumac](staghorn-sumac.md) | *Rhus typhina* | 12 |
 | [Stiff Goldenrod](stiff-goldenrod.md) | *Solidago rigida* | 03, 06, 12 |
@@ -189,6 +197,7 @@ _202 species in this gallery._
 | [White Sage](white-sage.md) | *Artemisia ludoviciana* | 13 |
 | [White Snakeroot](white-snakeroot.md) | *Ageratina altissima* | 04, 12 |
 | [White Spruce](white-spruce.md) | *Picea glauca* | 02, 12 |
+| [White Trout Lily](white-trout-lily.md) | *Erythronium albidum* | 04, 14 |
 | [White Turtlehead](white-turtlehead.md) | *Chelone glabra* | 06 |
 | [White Water Lily](white-water-lily.md) | *Nymphaea odorata* | 05 |
 | [Whorled Milkweed](whorled-milkweed.md) | *Asclepias verticillata* | 03, 06 |
@@ -206,6 +215,7 @@ _202 species in this gallery._
 | [Wild Rice](wild-rice.md) | *Zizania palustris* | 05, 13 |
 | [Wild Rose](wild-rose.md) | *Rosa blanda* | 06 |
 | [Wild Strawberry](wild-strawberry.md) | *Fragaria virginiana* | 06, 10 |
+| [Wood Anemone](wood-anemone.md) | *Anemone quinquefolia* | 04, 14 |
 | [Yarrow](yarrow.md) | *Achillea millefolium* | 13 |
 | [Yellow Birch](yellow-birch.md) | *Betula alleghaniensis* | 04 |
 | [Yellow Pond Lily](yellow-pond-lily.md) | *Nuphar variegata* | 05 |
