@@ -90,6 +90,8 @@ Native cool-season grasses found in Minnesota prairies include:
 - **Canada Wild Rye** (*Elymus canadensis*) — a tall, arching grass with distinctive drooping seed heads
 - **June Grass** (*Koeleria macrantha*) — a compact bunchgrass common on dry prairies
 - **Porcupine Grass** (*Hesperostipa spartea*) — named for its long, twisted awns that resemble porcupine quills
+- **[Poverty Oat Grass](../../plants/poverty-oat-grass/)** (*Danthonia spicata*) — a short, tufted grass that thrives on dry, poor soils where other plants struggle
+- **[Nodding Fescue](../../plants/nodding-fescue/)** (*Festuca subverticillata*) — a graceful, shade-tolerant grass of woodland edges and partly shaded meadows
 
 Cool-season grasses are valuable in prairie restorations because they establish quickly and provide ground cover while slower-growing warm-season grasses take hold. However, non-native cool-season grasses such as [Smooth Brome](../../plants/smooth-brome/) (*Bromus inermis*) and [Kentucky Bluegrass](../../plants/kentucky-bluegrass/) (*Poa pratensis*) are aggressive invaders of prairie remnants and restoration sites.
 
@@ -324,6 +326,24 @@ All milkweeds produce their characteristic milky white sap (latex) when stems or
     milkweed with different bloom times and moisture preferences. Common Milkweed
     for general areas, Butterfly Milkweed for dry sunny spots, and Swamp Milkweed
     for rain gardens or low areas. More milkweed variety means more monarchs!
+
+### Prairie Legumes and Nitrogen Fixers
+
+Members of the pea family (Fabaceae) are some of the most valuable plants in a prairie. Their roots partner with soil bacteria that pull nitrogen out of the air and convert it into a form plants can use — a natural fertilizer that enriches the soil for the whole community. Many prairie legumes are also important food plants for bees, butterflies, and birds.
+
+Besides [Lead Plant](../../plants/lead-plant/) and the prairie clovers covered above, look for these native legumes:
+
+- **[Partridge Pea](../../plants/partridge-pea/)** (*Chamaecrista fasciculata*) — a sunny-yellow annual with sensitive, fern-like leaves that fold when touched. It's a larval host for sulphur butterflies, and its seeds feed game birds.
+- **[Canada Milk-Vetch](../../plants/canada-milk-vetch/)** (*Astragalus canadensis*) — a tall, upright plant with dense spikes of creamy greenish-white flowers in mid- to late summer.
+- **[Ground Plum](../../plants/ground-plum/)** (*Astragalus crassicarpus*) — a low, early-blooming plant of dry prairies, named for its round, plum-like pods that ripen at ground level.
+
+!!! mascot-thinking "Why Legumes Matter"
+    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
+    Here's a neat bit of teamwork, fellow nature lovers. Prairie legumes don't
+    fertilize the soil by themselves — they host tiny bacteria in nodules on
+    their roots that do the work, trading sugar for usable nitrogen. That's why a
+    healthy prairie keeps growing lush year after year without anyone adding
+    fertilizer. Every plant has a story!
 
 ### Prairie Sedges
 
@@ -607,7 +627,7 @@ This chapter covers the following 25 concepts from the learning graph:
 This chapter builds on concepts from:
 
 - [Chapter 1: Introduction to Native Plants and Ecology](../01-intro-native-plants-ecology/index.md) — native plant definitions, botany fundamentals, ecosystem concepts, and plant identification basics
-- [Chapter 2: Minnesota Geography and Ecoregions](../02-minnesota-geography-ecoregions/index.md) — ecoregions, climate zones, and soil types that determine where prairies occur
+- [Chapter 2: Minnesota's Ecoregions and Growing Conditions](../02-ecoregions-growing-conditions/index.md) — ecoregions, climate zones, and soil types that determine where prairies occur
 
 ## What's Next
 

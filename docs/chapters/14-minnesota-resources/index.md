@@ -322,6 +322,23 @@ The Eloise Butler Wildflower Garden and Bird Sanctuary in Minneapolis is the old
 
 - **Historical significance** -- The garden's century-plus history makes it a living record of changes in Minnesota's native plant communities and a model for public native plant education.
 
+The garden is organized into three habitats — **woodland**, **wetland**, and **meadow** — that together showcase the plant communities you've met throughout this book. As you walk the trails, see how many you can recognize:
+
+- **Woodland** -- Spring ephemerals carpet the forest floor in April and May, including [Bloodroot](../../plants/bloodroot/), [Wild Ginger](../../plants/wild-ginger/), [Large-Flowered Trillium](../../plants/large-flowered-trillium/), [Virginia Bluebells](../../plants/virginia-bluebells/), [Spring Beauty](../../plants/spring-beauty/), [White Trout Lily](../../plants/white-trout-lily/), [Large-Flowered Bellwort](../../plants/large-flowered-bellwort/), and [Wood Anemone](../../plants/wood-anemone/).
+
+- **Wetland** -- The garden grew up around a tamarack bog. Look for [Marsh Marigold](../../plants/marsh-marigold/) and [Skunk Cabbage](../../plants/skunk-cabbage/) in early spring, [White Turtlehead](../../plants/white-turtlehead/) in late summer, and — the crown jewel — the [Showy Lady's Slipper](../../plants/showy-lady-slipper/), Minnesota's state flower, blooming in June.
+
+- **Meadow** -- The restored meadow is seeded with prairie grasses and wildflowers such as [Little Bluestem](../../plants/little-bluestem/), [Side-Oats Grama](../../plants/side-oats-grama/), [Prairie Dropseed](../../plants/prairie-dropseed/), [Poverty Oat Grass](../../plants/poverty-oat-grass/), [Nodding Fescue](../../plants/nodding-fescue/), [Black-Eyed Susan](../../plants/black-eyed-susan/), [Shooting Star](../../plants/shooting-star/), [Lead Plant](../../plants/lead-plant/), the prairie clovers, [Canada Milk-Vetch](../../plants/canada-milk-vetch/), [Partridge Pea](../../plants/partridge-pea/), and [Ground Plum](../../plants/ground-plum/).
+
+!!! mascot-welcome "Plan a Visit"
+    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Bree waving welcome">
+    The garden is a wonderful place to see this book come alive, fellow nature
+    lovers! Visit in May for woodland wildflowers and spring ephemerals, early
+    June for the Showy Lady's Slippers in the wetland, and July through September
+    for the meadow in full prairie bloom. Bring this textbook's plant gallery on
+    your phone and play a little game of "name that native." Let's explore the
+    prairie!
+
 ### Como Park Conservatory
 
 The Marjorie McNeely Conservatory at Como Park in Saint Paul, while best known for its tropical collections, also supports native plant education:

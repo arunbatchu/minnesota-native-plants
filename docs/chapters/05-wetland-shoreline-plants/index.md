@@ -246,6 +246,32 @@ Joe-Pye Weed is one of the premier butterfly plants in Minnesota. Its late-summe
 
 The name "Joe-Pye" is often attributed to a Native American healer, though the exact origin is debated. Various Indigenous peoples used the plant medicinally.
 
+## Showy Lady's Slipper
+
+The [Showy Lady's Slipper](../../plants/showy-lady-slipper/) (*Cypripedium reginae*) is Minnesota's state flower and one of the most spectacular wild orchids in North America. It is a true wetland specialist, growing in sunny fens, bogs, wet meadows, and tamarack swamps — including the wetland at the [Eloise Butler Wildflower Garden](../../chapters/14-minnesota-resources/index.md), where it is a signature June bloom.
+
+### Identification and Habitat
+
+- **Flowers** — Large white petals surrounding a rounded, pouch-shaped lip ("slipper") flushed with rose-pink; one to two per stem
+- **Leaves** — Broad, strongly ribbed, and hairy, clasping the stem
+- **Height** — 1 to 3 feet
+- **Bloom time** — Late June to July
+- **Habitat** — Calcium-rich (calcareous) wetlands: fens, bogs, wet meadows, and conifer swamps in full sun to part shade
+
+### Ecological Value and Protection
+
+Showy Lady's Slipper is pollinated by small bees, which it lures into its pouch with the promise of nectar it does not actually provide — the bee must squeeze past the flower's reproductive parts to escape, pollinating it in the process. The plant grows astonishingly slowly: it can take well over a decade to bloom for the first time, and individual plants may live for many decades.
+
+Because of this slow growth, the species is sensitive to disturbance and wetland loss. In Minnesota it is illegal to pick, uproot, or destroy native lady's slippers. Enjoy them where they grow, and never dig them from the wild — transplanted plants almost always die.
+
+!!! mascot-warning "Look, Don't Pick"
+    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Bree holding a warning sign">
+    Our state flower is protected for good reason, garden friends. A Showy Lady's
+    Slipper you admire today may be older than you are, and it took more than ten
+    years just to produce its first bloom. Picking the flower or digging the plant
+    almost always kills it. Bring a camera, not a trowel — and leave these
+    beauties for the next visitor to enjoy.
+
 ## Native Cattail
 
 Cattails are the most recognizable wetland plants in North America. Their brown, sausage-shaped seed heads and tall, flat leaves are synonymous with marshes and pond edges. However, not all cattails in Minnesota are the same — and the distinction matters.
