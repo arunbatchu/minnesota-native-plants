@@ -627,7 +627,7 @@ This chapter covers the following 25 concepts from the learning graph:
 This chapter builds on concepts from:
 
 - [Chapter 1: Introduction to Native Plants and Ecology](../01-intro-native-plants-ecology/index.md) — native plant definitions, botany fundamentals, ecosystem concepts, and plant identification basics
-- [Chapter 2: Minnesota Geography and Ecoregions](../02-minnesota-geography-ecoregions/index.md) — ecoregions, climate zones, and soil types that determine where prairies occur
+- [Chapter 2: Minnesota's Ecoregions and Growing Conditions](../02-ecoregions-growing-conditions/index.md) — ecoregions, climate zones, and soil types that determine where prairies occur
 
 ## What's Next
 
