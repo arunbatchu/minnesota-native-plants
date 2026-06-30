@@ -28,6 +28,12 @@ The use of bark characteristics — including color, texture, pattern, and marki
 
 **Example:** Paper Birch has white, peeling bark; Bur Oak has deeply furrowed gray bark; and Wild Cherry has reddish bark with horizontal lenticels.
 
+#### Bee Lawn
+
+A low-growing, mowable lawn that mixes turf grasses (usually low-input fine fescues) with short flowering plants so it can feed bees while still serving as a walkable lawn. Developed through University of Minnesota research, a typical bee lawn mix adds Dutch White Clover, Self-Heal, and (historically) Creeping Thyme. These flowers are mostly non-native but bee-beneficial, so a bee lawn is a pollinator-friendly lawn alternative rather than a true native plant community.
+
+**Example:** A homeowner overseeds Dutch white clover and self-heal into a thin fine-fescue lawn, mows it high and infrequently, and by midsummer it hums with bees — and the project may qualify for a Lawns to Legumes rebate.
+
 #### Beneficial Insects
 
 Insects that provide valuable ecological services such as pollination, pest control, and decomposition. Not all insects are pests — many are essential allies in the garden. Native plants support far more beneficial insect species than non-native plantings.

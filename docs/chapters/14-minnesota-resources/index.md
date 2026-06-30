@@ -294,6 +294,18 @@ The Minnesota Landscape Arboretum, operated by the University of Minnesota, is a
 
 - **Trails and self-guided tours** -- Miles of trails wind through native plant communities, offering opportunities for informal plant identification practice.
 
+### University of Minnesota Turfgrass Science (TROE Center)
+
+The University of Minnesota's Turfgrass Science program studies lawns and other turf with an eye toward lower inputs and greater ecological value -- research that is directly useful to anyone rethinking a conventional lawn:
+
+- **TROE Center** -- The Turfgrass Research, Outreach and Education Center is a research facility on the University's St. Paul campus, where scientists test grasses and management practices suited to Minnesota's climate.
+
+- **Low-input turfgrasses** -- A major focus is fine fescues and other grasses that need little water, fertilizer, or mowing -- the foundation of no-mow lawns and bee lawns.
+
+- **Bee lawn research** -- In collaboration with the U of M Bee Lab, turfgrass scientists developed and tested the **bee lawn** (see Chapter 10), showing that a flowering lawn can feed dozens of bee species while remaining walkable.
+
+- **Public resources** -- Through U of M Extension, the program shares science-based guidance on choosing grasses, reducing inputs, and establishing pollinator-friendly lawns.
+
 ### MN State College Programs
 
 Several Minnesota colleges and universities offer programs related to native plants and ecological restoration:
@@ -418,7 +430,7 @@ Several organizations focus specifically on pollinator conservation in Minnesota
 
 - **Monarch Joint Venture** -- Headquartered at the University of Minnesota, this partnership coordinates monarch butterfly conservation across the monarch's migratory range, with particular emphasis on milkweed and nectar plant habitat in Minnesota.
 
-- **Bee Lab at the University of Minnesota** -- While a research lab rather than a nonprofit, the Bee Lab engages the public through outreach events, publications, and citizen science projects.
+- **Bee Lab at the University of Minnesota** -- While a research lab rather than a nonprofit, the Bee Lab engages the public through outreach events, publications, and citizen science projects. Working with the University's turfgrass scientists, the Bee Lab helped develop Minnesota's **bee lawn** -- a flowering, pollinator-friendly lawn (see Chapter 10) -- and its research helped shape the Lawns to Legumes program.
 
 - **Local pollinator groups** -- Many communities have local pollinator advocacy groups that organize plantings, education events, and neighborhood habitat corridors.
 
