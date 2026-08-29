@@ -18,6 +18,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
 
     **Concept Tested:** Restoration Ecology Basics
 
+    **See:** [Chapter 12](index.md)
+
 ---
 
 #### 2. What is a "reference ecosystem" in the context of ecological restoration?
@@ -33,6 +35,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
     The correct answer is **B**. A reference ecosystem is a nearby healthy, intact example of the type of plant community you are trying to restore. It serves as a model for species composition, structure, and ecological function. For example, if you are restoring a mesic prairie, you would study a high-quality remnant prairie in your region to understand which species should be present, their relative abundance, and how the community functions. Reference ecosystems guide realistic goal-setting.
 
     **Concept Tested:** Reference Ecosystems
+
+    **See:** [Chapter 12](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
 
     **Concept Tested:** Prairie Restoration
 
+    **See:** [Chapter 12](index.md)
+
 ---
 
 #### 4. What is successional planting in the context of restoration?
@@ -65,6 +71,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
     The correct answer is **B**. Successional planting mimics the natural process of ecosystem development by installing species in phases. Fast-establishing species like cool-season grasses and quick-germinating wildflowers stabilize the site first. Slower-establishing species like Prairie Dropseed and Compass Plant are introduced in later phases. This approach mirrors how natural plant communities develop over time and gives each species the conditions it needs to succeed.
 
     **Concept Tested:** Successional Planting
+
+    **See:** [Chapter 12](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
 
     **Concept Tested:** Restoration Site Assessment
 
+    **See:** [Chapter 12](index.md)
+
 ---
 
 #### 6. What is adaptive management, and why is it important in restoration projects?
@@ -97,6 +107,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
     The correct answer is **C**. Adaptive management is the systematic process of monitoring restoration outcomes and adjusting techniques based on results. Because ecosystems are complex and unpredictable, even well-planned restorations encounter unexpected challenges — weed species that were not anticipated, native species that fail to establish, or changes in hydrology. Adaptive management treats each management action as an experiment, learns from the results, and adjusts the approach accordingly.
 
     **Concept Tested:** Adaptive Management
+
+    **See:** [Chapter 12](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
 
     **Concept Tested:** Year-Round Landscape Plan
 
+    **See:** [Chapter 12](index.md)
+
 ---
 
 #### 8. You are restoring a wetland site that was previously drained for agriculture. What should you address first before planting native wetland species?
@@ -129,6 +143,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
     The correct answer is **B**. For wetland restoration, restoring hydrology is the critical first step. Most agricultural wetland conversions involved installing drain tiles or ditches to remove water. Removing, plugging, or modifying these drainage systems allows natural water levels to return, which is essential for wetland plant establishment. Native wetland plants require specific water depths and seasonal fluctuations. Without proper hydrology, even the best planting plan will fail because the species are adapted to wet conditions that no longer exist.
 
     **Concept Tested:** Wetland Restoration
+
+    **See:** [Chapter 12](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
 
     **Concept Tested:** Restoration Timelines
 
+    **See:** [Chapter 12](index.md)
+
 ---
 
 #### 10. What is phenology, and how does understanding it help restoration practitioners?
@@ -162,4 +180,8 @@ Test your understanding of restoration ecology principles, techniques, and long-
 
     **Concept Tested:** Phenology Basics
 
+    **See:** [Chapter 12](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

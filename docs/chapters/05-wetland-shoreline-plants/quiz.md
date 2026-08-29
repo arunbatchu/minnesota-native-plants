@@ -18,6 +18,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
 
     **Concept Tested:** Marsh Plants
 
+    **See:** [Chapter 5](index.md)
+
 ---
 
 #### 2. How do carnivorous bog plants like pitcher plants and sundews supplement their nutrition?
@@ -33,6 +35,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
     The correct answer is **C**. In the nutrient-poor, acidic conditions of bogs, carnivorous plants supplement their nutrition by trapping and digesting insects. Pitcher plants use fluid-filled, tube-shaped leaves with downward-pointing hairs that prevent insects from climbing out. Sundews use sticky droplets on their leaves to trap prey. This strategy provides the nitrogen and phosphorus these plants cannot obtain from the bog's impoverished soil.
 
     **Concept Tested:** Bog Plants
+
+    **See:** [Chapter 5](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
 
     **Concept Tested:** Wild Rice
 
+    **See:** [Chapter 5](index.md)
+
 ---
 
 #### 4. Which native wetland wildflower is primarily pollinated by hummingbirds due to its long, tubular, brilliant red flowers?
@@ -65,6 +71,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
     The correct answer is **C**. Cardinal Flower produces spikes of brilliant scarlet-red, tubular flowers that are perfectly adapted for hummingbird pollination. The long tube shape matches the Ruby-throated Hummingbird's long bill and hovering flight, while most insects cannot reach the nectar. Cardinal Flower blooms in late summer along streams, wet meadows, and floodplains.
 
     **Concept Tested:** Cardinal Flower
+
+    **See:** [Chapter 5](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
 
     **Concept Tested:** Shoreline Stabilization
 
+    **See:** [Chapter 5](index.md)
+
 ---
 
 #### 6. Why is hybrid cattail considered a problem in Minnesota wetlands, unlike native Broad-leaved Cattail?
@@ -97,6 +107,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
     The correct answer is **C**. Hybrid cattail combines the toughness of both parent species and is highly aggressive, forming dense monocultures that crowd out native marsh plants, reduce wildlife diversity, and alter wetland hydrology. Many "cattail-choked" wetlands in Minnesota are dominated by this hybrid rather than the native Broad-leaved Cattail. In balanced numbers, native cattail provides valuable wildlife habitat, water filtration, and shoreline erosion control.
 
     **Concept Tested:** Native Cattail
+
+    **See:** [Chapter 5](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
 
     **Concept Tested:** Rain Garden Plants
 
+    **See:** [Chapter 5](index.md)
+
 ---
 
 #### 8. You are designing a rain garden and need to place plants in the correct moisture zones. Where should Blue Flag Iris be planted?
@@ -129,6 +143,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
     The correct answer is **B**. Blue Flag Iris naturally grows in marshes, wet meadows, and along lake margins, making it an excellent choice for the deepest, wettest zone of a rain garden where temporary standing water collects. Plants like Prairie Blazing Star belong on the drier upper edges, while Joe-Pye Weed fits the middle slopes. Matching plants to moisture zones is a key principle of rain garden design.
 
     **Concept Tested:** Rain Garden Plants
+
+    **See:** [Chapter 5](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
 
     **Concept Tested:** Flood Mitigation
 
+    **See:** [Chapter 5](index.md)
+
 ---
 
 #### 10. Why do native prairie plantings infiltrate stormwater 4 to 10 times faster than conventional turf grass lawns?
@@ -162,4 +180,8 @@ Test your understanding of wetland ecosystems, shoreline plants, rain gardens, a
 
     **Concept Tested:** Stormwater Management
 
+    **See:** [Chapter 5](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

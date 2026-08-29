@@ -18,6 +18,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
 
     **Concept Tested:** Native Bee Species
 
+    **See:** [Chapter 6](index.md)
+
 ---
 
 #### 2. What is the difference between a host plant and a nectar plant for butterflies?
@@ -33,6 +35,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
     The correct answer is **B**. A host plant is where a butterfly lays eggs and where caterpillars feed. Caterpillars are often specialists restricted to one plant or a small group of related plants. Nectar plants provide the sugary liquid that fuels adult butterflies. A garden with only nectar flowers supports adults but cannot sustain the next generation. Both host plants and nectar plants are needed for healthy butterfly populations.
 
     **Concept Tested:** Host Plants
+
+    **See:** [Chapter 6](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
 
     **Concept Tested:** Monarch Migration
 
+    **See:** [Chapter 6](index.md)
+
 ---
 
 #### 4. What are the four stages of complete metamorphosis in butterflies?
@@ -65,6 +71,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
     The correct answer is **B**. All butterflies and moths undergo complete metamorphosis with four distinct stages: egg (laid on host plants), larva or caterpillar (the feeding and growth stage), pupa or chrysalis (the transformation stage), and adult butterfly (which feeds on nectar and reproduces). Understanding this life cycle is essential for gardeners because caterpillars and adults often need completely different plants.
 
     **Concept Tested:** Butterfly Life Cycle
+
+    **See:** [Chapter 6](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
 
     **Concept Tested:** Pollinator Habitat Needs
 
+    **See:** [Chapter 6](index.md)
+
 ---
 
 #### 6. Which of the following is NOT a major cause of pollinator decline?
@@ -97,6 +107,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
     The correct answer is **B**. Planting native wildflowers actually helps pollinators rather than harming them. The real threats include habitat loss (Minnesota has lost over 99% of its original tallgrass prairie), pesticide exposure (neonicotinoids can kill pollinators or impair their navigation at sub-lethal doses), climate change (disrupting bloom-pollinator timing), disease and parasites, invasive species displacing native food plants, and light pollution affecting nocturnal moths.
 
     **Concept Tested:** Pollinator Decline Causes
+
+    **See:** [Chapter 6](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
 
     **Concept Tested:** Bird Habitat Plants
 
+    **See:** [Chapter 6](index.md)
+
 ---
 
 #### 8. A gardener plants a butterfly garden full of nectar flowers but notices no caterpillars or chrysalises. What is the most likely problem?
@@ -129,6 +143,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
     The correct answer is **B**. A butterfly garden with only nectar flowers supports adult butterflies but cannot sustain the next generation. Caterpillars are typically specialists that can only eat specific host plants. Without milkweed for monarchs, violets for fritillaries, or parsley-family plants for swallowtails, butterflies have no place to lay eggs and caterpillars have nothing to eat. An effective butterfly garden needs both nectar plants and host plants.
 
     **Concept Tested:** Host Plants
+
+    **See:** [Chapter 6](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
 
     **Concept Tested:** Milkweed and Monarchs
 
+    **See:** [Chapter 6](index.md)
+
 ---
 
 #### 10. What is an "oligolectic" bee, and why does this specialization make certain bee species vulnerable?
@@ -162,4 +180,8 @@ Test your understanding of pollinators, plant-animal relationships, and wildlife
 
     **Concept Tested:** Pollen Sources
 
+    **See:** [Chapter 6](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

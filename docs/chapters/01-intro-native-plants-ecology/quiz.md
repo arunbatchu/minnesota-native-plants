@@ -18,6 +18,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
 
     **Concept Tested:** Native Plant Definition
 
+    **See:** [Chapter 1](index.md)
+
 ---
 
 #### 2. Which of the following is an example of a non-native plant that is NOT considered invasive?
@@ -33,6 +35,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
     The correct answer is **C**. Tomatoes are non-native plants that were brought to Minnesota by humans but do not spread aggressively into natural areas. The other three options — Common Buckthorn, Garlic Mustard, and Purple Loosestrife — are all non-native plants that have become invasive because they spread aggressively and cause ecological harm to Minnesota ecosystems.
 
     **Concept Tested:** Non-Native Plant Definition
+
+    **See:** [Chapter 1](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
 
     **Concept Tested:** Invasive Species Definition
 
+    **See:** [Chapter 1](index.md)
+
 ---
 
 #### 4. What is the primary function of leaves in a plant?
@@ -65,6 +71,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
     The correct answer is **D**. Leaves are the primary site of photosynthesis, the process by which plants convert sunlight, water, and carbon dioxide into sugars and oxygen. Anchoring is the function of roots, transport is the function of stems, and seed production is the function of flowers and fruits. Leaf shape is also one of the most useful features for plant identification.
 
     **Concept Tested:** Botany Fundamentals
+
+    **See:** [Chapter 1](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
 
     **Concept Tested:** Ecosystem Definition
 
+    **See:** [Chapter 1](index.md)
+
 ---
 
 #### 6. A homeowner wants to plant a sun-loving prairie wildflower in a shaded area under mature oak trees. Based on what you know about habitat, what is the most likely outcome?
@@ -97,6 +107,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
     The correct answer is **C**. Habitat describes the specific conditions a species needs to thrive, including light, moisture, soil type, and pH. A sun-loving prairie plant requires full sun and will not perform well in deep woodland shade, regardless of whether the surrounding trees are native. Matching plants to their required habitat conditions is a fundamental principle of successful native plant gardening and restoration.
 
     **Concept Tested:** Habitat
+
+    **See:** [Chapter 1](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
 
     **Concept Tested:** Biodiversity
 
+    **See:** [Chapter 1](index.md)
+
 ---
 
 #### 8. Why do scientists use binomial nomenclature (scientific names) instead of relying on common names alone?
@@ -129,6 +143,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
     The correct answer is **C**. Scientific names provide three key advantages: precision (common names like "bluebell" refer to different plants in different regions), universality (the same scientific name is used worldwide regardless of language), and clarity about relationships (species sharing a genus name are closely related). Scientific names are not necessarily easier to pronounce, and common names remain widely used and valued.
 
     **Concept Tested:** Scientific Nomenclature
+
+    **See:** [Chapter 1](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
 
     **Concept Tested:** Ecosystem Definition
 
+    **See:** [Chapter 1](index.md)
+
 ---
 
 #### 10. When observing an unfamiliar plant for identification, which combination of features would be most useful to note?
@@ -162,4 +180,8 @@ Test your understanding of native plants, ecosystems, and basic botany with thes
 
     **Concept Tested:** Plant Identification Basics
 
+    **See:** [Chapter 1](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

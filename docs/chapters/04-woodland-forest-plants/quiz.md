@@ -18,6 +18,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
 
     **Concept Tested:** Forest Layers
 
+    **See:** [Chapter 4](index.md)
+
 ---
 
 #### 2. What is the ecological strategy that spring ephemeral wildflowers use to survive in the forest?
@@ -33,6 +35,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
     The correct answer is **B**. Spring ephemerals exploit the brief window between snowmelt and canopy leaf-out, when warm sunlight floods the forest floor. During this four-to-six-week period, they emerge, grow leaves, flower, set seed, and store enough energy in underground roots or bulbs to survive the rest of the year in dormancy. By late May or June, they have disappeared entirely above ground.
 
     **Concept Tested:** Spring Ephemerals
+
+    **See:** [Chapter 4](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
 
     **Concept Tested:** White Pine
 
+    **See:** [Chapter 4](index.md)
+
 ---
 
 #### 4. Why are large Trillium colonies considered indicators of old, undisturbed forest?
@@ -65,6 +71,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
     The correct answer is **C**. Trilliums are extremely slow-growing plants. A seed may take five to seven years to produce its first flower, and colonies build up gradually over decades. Because Trilliums do not colonize disturbed sites quickly, finding a large, diverse colony tells you the forest has been relatively stable for a long time. This is also why picking Trillium flowers is harmful — removing the flower removes the leaves the plant needs to store energy for next year.
 
     **Concept Tested:** Trillium
+
+    **See:** [Chapter 4](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
 
     **Concept Tested:** Canopy Layer
 
+    **See:** [Chapter 4](index.md)
+
 ---
 
 #### 6. Which group of oaks produces acorns that mature in one season and are preferred by wildlife for their sweeter taste?
@@ -97,6 +107,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
     The correct answer is **B**. The white oak group, which includes Bur Oak, White Oak, and Swamp White Oak, produces acorns that mature in a single season and have a sweeter taste preferred by wildlife. These oaks have rounded leaf lobes. The red oak group (Red Oak, Pin Oak) has pointed, bristle-tipped leaf lobes, and their acorns take two years to mature and are more bitter. The other two groups listed do not occur naturally in Minnesota.
 
     **Concept Tested:** Oak Species
+
+    **See:** [Chapter 4](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
 
     **Concept Tested:** Native Ferns
 
+    **See:** [Chapter 4](index.md)
+
 ---
 
 #### 8. You are planning a shade garden under mature maple trees where only about 3% of sunlight reaches the ground. Which plant would be the best choice?
@@ -129,6 +143,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
     The correct answer is **C**. Wild Ginger is well adapted to deep woodland shade, forming dense mats of large, heart-shaped, velvety leaves. It thrives in the mesic to moist conditions under mature deciduous canopies. Big Bluestem, Little Bluestem, and Purple Coneflower are all prairie plants that require full sun and would fail in the deep shade (3% sunlight) of a mature maple forest. Matching plants to available light is fundamental to successful gardening.
 
     **Concept Tested:** Shade Tolerant Plants
+
+    **See:** [Chapter 4](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
 
     **Concept Tested:** Native Vines
 
+    **See:** [Chapter 4](index.md)
+
 ---
 
 #### 10. In Minnesota forests where fire has been suppressed, what long-term change is occurring in tree species composition, and why?
@@ -162,4 +180,8 @@ Test your understanding of forest layers, spring ephemerals, native trees, shrub
 
     **Concept Tested:** Shade Tolerant Plants
 
+    **See:** [Chapter 4](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

@@ -18,6 +18,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
 
     **Concept Tested:** MN DNR Programs
 
+    **See:** [Chapter 14](index.md)
+
 ---
 
 #### 2. What is your county Soil and Water Conservation District (SWCD), and why is it often the best first stop for a native planting project?
@@ -33,6 +35,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
     The correct answer is **B**. County SWCDs are local conservation offices that serve as the delivery point for most state and federal conservation programs. They provide free technical advice on native planting projects, help landowners apply for cost-share funding, connect you to programs like RIM Reserve and Lawns to Legumes, and offer expertise in seed mixes, planting techniques, and restoration monitoring. Most BWSR programs are delivered through your local SWCD, making it the best first stop for practical assistance.
 
     **Concept Tested:** BWSR Programs
+
+    **See:** [Chapter 14](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
 
     **Concept Tested:** MN Noxious Weed Law
 
+    **See:** [Chapter 14](index.md)
+
 ---
 
 #### 4. Which Minnesota grant program, funded by the Clean Water, Land and Legacy Amendment, distributes tens of millions of dollars annually for habitat restoration?
@@ -65,6 +71,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
     The correct answer is **B**. The Lessard-Sams Outdoor Heritage Council (LSOHC), funded by the Clean Water, Land and Legacy Amendment passed by Minnesota voters in 2008, distributes tens of millions of dollars annually for habitat restoration projects. This includes prairie restoration, wetland restoration, forest habitat improvement, and land acquisition for conservation. It is one of the most significant funding sources for large-scale native plant and habitat projects in the state.
 
     **Concept Tested:** State Grant Programs
+
+    **See:** [Chapter 14](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
 
     **Concept Tested:** MN Noxious Weed Law
 
+    **See:** [Chapter 14](index.md)
+
 ---
 
 #### 6. You want to start a native planting project but need funding assistance. Which sequence of steps would be most effective?
@@ -97,6 +107,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
     The correct answer is **B**. The most effective approach starts with your county SWCD, which provides free technical advice and connects you to cost-share programs. Programs like Lawns to Legumes (which provides funding for converting lawn to pollinator habitat) and SWCD cost-share grants can significantly reduce costs. After securing guidance and funding, source plants from reputable Minnesota native plant nurseries that track seed provenance. This sequence maximizes your resources and ensures your project meets program requirements.
 
     **Concept Tested:** Resource Hierarchy
+
+    **See:** [Chapter 14](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
 
     **Concept Tested:** BWSR Programs
 
+    **See:** [Chapter 14](index.md)
+
 ---
 
 #### 8. Why might a native plant gardener need to know about local city ordinances before installing a prairie-style garden?
@@ -129,6 +143,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
     The correct answer is **B**. Some Minnesota cities have weed or vegetation height ordinances that could be mistakenly applied to tall native plantings like Big Bluestem or Joe-Pye Weed. Knowing your city's rules helps you either comply with setback and height requirements, apply for a native planting exemption if available, or communicate proactively with neighbors and city officials about your garden. Many cities are updating their ordinances to be more native-plant-friendly, but checking first prevents conflicts.
 
     **Concept Tested:** City-Level Programs
+
+    **See:** [Chapter 14](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
 
     **Concept Tested:** Educational Institutions
 
+    **See:** [Chapter 14](index.md)
+
 ---
 
 #### 10. Evaluate this scenario: A Minnesota landowner receives a flyer from a company offering to install a "native prairie" using a generic seed mix from out of state. What concerns should the landowner consider?
@@ -162,4 +180,8 @@ Test your knowledge of Minnesota's agencies, programs, organizations, and laws t
 
     **Concept Tested:** Resource Hierarchy
 
+    **See:** [Chapter 14](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

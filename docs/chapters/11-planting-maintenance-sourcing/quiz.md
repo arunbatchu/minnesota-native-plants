@@ -18,6 +18,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
 
     **Concept Tested:** Site Preparation
 
+    **See:** [Chapter 11](index.md)
+
 ---
 
 #### 2. What is seed stratification, and why do many Minnesota native plant seeds require it?
@@ -33,6 +35,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
     The correct answer is **B**. Seed stratification is a cold, moist treatment period that breaks the dormancy mechanisms in many native plant seeds. In nature, seeds fall in autumn, experience months of cold and moisture through winter, and germinate in spring. When starting seeds indoors or in controlled settings, gardeners must mimic this process by placing seeds in moist medium in a refrigerator for 4-12 weeks. Species like Purple Coneflower and Butterfly Milkweed require stratification to germinate.
 
     **Concept Tested:** Seed Stratification
+
+    **See:** [Chapter 11](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
 
     **Concept Tested:** Local Ecotype Importance
 
+    **See:** [Chapter 11](index.md)
+
 ---
 
 #### 4. What is the difference between a "nativar" and a wild-type native plant?
@@ -65,6 +71,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
     The correct answer is **B**. A nativar (native cultivar) is a cultivated selection of a native species that has been bred or selected for specific ornamental traits such as compact size, different flower color, or double flowers. Wild-type native plants are genetically unmodified natural populations. While nativars may look attractive, research suggests that some provide less ecological value — for example, double-flowered nativars may produce less nectar and pollen, and unusual colors may be less visible to pollinators. When ecological function is the priority, wild types are generally preferred.
 
     **Concept Tested:** Nativars Vs Wild Types
+
+    **See:** [Chapter 11](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
 
     **Concept Tested:** First Year Maintenance
 
+    **See:** [Chapter 11](index.md)
+
 ---
 
 #### 6. When is fall planting often preferred over spring planting for native plugs in Minnesota?
@@ -97,6 +107,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
     The correct answer is **B**. Fall planting (September to early October) is often preferred because cooler temperatures and autumn rains reduce transplant stress, and roots have time to establish before the ground freezes. When spring arrives, fall-planted natives are already rooted in and can begin growing immediately, giving them a significant advantage over spring-planted plugs that are still recovering from transplant. Both spring and fall planting work, but fall often produces better first-year results.
 
     **Concept Tested:** Plug Planting Techniques
+
+    **See:** [Chapter 11](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
 
     **Concept Tested:** Seed Collection Ethics
 
+    **See:** [Chapter 11](index.md)
+
 ---
 
 #### 8. You planted a native prairie garden last spring and notice it looks sparse with mostly weeds visible. Is this normal, and what should you do?
@@ -129,6 +143,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
     The correct answer is **C**. First-year native plantings commonly look sparse and weedy because native plants invest heavily in root development before producing significant above-ground growth. The prairie saying is "first year they sleep, second year they creep, third year they leap." Continue diligent weed management through the establishment period (typically 2-3 years), and the native plants will gradually fill in and begin to outcompete weeds as their deep root systems develop.
 
     **Concept Tested:** First Year Maintenance
+
+    **See:** [Chapter 11](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
 
     **Concept Tested:** Weed Suppression Methods
 
+    **See:** [Chapter 11](index.md)
+
 ---
 
 #### 10. Why should you read plant labels carefully when purchasing "native" plants from garden centers?
@@ -162,4 +180,8 @@ Test your knowledge of site preparation, planting techniques, maintenance practi
 
     **Concept Tested:** Plant Labeling Standards
 
+    **See:** [Chapter 11](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

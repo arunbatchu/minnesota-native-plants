@@ -18,6 +18,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
 
     **Concept Tested:** Ethnobotany Overview
 
+    **See:** [Chapter 13](index.md)
+
 ---
 
 #### 2. How does Indigenous plant knowledge differ from Western scientific approaches to understanding plants?
@@ -33,6 +35,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
     The correct answer is **B**. Indigenous plant knowledge is relational (understanding plants through relationships, not just categories), place-based (tied to specific landscapes and seasons), holistic (considering the whole plant, person, and community), and dynamic (continuing to evolve). Western science tends to ask what chemical compounds a plant contains, while Indigenous knowledge asks about the relationship and responsibilities involved. Both approaches have value, and neither is complete without the other.
 
     **Concept Tested:** Indigenous Plant Knowledge
+
+    **See:** [Chapter 13](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
 
     **Concept Tested:** Indigenous Plant Knowledge
 
+    **See:** [Chapter 13](index.md)
+
 ---
 
 #### 4. How did Indigenous peoples, particularly the Dakota, use fire to manage Minnesota's prairies?
@@ -65,6 +71,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
     The correct answer is **B**. Indigenous peoples, including the Dakota, managed the prairie with fire for millennia. They burned strategically to encourage new grass growth that attracted bison, to improve travel routes, and to maintain open landscapes. The prairie that European settlers encountered was not untouched wilderness — it was a landscape actively shaped by thousands of years of human stewardship. This traditional burning practice is a form of sophisticated land management now recognized as ecologically essential.
 
     **Concept Tested:** Indigenous Burning Practice
+
+    **See:** [Chapter 13](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
 
     **Concept Tested:** Food Plants Traditional
 
+    **See:** [Chapter 13](index.md)
+
 ---
 
 #### 6. What ethical principles should guide wild harvesting of native plants?
@@ -97,6 +107,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
     The correct answer is **B**. Ethical wild harvesting follows several principles: harvest only from large, healthy populations that can sustain the loss; take only what you need; leave enough for the plant to reproduce and for wildlife to use; never harvest rare, threatened, or endangered species; obtain permission from landowners; and follow Indigenous protocols of asking permission from the plant and offering thanks. Wild harvesting is a privilege that comes with responsibility to the plant, the ecosystem, and future generations.
 
     **Concept Tested:** Wild Harvest Ethics
+
+    **See:** [Chapter 13](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
 
     **Concept Tested:** Fiber And Craft Plants
 
+    **See:** [Chapter 13](index.md)
+
 ---
 
 #### 8. A non-Indigenous gardener finds a blog post claiming to share "secret Indigenous herbal remedies" for various ailments. How should they evaluate this information?
@@ -129,6 +143,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
     The correct answer is **B**. Claims about "secret Indigenous remedies" should be evaluated critically. Not all Indigenous plant knowledge is meant to be shared publicly, and unauthorized sharing may violate intellectual sovereignty. The blog source may be unreliable or misrepresent traditional practices. Some plants can be harmful if used incorrectly. Rather than relying on unverified online sources, seek out Indigenous-led educational programs and published resources that share knowledge with community consent.
 
     **Concept Tested:** Medicinal Plant Uses
+
+    **See:** [Chapter 13](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
 
     **Concept Tested:** Traditional Land Mgmt
 
+    **See:** [Chapter 13](index.md)
+
 ---
 
 #### 10. Why is it important to recognize that Indigenous plant knowledge is a "living tradition" rather than a historical artifact?
@@ -162,4 +180,8 @@ Test your understanding of ethnobotany, Indigenous plant knowledge, traditional 
 
     **Concept Tested:** Indigenous Plant Knowledge
 
+    **See:** [Chapter 13](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

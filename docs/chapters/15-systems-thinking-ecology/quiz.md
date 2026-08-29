@@ -18,6 +18,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
 
     **Concept Tested:** What Is Systems Thinking?
 
+    **See:** [Chapter 15](index.md)
+
 ---
 
 #### 2. What is the difference between a negative feedback loop and a positive feedback loop in ecology?
@@ -33,6 +35,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
     The correct answer is **B**. Negative feedback loops stabilize systems by counteracting change — like predator-prey cycles that keep both populations in balance. Positive feedback loops amplify change — like soil erosion: removing vegetation exposes soil, which erodes, which means fewer plants can grow, which exposes more soil. The names do not indicate good or bad — "negative" means counteracting and "positive" means amplifying. Both types are fundamental to how ecosystems behave.
 
     **Concept Tested:** Feedback Loops in Ecology
+
+    **See:** [Chapter 15](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
 
     **Concept Tested:** Trophic Cascades
 
+    **See:** [Chapter 15](index.md)
+
 ---
 
 #### 4. What are "emergent properties" in the context of ecosystems?
@@ -65,6 +71,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
     The correct answer is **B**. Emergent properties are characteristics of a system that arise from the interactions of its components and cannot be predicted by studying individual parts in isolation. Ecosystem resilience, self-regulation, and biodiversity are emergent properties — they do not exist in any single species but emerge from the web of relationships among species. This is why a pile of individual prairie plants is not a functioning prairie; the emergent properties only appear when the system is connected and interacting.
 
     **Concept Tested:** Emergent Properties
+
+    **See:** [Chapter 15](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
 
     **Concept Tested:** Mycorrhizal Networks
 
+    **See:** [Chapter 15](index.md)
+
 ---
 
 #### 6. A city drains a wetland to build a shopping center. Two years later, neighborhoods downstream experience severe flooding that never occurred before. Apply systems thinking to explain why.
@@ -97,6 +107,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
     The correct answer is **B**. From a systems perspective, the wetland was performing a critical flood storage function — absorbing stormwater and releasing it slowly over time. Removing this component disrupted the hydrological system. The water that the wetland would have absorbed now flows directly downstream, arriving faster and in greater volume, causing flooding in areas that were previously protected. This is a classic example of unintended consequences from intervening in a system without understanding its interconnections.
 
     **Concept Tested:** Unintended Consequences
+
+    **See:** [Chapter 15](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
 
     **Concept Tested:** Biodiversity and Stability
 
+    **See:** [Chapter 15](index.md)
+
 ---
 
 #### 8. What is a keystone species, and how does the concept relate to systems thinking?
@@ -129,6 +143,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
     The correct answer is **B**. A keystone species has a disproportionately large influence on its ecosystem relative to its abundance. Removing it causes cascading changes throughout the system, similar to removing a keystone from an arch, which causes the entire structure to collapse. In Minnesota, examples include beavers (whose dams create wetland habitat) and native oaks (which support more caterpillar species than any other tree genus). The keystone concept illustrates that not all system components are equal — some are critical connectors.
 
     **Concept Tested:** Keystone Species
+
+    **See:** [Chapter 15](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
 
     **Concept Tested:** Ecosystem Services
 
+    **See:** [Chapter 15](index.md)
+
 ---
 
 #### 10. Design a simple systems map showing how the removal of native prairie plants from a landscape could affect at least four different ecosystem components through interconnected pathways.
@@ -162,4 +180,8 @@ Test your ability to apply systems thinking concepts to ecological scenarios, an
 
     **Concept Tested:** Systems Maps in Ecology
 
+    **See:** [Chapter 15](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

@@ -18,6 +18,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
 
     **Concept Tested:** Leaf Shape Identification
 
+    **See:** [Chapter 7](index.md)
+
 ---
 
 #### 2. How do you physically distinguish a sedge stem from a grass stem?
@@ -33,6 +35,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
     The correct answer is **B**. The classic botanical mnemonic is "sedges have edges, rushes are round, grasses have knees that bend to the ground." Sedge stems have a distinctly triangular cross-section you can feel by rolling the stem between your thumb and forefinger. Grass stems are round and hollow with swollen nodes (the "knees"). Rushes have round, solid stems with no joints. This tactile test is quick and reliable in the field.
 
     **Concept Tested:** Sedge Identification
+
+    **See:** [Chapter 7](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
 
     **Concept Tested:** Flower Structure ID
 
+    **See:** [Chapter 7](index.md)
+
 ---
 
 #### 4. You find a plant with a flat-topped cluster of tiny yellow flowers, compound leaves, and smooth stems. It is blooming in late May. Is it more likely Golden Alexanders (native) or Wild Parsnip (invasive)?
@@ -65,6 +71,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
     The correct answer is **B**. Golden Alexanders is a native prairie plant that blooms in May-June with smooth stems and compound leaves. Wild Parsnip is an invasive that looks similar but blooms later (June-July), grows taller (up to 5 feet), and has grooved, angular stems. The timing and stem texture differences are key distinguishing features. Wild Parsnip sap also causes severe chemical burns on skin exposed to sunlight, making correct identification a safety concern.
 
     **Concept Tested:** Native Vs Invasive ID
+
+    **See:** [Chapter 7](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
 
     **Concept Tested:** Fruit And Seed ID
 
+    **See:** [Chapter 7](index.md)
+
 ---
 
 #### 6. Which plant family is characterized by what appears to be a single flower but is actually a head of many tiny florets, with ray florets around the edge and disc florets in the center?
@@ -97,6 +107,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
     The correct answer is **C**. The Asteraceae, also called the Daisy or Composite family, is characterized by flower heads composed of many tiny individual florets. Ray florets around the edge look like petals, and disc florets fill the center. This family includes coneflowers, asters, goldenrods, and sunflowers. Learning to recognize major flower families is one of the most efficient identification strategies because it lets you classify dozens of species at once.
 
     **Concept Tested:** Flower Structure ID
+
+    **See:** [Chapter 7](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
 
     **Concept Tested:** Plant ID Apps And Tools
 
+    **See:** [Chapter 7](index.md)
+
 ---
 
 #### 8. You are trying to identify a tree in January when there are no leaves, flowers, or fruits present. Which identification features would be most useful?
@@ -129,6 +143,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
     The correct answer is **C**. In winter, bark becomes the primary identification feature for trees, supplemented by bud shape and arrangement, branching pattern, and overall silhouette against the sky. Habitat also provides context clues. For example, Bur Oak has deeply furrowed corky bark and thick gnarled branches, Paper Birch has distinctive white peeling bark, and American Elm has a classic vase-shaped silhouette. Some experienced botanists actually prefer winter identification because these features are visible without leaf obstruction.
 
     **Concept Tested:** Seasonal ID Features
+
+    **See:** [Chapter 7](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
 
     **Concept Tested:** Using Field Guides
 
+    **See:** [Chapter 7](index.md)
+
 ---
 
 #### 10. A dense, single-species stand of plants covers a large area in a forest understory, crowding out all other vegetation. Based on what you know about native vs. invasive identification, what should you suspect?
@@ -162,4 +180,8 @@ Test your practical plant identification knowledge, including leaf shapes, flowe
 
     **Concept Tested:** Native Vs Invasive ID
 
+    **See:** [Chapter 7](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.
