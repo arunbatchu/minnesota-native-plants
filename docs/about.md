@@ -18,7 +18,7 @@ This is not a traditional textbook. It includes several features that make learn
 
 - **Interactive MicroSims** — hands-on simulations that let you explore concepts like fire ecology, pollinator matching, and garden design
 - **Learning Graph** — a structured map of 289 interconnected concepts showing how ideas build on each other
-- **Per-Chapter Quizzes** — test your understanding with 10 questions per chapter
+- **Per-Chapter Quizzes** — two per chapter: 10 recall questions, plus 10 applied questions that put you in a real situation and ask what to do
 - **Pedagogical Agent** — Bree, a rusty-patched bumble bee (Minnesota's endangered state bee), guides you through the content with tips, encouragement, and key insights
 - **Mermaid Diagrams** — visual flowcharts and concept maps embedded throughout
 

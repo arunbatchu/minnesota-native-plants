@@ -1,9 +1,16 @@
+---
+title: Minnesota Native Plants
+description: An interactive intelligent textbook on the native plants of Minnesota — prairie, woodland, wetland and shoreline — with 22 interactive simulations and a gallery of 211 species.
+image: img/cover.png
+---
 # Minnesota Native Plants
+
+![Minnesota Native Plants — the book's learning graph, 289 concepts coloured by topic](img/cover.png){ .book-cover }
 
 !!! mascot-welcome "Welcome, Garden Friends!"
     <img src="img/mascot/welcome.png" class="mascot-admonition-img" alt="Bree waving welcome">
-    Let's explore the prairie! I'm Bree the Bee, and I'll be your guide
-    through the wonderful world of Minnesota's native plants.
+    Let's explore the prairie! I'm Bree, a rusty-patched bumble bee — Minnesota's
+    state bee — and I'll be your guide through the native plants of this state.
 
 ## About This Textbook
 
@@ -25,9 +32,10 @@ This interactive intelligent textbook introduces the native plants of Minnesota 
 - **17 chapters** covering 289 concepts
 - **22 interactive MicroSims** — hands-on learning tools you can use in your browser
 - **34 diagrams** illustrating ecosystems, processes, and decision trees
-- **170 quiz questions** to test your understanding
-- **288-term glossary** for quick reference
+- **340 quiz questions** — a recall quiz and an applied, scenario-based quiz for every chapter
+- **289-term glossary** for quick reference
 - **70 frequently asked questions** with detailed answers
+- **211 species cards** in the [Plant Gallery](plants/index.md), each with photos, growing conditions, and the chapters that mention it
 
 ## How to Use This Book
 

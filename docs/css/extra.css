@@ -234,3 +234,13 @@
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
 }
+
+/* Home page cover. It is the book's own learning graph, so it earns its place
+   at the top of the page rather than being decoration. */
+.md-typeset img.book-cover {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 1.75rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);
+}
