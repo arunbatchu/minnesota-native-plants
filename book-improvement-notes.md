@@ -248,6 +248,60 @@ A future pass should sweep through other foundational species the book is missin
 
 ---
 
+## Update — August 2026 pass
+
+Item 5 is now done, and several problems this file did not know about were
+found and fixed along the way.
+
+**Quick Facts (item 5) — DONE, all 211 cards, not just the top 30.** Family
+comes from the GBIF taxonomic backbone via `scripts/fetch-taxonomy.py`
+(machine-verified, cached in `.plant-gallery/taxonomy.json`). Height, bloom,
+sun, moisture, soil and wildlife value are hand-authored for Minnesota in
+`.plant-gallery/traits.json` and applied by `scripts/fill-quick-facts.py`.
+
+This file suggested mining a horticultural catalog for the trait data. That
+turned out to be the wrong instinct, and it is worth recording why: USDA
+PLANTS has a clean public API and its data is *wrong at species scale for
+Minnesota*. It reports Wild Bergamot's flower color as red (it is lavender)
+and its moisture use as high (it is a dry-to-mesic prairie plant). Publishing
+that would have been worse than the dashes. Use machine sources for taxonomy,
+which they are authoritative on, and hand-author the horticultural fields.
+
+**Bugs found while doing it, none of which were in this file:**
+
+- `Rudbera hirta` was a typo for *Rudbeckia hirta* in Chapter 12. It had
+  propagated into a phantom second Black-Eyed Susan entry, which then
+  overwrote the real card — so the live page linked to a nonexistent
+  Wikipedia article and claimed no photos while both JPGs sat on disk.
+- The four animals in the gallery (Monarch, European Honeybee, Blue Orchard
+  Mason Bees, Emerald Ash Borer) had plant tables asking for their bloom time
+  and soil texture. They now carry a wildlife field set.
+- Four mascot image paths pointed at files that never existed
+  (`encourage.png`, `celebrate.png`), so those admonitions rendered broken.
+- `book-metrics.md` was stale — it claimed 99 species cards against an actual
+  211 — and carried the book's only broken internal link. It is now generated
+  by `scripts/book-metrics.py` from source.
+
+**Also addressed in this pass, beyond the original twelve:**
+
+- **The mascot was a European honeybee**, which contradicted Chapter 6's own
+  statement that honeybees are not native to North America. Bree is now a
+  rusty-patched bumble bee (*Bombus affinis*), Minnesota's state bee and
+  federally endangered, and Chapter 6 gained a full section on the species.
+  Item 14 in this file asked for more Bree; the deeper problem was which
+  animal she was.
+- **Applied quizzes for all 17 chapters** — 170 scenario questions, doubling
+  assessment from 170 to 340. The book previously tested only recall.
+- **MicroSim catalog** — there was no `docs/sims/index.md` at all. All 22 now
+  have screenshots, a thumbnail catalog, fullscreen links and embed snippets.
+- **Cover image** built from the book's own learning graph.
+
+**Still deferred:** the worked-example appendix (item 4, needs install
+photos), per-chapter bloom Gantt charts (item 6), and the print-ready
+downloads page (item 12).
+
+---
+
 ## How this file should evolve
 
 This file is a *snapshot* — observations from one design project. It will be richer if subsequent design projects (or the same project at year 1, year 3, year 5) add their own observations.
