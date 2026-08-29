@@ -15,13 +15,13 @@ Carex lacustris, known as lake sedge (lucastris is from the Latin lacus, or lake
 | | |
 |---|---|
 | **Scientific name** | *Carex lacustris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Wet to shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Forms broad colonies at lake edges; muskrat food, marsh-bird cover |
 
 ## Mentioned In
 

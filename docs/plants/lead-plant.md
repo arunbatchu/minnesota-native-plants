@@ -13,13 +13,13 @@ Amorpha canescens, known as leadplant, downy indigo bush, prairie shoestring, or
 | | |
 |---|---|
 | **Scientific name** | *Amorpha canescens* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Nitrogen fixer; roots reach 15 ft; indicator of high-quality remnant prairie |
 
 ## Mentioned In
 

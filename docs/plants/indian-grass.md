@@ -15,13 +15,13 @@ Sorghastrum nutans,  known as Indiangrass, is a North American prairie grass fou
 | | |
 |---|---|
 | **Scientific name** | *Sorghastrum nutans* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 4-7 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Golden-bronze plumes; nesting cover; one of the big four tallgrasses |
 
 ## Mentioned In
 

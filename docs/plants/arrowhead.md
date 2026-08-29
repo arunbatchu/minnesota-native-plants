@@ -15,13 +15,13 @@ Sagittaria latifolia is a wetland plant in the family Alismataceae, native to No
 | | |
 |---|---|
 | **Scientific name** | *Sagittaria latifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Alismataceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Wet to shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Tubers eaten by ducks and muskrats |
 
 ## Mentioned In
 

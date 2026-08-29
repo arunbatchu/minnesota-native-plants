@@ -15,13 +15,13 @@ Fraxinus nigra, or the black ash, is a species of ash native to much of eastern 
 | | |
 |---|---|
 | **Scientific name** | *Fraxinus nigra* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Oleaceae |
+| **Height** | 40-60 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Keystone of black-ash swamps; now devastated by emerald ash borer |
 
 ## Mentioned In
 

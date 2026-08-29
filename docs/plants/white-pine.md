@@ -15,13 +15,13 @@ Pinus strobus, commonly called the eastern white pine, northern white pine, whit
 | | |
 |---|---|
 | **Scientific name** | *Pinus strobus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pinaceae |
+| **Height** | 80-100 ft |
+| **Bloom time** | Cones, not flowers |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Minnesota's tallest native tree; nesting for eagles and herons; seed for crossbills |
 
 ## Mentioned In
 

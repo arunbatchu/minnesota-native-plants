@@ -15,13 +15,13 @@ Betula alleghaniensis, the yellow birch, golden birch, or swamp birch, is a larg
 | | |
 |---|---|
 | **Scientific name** | *Betula alleghaniensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 60-75 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Curling bronze bark; twigs smell of wintergreen; long-lived northern hardwood |
 
 ## Mentioned In
 

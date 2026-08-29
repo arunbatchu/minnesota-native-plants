@@ -15,13 +15,13 @@ Echinacea atrorubens, called the Topeka purple coneflower, is a North American s
 | | |
 |---|---|
 | **Scientific name** | *Echinacea atrorubens* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Calcareous, rocky |
+| **Wildlife value** | A rare southern-Plains coneflower; not part of the Minnesota native flora |
 
 ## Mentioned In
 

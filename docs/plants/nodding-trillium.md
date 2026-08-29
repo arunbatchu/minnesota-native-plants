@@ -13,13 +13,13 @@ Trillium cernuum is a species of flowering plant in the bunchflower family Melan
 | | |
 |---|---|
 | **Scientific name** | *Trillium cernuum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Melanthiaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Rich loam |
+| **Wildlife value** | Flower hangs below the leaves; ant-dispersed seed |
 
 ## Mentioned In
 

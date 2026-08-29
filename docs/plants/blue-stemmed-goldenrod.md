@@ -15,13 +15,13 @@ Solidago caesia, commonly named blue-stemmed goldenrod, wreath goldenrod, or woo
 | | |
 |---|---|
 | **Scientific name** | *Solidago caesia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | One of the few shade-tolerant goldenrods; late woodland nectar |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Dirca palustris, or eastern leatherwood, is a flowering shrub in the family Thym
 | | |
 |---|---|
 | **Scientific name** | *Dirca palustris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Thymelaeaceae |
+| **Height** | 3-6 ft |
+| **Bloom time** | Apr |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Bark so pliable it can be tied in a knot; very early nectar |
 
 ## Mentioned In
 

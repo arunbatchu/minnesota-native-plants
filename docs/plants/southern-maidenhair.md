@@ -15,13 +15,13 @@ Adiantum capillus-veneris, the maidenhair fern, southern maidenhair fern, black 
 | | |
 |---|---|
 | **Scientific name** | *Adiantum capillus-veneris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pteridaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Non-flowering (spores) |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Calcareous, moist |
+| **Wildlife value** | NOT a Minnesota native - a southern and tropical species of seeps and springs |
 
 ## Mentioned In
 

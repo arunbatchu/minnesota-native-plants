@@ -16,13 +16,13 @@ Ludoviciana is the Latinized version of the word Louisiana.
 | | |
 |---|---|
 | **Scientific name** | *Artemisia ludoviciana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Silver foliage; wind-pollinated; used ceremonially by many Native nations |
 
 ## Mentioned In
 

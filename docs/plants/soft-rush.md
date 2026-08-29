@@ -17,13 +17,13 @@ Juncus effusus is a perennial herbaceous flowering plant species in the rush fam
 | | |
 |---|---|
 | **Scientific name** | *Juncus effusus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Juncaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Round green stems in tight clumps; core bioswale plant; cover for wetland wildlife |
 
 ## Mentioned In
 

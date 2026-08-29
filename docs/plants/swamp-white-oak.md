@@ -13,13 +13,13 @@ Quercus bicolor, the swamp white oak, is a North American species of medium-size
 | | |
 |---|---|
 | **Scientific name** | *Quercus bicolor* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fagaceae |
+| **Height** | 50-60 ft |
+| **Bloom time** | May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Clay, loam |
+| **Wildlife value** | Tolerates both flooding and compacted urban soil; acorns for waterfowl and mammals |
 
 ## Mentioned In
 

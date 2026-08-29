@@ -16,13 +16,13 @@ The plants have tall spikes of purple flowers resembling bottle brushes or feath
 | | |
 |---|---|
 | **Scientific name** | *Liatris spicata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam, muck |
+| **Wildlife value** | The wet-ground liatris; strong butterfly and bee draw |
 
 ## Mentioned In
 

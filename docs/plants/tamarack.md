@@ -15,13 +15,13 @@ Larix laricina, commonly known as the tamarack, hackmatack, eastern larch, black
 | | |
 |---|---|
 | **Scientific name** | *Larix laricina* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pinaceae |
+| **Height** | 40-60 ft |
+| **Bloom time** | Cones, not flowers |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Acidic peat |
+| **Wildlife value** | The conifer that drops its needles - gold in October; bog specialist |
 
 ## Mentioned In
 

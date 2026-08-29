@@ -15,13 +15,13 @@ Symphyotrichum puniceum (formerly Aster puniceus), is a species of flowering pla
 | | |
 |---|---|
 | **Scientific name** | *Symphyotrichum puniceum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-5 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Late nectar for wet ground; purple-tinged stems |
 
 ## Mentioned In
 

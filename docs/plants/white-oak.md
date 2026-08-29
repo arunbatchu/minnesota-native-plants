@@ -15,13 +15,13 @@ Quercus alba, the white oak, is one of the preeminent hardwoods of eastern and c
 | | |
 |---|---|
 | **Scientific name** | *Quercus alba* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fagaceae |
+| **Height** | 60-80 ft |
+| **Bloom time** | May |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Sweet acorns ripen in one year and are preferred by wildlife; can live 300+ years |
 
 ## Mentioned In
 

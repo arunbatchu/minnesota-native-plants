@@ -15,13 +15,13 @@ The Jerusalem artichoke (Helianthus tuberosus), also called sunroot, sunchoke, w
 | | |
 |---|---|
 | **Scientific name** | *Helianthus tuberosus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 5-10 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Any |
+| **Wildlife value** | Native sunflower with edible tubers; very late nectar. Spreads aggressively |
 
 ## Mentioned In
 

@@ -17,13 +17,13 @@ Baptisia australis, commonly known as blue wild indigo or blue false indigo, is 
 | | |
 |---|---|
 | **Scientific name** | *Baptisia australis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | 3-4 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Nitrogen fixer; long-lived; larval host for several sulphurs and duskywings |
 
 ## Mentioned In
 

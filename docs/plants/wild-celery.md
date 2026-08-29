@@ -14,13 +14,13 @@ V. americana is a fresh water species that can tolerate salt, living in saliniti
 | | |
 |---|---|
 | **Scientific name** | *Vallisneria americana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Hydrocharitaceae |
+| **Height** | Submerged, 3-6 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Aquatic |
+| **Soil** | Sand, muck |
+| **Wildlife value** | Canvasback ducks are named for feeding on it; core lake food plant |
 
 ## Mentioned In
 

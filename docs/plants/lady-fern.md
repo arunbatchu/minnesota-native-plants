@@ -16,13 +16,13 @@ Its common names "lady fern" and "female fern" refer to how its reproductive str
 | | |
 |---|---|
 | **Scientific name** | *Athyrium filix-femina* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Athyriaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Non-flowering (spores) |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Rich loam |
+| **Wildlife value** | Lacy and adaptable; shelter for amphibians and ground insects |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Coptis trifolia, commonly known as the threeleaf goldthread or savoyane, is a pe
 | | |
 |---|---|
 | **Scientific name** | *Coptis trifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ranunculaceae |
+| **Height** | 2-6 in |
+| **Bloom time** | May-Jun |
+| **Sun** | Shade |
+| **Moisture** | Wet |
+| **Soil** | Acidic peat |
+| **Wildlife value** | Bog and conifer-swamp groundcover; thread-like golden roots |
 
 ## Mentioned In
 

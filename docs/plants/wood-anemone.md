@@ -13,13 +13,13 @@ Wood Anemone (*Anemone quinquefolia*) is a delicate spring ephemeral that spread
 | | |
 |---|---|
 | **Scientific name** | *Anemone quinquefolia* |
-| **Family** | Ranunculaceae (buttercup family) |
-| **Height** | 4–8 inches |
-| **Bloom time** | April–May |
-| **Sun** | Part shade |
-| **Moisture** | Medium |
-| **Soil** | Rich, moist woodland soil |
-| **Wildlife value** | Early pollen for native bees and flies |
+| **Family** | — |
+| **Height** | 4-8 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Spring ephemeral carpet; single white flower above a whorl of leaves |
 
 ## Mentioned In
 

@@ -16,13 +16,13 @@ Solidago speciosa is a perennial herb up to 200 cm (80 inches, over 6 feet) tall
 | | |
 |---|---|
 | **Scientific name** | *Solidago speciosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Upright plume, clump-forming rather than running - the well-behaved garden goldenrod |
 
 ## Mentioned In
 

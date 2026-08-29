@@ -34,7 +34,7 @@ For example, a single native oak tree supports over 500 species of caterpillars,
 
 No prior gardening experience is required. Native plants are often easier to grow than conventional garden plants because they are adapted to Minnesota's conditions. The most important steps are matching the right plant to the right site (sun, soil, and moisture) and preparing the planting area properly by removing weeds beforehand.
 
-This textbook walks you through every step, from assessing your site to selecting plants, preparing the ground, planting, and maintaining your garden over time. Start small with a few reliable species like Purple Coneflower (*Echinacea purpurea*), Black-Eyed Susan (*Rudbera hirta*), or Little Bluestem (*Schizachyrium scoparium*), and expand as you gain confidence.
+This textbook walks you through every step, from assessing your site to selecting plants, preparing the ground, planting, and maintaining your garden over time. Start small with a few reliable species like Purple Coneflower (*Echinacea purpurea*), Black-Eyed Susan (*Rudbeckia hirta*), or Little Bluestem (*Schizachyrium scoparium*), and expand as you gain confidence.
 
 [See Chapter 11](chapters/11-planting-maintenance-sourcing/index.md)
 

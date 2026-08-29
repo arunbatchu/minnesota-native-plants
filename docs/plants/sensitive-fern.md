@@ -15,13 +15,13 @@ Onoclea sensibilis, the sensitive fern, also known as the bead fern, is a coarse
 | | |
 |---|---|
 | **Scientific name** | *Onoclea sensibilis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Onocleaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Non-flowering (spores) |
+| **Sun** | Part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Dies at the first frost, hence the name; bead-like fertile fronds persist all winter |
 
 ## Mentioned In
 

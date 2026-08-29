@@ -15,13 +15,13 @@ Adiantum pedatum, the northern maidenhair fern, is a species of fern in the fami
 | | |
 |---|---|
 | **Scientific name** | *Adiantum pedatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pteridaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Non-flowering (spores) |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Whorled fronds on black wiry stems; a Minnesota native woodland fern |
 
 ## Mentioned In
 

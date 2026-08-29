@@ -16,13 +16,13 @@ It forms dense colonies in the understory of deciduous forests throughout its na
 | | |
 |---|---|
 | **Scientific name** | *Asarum canadense* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Aristolochiaceae |
+| **Height** | 4-8 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Flowers hidden at ground level and pollinated by beetles and flies; excellent shade groundcover |
 
 ## Mentioned In
 

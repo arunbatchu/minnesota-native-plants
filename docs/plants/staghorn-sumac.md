@@ -15,13 +15,13 @@ Rhus typhina, the staghorn sumac, is a species of flowering plant in the family 
 | | |
 |---|---|
 | **Scientific name** | *Rhus typhina* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Anacardiaceae |
+| **Height** | 15-25 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Velvety antler-like stems; red fruit holds all winter for birds |
 
 ## Mentioned In
 

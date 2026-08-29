@@ -15,13 +15,13 @@ Liatris aspera (known as rough blazing star, button blazing star, lacerate blazi
 | | |
 |---|---|
 | **Scientific name** | *Liatris aspera* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | The dry-prairie liatris; late nectar when little else is open |
 
 ## Mentioned In
 

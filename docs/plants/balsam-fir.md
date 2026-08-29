@@ -15,13 +15,13 @@ Abies balsamea or balsam fir is a North American fir, native to most of eastern 
 | | |
 |---|---|
 | **Scientific name** | *Abies balsamea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pinaceae |
+| **Height** | 45-75 ft |
+| **Bloom time** | Cones, not flowers |
+| **Sun** | Part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Acidic loam, peat |
+| **Wildlife value** | Winter cover and browse; seed for crossbills and red squirrels |
 
 ## Mentioned In
 

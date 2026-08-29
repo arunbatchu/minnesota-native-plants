@@ -13,13 +13,13 @@ Polygonatum biflorum (smooth Solomon's-seal, great Solomon's-seal, Solomon's sea
 | | |
 |---|---|
 | **Scientific name** | *Polygonatum biflorum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asparagaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Paired bells hang beneath an arching stem; blue-black fruit for birds |
 
 ## Mentioned In
 

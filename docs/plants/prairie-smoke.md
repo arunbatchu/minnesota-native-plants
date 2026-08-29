@@ -17,13 +17,13 @@ Geum triflorum, commonly known as prairie smoke, old man's whiskers, or three-fl
 | | |
 |---|---|
 | **Scientific name** | *Geum triflorum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 6-12 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel, loam |
+| **Wildlife value** | Nodding pink buds, then unmistakable feathery seed plumes; very early bumble bee forage |
 
 ## Mentioned In
 

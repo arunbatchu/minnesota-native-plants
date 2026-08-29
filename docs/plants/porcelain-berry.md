@@ -16,13 +16,13 @@ It is commonly used as an ornamental plant, but is considered invasive outside o
 | | |
 |---|---|
 | **Scientific name** | *Ampelopsis brevipedunculata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Vitaceae |
+| **Height** | Vine to 20 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE. Speckled blue and purple fruit spreads by birds; smothers shrubs and small trees |
 
 ## Mentioned In
 

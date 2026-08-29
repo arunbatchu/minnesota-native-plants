@@ -15,13 +15,13 @@ Carex prairea, common name prairie sedge, is a species of Carex native to North 
 | | |
 |---|---|
 | **Scientific name** | *Carex prairea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck, peat |
+| **Wildlife value** | Calcareous fen and wet-meadow sedge; early cover |
 
 ## Mentioned In
 

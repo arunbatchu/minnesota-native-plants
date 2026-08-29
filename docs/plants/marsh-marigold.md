@@ -13,13 +13,13 @@ Caltha palustris, known as marsh-marigold and kingcup, is a small to medium size
 | | |
 |---|---|
 | **Scientific name** | *Caltha palustris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ranunculaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet to shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Blazing yellow in early spring seeps; very early pollen |
 
 ## Mentioned In
 

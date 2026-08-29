@@ -13,13 +13,13 @@ Elymus canadensis, synonyms including Elymus wiegandii, commonly known as Canada
 | | |
 |---|---|
 | **Scientific name** | *Elymus canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Fast-establishing nurse grass for new prairie seedings |
 
 ## Mentioned In
 

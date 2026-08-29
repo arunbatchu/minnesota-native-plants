@@ -15,13 +15,13 @@ Hesperostipa spartea, formerly Stipa spartea,  is a species of grass known by th
 | | |
 |---|---|
 | **Scientific name** | *Hesperostipa spartea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Sharp awned seeds drill themselves into the soil; remnant dry-prairie indicator |
 
 ## Mentioned In
 

@@ -16,13 +16,13 @@ This species resembles bottle gentian (Gentiana andrewsii), which has blue flowe
 | | |
 |---|---|
 | **Scientific name** | *Gentiana alba* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Gentianaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Bumble-bee pollinated; a savanna-edge specialty |
 
 ## Mentioned In
 

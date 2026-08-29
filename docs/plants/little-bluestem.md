@@ -18,13 +18,13 @@ Little bluestem is a perennial bunchgrass and is prominent in tallgrass prairies
 | | |
 |---|---|
 | **Scientific name** | *Schizachyrium scoparium* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel, loam |
+| **Wildlife value** | Host to several skippers; copper winter color; the most-planted native grass |
 
 ## Mentioned In
 

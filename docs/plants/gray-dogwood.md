@@ -17,13 +17,13 @@ Cornus racemosa, the northern swamp dogwood, gray dogwood, or panicle dogwood, i
 | | |
 |---|---|
 | **Scientific name** | *Cornus racemosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cornaceae |
+| **Height** | 6-12 ft |
+| **Bloom time** | Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to wet |
+| **Soil** | Any |
+| **Wildlife value** | White berries on red pedicels - a fall signature; heavy bird use |
 
 ## Mentioned In
 

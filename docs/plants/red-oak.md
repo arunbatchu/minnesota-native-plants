@@ -15,13 +15,13 @@ Quercus rubra, the northern red oak or common red oak, is an oak tree in the red
 | | |
 |---|---|
 | **Scientific name** | *Quercus rubra* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fagaceae |
+| **Height** | 60-75 ft |
+| **Bloom time** | May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Fast-growing keystone oak; acorns mature in two years; host to hundreds of caterpillars |
 
 ## Mentioned In
 

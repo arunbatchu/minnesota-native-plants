@@ -13,13 +13,13 @@ Populus tremuloides is a deciduous tree native to cooler areas of North America,
 | | |
 |---|---|
 | **Scientific name** | *Populus tremuloides* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Salicaceae |
+| **Height** | 40-60 ft |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Any |
+| **Wildlife value** | Host to 300+ caterpillar species; grouse and beaver food; clones can cover acres |
 
 ## Mentioned In
 

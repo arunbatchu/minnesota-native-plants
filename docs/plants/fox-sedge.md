@@ -15,13 +15,13 @@ The genus Carex, the sedges, is one of the largest genera of flowering plants, c
 | | |
 |---|---|
 | **Scientific name** | *Carex vulpinoidea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck, clay |
+| **Wildlife value** | Core bioswale and rain-garden sedge; seed for waterfowl |
 
 ## Mentioned In
 

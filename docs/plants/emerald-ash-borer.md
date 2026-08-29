@@ -15,13 +15,12 @@ The emerald ash borer (Agrilus planipennis), also known by the abbreviation EAB,
 | | |
 |---|---|
 | **Scientific name** | *Agrilus planipennis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Buprestidae |
+| **Type** | Wood-boring beetle |
+| **Status** | INVASIVE - introduced from Asia, first found in Minnesota in 2009 |
+| **Active season** | May-Aug (adults) |
+| **What it needs** | Ash trees (Fraxinus) - larvae girdle the tree by feeding under the bark |
+| **Where in Minnesota** | Confirmed in most of southern and central Minnesota and spreading |
 
 ## Mentioned In
 

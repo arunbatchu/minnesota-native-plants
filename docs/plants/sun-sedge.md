@@ -13,13 +13,13 @@ _No photos available yet. See [Learn More](#learn-more) links below._
 | | |
 |---|---|
 | **Scientific name** | *Carex inops ssp. heliophila* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 6-12 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand |
+| **Wildlife value** | Dry-prairie and savanna sedge; very early green-up |
 
 ## Mentioned In
 

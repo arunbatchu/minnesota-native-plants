@@ -15,13 +15,13 @@ Pulsatilla patens is a species of flowering plant in the family Ranunculaceae, n
 | | |
 |---|---|
 | **Scientific name** | *Anemone patens* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ranunculaceae |
+| **Height** | 6-12 in |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Minnesota's earliest prairie bloom, often through snow; feathery seed plumes |
 
 ## Mentioned In
 

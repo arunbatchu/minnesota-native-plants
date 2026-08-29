@@ -15,13 +15,13 @@ Polystichum acrostichoides, commonly denominated Christmas fern, is a perennial,
 | | |
 |---|---|
 | **Scientific name** | *Polystichum acrostichoides* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Dryopteridaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Non-flowering (spores) |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Evergreen through winter; shelter for ground invertebrates |
 
 ## Mentioned In
 

@@ -16,13 +16,13 @@ Although the silver maple's Latin name is similar, it should not be confused wit
 | | |
 |---|---|
 | **Scientific name** | *Acer saccharinum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Sapindaceae |
+| **Height** | 50-80 ft |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | Floodplain tree; earliest large seed crop of the year; cavities for wood ducks and owls |
 
 ## Mentioned In
 

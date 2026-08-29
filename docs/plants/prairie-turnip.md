@@ -15,13 +15,13 @@ Pediomelum esculentum, synonym Psoralea esculenta, common name prairie turnip or
 | | |
 |---|---|
 | **Scientific name** | *Psoralea esculenta* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Nitrogen fixer; starchy root was a staple food for Dakota and other Plains peoples |
 
 ## Mentioned In
 

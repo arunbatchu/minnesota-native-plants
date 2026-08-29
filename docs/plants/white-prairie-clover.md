@@ -15,13 +15,13 @@ Dalea candida is a species of flowering plant in the legume family known by the 
 | | |
 |---|---|
 | **Scientific name** | *Dalea candida* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Nitrogen fixer; the white companion to purple prairie clover; strong bee plant |
 
 ## Mentioned In
 

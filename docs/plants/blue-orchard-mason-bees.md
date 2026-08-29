@@ -15,13 +15,12 @@ Osmia lignaria, commonly known as the orchard mason bee or blue orchard bee, is 
 | | |
 |---|---|
 | **Scientific name** | *Osmia lignaria* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Megachilidae |
+| **Type** | Solitary bee |
+| **Status** | Native to North America |
+| **Active season** | Mar-Jun (adults) |
+| **What it needs** | Hollow stems, woodpecker holes or bee blocks to nest in; mud to seal cells; early-blooming trees and shrubs |
+| **Where in Minnesota** | Statewide; common in orchards and gardens with nesting cavities |
 
 ## Mentioned In
 

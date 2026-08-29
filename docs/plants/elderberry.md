@@ -15,13 +15,13 @@ Sambucus canadensis, the American black elderberry, Canada elderberry, or common
 | | |
 |---|---|
 | **Scientific name** | *Sambucus canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Viburnaceae |
+| **Height** | 6-12 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam |
+| **Wildlife value** | Fruit taken by more than 40 bird species; flat flower heads feed many insects |
 
 ## Mentioned In
 

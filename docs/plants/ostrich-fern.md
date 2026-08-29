@@ -15,13 +15,13 @@ Matteuccia is a genus of ferns with one species: Matteuccia struthiopteris (comm
 | | |
 |---|---|
 | **Scientific name** | *Matteuccia struthiopteris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Onocleaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Non-flowering (spores) |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Rich loam |
+| **Wildlife value** | Fiddleheads are the edible ones; spreads by runners into large colonies |
 
 ## Mentioned In
 

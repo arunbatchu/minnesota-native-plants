@@ -16,13 +16,13 @@ Wild rice and domesticated rice (Oryza sativa and Oryza glaberrima), are in the 
 | | |
 |---|---|
 | **Scientific name** | *Zizania palustris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 3-8 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Manoomin - sacred to the Ojibwe and central to their treaty rights; critical waterfowl food |
 
 ## Mentioned In
 

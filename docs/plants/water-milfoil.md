@@ -15,13 +15,13 @@ Myriophyllum sibiricum is a species of water milfoil known by the common names s
 | | |
 |---|---|
 | **Scientific name** | *Myriophyllum sibiricum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Haloragaceae |
+| **Height** | Submerged |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Aquatic |
+| **Soil** | Muck |
+| **Wildlife value** | NATIVE northern milfoil - cover for fish. Distinguish from invasive Eurasian water-milfoil |
 
 ## Mentioned In
 

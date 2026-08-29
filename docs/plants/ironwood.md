@@ -15,13 +15,13 @@ Ostrya virginiana, the American hophornbeam, is a species of Ostrya native to ea
 | | |
 |---|---|
 | **Scientific name** | *Ostrya virginiana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 25-40 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Hop-like fruit for grouse and finches; extremely hard wood |
 
 ## Mentioned In
 

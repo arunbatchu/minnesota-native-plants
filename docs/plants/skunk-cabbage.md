@@ -14,13 +14,13 @@ Symplocarpus combines the Greek word symploce, meaning "connection" and carpos, 
 | | |
 |---|---|
 | **Scientific name** | *Symplocarpus foetidus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Araceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Feb-Apr |
+| **Sun** | Part shade to shade |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Generates its own heat and melts through snow; the first bloom of the Minnesota year |
 
 ## Mentioned In
 

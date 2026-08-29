@@ -15,13 +15,13 @@ Asclepias syriaca, commonly called common milkweed, butterfly flower, silkweed, 
 | | |
 |---|---|
 | **Scientific name** | *Asclepias syriaca* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apocynaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Primary monarch host in Minnesota; powerfully fragrant, heavily visited |
 
 ## Mentioned In
 

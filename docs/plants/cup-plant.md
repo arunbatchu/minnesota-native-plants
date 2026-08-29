@@ -19,13 +19,13 @@ Silphium perfoliatum var.
 | | |
 |---|---|
 | **Scientific name** | *Silphium perfoliatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 6-10 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam, clay |
+| **Wildlife value** | Paired leaves hold rainwater that birds drink from; seed for finches |
 
 ## Mentioned In
 

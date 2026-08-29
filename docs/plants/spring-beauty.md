@@ -13,13 +13,13 @@ Spring Beauty (*Claytonia virginica*) is one of the earliest woodland wildflower
 | | |
 |---|---|
 | **Scientific name** | *Claytonia virginica* |
-| **Family** | Montiaceae (purslane family) |
-| **Height** | 4–6 inches |
-| **Bloom time** | April–May |
-| **Sun** | Part shade to full shade |
-| **Moisture** | Medium |
-| **Soil** | Rich, moist woodland soil |
-| **Wildlife value** | Early nectar and pollen for native bees, including the spring-beauty specialist bee (*Andrena erigeniae*) |
+| **Family** | — |
+| **Height** | 3-6 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Spring ephemeral; pink-striped petals; supported by a specialist mining bee |
 
 ## Mentioned In
 

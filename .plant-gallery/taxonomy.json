@@ -1,0 +1,2012 @@
+{
+  "Abies balsamea": {
+    "accepted": "Abies balsamea (L.) Mill.",
+    "class": "Pinopsida",
+    "confidence": 99,
+    "family": "Pinaceae",
+    "genus": "Abies",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Pinales"
+  },
+  "Acer negundo": {
+    "accepted": "Acer negundo L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Sapindaceae",
+    "genus": "Acer",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Acer rubrum": {
+    "accepted": "Acer rubrum L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Sapindaceae",
+    "genus": "Acer",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Acer saccharinum": {
+    "accepted": "Acer saccharinum L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Sapindaceae",
+    "genus": "Acer",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Acer saccharum": {
+    "accepted": "Acer saccharum Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Sapindaceae",
+    "genus": "Acer",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Achillea millefolium": {
+    "accepted": "Achillea millefolium L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Asteraceae",
+    "genus": "Achillea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Actaea pachypoda": {
+    "accepted": "Actaea pachypoda Elliott",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Ranunculaceae",
+    "genus": "Actaea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Adiantum capillus-veneris": {
+    "accepted": "Adiantum capillus-veneris L.",
+    "class": "Polypodiopsida",
+    "confidence": 99,
+    "family": "Pteridaceae",
+    "genus": "Adiantum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Polypodiales"
+  },
+  "Adiantum pedatum": {
+    "accepted": "Adiantum pedatum L.",
+    "class": "Polypodiopsida",
+    "confidence": 97,
+    "family": "Pteridaceae",
+    "genus": "Adiantum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Polypodiales"
+  },
+  "Ageratina altissima": {
+    "accepted": "Ageratina altissima (L.) R.M.King & H.Rob.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Ageratina",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Agrilus planipennis": {
+    "accepted": "Agrilus planipennis Fairmaire, 1888",
+    "class": "Insecta",
+    "confidence": 97,
+    "family": "Buprestidae",
+    "genus": "Agrilus",
+    "kingdom": "Animalia",
+    "match": "EXACT",
+    "order": "Coleoptera"
+  },
+  "Alliaria petiolata": {
+    "accepted": "Alliaria petiolata (M.Bieb.) Cavara & Grande",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Brassicaceae",
+    "genus": "Alliaria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Brassicales"
+  },
+  "Allium cernuum": {
+    "accepted": "Allium cernuum Roth",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Amaryllidaceae",
+    "genus": "Allium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asparagales"
+  },
+  "Ambrosia artemisiifolia": {
+    "accepted": "Ambrosia artemisiifolia L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Ambrosia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Amelanchier laevis": {
+    "accepted": "Amelanchier laevis Wiegand",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Rosaceae",
+    "genus": "Amelanchier",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Amorpha canescens": {
+    "accepted": "Amorpha canescens Pursh",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Fabaceae",
+    "genus": "Amorpha",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fabales"
+  },
+  "Ampelopsis brevipedunculata": {
+    "accepted": "Ampelopsis brevipedunculata Koehne, 1893",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Vitaceae",
+    "genus": "Ampelopsis",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Vitales"
+  },
+  "Amphicarpaea bracteata": {
+    "accepted": "Amphicarpaea bracteata (L.) Fernald",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Fabaceae",
+    "genus": "Amphicarpaea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fabales"
+  },
+  "Amsonia tabernaemontana": {
+    "accepted": "Amsonia tabernaemontana Walter",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Apocynaceae",
+    "genus": "Amsonia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Andropogon gerardii": {
+    "accepted": "Andropogon gerardi Vitman",
+    "class": "Liliopsida",
+    "confidence": 96,
+    "family": "Poaceae",
+    "genus": "Andropogon",
+    "kingdom": "Plantae",
+    "match": "FUZZY",
+    "order": "Poales"
+  },
+  "Anemone patens": {
+    "accepted": "Pulsatilla Mill.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Ranunculaceae",
+    "genus": "Pulsatilla",
+    "kingdom": "Plantae",
+    "match": "HIGHERRANK",
+    "order": "Ranunculales"
+  },
+  "Antennaria neglecta": {
+    "accepted": "Antennaria neglecta Greene",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Antennaria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Apis mellifera": {
+    "accepted": "Apis mellifera Linnaeus, 1758",
+    "class": "Insecta",
+    "confidence": 99,
+    "family": "Apidae",
+    "genus": "Apis",
+    "kingdom": "Animalia",
+    "match": "EXACT",
+    "order": "Hymenoptera"
+  },
+  "Apocynum cannabinum": {
+    "accepted": "Apocynum cannabinum L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Apocynaceae",
+    "genus": "Apocynum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Aquilegia canadensis": {
+    "accepted": "Aquilegia canadensis L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Ranunculaceae",
+    "genus": "Aquilegia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Arctostaphylos uva-ursi": {
+    "accepted": "Arctostaphylos uva-ursi (L.) Spreng.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Ericaceae",
+    "genus": "Arctostaphylos",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Arisaema triphyllum": {
+    "accepted": "Arisaema triphyllum (L.) Schott",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Araceae",
+    "genus": "Arisaema",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Alismatales"
+  },
+  "Artemisia ludoviciana": {
+    "accepted": "Artemisia ludoviciana Nutt.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Artemisia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Asarum canadense": {
+    "accepted": "Asarum canadense L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Aristolochiaceae",
+    "genus": "Asarum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Piperales"
+  },
+  "Asclepias incarnata": {
+    "accepted": "Asclepias incarnata L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Apocynaceae",
+    "genus": "Asclepias",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Asclepias syriaca": {
+    "accepted": "Asclepias syriaca L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Apocynaceae",
+    "genus": "Asclepias",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Asclepias tuberosa": {
+    "accepted": "Asclepias tuberosa L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Apocynaceae",
+    "genus": "Asclepias",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Asclepias verticillata": {
+    "accepted": "Asclepias verticillata L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Apocynaceae",
+    "genus": "Asclepias",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Athyrium filix-femina": {
+    "accepted": "Athyrium filix-femina (L.) Roth",
+    "class": "Polypodiopsida",
+    "confidence": 97,
+    "family": "Athyriaceae",
+    "genus": "Athyrium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Polypodiales"
+  },
+  "Baptisia australis": {
+    "accepted": "Baptisia australis (L.) R.Br.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Fabaceae",
+    "genus": "Baptisia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fabales"
+  },
+  "Berberis thunbergii": {
+    "accepted": "Berberis thunbergii DC.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Berberidaceae",
+    "genus": "Berberis",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Betula alleghaniensis": {
+    "accepted": "Betula alleghaniensis Britton",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Betulaceae",
+    "genus": "Betula",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Betula nigra": {
+    "accepted": "Betula nigra L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Betulaceae",
+    "genus": "Betula",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Betula papyrifera": {
+    "accepted": "Betula papyrifera Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Betulaceae",
+    "genus": "Betula",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Bouteloua curtipendula": {
+    "accepted": "Bouteloua curtipendula (Michx.) Torr.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Bouteloua",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Bouteloua dactyloides": {
+    "accepted": "Bouteloua dactyloides (Nutt.) Columbus",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Bouteloua",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Bromus inermis": {
+    "accepted": "Bromus inermis Leyss.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Poaceae",
+    "genus": "Bromus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Calamagrostis canadensis": {
+    "accepted": "Calamagrostis canadensis (Michx.) P.Beauv.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Poaceae",
+    "genus": "Calamagrostis",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Caltha palustris": {
+    "accepted": "Caltha palustris L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Ranunculaceae",
+    "genus": "Caltha",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Campanula rotundifolia": {
+    "accepted": "Campanula rotundifolia L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Campanulaceae",
+    "genus": "Campanula",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Carex gravida": {
+    "accepted": "Carex gravida L.H.Bailey",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex hystericina": {
+    "accepted": "Carex hystericina Muhl. ex Willd.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex inops ssp. heliophila": {
+    "accepted": "Carex inops subsp. heliophila (Mack.) Crins",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex lacustris": {
+    "accepted": "Carex lacustris Willd.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex pensylvanica": {
+    "accepted": "Carex pensylvanica Lam.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex prairea": {
+    "accepted": "Carex prairea Dewey ex Alph.Wood",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex stricta": {
+    "accepted": "Carex stricta Lam.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carex vulpinoidea": {
+    "accepted": "Carex vulpinoidea Michx.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Cyperaceae",
+    "genus": "Carex",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Carpinus caroliniana": {
+    "accepted": "Carpinus caroliniana Walter",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Betulaceae",
+    "genus": "Carpinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Caulophyllum thalictroides": {
+    "accepted": "Caulophyllum thalictroides (L.) Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Berberidaceae",
+    "genus": "Caulophyllum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Celastrus orbiculatus": {
+    "accepted": "Celastrus orbiculatus Thunb.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Celastraceae",
+    "genus": "Celastrus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Celastrales"
+  },
+  "Celastrus scandens": {
+    "accepted": "Celastrus scandens L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Celastraceae",
+    "genus": "Celastrus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Celastrales"
+  },
+  "Centaurea stoebe": {
+    "accepted": "Centaurea stoebe L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Centaurea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Ceratophyllum demersum": {
+    "accepted": "Ceratophyllum demersum L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Ceratophyllaceae",
+    "genus": "Ceratophyllum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ceratophyllales"
+  },
+  "Chamaedaphne calyculata": {
+    "accepted": "Chamaedaphne calyculata (L.) Moench",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Ericaceae",
+    "genus": "Chamaedaphne",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Chelone glabra": {
+    "accepted": "Chelone glabra L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Plantaginaceae",
+    "genus": "Chelone",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Lamiales"
+  },
+  "Coptis trifolia": {
+    "accepted": "Coptis trifolia (L.) Salisb.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Ranunculaceae",
+    "genus": "Coptis",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Cornus alternifolia": {
+    "accepted": "Cornus alternifolia L.f.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Cornaceae",
+    "genus": "Cornus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Cornales"
+  },
+  "Cornus canadensis": {
+    "accepted": "Cornus canadensis L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Cornaceae",
+    "genus": "Cornus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Cornales"
+  },
+  "Cornus racemosa": {
+    "accepted": "Cornus racemosa Lam.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Cornaceae",
+    "genus": "Cornus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Cornales"
+  },
+  "Cornus sericea": {
+    "accepted": "Cornus sericea L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Cornaceae",
+    "genus": "Cornus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Cornales"
+  },
+  "Corylus americana": {
+    "accepted": "Corylus americana Walter",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Betulaceae",
+    "genus": "Corylus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Corylus cornuta": {
+    "accepted": "Corylus cornuta Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Betulaceae",
+    "genus": "Corylus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Dalea candida": {
+    "accepted": "Dalea candida Willd.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Fabaceae",
+    "genus": "Dalea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fabales"
+  },
+  "Dalea purpurea": {
+    "accepted": "Dalea purpurea Vent.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Fabaceae",
+    "genus": "Dalea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fabales"
+  },
+  "Danaus plexippus": {
+    "accepted": "Danaus plexippus (Linnaeus, 1758)",
+    "class": "Insecta",
+    "confidence": 99,
+    "family": "Nymphalidae",
+    "genus": "Danaus",
+    "kingdom": "Animalia",
+    "match": "EXACT",
+    "order": "Lepidoptera"
+  },
+  "Dicentra canadensis": {
+    "accepted": "Dicentra canadensis (Goldie) Walp.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Papaveraceae",
+    "genus": "Dicentra",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Dicentra cucullaria": {
+    "accepted": "Dicentra cucullaria (L.) Bernh.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Papaveraceae",
+    "genus": "Dicentra",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Dirca palustris": {
+    "accepted": "Dirca palustris L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Thymelaeaceae",
+    "genus": "Dirca",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Malvales"
+  },
+  "Dodecatheon meadia": {
+    "accepted": "Dodecatheon meadia L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Primulaceae",
+    "genus": "Dodecatheon",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Echinacea angustifolia": {
+    "accepted": "Echinacea angustifolia DC.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Echinacea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Echinacea atrorubens": {
+    "accepted": "Echinacea atrorubens (Nutt.) Nutt.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Echinacea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Echinacea pallida": {
+    "accepted": "Echinacea pallida (Nutt.) Nutt.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Asteraceae",
+    "genus": "Echinacea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Echinacea purpurea": {
+    "accepted": "Echinacea purpurea (L.) Moench",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Echinacea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Elymus canadensis": {
+    "accepted": "Elymus canadensis L.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Elymus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Eryngium yuccifolium": {
+    "accepted": "Eryngium yuccifolium Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Apiaceae",
+    "genus": "Eryngium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Apiales"
+  },
+  "Erythronium americanum": {
+    "accepted": "Erythronium americanum Ker Gawl.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Liliaceae",
+    "genus": "Erythronium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Liliales"
+  },
+  "Eupatorium perfoliatum": {
+    "accepted": "Eupatorium perfoliatum L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Eupatorium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Euphorbia esula": {
+    "accepted": "Euphorbia esula L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Euphorbiaceae",
+    "genus": "Euphorbia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Malpighiales"
+  },
+  "Eurybia macrophylla": {
+    "accepted": "Eurybia macrophylla (L.) Cass.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Asteraceae",
+    "genus": "Eurybia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Eutrochium maculatum": {
+    "accepted": "Eutrochium maculatum (L.) E.E.Lamont",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Eutrochium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Fragaria virginiana": {
+    "accepted": "Fragaria virginiana Duchesne",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Rosaceae",
+    "genus": "Fragaria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Frangula alnus": {
+    "accepted": "Frangula alnus Mill.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Rhamnaceae",
+    "genus": "Frangula",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Fraxinus americana": {
+    "accepted": "Fraxinus americana L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Oleaceae",
+    "genus": "Fraxinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Lamiales"
+  },
+  "Fraxinus nigra": {
+    "accepted": "Fraxinus nigra Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Oleaceae",
+    "genus": "Fraxinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Lamiales"
+  },
+  "Fraxinus pennsylvanica": {
+    "accepted": "Fraxinus pennsylvanica Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Oleaceae",
+    "genus": "Fraxinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Lamiales"
+  },
+  "Gentiana alba": {
+    "accepted": "Gentiana alba Muhl. ex J.Mc Nab",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Gentianaceae",
+    "genus": "Gentiana",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Gentiana andrewsii": {
+    "accepted": "Gentiana andrewsii Griseb.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Gentianaceae",
+    "genus": "Gentiana",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Gentianales"
+  },
+  "Geranium maculatum": {
+    "accepted": "Geranium maculatum L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Geraniaceae",
+    "genus": "Geranium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Geraniales"
+  },
+  "Geum triflorum": {
+    "accepted": "Geum triflorum Pursh",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Rosaceae",
+    "genus": "Geum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Helenium autumnale": {
+    "accepted": "Helenium autumnale L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Helenium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Helianthus tuberosus": {
+    "accepted": "Helianthus tuberosus L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Asteraceae",
+    "genus": "Helianthus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Hepatica nobilis": {
+    "accepted": "Hepatica nobilis Schreb.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Ranunculaceae",
+    "genus": "Hepatica",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Hesperostipa spartea": {
+    "accepted": "Hesperostipa spartea (Trin.) Barkworth",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Hesperostipa",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Hierochloe odorata": {
+    "accepted": "Hierochloe odorata (L.) P.Beauv.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Poaceae",
+    "genus": "Anthoxanthum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Hydrophyllum virginianum": {
+    "accepted": "Hydrophyllum virginianum L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Hydrophyllaceae",
+    "genus": "Hydrophyllum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Boraginales"
+  },
+  "Iris versicolor": {
+    "accepted": "Iris versicolor L.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Iridaceae",
+    "genus": "Iris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asparagales"
+  },
+  "Juglans nigra": {
+    "accepted": "Juglans nigra L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Juglandaceae",
+    "genus": "Juglans",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Juncus effusus": {
+    "accepted": "Juncus effusus L.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Juncaceae",
+    "genus": "Juncus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Koeleria macrantha": {
+    "accepted": "Koeleria macrantha (Ledeb.) Schult.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Koeleria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Larix laricina": {
+    "accepted": "Larix laricina (Du Roi) K.Koch",
+    "class": "Pinopsida",
+    "confidence": 99,
+    "family": "Pinaceae",
+    "genus": "Larix",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Pinales"
+  },
+  "Liatris aspera": {
+    "accepted": "Liatris aspera Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Liatris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Liatris ligulistylis": {
+    "accepted": "Liatris ligulistylis (A.Nelson) K.Schum.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Liatris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Liatris punctata": {
+    "accepted": "Liatris punctata Hook.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Liatris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Liatris pycnostachya": {
+    "accepted": "Liatris pycnostachya Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Liatris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Liatris spicata": {
+    "accepted": "Liatris spicata (L.) Willd.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Liatris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Lobelia cardinalis": {
+    "accepted": "Lobelia cardinalis L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Campanulaceae",
+    "genus": "Lobelia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Lobelia siphilitica": {
+    "accepted": "Lobelia siphilitica L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Campanulaceae",
+    "genus": "Lobelia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Lupinus perennis": {
+    "accepted": "Lupinus perennis L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Fabaceae",
+    "genus": "Lupinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fabales"
+  },
+  "Lythrum salicaria": {
+    "accepted": "Lythrum salicaria L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Lythraceae",
+    "genus": "Lythrum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Myrtales"
+  },
+  "Maianthemum racemosum": {
+    "accepted": "Maianthemum racemosum (L.) Link",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Asparagaceae",
+    "genus": "Maianthemum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asparagales"
+  },
+  "Matteuccia struthiopteris": {
+    "accepted": "Matteuccia struthiopteris (L.) Tod.",
+    "class": "Polypodiopsida",
+    "confidence": 99,
+    "family": "Onocleaceae",
+    "genus": "Matteuccia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Polypodiales"
+  },
+  "Menispermum canadense": {
+    "accepted": "Menispermum canadense L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Menispermaceae",
+    "genus": "Menispermum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Mertensia virginica": {
+    "accepted": "Mertensia virginica (L.) Pers. ex Link",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Boraginaceae",
+    "genus": "Mertensia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Boraginales"
+  },
+  "Monarda fistulosa": {
+    "accepted": "Monarda fistulosa L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Lamiaceae",
+    "genus": "Monarda",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Lamiales"
+  },
+  "Myriophyllum sibiricum": {
+    "accepted": "Myriophyllum sibiricum Kom.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Haloragaceae",
+    "genus": "Myriophyllum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Saxifragales"
+  },
+  "Nuphar variegata": {
+    "accepted": "Nuphar variegata Engelm. ex Durand",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Nymphaeaceae",
+    "genus": "Nuphar",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Nymphaeales"
+  },
+  "Nymphaea odorata": {
+    "accepted": "Nymphaea odorata Sol. ex Aiton",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Nymphaeaceae",
+    "genus": "Nymphaea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Nymphaeales"
+  },
+  "Oenothera biennis": {
+    "accepted": "Oenothera biennis L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Onagraceae",
+    "genus": "Oenothera",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Myrtales"
+  },
+  "Onoclea sensibilis": {
+    "accepted": "Onoclea sensibilis L.",
+    "class": "Polypodiopsida",
+    "confidence": 99,
+    "family": "Onocleaceae",
+    "genus": "Onoclea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Polypodiales"
+  },
+  "Osmia lignaria": {
+    "accepted": "Osmia lignaria Say, 1837",
+    "class": "Insecta",
+    "confidence": 99,
+    "family": "Megachilidae",
+    "genus": "Osmia",
+    "kingdom": "Animalia",
+    "match": "EXACT",
+    "order": "Hymenoptera"
+  },
+  "Ostrya virginiana": {
+    "accepted": "Ostrya virginiana (Mill.) K.Koch",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Betulaceae",
+    "genus": "Ostrya",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Panicum virgatum": {
+    "accepted": "Panicum virgatum L.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Poaceae",
+    "genus": "Panicum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Parthenocissus quinquefolia": {
+    "accepted": "Parthenocissus quinquefolia (L.) Planch.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Vitaceae",
+    "genus": "Parthenocissus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Vitales"
+  },
+  "Pastinaca sativa": {
+    "accepted": "Pastinaca sativa L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Apiaceae",
+    "genus": "Pastinaca",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Apiales"
+  },
+  "Phalaris arundinacea": {
+    "accepted": "Phalaris arundinacea L.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Poaceae",
+    "genus": "Phalaris",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Phlox pilosa": {
+    "accepted": "Phlox pilosa L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Polemoniaceae",
+    "genus": "Phlox",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Physocarpus opulifolius": {
+    "accepted": "Physocarpus opulifolius (L.) Maxim.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Rosaceae",
+    "genus": "Physocarpus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Picea glauca": {
+    "accepted": "Picea glauca (Moench) Voss",
+    "class": "Pinopsida",
+    "confidence": 97,
+    "family": "Pinaceae",
+    "genus": "Picea",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Pinales"
+  },
+  "Pinus resinosa": {
+    "accepted": "Pinus resinosa Aiton",
+    "class": "Pinopsida",
+    "confidence": 97,
+    "family": "Pinaceae",
+    "genus": "Pinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Pinales"
+  },
+  "Pinus strobus": {
+    "accepted": "Pinus strobus L.",
+    "class": "Pinopsida",
+    "confidence": 97,
+    "family": "Pinaceae",
+    "genus": "Pinus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Pinales"
+  },
+  "Poa pratensis": {
+    "accepted": "Poa pratensis L.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Poaceae",
+    "genus": "Poa",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Polygonatum biflorum": {
+    "accepted": "Polygonatum biflorum (Walter) Elliott",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Asparagaceae",
+    "genus": "Polygonatum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asparagales"
+  },
+  "Polystichum acrostichoides": {
+    "accepted": "Polystichum acrostichoides (Michx.) Schott",
+    "class": "Polypodiopsida",
+    "confidence": 99,
+    "family": "Dryopteridaceae",
+    "genus": "Polystichum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Polypodiales"
+  },
+  "Pontederia cordata": {
+    "accepted": "Pontederia cordata L.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Pontederiaceae",
+    "genus": "Pontederia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Commelinales"
+  },
+  "Populus tremuloides": {
+    "accepted": "Populus tremuloides Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Salicaceae",
+    "genus": "Populus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Malpighiales"
+  },
+  "Prunus americana": {
+    "accepted": "Prunus americana Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Rosaceae",
+    "genus": "Prunus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Prunus serotina": {
+    "accepted": "Prunus serotina Ehrh.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Rosaceae",
+    "genus": "Prunus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Prunus virginiana": {
+    "accepted": "Prunus virginiana L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Rosaceae",
+    "genus": "Prunus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Psoralea esculenta": {
+    "accepted": "Pediomelum Rydb.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Fabaceae",
+    "genus": "Pediomelum",
+    "kingdom": "Plantae",
+    "match": "HIGHERRANK",
+    "order": "Fabales"
+  },
+  "Quercus alba": {
+    "accepted": "Quercus alba L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Fagaceae",
+    "genus": "Quercus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Quercus bicolor": {
+    "accepted": "Quercus bicolor Willd.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Fagaceae",
+    "genus": "Quercus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Quercus macrocarpa": {
+    "accepted": "Quercus macrocarpa Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Fagaceae",
+    "genus": "Quercus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Quercus palustris": {
+    "accepted": "Quercus palustris M\u00fcnchh.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Fagaceae",
+    "genus": "Quercus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Quercus rubra": {
+    "accepted": "Quercus rubra L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Fagaceae",
+    "genus": "Quercus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Fagales"
+  },
+  "Rhamnus cathartica": {
+    "accepted": "Rhamnus cathartica L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Rhamnaceae",
+    "genus": "Rhamnus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Rhododendron groenlandicum": {
+    "accepted": "Rhododendron groenlandicum (Oeder) Kron & Judd",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Ericaceae",
+    "genus": "Rhododendron",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Rhus glabra": {
+    "accepted": "Rhus glabra L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Anacardiaceae",
+    "genus": "Rhus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Rhus typhina": {
+    "accepted": "Rhus typhina L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Anacardiaceae",
+    "genus": "Rhus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Rosa blanda": {
+    "accepted": "Rosa blanda Aiton",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Rosaceae",
+    "genus": "Rosa",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Rudbeckia hirta": {
+    "accepted": "Rudbeckia hirta L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Rudbeckia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Sagittaria latifolia": {
+    "accepted": "Sagittaria latifolia Willd.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Alismataceae",
+    "genus": "Sagittaria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Alismatales"
+  },
+  "Sambucus canadensis": {
+    "accepted": "Sambucus canadensis L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Viburnaceae",
+    "genus": "Sambucus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Dipsacales"
+  },
+  "Sambucus racemosa": {
+    "accepted": "Sambucus racemosa L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Viburnaceae",
+    "genus": "Sambucus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Dipsacales"
+  },
+  "Sanguinaria canadensis": {
+    "accepted": "Sanguinaria canadensis L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Papaveraceae",
+    "genus": "Sanguinaria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ranunculales"
+  },
+  "Schizachyrium scoparium": {
+    "accepted": "Schizachyrium scoparium (Michx.) Nash",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Schizachyrium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Schoenoplectus tabernaemontani": {
+    "accepted": "Schoenoplectus tabernaemontani (C.C.Gmel.) Palla",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Cyperaceae",
+    "genus": "Schoenoplectus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Silphium laciniatum": {
+    "accepted": "Silphium laciniatum L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Silphium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Silphium perfoliatum": {
+    "accepted": "Silphium perfoliatum L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Silphium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Solidago caesia": {
+    "accepted": "Solidago caesia L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Solidago",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Solidago canadensis": {
+    "accepted": "Solidago canadensis L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Solidago",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Solidago flexicaulis": {
+    "accepted": "Solidago flexicaulis L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Solidago",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Solidago nemoralis": {
+    "accepted": "Solidago nemoralis Aiton",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Solidago",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Solidago rigida": {
+    "accepted": "Solidago rigida L.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Solidago",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Solidago speciosa": {
+    "accepted": "Solidago speciosa Nutt.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Asteraceae",
+    "genus": "Solidago",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Sorghastrum nutans": {
+    "accepted": "Sorghastrum nutans (L.) Nash",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Sorghastrum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Sporobolus heterolepis": {
+    "accepted": "Sporobolus heterolepis (A.Gray) A.Gray",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Sporobolus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Symphyotrichum laeve": {
+    "accepted": "Symphyotrichum laeve (L.) \u00c1.L\u00f6ve & D.L\u00f6ve",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Symphyotrichum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Symphyotrichum novae-angliae": {
+    "accepted": "Symphyotrichum novae-angliae (L.) G.L.Nesom",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Symphyotrichum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Symphyotrichum oblongifolium": {
+    "accepted": "Symphyotrichum oblongifolium (Nutt.) G.L.Nesom",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Symphyotrichum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Symphyotrichum oolentangiense": {
+    "accepted": "Symphyotrichum oolentangiense (Riddell) G.L.Nesom",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Symphyotrichum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Symphyotrichum puniceum": {
+    "accepted": "Symphyotrichum puniceum (L.) \u00c1.L\u00f6ve & D.L\u00f6ve",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Asteraceae",
+    "genus": "Symphyotrichum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Symplocarpus foetidus": {
+    "accepted": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Araceae",
+    "genus": "Symplocarpus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Alismatales"
+  },
+  "Thuja occidentalis": {
+    "accepted": "Thuja occidentalis L.",
+    "class": "Pinopsida",
+    "confidence": 99,
+    "family": "Cupressaceae",
+    "genus": "Thuja",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Pinales"
+  },
+  "Tilia americana": {
+    "accepted": "Tilia americana L.",
+    "class": "Magnoliopsida",
+    "confidence": 98,
+    "family": "Malvaceae",
+    "genus": "Tilia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Malvales"
+  },
+  "Toxicodendron radicans": {
+    "accepted": "Toxicodendron radicans (L.) Kuntze",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Anacardiaceae",
+    "genus": "Toxicodendron",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Sapindales"
+  },
+  "Tradescantia ohiensis": {
+    "accepted": "Tradescantia ohiensis Raf.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Commelinaceae",
+    "genus": "Tradescantia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Commelinales"
+  },
+  "Trillium cernuum": {
+    "accepted": "Trillium cernuum L.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Melanthiaceae",
+    "genus": "Trillium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Liliales"
+  },
+  "Trillium erectum": {
+    "accepted": "Trillium erectum L.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Melanthiaceae",
+    "genus": "Trillium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Liliales"
+  },
+  "Trillium grandiflorum": {
+    "accepted": "Trillium grandiflorum (Michx.) Salisb.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Melanthiaceae",
+    "genus": "Trillium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Liliales"
+  },
+  "Trillium nivale": {
+    "accepted": "Trillium nivale Riddell",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Melanthiaceae",
+    "genus": "Trillium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Liliales"
+  },
+  "Typha angustifolia": {
+    "accepted": "Typha angustifolia L.",
+    "class": "Liliopsida",
+    "confidence": 97,
+    "family": "Typhaceae",
+    "genus": "Typha",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Typha latifolia": {
+    "accepted": "Typha latifolia L.",
+    "class": "Liliopsida",
+    "confidence": 98,
+    "family": "Typhaceae",
+    "genus": "Typha",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Ulmus americana": {
+    "accepted": "Ulmus americana L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Ulmaceae",
+    "genus": "Ulmus",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Urtica dioica": {
+    "accepted": "Urtica dioica L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Urticaceae",
+    "genus": "Urtica",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Rosales"
+  },
+  "Vaccinium angustifolium": {
+    "accepted": "Vaccinium angustifolium Aiton",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Ericaceae",
+    "genus": "Vaccinium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Vaccinium macrocarpon": {
+    "accepted": "Vaccinium macrocarpon Aiton",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Ericaceae",
+    "genus": "Vaccinium",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Ericales"
+  },
+  "Vallisneria americana": {
+    "accepted": "Vallisneria americana Michx.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Hydrocharitaceae",
+    "genus": "Vallisneria",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Alismatales"
+  },
+  "Vernonia fasciculata": {
+    "accepted": "Vernonia fasciculata Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Asteraceae",
+    "genus": "Vernonia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Asterales"
+  },
+  "Veronicastrum virginicum": {
+    "accepted": "Veronicastrum virginicum (L.) Farw.",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Plantaginaceae",
+    "genus": "Veronicastrum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Lamiales"
+  },
+  "Viburnum acerifolium": {
+    "accepted": "Viburnum acerifolium L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Viburnaceae",
+    "genus": "Viburnum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Dipsacales"
+  },
+  "Viburnum lentago": {
+    "accepted": "Viburnum lentago L.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Viburnaceae",
+    "genus": "Viburnum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Dipsacales"
+  },
+  "Viburnum trilobum": {
+    "accepted": "Viburnum trilobum Marshall",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Viburnaceae",
+    "genus": "Viburnum",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Dipsacales"
+  },
+  "Vitis riparia": {
+    "accepted": "Vitis riparia Michx.",
+    "class": "Magnoliopsida",
+    "confidence": 97,
+    "family": "Vitaceae",
+    "genus": "Vitis",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Vitales"
+  },
+  "Zizania palustris": {
+    "accepted": "Zizania palustris L.",
+    "class": "Liliopsida",
+    "confidence": 99,
+    "family": "Poaceae",
+    "genus": "Zizania",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Poales"
+  },
+  "Zizia aurea": {
+    "accepted": "Zizia aurea (L.) W.D.J.Koch",
+    "class": "Magnoliopsida",
+    "confidence": 99,
+    "family": "Apiaceae",
+    "genus": "Zizia",
+    "kingdom": "Plantae",
+    "match": "EXACT",
+    "order": "Apiales"
+  }
+}

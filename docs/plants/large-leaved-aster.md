@@ -13,13 +13,13 @@ Eurybia macrophylla, commonly known as the bigleaf aster, large-leaved aster, la
 | | |
 |---|---|
 | **Scientific name** | *Eurybia macrophylla* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Broad basal leaves carpet northern woods; late shade nectar |
 
 ## Mentioned In
 

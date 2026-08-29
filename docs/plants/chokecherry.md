@@ -13,13 +13,13 @@ Prunus virginiana, commonly called bitter-berry, chokecherry, Virginia bird cher
 | | |
 |---|---|
 | **Scientific name** | *Prunus virginiana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 15-25 ft |
+| **Bloom time** | May |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Fruit for dozens of bird species; host to many caterpillars |
 
 ## Mentioned In
 

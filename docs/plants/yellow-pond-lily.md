@@ -15,13 +15,13 @@ Nuphar is a genus of aquatic plants in the family Nymphaeaceae, with a temperate
 | | |
 |---|---|
 | **Scientific name** | *Nuphar variegata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Nymphaeaceae |
+| **Height** | Floating leaves |
+| **Bloom time** | Jun-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Aquatic, 1-6 ft deep |
+| **Soil** | Muck |
+| **Wildlife value** | Cup-shaped yellow flowers; rhizomes eaten by muskrat and beaver; pads shelter fish |
 
 ## Mentioned In
 

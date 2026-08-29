@@ -15,13 +15,13 @@ Alliaria petiolata, or  garlic mustard, is a biennial flowering plant in the mus
 | | |
 |---|---|
 | **Scientific name** | *Alliaria petiolata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Brassicaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Apr-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | INVASIVE. Poisons soil fungi that native trees depend on; a single plant sets thousands of seeds |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Bouteloua dactyloides, commonly known as buffalograss or buffalo grass, is a Nor
 | | |
 |---|---|
 | **Scientific name** | *Bouteloua dactyloides* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 4-8 in |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Clay, loam |
+| **Wildlife value** | Short-grass prairie sod; at the eastern edge of its range in Minnesota |
 
 ## Mentioned In
 

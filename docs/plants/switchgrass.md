@@ -15,13 +15,13 @@ Panicum virgatum, commonly known as switchgrass and panic grass, is a perennial 
 | | |
 |---|---|
 | **Scientific name** | *Panicum virgatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 3-6 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | Airy seed clouds; excellent winter cover and seed for birds |
 
 ## Mentioned In
 

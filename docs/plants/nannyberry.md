@@ -15,13 +15,13 @@ Viburnum lentago, the nannyberry, sheepberry, or sweet viburnum, is a species of
 | | |
 |---|---|
 | **Scientific name** | *Viburnum lentago* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Viburnaceae |
+| **Height** | 12-18 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Sweet blue-black fruit persists into winter; excellent small native tree |
 
 ## Mentioned In
 

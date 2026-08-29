@@ -15,13 +15,13 @@ Silphium laciniatum is a species of flowering plant in the family Asteraceae kno
 | | |
 |---|---|
 | **Scientific name** | *Silphium laciniatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 6-10 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Deep loam |
+| **Wildlife value** | Leaves orient north-south; taproot reaches 15 ft; seed for finches |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Solidago canadensis, known as Canada goldenrod or Canadian goldenrod, is an herb
 | | |
 |---|---|
 | **Scientific name** | *Solidago canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Any |
+| **Wildlife value** | Major late nectar source. Native but rhizomatous - spreads hard in gardens |
 
 ## Mentioned In
 

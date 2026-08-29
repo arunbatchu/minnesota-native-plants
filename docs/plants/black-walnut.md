@@ -16,13 +16,13 @@ Black walnut is susceptible to thousand cankers disease, which provoked a declin
 | | |
 |---|---|
 | **Scientific name** | *Juglans nigra* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Juglandaceae |
+| **Height** | 50-75 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Deep loam |
+| **Wildlife value** | Nuts for squirrels; roots release juglone, which suppresses some neighbors |
 
 ## Mentioned In
 

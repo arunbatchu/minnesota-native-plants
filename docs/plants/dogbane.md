@@ -15,13 +15,13 @@ Apocynum cannabinum (dogbane, amy root, hemp dogbane, prairie dogbane, Indian he
 | | |
 |---|---|
 | **Scientific name** | *Apocynum cannabinum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apocynaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Nectar for many insects; historically a cordage fiber. Toxic to livestock |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Allium cernuum, known as nodding onion or lady's leek, is a perennial plant in t
 | | |
 |---|---|
 | **Scientific name** | *Allium cernuum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Amaryllidaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Rocky loam |
+| **Wildlife value** | Nodding pink umbels; edible; good late-summer bee forage |
 
 ## Mentioned In
 

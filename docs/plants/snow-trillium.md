@@ -14,13 +14,13 @@ Trillium nivale is a perennial herbaceous plant that flowers late winter or earl
 | | |
 |---|---|
 | **Scientific name** | *Trillium nivale* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Melanthiaceae |
+| **Height** | 3-6 in |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Calcareous loam |
+| **Wildlife value** | Minnesota's earliest trillium, often blooming in snow; a state species of concern |
 
 ## Mentioned In
 

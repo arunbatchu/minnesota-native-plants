@@ -15,13 +15,13 @@ Phlox pilosa, the downy phlox or prairie phlox, is an herbaceous plant in the fa
 | | |
 |---|---|
 | **Scientific name** | *Phlox pilosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Polemoniaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Fragrant pink; nectar tube suits butterflies and moths |
 
 ## Mentioned In
 

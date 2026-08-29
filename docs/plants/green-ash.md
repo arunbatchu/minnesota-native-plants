@@ -16,13 +16,13 @@ Other names more rarely used include downy ash, swamp ash, and water ash.
 | | |
 |---|---|
 | **Scientific name** | *Fraxinus pennsylvanica* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Oleaceae |
+| **Height** | 50-70 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | Once the standard boulevard tree; now devastated by emerald ash borer |
 
 ## Mentioned In
 

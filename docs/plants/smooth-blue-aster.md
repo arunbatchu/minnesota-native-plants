@@ -17,13 +17,13 @@ Symphyotrichum laeve (formerly Aster laevis) is a flowering plant native to Cana
 | | |
 |---|---|
 | **Scientific name** | *Symphyotrichum laeve* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Waxy blue-green foliage; heavy bee and butterfly use into October |
 
 ## Mentioned In
 

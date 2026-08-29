@@ -15,13 +15,13 @@ Toxicodendron radicans, commonly known as eastern poison ivy or poison ivy, is a
 | | |
 |---|---|
 | **Scientific name** | *Toxicodendron radicans* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Anacardiaceae |
+| **Height** | Groundcover or vine |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to shade |
+| **Moisture** | Dry to wet |
+| **Soil** | Any |
+| **Wildlife value** | Native; berries are important winter bird food. Urushiol causes severe rash - leaves of three |
 
 ## Mentioned In
 

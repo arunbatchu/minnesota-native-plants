@@ -15,13 +15,13 @@ Caulophyllum thalictroides, the blue cohosh, is a species of flowering plant in 
 | | |
 |---|---|
 | **Scientific name** | *Caulophyllum thalictroides* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Berberidaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Blue seed taken by birds; indicator of undisturbed woods |
 
 ## Mentioned In
 

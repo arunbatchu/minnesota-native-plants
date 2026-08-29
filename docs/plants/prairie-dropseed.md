@@ -15,13 +15,13 @@ Sporobolus heterolepis, commonly known as prairie dropseed, is a species of prai
 | | |
 |---|---|
 | **Scientific name** | *Sporobolus heterolepis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Fine fountain-like mounds; seed smells of coriander; slow but very long-lived |
 
 ## Mentioned In
 

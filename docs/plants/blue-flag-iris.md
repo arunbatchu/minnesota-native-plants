@@ -18,13 +18,13 @@ It is a species of Iris native to North America, in Eastern Canada and the Easte
 | | |
 |---|---|
 | **Scientific name** | *Iris versicolor* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Iridaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Shoreline stabilizer; worked by bumble bees and hummingbirds |
 
 ## Mentioned In
 

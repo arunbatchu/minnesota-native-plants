@@ -405,7 +405,7 @@ Summer is the peak bloom season in Minnesota, with hundreds of native species fl
 
 - **Purple Coneflower** (*Echinacea purpurea*) — Perhaps Minnesota's most recognizable native wildflower, beloved by butterflies and native bees
 - **Wild Bergamot** (*Monarda fistulosa*) — Lavender flower clusters that hum with bumblebees and hummingbird moths throughout July
-- **Black-Eyed Susan** (*Rudbera hirta*) — Cheerful yellow flowers that bloom prolifically in the first years after seeding
+- **Black-Eyed Susan** (*Rudbeckia hirta*) — Cheerful yellow flowers that bloom prolifically in the first years after seeding
 - **Butterfly Milkweed** (*Asclepias tuberosa*) — Brilliant orange flowers essential for Monarch butterflies
 - **Blazing Stars** (*Liatris* species) — Spikes of purple that bloom from the top down, drawing Monarchs and swallowtails
 - **Culver's Root** (*Veronicastrum virginicum*) — Elegant white flower spires visited by dozens of native bee species

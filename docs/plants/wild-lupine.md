@@ -17,13 +17,13 @@ Lupinus perennis (also wild perennial lupine, wild lupine, sundial lupine, blue 
 | | |
 |---|---|
 | **Scientific name** | *Lupinus perennis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand |
+| **Wildlife value** | The ONLY larval host for the endangered Karner blue butterfly; nitrogen fixer |
 
 ## Mentioned In
 

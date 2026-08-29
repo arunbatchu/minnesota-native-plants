@@ -16,13 +16,13 @@ Picea glauca is native from central Alaska all through the east, across western 
 | | |
 |---|---|
 | **Scientific name** | *Picea glauca* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pinaceae |
+| **Height** | 40-60 ft |
+| **Bloom time** | Cones, not flowers |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Dense winter cover; seed for crossbills, chickadees and red squirrels |
 
 ## Mentioned In
 

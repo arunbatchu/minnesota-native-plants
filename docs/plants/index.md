@@ -2,7 +2,22 @@
 
 Click any plant to see photos, growing conditions, and the chapters that mention it.
 
-_212 species in this gallery._
+_211 cards in this gallery — 207 plants plus four animals (two bees, a butterfly
+and a beetle) that the chapters discuss alongside them._
+
+!!! note "About the Quick Facts on each card"
+    **Family** comes from the [GBIF](https://www.gbif.org/) taxonomic backbone
+    and is machine-verified. **Height, bloom time, sun, moisture, soil and
+    wildlife value** are typical values for Minnesota, compiled for this book.
+    Bloom months are for the Twin Cities — expect a week or two later up north
+    and a little earlier in the far south. Growing conditions describe what a
+    species tolerates *here*, not across its whole continental range.
+
+    These are planning figures, not a substitute for local advice. Before you
+    buy, check with a Minnesota native-plant nursery or your county's
+    Soil and Water Conservation District — and see
+    [Chapter 11](../chapters/11-planting-maintenance-sourcing/index.md) on
+    sourcing MN-genotype stock.
 
 ## All Species
 
@@ -23,8 +38,7 @@ _212 species in this gallery._
 | [Black Ash](black-ash.md) | *Fraxinus nigra* | 02, 08 |
 | [Black Cherry](black-cherry.md) | *Prunus serotina* | 06 |
 | [Black Walnut](black-walnut.md) | *Juglans nigra* | 13 |
-| [Black-Eyed Susan](black-eyed-susan.md) | *Rudbeckia hirta* | 02, 03, 06, 11 |
-| [Black-Eyed Susan](black-eyed-susan.md) | *Rudbera hirta* | 12 |
+| [Black-Eyed Susan](black-eyed-susan.md) | *Rudbeckia hirta* | 02, 03, 06, 11, 12 |
 | [Blazing Star](blazing-star.md) | *Liatris ligulistylis* | 06 |
 | [Bloodroot](bloodroot.md) | *Sanguinaria canadensis* | 02, 04, 07, 12, 13 |
 | [Blue Beech](blue-beech.md) | *Carpinus caroliniana* | 04 |

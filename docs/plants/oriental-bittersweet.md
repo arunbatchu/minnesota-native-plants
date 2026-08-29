@@ -16,13 +16,13 @@ It is native to China, where it is the most widely distributed Celastrus species
 | | |
 |---|---|
 | **Scientific name** | *Celastrus orbiculatus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Celastraceae |
+| **Height** | Vine to 60 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE. Strangles and topples mature trees; hybridizes with native American bittersweet |
 
 ## Mentioned In
 

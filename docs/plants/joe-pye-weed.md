@@ -15,13 +15,13 @@ Eutrochium is a North American genus of herbaceous flowering plants in the famil
 | | |
 |---|---|
 | **Scientific name** | *Eutrochium maculatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 4-7 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Big dusty-pink heads; one of the best butterfly plants for wet ground |
 
 ## Mentioned In
 

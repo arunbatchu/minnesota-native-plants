@@ -15,13 +15,13 @@ Symphyotrichum oolentangiense (formerly Aster oolentangiensis and Aster azureus)
 | | |
 |---|---|
 | **Scientific name** | *Symphyotrichum oolentangiense* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Clear blue rays on dry prairie; important late nectar |
 
 ## Mentioned In
 

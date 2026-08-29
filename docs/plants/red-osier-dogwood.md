@@ -15,13 +15,13 @@ Cornus sericea, the red osier or red-osier dogwood, is a species of flowering pl
 | | |
 |---|---|
 | **Scientific name** | *Cornus sericea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cornaceae |
+| **Height** | 6-10 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | Brilliant red winter stems; white fruit for birds; superb streambank stabilizer |
 
 ## Mentioned In
 

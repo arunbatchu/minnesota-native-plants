@@ -382,7 +382,8 @@
       "02-ecoregions-growing-conditions",
       "03-prairie-plants-grasslands",
       "06-pollinators-wildlife",
-      "11-planting-maintenance-sourcing"
+      "11-planting-maintenance-sourcing",
+      "12-ecological-restoration"
     ],
     "images": [
       {
@@ -403,16 +404,6 @@
     "wikipedia_title": "Rudbeckia hirta",
     "summary": "Rudbeckia hirta, commonly called black-eyed Susan and yellow coneflower, is a North American flowering plant in the family Asteraceae. It grows to 1 metre (3+1\u20442 ft) tall with daisy-like yellow flower heads. There are numerous cultivars.",
     "fetch_status": "ok"
-  },
-  "Rudbera hirta": {
-    "slug": "black-eyed-susan",
-    "common_name": "Black-Eyed Susan",
-    "scientific_name": "Rudbera hirta",
-    "mentioned_in": [
-      "12-ecological-restoration"
-    ],
-    "images": [],
-    "fetch_status": "no_page"
   },
   "Liatris ligulistylis": {
     "slug": "blazing-star",

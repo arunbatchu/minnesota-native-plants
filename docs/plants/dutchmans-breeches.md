@@ -16,13 +16,13 @@ The common name Dutchman's breeches derives from their white flowers that look l
 | | |
 |---|---|
 | **Scientific name** | *Dicentra cucullaria* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Papaveraceae |
+| **Height** | 6-10 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Spring ephemeral; pollinated by queen bumble bees; ant-dispersed seed |
 
 ## Mentioned In
 
