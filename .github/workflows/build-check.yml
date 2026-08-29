@@ -1,0 +1,63 @@
+name: Build check
+
+# Runs on pull requests, so a broken build is caught before it reaches main
+# rather than failing the deploy afterwards. deploy.yml only triggers on a
+# push to main, which meant nothing verified a branch until it was merged.
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: build-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # Required by the Material "social" plugin (cairosvg / Pillow) to render
+      # social-share cards. Without these the build aborts.
+      - name: Install imaging system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev \
+                                  libjpeg-dev libpng-dev libz-dev
+
+      - name: Set cache id
+        run: echo "cache_id=$(date --utc '+%V')" >> "$GITHUB_ENV"
+
+      - name: Cache MkDocs Material assets
+        uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # --strict turns broken internal links and nav references into errors.
+      - name: Build the site
+        run: mkdocs build --strict
+
+      - name: Check book metrics are current
+        run: python3 scripts/book-metrics.py --check
+
+      - name: Validate mascot placement in every chapter
+        run: |
+          rc=0
+          for f in docs/chapters/*/index.md; do
+            python3 scripts/validate-chapter-mascots.py "$f" || rc=1
+          done
+          exit $rc
