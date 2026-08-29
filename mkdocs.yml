@@ -122,7 +122,8 @@ nav:
 
 theme:
   name: material
-  logo: img/mascot/neutral.png
+  # Bree, the learning mascot — see docs/img/mascot/character-sheet.md
+  logo: img/mascot/logo.png
   favicon: img/favicon.ico
   palette:
     primary: 'green'
