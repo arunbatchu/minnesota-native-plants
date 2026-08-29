@@ -308,11 +308,10 @@ The woodland floor hosts many more spring ephemerals beyond the well-known blood
 
 !!! mascot-thinking "Why the Rush to Bloom?"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
-    Ever wonder why so many woodland flowers bloom all at once in early spring,
-    garden friends? Before the trees leaf out, sunlight pours all the way down to
-    the forest floor. Spring ephemerals seize that brief, bright window to flower,
-    feed the first bees, and store energy — then they fade away for the year by
-    early summer. Let's explore the prairie... and the woods!
+    Ever wonder why so many woodland flowers bloom at once in early spring,
+    garden friends? Before the trees leaf out, sunlight reaches all the way to
+    the forest floor, and the ephemerals use that brief window to flower, feed
+    the first bees of the year, and store energy before fading by June.
 
 ## Solomon's Seal
 

@@ -81,6 +81,43 @@ Minnesota is home to more than 400 species of native bees. Most people picture t
 
 Most native bees are **solitary** -- each female builds her own nest, provisions it with pollen, and lays her eggs alone. Only bumblebees among Minnesota's natives form true social colonies with a queen and workers, and even their colonies are small (50-400 individuals) compared to honeybee hives (30,000-60,000).
 
+## Minnesota's State Bee: The Rusty-Patched Bumble Bee
+
+In 2019 the Minnesota Legislature named the Rusty-Patched Bumble Bee (*Bombus affinis*) the official state bee. Two years earlier, in 2017, the U.S. Fish and Wildlife Service had listed it as **endangered** -- the first bumble bee in the continental United States to receive federal protection. Minnesota adopted as its symbol a bee that is disappearing.
+
+### How to Recognize It
+
+Workers and males carry a small **rust-orange patch** across the front of the second segment of the abdomen, ringed by yellow. That patch is where the name comes from, and it is the field mark. Queens do not have it -- their first two abdominal segments are entirely yellow. All three castes share a yellow thorax with a single black spot between the wing bases, which looks a little like a thumbtack pressed into the fur.
+
+Size varies by role: queens run 19-23 mm, workers 9-16 mm, and males 14-17 mm.
+
+### Why It Declined
+
+The species once ranged across 28 states and much of southern Canada. Since about 2007 it has vanished from most of that range. Researchers point to several causes acting together:
+
+- **Habitat loss** -- the prairies and flower-rich meadows it fed on were converted to cropland and development
+- **Disease** -- pathogens spread from commercial bumble bee colonies used to pollinate greenhouse crops
+- **Pesticides** -- neonicotinoid insecticides, which persist in plant tissue including pollen and nectar
+- **Climate change** -- shifting bloom times that no longer line up with the colony's needs
+
+### Why This Book Matters to It
+
+The rusty-patched bumble bee is **short-tongued**, so it feeds at flowers with shallow, open centers rather than deep tubular ones. And it needs food across the whole season, not just at peak summer. A queen emerges from hibernation in early spring and has to find nectar immediately or the colony never starts. New queens produced in late summer must fatten before they hibernate, so late-season blooms decide whether next year's colonies exist at all.
+
+That is the bloom-succession principle from this chapter and from [Chapter 10](../10-garden-design-native-plants/index.md), stated as a survival requirement. A garden with a spectacular July and nothing in April or September is a garden this bee cannot live in.
+
+Plants that serve it well in Minnesota include Wild Bergamot, Common Milkweed, Purple Prairie Clover, New England Aster, Showy Goldenrod, and the spring woodland ephemerals such as Virginia Bluebells and Wild Geranium.
+
+### Where It Still Lives
+
+The Twin Cities metro is one of the species' last strongholds. It persists in parks, restored prairies, and residential gardens across the seven-county area -- which means home gardeners here are not bystanders to its recovery. Sightings can be reported to [Bumble Bee Watch](https://www.bumblebeewatch.org/), a community science project that tracks bumble bee populations across North America.
+
+!!! mascot-encourage "You Can Actually Help This One"
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Bree giving a thumbs up">
+    Let's grow together! This is me, by the way. Most conservation problems are
+    too big for one yard, but mine isn't -- a few shallow-flowered natives that
+    bloom in April and again in September genuinely change my odds.
+
 ## Monarch Butterfly
 
 [The Monarch Butterfly](../../plants/the-monarch-butterfly/) (*Danaus plexippus*) is one of the most recognizable insects in North America and an important symbol of pollinator conservation. With its bold orange-and-black wings spanning 3.5 to 4 inches, the monarch is hard to miss in a Minnesota prairie.

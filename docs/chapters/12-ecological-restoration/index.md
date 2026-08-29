@@ -552,7 +552,7 @@ A thoughtfully planned restoration provides beauty and ecological value in every
 - Snow-covered grass clumps provide small mammal shelter
 
 !!! mascot-encourage "You Can Do This!"
-    <img src="../../img/mascot/encourage.png" class="mascot-admonition-img" alt="Bree encourage">
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Bree encourage">
     When you plan for four seasons of beauty, your restoration becomes a place
     people want to visit year-round. That connection to the land is what turns
     neighbors into advocates and one restoration into many.

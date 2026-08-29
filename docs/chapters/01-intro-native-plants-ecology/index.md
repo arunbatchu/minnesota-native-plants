@@ -2,10 +2,10 @@
 
 !!! mascot-welcome "Welcome, Garden Friends!"
     <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Bree waving welcome">
-    Let's explore the prairie! I'm Bree, and I'll be your guide through the
-    wonderful world of Minnesota's native plants. In this first chapter, we'll
-    build the foundation you need to understand what makes a plant "native" and
-    why that matters for our landscapes and ecosystems.
+    Let's explore the prairie! I'm Bree, a rusty-patched bumble bee — Minnesota's
+    state bee. I'm also endangered, so the plants in this book are the reason
+    I'm still here. In this first chapter we'll build the foundation you need to
+    understand what makes a plant "native" and why that matters.
 
 ## Summary
 

@@ -2,7 +2,7 @@
 
 !!! mascot-welcome "Welcome, fellow nature lovers!"
     <img src="img/mascot/welcome.png" class="mascot-admonition-img" alt="Bree waving welcome">
-    I'm Bree, your guide through the wonderful world of Minnesota's native plants. Let's explore the prairie!
+    I'm Bree, a rusty-patched bumble bee and your guide through Minnesota's native plants. Let's explore the prairie!
 
 ## What Is This Book?
 
@@ -19,7 +19,7 @@ This is not a traditional textbook. It includes several features that make learn
 - **Interactive MicroSims** — hands-on simulations that let you explore concepts like fire ecology, pollinator matching, and garden design
 - **Learning Graph** — a structured map of 289 interconnected concepts showing how ideas build on each other
 - **Per-Chapter Quizzes** — test your understanding with 10 questions per chapter
-- **Pedagogical Agent** — Bree the Bee guides you through content with tips, encouragement, and key insights
+- **Pedagogical Agent** — Bree, a rusty-patched bumble bee (Minnesota's endangered state bee), guides you through the content with tips, encouragement, and key insights
 - **Mermaid Diagrams** — visual flowcharts and concept maps embedded throughout
 
 ## How Is It Organized?

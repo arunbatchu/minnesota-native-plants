@@ -123,10 +123,9 @@ Measure each layer to determine your soil's proportions. Roughly equal parts of 
 
 !!! mascot-thinking "Key Insight"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
-    One of the biggest advantages of native plants is that many of them are
-    adapted to the "problem" soils that frustrate conventional gardeners. Heavy
-    clay? There's a native for that. Bone-dry sand? There's a native for that
-    too. Work with your soil rather than against it.
+    Many natives are adapted to exactly the "problem" soils that frustrate
+    conventional gardeners — heavy clay, bone-dry sand, soggy low spots. Work
+    with the soil you have rather than against it.
 
 ## Microclimate Assessment
 
