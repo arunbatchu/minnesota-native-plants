@@ -91,6 +91,7 @@ nav:
     - Chapter Metrics: learning-graph/chapter-metrics.md
     - Mascot Style Guide: learning-graph/mascot-test.md
   - MicroSims:
+    - All MicroSims: sims/index.md
     - Graph Viewer: sims/graph-viewer/index.md
     - Native vs Invasive Sorter: sims/native-vs-invasive-sorter/index.md
     - MN Ecoregion Explorer: sims/mn-ecoregion-explorer/index.md
