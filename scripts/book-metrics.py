@@ -32,7 +32,11 @@ def main(argv):
     sims = sorted(d for d in (DOCS / "sims").iterdir()
                   if d.is_dir() and (d / "index.md").exists())
     cards = [p for p in (DOCS / "plants").glob("*.md") if p.stem != "index"]
-    md = list(DOCS.rglob("*.md"))
+    # Exclude this script's own output. It is generated, not book content,
+    # and counting it created a feedback loop: the Equations note names the
+    # arithmatex delimiters, so each run found them in the previous run's
+    # file and reported the book had math in it.
+    md = [p for p in DOCS.rglob("*.md") if p != OUT]
 
     with open(DOCS / "learning-graph" / "learning-graph.csv") as f:
         concepts = sum(1 for _ in csv.reader(f)) - 1
@@ -87,7 +91,7 @@ def main(argv):
         ("Quiz Questions (applied)", quiz_applied_q, "—", "Numbered H4s in quiz-applied.md"),
         ("Quiz Questions (total)", quiz_q + quiz_applied_q, "—", "Both quizzes, all chapters"),
         ("Diagrams", diagrams + mermaid, "—", "'#### Diagram:' headers plus mermaid blocks"),
-        ("Equations", equations, "—", "arithmatex delimiters: \\( \\[ $$"),
+        ("Equations", equations, "—", "arithmatex math delimiters"),
         ("MicroSims", len(sims), "[Simulations](../sims/index.md)", "Directories in docs/sims/"),
         ("MicroSim Screenshots", f"{shots} ({round(100*shots/len(sims))}%)", "[Catalog](../sims/index.md)", "PNGs for the visual catalog"),
         ("Total Words", f"{total_words:,}", "—", "Words in all markdown, excluding code and URLs"),
