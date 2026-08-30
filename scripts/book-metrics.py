@@ -57,7 +57,11 @@ def main(argv):
     all_text = "\n".join(p.read_text() for p in md)
     diagrams = len(re.findall(r"^#### Diagram:", all_text, re.M))
     mermaid = len(re.findall(r"```mermaid", all_text))
-    equations = len(re.findall(r"\$\$?[^$\n]+\$\$?", all_text))
+    # Count only real arithmatex delimiters: \( ... \), \[ ... \], $$ ... $$.
+    # A bare $...$ regex counted this book's install-cost ranges
+    # ("$800 – $1,800") as seven equations, which is why the report used to
+    # claim the book had math in it.
+    equations = len(re.findall(r"\\\(|\\\[|\$\$", all_text))
     links = len(re.findall(r"\[[^\]]+\]\([^)]+\)", all_text))
     total_words = sum(words(p.read_text()) for p in md)
 
@@ -83,7 +87,7 @@ def main(argv):
         ("Quiz Questions (applied)", quiz_applied_q, "—", "Numbered H4s in quiz-applied.md"),
         ("Quiz Questions (total)", quiz_q + quiz_applied_q, "—", "Both quizzes, all chapters"),
         ("Diagrams", diagrams + mermaid, "—", "'#### Diagram:' headers plus mermaid blocks"),
-        ("Equations", equations, "—", "LaTeX expressions"),
+        ("Equations", equations, "—", "arithmatex delimiters: \\( \\[ $$"),
         ("MicroSims", len(sims), "[Simulations](../sims/index.md)", "Directories in docs/sims/"),
         ("MicroSim Screenshots", f"{shots} ({round(100*shots/len(sims))}%)", "[Catalog](../sims/index.md)", "PNGs for the visual catalog"),
         ("Total Words", f"{total_words:,}", "—", "Words in all markdown, excluding code and URLs"),

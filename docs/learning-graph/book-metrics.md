@@ -14,12 +14,12 @@ do not edit the numbers by hand.
 | Quiz Questions (applied) | 170 | — | Numbered H4s in quiz-applied.md |
 | Quiz Questions (total) | 340 | — | Both quizzes, all chapters |
 | Diagrams | 34 | — | '#### Diagram:' headers plus mermaid blocks |
-| Equations | 7 | — | LaTeX expressions |
+| Equations | 0 | — | arithmatex delimiters: \( \[ $$ |
 | MicroSims | 22 | [Simulations](../sims/index.md) | Directories in docs/sims/ |
 | MicroSim Screenshots | 22 (100%) | [Catalog](../sims/index.md) | PNGs for the visual catalog |
-| Total Words | 229,852 | — | Words in all markdown, excluding code and URLs |
+| Total Words | 228,492 | — | Words in all markdown, excluding code and URLs |
 | Links | 2,109 | — | Markdown-formatted links |
-| Equivalent Pages | 939 | — | 250 words/page + 0.25/diagram + 0.5/MicroSim |
+| Equivalent Pages | 933 | — | 250 words/page + 0.25/diagram + 0.5/MicroSim |
 | Species Cards | 211 | [Plants](../plants/index.md) | Per-species reference pages |
 | Cards w/ Quick Facts | 211 (100%) | — | Trait data populated, not just dashes |
 | Cards w/ Photos | 178 (84%) | — | At least one Wikimedia photo |
