@@ -505,6 +505,106 @@ Minnesota's Reinvest in Minnesota (RIM) Reserve program and federal Wetlands Res
     walk past a marshy area, take a closer look — you'll see these plants hard
     at work.
 
+<!-- BLOOM-CHART:START -->
+### Wetland and Shoreline Bloom Succession
+
+Wetland and shoreline species by month. Bars show the typical bloom window in the Twin Cities — a week or two later up north. The heavier lines mark April and September, the two months a pollinator garden is most often missing. Non-native and invasive species mentioned in this chapter are left out — 2 of them — because a succession chart reads as a list of things to plant.
+
+No species in this chapter blooms in Oct.
+
+<figure markdown>
+<svg viewBox="0 0 754 520" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wetland and Shoreline Bloom Succession" style="max-width:100%;height:auto;font-family:system-ui,-apple-system,sans-serif">
+<style>.bl-m{font-size:11px;fill:currentColor;opacity:.72}.bl-s{font-size:11px;fill:currentColor;opacity:.92}.bl-g{stroke:currentColor;opacity:.13}.bl-q{stroke:currentColor;opacity:.30}</style>
+<line class="bl-g" x1="186" y1="28" x2="186" y2="494" stroke-width="1"/>
+<text class="bl-m" x="209.0" y="22" text-anchor="middle">Jan</text>
+<line class="bl-g" x1="232" y1="28" x2="232" y2="494" stroke-width="1"/>
+<text class="bl-m" x="255.0" y="22" text-anchor="middle">Feb</text>
+<line class="bl-g" x1="278" y1="28" x2="278" y2="494" stroke-width="1"/>
+<text class="bl-m" x="301.0" y="22" text-anchor="middle">Mar</text>
+<line class="bl-q" x1="324" y1="28" x2="324" y2="494" stroke-width="1"/>
+<text class="bl-m" x="347.0" y="22" text-anchor="middle">Apr</text>
+<line class="bl-g" x1="370" y1="28" x2="370" y2="494" stroke-width="1"/>
+<text class="bl-m" x="393.0" y="22" text-anchor="middle">May</text>
+<line class="bl-g" x1="416" y1="28" x2="416" y2="494" stroke-width="1"/>
+<text class="bl-m" x="439.0" y="22" text-anchor="middle">Jun</text>
+<line class="bl-g" x1="462" y1="28" x2="462" y2="494" stroke-width="1"/>
+<text class="bl-m" x="485.0" y="22" text-anchor="middle">Jul</text>
+<line class="bl-g" x1="508" y1="28" x2="508" y2="494" stroke-width="1"/>
+<text class="bl-m" x="531.0" y="22" text-anchor="middle">Aug</text>
+<line class="bl-q" x1="554" y1="28" x2="554" y2="494" stroke-width="1"/>
+<text class="bl-m" x="577.0" y="22" text-anchor="middle">Sep</text>
+<line class="bl-g" x1="600" y1="28" x2="600" y2="494" stroke-width="1"/>
+<text class="bl-m" x="623.0" y="22" text-anchor="middle">Oct</text>
+<line class="bl-g" x1="646" y1="28" x2="646" y2="494" stroke-width="1"/>
+<text class="bl-m" x="669.0" y="22" text-anchor="middle">Nov</text>
+<line class="bl-g" x1="692" y1="28" x2="692" y2="494" stroke-width="1"/>
+<text class="bl-m" x="715.0" y="22" text-anchor="middle">Dec</text>
+<line class="bl-g" x1="738" y1="28" x2="738" y2="494" stroke-width="1"/>
+<text class="bl-s" x="176" y="54" text-anchor="end">Silver Maple</text>
+<rect x="280" y="46" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="71" text-anchor="end">Leatherleaf</text>
+<rect x="326" y="63" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="88" text-anchor="end">Swamp White Oak</text>
+<rect x="372" y="80" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="105" text-anchor="end">Labrador Tea</text>
+<rect x="372" y="97" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="122" text-anchor="end">Red-osier Dogwood</text>
+<rect x="372" y="114" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="139" text-anchor="end">Tussock Sedge</text>
+<rect x="372" y="131" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="156" text-anchor="end">Blue Flag Iris</text>
+<rect x="418" y="148" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="173" text-anchor="end">Blue Joint Grass</text>
+<rect x="418" y="165" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="190" text-anchor="end">Broad-Leaved Cattail</text>
+<rect x="418" y="182" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="207" text-anchor="end">Elderberry</text>
+<rect x="418" y="199" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="224" text-anchor="end">Fox Sedge</text>
+<rect x="418" y="216" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="241" text-anchor="end">Swamp Milkweed</text>
+<rect x="418" y="233" width="134" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="258" text-anchor="end">Pickerelweed</text>
+<rect x="418" y="250" width="180" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="275" text-anchor="end">White Water Lily</text>
+<rect x="418" y="267" width="180" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="292" text-anchor="end">Yellow Pond Lily</text>
+<rect x="418" y="284" width="180" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="309" text-anchor="end">Coontail</text>
+<rect x="464" y="301" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="326" text-anchor="end">Prairie Blazing Star</text>
+<rect x="464" y="318" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="343" text-anchor="end">Wild Celery</text>
+<rect x="464" y="335" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="360" text-anchor="end">Wild Rice</text>
+<rect x="464" y="352" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="377" text-anchor="end">Arrowhead</text>
+<rect x="464" y="369" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="394" text-anchor="end">Boneset</text>
+<rect x="464" y="386" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="411" text-anchor="end">Cardinal Flower</text>
+<rect x="464" y="403" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="428" text-anchor="end">Joe Pye Weed</text>
+<rect x="464" y="420" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="445" text-anchor="end">Switchgrass</text>
+<rect x="464" y="437" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="462" text-anchor="end">Big Bluestem</text>
+<rect x="510" y="454" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="479" text-anchor="end">Great Blue Lobelia</text>
+<rect x="510" y="471" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<rect x="186" y="502" width="11" height="11" rx="2" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-m" x="202" y="511">Early spring</text>
+<rect x="288.8" y="502" width="11" height="11" rx="2" fill="#43a047" opacity="0.85"/>
+<text class="bl-m" x="304.8" y="511">Late spring</text>
+<rect x="385.20000000000005" y="502" width="11" height="11" rx="2" fill="#f9a825" opacity="0.85"/>
+<text class="bl-m" x="401.20000000000005" y="511">Summer</text>
+<rect x="449.6" y="502" width="11" height="11" rx="2" fill="#e65100" opacity="0.85"/>
+<text class="bl-m" x="465.6" y="511">Fall</text>
+</svg>
+<figcaption>26 native flowering species from this chapter, ordered by when they open.</figcaption>
+</figure>
+<!-- BLOOM-CHART:END -->
+
 ## Chapter Summary
 
 In this chapter, you learned:

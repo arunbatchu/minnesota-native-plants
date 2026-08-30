@@ -531,6 +531,142 @@ Native vines provide important ecological value:
 
 When identifying vines, remember the old saying: "Leaves of three, let it be." This refers to [Poison Ivy](../../plants/poison-ivy/) (*Toxicodendron radicans*), which is native to Minnesota but causes allergic skin reactions in most people. Virginia Creeper's five leaflets and Wild Grape's single lobed leaf are your best visual cues for distinguishing them from Poison Ivy.
 
+<!-- BLOOM-CHART:START -->
+### Woodland Bloom Succession
+
+Woodland species by month. Note how much of it happens before June — that is the canopy closing. Bars show the typical bloom window in the Twin Cities — a week or two later up north. The heavier lines mark April and September, the two months a pollinator garden is most often missing. Non-native and invasive species mentioned in this chapter are left out — 2 of them — because a succession chart reads as a list of things to plant.
+
+<figure markdown>
+<svg viewBox="0 0 754 843" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Woodland Bloom Succession" style="max-width:100%;height:auto;font-family:system-ui,-apple-system,sans-serif">
+<style>.bl-m{font-size:11px;fill:currentColor;opacity:.72}.bl-s{font-size:11px;fill:currentColor;opacity:.92}.bl-g{stroke:currentColor;opacity:.13}.bl-q{stroke:currentColor;opacity:.30}</style>
+<line class="bl-g" x1="186" y1="28" x2="186" y2="817" stroke-width="1"/>
+<text class="bl-m" x="209.0" y="22" text-anchor="middle">Jan</text>
+<line class="bl-g" x1="232" y1="28" x2="232" y2="817" stroke-width="1"/>
+<text class="bl-m" x="255.0" y="22" text-anchor="middle">Feb</text>
+<line class="bl-g" x1="278" y1="28" x2="278" y2="817" stroke-width="1"/>
+<text class="bl-m" x="301.0" y="22" text-anchor="middle">Mar</text>
+<line class="bl-q" x1="324" y1="28" x2="324" y2="817" stroke-width="1"/>
+<text class="bl-m" x="347.0" y="22" text-anchor="middle">Apr</text>
+<line class="bl-g" x1="370" y1="28" x2="370" y2="817" stroke-width="1"/>
+<text class="bl-m" x="393.0" y="22" text-anchor="middle">May</text>
+<line class="bl-g" x1="416" y1="28" x2="416" y2="817" stroke-width="1"/>
+<text class="bl-m" x="439.0" y="22" text-anchor="middle">Jun</text>
+<line class="bl-g" x1="462" y1="28" x2="462" y2="817" stroke-width="1"/>
+<text class="bl-m" x="485.0" y="22" text-anchor="middle">Jul</text>
+<line class="bl-g" x1="508" y1="28" x2="508" y2="817" stroke-width="1"/>
+<text class="bl-m" x="531.0" y="22" text-anchor="middle">Aug</text>
+<line class="bl-q" x1="554" y1="28" x2="554" y2="817" stroke-width="1"/>
+<text class="bl-m" x="577.0" y="22" text-anchor="middle">Sep</text>
+<line class="bl-g" x1="600" y1="28" x2="600" y2="817" stroke-width="1"/>
+<text class="bl-m" x="623.0" y="22" text-anchor="middle">Oct</text>
+<line class="bl-g" x1="646" y1="28" x2="646" y2="817" stroke-width="1"/>
+<text class="bl-m" x="669.0" y="22" text-anchor="middle">Nov</text>
+<line class="bl-g" x1="692" y1="28" x2="692" y2="817" stroke-width="1"/>
+<text class="bl-m" x="715.0" y="22" text-anchor="middle">Dec</text>
+<line class="bl-g" x1="738" y1="28" x2="738" y2="817" stroke-width="1"/>
+<text class="bl-s" x="176" y="54" text-anchor="end">American Hazelnut</text>
+<rect x="280" y="46" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="71" text-anchor="end">Beaked Hazelnut</text>
+<rect x="280" y="63" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="88" text-anchor="end">Red Maple</text>
+<rect x="280" y="80" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="105" text-anchor="end">Silver Maple</text>
+<rect x="280" y="97" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="122" text-anchor="end">Snow Trillium</text>
+<rect x="280" y="114" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="139" text-anchor="end">Bloodroot</text>
+<rect x="326" y="131" width="42" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="156" text-anchor="end">Leatherwood</text>
+<rect x="326" y="148" width="42" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="173" text-anchor="end">Blue Beech</text>
+<rect x="326" y="165" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="190" text-anchor="end">Blue Cohosh</text>
+<rect x="326" y="182" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="207" text-anchor="end">Boxelder</text>
+<rect x="326" y="199" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="224" text-anchor="end">Dutchman's Breeches</text>
+<rect x="326" y="216" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="241" text-anchor="end">Ironwood</text>
+<rect x="326" y="233" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="258" text-anchor="end">Red Trillium</text>
+<rect x="326" y="250" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="275" text-anchor="end">Red-berried Elder</text>
+<rect x="326" y="267" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="292" text-anchor="end">River Birch</text>
+<rect x="326" y="284" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="309" text-anchor="end">Squirrel Corn</text>
+<rect x="326" y="301" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="326" text-anchor="end">Sugar maples</text>
+<rect x="326" y="318" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="343" text-anchor="end">White Birch</text>
+<rect x="326" y="335" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="360" text-anchor="end">Wild Ginger</text>
+<rect x="326" y="352" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="377" text-anchor="end">Yellow Birch</text>
+<rect x="326" y="369" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="394" text-anchor="end">Jack-in-the-Pulpit</text>
+<rect x="326" y="386" width="134" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="411" text-anchor="end">Bur Oak</text>
+<rect x="372" y="403" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="428" text-anchor="end">Large-flowered Trillium</text>
+<rect x="372" y="420" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="445" text-anchor="end">Nodding Trillium</text>
+<rect x="372" y="437" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="462" text-anchor="end">Pin Oak</text>
+<rect x="372" y="454" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="479" text-anchor="end">Red Oak</text>
+<rect x="372" y="471" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="496" text-anchor="end">Swamp White Oak</text>
+<rect x="372" y="488" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="513" text-anchor="end">White Oak</text>
+<rect x="372" y="505" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="530" text-anchor="end">False Solomon's Seal</text>
+<rect x="372" y="522" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="547" text-anchor="end">Maple-leaved Viburnum</text>
+<rect x="372" y="539" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="564" text-anchor="end">Nannyberry</text>
+<rect x="372" y="556" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="581" text-anchor="end">Pagoda Dogwood</text>
+<rect x="372" y="573" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="598" text-anchor="end">Poison Ivy</text>
+<rect x="372" y="590" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="615" text-anchor="end">Solomon's Seal</text>
+<rect x="372" y="607" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="632" text-anchor="end">Virginia Waterleaf</text>
+<rect x="372" y="624" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="649" text-anchor="end">White Baneberry</text>
+<rect x="372" y="641" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="666" text-anchor="end">Wild Geranium</text>
+<rect x="372" y="658" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="683" text-anchor="end">Wild Grape</text>
+<rect x="372" y="675" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="700" text-anchor="end">Moonseed</text>
+<rect x="418" y="692" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="717" text-anchor="end">Virginia Creeper</text>
+<rect x="418" y="709" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="734" text-anchor="end">Hog Peanut</text>
+<rect x="464" y="726" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="751" text-anchor="end">Blue-stemmed Goldenrod</text>
+<rect x="510" y="743" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="768" text-anchor="end">Large-leaved Aster</text>
+<rect x="510" y="760" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="785" text-anchor="end">Zigzag Goldenrod</text>
+<rect x="510" y="777" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="802" text-anchor="end">White Snakeroot</text>
+<rect x="510" y="794" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<rect x="186" y="825" width="11" height="11" rx="2" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-m" x="202" y="834">Early spring</text>
+<rect x="288.8" y="825" width="11" height="11" rx="2" fill="#43a047" opacity="0.85"/>
+<text class="bl-m" x="304.8" y="834">Late spring</text>
+<rect x="385.20000000000005" y="825" width="11" height="11" rx="2" fill="#f9a825" opacity="0.85"/>
+<text class="bl-m" x="401.20000000000005" y="834">Summer</text>
+<rect x="449.6" y="825" width="11" height="11" rx="2" fill="#e65100" opacity="0.85"/>
+<text class="bl-m" x="465.6" y="834">Fall</text>
+</svg>
+<figcaption>45 native flowering species from this chapter, ordered by when they open.</figcaption>
+</figure>
+<!-- BLOOM-CHART:END -->
+
 ## Chapter Summary
 
 !!! mascot-celebration "Great Progress!"
