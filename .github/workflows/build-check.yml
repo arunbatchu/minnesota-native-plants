@@ -54,6 +54,11 @@ jobs:
       - name: Check book metrics are current
         run: python3 scripts/book-metrics.py --check
 
+      # Every answer says "The correct answer is C", so the options have to be
+      # lettered in the markup rather than by a CSS rule that may not load.
+      - name: Validate quiz option labels and answer letters
+        run: python3 scripts/validate-quizzes.py
+
       - name: Validate mascot placement in every chapter
         run: |
           rc=0
