@@ -15,13 +15,13 @@ Viburnum trilobum (cranberrybush viburnum, American cranberrybush, high bush cra
 | | |
 |---|---|
 | **Scientific name** | *Viburnum trilobum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Viburnaceae |
+| **Height** | 8-12 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam |
+| **Wildlife value** | Red fruit persists into winter for waxwings and robins |
 
 ## Mentioned In
 

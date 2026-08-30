@@ -16,13 +16,13 @@ The usually deep purple flowers have up to 100 ray florets which are rarely pink
 | | |
 |---|---|
 | **Scientific name** | *Symphyotrichum novae-angliae* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Deep purple; among the most valuable late-season nectar plants in Minnesota |
 
 ## Mentioned In
 

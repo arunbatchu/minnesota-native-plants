@@ -15,13 +15,13 @@ Geranium maculatum, the wild geranium, spotted geranium, or wood geranium, is a 
 | | |
 |---|---|
 | **Scientific name** | *Geranium maculatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Geraniaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Reliable pink woodland bloom; seed capsules fling seed several feet |
 
 ## Mentioned In
 

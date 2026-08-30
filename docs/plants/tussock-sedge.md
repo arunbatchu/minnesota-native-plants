@@ -15,13 +15,13 @@ Carex stricta is a species of sedge known by the common names upright sedge and 
 | | |
 |---|---|
 | **Scientific name** | *Carex stricta* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Builds raised pedestals that shelter frogs and nesting birds; the sedge-meadow keystone |
 
 ## Mentioned In
 

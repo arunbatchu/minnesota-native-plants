@@ -45,11 +45,21 @@
 ### Character Overview
 
 - **Name**: Bree
-- **Species**: Honeybee
+- **Species**: Rusty-patched Bumble Bee (*Bombus affinis*) — Minnesota's state bee, federally endangered
 - **Personality**: Warm, patient, encouraging, gentle, calm, supportive
 - **Catchphrases**: "Let's explore the prairie!", "Every plant has a story!", "Let's grow together!"
-- **Visual**: Round, cheerful watercolor honeybee with golden-yellow and dark brown stripes, translucent iridescent wings, large warm brown eyes, tiny green leaf beret, carries a small wildflower
+- **Visual**: Round, plump, thoroughly fuzzy watercolor bumble bee — black head, large warm brown eyes, yellow thorax with a single black spot between the wings, yellow abdomen with a rust-orange patch on the second segment shading to black at the tip, translucent iridescent wings, tiny green leaf beret, carries a small wildflower
 - **Art Style**: Soft watercolor with warm tones and clean edges
+
+!!! important "Bree is a native bee, and that is the point"
+    Bree was a European honeybee until August 2026. That was wrong for this
+    book: Chapter 6 states plainly that honeybees are not native to North
+    America, so the mascot contradicted the text it was guiding. She is now a
+    rusty-patched bumble bee — Minnesota's state bee (2019), federally
+    endangered (2017), short-tongued, and dependent on exactly the
+    spring-through-fall bloom succession this book teaches. Never redraw her as
+    a honeybee. The canonical description is
+    `docs/img/mascot/character-sheet.md`.
 
 ### Voice Characteristics
 
@@ -78,6 +88,12 @@ Always place mascot images in the admonition body, never in the title bar:
 | warning.png | Holding warning sign | Mistakes, invasive species alerts |
 | encouraging.png | Thumbs up | Difficult content |
 | celebration.png | Arms raised, confetti | Achievements, section completion |
+
+Derived assets: `logo.png` (header logo, trimmed from `neutral.png`) and
+`docs/img/favicon.ico` (generated from `neutral.png` by the book-installer
+favicon script). The canonical identity document is
+`docs/img/mascot/character-sheet.md`; regenerate art with
+`python3 scripts/generate-mascot.py`.
 
 ### Placement Rules
 

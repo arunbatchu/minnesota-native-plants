@@ -17,13 +17,13 @@ Monarda fistulosa, the wild bergamot or bee balm, is a wildflower in the mint fa
 | | |
 |---|---|
 | **Scientific name** | *Monarda fistulosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Lamiaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Perhaps the most generous pollinator plant in Minnesota - bees, moths, hummingbirds, butterflies |
 
 ## Mentioned In
 

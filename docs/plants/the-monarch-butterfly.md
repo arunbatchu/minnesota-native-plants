@@ -15,13 +15,12 @@ The monarch butterfly or simply monarch (Danaus plexippus) is a milkweed butterf
 | | |
 |---|---|
 | **Scientific name** | *Danaus plexippus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Nymphalidae |
+| **Type** | Butterfly |
+| **Status** | Native; IUCN listed, candidate for US listing |
+| **Active season** | May-Oct in Minnesota |
+| **What it needs** | Milkweed (Asclepias) for caterpillars - nothing else will do; nectar plants through September for the migrating generation |
+| **Where in Minnesota** | Statewide; prairies and roadsides of western and southern Minnesota are core breeding habitat |
 
 ## Mentioned In
 

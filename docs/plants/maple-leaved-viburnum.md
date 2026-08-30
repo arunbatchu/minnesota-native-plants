@@ -15,13 +15,13 @@ Viburnum acerifolium, the mapleleaf viburnum, maple-leaved arrowwood or dockmack
 | | |
 |---|---|
 | **Scientific name** | *Viburnum acerifolium* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Viburnaceae |
+| **Height** | 4-6 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Shade-tolerant shrub; black fruit for birds; pink-purple fall color |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Maianthemum racemosum, the treacleberry, feathery false lily of the valley, fals
 | | |
 |---|---|
 | **Scientific name** | *Maianthemum racemosum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asparagaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Terminal flower plume, then red berries for birds |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Quercus macrocarpa, the bur oak or burr oak, is a species of oak tree native to 
 | | |
 |---|---|
 | **Scientific name** | *Quercus macrocarpa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fagaceae |
+| **Height** | 60-80 ft |
+| **Bloom time** | May |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Keystone species - acorns feed dozens of animals, host to 400+ caterpillars; fire-resistant bark |
 
 ## Mentioned In
 

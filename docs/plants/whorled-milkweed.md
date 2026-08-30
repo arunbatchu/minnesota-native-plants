@@ -15,13 +15,13 @@ Asclepias verticillata, the whorled milkweed, eastern whorled milkweed, or horse
 | | |
 |---|---|
 | **Scientific name** | *Asclepias verticillata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apocynaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Monarch host; the latest-blooming milkweed; needle-fine whorled leaves |
 
 ## Mentioned In
 

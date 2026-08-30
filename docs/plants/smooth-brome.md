@@ -14,13 +14,13 @@ The plant is an erect, leafy, long-lived perennial, 46 to 91 cm (1+1⁄2 to 3 ft
 | | |
 |---|---|
 | **Scientific name** | *Bromus inermis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | NON-NATIVE. Planted for forage; now one of the worst invaders of remnant prairie |
 
 ## Mentioned In
 

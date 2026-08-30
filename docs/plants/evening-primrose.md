@@ -16,13 +16,13 @@ Other common names include evening star, sundrop, weedy evening primrose, German
 | | |
 |---|---|
 | **Scientific name** | *Oenothera biennis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Onagraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jun-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Opens at dusk for moths; seed heads feed winter birds |
 
 ## Mentioned In
 

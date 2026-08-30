@@ -15,13 +15,13 @@ Pontederia cordata, common name pickerelweed (USA) or pickerel weed (UK), is a m
 | | |
 |---|---|
 | **Scientific name** | *Pontederia cordata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pontederiaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Jun-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Blue spikes worked hard by bumble bees; seed for ducks |
 
 ## Mentioned In
 

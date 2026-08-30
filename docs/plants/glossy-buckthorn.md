@@ -15,13 +15,13 @@ Frangula alnus, commonly known as alder buckthorn, glossy buckthorn, or breaking
 | | |
 |---|---|
 | **Scientific name** | *Frangula alnus* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rhamnaceae |
+| **Height** | 10-20 ft |
+| **Bloom time** | May-Jul |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE. Wetland counterpart to common buckthorn; overruns fens and bogs |
 
 ## Mentioned In
 

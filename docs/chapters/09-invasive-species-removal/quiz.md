@@ -18,6 +18,8 @@ Test your understanding of removal strategies, integrated pest management, and t
 
     **Concept Tested:** Buckthorn Removal Challenges
 
+    **See:** [Chapter 9](index.md)
+
 ---
 
 #### 2. How long should you plan to conduct follow-up monitoring and seedling removal after clearing a buckthorn-infested site?
@@ -33,6 +35,8 @@ Test your understanding of removal strategies, integrated pest management, and t
     The correct answer is **B**. Buckthorn seeds can remain viable in the soil for five or more years, creating a persistent seed bank that produces new seedlings long after parent plants are removed. A heavily infested site may have hundreds of seeds per square meter. Planning for at least three to five years of follow-up seedling removal is essential. The seed bank is the primary reason that one-time removal efforts fail.
 
     **Concept Tested:** Buckthorn Seed Bank
+
+    **See:** [Chapter 9](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of removal strategies, integrated pest management, and t
 
     **Concept Tested:** Removal Strategy Overview
 
+    **See:** [Chapter 9](index.md)
+
 ---
 
 #### 4. When is the optimal time to hand-pull Garlic Mustard, and why?
@@ -65,6 +71,8 @@ Test your understanding of removal strategies, integrated pest management, and t
     The correct answer is **C**. Garlic Mustard should be pulled in spring before the second-year plants set seed, typically April through May. If plants produce seeds before removal, you have added to the seed bank rather than reducing it. Pulled plants should be bagged and removed from the site because Garlic Mustard can continue to ripen seeds even after being uprooted. Consistent annual pulling for four to six years is needed to exhaust the seed supply.
 
     **Concept Tested:** Garlic Mustard Removal
+
+    **See:** [Chapter 9](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of removal strategies, integrated pest management, and t
 
     **Concept Tested:** Chemical Control Methods
 
+    **See:** [Chapter 9](index.md)
+
 ---
 
 #### 6. What Minnesota success story demonstrates the effectiveness of biological control for invasive species?
@@ -97,6 +107,8 @@ Test your understanding of removal strategies, integrated pest management, and t
     The correct answer is **B**. Galerucella leaf-feeding beetles from Purple Loosestrife's native range in Europe were tested extensively and then released in Minnesota wetlands. After years of careful introduction, these beetles have dramatically reduced Purple Loosestrife populations across the state, allowing native wetland plants to recover. This classical biological control success required years of research and regulatory approval to ensure the beetles would not harm native species.
 
     **Concept Tested:** Biological Control Methods
+
+    **See:** [Chapter 9](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of removal strategies, integrated pest management, and t
 
     **Concept Tested:** Integrated Pest Management
 
+    **See:** [Chapter 9](index.md)
+
 ---
 
 #### 8. A landowner clears a half-acre of buckthorn from their woodland and does not replant native species. What is the most likely outcome?
@@ -129,6 +143,8 @@ Test your understanding of removal strategies, integrated pest management, and t
     The correct answer is **C**. Removing buckthorn creates a disturbed area with increased sunlight and exposed soil — ideal conditions for buckthorn seeds to germinate from the soil seed bank and for other invasive species to colonize. Without planting native species to compete for light and resources, the site will likely become reinvaded. Establishing dense native cover after removal is a critical step that fills the ecological gaps left by the removed buckthorn.
 
     **Concept Tested:** Buckthorn Removal Challenges
+
+    **See:** [Chapter 9](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of removal strategies, integrated pest management, and t
 
     **Concept Tested:** Removal Timing
 
+    **See:** [Chapter 9](index.md)
+
 ---
 
 #### 10. Why is follow-up monitoring considered essential rather than optional in invasive species management?
@@ -162,4 +180,8 @@ Test your understanding of removal strategies, integrated pest management, and t
 
     **Concept Tested:** Follow-Up Monitoring
 
+    **See:** [Chapter 9](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

@@ -15,13 +15,13 @@ Prunus serotina, commonly called black cherry, wild black cherry, rum cherry, or
 | | |
 |---|---|
 | **Scientific name** | *Prunus serotina* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 50-80 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Host to over 400 caterpillar species; fruit for birds and mammals |
 
 ## Mentioned In
 

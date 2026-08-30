@@ -13,13 +13,13 @@ Large-Flowered Bellwort (*Uvularia grandiflora*) is a graceful spring woodland w
 | | |
 |---|---|
 | **Scientific name** | *Uvularia grandiflora* |
-| **Family** | Colchicaceae (autumn-crocus family) |
-| **Height** | 12–18 inches (up to 30 inches in fruit) |
-| **Bloom time** | April–May |
-| **Sun** | Part shade to full shade |
-| **Moisture** | Medium |
-| **Soil** | Rich, moist woodland soil |
-| **Wildlife value** | Nectar and pollen for bumblebees and other early native bees |
+| **Family** | — |
+| **Height** | 1-2 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Drooping twisted yellow bells; ant-dispersed seed; rich-woods indicator |
 
 ## Mentioned In
 

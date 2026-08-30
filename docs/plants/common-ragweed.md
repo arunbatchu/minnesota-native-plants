@@ -15,13 +15,13 @@ Ambrosia artemisiifolia, with the common names common ragweed, annual ragweed, a
 | | |
 |---|---|
 | **Scientific name** | *Ambrosia artemisiifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-4 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Native annual; seed is major winter bird food. The real cause of hay fever, not goldenrod |
 
 ## Mentioned In
 

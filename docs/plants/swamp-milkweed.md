@@ -17,13 +17,13 @@ Asclepias incarnata, the swamp milkweed, rose milkweed, rose milkflower, swamp s
 | | |
 |---|---|
 | **Scientific name** | *Asclepias incarnata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apocynaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Monarch host; the best-behaved milkweed for gardens, and it takes normal garden soil too |
 
 ## Mentioned In
 

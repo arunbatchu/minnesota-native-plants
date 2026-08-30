@@ -16,13 +16,13 @@ Sanguinaria canadensis is sometimes known as Canada puccoon, bloodwort, redroot,
 | | |
 |---|---|
 | **Scientific name** | *Sanguinaria canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Papaveraceae |
+| **Height** | 6-10 in |
+| **Bloom time** | Apr |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Ant-dispersed seed; very early pollen for emerging queens |
 
 ## Mentioned In
 

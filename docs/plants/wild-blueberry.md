@@ -13,13 +13,13 @@ Vaccinium angustifolium, commonly known as the wild lowbush blueberry, is a spec
 | | |
 |---|---|
 | **Scientific name** | *Vaccinium angustifolium* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ericaceae |
+| **Height** | 6-24 in |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Acidic sand, peat |
+| **Wildlife value** | Buzz-pollinated by bumble bees; fruit for birds, bears and people |
 
 ## Mentioned In
 

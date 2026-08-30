@@ -16,13 +16,13 @@ Its natural habitat is in bottomland forests, mesic upland forests, and rocky fo
 | | |
 |---|---|
 | **Scientific name** | *Hydrophyllum virginianum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Hydrophyllaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Leaves look water-stained in spring; good early nectar; spreads to fill shade |
 
 ## Mentioned In
 

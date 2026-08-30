@@ -16,13 +16,13 @@ Prunus americana has often been planted outside its native range and sometimes e
 | | |
 |---|---|
 | **Scientific name** | *Prunus americana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 15-20 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Clouds of fragrant white bloom before leaves; fruit for wildlife and jelly; forms thickets |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Typha latifolia is a perennial herbaceous wetland plant in the genus Typha. It i
 | | |
 |---|---|
 | **Scientific name** | *Typha latifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Typhaceae |
+| **Height** | 5-9 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Wet to shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Marsh-bird nesting cover. Native, but aggressive where water levels are stabilized |
 
 ## Mentioned In
 

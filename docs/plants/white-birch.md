@@ -15,13 +15,13 @@ Betula papyrifera (paper birch, also known as (American) white birch and canoe b
 | | |
 |---|---|
 | **Scientific name** | *Betula papyrifera* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 50-70 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Acidic loam |
+| **Wildlife value** | Paper bark; host to over 300 caterpillar species; catkins and seed for redpolls |
 
 ## Mentioned In
 

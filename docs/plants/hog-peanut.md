@@ -13,13 +13,13 @@ Amphicarpaea bracteata (American hog peanut or hog-peanut or ground bean) is an 
 | | |
 |---|---|
 | **Scientific name** | *Amphicarpaea bracteata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | Vine to 5 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Nitrogen fixer; underground seeds eaten by mammals and historically by people |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Tilia americana is a species of tree in the family Malvaceae. It is native to ea
 | | |
 |---|---|
 | **Scientific name** | *Tilia americana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Malvaceae |
+| **Height** | 60-80 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam, clay |
+| **Wildlife value** | Nectar-rich flowers worked heavily by bees; seeds eaten by birds |
 
 ## Mentioned In
 

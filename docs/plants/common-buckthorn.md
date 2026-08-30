@@ -15,13 +15,13 @@ Rhamnus cathartica, the European buckthorn, common buckthorn, purging buckthorn,
 | | |
 |---|---|
 | **Scientific name** | *Rhamnus cathartica* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rhamnaceae |
+| **Height** | 15-25 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to shade |
+| **Moisture** | Dry to wet |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE. Leafs out early and holds late, shading out natives; berries cause bird diarrhea, spreading seed |
 
 ## Mentioned In
 

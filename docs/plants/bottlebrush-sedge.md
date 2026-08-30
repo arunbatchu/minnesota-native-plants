@@ -13,13 +13,13 @@ Carex hystericina is a species of sedge known by the common names bottlebrush se
 | | |
 |---|---|
 | **Scientific name** | *Carex hystericina* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jul |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Wetland restoration workhorse; seed for waterfowl |
 
 ## Mentioned In
 

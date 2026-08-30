@@ -13,13 +13,13 @@ Tradescantia ohiensis, commonly known as bluejacket or Ohio spiderwort, is an he
 | | |
 |---|---|
 | **Scientific name** | *Tradescantia ohiensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Commelinaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Each flower lasts one morning; buzz-pollinated by bumble bees |
 
 ## Mentioned In
 

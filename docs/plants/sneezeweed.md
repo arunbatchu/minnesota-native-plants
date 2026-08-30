@@ -15,13 +15,13 @@ Helenium autumnale is a North American species of flowering plants in the family
 | | |
 |---|---|
 | **Scientific name** | *Helenium autumnale* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Late yellow bloom for wet ground; named for snuff, not for hay fever |
 
 ## Mentioned In
 

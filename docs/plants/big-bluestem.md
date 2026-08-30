@@ -15,13 +15,13 @@ Andropogon gerardi, commonly known as big bluestem, is a species of tall grass n
 | | |
 |---|---|
 | **Scientific name** | *Andropogon gerardii* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 4-8 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Larval host for several skippers; heavy nesting cover |
 
 ## Mentioned In
 

@@ -248,7 +248,7 @@ Design a pollinator corridor that connects at least three sites across a neighbo
 7. Address potential obstacles — property ownership, maintenance responsibilities, public awareness — and propose solutions.
 
 !!! mascot-encourage "You Can Do This!"
-    <img src="../../img/mascot/encourage.png" class="mascot-admonition-img" alt="Bree encourage">
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Bree encourage">
     Pollinator corridors are one of the most impactful things communities can do
     for native insects. Even a small garden on a boulevard strip can serve as a
     critical refueling station for a bee traveling between larger habitat patches.
@@ -600,7 +600,7 @@ You may complete one project or several, depending on your goals. Here are some 
 Projects can also be combined. For example, the Garden Design Capstone pairs naturally with the Maintenance Calendar, and the Invasive Removal Plan could feed into the replanting phase of your garden design.
 
 !!! mascot-celebrate "Celebrate Your Work!"
-    <img src="../../img/mascot/celebrate.png" class="mascot-admonition-img" alt="Bree celebrate">
+    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Bree celebrate">
     Whatever project you choose, you are taking real action for Minnesota's
     native plants and ecosystems. That is worth celebrating. Share your work
     with others — post it, present it, plant it. Every native garden, every

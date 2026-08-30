@@ -17,13 +17,13 @@ Asclepias tuberosa, commonly known as butterfly weed, is a species of milkweed n
 | | |
 |---|---|
 | **Scientific name** | *Asclepias tuberosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apocynaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Monarch host plant; the orange one, and the driest-site milkweed |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Erythronium americanum, the trout lily, yellow trout lily, fawn lily, yellow add
 | | |
 |---|---|
 | **Scientific name** | *Erythronium americanum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Liliaceae |
+| **Height** | 4-8 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Mottled leaves like a brook trout; colonies can be centuries old; early bee forage |
 
 ## Mentioned In
 

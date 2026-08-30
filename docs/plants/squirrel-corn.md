@@ -13,13 +13,13 @@ Dicentra canadensis, the squirrel corn, is a flowering plant from eastern North 
 | | |
 |---|---|
 | **Scientific name** | *Dicentra canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Papaveraceae |
+| **Height** | 6-12 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Spring ephemeral; yellow corn-like tubers; queen bumble bee forage |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Mertensia virginica (common names Virginia bluebells, Virginia cowslip, lungwort
 | | |
 |---|---|
 | **Scientific name** | *Mertensia virginica* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Boraginaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Pink buds open sky blue; queen bumble bee forage; dormant by July |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Rhododendron groenlandicum (formerly Ledum groenlandicum or Ledum latifolium), k
 | | |
 |---|---|
 | **Scientific name** | *Rhododendron groenlandicum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ericaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Acidic peat |
+| **Wildlife value** | Bog shrub with fuzzy rust-colored leaf undersides; long a northern tea plant |
 
 ## Mentioned In
 

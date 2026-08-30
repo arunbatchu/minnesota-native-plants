@@ -15,13 +15,13 @@ The parsnip (Pastinaca sativa) is a root vegetable closely related to carrot and
 | | |
 |---|---|
 | **Scientific name** | *Pastinaca sativa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apiaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE, state noxious weed. Sap plus sunlight causes severe burns and blistering |
 
 ## Mentioned In
 

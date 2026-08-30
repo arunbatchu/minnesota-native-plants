@@ -15,13 +15,13 @@ Partridge Pea is a wildlife favorite: small cup-shaped glands at the base of its
 | | |
 |---|---|
 | **Scientific name** | *Chamaecrista fasciculata* |
-| **Family** | Fabaceae (pea/legume family) |
-| **Height** | 1–3 feet |
-| **Bloom time** | July–September |
+| **Family** | — |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jul-Sep |
 | **Sun** | Full sun |
-| **Moisture** | Dry to medium |
-| **Soil** | Sandy, well-drained, often disturbed soils; fixes nitrogen |
-| **Wildlife value** | Nectar for bees; larval host for sulphur butterflies; seeds eaten by game birds; extrafloral nectaries feed beneficial insects |
+| **Moisture** | Dry |
+| **Soil** | Sand |
+| **Wildlife value** | Nitrogen-fixing annual; extrafloral nectaries feed ants and wasps; seed for quail and songbirds |
 
 ## Mentioned In
 

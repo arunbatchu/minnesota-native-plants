@@ -15,13 +15,13 @@ Vitis riparia Michx, with common names riverbank grape or frost grape, is a vine
 | | |
 |---|---|
 | **Scientific name** | *Vitis riparia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Vitaceae |
+| **Height** | Vine to 50 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Any |
+| **Wildlife value** | Fruit for over 100 bird species; bark strips used by nesting birds |
 
 ## Mentioned In
 

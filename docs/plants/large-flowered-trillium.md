@@ -15,13 +15,13 @@ Trillium grandiflorum, the white trillium, large-flowered trillium, great white 
 | | |
 |---|---|
 | **Scientific name** | *Trillium grandiflorum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Melanthiaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Ant-dispersed seed; takes 7-10 years to first flower. Never pick - it can kill the plant |
 
 ## Mentioned In
 

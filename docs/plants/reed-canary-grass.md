@@ -15,13 +15,13 @@ Phalaris arundinacea, or reed canary grass, is a tall, perennial grass that comm
 | | |
 |---|---|
 | **Scientific name** | *Phalaris arundinacea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 3-6 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck, clay |
+| **Wildlife value** | INVASIVE in Minnesota wetlands. Forms dense monocultures that exclude everything else |
 
 ## Mentioned In
 

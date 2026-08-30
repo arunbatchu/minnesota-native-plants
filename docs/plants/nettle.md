@@ -16,13 +16,13 @@ The species is divided into six subspecies, five of which have many hollow sting
 | | |
 |---|---|
 | **Scientific name** | *Urtica dioica* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Urticaceae |
+| **Height** | 3-6 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Rich loam |
+| **Wildlife value** | Larval host for red admiral and question mark butterflies. Stinging hairs |
 
 ## Mentioned In
 

@@ -13,13 +13,13 @@ Acer saccharum, the sugar maple, is a species of flowering plant in the soapberr
 | | |
 |---|---|
 | **Scientific name** | *Acer saccharum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Sapindaceae |
+| **Height** | 60-75 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | The maple-basswood forest dominant; sap for syrup; orange-red fall color |
 
 ## Mentioned In
 

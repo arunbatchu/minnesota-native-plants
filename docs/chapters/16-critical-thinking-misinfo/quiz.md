@@ -18,6 +18,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
 
     **Concept Tested:** Evidence-Based Practices
 
+    **See:** [Chapter 16](index.md)
+
 ---
 
 #### 2. Why does a claim supported by peer-reviewed research carry more weight than one supported by a single blog post?
@@ -33,6 +35,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
     The correct answer is **B**. Peer review means independent experts evaluate a study's methods, data analysis, and conclusions before publication. Only papers that survive this scrutiny get published in scientific journals. Blog posts, social media posts, and marketing materials have no such quality control. Peer review is not perfect, but it is far more rigorous than unsupervised publishing. When evaluating competing claims, those backed by peer-reviewed research deserve more confidence.
 
     **Concept Tested:** Peer Review Process
+
+    **See:** [Chapter 16](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
 
     **Concept Tested:** Marketing vs. Science
 
+    **See:** [Chapter 16](index.md)
+
 ---
 
 #### 4. What is confirmation bias, and how can it affect decisions about native plant gardening?
@@ -65,6 +71,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
     The correct answer is **B**. Confirmation bias is the tendency to seek out and favor information that supports what you already believe, while downplaying or ignoring contradictory evidence. In native plant gardening, this might mean only reading sources that support your preferred planting method while ignoring research suggesting a different approach works better, or dismissing evidence that a favorite garden plant is actually a nativar with reduced ecological value. Awareness of confirmation bias helps you evaluate claims more objectively.
 
     **Concept Tested:** Confirmation Bias
+
+    **See:** [Chapter 16](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
 
     **Concept Tested:** Anecdotal Evidence vs. Data
 
+    **See:** [Chapter 16](index.md)
+
 ---
 
 #### 6. What is greenwashing, and how might it appear in the native plant marketplace?
@@ -97,6 +107,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
     The correct answer is **B**. Greenwashing is a deceptive marketing strategy that makes products appear more environmentally friendly than they actually are. In the native plant marketplace, this might include labeling nativars as "native" without disclosing that they have been bred for ornamental traits at the expense of ecological function, marketing generic seed mixes as "pollinator-friendly" without evidence, or using terms like "eco-friendly" and "sustainable" without meaningful credentials. Detecting greenwashing requires asking for specific evidence behind environmental claims.
 
     **Concept Tested:** Greenwashing Detection
+
+    **See:** [Chapter 16](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
 
     **Concept Tested:** Logical Fallacies
 
+    **See:** [Chapter 16](index.md)
+
 ---
 
 #### 8. A social media post claims: "Native plants don't need any maintenance — just plant them and walk away!" Evaluate this common misconception.
@@ -129,6 +143,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
     The correct answer is **B**. The "plant and walk away" myth is one of the most common and damaging misconceptions about native plants. While native plantings do require significantly less maintenance than conventional landscapes once established (no fertilizer, little watering, no pesticides), they need active weed management for the first 2-3 years and ongoing stewardship. Prairies need periodic prescribed burns or mowing. Woodland gardens need invasive species monitoring. Setting realistic expectations prevents the disappointment that leads people to abandon native plantings.
 
     **Concept Tested:** Native Plant Misconceptions
+
+    **See:** [Chapter 16](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
 
     **Concept Tested:** Cost-Benefit Analysis
 
+    **See:** [Chapter 16](index.md)
+
 ---
 
 #### 10. Create a brief fact-checking strategy you could use when encountering a surprising claim about native plants on social media.
@@ -162,4 +180,8 @@ Test your ability to evaluate claims, detect misinformation, identify logical fa
 
     **Concept Tested:** Fact-Checking Strategies
 
+    **See:** [Chapter 16](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

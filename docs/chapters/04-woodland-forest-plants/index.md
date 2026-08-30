@@ -185,7 +185,7 @@ Common Minnesota spring ephemerals include Bloodroot, Trillium, Hepatica, Dutchm
 
 <div class="plant-gallery-grid">
 <a href="../../plants/bloodroot/" class="plant-gallery-card"><img src="../../plants/img/bloodroot-1.jpg" alt="Bloodroot"><div class="plant-gallery-caption">Bloodroot<br><em>Sanguinaria canadensis</em></div></a>
-<a href="../../plants/dutchman-s-breeches/" class="plant-gallery-card"><img src="../../plants/img/dutchman-s-breeches-1.jpg" alt="Dutchman's Breeches"><div class="plant-gallery-caption">Dutchman's Breeches<br><em>Dicentra cucullaria</em></div></a>
+<a href="../../plants/dutchmans-breeches/" class="plant-gallery-card"><img src="../../plants/img/dutchmans-breeches-1.jpg" alt="Dutchman's Breeches"><div class="plant-gallery-caption">Dutchman's Breeches<br><em>Dicentra cucullaria</em></div></a>
 <a href="../../plants/large-flowered-trillium/" class="plant-gallery-card"><img src="../../plants/img/large-flowered-trillium-1.jpg" alt="Large-flowered Trillium"><div class="plant-gallery-caption">Large-flowered Trillium<br><em>Trillium grandiflorum</em></div></a>
 <a href="../../plants/virginia-bluebells/" class="plant-gallery-card"><img src="../../plants/img/virginia-bluebells-1.jpg" alt="Virginia Bluebells"><div class="plant-gallery-caption">Virginia Bluebells<br><em>Mertensia virginica</em></div></a>
 <a href="../../plants/wild-ginger/" class="plant-gallery-card"><img src="../../plants/img/wild-ginger-1.jpg" alt="Wild Ginger"><div class="plant-gallery-caption">Wild Ginger<br><em>Asarum canadense</em></div></a>
@@ -308,11 +308,10 @@ The woodland floor hosts many more spring ephemerals beyond the well-known blood
 
 !!! mascot-thinking "Why the Rush to Bloom?"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
-    Ever wonder why so many woodland flowers bloom all at once in early spring,
-    garden friends? Before the trees leaf out, sunlight pours all the way down to
-    the forest floor. Spring ephemerals seize that brief, bright window to flower,
-    feed the first bees, and store energy — then they fade away for the year by
-    early summer. Let's explore the prairie... and the woods!
+    Ever wonder why so many woodland flowers bloom at once in early spring,
+    garden friends? Before the trees leaf out, sunlight reaches all the way to
+    the forest floor, and the ephemerals use that brief window to flower, feed
+    the first bees of the year, and store energy before fading by June.
 
 ## Solomon's Seal
 

@@ -15,13 +15,13 @@ Eryngium yuccifolium, known as rattlesnake master, button eryngo, and button sna
 | | |
 |---|---|
 | **Scientific name** | *Eryngium yuccifolium* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apiaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Yucca-like leaves and spiky globes; supports specialist wasps and beetles |
 
 ## Mentioned In
 

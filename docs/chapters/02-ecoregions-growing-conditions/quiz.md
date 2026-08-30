@@ -18,6 +18,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
 
     **Concept Tested:** Minnesota Ecoregions
 
+    **See:** [Chapter 2](index.md)
+
 ---
 
 #### 2. What is the primary environmental factor that historically determined where the prairie-forest border fell in Minnesota?
@@ -33,6 +35,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
     The correct answer is **C**. Fire was the primary force determining the boundary between prairie and forest. Frequent fires favored grasses and pushed the border eastward by killing tree seedlings. When fire was suppressed, trees advanced westward into former prairie. This dynamic boundary is also called the tension zone or ecotone, and it contains unique plant communities like oak savannas.
 
     **Concept Tested:** Prairie-Forest Border
+
+    **See:** [Chapter 2](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
 
     **Concept Tested:** Tallgrass Prairie Region
 
+    **See:** [Chapter 2](index.md)
+
 ---
 
 #### 4. What does "deciduous" mean in the context of deciduous forests?
@@ -65,6 +71,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
     The correct answer is **C**. Deciduous means "falling off" and refers to hardwood trees that shed their leaves each autumn. Minnesota's deciduous forest region covers the central and southeastern parts of the state and includes species like Sugar Maple, Red Oak, and American Basswood. The annual leaf drop creates brilliant fall colors and enriches the forest floor with organic matter.
 
     **Concept Tested:** Deciduous Forest Region
+
+    **See:** [Chapter 2](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
 
     **Concept Tested:** Zones 3a Through 5a
 
+    **See:** [Chapter 2](index.md)
+
 ---
 
 #### 6. A gardener in Duluth (Zone 3b) purchases a prairie plant grown from seed collected in southern Kansas. What is the most likely problem?
@@ -97,6 +107,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
     The correct answer is **B**. Native plants evolve to complete their life cycles within their local growing season. A prairie plant from Kansas is adapted to a much longer growing season (possibly 180+ days) compared to Duluth's approximately 110-130 frost-free days. The plant may not have time to fully flower and set seed before the first frost. This is why sourcing plants from local ecotypes — populations adapted to your specific region — is so important.
 
     **Concept Tested:** Growing Season Length
+
+    **See:** [Chapter 2](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
 
     **Concept Tested:** Minnesota Wetland Types
 
+    **See:** [Chapter 2](index.md)
+
 ---
 
 #### 8. What does a USDA Hardiness Zone number primarily tell you about a location?
@@ -129,6 +143,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
     The correct answer is **C**. USDA Hardiness Zones are based on the average annual extreme minimum temperature at a location. Each zone represents a 10-degree Fahrenheit range. The zone number tells you whether a perennial plant can survive winter cold in your area. However, hardiness zones do not account for other important factors like soil type, light availability, moisture, or summer heat.
 
     **Concept Tested:** USDA Hardiness Zones
+
+    **See:** [Chapter 2](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
 
     **Concept Tested:** Minnesota Soil Types
 
+    **See:** [Chapter 2](index.md)
+
 ---
 
 #### 10. You discover your garden has heavy clay soil that holds water and drains slowly. Which of the following native plants would be the best match for these conditions?
@@ -162,4 +180,8 @@ Test your understanding of Minnesota's ecoregions, hardiness zones, soils, and g
 
     **Concept Tested:** Minnesota Soil Types
 
+    **See:** [Chapter 2](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

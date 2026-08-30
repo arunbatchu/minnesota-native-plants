@@ -15,13 +15,13 @@ Cornus canadensis is a species of flowering plant in the dogwood family Cornacea
 | | |
 |---|---|
 | **Scientific name** | *Cornus canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cornaceae |
+| **Height** | 4-8 in |
+| **Bloom time** | May-Jul |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Acidic, organic |
+| **Wildlife value** | Red berries for grouse and thrushes; carpets northern conifer floors |
 
 ## Mentioned In
 

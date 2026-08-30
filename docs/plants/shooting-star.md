@@ -15,13 +15,13 @@ Primula meadia (syn. Dodecatheon meadia), known by the common names shooting sta
 | | |
 |---|---|
 | **Scientific name** | *Dodecatheon meadia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Primulaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Buzz-pollinated - bumble bees vibrate the pollen loose; goes dormant by midsummer |
 
 ## Mentioned In
 

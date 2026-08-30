@@ -15,13 +15,13 @@ Berberis thunbergii, the Japanese barberry, Thunberg's barberry, or red barberry
 | | |
 |---|---|
 | **Scientific name** | *Berberis thunbergii* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Berberidaceae |
+| **Height** | 3-6 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun to shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE. Dense thickets raise humidity and are linked to higher deer-tick densities |
 
 ## Mentioned In
 

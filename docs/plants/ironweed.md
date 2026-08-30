@@ -14,13 +14,13 @@ Vernonia fasciculata inhabits areas with moist soils and prairies. It flowers in
 | | |
 |---|---|
 | **Scientific name** | *Vernonia fasciculata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam, clay |
+| **Wildlife value** | Intense purple; heavy butterfly and bee use in late summer |
 
 ## Mentioned In
 

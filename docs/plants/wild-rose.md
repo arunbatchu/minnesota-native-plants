@@ -13,13 +13,13 @@ Rosa blanda, commonly known as the smooth rose, meadow/wild rose, or prairie ros
 | | |
 |---|---|
 | **Scientific name** | *Rosa blanda* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Simple pink five-petaled flowers; hips persist all winter for birds |
 
 ## Mentioned In
 

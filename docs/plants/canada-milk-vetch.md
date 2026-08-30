@@ -13,13 +13,13 @@ Canada Milk-Vetch (*Astragalus canadensis*) is a tall, upright prairie wildflowe
 | | |
 |---|---|
 | **Scientific name** | *Astragalus canadensis* |
-| **Family** | Fabaceae (pea/legume family) |
-| **Height** | 2–4 feet |
-| **Bloom time** | July–August |
+| **Family** | — |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Aug |
 | **Sun** | Full sun to part shade |
-| **Moisture** | Medium to moist |
-| **Soil** | Adaptable; enriches soil by fixing nitrogen |
-| **Wildlife value** | Nectar for long-tongued bees; larval host for several butterflies; seeds eaten by wildlife |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Nitrogen fixer; nectar for long-tongued bees; seed pods rattle when dry |
 
 ## Mentioned In
 

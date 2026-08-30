@@ -15,13 +15,13 @@ Menispermum canadense, the Canadian moonseed, common moonseed, or yellow parilla
 | | |
 |---|---|
 | **Scientific name** | *Menispermum canadense* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Menispermaceae |
+| **Height** | Vine to 15 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Fruit for birds. TOXIC to people - looks like wild grape but the seed is crescent-shaped |
 
 ## Mentioned In
 

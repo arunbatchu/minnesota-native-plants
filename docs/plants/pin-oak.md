@@ -13,13 +13,13 @@ Quercus palustris, also called pin oak, swamp oak, or swamp Spanish oak, is a tr
 | | |
 |---|---|
 | **Scientific name** | *Quercus palustris* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fagaceae |
+| **Height** | 60-70 ft |
+| **Bloom time** | May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Acidic loam, clay |
+| **Wildlife value** | Acorns for waterfowl and mammals; lower branches sweep downward |
 
 ## Mentioned In
 

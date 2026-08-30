@@ -13,13 +13,13 @@ Calamagrostis canadensis is a species of grass, having three or more varieties, 
 | | |
 |---|---|
 | **Scientific name** | *Calamagrostis canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | Dominant wet-meadow grass; nesting cover for marsh birds |
 
 ## Mentioned In
 

@@ -72,7 +72,7 @@ This page shows the implementation status of features in this intelligent textbo
 | Feature | Status | Notes |
 |---------|--------|-------|
 | MicroSims | :white_check_mark: | 22 p5.js interactive simulations |
-| Per-chapter quizzes | :white_check_mark: | 17 quizzes, 10 questions each |
+| Per-chapter quizzes | :white_check_mark: | 34 quizzes — a recall set and an applied set of 10 questions each, per chapter |
 | Pedagogical agent (mascot) | :white_check_mark: | Bree the Bee — 7 watercolor poses |
 | Celebration animations | :x: | Plant ID quizzes with confetti — planned |
 | Interactive infographic overlays | :x: | Hover/quiz infographics — planned |

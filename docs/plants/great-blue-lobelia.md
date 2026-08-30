@@ -17,13 +17,13 @@ Lobelia siphilitica, the great blue lobelia, great lobelia, or blue cardinal flo
 | | |
 |---|---|
 | **Scientific name** | *Lobelia siphilitica* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Campanulaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Bumble-bee pollinated; the blue companion to cardinal flower |
 
 ## Mentioned In
 

@@ -16,13 +16,13 @@ The species is native to eastern and central North America, with its range exten
 | | |
 |---|---|
 | **Scientific name** | *Parthenocissus quinquefolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Vitaceae |
+| **Height** | Vine to 50 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun to shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Scarlet fall color; blue fruit for birds. Five leaflets - not poison ivy's three |
 
 ## Mentioned In
 

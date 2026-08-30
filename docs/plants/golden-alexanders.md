@@ -15,13 +15,13 @@ Zizia aurea (golden alexanders, golden zizia) is a flowering herbaceous perennia
 | | |
 |---|---|
 | **Scientific name** | *Zizia aurea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apiaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Larval host for black swallowtail; critical early-season nectar for small bees |
 
 ## Mentioned In
 

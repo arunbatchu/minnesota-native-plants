@@ -405,7 +405,7 @@ Summer is the peak bloom season in Minnesota, with hundreds of native species fl
 
 - **Purple Coneflower** (*Echinacea purpurea*) — Perhaps Minnesota's most recognizable native wildflower, beloved by butterflies and native bees
 - **Wild Bergamot** (*Monarda fistulosa*) — Lavender flower clusters that hum with bumblebees and hummingbird moths throughout July
-- **Black-Eyed Susan** (*Rudbera hirta*) — Cheerful yellow flowers that bloom prolifically in the first years after seeding
+- **Black-Eyed Susan** (*Rudbeckia hirta*) — Cheerful yellow flowers that bloom prolifically in the first years after seeding
 - **Butterfly Milkweed** (*Asclepias tuberosa*) — Brilliant orange flowers essential for Monarch butterflies
 - **Blazing Stars** (*Liatris* species) — Spikes of purple that bloom from the top down, drawing Monarchs and swallowtails
 - **Culver's Root** (*Veronicastrum virginicum*) — Elegant white flower spires visited by dozens of native bee species
@@ -552,7 +552,7 @@ A thoughtfully planned restoration provides beauty and ecological value in every
 - Snow-covered grass clumps provide small mammal shelter
 
 !!! mascot-encourage "You Can Do This!"
-    <img src="../../img/mascot/encourage.png" class="mascot-admonition-img" alt="Bree encourage">
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Bree encourage">
     When you plan for four seasons of beauty, your restoration becomes a place
     people want to visit year-round. That connection to the land is what turns
     neighbors into advocates and one restoration into many.

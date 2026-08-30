@@ -13,13 +13,13 @@ Nodding Fescue (*Festuca subverticillata*) is a graceful, cool-season native gra
 | | |
 |---|---|
 | **Scientific name** | *Festuca subverticillata* |
-| **Family** | Poaceae (grass family) |
-| **Height** | 1.5–3 feet |
-| **Bloom time** | May–July |
-| **Sun** | Part shade to full shade |
-| **Moisture** | Medium |
-| **Soil** | Rich woodland and woodland-edge soils |
-| **Wildlife value** | Cover for small wildlife; larval host for some skipper butterflies |
+| **Family** | — |
+| **Height** | 2-3 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | One of the few native woodland grasses; arching nodding seed heads |
 
 ## Mentioned In
 

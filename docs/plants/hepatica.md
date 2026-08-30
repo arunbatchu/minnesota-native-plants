@@ -15,13 +15,13 @@ Anemone hepatica (syn. Hepatica nobilis), the common hepatica, liverwort, liverl
 | | |
 |---|---|
 | **Scientific name** | *Hepatica nobilis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ranunculaceae |
+| **Height** | 4-6 in |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Among the very first woodland flowers; leaves overwinter |
 
 ## Mentioned In
 

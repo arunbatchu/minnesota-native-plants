@@ -16,13 +16,13 @@ E. angustifolia is a perennial herb with spindle-shaped taproots that are often 
 | | |
 |---|---|
 | **Scientific name** | *Echinacea angustifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Narrow-leaved coneflower of dry prairie; seed for goldfinches |
 
 ## Mentioned In
 

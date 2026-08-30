@@ -16,13 +16,13 @@ It shares the common name "bottle gentian" with several other species.
 | | |
 |---|---|
 | **Scientific name** | *Gentiana andrewsii* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Gentianaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam |
+| **Wildlife value** | Flowers never open - only bumble bees are strong enough to force them |
 
 ## Mentioned In
 

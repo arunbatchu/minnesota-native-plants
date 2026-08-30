@@ -1,117 +1,73 @@
-# AI Image Prompts for Bree the Bee
+# AI Image Prompts for Bree
 
-Use these prompts with your preferred AI image generator (ChatGPT/DALL-E, Midjourney, etc.).
-Generate at 512x512 or 1024x1024 pixels, then resize down for use.
+Bree is a **rusty-patched bumble bee** (*Bombus affinis*), Minnesota's state
+bee. She was a European honeybee until August 2026, which was wrong for a book
+about native plants — see [character-sheet.md](character-sheet.md) for why she
+changed.
 
-## 1. Neutral/Default Pose (neutral.png)
+Every prompt below opens with the same character anchor. Do not paraphrase it:
+the black thoracic spot, the rust patch on abdominal segment two, the leaf
+beret and the watercolor treatment are what make the poses read as one bee.
 
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree stands upright in a relaxed, neutral pose facing the viewer directly,
-with a calm and friendly closed-mouth smile. Arms rest naturally at her sides
-with no specific gesture. The pose is balanced and unassuming.
+Generate at 1024×1024 with a transparent background, then run the trim script:
 
-Please generate a new png image now with a fully transparent background now.
+```bash
+python3 $BK_HOME/skills/book-installer/scripts/trim-padding-from-image.py docs/img/mascot/<pose>.png
+```
 
-## 2. Welcome/Introduction Pose (welcome.png)
+## The Character Anchor
 
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree is waving cheerfully with one arm, facing the viewer with a warm,
-welcoming expression. The pose suggests "welcome" and "let's get started."
+> A soft watercolor illustration of Bree, a friendly pedagogical mascot for a
+> Minnesota Native Plants textbook. Bree is a rusty-patched bumble bee
+> (*Bombus affinis*) — round, plump and thoroughly fuzzy, not slim like a
+> honeybee. She has a black head with large warm brown eyes, a yellow furry
+> thorax marked with a single black spot between the wings, and a yellow
+> abdomen bearing a distinct rust-orange patch across its second segment,
+> shading to black at the tip. Translucent, faintly iridescent wings. She
+> wears a tiny green leaf beret and carries one small purple wildflower. Her
+> expression is gentle and kind. The character is small and compact, suitable
+> for icon-sized display. Style: soft watercolor, warm earthy tones, clean
+> edges, fully transparent background, suitable for embedding in educational
+> content. No text anywhere in the image.
 
-Please generate a new png image now with a fully transparent background now.
+## 1. Neutral (neutral.png)
 
-## 3. Thinking/Teaching Pose (thinking.png)
+*Anchor, then:* Bree stands upright facing the viewer in a relaxed, neutral
+pose with a calm closed-mouth smile. Arms rest naturally at her sides. The
+pose is balanced and unassuming. This is the pose the site logo and favicon
+are cut from, so keep her centered and symmetrical.
 
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree has one arm on her chin in a thoughtful pose, with a small lightbulb
-or thought bubble above her head. The pose suggests deep thinking and discovery.
+## 2. Welcome (welcome.png)
 
-Please generate a new png image now with a fully transparent background now.
+*Anchor, then:* Bree waves cheerfully with one arm raised, facing the viewer
+with a warm, welcoming expression. The pose says "come in, let's get started."
 
-## 4. Pointing/Tip Pose (tip.png)
+## 3. Thinking (thinking.png)
 
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree is pointing upward with one arm as if sharing an important tip.
-Expression is helpful and knowing. A small star or sparkle near the pointing gesture.
+*Anchor, then:* Bree rests one arm under her chin in a thoughtful pose, with a
+small glowing lightbulb floating above her leaf beret. The pose suggests a
+moment of understanding, not confusion.
 
-Please generate a new png image now with a fully transparent background now.
+## 4. Tip (tip.png)
 
-## 5. Warning/Caution Pose (warning.png)
+*Anchor, then:* Bree points upward with one arm, a small sparkle at her
+fingertip, with a bright helpful expression. The pose says "here's something
+useful."
 
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree holds up both arms in a gentle "stop" or "be careful" gesture.
-Expression is concerned but caring. A small exclamation mark or caution symbol nearby.
+## 5. Warning (warning.png)
 
-Please generate a new png image now with a fully transparent background now.
+*Anchor, then:* Bree holds up a small round yellow caution sign bearing a
+black exclamation mark. Her expression is concerned but kind — she is warning,
+never scolding.
 
-## 6. Encouraging Pose (encouraging.png)
+## 6. Encouraging (encouraging.png)
 
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree gives a thumbs up with a reassuring, supportive smile. The pose radiates
-confidence and "you can do it" energy.
+*Anchor, then:* Bree gives an enthusiastic thumbs-up with one arm, wings
+lifted slightly, wearing a broad supportive smile. The pose says "you've got
+this" for genuinely hard material.
 
-Please generate a new png image now with a fully transparent background now.
+## 7. Celebration (celebration.png)
 
-## 7. Celebration Pose (celebration.png)
-
-Please generate a new pose for Bree the Bee.
-A soft watercolor illustration of Bree the Bee, a friendly pedagogical mascot
-for a Minnesota Native Plants textbook. Bree is a round, cheerful honeybee
-with golden-yellow and dark brown stripes, translucent iridescent wings,
-and large warm brown eyes. She wears a tiny green leaf beret and carries
-a small wildflower in one arm. Bree has a gentle, kind expression.
-The character is small and compact, suitable for icon-sized display.
-Style: soft watercolor, warm tones, clean edges, transparent background,
-suitable for embedding in educational content. No text in image.
-Bree is jumping or raising both arms in celebration. Expression is joyful
-and proud. Small confetti or flower petals falling around her.
-
-Please generate a new png image now with a fully transparent background now.
+*Anchor, then:* Bree raises both arms in celebration with soft confetti and
+a few flower petals falling around her, wings spread, beaming. The pose marks
+finishing something.

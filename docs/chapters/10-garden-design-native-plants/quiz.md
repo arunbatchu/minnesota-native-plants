@@ -18,6 +18,8 @@ Test your understanding of site assessment, plant selection, garden design princ
 
     **Concept Tested:** Site Assessment
 
+    **See:** [Chapter 10](index.md)
+
 ---
 
 #### 2. How is "full sun" defined for plant selection purposes?
@@ -33,6 +35,8 @@ Test your understanding of site assessment, plant selection, garden design princ
     The correct answer is **B**. Full sun means 6 or more hours of direct sunlight per day. South- and west-facing areas typically qualify. Partial sun or partial shade means 3 to 6 hours, while full shade means fewer than 3 hours of direct sun. To measure accurately, check your garden area every two hours on a sunny midsummer day and tally the hours of direct sun exposure. Sun patterns also shift seasonally, which matters for spring ephemeral plantings.
 
     **Concept Tested:** Sun Exposure Analysis
+
+    **See:** [Chapter 10](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of site assessment, plant selection, garden design princ
 
     **Concept Tested:** Soil Moisture Assessment
 
+    **See:** [Chapter 10](index.md)
+
 ---
 
 #### 4. Why is designing for a seasonal bloom sequence important in a native garden?
@@ -65,6 +71,8 @@ Test your understanding of site assessment, plant selection, garden design princ
     The correct answer is **B**. A seasonal bloom sequence ensures continuous resources for pollinators — gaps in bloom time can be devastating, especially for bees in early spring. It also provides visual interest from April through October and beyond, with different plants taking center stage in each season. Design should include spring ephemerals, early summer wildflowers, midsummer peak bloomers, late summer and fall species, and plants with winter structural interest like seed heads and ornamental grasses.
 
     **Concept Tested:** Seasonal Bloom Sequence
+
+    **See:** [Chapter 10](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of site assessment, plant selection, garden design princ
 
     **Concept Tested:** Plant Selection Criteria
 
+    **See:** [Chapter 10](index.md)
+
 ---
 
 #### 6. In a layered planting design, how should plants of different heights be arranged?
@@ -97,6 +107,8 @@ Test your understanding of site assessment, plant selection, garden design princ
     The correct answer is **B**. Layered planting design arranges plants by height to create visual depth and ensure all species are visible. In island beds viewed from all sides, place tallest plants in the center with progressively shorter species toward the edges. In beds viewed from one side (against a fence or house), place tallest plants in the back and shortest in front. This layering also mimics natural plant communities where different species occupy different vertical zones.
 
     **Concept Tested:** Layered Planting Design
+
+    **See:** [Chapter 10](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of site assessment, plant selection, garden design princ
 
     **Concept Tested:** Rain Garden Design
 
+    **See:** [Chapter 10](index.md)
+
 ---
 
 #### 8. You have a shaded front yard under mature oak trees and want to create an attractive native garden. Which garden style would be most appropriate?
@@ -129,6 +143,8 @@ Test your understanding of site assessment, plant selection, garden design princ
     The correct answer is **C**. A shade garden under mature oaks is ideal for woodland natives like spring ephemerals (Bloodroot, Trillium, Virginia Bluebells), ferns (Maidenhair Fern, Lady Fern), and shade-tolerant ground covers (Wild Ginger, Wild Geranium, Solomon's Seal). Prairie plants and most pollinator garden plants require full sun and would fail under a mature oak canopy. Matching the garden style to your site's actual light conditions is essential for success.
 
     **Concept Tested:** Shade Garden Design
+
+    **See:** [Chapter 10](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of site assessment, plant selection, garden design princ
 
     **Concept Tested:** Species Diversity Design
 
+    **See:** [Chapter 10](index.md)
+
 ---
 
 #### 10. What are native lawn alternatives, and why might a homeowner consider them?
@@ -162,4 +180,8 @@ Test your understanding of site assessment, plant selection, garden design princ
 
     **Concept Tested:** Native Lawn Alternatives
 
+    **See:** [Chapter 10](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

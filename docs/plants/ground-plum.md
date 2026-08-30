@@ -13,13 +13,13 @@ Ground Plum (*Astragalus crassicarpus*) is a low, sprawling prairie wildflower i
 | | |
 |---|---|
 | **Scientific name** | *Astragalus crassicarpus* |
-| **Family** | Fabaceae (pea/legume family) |
-| **Height** | 4–12 inches (low and spreading) |
-| **Bloom time** | April–June |
+| **Family** | — |
+| **Height** | 6-12 in |
+| **Bloom time** | Apr-Jun |
 | **Sun** | Full sun |
 | **Moisture** | Dry |
-| **Soil** | Dry, well-drained prairie soils; fixes nitrogen |
-| **Wildlife value** | Early nectar for native bees; plum-like pods eaten by wildlife |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Nitrogen fixer; plump edible pods sit right on the ground; dry-prairie specialist |
 
 ## Mentioned In
 

@@ -13,13 +13,13 @@ Carex gravida, also known as heavy-fruited sedge, heavy sedge or long-awned brac
 | | |
 |---|---|
 | **Scientific name** | *Carex gravida* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam, clay |
+| **Wildlife value** | Dry-prairie sedge; early green-up before the warm-season grasses |
 
 ## Mentioned In
 

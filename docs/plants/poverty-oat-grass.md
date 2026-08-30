@@ -13,13 +13,13 @@ Poverty Oat Grass (*Danthonia spicata*) is a small, tufted, cool-season native g
 | | |
 |---|---|
 | **Scientific name** | *Danthonia spicata* |
-| **Family** | Poaceae (grass family) |
-| **Height** | 8–16 inches |
-| **Bloom time** | June–July |
+| **Family** | — |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
 | **Sun** | Full sun to part shade |
 | **Moisture** | Dry |
-| **Soil** | Poor, dry, sandy or rocky soils |
-| **Wildlife value** | Cover and seed for small wildlife; larval host for some skipper butterflies |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Tolerates the poorest dry soils; early cool-season bunchgrass |
 
 ## Mentioned In
 

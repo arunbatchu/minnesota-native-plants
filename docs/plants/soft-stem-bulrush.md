@@ -15,13 +15,13 @@ Schoenoplectus tabernaemontani is a species of flowering plant in the sedge fami
 | | |
 |---|---|
 | **Scientific name** | *Schoenoplectus tabernaemontani* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 4-8 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | Nesting cover for marsh birds; seed for waterfowl; strong wave-energy buffer |
 
 ## Mentioned In
 

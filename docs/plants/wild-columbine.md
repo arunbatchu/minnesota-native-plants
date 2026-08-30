@@ -15,13 +15,13 @@ Aquilegia canadensis, the Canadian columbine, Canada columbine, eastern red colu
 | | |
 |---|---|
 | **Scientific name** | *Aquilegia canadensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ranunculaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Apr-Jun |
+| **Sun** | Part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Rocky loam |
+| **Wildlife value** | Red nodding spurs built for ruby-throated hummingbirds arriving in May |
 
 ## Mentioned In
 

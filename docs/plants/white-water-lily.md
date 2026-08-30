@@ -13,13 +13,13 @@ Nymphaea odorata, also known as the American white waterlily, fragrant water-lil
 | | |
 |---|---|
 | **Scientific name** | *Nymphaea odorata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Nymphaeaceae |
+| **Height** | Floating leaves |
+| **Bloom time** | Jun-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Aquatic, 1-6 ft deep |
+| **Soil** | Muck |
+| **Wildlife value** | Fragrant; beetle-pollinated; pads shelter fish and frogs; seed and rhizome for waterfowl |
 
 ## Mentioned In
 

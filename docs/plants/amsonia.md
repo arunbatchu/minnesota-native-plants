@@ -16,13 +16,13 @@ It is valued as an ornamental perennial for its pale blue spring flowers, yellow
 | | |
 |---|---|
 | **Scientific name** | *Amsonia tabernaemontana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apocynaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Early nectar for bees; brilliant gold fall color |
 
 ## Mentioned In
 

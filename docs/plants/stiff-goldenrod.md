@@ -15,13 +15,13 @@ Solidago rigida, known by the common names stiff goldenrod and stiff-leaved gold
 | | |
 |---|---|
 | **Scientific name** | *Solidago rigida* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Clay, loam |
+| **Wildlife value** | Flat-topped heads on stiff stems; tolerates heavy clay; strong late nectar |
 
 ## Mentioned In
 

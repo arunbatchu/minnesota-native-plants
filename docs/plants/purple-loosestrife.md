@@ -15,13 +15,13 @@ Lythrum salicaria or purple-loosestrife is a flowering plant belonging to the fa
 | | |
 |---|---|
 | **Scientific name** | *Lythrum salicaria* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Lythraceae |
+| **Height** | 4-8 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck |
+| **Wildlife value** | INVASIVE, state prohibited. One plant makes over 2 million seeds; converts marshes to monoculture |
 
 ## Mentioned In
 

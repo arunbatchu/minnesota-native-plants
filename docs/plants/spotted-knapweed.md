@@ -15,13 +15,13 @@ Centaurea stoebe, the spotted knapweed or panicled knapweed, is a species of Cen
 | | |
 |---|---|
 | **Scientific name** | *Centaurea stoebe* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-4 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | INVASIVE, state noxious weed. Chemically suppresses neighbors and takes over dry ground |
 
 ## Mentioned In
 

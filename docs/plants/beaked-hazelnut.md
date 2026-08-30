@@ -15,13 +15,13 @@ Corylus cornuta, the beaked hazelnut (or just beaked hazel), is a deciduous shru
 | | |
 |---|---|
 | **Scientific name** | *Corylus cornuta* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 6-10 ft |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Nuts for grouse and squirrels; understory cover |
 
 ## Mentioned In
 

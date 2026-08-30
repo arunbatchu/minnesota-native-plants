@@ -13,13 +13,13 @@ Carpinus caroliniana, the  American hornbeam, is a small hardwood understory tre
 | | |
 |---|---|
 | **Scientific name** | *Carpinus caroliniana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 20-35 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Understory tree; seed for birds; sinewy muscle-like bark |
 
 ## Mentioned In
 

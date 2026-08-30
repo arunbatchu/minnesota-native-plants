@@ -14,13 +14,13 @@ The plant is native to temperate regions of Eurasia and North America.
 | | |
 |---|---|
 | **Scientific name** | *Achillea millefolium* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jun-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Flat landing pads for small bees, wasps and beneficial flies; very long bloom |
 
 ## Mentioned In
 

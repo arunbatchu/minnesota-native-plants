@@ -17,13 +17,13 @@ Lobelia cardinalis, the cardinal flower (syn. L. fulgens), is a species of flowe
 | | |
 |---|---|
 | **Scientific name** | *Lobelia cardinalis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Campanulaceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Pollinated almost entirely by ruby-throated hummingbirds |
 
 ## Mentioned In
 

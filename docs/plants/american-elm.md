@@ -15,13 +15,13 @@ Ulmus americana, generally known as the American elm or, less commonly, as the w
 | | |
 |---|---|
 | **Scientific name** | *Ulmus americana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ulmaceae |
+| **Height** | 60-80 ft |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | Larval host for question mark and comma butterflies; early seed for birds |
 
 ## Mentioned In
 

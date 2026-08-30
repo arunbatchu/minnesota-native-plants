@@ -18,6 +18,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
 
     **Concept Tested:** Garden Design Capstone
 
+    **See:** [Chapter 17](index.md)
+
 ---
 
 #### 2. Which chapters of the course are most relevant to the Invasive Removal Plan capstone project?
@@ -33,6 +35,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
     The correct answer is **B**. The Invasive Removal Plan capstone draws primarily on Chapter 8 (identifying invasive species in the field), Chapter 9 (removal strategies, integrated pest management, timing, and follow-up monitoring), and Chapter 12 (restoring native plant communities after invasive removal). It also draws on Chapter 7 (plant identification skills) and Chapter 15 (systems thinking to understand cascading effects). Successful invasive management requires integrating knowledge from identification through restoration.
 
     **Concept Tested:** Invasive Removal Plan
+
+    **See:** [Chapter 17](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
 
     **Concept Tested:** Pollinator Corridor Plan
 
+    **See:** [Chapter 17](index.md)
+
 ---
 
 #### 4. For the Field Guide Creation capstone, what combination of identification features should each plant entry include to be most useful in the field?
@@ -65,6 +71,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
     The correct answer is **B**. An effective field guide entry should include common and scientific names, multiple photographs showing the whole plant, close-ups of leaves, flowers, and fruits/seeds, bloom season and habitat information, and key distinguishing characteristics that separate it from similar-looking species. This approach applies identification skills from Chapter 7 and creates a practical tool that uses multiple overlapping features rather than relying on any single characteristic. Including both native species and their invasive look-alikes adds significant practical value.
 
     **Concept Tested:** Field Guide Creation
+
+    **See:** [Chapter 17](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
 
     **Concept Tested:** Community Education Presentation
 
+    **See:** [Chapter 17](index.md)
+
 ---
 
 #### 6. You are developing a Systems Map Project. Which of the following would best demonstrate systems thinking rather than linear thinking?
@@ -97,6 +107,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
     The correct answer is **C**. A systems map should show the web of relationships within an ecosystem, including feedback loops (both stabilizing and amplifying), interconnections between components (plants, pollinators, soil organisms, water, wildlife), and cascading effects that demonstrate how changes in one component ripple through others. Timelines, species lists, and bar charts organize information linearly but do not capture the circular, interconnected nature of ecological systems that is the core of systems thinking.
 
     **Concept Tested:** Systems Map Project
+
+    **See:** [Chapter 17](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
 
     **Concept Tested:** Maintenance Calendar Project
 
+    **See:** [Chapter 17](index.md)
+
 ---
 
 #### 8. For the Resource Guide Compilation capstone, you need to organize Minnesota native plant resources from broadest to most local level. What is the correct organizational hierarchy?
@@ -129,6 +143,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
     The correct answer is **C**. Chapter 14 organizes resources from broadest to most local: state-level programs and laws (MN DNR, BWSR, Buffer Law, grant programs), county-level programs (Soil and Water Conservation Districts, watershed districts), city-level programs and ordinances (native plant ordinances, community gardens), and educational institutions and nonprofits (University of Minnesota Extension, Minnesota Native Plant Society). This hierarchy helps users find the right starting point — typically their county SWCD for practical assistance.
 
     **Concept Tested:** Resource Guide Compilation
+
+    **See:** [Chapter 17](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
 
     **Concept Tested:** Garden Design Capstone
 
+    **See:** [Chapter 17](index.md)
+
 ---
 
 #### 10. Imagine you are presenting your capstone project to a community group that is skeptical about native plant gardening. How would you apply principles from both Chapter 15 (systems thinking) and Chapter 16 (critical thinking) to make a persuasive, evidence-based case?
@@ -162,4 +180,8 @@ Test your ability to synthesize knowledge from across the course and apply it to
 
     **Concept Tested:** Community Education Presentation
 
+    **See:** [Chapter 17](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

@@ -13,13 +13,13 @@ Ceratophyllum demersum, commonly known as hornwort (a common name shared with th
 | | |
 |---|---|
 | **Scientific name** | *Ceratophyllum demersum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ceratophyllaceae |
+| **Height** | Submerged, 1-8 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Aquatic |
+| **Soil** | Rootless - free-floating |
+| **Wildlife value** | Cover for young fish; food for waterfowl |
 
 ## Mentioned In
 

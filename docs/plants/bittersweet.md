@@ -13,13 +13,13 @@ Celastrus scandens, commonly called American bittersweet, is a species of bitter
 | | |
 |---|---|
 | **Scientific name** | *Celastrus scandens* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Celastraceae |
+| **Height** | 15-20 ft vine |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | Orange fruit for birds. Native - do not confuse with invasive Oriental Bittersweet |
 
 ## Mentioned In
 

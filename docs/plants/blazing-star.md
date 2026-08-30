@@ -13,13 +13,13 @@ Liatris ligulistylis (Rocky Mountain blazing star, northern plains blazing star,
 | | |
 |---|---|
 | **Scientific name** | *Liatris ligulistylis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-5 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | The strongest monarch magnet in the Minnesota palette |
 
 ## Mentioned In
 

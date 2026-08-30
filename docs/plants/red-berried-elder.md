@@ -16,13 +16,13 @@ The species is native across much of the Northern Hemisphere.
 | | |
 |---|---|
 | **Scientific name** | *Sambucus racemosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Viburnaceae |
+| **Height** | 8-12 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Red fruit in midsummer, well before other elders; heavy bird use |
 
 ## Mentioned In
 

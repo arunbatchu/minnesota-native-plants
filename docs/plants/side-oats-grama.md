@@ -16,13 +16,13 @@ The species epithet comes from Latin curtus "shortened" and pendulus "hanging".
 | | |
 |---|---|
 | **Scientific name** | *Bouteloua curtipendula* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel, clay |
+| **Wildlife value** | Seed spikelets hang from one side of the stem; host to several skippers |
 
 ## Mentioned In
 

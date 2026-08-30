@@ -15,13 +15,13 @@ Arisaema triphyllum, the Jack-in-the-pulpit, is a species of flowering plant in 
 | | |
 |---|---|
 | **Scientific name** | *Arisaema triphyllum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Araceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Apr-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Rich loam |
+| **Wildlife value** | Fungus-gnat pollinated; red berry cluster for birds; changes sex year to year |
 
 ## Mentioned In
 

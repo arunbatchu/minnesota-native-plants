@@ -17,13 +17,13 @@ Amelanchier laevis, the smooth shadbush, smooth serviceberry or Allegheny servic
 | | |
 |---|---|
 | **Scientific name** | *Amelanchier laevis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 15-25 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | One of the first trees to bloom; June fruit for birds and people; excellent fall color |
 
 ## Mentioned In
 

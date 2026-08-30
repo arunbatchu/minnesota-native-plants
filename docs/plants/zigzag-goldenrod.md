@@ -15,13 +15,13 @@ Solidago flexicaulis, the broadleaved goldenrod, or zigzag goldenrod, is a North
 | | |
 |---|---|
 | **Scientific name** | *Solidago flexicaulis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Zigzagging stem; one of the few goldenrods for real shade; late woodland nectar |
 
 ## Mentioned In
 

@@ -2,10 +2,9 @@
 
 !!! mascot-welcome "Know Your Enemy"
     <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Bree welcome">
-    Welcome back! This chapter is one of the most important in the entire course.
-    Knowing how to identify invasive species is the first step toward protecting
-    Minnesota's native plant communities. If you can spot an invader early, you
-    can stop it before it takes over. Let's get to work.
+    Welcome back! Identifying invasive species is the first step toward
+    protecting Minnesota's native plant communities — spot an invader early and
+    you can stop it before it takes over. Let's get to work.
 
 ## Summary
 
@@ -352,13 +351,11 @@ Creeping Charlie spreads aggressively and can blanket a lawn or garden bed, crow
 
 !!! mascot-thinking "Invasive, but Not a 'Noxious Weed'"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
-    Here's an important distinction, garden friends. The Minnesota DNR lists
-    creeping Charlie as an **invasive** plant, but it is **not** on the state's
-    regulated **Noxious Weed List** — so there's no legal requirement to control
-    it. Unlike buckthorn or garlic mustard, it isn't considered a major threat to
-    healthy natural areas; it mostly takes over disturbed ground, lawns, and
-    gardens. So treat it as a persistent weed to manage in your own yard rather
-    than an emergency in the woods. Every plant has a story!
+    Here's a distinction worth holding onto, garden friends. The Minnesota DNR
+    calls creeping Charlie **invasive**, but it is **not** on the regulated
+    **Noxious Weed List**, because it takes over lawns and disturbed ground
+    rather than healthy woods. Treat it as a persistent weed in your own yard,
+    not an emergency in the forest.
 
 ## Invasive ID Methods
 

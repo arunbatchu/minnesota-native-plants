@@ -15,13 +15,13 @@ Rhus glabra, the smooth sumac (also known as white sumac, upland sumac, or scarl
 | | |
 |---|---|
 | **Scientific name** | *Rhus glabra* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Anacardiaceae |
+| **Height** | 8-15 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Scarlet fall color; fuzzy red fruit clusters are late-winter emergency bird food |
 
 ## Mentioned In
 

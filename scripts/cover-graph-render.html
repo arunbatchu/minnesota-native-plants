@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+ html,body{margin:0;padding:0;background:transparent;}
+ #net{width:1731px;height:909px;background:transparent;}
+</style></head><body>
+<div id="net"></div>
+<script>
+// Renders the book's own learning graph as cover art. Node size is degree —
+// how many other concepts depend on this one — so the visual weight in the
+// picture is real information, not decoration. The plants graph has no
+// precomputed impact score, unlike the ADHD book's, so degree is the signal.
+fetch('graph.json').then(r=>r.json()).then(g=>{
+  const deg={};
+  for(const e of g.edges){ deg[e.from]=(deg[e.from]||0)+1; deg[e.to]=(deg[e.to]||0)+1; }
+  const maxDeg=Math.max(1,...Object.values(deg));
+
+  const groups={};
+  for(const [k,v] of Object.entries(g.groups))
+    groups[k]={color:{background:v.color,border:v.color},borderWidth:0};
+
+  const nodes=g.nodes.map(n=>{
+    const d=deg[n.id]||0;
+    const c=Math.log(d+1)/Math.log(maxDeg+1);
+    const col=(g.groups[n.group]||{}).color||'#888';
+    return {id:n.id, group:n.group, shape:'dot',
+            size: 5 + 13*c + (d>12?10:0),
+            color:{background:col,border:col}, borderWidth:0};
+  });
+
+  const edges=g.edges.map(e=>({from:e.from,to:e.to,
+      color:{color:'rgba(70,96,74,0.55)'},width:1.0,smooth:{type:'continuous'}}));
+
+  const net=new vis.Network(document.getElementById('net'),
+    {nodes:new vis.DataSet(nodes),edges:new vis.DataSet(edges)},
+    {groups, interaction:{dragNodes:false},
+     physics:{stabilization:{iterations:900},
+              barnesHut:{gravitationalConstant:-9000,springLength:130,
+                         springConstant:0.035,avoidOverlap:0.35}},
+     nodes:{shadow:{enabled:true,size:8,x:0,y:2,color:'rgba(0,0,0,0.18)'}},
+     edges:{arrows:{to:{enabled:false}}}});
+
+  net.on('stabilizationIterationsDone',()=>{
+    net.setOptions({physics:false});
+    net.fit({animation:false});
+    window.__ready=true;
+  });
+});
+</script></body></html>

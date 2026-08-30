@@ -15,13 +15,13 @@ Liatris pycnostachya, the prairie blazing star, cattail gayfeather, Kansas gayfe
 | | |
 |---|---|
 | **Scientific name** | *Liatris pycnostachya* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-5 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Tallest liatris; dense wands of purple; heavy monarch and bumble bee use |
 
 ## Mentioned In
 

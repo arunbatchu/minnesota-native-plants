@@ -495,11 +495,10 @@ A realistic multi-year plan includes:
 - Celebrate progress while remaining vigilant
 
 !!! mascot-encourage "Stay the Course!"
-    <img src="../../img/mascot/encourage.png" class="mascot-admonition-img" alt="Bree encouraging">
-    Multi-year plans can feel overwhelming, but here's the good news: each year
-    gets easier. The heaviest work is in years one and two. By year three, you're
-    mainly pulling scattered seedlings. By year five, you're admiring the native
-    wildflowers that have returned. The effort pays off — keep going!
+    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Bree encouraging">
+    Multi-year plans can feel overwhelming, but each year gets easier — the
+    heavy work is years one and two, and by year three you're mostly pulling
+    scattered seedlings. Keep going.
 
 ### Common Planning Mistakes
 

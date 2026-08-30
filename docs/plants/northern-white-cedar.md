@@ -15,13 +15,13 @@ Thuja occidentalis, also known as northern white-cedar, eastern white-cedar, or 
 | | |
 |---|---|
 | **Scientific name** | *Thuja occidentalis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cupressaceae |
+| **Height** | 30-50 ft |
+| **Bloom time** | Cones, not flowers |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Alkaline loam, peat |
+| **Wildlife value** | Critical deer winter shelter and browse; cliff specimens can exceed 1,000 years |
 
 ## Mentioned In
 

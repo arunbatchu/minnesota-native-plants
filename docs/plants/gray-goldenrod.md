@@ -13,13 +13,13 @@ Solidago nemoralis is a species of flowering plant in the family Asteraceae. It 
 | | |
 |---|---|
 | **Scientific name** | *Solidago nemoralis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Well-behaved dry-site goldenrod; late nectar without the aggression |
 
 ## Mentioned In
 

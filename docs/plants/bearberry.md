@@ -13,13 +13,13 @@ Arctostaphylos uva-ursi is a plant species of the genus Arctostaphylos widely di
 | | |
 |---|---|
 | **Scientific name** | *Arctostaphylos uva-ursi* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ericaceae |
+| **Height** | 6-12 in |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand |
+| **Wildlife value** | Evergreen mat; berries hold through winter for birds |
 
 ## Mentioned In
 

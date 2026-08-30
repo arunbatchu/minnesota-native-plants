@@ -14,13 +14,13 @@ The name cranberry comes from the shape of the flower stamen, which looks like a
 | | |
 |---|---|
 | **Scientific name** | *Vaccinium macrocarpon* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ericaceae |
+| **Height** | 2-6 in |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Acidic peat |
+| **Wildlife value** | Bog specialist; fruit for birds; the commercial cranberry species |
 
 ## Mentioned In
 

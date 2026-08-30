@@ -17,13 +17,13 @@ Fragaria virginiana, known as Virginia strawberry, wild strawberry, common straw
 | | |
 |---|---|
 | **Scientific name** | *Fragaria virginiana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 3-6 in |
+| **Bloom time** | Apr-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Native groundcover; small intensely flavored fruit; larval host for grizzled skipper relatives |
 
 ## Mentioned In
 

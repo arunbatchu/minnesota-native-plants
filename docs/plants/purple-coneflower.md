@@ -17,13 +17,13 @@ Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog c
 | | |
 |---|---|
 | **Scientific name** | *Echinacea purpurea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Long bloom for butterflies and bees; leave the seed heads for winter goldfinches |
 
 ## Mentioned In
 

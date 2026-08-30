@@ -15,13 +15,13 @@ Acer rubrum, the red maple, also known as swamp maple, water maple, or soft mapl
 | | |
 |---|---|
 | **Scientific name** | *Acer rubrum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Sapindaceae |
+| **Height** | 40-70 ft |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic to wet |
+| **Soil** | Acidic loam |
+| **Wildlife value** | Among the earliest pollen sources of the year; brilliant red fall color |
 
 ## Mentioned In
 

@@ -13,13 +13,13 @@ Chamaedaphne calyculata, known commonly as leatherleaf or cassandra, is a perenn
 | | |
 |---|---|
 | **Scientific name** | *Chamaedaphne calyculata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ericaceae |
+| **Height** | 1-4 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Acidic peat |
+| **Wildlife value** | Forms the floating bog mat; very early bloom for emerging queen bumble bees |
 
 ## Mentioned In
 

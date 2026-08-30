@@ -15,13 +15,13 @@ Typha angustifolia is a perennial herbaceous plant in the genus Typha, native th
 | | |
 |---|---|
 | **Scientific name** | *Typha angustifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Typhaceae |
+| **Height** | 4-6 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Wet to shallow water |
+| **Soil** | Muck |
+| **Wildlife value** | NON-NATIVE and aggressive; hybridizes with native cattail to form invasive stands |
 
 ## Mentioned In
 

@@ -15,13 +15,13 @@ Veronicastrum virginicum, or Culver's root, is a species of flowering plant in t
 | | |
 |---|---|
 | **Scientific name** | *Veronicastrum virginicum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Plantaginaceae |
+| **Height** | 4-6 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | White candelabra spikes worked by many bees; strong vertical structure |
 
 ## Mentioned In
 

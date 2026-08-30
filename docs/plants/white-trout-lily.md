@@ -13,13 +13,13 @@ White Trout Lily (*Erythronium albidum*) is a spring ephemeral that forms large 
 | | |
 |---|---|
 | **Scientific name** | *Erythronium albidum* |
-| **Family** | Liliaceae (lily family) |
-| **Height** | 4–6 inches |
-| **Bloom time** | April–May |
-| **Sun** | Part shade to full shade |
-| **Moisture** | Medium |
-| **Soil** | Rich, moist woodland soil |
-| **Wildlife value** | Early-season nectar and pollen for native bees |
+| **Family** | — |
+| **Height** | 4-8 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Mottled leaves; vast slow-growing colonies; early forage for emerging bees |
 
 ## Mentioned In
 

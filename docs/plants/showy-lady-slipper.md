@@ -15,13 +15,13 @@ Showy Lady's Slipper is remarkably slow-growing: a plant may take well over a de
 | | |
 |---|---|
 | **Scientific name** | *Cypripedium reginae* |
-| **Family** | Orchidaceae (orchid family) |
-| **Height** | 1–3 feet |
-| **Bloom time** | Late June–July |
-| **Sun** | Full sun to part shade |
-| **Moisture** | Wet to moist |
-| **Soil** | Calcium-rich (calcareous) wetland soils — fens, bogs, wet meadows |
-| **Wildlife value** | Pollinated by small bees; Minnesota's state flower and a protected species |
+| **Family** | — |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Part shade |
+| **Moisture** | Wet |
+| **Soil** | Calcareous peat, muck |
+| **Wildlife value** | Minnesota's state flower. Protected - never dig or pick. Can take 16 years to first bloom |
 
 ## Mentioned In
 

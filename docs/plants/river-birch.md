@@ -13,13 +13,13 @@ Betula nigra, the black birch, river birch or water birch, is a species of birch
 | | |
 |---|---|
 | **Scientific name** | *Betula nigra* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 40-60 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Acidic loam |
+| **Wildlife value** | Peeling cinnamon bark; the birch that resists bronze birch borer; catkins for birds |
 
 ## Mentioned In
 

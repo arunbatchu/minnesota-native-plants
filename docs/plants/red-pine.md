@@ -13,13 +13,13 @@ Pinus resinosa, known as red pine (also Norway pine in Minnesota), is a pine nat
 | | |
 |---|---|
 | **Scientific name** | *Pinus resinosa* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Pinaceae |
+| **Height** | 60-80 ft |
+| **Bloom time** | Cones, not flowers |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand |
+| **Wildlife value** | Minnesota's state tree; fire-adapted; seed for crossbills and squirrels |
 
 ## Mentioned In
 

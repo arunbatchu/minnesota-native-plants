@@ -14,13 +14,12 @@ Like all honey bee species, the western honey bee is eusocial, creating colonies
 | | |
 |---|---|
 | **Scientific name** | *Apis mellifera* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Apidae |
+| **Type** | Social bee |
+| **Status** | INTRODUCED - not native to North America |
+| **Active season** | Apr-Oct (foraging) |
+| **What it needs** | Managed hives; large continuous nectar flows |
+| **Where in Minnesota** | Managed colonies statewide; feral colonies uncommon in Minnesota winters |
 
 ## Mentioned In
 

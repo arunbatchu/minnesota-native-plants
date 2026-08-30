@@ -16,13 +16,13 @@ The white ash population in North America was devastated by the invasive emerald
 | | |
 |---|---|
 | **Scientific name** | *Fraxinus americana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Oleaceae |
+| **Height** | 50-80 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Purple fall color; host to several sphinx moths; devastated by emerald ash borer |
 
 ## Mentioned In
 

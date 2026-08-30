@@ -17,13 +17,13 @@ Physocarpus opulifolius,  known as common ninebark, Eastern ninebark, Atlantic n
 | | |
 |---|---|
 | **Scientific name** | *Physocarpus opulifolius* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Rosaceae |
+| **Height** | 5-8 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to wet |
+| **Soil** | Any |
+| **Wildlife value** | Exfoliating bark for winter interest; flowers worked by many small bees |
 
 ## Mentioned In
 

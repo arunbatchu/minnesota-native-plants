@@ -15,13 +15,13 @@ Corylus americana, the American hazelnut or American hazel, is a species of deci
 | | |
 |---|---|
 | **Scientific name** | *Corylus americana* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Betulaceae |
+| **Height** | 8-12 ft |
+| **Bloom time** | Mar-Apr |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Nuts for squirrels, jays and grouse; thicket nesting cover |
 
 ## Mentioned In
 

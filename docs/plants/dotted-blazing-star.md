@@ -13,13 +13,13 @@ Liatris punctata is a species of flowering plant in the family Asteraceae known 
 | | |
 |---|---|
 | **Scientific name** | *Liatris punctata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Driest-site liatris; deep taproot; late nectar |
 
 ## Mentioned In
 

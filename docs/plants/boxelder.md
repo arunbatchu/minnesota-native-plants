@@ -13,13 +13,13 @@ Acer negundo, also known as the box elder, boxelder maple, Manitoba maple or ash
 | | |
 |---|---|
 | **Scientific name** | *Acer negundo* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Sapindaceae |
+| **Height** | 35-50 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Any |
+| **Wildlife value** | Fast floodplain colonizer; seed for birds; host to boxelder bugs |
 
 ## Mentioned In
 

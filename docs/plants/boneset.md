@@ -15,13 +15,13 @@ Eupatorium perfoliatum, known as common boneset or just boneset, is a North Amer
 | | |
 |---|---|
 | **Scientific name** | *Eupatorium perfoliatum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jul-Sep |
+| **Sun** | Full sun |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | Swarmed by small native bees, wasps and flies |
 
 ## Mentioned In
 

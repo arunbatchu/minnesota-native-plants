@@ -13,13 +13,13 @@ Hierochloe odorata or Anthoxanthum nitens (commonly known as sweet grass, manna 
 | | |
 |---|---|
 | **Scientific name** | *Hierochloe odorata* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Mesic to wet |
+| **Soil** | Loam, muck |
+| **Wildlife value** | Sacred to many Native nations and braided for ceremony; vanilla scent when dried |
 
 ## Mentioned In
 

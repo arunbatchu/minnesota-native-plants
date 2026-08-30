@@ -15,13 +15,13 @@ Carex pensylvanica is a species of flowering plant in the sedge family commonly 
 | | |
 |---|---|
 | **Scientific name** | *Carex pensylvanica* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cyperaceae |
+| **Height** | 6-10 in |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | The native dry-shade lawn substitute; forms soft flowing carpets |
 
 ## Mentioned In
 

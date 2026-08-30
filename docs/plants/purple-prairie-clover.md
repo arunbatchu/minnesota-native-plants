@@ -13,13 +13,13 @@ Dalea purpurea is a species of flowering plant in the legume family known as pur
 | | |
 |---|---|
 | **Scientific name** | *Dalea purpurea* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Fabaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | Jul-Aug |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Nitrogen fixer; the blooming ring climbs the head; excellent bee plant |
 
 ## Mentioned In
 

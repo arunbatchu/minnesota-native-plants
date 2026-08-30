@@ -18,6 +18,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
 
     **Concept Tested:** Garlic Mustard
 
+    **See:** [Chapter 8](index.md)
+
 ---
 
 #### 2. How can you tell Common Buckthorn apart from Glossy Buckthorn in the field?
@@ -33,6 +35,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
     The correct answer is **B**. Common Buckthorn has finely toothed leaf margins, sub-opposite leaf arrangement, and small sharp thorns at twig tips. Glossy Buckthorn has smooth (untoothed) leaf margins, alternate leaf arrangement, and no thorns. Both species have dark berries and yellow-orange inner bark when scraped. Glossy Buckthorn tends to prefer wetter habitats like bogs and fens, while Common Buckthorn invades upland woodlands.
 
     **Concept Tested:** Common Buckthorn / Glossy Buckthorn
+
+    **See:** [Chapter 8](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
 
     **Concept Tested:** Wild Parsnip
 
+    **See:** [Chapter 8](index.md)
+
 ---
 
 #### 4. Why are European Earthworms considered invasive in Minnesota's northern forests, even though most people think of earthworms as beneficial?
@@ -65,6 +71,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
     The correct answer is **B**. Minnesota's northern forests evolved without earthworms after glaciers eliminated native species roughly 10,000 years ago. The thick duff layer of decomposing leaves is essential habitat for native plants, insects, and salamanders. European earthworms, introduced through fishing bait and landscaping soil, rapidly consume this duff layer, leaving bare mineral soil. This causes dramatic declines in native plant diversity, including Trillium, Wild Ginger, and Solomon's Seal.
 
     **Concept Tested:** European Earthworms
+
+    **See:** [Chapter 8](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
 
     **Concept Tested:** Emerald Ash Borer
 
+    **See:** [Chapter 8](index.md)
+
 ---
 
 #### 6. A mature Purple Loosestrife plant can produce how many seeds per year?
@@ -97,6 +107,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
     The correct answer is **C**. A single mature Purple Loosestrife plant can produce over two million seeds per year, which is why it can rapidly dominate wetlands. Purple Loosestrife forms dense stands that replace native cattails, sedges, and wetland wildflowers, destroying nesting habitat for waterfowl and marsh birds. Biological control using specialized Galerucella leaf-feeding beetles has been partially successful in Minnesota, but the species remains a serious wetland invader.
 
     **Concept Tested:** Purple Loosestrife
+
+    **See:** [Chapter 8](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
 
     **Concept Tested:** Reed Canary Grass
 
+    **See:** [Chapter 8](index.md)
+
 ---
 
 #### 8. You are surveying a woodland in October and notice one shrub species that still has bright green leaves while all native trees and shrubs have dropped theirs. What invasive species should you suspect?
@@ -129,6 +143,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
     The correct answer is **C**. Common Buckthorn has an extended growing season, leafing out before native plants in spring and holding green leaves well into late fall after native species have gone dormant. This late leaf retention is a key seasonal identification clue and also gives Buckthorn a competitive advantage — it captures sunlight for weeks longer than native plants. Fall is actually one of the easiest times to spot Buckthorn because its green foliage stands out against bare native branches.
 
     **Concept Tested:** Common Buckthorn
+
+    **See:** [Chapter 8](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
 
     **Concept Tested:** Invasive Species Impact
 
+    **See:** [Chapter 8](index.md)
+
 ---
 
 #### 10. Japanese Barberry has been linked to an unexpected public health concern beyond its ecological damage. What is it?
@@ -162,4 +180,8 @@ Test your ability to identify Minnesota's most damaging invasive species and und
 
     **Concept Tested:** Japanese Barberry
 
+    **See:** [Chapter 8](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

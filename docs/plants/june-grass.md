@@ -13,13 +13,13 @@ Koeleria macrantha is a species of grass known by the common name prairie Junegr
 | | |
 |---|---|
 | **Scientific name** | *Koeleria macrantha* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand |
+| **Wildlife value** | Cool-season prairie bunchgrass; flowers before the warm-season grasses start |
 
 ## Mentioned In
 

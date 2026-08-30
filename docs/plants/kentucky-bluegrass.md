@@ -15,13 +15,13 @@ Poa pratensis, commonly known as Kentucky bluegrass (or blue grass), smooth mead
 | | |
 |---|---|
 | **Scientific name** | *Poa pratensis* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Poaceae |
+| **Height** | 6-24 in |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | NON-NATIVE. The standard lawn grass; displaces native sod in unmanaged prairie |
 
 ## Mentioned In
 

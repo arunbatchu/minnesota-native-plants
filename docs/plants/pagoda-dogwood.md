@@ -15,13 +15,13 @@ Cornus alternifolia is a species of flowering plant in the dogwood family Cornac
 | | |
 |---|---|
 | **Scientific name** | *Cornus alternifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Cornaceae |
+| **Height** | 15-25 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade |
+| **Moisture** | Mesic |
+| **Soil** | Loam |
+| **Wildlife value** | Distinct horizontal tiered branching; blue fruit on red stems for birds |
 
 ## Mentioned In
 

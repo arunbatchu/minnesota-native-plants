@@ -15,13 +15,13 @@ Campanula rotundifolia, the harebell or common harebell, Scottish bluebell, or b
 | | |
 |---|---|
 | **Scientific name** | *Campanula rotundifolia* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Campanulaceae |
+| **Height** | 6-18 in |
+| **Bloom time** | Jun-Sep |
+| **Sun** | Full sun to part shade |
+| **Moisture** | Dry |
+| **Soil** | Sand, rock |
+| **Wildlife value** | Nodding blue bells on cliffs and dry banks; long bloom for small bees |
 
 ## Mentioned In
 

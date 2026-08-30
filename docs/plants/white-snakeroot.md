@@ -13,13 +13,13 @@ Ageratina altissima, also known as white snakeroot, richweed, or white sanicle, 
 | | |
 |---|---|
 | **Scientific name** | *Ageratina altissima* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Aug-Oct |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Late shade nectar. TOXIC - historically caused milk sickness through cows' milk |
 
 ## Mentioned In
 

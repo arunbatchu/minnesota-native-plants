@@ -18,6 +18,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
 
     **Concept Tested:** Big Bluestem
 
+    **See:** [Chapter 3](index.md)
+
 ---
 
 #### 2. What is the key difference between warm-season (C4) and cool-season (C3) prairie grasses?
@@ -33,6 +35,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
     The correct answer is **C**. Warm-season (C4) grasses begin growing in late spring and reach peak growth during the hottest summer months, using a more efficient photosynthetic pathway for hot conditions. Cool-season (C3) grasses green up earlier and grow most actively in the moderate temperatures of spring and fall. Both types include native species, and height varies by species, not by season category.
 
     **Concept Tested:** Warm Season Grasses
+
+    **See:** [Chapter 3](index.md)
 
 ---
 
@@ -50,6 +54,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
 
     **Concept Tested:** Prairie Dropseed
 
+    **See:** [Chapter 3](index.md)
+
 ---
 
 #### 4. What ecological service do Prairie Clovers provide that most other prairie wildflowers do not?
@@ -65,6 +71,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
     The correct answer is **C**. Prairie Clovers are legumes that partner with specialized soil bacteria to fix atmospheric nitrogen into a form that plants can use. This nitrogen fixation enriches the soil and benefits neighboring plants, making Prairie Clovers important contributors to prairie nutrient cycling. While many other wildflowers support pollinators, the nitrogen-fixing ability is unique to legumes like Prairie Clover and Leadplant.
 
     **Concept Tested:** Prairie Clover
+
+    **See:** [Chapter 3](index.md)
 
 ---
 
@@ -82,6 +90,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
 
     **Concept Tested:** Goldenrod Species
 
+    **See:** [Chapter 3](index.md)
+
 ---
 
 #### 6. Which of the following correctly describes the role of mycorrhizal fungi in prairie soils?
@@ -97,6 +107,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
     The correct answer is **B**. Mycorrhizal fungi form symbiotic partnerships with prairie plant roots: the fungus extends the plant's root network, accessing water and nutrients (especially phosphorus) that roots alone cannot reach, and in return the plant shares sugars produced through photosynthesis. More than 80 percent of prairie plant species depend on these partnerships. Mycorrhizal networks are a critical component of healthy prairie soil ecology.
 
     **Concept Tested:** Prairie Soil Ecology
+
+    **See:** [Chapter 3](index.md)
 
 ---
 
@@ -114,6 +126,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
 
     **Concept Tested:** Prairie Remnants
 
+    **See:** [Chapter 3](index.md)
+
 ---
 
 #### 8. You are planning a rain garden in a low, moist area of your yard and want to include milkweed for monarch butterflies. Which milkweed species would be the best choice?
@@ -129,6 +143,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
     The correct answer is **D**. Swamp Milkweed is the best choice for a rain garden or other moist site because it naturally grows in wet prairies and along shorelines. Butterfly Milkweed and Whorled Milkweed prefer dry conditions and would struggle in a rain garden. Common Milkweed could survive in moist soil but spreads aggressively by rhizomes and might overtake a small rain garden. Matching milkweed species to your site's moisture level is key to success.
 
     **Concept Tested:** Milkweed Species
+
+    **See:** [Chapter 3](index.md)
 
 ---
 
@@ -146,6 +162,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
 
     **Concept Tested:** Tallgrass Prairie History
 
+    **See:** [Chapter 3](index.md)
+
 ---
 
 #### 10. Why is fire considered essential for maintaining a healthy tallgrass prairie?
@@ -162,4 +180,8 @@ Test your understanding of tallgrass prairie ecology, grasses, wildflowers, soil
 
     **Concept Tested:** Fire Ecology
 
+    **See:** [Chapter 3](index.md)
+
 ---
+
+Ready to use these ideas rather than recall them? Try the [Applied Quiz](quiz-applied.md) for this chapter — ten scenario questions that put you in a situation and ask what to do.

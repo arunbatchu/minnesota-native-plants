@@ -14,13 +14,13 @@ The plant is native to eastern North America, in eastern Canada, and the Midwest
 | | |
 |---|---|
 | **Scientific name** | *Actaea pachypoda* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Ranunculaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | White berries with black dots on red stalks - doll's eyes. TOXIC to people |
 
 ## Mentioned In
 

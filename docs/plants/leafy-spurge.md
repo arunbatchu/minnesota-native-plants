@@ -15,13 +15,13 @@ Euphorbia esula, commonly known as green spurge or leafy spurge, is a species of
 | | |
 |---|---|
 | **Scientific name** | *Euphorbia esula* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Euphorbiaceae |
+| **Height** | 1-3 ft |
+| **Bloom time** | May-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry to mesic |
+| **Soil** | Any |
+| **Wildlife value** | INVASIVE, state noxious weed. Roots reach 20 ft; milky sap burns skin and deters grazing |
 
 ## Mentioned In
 

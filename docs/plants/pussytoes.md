@@ -16,13 +16,13 @@ Antennaria neglecta  is an herb up to 25 cm (10 inches) tall with as many as 8 f
 | | |
 |---|---|
 | **Scientific name** | *Antennaria neglecta* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 3-12 in |
+| **Bloom time** | Apr-Jun |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, gravel |
+| **Wildlife value** | Larval host for American lady butterfly; silver mat for poor dry soil |
 
 ## Mentioned In
 

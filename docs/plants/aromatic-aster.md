@@ -13,13 +13,13 @@ Symphyotrichum oblongifolium (formerly Aster oblongifolius), commonly known as a
 | | |
 |---|---|
 | **Scientific name** | *Symphyotrichum oblongifolium* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Sep-Oct |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Critical late nectar for bees and migrating monarchs |
 
 ## Mentioned In
 

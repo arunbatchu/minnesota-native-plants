@@ -178,11 +178,10 @@ Prairie Dropseed is extremely long-lived — individual plants may persist for d
 
 !!! mascot-thinking "Key Insight"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Bree thinking">
-    Every plant has a story! The five major warm-season grasses — Big Bluestem,
-    Little Bluestem, Switchgrass, Indian Grass, and Prairie Dropseed — each fill
-    a different niche in the prairie. Big Bluestem dominates moist, deep soils.
-    Little Bluestem handles dry, rocky ground. Switchgrass thrives near water.
-    Together, they cover every condition the prairie offers.
+    Every plant has a story! The five major warm-season grasses each take a
+    different piece of the prairie — Big Bluestem the moist deep soils, Little
+    Bluestem the dry rocky ground, Switchgrass the wet edges. Between them they
+    cover every condition the prairie offers.
 
 ---
 

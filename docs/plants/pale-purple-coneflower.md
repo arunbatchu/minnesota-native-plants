@@ -15,13 +15,13 @@ Echinacea  is a genus of herbaceous flowering plants in the daisy family. It has
 | | |
 |---|---|
 | **Scientific name** | *Echinacea pallida* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Asteraceae |
+| **Height** | 2-4 ft |
+| **Bloom time** | Jun-Jul |
+| **Sun** | Full sun |
+| **Moisture** | Dry |
+| **Soil** | Sand, loam |
+| **Wildlife value** | Drooping narrow petals; the dry-prairie coneflower; seed for goldfinches |
 
 ## Mentioned In
 

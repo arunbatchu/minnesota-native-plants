@@ -15,13 +15,13 @@ Trillium erectum, the red trillium, also known as wake robin, purple trillium, b
 | | |
 |---|---|
 | **Scientific name** | *Trillium erectum* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Melanthiaceae |
+| **Height** | 1-2 ft |
+| **Bloom time** | Apr-May |
+| **Sun** | Part shade to shade |
+| **Moisture** | Mesic |
+| **Soil** | Rich loam |
+| **Wildlife value** | Smells of carrion and is fly-pollinated; also called stinking benjamin |
 
 ## Mentioned In
 

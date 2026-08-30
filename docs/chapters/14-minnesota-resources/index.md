@@ -342,14 +342,12 @@ The garden is organized into three habitats — **woodland**, **wetland**, and *
 
 - **Meadow** -- The restored meadow is seeded with prairie grasses and wildflowers such as [Little Bluestem](../../plants/little-bluestem/), [Side-Oats Grama](../../plants/side-oats-grama/), [Prairie Dropseed](../../plants/prairie-dropseed/), [Poverty Oat Grass](../../plants/poverty-oat-grass/), [Nodding Fescue](../../plants/nodding-fescue/), [Black-Eyed Susan](../../plants/black-eyed-susan/), [Shooting Star](../../plants/shooting-star/), [Lead Plant](../../plants/lead-plant/), the prairie clovers, [Canada Milk-Vetch](../../plants/canada-milk-vetch/), [Partridge Pea](../../plants/partridge-pea/), and [Ground Plum](../../plants/ground-plum/).
 
-!!! mascot-welcome "Plan a Visit"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Bree waving welcome">
-    The garden is a wonderful place to see this book come alive, fellow nature
-    lovers! Visit in May for woodland wildflowers and spring ephemerals, early
-    June for the Showy Lady's Slippers in the wetland, and July through September
-    for the meadow in full prairie bloom. Bring this textbook's plant gallery on
-    your phone and play a little game of "name that native." Let's explore the
-    prairie!
+!!! mascot-tip "Plan a Visit"
+    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Bree sharing a tip">
+    Go in May for the woodland ephemerals, early June for the Showy Lady's
+    Slippers in the wetland, and July through September for the meadow in full
+    prairie bloom. Bring the plant gallery up on your phone and play "name that
+    native."
 
 ### Como Park Conservatory
 

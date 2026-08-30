@@ -15,13 +15,13 @@ Chelone glabra, or white turtlehead, is a herbaceous species of plant native to 
 | | |
 |---|---|
 | **Scientific name** | *Chelone glabra* |
-| **Family** | — |
-| **Height** | — |
-| **Bloom time** | — |
-| **Sun** | — |
-| **Moisture** | — |
-| **Soil** | — |
-| **Wildlife value** | — |
+| **Family** | Plantaginaceae |
+| **Height** | 2-3 ft |
+| **Bloom time** | Aug-Sep |
+| **Sun** | Part shade |
+| **Moisture** | Wet |
+| **Soil** | Muck, loam |
+| **Wildlife value** | The sole larval host for Baltimore checkerspot butterfly; bumble-bee pollinated |
 
 ## Mentioned In
 
