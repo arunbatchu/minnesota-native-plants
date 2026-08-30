@@ -36,6 +36,7 @@ This interactive intelligent textbook introduces the native plants of Minnesota 
 - **289-term glossary** for quick reference
 - **70 frequently asked questions** with detailed answers
 - **211 species cards** in the [Plant Gallery](plants/index.md), each with photos, growing conditions, and the chapters that mention it
+- **A printable [Field Companion](downloads/index.md)** — site-assessment checklist, maintenance calendar and bloom charts, for the parts that work better on paper
 
 ## How to Use This Book
 
