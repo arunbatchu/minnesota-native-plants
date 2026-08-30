@@ -78,11 +78,20 @@
     border: solid 2px blue;
   }
 
-  /* if a div with <div class="upper-alpha"> wraps a list, then number A.B.C.D etc */
-  /* this requires that the markdown extension md_in_html is enabled in the mkdocs.yml file */
-  .upper-alpha ol {
-    list-style-type: upper-alpha;
-  }
+/* Quiz options are labelled A/B/C/D because every answer explanation says
+   "The correct answer is C". The letters live in the markup as <ol type="A">,
+   so they survive anywhere the stylesheet does not load — GitHub's markdown
+   view, an editor preview, print, plain text. This rule exists because author
+   CSS outranks the presentational `type` attribute, so Material's own
+   `list-style` on ol would otherwise win and put the numbers back.
+
+   `.upper-alpha ol` is kept for older markup where the class sat on a
+   wrapping div. */
+.upper-alpha ol,
+ol.upper-alpha,
+.md-typeset ol.upper-alpha {
+  list-style-type: upper-alpha;
+}
 
 /* Styling for the Copy Button */
 .admonition.prompt {
