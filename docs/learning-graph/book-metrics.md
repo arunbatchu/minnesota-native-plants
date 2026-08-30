@@ -17,9 +17,9 @@ do not edit the numbers by hand.
 | Equations | 0 | — | arithmatex delimiters: \( \[ $$ |
 | MicroSims | 22 | [Simulations](../sims/index.md) | Directories in docs/sims/ |
 | MicroSim Screenshots | 22 (100%) | [Catalog](../sims/index.md) | PNGs for the visual catalog |
-| Total Words | 228,492 | — | Words in all markdown, excluding code and URLs |
-| Links | 2,109 | — | Markdown-formatted links |
-| Equivalent Pages | 933 | — | 250 words/page + 0.25/diagram + 0.5/MicroSim |
+| Total Words | 231,496 | — | Words in all markdown, excluding code and URLs |
+| Links | 2,118 | — | Markdown-formatted links |
+| Equivalent Pages | 945 | — | 250 words/page + 0.25/diagram + 0.5/MicroSim |
 | Species Cards | 211 | [Plants](../plants/index.md) | Per-species reference pages |
 | Cards w/ Quick Facts | 211 (100%) | — | Trait data populated, not just dashes |
 | Cards w/ Photos | 178 (84%) | — | At least one Wikimedia photo |

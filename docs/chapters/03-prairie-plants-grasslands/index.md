@@ -568,6 +568,128 @@ Land managers vary the timing and frequency of burns to achieve different outcom
 
 ---
 
+<!-- BLOOM-CHART:START -->
+### Prairie Bloom Succession
+
+Every prairie species in this book that flowers, by month. Bars show the typical bloom window in the Twin Cities — a week or two later up north. The heavier lines mark April and September, the two months a pollinator garden is most often missing. Non-native and invasive species mentioned in this chapter are left out — 3 of them — because a succession chart reads as a list of things to plant.
+
+No species in this chapter blooms in Mar.
+
+<figure markdown>
+<svg viewBox="0 0 754 707" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prairie Bloom Succession" style="max-width:100%;height:auto;font-family:system-ui,-apple-system,sans-serif">
+<style>.bl-m{font-size:11px;fill:currentColor;opacity:.72}.bl-s{font-size:11px;fill:currentColor;opacity:.92}.bl-g{stroke:currentColor;opacity:.13}.bl-q{stroke:currentColor;opacity:.30}</style>
+<line class="bl-g" x1="186" y1="28" x2="186" y2="681" stroke-width="1"/>
+<text class="bl-m" x="209.0" y="22" text-anchor="middle">Jan</text>
+<line class="bl-g" x1="232" y1="28" x2="232" y2="681" stroke-width="1"/>
+<text class="bl-m" x="255.0" y="22" text-anchor="middle">Feb</text>
+<line class="bl-g" x1="278" y1="28" x2="278" y2="681" stroke-width="1"/>
+<text class="bl-m" x="301.0" y="22" text-anchor="middle">Mar</text>
+<line class="bl-q" x1="324" y1="28" x2="324" y2="681" stroke-width="1"/>
+<text class="bl-m" x="347.0" y="22" text-anchor="middle">Apr</text>
+<line class="bl-g" x1="370" y1="28" x2="370" y2="681" stroke-width="1"/>
+<text class="bl-m" x="393.0" y="22" text-anchor="middle">May</text>
+<line class="bl-g" x1="416" y1="28" x2="416" y2="681" stroke-width="1"/>
+<text class="bl-m" x="439.0" y="22" text-anchor="middle">Jun</text>
+<line class="bl-g" x1="462" y1="28" x2="462" y2="681" stroke-width="1"/>
+<text class="bl-m" x="485.0" y="22" text-anchor="middle">Jul</text>
+<line class="bl-g" x1="508" y1="28" x2="508" y2="681" stroke-width="1"/>
+<text class="bl-m" x="531.0" y="22" text-anchor="middle">Aug</text>
+<line class="bl-q" x1="554" y1="28" x2="554" y2="681" stroke-width="1"/>
+<text class="bl-m" x="577.0" y="22" text-anchor="middle">Sep</text>
+<line class="bl-g" x1="600" y1="28" x2="600" y2="681" stroke-width="1"/>
+<text class="bl-m" x="623.0" y="22" text-anchor="middle">Oct</text>
+<line class="bl-g" x1="646" y1="28" x2="646" y2="681" stroke-width="1"/>
+<text class="bl-m" x="669.0" y="22" text-anchor="middle">Nov</text>
+<line class="bl-g" x1="692" y1="28" x2="692" y2="681" stroke-width="1"/>
+<text class="bl-m" x="715.0" y="22" text-anchor="middle">Dec</text>
+<line class="bl-g" x1="738" y1="28" x2="738" y2="681" stroke-width="1"/>
+<text class="bl-s" x="176" y="54" text-anchor="end">Sun Sedge</text>
+<rect x="326" y="46" width="88" height="11" rx="3" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-s" x="176" y="71" text-anchor="end">False Blue Indigo</text>
+<rect x="372" y="63" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="88" text-anchor="end">Heavy Sedge</text>
+<rect x="372" y="80" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="105" text-anchor="end">Prairie Sedge</text>
+<rect x="372" y="97" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="122" text-anchor="end">June Grass</text>
+<rect x="418" y="114" width="42" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="139" text-anchor="end">Lead Plant</text>
+<rect x="418" y="131" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="156" text-anchor="end">Pale Purple Coneflower</text>
+<rect x="418" y="148" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="173" text-anchor="end">Porcupine Grass</text>
+<rect x="418" y="165" width="88" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="190" text-anchor="end">Butterfly Milkweed</text>
+<rect x="418" y="182" width="134" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="207" text-anchor="end">Common Milkweed</text>
+<rect x="418" y="199" width="134" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="224" text-anchor="end">Purple Coneflower</text>
+<rect x="418" y="216" width="134" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="241" text-anchor="end">Swamp Milkweed</text>
+<rect x="418" y="233" width="134" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="258" text-anchor="end">Black-Eyed Susan</text>
+<rect x="418" y="250" width="180" height="11" rx="3" fill="#43a047" opacity="0.85"/>
+<text class="bl-s" x="176" y="275" text-anchor="end">Canada Wild Rye</text>
+<rect x="464" y="267" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="292" text-anchor="end">Compass Plant</text>
+<rect x="464" y="284" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="309" text-anchor="end">Marsh Blazing Star</text>
+<rect x="464" y="301" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="326" text-anchor="end">Prairie Blazing Star</text>
+<rect x="464" y="318" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="343" text-anchor="end">Purple Prairie Clover</text>
+<rect x="464" y="335" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="360" text-anchor="end">White Prairie Clover</text>
+<rect x="464" y="352" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="377" text-anchor="end">Wild Bergamot</text>
+<rect x="464" y="369" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="394" text-anchor="end">Switchgrass</text>
+<rect x="464" y="386" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="411" text-anchor="end">Whorled Milkweed</text>
+<rect x="464" y="403" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="428" text-anchor="end">Big Bluestem</text>
+<rect x="510" y="420" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="445" text-anchor="end">Common Ragweed</text>
+<rect x="510" y="437" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="462" text-anchor="end">Dotted Blazing Star</text>
+<rect x="510" y="454" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="479" text-anchor="end">Gray Goldenrod</text>
+<rect x="510" y="471" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="496" text-anchor="end">Indian Grass</text>
+<rect x="510" y="488" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="513" text-anchor="end">Little Bluestem</text>
+<rect x="510" y="505" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="530" text-anchor="end">Prairie Dropseed</text>
+<rect x="510" y="522" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="547" text-anchor="end">Rough Blazing Star</text>
+<rect x="510" y="539" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="564" text-anchor="end">Showy Goldenrod</text>
+<rect x="510" y="556" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="581" text-anchor="end">Stiff Goldenrod</text>
+<rect x="510" y="573" width="88" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="598" text-anchor="end">Canada Goldenrod</text>
+<rect x="510" y="590" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="615" text-anchor="end">New England Aster</text>
+<rect x="510" y="607" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="632" text-anchor="end">Sky Blue Aster</text>
+<rect x="510" y="624" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="649" text-anchor="end">Smooth Blue Aster</text>
+<rect x="510" y="641" width="134" height="11" rx="3" fill="#f9a825" opacity="0.85"/>
+<text class="bl-s" x="176" y="666" text-anchor="end">Aromatic Aster</text>
+<rect x="556" y="658" width="88" height="11" rx="3" fill="#e65100" opacity="0.85"/>
+<rect x="186" y="689" width="11" height="11" rx="2" fill="#7e57c2" opacity="0.85"/>
+<text class="bl-m" x="202" y="698">Early spring</text>
+<rect x="288.8" y="689" width="11" height="11" rx="2" fill="#43a047" opacity="0.85"/>
+<text class="bl-m" x="304.8" y="698">Late spring</text>
+<rect x="385.20000000000005" y="689" width="11" height="11" rx="2" fill="#f9a825" opacity="0.85"/>
+<text class="bl-m" x="401.20000000000005" y="698">Summer</text>
+<rect x="449.6" y="689" width="11" height="11" rx="2" fill="#e65100" opacity="0.85"/>
+<text class="bl-m" x="465.6" y="698">Fall</text>
+</svg>
+<figcaption>37 native flowering species from this chapter, ordered by when they open.</figcaption>
+</figure>
+<!-- BLOOM-CHART:END -->
+
 ## Chapter Summary
 
 !!! mascot-celebration "What a Journey!"
