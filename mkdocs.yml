@@ -202,3 +202,8 @@ extra:
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: Minnesota Native Plants
   textbook_version: "1.0"
+
+  # Google Analytics: account "Netrii" (arun@netrii.com), property "Minnesota Native Plants". Created 2026-11-07.
+  analytics:
+    provider: google
+    property: G-28PPNR8RDW
